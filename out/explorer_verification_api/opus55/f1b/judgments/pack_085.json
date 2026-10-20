@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xd3d2e2692501a5c9ca623199d38826e513033a17",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.318299,
+ "residual": "front sender ends with 1005925.13 USDC after giving up 40000 UNI; back actor 0x56178a0d holds 1762.48 UNI bought with 26.08 WETH",
+ "confidence": 4,
+ "note": "The front leg is a one-way 1inch sale of 40000 UNI into USDC by 0xf55d (executor 0xe069), with 32000 UNI going into pool 0xd3d2. The back leg is a different sender, whose contract 0x56178a0d buys UNI on 0xd3d2. No single actor opens and closes a UNI position, and the front leg's sale lowered the UNI price before the victim's UNI buy, so this is not a sandwich bracket.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 6623,
+  "output_tokens": 902,
+  "thinking_tokens": 586
+ },
+ "_request_id": "req_011CgBR5dtZT5Z9Hced7q6Go",
+ "_response_id": "msg_011CgBR5kDKnJHdxgkBWi4fv",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0xd3d2e2692501a5c9ca623199d38826e513033a17\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.318299, \"residual\": \"front sender ends with 1005925.13 USDC after giving up 40000 UNI; back actor 0x56178a0d holds 1762.48 UNI bought with 26.08 WETH\", \"confidence\": 4, \"note\": \"The front leg is a one-way 1inch sale of 40000 UNI into USDC by 0xf55d (executor 0xe069), with 32000 UNI going into pool 0xd3d2. The back leg is a different sender, whose contract 0x56178a0d buys UNI on 0xd3d2. No single actor opens and closes a UNI position, and the front leg's sale lowered the UNI price before the victim's UNI buy, so this is not a sandwich bracket.\"}",
+ "case_id": "pack_085",
+ "_time": "2026-10-19T18:11:47+0800"
+}

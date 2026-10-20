@@ -1,0 +1,17 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.157646,
+ "gas_eth": 0.010519,
+ "residual": "none evident (token transfers not decoded, so the token amounts bought and sold could not be compared directly)",
+ "confidence": 3,
+ "note": "Contract 0x4df3... wrapped 1.164192 ETH and bought token 0x2568... on pool 0xbd39... in the front leg, then received 1.321838 ETH from a WETH withdrawal in the back leg. That nets +0.157646 ETH, or +0.147127 ETH after 0.010519 ETH of front and back gas. The victim's WETH withdrawal suggests it sold the token rather than bought it, so the sandwich direction is atypical. The bracket still fits the stated definition, and the profit may include other trades between positions 1 and 96.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0263167,
+ "_session": "76db20db-2dd3-4a16-a054-141d91188603",
+ "_raw": "{\"actor\": \"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\", \"pool\": \"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.157646, \"gas_eth\": 0.010519, \"residual\": \"none evident (token transfers not decoded, so the token amounts bought and sold could not be compared directly)\", \"confidence\": 3, \"note\": \"Contract 0x4df3... wrapped 1.164192 ETH and bought token 0x2568... on pool 0xbd39... in the front leg, then received 1.321838 ETH from a WETH withdrawal in the back leg. That nets +0.157646 ETH, or +0.147127 ETH after 0.010519 ETH of front and back gas. The victim's WETH withdrawal suggests it sold the token rather than bought it, so the sandwich direction is atypical. The bracket still fits the stated definition, and the profit may include other trades between positions 1 and 96.\"}",
+ "case_id": "rej53_031",
+ "_time": "2026-10-13T21:59:38+0800"
+}

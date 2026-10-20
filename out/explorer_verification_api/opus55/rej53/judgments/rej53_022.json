@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.095532,
+ "gas_eth": 0.020767,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg, contract 0x\u2026594e routes 7.363492 WETH through the UniV3 USDC/WETH pool into the USDap/USDC V2 pool and receives 24081.300127 USDap. The victim then buys USDap with USDC on the same V2 pool, and in the back leg the contract sells the same 24081.300127 USDap and gets back 7.681949 WETH. Gross gain is 0.318457 ETH, minus a 0.202158 ETH internal transfer to 0xea674\u2026 (likely a miner payment) and 0.020767 ETH gas, leaving about +0.0955 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3534,
+  "output_tokens": 672,
+  "thinking_tokens": 338
+ },
+ "_request_id": "req_011CgBSmAgg9US4P5gQyLa7t",
+ "_response_id": "msg_011CgBSmB5kHH1YeCpPFxr7R",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.095532, \"gas_eth\": 0.020767, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg, contract 0x\u2026594e routes 7.363492 WETH through the UniV3 USDC/WETH pool into the USDap/USDC V2 pool and receives 24081.300127 USDap. The victim then buys USDap with USDC on the same V2 pool, and in the back leg the contract sells the same 24081.300127 USDap and gets back 7.681949 WETH. Gross gain is 0.318457 ETH, minus a 0.202158 ETH internal transfer to 0xea674\u2026 (likely a miner payment) and 0.020767 ETH gas, leaving about +0.0955 ETH.\"}",
+ "case_id": "rej53_022",
+ "_time": "2026-10-19T18:33:46+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x4e37dcad9e6e1465f33387587cef22616aac2541",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.162934,
+ "gas_eth": 0.035398,
+ "profit_after_gas": 0.127536,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0xdac775cd... opens a DIS short in the front leg and closes it in the back leg on the same UniswapV2 pool the victim trades on. It receives 4.365 WETH in front, spends 4.202066 WETH in back, and ends with no residual DIS, yielding positive net after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2396,
+  "output_tokens": 2460,
+  "thinking_tokens": 2279
+ },
+ "_request_id": "27fa8adc5b2158058591b65036c9812e",
+ "_response_id": "d9a5a646-4daf-4063-ab75-d9cdcc9976c9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdac775cd972ac612907682ff757af66f75eecece\",\"pool\":\"0x4e37dcad9e6e1465f33387587cef22616aac2541\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.162934,\"gas_eth\":0.035398,\"profit_after_gas\":0.127536,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0xdac775cd... opens a DIS short in the front leg and closes it in the back leg on the same UniswapV2 pool the victim trades on. It receives 4.365 WETH in front, spends 4.202066 WETH in back, and ends with no residual DIS, yielding positive net after gas.\"}",
+ "case_id": "sym100_068",
+ "_time": "2026-10-19T19:35:36+0800"
+}

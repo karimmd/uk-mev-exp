@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e",
+  "0x3139bbba7f4b9125595cb4ebeefdac1fce7ab5f1",
+  "0xb6909b960dbbe7392d405429eb2b3649752b4838",
+  "0xcc39592f5cb193a70f262aa301f54db1d600e6da"
+ ],
+ "cycle_token": "BAT",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.005305,
+ "gas_eth": 0,
+ "profit_after_gas": 0.005305,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor nets BAT and RUNE to zero across four pools while WETH increases by 0.021223; after a 0.015918 ETH internal transfer and zero gas, net is +0.005305 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2426,
+  "output_tokens": 6590,
+  "thinking_tokens": 6334
+ },
+ "_request_id": "3aa51fba32d6fbb2009d5b0572880e8e",
+ "_response_id": "565aa572-bcf5-40a0-999e-c908a063ebbe",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000a1c7212a1c129512d80eb30d14dc08\",\"pools\":[\"0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e\",\"0x3139bbba7f4b9125595cb4ebeefdac1fce7ab5f1\",\"0xb6909b960dbbe7392d405429eb2b3649752b4838\",\"0xcc39592f5cb193a70f262aa301f54db1d600e6da\"],\"cycle_token\":\"BAT\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.005305,\"gas_eth\":0,\"profit_after_gas\":0.005305,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor nets BAT and RUNE to zero across four pools while WETH increases by 0.021223; after a 0.015918 ETH internal transfer and zero gas, net is +0.005305 ETH.\"}",
+ "case_id": "arb106_060",
+ "_time": "2026-10-19T20:00:47+0800"
+}

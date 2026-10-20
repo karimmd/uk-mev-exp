@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.048504,
+ "gas_eth": 0.1365,
+ "profit_after_gas": -0.087996,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back use the same SPICE/WETH Uniswap V3 pool; the actor buys SPICE in front and sells the same amount in back. Gross WETH gain is 0.199833, but after the 0.151329 ETH forwarded to 0x829b... and 0.1365 ETH gas, the observable net is negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2323,
+  "output_tokens": 10575,
+  "thinking_tokens": 10388
+ },
+ "_request_id": "f4412aaf990af8544f7e02cf566eafdc",
+ "_response_id": "66afdf40-fa41-4631-a012-fa1b84812d36",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.048504,\"gas_eth\":0.1365,\"profit_after_gas\":-0.087996,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back use the same SPICE/WETH Uniswap V3 pool; the actor buys SPICE in front and sells the same amount in back. Gross WETH gain is 0.199833, but after the 0.151329 ETH forwarded to 0x829b... and 0.1365 ETH gas, the observable net is negative.\"}",
+ "case_id": "pack_132",
+ "_time": "2026-10-19T19:21:04+0800"
+}

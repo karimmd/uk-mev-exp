@@ -1,0 +1,42 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877",
+  "0x39c9e3128b8736e02a30b2b9b7e50ff522b935c5",
+  "0x8406cb08a52afd2a97e958b8fad2103243b6af3e",
+  "0x69d91b94f0aaf8e8a2586909fa77a5c2c89818d5"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.03635,
+ "gas_eth": 0.030893,
+ "profit_after_gas": 0.005457,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor closes a WETH-valued route across six DEX pools, receiving 2.070655 WETH and sending 2.033373 WETH, plus a 0.000932 ETH internal payment. After gas, the observable position remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2232,
+  "output_tokens": 5599,
+  "thinking_tokens": 5264
+ },
+ "_request_id": "b22d7e451cc8a5e3bcbd3eddee389672",
+ "_response_id": "6ebc6698-b2ae-48c6-b350-77a24eeb5572",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x55d5c232d921b9eaa6b37b5845e439acd04b4dba\",\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877\",\"0x39c9e3128b8736e02a30b2b9b7e50ff522b935c5\",\"0x8406cb08a52afd2a97e958b8fad2103243b6af3e\",\"0x69d91b94f0aaf8e8a2586909fa77a5c2c89818d5\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.03635,\"gas_eth\":0.030893,\"profit_after_gas\":0.005457,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor closes a WETH-valued route across six DEX pools, receiving 2.070655 WETH and sending 2.033373 WETH, plus a 0.000932 ETH internal payment. After gas, the observable position remains positive.\"}",
+ "case_id": "arb106_074",
+ "_time": "2026-10-19T20:03:17+0800"
+}

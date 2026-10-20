@@ -1,0 +1,17 @@
+{
+ "actor": "0x9282dc5c422fa91ff2f6ff3a0b45b7bf97cf78e7",
+ "pool": "0x1549a45a18b1658783aa27068fee449cc80876ce",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.041661,
+ "gas_eth": 0.015055,
+ "residual": "about 1.81e12 MADINU (90815923163824.69 received minus 89008313126009.53 sold)",
+ "confidence": 4,
+ "note": "The same contract buys MADINU with 0.45 ETH in the front leg and sells most of it back for 0.491661 ETH in the back leg. The victim's USDT->WETH->MADINU swap passes through the same MADINU/WETH pool between them. ETH netted +0.041661, or about +0.0266 after 0.015055 ETH gas, and the leftover MADINU can only add to that, so the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0227867,
+ "_session": "f01b9045-a748-4971-bb1c-94c3cc394376",
+ "_raw": "{\"actor\": \"0x9282dc5c422fa91ff2f6ff3a0b45b7bf97cf78e7\", \"pool\": \"0x1549a45a18b1658783aa27068fee449cc80876ce\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.041661, \"gas_eth\": 0.015055, \"residual\": \"about 1.81e12 MADINU (90815923163824.69 received minus 89008313126009.53 sold)\", \"confidence\": 4, \"note\": \"The same contract buys MADINU with 0.45 ETH in the front leg and sells most of it back for 0.491661 ETH in the back leg. The victim's USDT->WETH->MADINU swap passes through the same MADINU/WETH pool between them. ETH netted +0.041661, or about +0.0266 after 0.015055 ETH gas, and the leftover MADINU can only add to that, so the sign is positive.\"}",
+ "case_id": "pack_026",
+ "_time": "2026-10-13T20:09:12+0800"
+}

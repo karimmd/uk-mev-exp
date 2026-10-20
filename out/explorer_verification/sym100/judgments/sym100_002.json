@@ -1,0 +1,17 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x1ab24a692eff49b9712ceacdef853152d78b9050",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.061366,
+ "gas_eth": 0.025594,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 5031.325 XPb into the XPb/WETH pool in the front leg and receives 3.475 WETH. In the back leg it buys back exactly 5031.325 XPb for 3.413634 WETH. The victim also sells XPb into the same pool between the two legs, which pushes the price down. The actor's WETH gain is 0.061366, or about 0.035772 ETH after 0.025594 ETH of gas for the two legs. No XPb is left over. The position is opened as a sale (a short), so the actor must already hold XPb before the front leg.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0255832,
+ "_session": "508726c6-c308-48ed-a6f3-1a3aebc37e94",
+ "_raw": "{\"actor\":\"0xdac775cd972ac612907682ff757af66f75eecece\",\"pool\":\"0x1ab24a692eff49b9712ceacdef853152d78b9050\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.061366,\"gas_eth\":0.025594,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 5031.325 XPb into the XPb/WETH pool in the front leg and receives 3.475 WETH. In the back leg it buys back exactly 5031.325 XPb for 3.413634 WETH. The victim also sells XPb into the same pool between the two legs, which pushes the price down. The actor's WETH gain is 0.061366, or about 0.035772 ETH after 0.025594 ETH of gas for the two legs. No XPb is left over. The position is opened as a sale (a short), so the actor must already hold XPb before the front leg.\"}",
+ "case_id": "sym100_002",
+ "_time": "2026-10-13T21:22:54+0800"
+}

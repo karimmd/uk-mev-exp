@@ -1,0 +1,32 @@
+{
+ "actor": "0x738c0249c49dd4988a8b22b0f3257c8a9fd36fd6",
+ "pool": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.169027,
+ "gas_eth": 0.026996,
+ "profit_after_gas": 0.142031,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor sold API3 for 2.850253 WETH in the front leg and bought back the same API3 amount for 2.681226 WETH in the back leg on the same Uniswap V2 pool the victim used. Net WETH before gas is +0.169027; subtracting front and back gas fees leaves +0.142031, with no residual API3.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2660,
+  "output_tokens": 2004,
+  "thinking_tokens": 1807
+ },
+ "_request_id": "e1000640e6dfdb904519c015a1a21281",
+ "_response_id": "3698a139-e123-44ba-9c64-916337100cbd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x738c0249c49dd4988a8b22b0f3257c8a9fd36fd6\",\"pool\":\"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.169027,\"gas_eth\":0.026996,\"profit_after_gas\":0.142031,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor sold API3 for 2.850253 WETH in the front leg and bought back the same API3 amount for 2.681226 WETH in the back leg on the same Uniswap V2 pool the victim used. Net WETH before gas is +0.169027; subtracting front and back gas fees leaves +0.142031, with no residual API3.\"}",
+ "case_id": "sym100_030",
+ "_time": "2026-10-19T19:31:13+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xa88b80ff0d43b267f906c106df3c8f098798a702",
+ "pool": "0x18f238a96392a8fabb87065b5129dd00192e6cb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.061764,
+ "gas_eth": 0.029168,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sells 3937.888624 SHARE into the SHARE/WETH pool for 4.389441 WETH in the front leg. The victim then sells more SHARE into the same pool, and the actor buys back exactly 3937.888624 SHARE for 4.327677 WETH in the back leg. This is a sell-first bracket with the SHARE position fully closed. The WETH gain is 0.061764 before gas, and after the 0.029168 ETH gas fee it is about +0.0326 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3178,
+  "output_tokens": 845,
+  "thinking_tokens": 556
+ },
+ "_request_id": "req_011CgBSNkK7Wcs93RvfFp61E",
+ "_response_id": "msg_011CgBSNkfCgqYtbotgvCry3",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xa88b80ff0d43b267f906c106df3c8f098798a702\",\"pool\":\"0x18f238a96392a8fabb87065b5129dd00192e6cb1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.061764,\"gas_eth\":0.029168,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sells 3937.888624 SHARE into the SHARE/WETH pool for 4.389441 WETH in the front leg. The victim then sells more SHARE into the same pool, and the actor buys back exactly 3937.888624 SHARE for 4.327677 WETH in the back leg. This is a sell-first bracket with the SHARE position fully closed. The WETH gain is 0.061764 before gas, and after the 0.029168 ETH gas fee it is about +0.0326 ETH.\"}",
+ "case_id": "sym100_080",
+ "_time": "2026-10-19T18:28:43+0800"
+}

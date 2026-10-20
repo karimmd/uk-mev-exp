@@ -1,0 +1,32 @@
+{
+ "actor": "0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e",
+ "pool": "0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 0,
+ "gas_eth": 0.010099,
+ "profit_after_gas": -0.010099,
+ "residual": "104.061985 XIO",
+ "confidence": 5,
+ "note": "Actor contract 0xf0ff sold XIO for WETH in the front and bought XIO back with the same WETH in the back on pool 0xe0cc, while the victim also traded XIO on that pool between them. Net WETH is zero and gas makes ETH/WETH negative, but the actor retains +104.061985 XIO, so the total sign cannot be determined without valuing that residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2491,
+  "output_tokens": 6797,
+  "thinking_tokens": 6590
+ },
+ "_request_id": "af540621e759511e89e1d676ef1c9d93",
+ "_response_id": "8bc214eb-f26e-4ccb-aab5-3c3428247507",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e\",\"pool\":\"0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":0,\"gas_eth\":0.010099,\"profit_after_gas\":-0.010099,\"residual\":\"104.061985 XIO\",\"confidence\":5,\"note\":\"Actor contract 0xf0ff sold XIO for WETH in the front and bought XIO back with the same WETH in the back on pool 0xe0cc, while the victim also traded XIO on that pool between them. Net WETH is zero and gas makes ETH/WETH negative, but the actor retains +104.061985 XIO, so the total sign cannot be determined without valuing that residual.\"}",
+ "case_id": "pack_084",
+ "_time": "2026-10-19T19:14:59+0800"
+}

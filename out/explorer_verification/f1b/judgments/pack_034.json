@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x23a9292830fc80db7f563edb28d2fe6fb47f8624",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.111993,
+ "gas_eth": 0.08361,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys 38.437980 SFI with 5.966286 WETH on the pool in the front leg. The victim then buys SFI on the same pool, and the actor sells all 38.437980 SFI back for 6.078279 WETH. Gross WETH gain is 0.111993, gas for the two legs is 0.004763 + 0.078847 = 0.08361, so the position ends about +0.0284 ETH after cost with no SFI left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0218567,
+ "_session": "761c606e-e967-4356-b016-09fcfdd5a05e",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x23a9292830fc80db7f563edb28d2fe6fb47f8624\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.111993, \"gas_eth\": 0.08361, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract buys 38.437980 SFI with 5.966286 WETH on the pool in the front leg. The victim then buys SFI on the same pool, and the actor sells all 38.437980 SFI back for 6.078279 WETH. Gross WETH gain is 0.111993, gas for the two legs is 0.004763 + 0.078847 = 0.08361, so the position ends about +0.0284 ETH after cost with no SFI left over.\"}",
+ "case_id": "pack_034",
+ "_time": "2026-10-13T20:10:45+0800"
+}

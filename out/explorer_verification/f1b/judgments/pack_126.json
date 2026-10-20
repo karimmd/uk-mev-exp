@@ -1,0 +1,17 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000767,
+ "gas_eth": 0.0,
+ "residual": "about 4.70e9 SAITAMA (235028948319.6 bought, 230328435812.0 sold)",
+ "confidence": 4,
+ "note": "The actor contract buys SAITAMA with 0.316928 WETH in the front leg. The victim's second hop buys SAITAMA on the same pool (0xd0dcb7a4). The actor then sells SAITAMA for 0.332259 WETH in the back leg. The WETH gain is 0.015331. Subtracting the 0.014564 ETH forwarded to 0x1ad9 (likely a builder payment) leaves +0.000767 ETH. Gas for the front and back legs is 0 at 0.0 gwei. The leftover SAITAMA is a positive holding, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0278652,
+ "_session": "d259039e-78dc-463e-8202-8c97c8efb4a5",
+ "_raw": "{\"actor\": \"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\", \"pool\": \"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000767, \"gas_eth\": 0.0, \"residual\": \"about 4.70e9 SAITAMA (235028948319.6 bought, 230328435812.0 sold)\", \"confidence\": 4, \"note\": \"The actor contract buys SAITAMA with 0.316928 WETH in the front leg. The victim's second hop buys SAITAMA on the same pool (0xd0dcb7a4). The actor then sells SAITAMA for 0.332259 WETH in the back leg. The WETH gain is 0.015331. Subtracting the 0.014564 ETH forwarded to 0x1ad9 (likely a builder payment) leaves +0.000767 ETH. Gas for the front and back legs is 0 at 0.0 gwei. The leftover SAITAMA is a positive holding, so the sign stays positive.\"}",
+ "case_id": "pack_126",
+ "_time": "2026-10-13T20:28:56+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x50004cb09702ced04e59dcdaff9df58b6cc97983",
+ "pool": "0x18d98d452072ac2eb7b74ce3db723374360539f1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.230902,
+ "gas_eth": 0,
+ "profit_after_gas": 0.230902,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought and later sold 1.224440 ibBTC on the Uniswap V2 WBTC/ibBTC pool also used by the victim. Its WETH gain was 0.577253, reduced by a 0.346351 ETH internal transfer, leaving a positive net before zero front/back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3274,
+  "output_tokens": 6016,
+  "thinking_tokens": 5843
+ },
+ "_request_id": "cf3bb0e76dc8af980d4811aec826380d",
+ "_response_id": "9a56a22b-748d-4675-96d5-73d571812b9c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x50004cb09702ced04e59dcdaff9df58b6cc97983\",\"pool\":\"0x18d98d452072ac2eb7b74ce3db723374360539f1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.230902,\"gas_eth\":0,\"profit_after_gas\":0.230902,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract bought and later sold 1.224440 ibBTC on the Uniswap V2 WBTC/ibBTC pool also used by the victim. Its WETH gain was 0.577253, reduced by a 0.346351 ETH internal transfer, leaving a positive net before zero front/back gas fees.\"}",
+ "case_id": "pack_029",
+ "_time": "2026-10-19T19:06:56+0800"
+}

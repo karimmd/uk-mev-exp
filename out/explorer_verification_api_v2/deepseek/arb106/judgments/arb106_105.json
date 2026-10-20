@@ -1,0 +1,41 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x8f30ba1f75ec27a014591789d117a1bb4703bff8",
+  "0x9f319e265b8189b5b5c2152cacc791b95b3da180",
+  "0xee802b312a957e00dd7bbc08eec8bb93d40e981d",
+  "0x36e2fcccc59e5747ff63a03ea2e5c0c2c14911e7",
+  "0x12014971036f0279d08705d1824c30f631c4b7fb"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.015425,
+ "gas_eth": 0.014452,
+ "profit_after_gas": 0.000973,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x169c... sends WETH through multiple pools and receives more WETH back, netting +0.015425 WETH before gas and +0.000973 ETH after gas. Intermediate tokens pass pool-to-pool, and no residual non-WETH holdings remain.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2055,
+  "output_tokens": 7729,
+  "thinking_tokens": 7429
+ },
+ "_request_id": "d48c9f8d02c5d56ad1abac6227b13693",
+ "_response_id": "7077fd3e-2b31-4991-9426-55c5307b4ff3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x8f30ba1f75ec27a014591789d117a1bb4703bff8\",\"0x9f319e265b8189b5b5c2152cacc791b95b3da180\",\"0xee802b312a957e00dd7bbc08eec8bb93d40e981d\",\"0x36e2fcccc59e5747ff63a03ea2e5c0c2c14911e7\",\"0x12014971036f0279d08705d1824c30f631c4b7fb\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.015425,\"gas_eth\":0.014452,\"profit_after_gas\":0.000973,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x169c... sends WETH through multiple pools and receives more WETH back, netting +0.015425 WETH before gas and +0.000973 ETH after gas. Intermediate tokens pass pool-to-pool, and no residual non-WETH holdings remain.\"}",
+ "case_id": "arb106_105",
+ "_time": "2026-10-19T20:10:24+0800"
+}

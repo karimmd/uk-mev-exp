@@ -1,0 +1,39 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0xf5ca27927ffb16bd8c870dcb49750146cce8217c",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x122e55503a0b2e5cd528effa44d0b2fea300f24b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.01265,
+ "gas_eth": 0.011511,
+ "profit_after_gas": 0.001139,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor 0x9762 received 1.47265 WETH from pool 0x122e and sent 1.46 WETH to pool 0x88e6a, netting +0.01265 WETH. It orchestrated swaps through three pools and ends with positive WETH after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1556,
+  "output_tokens": 14062,
+  "thinking_tokens": 13810
+ },
+ "_request_id": "1c2e8e2914bea9f5767f1d25b71b308a",
+ "_response_id": "155556e1-3fe5-4b8b-9a11-e840ceaabe5e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x9762b1d716bb97735905996e013d61c140722249\",\"pools\":[\"0xf5ca27927ffb16bd8c870dcb49750146cce8217c\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x122e55503a0b2e5cd528effa44d0b2fea300f24b\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.01265,\"gas_eth\":0.011511,\"profit_after_gas\":0.001139,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor 0x9762 received 1.47265 WETH from pool 0x122e and sent 1.46 WETH to pool 0x88e6a, netting +0.01265 WETH. It orchestrated swaps through three pools and ends with positive WETH after gas.\"}",
+ "case_id": "arb106_048",
+ "_time": "2026-10-19T19:58:20+0800"
+}

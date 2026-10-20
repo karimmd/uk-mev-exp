@@ -1,0 +1,31 @@
+{
+ "actor": "0x38f2e4e2e33c81998b20989513e124e9d568f365",
+ "pool": "0x1812ef69e1753f908229df40d304a5fbdcd52dd3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.139598,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front WETH->USDT->FORTH leaves 365.683852 FORTH in actor contract 0x38f2..., and back sends the same FORTH back through the shared USDT/FORTH pool 0x1812... for WETH. Net ETH/WETH is 13.669706 - 12.150242 - 0.379866 internal ETH = 1.139598 ETH, with zero front/back gas fees and no FORTH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3219,
+  "output_tokens": 4574,
+  "thinking_tokens": 4378
+ },
+ "_request_id": "9bef052320ce17beeec666248d8539a8",
+ "_response_id": "77927064-612f-448f-a6e3-ffc715f06713",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x38f2e4e2e33c81998b20989513e124e9d568f365\",\"pool\":\"0x1812ef69e1753f908229df40d304a5fbdcd52dd3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.139598,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front WETH->USDT->FORTH leaves 365.683852 FORTH in actor contract 0x38f2..., and back sends the same FORTH back through the shared USDT/FORTH pool 0x1812... for WETH. Net ETH/WETH is 13.669706 - 12.150242 - 0.379866 internal ETH = 1.139598 ETH, with zero front/back gas fees and no FORTH residual.\"}",
+ "case_id": "pack_005",
+ "_time": "2026-10-19T17:58:33+0800"
+}

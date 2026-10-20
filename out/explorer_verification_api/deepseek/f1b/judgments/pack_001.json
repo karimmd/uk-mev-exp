@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x280ab9403372be0371313a9ddd9222b5590dbfef",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.401362,
+ "gas_eth": 0,
+ "residual": "697845119115.71875 JSHIBA",
+ "confidence": 5,
+ "note": "Actor 0x1d6e8... receives JSHIBA in the front leg and sends it back on pool 0x280ab... in the back leg; the victim also trades that pool between them. Net WETH is +6.241362 - 5.84 = +0.401362, the back-leg ETH value and internal transfer net to zero, and gas fees are zero. A residual positive JSHIBA holding remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2615,
+  "output_tokens": 6291,
+  "thinking_tokens": 6095
+ },
+ "_request_id": "393aafaaeb8ff2d21aa67ad597ee0c3b",
+ "_response_id": "dbed1a1e-8503-45d1-b852-208bf9679974",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x280ab9403372be0371313a9ddd9222b5590dbfef\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.401362,\"gas_eth\":0,\"residual\":\"697845119115.71875 JSHIBA\",\"confidence\":5,\"note\":\"Actor 0x1d6e8... receives JSHIBA in the front leg and sends it back on pool 0x280ab... in the back leg; the victim also trades that pool between them. Net WETH is +6.241362 - 5.84 = +0.401362, the back-leg ETH value and internal transfer net to zero, and gas fees are zero. A residual positive JSHIBA holding remains.\"}",
+ "case_id": "pack_001",
+ "_time": "2026-10-19T17:57:52+0800"
+}

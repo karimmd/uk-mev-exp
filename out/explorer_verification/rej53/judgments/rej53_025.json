@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xf62bc39e99763f3df81c49f711c16e625388c64f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.152534,
+ "gas_eth": 0.12391,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 48.982374 SHIBOHM via WETH->MIM->SHIBOHM in the front leg and sells exactly that amount back through the same two pools in the back leg. The victim buys SHIBOHM with MIM on the MIM/SHIBOHM pool between the two legs. WETH net is +0.152534 (2.191766 - 2.039232); after 0.123910 ETH gas (0.007887 + 0.116023) the result is about +0.028624 ETH, with no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0207507,
+ "_session": "d1330399-b40b-4c37-a156-d30a86fcb005",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xf62bc39e99763f3df81c49f711c16e625388c64f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.152534, \"gas_eth\": 0.12391, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 48.982374 SHIBOHM via WETH->MIM->SHIBOHM in the front leg and sells exactly that amount back through the same two pools in the back leg. The victim buys SHIBOHM with MIM on the MIM/SHIBOHM pool between the two legs. WETH net is +0.152534 (2.191766 - 2.039232); after 0.123910 ETH gas (0.007887 + 0.116023) the result is about +0.028624 ETH, with no residual token.\"}",
+ "case_id": "rej53_025",
+ "_time": "2026-10-13T21:58:14+0800"
+}

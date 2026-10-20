@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x377931b4f6adceccfc1a080f7a88b4af9d060336",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.238808,
+ "gas_eth": 0.028011,
+ "profit_after_gas": 0.210797,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x499d\u2026 buys 508890.137675 TWO for 2.093795 WETH on UniswapV3 pool 0x3779\u2026, the victim buys TWO with 1 WETH on the same pool, and the contract sells the same 508890.137675 TWO back for 2.992646 WETH (+0.898851 WETH). I treated the sender and contract as one actor and subtracted the 0.660043 ETH the sender passed through the contract to 0x829b\u2026, which looks like a payment to the block producer. Without that deduction the figure before gas would be 0.898851 ETH, and the result is positive either way.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2913,
+  "output_tokens": 988,
+  "thinking_tokens": 637
+ },
+ "_request_id": "req_011CgBVnsrKLvc9bMmrqzTvS",
+ "_response_id": "msg_011CgBVntENoyqndFvRu9TcV",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x377931b4f6adceccfc1a080f7a88b4af9d060336\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.238808, \"gas_eth\": 0.028011, \"profit_after_gas\": 0.210797, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x499d\u2026 buys 508890.137675 TWO for 2.093795 WETH on UniswapV3 pool 0x3779\u2026, the victim buys TWO with 1 WETH on the same pool, and the contract sells the same 508890.137675 TWO back for 2.992646 WETH (+0.898851 WETH). I treated the sender and contract as one actor and subtracted the 0.660043 ETH the sender passed through the contract to 0x829b\u2026, which looks like a payment to the block producer. Without that deduction the figure before gas would be 0.898851 ETH, and the result is positive either way.\"}",
+ "case_id": "pack_125",
+ "_time": "2026-10-19T19:13:33+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.065254,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 3,020,068 PEOPLE on the Uniswap V3 pool in the front leg, the victim bought PEOPLE on the same pool, and the actor sold the identical amount back, so no residual. WETH netted +0.187025, and the back leg's 0.121771 ETH tx value was forwarded to 0xb7e3\u2026f707, leaving +0.065254 before gas. Gas of 0.157241 ETH (front 0.074086 + back 0.083155) makes the total about -0.092 ETH. If the 0.121771 ETH transfer were not counted as a cost, the result would be about +0.030 ETH, which would flip Q2.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2801,
+  "output_tokens": 820,
+  "thinking_tokens": 479
+ },
+ "_request_id": "req_011CgBR7McpgSrPSyuL6p2xF",
+ "_response_id": "msg_011CgBR7SDuLaTWTLuVEuPAv",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.065254,\"gas_eth\":0.157241,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 3,020,068 PEOPLE on the Uniswap V3 pool in the front leg, the victim bought PEOPLE on the same pool, and the actor sold the identical amount back, so no residual. WETH netted +0.187025, and the back leg's 0.121771 ETH tx value was forwarded to 0xb7e3\u2026f707, leaving +0.065254 before gas. Gas of 0.157241 ETH (front 0.074086 + back 0.083155) makes the total about -0.092 ETH. If the 0.121771 ETH transfer were not counted as a cost, the result would be about +0.030 ETH, which would flip Q2.\"}",
+ "case_id": "pack_094",
+ "_time": "2026-10-19T18:12:07+0800"
+}

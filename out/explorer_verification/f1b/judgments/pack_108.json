@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x39b71cb975280df8f1390c95c4dc861d2c2e7a2b",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -2.375039,
+ "gas_eth": 0.530483,
+ "residual": "235 SIN held by 0x75b0bbd46d7752cb2f5ffe645467e0ce6e389795, never sold in this block",
+ "confidence": 4,
+ "note": "The front leg (sender 0x75b0...) buys SIN with ETH. The back leg is sent by a different address (0x2ad4...) and also buys SIN (105.2 SIN received, 1.5 ETH in), so no position is closed and the actors differ. The front address is left holding 235 SIN with no exit, so no profit sign can be given; the net_eth and gas_eth figures are for the front leg only (2.38 ETH sent, 0.004961 refunded).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0280207,
+ "_session": "ff888e2f-02c5-4c12-a898-54fbb13d4124",
+ "_raw": "{\"actor\": null, \"pool\": \"0x39b71cb975280df8f1390c95c4dc861d2c2e7a2b\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -2.375039, \"gas_eth\": 0.530483, \"residual\": \"235 SIN held by 0x75b0bbd46d7752cb2f5ffe645467e0ce6e389795, never sold in this block\", \"confidence\": 4, \"note\": \"The front leg (sender 0x75b0...) buys SIN with ETH. The back leg is sent by a different address (0x2ad4...) and also buys SIN (105.2 SIN received, 1.5 ETH in), so no position is closed and the actors differ. The front address is left holding 235 SIN with no exit, so no profit sign can be given; the net_eth and gas_eth figures are for the front leg only (2.38 ETH sent, 0.004961 refunded).\"}",
+ "case_id": "pack_108",
+ "_time": "2026-10-13T20:25:37+0800"
+}

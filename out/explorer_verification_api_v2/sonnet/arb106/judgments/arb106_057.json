@@ -1,0 +1,39 @@
+{
+ "actor": "0xa1006d0051a35b0000f961a8000000009ea8d2db",
+ "pools": [
+  "0x20e95253e54490d8d30ea41574b24f741ee70201",
+  "0x6c6bc977e13df9b0de53b251522280bb72383700",
+  "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.055295,
+ "gas_eth": 0.052531,
+ "profit_after_gas": 0.002764,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 13.699350 WETH to the V2 WETH/USDC pool. The USDC goes to the V3 DAI/USDC pool, and the DAI goes to the V2 WETH/DAI pool, which returns 13.754645 WETH. USDC and DAI only pass between pools, so the actor ends with +0.055295 WETH, which is +0.002764 ETH after the 0.052531 ETH gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2082,
+  "output_tokens": 770,
+  "thinking_tokens": 393
+ },
+ "_request_id": "req_011CgBXJo71KcHS8cAWNE4Ks",
+ "_response_id": "msg_011CgBXJoTbZGbzdtMMtg4LC",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xa1006d0051a35b0000f961a8000000009ea8d2db\",\"pools\":[\"0x20e95253e54490d8d30ea41574b24f741ee70201\",\"0x6c6bc977e13df9b0de53b251522280bb72383700\",\"0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.055295,\"gas_eth\":0.052531,\"profit_after_gas\":0.002764,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 13.699350 WETH to the V2 WETH/USDC pool. The USDC goes to the V3 DAI/USDC pool, and the DAI goes to the V2 WETH/DAI pool, which returns 13.754645 WETH. USDC and DAI only pass between pools, so the actor ends with +0.055295 WETH, which is +0.002764 ETH after the 0.052531 ETH gas fee.\"}",
+ "case_id": "arb106_057",
+ "_time": "2026-10-19T19:33:21+0800"
+}

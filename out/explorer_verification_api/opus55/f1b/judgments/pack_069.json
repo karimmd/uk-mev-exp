@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1f964ff83c54ce447adae5cb93f9ec17018bf55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.006336,
+ "gas_eth": 0.0,
+ "residual": "about 501678560799 BEZOGE kept by the actor (bought 25104904877090, sold 24603226316290)",
+ "confidence": 4,
+ "note": "The contract 0x0000\u20266b40 bought BEZOGE for 2.211908 WETH on pool 0x1f96\u2026f55b, the victim then bought BEZOGE on the same pool, and the contract sold back for 2.270042 WETH. That is +0.058134 WETH, less the 0.051798 ETH miner-style payment funded by the back-leg value, with zero gas fees. The leftover BEZOGE is an extra holding, not a deficit, so the sign stays positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3522,
+  "output_tokens": 1090,
+  "thinking_tokens": 761
+ },
+ "_request_id": "req_011CgBQsXUWzxKujaZzLZSyY",
+ "_response_id": "msg_011CgBQsdomwdxzMrMZ1gz14",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x1f964ff83c54ce447adae5cb93f9ec17018bf55b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.006336, \"gas_eth\": 0.0, \"residual\": \"about 501678560799 BEZOGE kept by the actor (bought 25104904877090, sold 24603226316290)\", \"confidence\": 4, \"note\": \"The contract 0x0000\u20266b40 bought BEZOGE for 2.211908 WETH on pool 0x1f96\u2026f55b, the victim then bought BEZOGE on the same pool, and the contract sold back for 2.270042 WETH. That is +0.058134 WETH, less the 0.051798 ETH miner-style payment funded by the back-leg value, with zero gas fees. The leftover BEZOGE is an extra holding, not a deficit, so the sign stays positive.\"}",
+ "case_id": "pack_069",
+ "_time": "2026-10-19T18:09:06+0800"
+}

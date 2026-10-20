@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34b8487fc2912c486b04d1436b07f19f7730cd43",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.051101,
+ "gas_eth": 0.028687,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Both legs are atomic V2/V3 POLK round trips by the same contract, so no POLK is held between them. On the shared V3 pool the actor sells POLK before the victim, who also sells POLK there, and buys POLK back after. The V2 pool only funds the legs. Net WETH is -0.117686 in the front and +0.168787 in the back, so +0.051101 before gas and about +0.0224 after 0.028687 ETH of gas. The bracket is atypical because no position is carried across legs.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3490,
+  "output_tokens": 1425,
+  "thinking_tokens": 1137
+ },
+ "_request_id": "req_011CgBSUyn9h6vD5U3hUUTnG",
+ "_response_id": "msg_011CgBSUz8ykMZxy62J4qtkd",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x34b8487fc2912c486b04d1436b07f19f7730cd43\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.051101,\"gas_eth\":0.028687,\"residual\":\"none\",\"confidence\":3,\"note\":\"Both legs are atomic V2/V3 POLK round trips by the same contract, so no POLK is held between them. On the shared V3 pool the actor sells POLK before the victim, who also sells POLK there, and buys POLK back after. The V2 pool only funds the legs. Net WETH is -0.117686 in the front and +0.168787 in the back, so +0.051101 before gas and about +0.0224 after 0.028687 ETH of gas. The bracket is atypical because no position is carried across legs.\"}",
+ "case_id": "sym100_099",
+ "_time": "2026-10-19T18:30:11+0800"
+}

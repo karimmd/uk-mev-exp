@@ -1,0 +1,41 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x3545d371334f4374872e915caf5ec36c0d83b93e",
+  "0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17",
+  "0x122e55503a0b2e5cd528effa44d0b2fea300f24b",
+  "0xbbc95e1eb6ee476e9cbb8112435e14b372563038",
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.010021,
+ "gas_eth": 0.008856,
+ "profit_after_gas": 0.001165,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH-to-WETH cycles, with the intermediate tokens moving pool to pool and never touching the actor. Cycle one goes from the V3 pool 0x3545 to V2 0xc8ca for CGG (+0.004192 WETH). Cycle two goes from V3 0x122e through V2 0xbbc9 and 0x397f for WOO and USDC (+0.005829 WETH). The combined +0.010021 WETH beats the 0.008856 ETH gas by a thin margin, and no internal ETH transfers or mints appear.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2636,
+  "output_tokens": 1017,
+  "thinking_tokens": 512
+ },
+ "_request_id": "req_011CgBXBTCVpFHxTnmuScr2n",
+ "_response_id": "msg_011CgBXBTapUAgdsHfpvYvmV",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\", \"pools\": [\"0x3545d371334f4374872e915caf5ec36c0d83b93e\", \"0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17\", \"0x122e55503a0b2e5cd528effa44d0b2fea300f24b\", \"0xbbc95e1eb6ee476e9cbb8112435e14b372563038\", \"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.010021, \"gas_eth\": 0.008856, \"profit_after_gas\": 0.001165, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two WETH-to-WETH cycles, with the intermediate tokens moving pool to pool and never touching the actor. Cycle one goes from the V3 pool 0x3545 to V2 0xc8ca for CGG (+0.004192 WETH). Cycle two goes from V3 0x122e through V2 0xbbc9 and 0x397f for WOO and USDC (+0.005829 WETH). The combined +0.010021 WETH beats the 0.008856 ETH gas by a thin margin, and no internal ETH transfers or mints appear.\"}",
+ "case_id": "arb106_020",
+ "_time": "2026-10-19T19:31:45+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.026809,
+ "gas_eth": 0.028005,
+ "residual": "about -0.00641 USDT (the actor paid in slightly more USDT than it received; negligible)",
+ "confidence": 4,
+ "note": "In the front leg, contract 0x...3b3c routed WETH to DON on pool 0x643b and then sold DON for USDT on DON/USDT pool 0x91b1. The victim then sold DON on that same pool, and the back leg reversed the route. Net WETH was +0.054814 against 0.028005 ETH of gas, about +0.0268 ETH, with only a dust-level USDT shortfall.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3164,
+  "output_tokens": 707,
+  "thinking_tokens": 405
+ },
+ "_request_id": "req_011CgBSvNwPMKQHnD2sokmep",
+ "_response_id": "msg_011CgBSvPKCY8T78fPEDyssU",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.026809, \"gas_eth\": 0.028005, \"residual\": \"about -0.00641 USDT (the actor paid in slightly more USDT than it received; negligible)\", \"confidence\": 4, \"note\": \"In the front leg, contract 0x...3b3c routed WETH to DON on pool 0x643b and then sold DON for USDT on DON/USDT pool 0x91b1. The victim then sold DON on that same pool, and the back leg reversed the route. Net WETH was +0.054814 against 0.028005 ETH of gas, about +0.0268 ETH, with only a dust-level USDT shortfall.\"}",
+ "case_id": "rej53_048",
+ "_time": "2026-10-19T18:35:52+0800"
+}

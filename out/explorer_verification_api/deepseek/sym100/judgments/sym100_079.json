@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.158535,
+ "gas_eth": 0.056616,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front and back legs are both calls into 0x00000000000064c443ef440577c26525a3c34a30, which sold PMON for WETH and then bought PMON back on the same pool the victim used. Net WETH is +0.215151 before gas and +0.158535 after the two gas fees, with PMON net zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2376,
+  "output_tokens": 10012,
+  "thinking_tokens": 9838
+ },
+ "_request_id": "17d01fbf55377e11d5cc5df604aebef6",
+ "_response_id": "a448daa0-abdb-475d-8a53-e2537bd04aec",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.158535,\"gas_eth\":0.056616,\"residual\":\"none\",\"confidence\":4,\"note\":\"The front and back legs are both calls into 0x00000000000064c443ef440577c26525a3c34a30, which sold PMON for WETH and then bought PMON back on the same pool the victim used. Net WETH is +0.215151 before gas and +0.158535 after the two gas fees, with PMON net zero.\"}",
+ "case_id": "sym100_079",
+ "_time": "2026-10-19T18:53:28+0800"
+}

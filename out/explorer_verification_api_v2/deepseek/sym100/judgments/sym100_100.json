@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.094869,
+ "gas_eth": 0.030886,
+ "profit_after_gas": 0.063983,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells PMON for WETH on the UniswapV2 pool, victim also sells PMON on the same pool, and back rebuys the identical PMON amount, closing the short position. Net WETH before gas is 8.978000 - 8.883131, and subtracting front/back fees leaves a positive 0.063983 ETH equivalent with no residual PMON.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2426,
+  "output_tokens": 1916,
+  "thinking_tokens": 1723
+ },
+ "_request_id": "e9f67cd5519261ce664dd725d8fb2892",
+ "_response_id": "9502ea98-3f4b-4bb1-a11a-477be2d1cce2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.094869,\"gas_eth\":0.030886,\"profit_after_gas\":0.063983,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells PMON for WETH on the UniswapV2 pool, victim also sells PMON on the same pool, and back rebuys the identical PMON amount, closing the short position. Net WETH before gas is 8.978000 - 8.883131, and subtracting front/back fees leaves a positive 0.063983 ETH equivalent with no residual PMON.\"}",
+ "case_id": "sym100_100",
+ "_time": "2026-10-19T19:38:21+0800"
+}

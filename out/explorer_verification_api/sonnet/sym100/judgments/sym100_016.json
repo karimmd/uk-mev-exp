@@ -1,0 +1,31 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0x6d91af49939796f59273c859a92b76446450a920",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.120725,
+ "gas_eth": 0.007195,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 1809529318417.167725 BDT to the pool for 0.760486 WETH in the front leg. The victim then sells BDT on the same pool, and the back leg buys back exactly the same BDT amount for 0.639761 WETH. This is a short-style bracket: it nets +0.120725 WETH, or about +0.1135 ETH after 0.007195 ETH of front and back gas, with no BDT left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2955,
+  "output_tokens": 772,
+  "thinking_tokens": 509
+ },
+ "_request_id": "req_011CgBRyxrn2PwMLTKQB5Cra",
+ "_response_id": "msg_011CgBRyyCsdRQm6rBhMKeu8",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\",\"pool\":\"0x6d91af49939796f59273c859a92b76446450a920\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.120725,\"gas_eth\":0.007195,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 1809529318417.167725 BDT to the pool for 0.760486 WETH in the front leg. The victim then sells BDT on the same pool, and the back leg buys back exactly the same BDT amount for 0.639761 WETH. This is a short-style bracket: it nets +0.120725 WETH, or about +0.1135 ETH after 0.007195 ETH of front and back gas, with no BDT left over.\"}",
+ "case_id": "sym100_016",
+ "_time": "2026-10-19T18:23:32+0800"
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x919fa96e88d67499339577fa202345436bcdaf79",
+  "0x58dc5a51fe44589beb22e8ce67720b5bc5378009",
+  "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+  "0x30e7e1989cf774726dd9f4780cab42d5558003e6",
+  "0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74"
+ ],
+ "cycle_token": null,
+ "profit_token": "WETH",
+ "Q1": "no",
+ "Q1_reason": "other",
+ "Q2": "yes",
+ "net_eth": 0.002379,
+ "gas_eth": 0.035807,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x169c... receives net 0.038186 WETH across multiple pools. Intermediate tokens (CRV, SUPER, SAND) route directly between pools, so no closed-cycle token is held by the actor. After gas, net is +0.002379 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1982,
+  "output_tokens": 10729,
+  "thinking_tokens": 10450
+ },
+ "_request_id": "cc1246802a000d1e1ea3d75d842cb355",
+ "_response_id": "900ccec0-af0a-4465-a3af-717fde552ebd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x919fa96e88d67499339577fa202345436bcdaf79\",\"0x58dc5a51fe44589beb22e8ce67720b5bc5378009\",\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"0x30e7e1989cf774726dd9f4780cab42d5558003e6\",\"0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74\"],\"cycle_token\":null,\"profit_token\":\"WETH\",\"Q1\":\"no\",\"Q1_reason\":\"other\",\"Q2\":\"yes\",\"net_eth\":0.002379,\"gas_eth\":0.035807,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x169c... receives net 0.038186 WETH across multiple pools. Intermediate tokens (CRV, SUPER, SAND) route directly between pools, so no closed-cycle token is held by the actor. After gas, net is +0.002379 ETH.\"}",
+ "case_id": "arb106_033",
+ "_time": "2026-10-19T19:13:53+0800"
+}

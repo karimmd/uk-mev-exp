@@ -1,0 +1,32 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xa541279d7a77a768abf45acbcac7f32f28101d5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.278987,
+ "gas_eth": 0.226302,
+ "profit_after_gas": 0.052685,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells PSP into the shared pool 0xa541 before the victim also sells PSP into that pool, and back buys PSP from 0xa541 after the victim. Net WETH across front and back is +0.278987, and after front/back gas the actor remains profitable; no non-WETH residual is held by the actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3343,
+  "output_tokens": 8641,
+  "thinking_tokens": 8455
+ },
+ "_request_id": "278c838ad6ab3c54b8c8646822678ae6",
+ "_response_id": "063914b8-7227-46ba-84d8-dadc99ce0496",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xa541279d7a77a768abf45acbcac7f32f28101d5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.278987,\"gas_eth\":0.226302,\"profit_after_gas\":0.052685,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells PSP into the shared pool 0xa541 before the victim also sells PSP into that pool, and back buys PSP from 0xa541 after the victim. Net WETH across front and back is +0.278987, and after front/back gas the actor remains profitable; no non-WETH residual is held by the actor.\"}",
+ "case_id": "sym100_045",
+ "_time": "2026-10-19T19:33:07+0800"
+}

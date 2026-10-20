@@ -1,0 +1,32 @@
+{
+ "actor": "0x7b78eb388fe213037b0f558a4a5935fe27b1e481",
+ "pool": "0xd583d0824ed78767e0e35b9bf7a636c81c665aa8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.107903,
+ "gas_eth": 0.056554,
+ "profit_after_gas": 0.051349,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought 1943.610652 LYXE for 3.760000 WETH on the WETH/LYXE Uniswap V2 pool in front, and sold the same LYXE amount for 3.867903 WETH in back, with the victim's multi-hop swap using the same pool between. Net before gas is +0.107903 ETH; subtracting 0.056554 ETH gas gives +0.051349 ETH, with no residual LYXE.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2793,
+  "output_tokens": 6048,
+  "thinking_tokens": 5832
+ },
+ "_request_id": "a14d1dcc28c6280324ba1382ba2a3d87",
+ "_response_id": "a6ae84ce-8497-409b-b70a-f6bb302daee2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7b78eb388fe213037b0f558a4a5935fe27b1e481\",\"pool\":\"0xd583d0824ed78767e0e35b9bf7a636c81c665aa8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.107903,\"gas_eth\":0.056554,\"profit_after_gas\":0.051349,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract bought 1943.610652 LYXE for 3.760000 WETH on the WETH/LYXE Uniswap V2 pool in front, and sold the same LYXE amount for 3.867903 WETH in back, with the victim's multi-hop swap using the same pool between. Net before gas is +0.107903 ETH; subtracting 0.056554 ETH gas gives +0.051349 ETH, with no residual LYXE.\"}",
+ "case_id": "pack_121",
+ "_time": "2026-10-19T19:19:29+0800"
+}

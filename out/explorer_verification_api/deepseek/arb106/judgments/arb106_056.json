@@ -1,0 +1,38 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.020003,
+ "gas_eth": 0.018603,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Triangular arbitrage WETH->DAI->OHM->WETH across three pools; actor receives 4.330003 WETH and sends 4.31 WETH, netting +0.020003 WETH before gas. Gas fee 0.018603 ETH leaves a small positive net position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1517,
+  "output_tokens": 5507,
+  "thinking_tokens": 5244
+ },
+ "_request_id": "e060e326732b51d8eace15aa37c45c32",
+ "_response_id": "91cf3cb4-e102-4af7-8768-55ffee77ebe6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x9762b1d716bb97735905996e013d61c140722249\", \"pools\": [\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\", \"0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8\", \"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.020003, \"gas_eth\": 0.018603, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Triangular arbitrage WETH->DAI->OHM->WETH across three pools; actor receives 4.330003 WETH and sends 4.31 WETH, netting +0.020003 WETH before gas. Gas fee 0.018603 ETH leaves a small positive net position.\"}",
+ "case_id": "arb106_056",
+ "_time": "2026-10-19T19:20:37+0800"
+}

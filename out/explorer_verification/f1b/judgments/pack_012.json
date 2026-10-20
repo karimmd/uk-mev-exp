@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x9314941c11d6dee1d7bf93113eb74d4718949f3b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.327825,
+ "gas_eth": 0.043961,
+ "residual": "about 250829570863 $HOKK (12545994060244 bought minus 12295164489380.625 sold)",
+ "confidence": 4,
+ "note": "The same contract bought $HOKK with 7.109631 WETH in the front leg and sold most of it back for 7.437456 WETH in the back leg, on the HOKK/WETH pool the victim also swapped through (second hop), with the victim between them. The front and back legs were sent by different EOAs, but both called the same contract. The WETH gain is 0.327825, or 0.283864 after 0.043961 ETH of gas, and the leftover $HOKK only adds to that, so the sign is positive regardless of its value.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0211107,
+ "_session": "a480c8c5-5b89-4e7a-b522-f011990d2359",
+ "_raw": "{\"actor\": \"0x000000000000084e91743124a982076c59f10084\", \"pool\": \"0x9314941c11d6dee1d7bf93113eb74d4718949f3b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.327825, \"gas_eth\": 0.043961, \"residual\": \"about 250829570863 $HOKK (12545994060244 bought minus 12295164489380.625 sold)\", \"confidence\": 4, \"note\": \"The same contract bought $HOKK with 7.109631 WETH in the front leg and sold most of it back for 7.437456 WETH in the back leg, on the HOKK/WETH pool the victim also swapped through (second hop), with the victim between them. The front and back legs were sent by different EOAs, but both called the same contract. The WETH gain is 0.327825, or 0.283864 after 0.043961 ETH of gas, and the leftover $HOKK only adds to that, so the sign is positive regardless of its value.\"}",
+ "case_id": "pack_012",
+ "_time": "2026-10-13T20:06:34+0800"
+}

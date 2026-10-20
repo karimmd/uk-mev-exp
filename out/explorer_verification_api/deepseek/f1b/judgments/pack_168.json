@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xc352e35a7e5364e53073b4670d5f622438774a41",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001593,
+ "gas_eth": 0.038117,
+ "residual": "2313690340209.15625 FIRU",
+ "confidence": 5,
+ "note": "Front leg sent 0.290722 WETH to pool c352 and received FIRU; back leg returned 113938882152028.328125 FIRU and received 0.330432 WETH. Net WETH is +0.03971, minus 0.038117 gas gives +0.001593 ETH, leaving residual FIRU.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2307,
+  "output_tokens": 5212,
+  "thinking_tokens": 5034
+ },
+ "_request_id": "1e13f03e1420c7a3b184fa34f1d1d27b",
+ "_response_id": "dfb62a1c-d9ea-4587-9695-3894b77ee46d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xc352e35a7e5364e53073b4670d5f622438774a41\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.001593,\"gas_eth\":0.038117,\"residual\":\"2313690340209.15625 FIRU\",\"confidence\":5,\"note\":\"Front leg sent 0.290722 WETH to pool c352 and received FIRU; back leg returned 113938882152028.328125 FIRU and received 0.330432 WETH. Net WETH is +0.03971, minus 0.038117 gas gives +0.001593 ETH, leaving residual FIRU.\"}",
+ "case_id": "pack_168",
+ "_time": "2026-10-19T18:32:48+0800"
+}

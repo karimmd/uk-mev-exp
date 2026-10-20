@@ -1,0 +1,40 @@
+{
+ "actor": "0x8698d9d5ea99809c00426484a80be2add4e54581",
+ "pools": [
+  "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877",
+  "0x5b66d267a5c13626a6d68d78e1c7e31f1d52b5c2",
+  "0x8ae720a71622e824f576b4a8c03031066548a3b1"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.016176,
+ "gas_eth": 0.014645,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 3.752521 WETH into a chain of five pools (WETH/DAI, DAI/OHM, OHM/FRAX, FRAX/RAI on V3, RAI/WETH) and gets 3.768697 WETH back. The intermediate tokens pass directly from pool to pool, so the actor holds nothing else. Net gain is 0.016176 WETH, which leaves about 0.00153 ETH after the 0.014645 ETH gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2468,
+  "output_tokens": 903,
+  "thinking_tokens": 460
+ },
+ "_request_id": "req_011CgBSuedBKDXkebiurBrhp",
+ "_response_id": "msg_011CgBSuex2DHnQTrHhaWnJM",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x8698d9d5ea99809c00426484a80be2add4e54581\",\"pools\":[\"0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877\",\"0x5b66d267a5c13626a6d68d78e1c7e31f1d52b5c2\",\"0x8ae720a71622e824f576b4a8c03031066548a3b1\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.016176,\"gas_eth\":0.014645,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 3.752521 WETH into a chain of five pools (WETH/DAI, DAI/OHM, OHM/FRAX, FRAX/RAI on V3, RAI/WETH) and gets 3.768697 WETH back. The intermediate tokens pass directly from pool to pool, so the actor holds nothing else. Net gain is 0.016176 WETH, which leaves about 0.00153 ETH after the 0.014645 ETH gas fee.\"}",
+ "case_id": "arb106_021",
+ "_time": "2026-10-19T18:35:40+0800"
+}

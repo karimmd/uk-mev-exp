@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbe55c87dff2a9f5c95cb5c07572c51fd91fe0732",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.056222,
+ "gas_eth": 0.051155,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg sells ROOM for WETH and the back leg buys the same ROOM amount back on the shared Uniswap V2 pool, so the non-WETH position is not opened in front and closed in back. WETH profit is 0.107377 minus 0.051155 gas, leaving +0.056222 ETH, with zero net residual ROOM.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2210,
+  "output_tokens": 8455,
+  "thinking_tokens": 8264
+ },
+ "_request_id": "728e36edafe468a822e52f7bec710d11",
+ "_response_id": "86f8001e-8b21-4cef-bef3-c1562a84107b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xbe55c87dff2a9f5c95cb5c07572c51fd91fe0732\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.056222, \"gas_eth\": 0.051155, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg sells ROOM for WETH and the back leg buys the same ROOM amount back on the shared Uniswap V2 pool, so the non-WETH position is not opened in front and closed in back. WETH profit is 0.107377 minus 0.051155 gas, leaving +0.056222 ETH, with zero net residual ROOM.\"}",
+ "case_id": "sym100_017",
+ "_time": "2026-10-19T18:40:58+0800"
+}

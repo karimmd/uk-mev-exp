@@ -1,0 +1,42 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xd03dffd02db4b076e3eed9272a6a243a23de16e3",
+  "0x1c98562a2fab5af19d8fb3291a36ac3c618835d9",
+  "0xca3d6a94759cb675f0ac10a76fc0da6ee6bf6e7b",
+  "0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8",
+  "0x5cf235c56418109fb7f0aacca1b75a0a38047ca9",
+  "0x04dd76803f247b611d4f470fc6cd206a9d02f869"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.073452,
+ "gas_eth": 0.065414,
+ "profit_after_gas": 0.008038,
+ "residual": "none",
+ "confidence": 4,
+ "note": "There are three independent two-pool WETH cycles (METIS, LINK, EFI). In each, a UniswapV2 pool sends the token straight to a UniswapV3 pool, and the V3 pool pays WETH to the actor contract. WETH nets +0.025240, +0.024480 and +0.023732, totalling 0.073452. Gas is 0.065414, leaving a small positive result, but the intermediate tokens never touch the actor, so the strict 'received and sent by the actor' cycle test only holds in WETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2921,
+  "output_tokens": 1054,
+  "thinking_tokens": 530
+ },
+ "_request_id": "req_011CgBXD2VWZZy4ftcT6gCEZ",
+ "_response_id": "msg_011CgBXD2rLkyBPoYn343M5V",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0xd03dffd02db4b076e3eed9272a6a243a23de16e3\", \"0x1c98562a2fab5af19d8fb3291a36ac3c618835d9\", \"0xca3d6a94759cb675f0ac10a76fc0da6ee6bf6e7b\", \"0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8\", \"0x5cf235c56418109fb7f0aacca1b75a0a38047ca9\", \"0x04dd76803f247b611d4f470fc6cd206a9d02f869\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.073452, \"gas_eth\": 0.065414, \"profit_after_gas\": 0.008038, \"residual\": \"none\", \"confidence\": 4, \"note\": \"There are three independent two-pool WETH cycles (METIS, LINK, EFI). In each, a UniswapV2 pool sends the token straight to a UniswapV3 pool, and the V3 pool pays WETH to the actor contract. WETH nets +0.025240, +0.024480 and +0.023732, totalling 0.073452. Gas is 0.065414, leaving a small positive result, but the intermediate tokens never touch the actor, so the strict 'received and sent by the actor' cycle test only holds in WETH.\"}",
+ "case_id": "arb106_025",
+ "_time": "2026-10-19T19:32:07+0800"
+}

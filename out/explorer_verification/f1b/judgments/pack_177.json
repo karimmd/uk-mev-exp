@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0x3f61171b1297f6e512c750c172ba86026ab0e820",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071677,
+ "gas_eth": 0.067601,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys FLEX with 2.095656 WETH on the V3 pool, sells it into the V2 FLEX/USDC pool for 6077.899 USDC, then spends that same USDC on the V2 pool in the back leg, so the position is closed with no residual. The victim sells FLEX into that V2 pool between the two legs. The WETH gain is 2.197855 - 2.095656 = 0.102199, less the 0.030522 ETH forwarded out in the back leg gives 0.071677. Gas for both legs is 0.067601, so the final result is about +0.0041 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025600699999999997,
+ "_session": "aff0e537-c115-489e-9074-9468f10de86e",
+ "_raw": "{\"actor\": \"0x00000081c57cbc967248bea482c417207e84cffb\", \"pool\": \"0x3f61171b1297f6e512c750c172ba86026ab0e820\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.071677, \"gas_eth\": 0.067601, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys FLEX with 2.095656 WETH on the V3 pool, sells it into the V2 FLEX/USDC pool for 6077.899 USDC, then spends that same USDC on the V2 pool in the back leg, so the position is closed with no residual. The victim sells FLEX into that V2 pool between the two legs. The WETH gain is 2.197855 - 2.095656 = 0.102199, less the 0.030522 ETH forwarded out in the back leg gives 0.071677. Gas for both legs is 0.067601, so the final result is about +0.0041 ETH.\"}",
+ "case_id": "pack_177",
+ "_time": "2026-10-13T20:39:18+0800"
+}

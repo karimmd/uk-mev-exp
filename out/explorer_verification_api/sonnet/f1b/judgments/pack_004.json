@@ -1,0 +1,31 @@
+{
+ "actor": "0xdf1bac82673d6b9a18d9c476fd90bbecf00fce5d",
+ "pool": "0x504c65569f5ed6a7a8218a526a38c4c9d6a6b138",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.440299,
+ "gas_eth": 0.08222,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0xdf1b\u2026 wraps 4.422105 ETH and buys 5429.89 PLT in the front leg. The victim then buys PLT on the same WETH/PLT pool, and the actor sells the exact same PLT amount back for 4.862404 ETH. That is +0.440299 ETH before gas and about +0.358 ETH after the 0.08222 ETH front and back gas fees, with no PLT left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3822,
+  "output_tokens": 634,
+  "thinking_tokens": 360
+ },
+ "_request_id": "req_011CgBQ3B8KaNP4eFNT3WagR",
+ "_response_id": "msg_011CgBQ3HbWMZTWCTaxufg4Q",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xdf1bac82673d6b9a18d9c476fd90bbecf00fce5d\",\"pool\":\"0x504c65569f5ed6a7a8218a526a38c4c9d6a6b138\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.440299,\"gas_eth\":0.08222,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract 0xdf1b\u2026 wraps 4.422105 ETH and buys 5429.89 PLT in the front leg. The victim then buys PLT on the same WETH/PLT pool, and the actor sells the exact same PLT amount back for 4.862404 ETH. That is +0.440299 ETH before gas and about +0.358 ETH after the 0.08222 ETH front and back gas fees, with no PLT left over.\"}",
+ "case_id": "pack_004",
+ "_time": "2026-10-19T17:58:02+0800"
+}

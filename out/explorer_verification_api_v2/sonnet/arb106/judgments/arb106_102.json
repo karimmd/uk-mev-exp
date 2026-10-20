@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000007253c7b66206e928357d14c4574c83de71",
+ "pools": [
+  "0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008001,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.008001,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 13.916985 WETH to the USDC/WETH V3 pool. That USDC goes to the FEI/USDC V3 pool, whose FEI goes to the TRIBE/FEI V2 pair, whose TRIBE goes to the TRIBE/WETH V3 pool, which pays the actor 13.939577 WETH. The WETH gain is 0.022592, less a 0.014591 ETH internal transfer to 0xea67 (likely a miner tip), leaves +0.008001. The explorer shows a gas fee of 0, so I used 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2301,
+  "output_tokens": 1151,
+  "thinking_tokens": 692
+ },
+ "_request_id": "req_011CgBXbg4pSEiiWeTgm3cet",
+ "_response_id": "msg_011CgBXbgXM5dqG2AAwKiTTD",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000007253c7b66206e928357d14c4574c83de71\",\"pools\":[\"0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.008001,\"gas_eth\":0.0,\"profit_after_gas\":0.008001,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 13.916985 WETH to the USDC/WETH V3 pool. That USDC goes to the FEI/USDC V3 pool, whose FEI goes to the TRIBE/FEI V2 pair, whose TRIBE goes to the TRIBE/WETH V3 pool, which pays the actor 13.939577 WETH. The WETH gain is 0.022592, less a 0.014591 ETH internal transfer to 0xea67 (likely a miner tip), leaves +0.008001. The explorer shows a gas fee of 0, so I used 0.\"}",
+ "case_id": "arb106_102",
+ "_time": "2026-10-19T19:37:13+0800"
+}

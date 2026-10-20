@@ -1,0 +1,31 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.090941,
+ "gas_eth": 0.159357,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x55eb routes WETH to RACA on pool 0x5212, then RACA to USDT on pool 0x700f, and ends the front leg holding 31120.11 USDT. The victim also sells RACA for USDT on 0x700f, and the back leg reverses the exact USDT amount through the same two pools for 6.970486 WETH against 6.720188 WETH in. The gross WETH gain of 0.250298 exceeds the 0.159357 ETH in front and back gas, leaving no residual token.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3067,
+  "output_tokens": 635,
+  "thinking_tokens": 331
+ },
+ "_request_id": "req_011CgBRM9afrfjQDTnj64xm2",
+ "_response_id": "msg_011CgBRM9wFWA5LmSnC5pBrP",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\", \"pool\": \"0x700fc86c46299cf2a8fd86edadae3f57014351b0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.090941, \"gas_eth\": 0.159357, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x55eb routes WETH to RACA on pool 0x5212, then RACA to USDT on pool 0x700f, and ends the front leg holding 31120.11 USDT. The victim also sells RACA for USDT on 0x700f, and the back leg reverses the exact USDT amount through the same two pools for 6.970486 WETH against 6.720188 WETH in. The gross WETH gain of 0.250298 exceeds the 0.159357 ETH in front and back gas, leaving no residual token.\"}",
+ "case_id": "pack_110",
+ "_time": "2026-10-19T18:15:14+0800"
+}

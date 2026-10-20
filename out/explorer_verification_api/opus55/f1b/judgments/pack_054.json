@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x78ab16803d92f6db77ef6d4e92fe139affab78cf",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.090713,
+ "gas_eth": 0.103107,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg the contract 0x0000\u202646aa pays 8.263597 WETH into the FREE/WETH UniswapV3 pool 0x78ab\u2026 for 3,211,873.52 FREE. The victim then buys FREE on the same pool, and the back leg sells exactly the same FREE amount for 8.457417 WETH. That is a 0.193820 WETH gross gain; minus 0.103107 ETH gas (mostly the 1103 gwei back leg), the net is about +0.0907 ETH with no FREE left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2750,
+  "output_tokens": 485,
+  "thinking_tokens": 177
+ },
+ "_request_id": "req_011CgBQhTbKxrpnknqy9j6QH",
+ "_response_id": "msg_011CgBQhZyoZpNkTznMwgxhs",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0x78ab16803d92f6db77ef6d4e92fe139affab78cf\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.090713, \"gas_eth\": 0.103107, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg the contract 0x0000\u202646aa pays 8.263597 WETH into the FREE/WETH UniswapV3 pool 0x78ab\u2026 for 3,211,873.52 FREE. The victim then buys FREE on the same pool, and the back leg sells exactly the same FREE amount for 8.457417 WETH. That is a 0.193820 WETH gross gain; minus 0.103107 ETH gas (mostly the 1103 gwei back leg), the net is about +0.0907 ETH with no FREE left over.\"}",
+ "case_id": "pack_054",
+ "_time": "2026-10-19T18:06:42+0800"
+}

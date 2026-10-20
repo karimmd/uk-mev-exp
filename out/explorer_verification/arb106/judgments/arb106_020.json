@@ -1,0 +1,26 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17",
+  "0x3545d371334f4374872e915caf5ec36c0d83b93e",
+  "0xbbc95e1eb6ee476e9cbb8112435e14b372563038",
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+  "0x122e55503a0b2e5cd528effa44d0b2fea300f24b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.010021,
+ "gas_eth": 0.008856,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor only touches WETH. It swaps WETH through a V3 pool and a V2 pool (CGG leg), then through a V3 pool, a V2 pool and a second V2 pool (WOO/USDC leg), with intermediate tokens moving pool to pool. The WETH gains are +0.004192 and +0.005829, totalling +0.010021, and subtracting the 0.008856 gas fee leaves about +0.001165 ETH. The sender is a separate EOA that pays the gas, so the margin is thin but positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024668700000000002,
+ "_session": "eabe4b5d-a8e2-4e53-8a32-9dca6788cfa9",
+ "_raw": "{\"actor\": \"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\", \"pools\": [\"0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17\", \"0x3545d371334f4374872e915caf5ec36c0d83b93e\", \"0xbbc95e1eb6ee476e9cbb8112435e14b372563038\", \"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\", \"0x122e55503a0b2e5cd528effa44d0b2fea300f24b\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.010021, \"gas_eth\": 0.008856, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor only touches WETH. It swaps WETH through a V3 pool and a V2 pool (CGG leg), then through a V3 pool, a V2 pool and a second V2 pool (WOO/USDC leg), with intermediate tokens moving pool to pool. The WETH gains are +0.004192 and +0.005829, totalling +0.010021, and subtracting the 0.008856 gas fee leaves about +0.001165 ETH. The sender is a separate EOA that pays the gas, so the margin is thin but positive.\"}",
+ "case_id": "arb106_020",
+ "_time": "2026-10-13T22:15:01+0800"
+}

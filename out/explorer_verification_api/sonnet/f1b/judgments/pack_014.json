@@ -1,0 +1,31 @@
+{
+ "actor": "0xc6e6dd6a0c61651d1bc055dc1c22418a729d41bb",
+ "pool": "0x51c1d5cdf10dda49219054920c22c8d4a23eed89",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.017831,
+ "gas_eth": 0.30479,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0xc6e6 bought 2,478,058.296219 LX with 16.53 WETH in the front leg. It sold the same LX amount back for 17.547831 WETH in the back leg, on the same pool the victim bought LX from in between. The front and back transactions come from different EOAs, but both call the same contract, which is the actor. The WETH gain of 1.017831 less gas of 0.30479 (0.290728 front + 0.014062 back) leaves about +0.713 ETH, with no residual LX.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3096,
+  "output_tokens": 676,
+  "thinking_tokens": 377
+ },
+ "_request_id": "req_011CgBQ9rijhew6gcvxfMFN6",
+ "_response_id": "msg_011CgBQ9yGdibrMw388EKHXQ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xc6e6dd6a0c61651d1bc055dc1c22418a729d41bb\",\"pool\":\"0x51c1d5cdf10dda49219054920c22c8d4a23eed89\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.017831,\"gas_eth\":0.30479,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0xc6e6 bought 2,478,058.296219 LX with 16.53 WETH in the front leg. It sold the same LX amount back for 17.547831 WETH in the back leg, on the same pool the victim bought LX from in between. The front and back transactions come from different EOAs, but both call the same contract, which is the actor. The WETH gain of 1.017831 less gas of 0.30479 (0.290728 front + 0.014062 back) leaves about +0.713 ETH, with no residual LX.\"}",
+ "case_id": "pack_014",
+ "_time": "2026-10-19T17:59:34+0800"
+}

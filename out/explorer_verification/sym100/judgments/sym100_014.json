@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xaf31fd9c3b0350424bf96e551d2d1264d8466205",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.074271,
+ "gas_eth": 0.010469,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 3422.387784 PUSH into the PUSH/WETH pool for 7.277908 WETH in the front leg. The victim then sells PUSH into the same pool, and the actor buys back exactly 3422.387784 PUSH for 7.203637 WETH in the back leg. This is a sell-side sandwich with the PUSH position fully closed. The WETH gain is 0.074271 and gas for the two legs is 0.010469, so the position is positive by about 0.0638 ETH after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0265612,
+ "_session": "65974944-431e-4c04-8bfe-fc5489a65154",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0xaf31fd9c3b0350424bf96e551d2d1264d8466205\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.074271, \"gas_eth\": 0.010469, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 3422.387784 PUSH into the PUSH/WETH pool for 7.277908 WETH in the front leg. The victim then sells PUSH into the same pool, and the actor buys back exactly 3422.387784 PUSH for 7.203637 WETH in the back leg. This is a sell-side sandwich with the PUSH position fully closed. The WETH gain is 0.074271 and gas for the two legs is 0.010469, so the position is positive by about 0.0638 ETH after gas.\"}",
+ "case_id": "sym100_014",
+ "_time": "2026-10-13T21:25:37+0800"
+}

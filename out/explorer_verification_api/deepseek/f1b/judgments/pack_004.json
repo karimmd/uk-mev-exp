@@ -1,0 +1,31 @@
+{
+ "actor": "0xdf1bac82673d6b9a18d9c476fd90bbecf00fce5d",
+ "pool": "0x504c65569f5ed6a7a8218a526a38c4c9d6a6b138",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.358079,
+ "gas_eth": 0.08222,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received PLT in the front swap and returned the same PLT amount in the back swap on the same UniswapV2 pool used by the victim. ETH/WETH net is +0.440299 before front and back gas, leaving +0.358079 after gas, with no residual PLT.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3073,
+  "output_tokens": 4549,
+  "thinking_tokens": 4379
+ },
+ "_request_id": "391a63bacaeaf38723337f3f1f4d73c9",
+ "_response_id": "d8a2a105-78a9-4ca4-bb68-0693ab4048e8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdf1bac82673d6b9a18d9c476fd90bbecf00fce5d\",\"pool\":\"0x504c65569f5ed6a7a8218a526a38c4c9d6a6b138\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.358079,\"gas_eth\":0.082220,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received PLT in the front swap and returned the same PLT amount in the back swap on the same UniswapV2 pool used by the victim. ETH/WETH net is +0.440299 before front and back gas, leaving +0.358079 after gas, with no residual PLT.\"}",
+ "case_id": "pack_004",
+ "_time": "2026-10-19T17:58:24+0800"
+}

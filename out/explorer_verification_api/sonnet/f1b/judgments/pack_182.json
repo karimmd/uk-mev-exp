@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0xcd7989894bc033581532d2cd88da5db0a4b12859",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.21087,
+ "gas_eth": 0.047245,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the actor pays 17.7888 WETH on the V3 WBTC/WETH pool and routes the WBTC into the BADGER/WBTC V2 pool, receiving 2871.878644 BADGER. The victim buys BADGER on that V2 pool, and the back leg returns exactly that BADGER and sells the WBTC back on V3 for 18.922931 WETH. The WETH gain is 1.134131; the 0.923261 ETH forwarded to 0xea67\u2026 is treated as a cost, leaving 0.21087 before gas and about 0.1636 after the 0.047245 ETH gas fees. No BADGER or WBTC is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4033,
+  "output_tokens": 1039,
+  "thinking_tokens": 698
+ },
+ "_request_id": "req_011CgBRp6ZcHVm4zyb3csWCa",
+ "_response_id": "msg_011CgBRp6uCZaRTH6bWcu55b",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000081c57cbc967248bea482c417207e84cffb\",\"pool\":\"0xcd7989894bc033581532d2cd88da5db0a4b12859\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.21087,\"gas_eth\":0.047245,\"residual\":\"none\",\"confidence\":4,\"note\":\"In the front leg the actor pays 17.7888 WETH on the V3 WBTC/WETH pool and routes the WBTC into the BADGER/WBTC V2 pool, receiving 2871.878644 BADGER. The victim buys BADGER on that V2 pool, and the back leg returns exactly that BADGER and sells the WBTC back on V3 for 18.922931 WETH. The WETH gain is 1.134131; the 0.923261 ETH forwarded to 0xea67\u2026 is treated as a cost, leaving 0.21087 before gas and about 0.1636 after the 0.047245 ETH gas fees. No BADGER or WBTC is left over.\"}",
+ "case_id": "pack_182",
+ "_time": "2026-10-19T18:21:20+0800"
+}

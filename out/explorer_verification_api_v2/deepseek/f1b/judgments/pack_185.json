@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000000cb53d776774284822b1298ade47f",
+ "pool": "0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.050223,
+ "gas_eth": 0,
+ "profit_after_gas": 0.050223,
+ "residual": "481026501859.613281 KEANU",
+ "confidence": 5,
+ "note": "The actor contract received KEANU in the front WETH/KEANU swap and sold it back in the back leg on the same pool the victim used. Net WETH across front/back is +0.050223, gas fees for both legs are zero, and leftover KEANU is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2739,
+  "output_tokens": 6446,
+  "thinking_tokens": 6272
+ },
+ "_request_id": "f7799244cdc165269a73507e91226011",
+ "_response_id": "ac9b3cf7-4b3d-4bb3-8329-e6493b2e7f84",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000cb53d776774284822b1298ade47f\",\"pool\":\"0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.050223,\"gas_eth\":0,\"profit_after_gas\":0.050223,\"residual\":\"481026501859.613281 KEANU\",\"confidence\":5,\"note\":\"The actor contract received KEANU in the front WETH/KEANU swap and sold it back in the back leg on the same pool the victim used. Net WETH across front/back is +0.050223, gas fees for both legs are zero, and leftover KEANU is positive.\"}",
+ "case_id": "pack_185",
+ "_time": "2026-10-19T19:26:27+0800"
+}

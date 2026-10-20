@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x29b0aa11de97f6d5a3293d980990e820bda5fbab",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.096466,
+ "gas_eth": 0.023819,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 1057.784535 TRDL for 5.244 WETH in the front leg. The victim then sells TRDL into the same pool. The actor buys back exactly 1057.784535 TRDL for 5.147534 WETH in the back leg, so the sandwich runs in the sell direction. It nets +0.096466 WETH, or about +0.072647 ETH after 0.023819 ETH gas, with no TRDL left over across the two legs.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2898,
+  "output_tokens": 795,
+  "thinking_tokens": 519
+ },
+ "_request_id": "req_011CgBSJhqBJYSt69jPRUWcM",
+ "_response_id": "msg_011CgBSJiA2iZ9L1jrVdTCmP",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x29b0aa11de97f6d5a3293d980990e820bda5fbab\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.096466,\"gas_eth\":0.023819,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 1057.784535 TRDL for 5.244 WETH in the front leg. The victim then sells TRDL into the same pool. The actor buys back exactly 1057.784535 TRDL for 5.147534 WETH in the back leg, so the sandwich runs in the sell direction. It nets +0.096466 WETH, or about +0.072647 ETH after 0.023819 ETH gas, with no TRDL left over across the two legs.\"}",
+ "case_id": "sym100_069",
+ "_time": "2026-10-19T18:27:47+0800"
+}

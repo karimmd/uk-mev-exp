@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x94b86ca6f7a495930fe7f552eb9e4cbb5ef2b736",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.175917,
+ "gas_eth": 0.175918,
+ "profit_after_gas": -1e-06,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are the same router/economic actor trading opposite directions on the UniswapV2 ICE/WETH pool 0x94b86 around the victim. Net WETH before gas is +0.175917, but the front and back gas fees sum to 0.175918, leaving a slightly negative result and no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3488,
+  "output_tokens": 13830,
+  "thinking_tokens": 13641
+ },
+ "_request_id": "6c48e2f63a34ad6a1f3334b6a6128623",
+ "_response_id": "77f6e398-fc0b-49c6-8d2a-c28651b9abbc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x94b86ca6f7a495930fe7f552eb9e4cbb5ef2b736\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.175917,\"gas_eth\":0.175918,\"profit_after_gas\":-0.000001,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are the same router/economic actor trading opposite directions on the UniswapV2 ICE/WETH pool 0x94b86 around the victim. Net WETH before gas is +0.175917, but the front and back gas fees sum to 0.175918, leaving a slightly negative result and no residual non-WETH holding.\"}",
+ "case_id": "sym100_074",
+ "_time": "2026-10-19T19:36:56+0800"
+}

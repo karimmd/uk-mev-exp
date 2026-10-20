@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.063333,
+ "gas_eth": 0.1365,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor buys SPICE on Uniswap V3 pool 0xa0b6 before the victim trades the same pool and sells the same SPICE amount back after. WETH profit is +0.199833; the back-leg ETH value and internal transfer cancel, and subtracting 0.1365 gas leaves +0.063333 ETH-equivalent.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2255,
+  "output_tokens": 8699,
+  "thinking_tokens": 8530
+ },
+ "_request_id": "ac664a465e71603660f41a34113c2d84",
+ "_response_id": "e15f99ff-fc92-4e04-bcdf-c7cbe44fce78",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.063333,\"gas_eth\":0.1365,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor buys SPICE on Uniswap V3 pool 0xa0b6 before the victim trades the same pool and sells the same SPICE amount back after. WETH profit is +0.199833; the back-leg ETH value and internal transfer cancel, and subtracting 0.1365 gas leaves +0.063333 ETH-equivalent.\"}",
+ "case_id": "pack_132",
+ "_time": "2026-10-19T18:26:51+0800"
+}

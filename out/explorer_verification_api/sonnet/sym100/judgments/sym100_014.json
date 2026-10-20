@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xaf31fd9c3b0350424bf96e551d2d1264d8466205",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.074271,
+ "gas_eth": 0.010469,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 3422.387784 PUSH into the PUSH/WETH pool for 7.277908 WETH before the victim, who also sells PUSH on that pool. It then buys back exactly 3422.387784 PUSH for 7.203637 WETH after the victim. The gross WETH gain is 0.074271, or about 0.0638 ETH after 0.010469 ETH of gas. The bracket runs sell-then-rebuy, so the actor needed PUSH inventory beforehand, but its PUSH balance returns to the start.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2853,
+  "output_tokens": 936,
+  "thinking_tokens": 632
+ },
+ "_request_id": "req_011CgBRyRuwLXiQJs94dpmx2",
+ "_response_id": "msg_011CgBRySFXXJU5Lqp7H2P92",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xaf31fd9c3b0350424bf96e551d2d1264d8466205\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.074271,\"gas_eth\":0.010469,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 3422.387784 PUSH into the PUSH/WETH pool for 7.277908 WETH before the victim, who also sells PUSH on that pool. It then buys back exactly 3422.387784 PUSH for 7.203637 WETH after the victim. The gross WETH gain is 0.074271, or about 0.0638 ETH after 0.010469 ETH of gas. The bracket runs sell-then-rebuy, so the actor needed PUSH inventory beforehand, but its PUSH balance returns to the start.\"}",
+ "case_id": "sym100_014",
+ "_time": "2026-10-19T18:23:26+0800"
+}

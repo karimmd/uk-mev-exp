@@ -1,0 +1,32 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": -0.092166,
+ "gas_eth": 0.024731,
+ "profit_after_gas": -0.116897,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract opens a USDC position on the shared POND/USDC pool 0xd187 in the front leg and closes it on the same pool in the back leg, with the victim trading between. Net WETH gain of 0.035226 is outweighed by 0.127392 ETH of internal outflows, and after 0.024731 gas the result is negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2669,
+  "output_tokens": 10122,
+  "thinking_tokens": 9926
+ },
+ "_request_id": "282d900bd718d8a32122319a891a11c8",
+ "_response_id": "eba07cb3-73e2-4560-abe8-640f0e2521dc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0xd18748b9839b0081a867a1a871d5b562b2ec9884\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":-0.092166,\"gas_eth\":0.024731,\"profit_after_gas\":-0.116897,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract opens a USDC position on the shared POND/USDC pool 0xd187 in the front leg and closes it on the same pool in the back leg, with the victim trading between. Net WETH gain of 0.035226 is outweighed by 0.127392 ETH of internal outflows, and after 0.024731 gas the result is negative.\"}",
+ "case_id": "pack_002",
+ "_time": "2026-10-19T19:04:39+0800"
+}

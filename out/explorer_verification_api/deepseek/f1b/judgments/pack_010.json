@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x72af4d1d175672d1f99506e68e6e7cff484be4de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.005627,
+ "gas_eth": 0.022507,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract received 234.177926 ASH in the front leg and returned the exact amount in the back leg on the pool also used by the victim. It sent 1.859508 WETH and received 1.887642 WETH, gross +0.028134 WETH; subtracting front/back gas fees leaves about +0.005627 ETH-equivalent. No non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2612,
+  "output_tokens": 4395,
+  "thinking_tokens": 4209
+ },
+ "_request_id": "f435f80391b7290e95dec698309f5fb8",
+ "_response_id": "5f6c145a-f420-4cf9-8da9-9562d925695d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000500e2fece27a7600435d0c48d64e0c00\",\"pool\":\"0x72af4d1d175672d1f99506e68e6e7cff484be4de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.005627,\"gas_eth\":0.022507,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract received 234.177926 ASH in the front leg and returned the exact amount in the back leg on the pool also used by the victim. It sent 1.859508 WETH and received 1.887642 WETH, gross +0.028134 WETH; subtracting front/back gas fees leaves about +0.005627 ETH-equivalent. No non-WETH residual remains.\"}",
+ "case_id": "pack_010",
+ "_time": "2026-10-19T17:59:26+0800"
+}

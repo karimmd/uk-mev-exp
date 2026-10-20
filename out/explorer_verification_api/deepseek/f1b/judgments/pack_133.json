@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x7270233ccae676e776a659affc35219e6fcfbb10",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.002839,
+ "gas_eth": 0.024422,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor sells CFG for USDC on the shared CFG/USDC pool in the front leg and buys CFG back with that USDC in the back leg around the victim's CFG sale. Net WETH after both gas fees is positive, with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2430,
+  "output_tokens": 5470,
+  "thinking_tokens": 5315
+ },
+ "_request_id": "f05e08ff12d6ea7ede5f6ce4eb102dd9",
+ "_response_id": "1b79d66e-d9bd-4c76-b5ae-496e7e970d56",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x7270233ccae676e776a659affc35219e6fcfbb10\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.002839,\"gas_eth\":0.024422,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor sells CFG for USDC on the shared CFG/USDC pool in the front leg and buys CFG back with that USDC in the back leg around the victim's CFG sale. Net WETH after both gas fees is positive, with no residual non-WETH holding.\"}",
+ "case_id": "pack_133",
+ "_time": "2026-10-19T18:26:43+0800"
+}

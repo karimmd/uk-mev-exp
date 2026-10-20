@@ -1,0 +1,31 @@
+{
+ "actor": "0xda6b746b76fdc8424764d6981e9ef5c3b13a56af",
+ "pool": "0x1be574041828303f0bfb5d06a2414f3bd6da1b2a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022046,
+ "gas_eth": 0.049524,
+ "residual": "18561680720.936768 HUSKY",
+ "confidence": 5,
+ "note": "The same actor contract buys HUSKY on the UniswapV2 pool in front and sells HUSKY back on it after the victim, who also trades that pool. Net ETH/WETH after front+back gas is positive, with residual HUSKY left over.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2741,
+  "output_tokens": 8289,
+  "thinking_tokens": 8122
+ },
+ "_request_id": "f7b04aa4d8e3804e47e6b51e267e9f32",
+ "_response_id": "d388637f-23db-4998-a054-fa0e386d8f5f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xda6b746b76fdc8424764d6981e9ef5c3b13a56af\",\"pool\":\"0x1be574041828303f0bfb5d06a2414f3bd6da1b2a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.022046,\"gas_eth\":0.049524,\"residual\":\"18561680720.936768 HUSKY\",\"confidence\":5,\"note\":\"The same actor contract buys HUSKY on the UniswapV2 pool in front and sells HUSKY back on it after the victim, who also trades that pool. Net ETH/WETH after front+back gas is positive, with residual HUSKY left over.\"}",
+ "case_id": "pack_112",
+ "_time": "2026-10-19T18:21:57+0800"
+}

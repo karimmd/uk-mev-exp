@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5f6af850b5aec2962397d24e8cd820e511c2f1ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.039876,
+ "gas_eth": 0.033648,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract receives QANX in the front leg and sends it back to the same Uniswap V2 pool in the back leg, with the victim trading on that pool in between. WETH net gain is 2.878533 - 2.805009 = 0.073524, and after 0.033648 ETH gas the result is +0.039876 ETH; the small QANX amount mismatch is not a leftover holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2627,
+  "output_tokens": 3003,
+  "thinking_tokens": 2809
+ },
+ "_request_id": "060adbbe9975a0b486c2146698947f88",
+ "_response_id": "867060c8-e07b-4c80-b404-778c03e7c61e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x5f6af850b5aec2962397d24e8cd820e511c2f1ee\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.039876,\"gas_eth\":0.033648,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract receives QANX in the front leg and sends it back to the same Uniswap V2 pool in the back leg, with the victim trading on that pool in between. WETH net gain is 2.878533 - 2.805009 = 0.073524, and after 0.033648 ETH gas the result is +0.039876 ETH; the small QANX amount mismatch is not a leftover holding.\"}",
+ "case_id": "pack_104",
+ "_time": "2026-10-19T18:20:20+0800"
+}

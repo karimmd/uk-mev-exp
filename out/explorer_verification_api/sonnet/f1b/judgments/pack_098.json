@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9ac681f68a589cc3763bad9ce43be3380696b136",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.081672,
+ "gas_eth": 0.068133,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 69.817709 MM in the front leg and sells exactly that amount in the back leg on the pool the victim traded on, with the victim between them. WETH net is +0.081672 against 0.068133 ETH of observable gas (the back leg shows a zero fee), leaving a small positive result.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3279,
+  "output_tokens": 673,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBR9z4dL2YKmAvzZ96Ka",
+ "_response_id": "msg_011CgBRA4yoDjQzmhei96n9N",
+ "_reader": "sonnet",
+ "_raw": "Reading the three legs on pool 0x9ac681f6...:\n\n- **Front:** the actor, contract 0x00000000003b3cc2..., buys 69.817709 MM and pays 7.796880 WETH.\n- **Victim:** buys 25.1 MM with 2.891 ETH on the same pool, between the two legs.\n- **Back:** the actor sells the same 69.817709 MM and receives 7.878552 WETH.\n\nThe actor is the same in both legs and the position is fully closed, so this is a sandwich bracket.\n\n**Net:** 7.878552 \u2212 7.796880 = 0.081672 ETH.\n\n**Gas:** the front fee is 0.068133 ETH. The back shows 0.0 gwei and a fee of 0. That is probably a zero-priced transaction, perhaps a miner-paid bundle, so the observable gas total is 0.068133 ETH.\n\n**After cost:** 0.081672 \u2212 0.068133 = 0.013539 ETH, which is positive. No residual MM remains: 69.817709 was received and 69.817709 was sent.\n\nThe back leg's zero gas price is odd, but the figures shown are what the explorers return, so I take the fee as given. Even if the back fee were nonzero, 60435 gas at about 38 gwei would add roughly 0.0023 ETH, and the net would still be positive.\n\n```json\n{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x9ac681f68a589cc3763bad9ce43be3380696b136\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.081672,\"gas_eth\":0.068133,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract buys 69.817709 MM in the front leg and sells exactly that amount in the back leg on the pool the victim traded on, with the victim between them. WETH net is +0.081672 against 0.068133 ETH of observable gas (the back leg shows a zero fee), leaving a small positive result.\"}\n```",
+ "case_id": "pack_098",
+ "_time": "2026-10-19T18:12:41+0800"
+}

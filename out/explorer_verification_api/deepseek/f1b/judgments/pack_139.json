@@ -1,0 +1,31 @@
+{
+ "actor": "0xfb5761fde5227d8bb093daf9db87013b3ab9cd24",
+ "pool": "0x5f57c5f9564d6a4e25d908605341632e33e7874d",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -0.0162386052,
+ "gas_eth": 0.0162376052,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0xfb5761... sold ROCKS for WETH in front and later paid WETH to buy the same ROCKS back on the same UniswapV2 pool used by the victim. The net WETH round trip is essentially flat/minus dust, and after gas the actor is negative, so it fails the front-open non-WETH sandwich condition and is not profitable.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2487,
+  "output_tokens": 9285,
+  "thinking_tokens": 9099
+ },
+ "_request_id": "b40c3fa404d9242aaf6e5e12c0f9f669",
+ "_response_id": "ceea40e9-6e7d-477c-bfbd-77f3297a971c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xfb5761fde5227d8bb093daf9db87013b3ab9cd24\",\"pool\":\"0x5f57c5f9564d6a4e25d908605341632e33e7874d\",\"Q1\":\"no\",\"Q2\":\"no\",\"net_eth\":-0.0162386052,\"gas_eth\":0.0162376052,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0xfb5761... sold ROCKS for WETH in front and later paid WETH to buy the same ROCKS back on the same UniswapV2 pool used by the victim. The net WETH round trip is essentially flat/minus dust, and after gas the actor is negative, so it fails the front-open non-WETH sandwich condition and is not profitable.\"}",
+ "case_id": "pack_139",
+ "_time": "2026-10-19T18:30:29+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x4214290310264a27b0ba8cff02b4c592d0234aa1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.007224,
+ "gas_eth": 6e-06,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xcc1d routes RFOX through pool 0xc448 and sells it into pool 0x4214 ahead of the victim's RFOX sale on 0x4214, then buys the RFOX back on 0x4214 and returns it through 0xc448, so it holds no RFOX at the end. WETH nets -0.741579 in the front and +0.759885 in the back; after the 0.011076 ETH internal transfer to 0xf541 and about 0.000006 ETH gas, the actor is about +0.0072 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3551,
+  "output_tokens": 1488,
+  "thinking_tokens": 1178
+ },
+ "_request_id": "req_011CgBSB1ETs9a8fiHNXS9or",
+ "_response_id": "msg_011CgBSB1c2kHE9fGB53SqqF",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\", \"pool\": \"0x4214290310264a27b0ba8cff02b4c592d0234aa1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.007224, \"gas_eth\": 0.000006, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xcc1d routes RFOX through pool 0xc448 and sells it into pool 0x4214 ahead of the victim's RFOX sale on 0x4214, then buys the RFOX back on 0x4214 and returns it through 0xc448, so it holds no RFOX at the end. WETH nets -0.741579 in the front and +0.759885 in the back; after the 0.011076 ETH internal transfer to 0xf541 and about 0.000006 ETH gas, the actor is about +0.0072 ETH.\"}",
+ "case_id": "sym100_027",
+ "_time": "2026-10-19T18:26:12+0800"
+}

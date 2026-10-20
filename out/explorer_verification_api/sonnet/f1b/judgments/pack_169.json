@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.077763,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys STARL with 12.118578 WETH in the front leg and sells the same 32742191893.925209 STARL back for 12.273782 WETH in the back leg. The victim buys STARL on the same pool in between. The WETH gain is 0.155204, less the 0.077441 ETH sent with the back tx and forwarded to 0xb3b7\u2026, which is probably a builder payment, leaving about +0.077763 ETH. Both legs show gas at 0.0 gwei, so gas fees are zero.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3421,
+  "output_tokens": 692,
+  "thinking_tokens": 394
+ },
+ "_request_id": "req_011CgBRkNSUY8qJKQnsosvdd",
+ "_response_id": "msg_011CgBRkNmKdpP8PDoVMqYag",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.077763,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys STARL with 12.118578 WETH in the front leg and sells the same 32742191893.925209 STARL back for 12.273782 WETH in the back leg. The victim buys STARL on the same pool in between. The WETH gain is 0.155204, less the 0.077441 ETH sent with the back tx and forwarded to 0xb3b7\u2026, which is probably a builder payment, leaving about +0.077763 ETH. Both legs show gas at 0.0 gwei, so gas fees are zero.\"}",
+ "case_id": "pack_169",
+ "_time": "2026-10-19T18:20:27+0800"
+}

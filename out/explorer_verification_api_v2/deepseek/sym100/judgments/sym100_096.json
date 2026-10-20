@@ -1,0 +1,32 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.213209,
+ "gas_eth": 0.027306,
+ "profit_after_gas": 0.185903,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor sells CVR for WETH in the front leg and buys the same CVR amount back in the back leg on the same Uniswap V2 pool, with the victim trading on that pool between them. Net WETH gain is 0.213209 before gas; CVR nets to zero and no non-WETH residual remains, with only a small CHI burn visible.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2788,
+  "output_tokens": 5423,
+  "thinking_tokens": 5233
+ },
+ "_request_id": "0bcb9d895d2daeccf28f1a94cda1f79c",
+ "_response_id": "7fe11972-29c2-4ff4-b9d9-b0aaa24eebd3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x09ddb304758caf024706dee2e92b569ca4823aa1\",\"pool\":\"0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.213209,\"gas_eth\":0.027306,\"profit_after_gas\":0.185903,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor sells CVR for WETH in the front leg and buys the same CVR amount back in the back leg on the same Uniswap V2 pool, with the victim trading on that pool between them. Net WETH gain is 0.213209 before gas; CVR nets to zero and no non-WETH residual remains, with only a small CHI burn visible.\"}",
+ "case_id": "sym100_096",
+ "_time": "2026-10-19T19:38:11+0800"
+}

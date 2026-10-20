@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x164fe0239d703379bddde3c80e4d4800a1cd452b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028397,
+ "gas_eth": 0.014053,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 829.147676 BTC2X-FLI on the WBTC/FLI V2 pool in the front leg, using WETH routed through a V3 pool. The victim buys FLI on that same V2 pool, and the actor sells exactly the same FLI amount back in the back leg. WETH net is +0.077816, and the 0.049419 ETH transfer to 0x99c8\u2026 (likely a builder tip) brings it to +0.028397 before gas. After 0.014053 ETH of gas, the net is about +0.014344 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0274328,
+ "_session": "042546ac-f320-4079-9de7-7ed71bd7b87a",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x164fe0239d703379bddde3c80e4d4800a1cd452b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.028397, \"gas_eth\": 0.014053, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 829.147676 BTC2X-FLI on the WBTC/FLI V2 pool in the front leg, using WETH routed through a V3 pool. The victim buys FLI on that same V2 pool, and the actor sells exactly the same FLI amount back in the back leg. WETH net is +0.077816, and the 0.049419 ETH transfer to 0x99c8\u2026 (likely a builder tip) brings it to +0.028397 before gas. After 0.014053 ETH of gas, the net is about +0.014344 ETH.\"}",
+ "case_id": "rej53_049",
+ "_time": "2026-10-13T22:03:22+0800"
+}

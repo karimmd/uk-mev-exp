@@ -1,0 +1,31 @@
+{
+ "actor": "0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567",
+ "pool": "0xb9f7046f985a906ee3f48f738a44bbcd22bee727",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.066347547,
+ "gas_eth": 0.021903453,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract opened and closed an equal MNET position on the shared Uniswap V2 pool, with the victim's WETH-to-MNET swap between. Net WETH gain after front/back gas is positive, and no residual MNET remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2591,
+  "output_tokens": 2787,
+  "thinking_tokens": 2635
+ },
+ "_request_id": "398dee607836afd275655485d755759b",
+ "_response_id": "21fffe62-2ca6-4376-9db6-4bd6a898dcc1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567\",\"pool\":\"0xb9f7046f985a906ee3f48f738a44bbcd22bee727\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.066347547,\"gas_eth\":0.021903453,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract opened and closed an equal MNET position on the shared Uniswap V2 pool, with the victim's WETH-to-MNET swap between. Net WETH gain after front/back gas is positive, and no residual MNET remains.\"}",
+ "case_id": "pack_136",
+ "_time": "2026-10-19T18:27:00+0800"
+}

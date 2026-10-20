@@ -1,0 +1,17 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xf7d31825946e7fd99ef07212d34b9dad84c396b7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.020853,
+ "gas_eth": 0.010662,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract is called by the same sender in both legs. In the front leg it buys BONE from pool 0xefb4\u2026 and sells it into pool 0xf7d3\u2026 before the victim sells BONE into 0xf7d3\u2026. In the back leg it buys BONE back from 0xf7d3\u2026 and sells it into 0xefb4\u2026. BONE nets to zero. WETH nets -0.018767 in the front leg and +0.039620 in the back leg, which is +0.020853, or about +0.010191 ETH after the 0.010662 ETH gas. The actor never holds BONE between the legs, because it routes pool to pool, so the 'position' is economic rather than a held balance. That is why confidence is not higher.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0296912,
+ "_session": "b4cdfcc4-d5af-433e-9c33-866fa005a78e",
+ "_raw": "{\"actor\": \"0x0000000000d41c96294ccdac8612bdfe29c641af\", \"pool\": \"0xf7d31825946e7fd99ef07212d34b9dad84c396b7\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.020853, \"gas_eth\": 0.010662, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract is called by the same sender in both legs. In the front leg it buys BONE from pool 0xefb4\u2026 and sells it into pool 0xf7d3\u2026 before the victim sells BONE into 0xf7d3\u2026. In the back leg it buys BONE back from 0xf7d3\u2026 and sells it into 0xefb4\u2026. BONE nets to zero. WETH nets -0.018767 in the front leg and +0.039620 in the back leg, which is +0.020853, or about +0.010191 ETH after the 0.010662 ETH gas. The actor never holds BONE between the legs, because it routes pool to pool, so the 'position' is economic rather than a held balance. That is why confidence is not higher.\"}",
+ "case_id": "sym100_038",
+ "_time": "2026-10-13T21:31:03+0800"
+}

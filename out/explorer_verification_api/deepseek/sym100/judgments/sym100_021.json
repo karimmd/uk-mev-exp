@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd03dffd02db4b076e3eed9272a6a243a23de16e3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01983,
+ "gas_eth": 0.290373,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same actor contract fronts on the shared UniswapV2 METIS/WETH pool, with the victim selling METIS between front and back. The front sells METIS into that pool (via a V3 route) and the back buys it back before routing to V3; net WETH after gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2471,
+  "output_tokens": 13839,
+  "thinking_tokens": 13672
+ },
+ "_request_id": "2d635b09700776aa6df9d0a87b1da24e",
+ "_response_id": "ea59ee11-7019-4e3c-a3b7-7c38b3c98a1d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xd03dffd02db4b076e3eed9272a6a243a23de16e3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.01983,\"gas_eth\":0.290373,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same actor contract fronts on the shared UniswapV2 METIS/WETH pool, with the victim selling METIS between front and back. The front sells METIS into that pool (via a V3 route) and the back buys it back before routing to V3; net WETH after gas is positive.\"}",
+ "case_id": "sym100_021",
+ "_time": "2026-10-19T18:42:05+0800"
+}

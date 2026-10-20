@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000767,
+ "gas_eth": 0.0,
+ "residual": "possibly ~4.7B SAITAMA (about 2% of the amount bought; may be a transfer tax rather than a held balance)",
+ "confidence": 4,
+ "note": "Contract 0x36c1 buys SAITAMA with 0.316928 WETH on pool 0xd0dc before the victim buys SAITAMA on the same pool, then sells back for 0.332259 WETH. The 0.014564 ETH sent in as tx value and forwarded to 0x1ad9 (likely a miner bribe) leaves about +0.000767 ETH with zero gas fees. Any leftover SAITAMA would only add to that, so the sign is positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3114,
+  "output_tokens": 1107,
+  "thinking_tokens": 765
+ },
+ "_request_id": "req_011CgBRWsnBXnHazbCfuuzKS",
+ "_response_id": "msg_011CgBRWxr2nnxuVFbGaV4Nx",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\", \"pool\": \"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000767, \"gas_eth\": 0.0, \"residual\": \"possibly ~4.7B SAITAMA (about 2% of the amount bought; may be a transfer tax rather than a held balance)\", \"confidence\": 4, \"note\": \"Contract 0x36c1 buys SAITAMA with 0.316928 WETH on pool 0xd0dc before the victim buys SAITAMA on the same pool, then sells back for 0.332259 WETH. The 0.014564 ETH sent in as tx value and forwarded to 0x1ad9 (likely a miner bribe) leaves about +0.000767 ETH with zero gas fees. Any leftover SAITAMA would only add to that, so the sign is positive.\"}",
+ "case_id": "pack_126",
+ "_time": "2026-10-19T18:17:31+0800"
+}

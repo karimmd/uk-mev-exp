@@ -1,0 +1,31 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.157646,
+ "gas_eth": 0.010519,
+ "residual": "none observed (token transfers not decoded; assumed fully sold in back leg)",
+ "confidence": 3,
+ "note": "The same contract (0x4df3...) is the target of both the front and back legs and trades the 0xbd39 pool with the victim in between. It puts in 1.164192 WETH and takes out 1.321838 ETH, a gross gain of 0.157646 and about 0.1471 after 0.010519 gas. The victim sells the token, the same direction as the back leg, and the profit is large relative to the victim's 0.16 ETH trade, which makes the pattern less typical and lowers my confidence.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3272,
+  "output_tokens": 1010,
+  "thinking_tokens": 691
+ },
+ "_request_id": "req_011CgBSfGN5Xsc3anH7Pze1S",
+ "_response_id": "msg_011CgBSfGhfeAMqLUPUuSSNg",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\", \"pool\": \"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.157646, \"gas_eth\": 0.010519, \"residual\": \"none observed (token transfers not decoded; assumed fully sold in back leg)\", \"confidence\": 3, \"note\": \"The same contract (0x4df3...) is the target of both the front and back legs and trades the 0xbd39 pool with the victim in between. It puts in 1.164192 WETH and takes out 1.321838 ETH, a gross gain of 0.157646 and about 0.1471 after 0.010519 gas. The victim sells the token, the same direction as the back leg, and the profit is large relative to the victim's 0.16 ETH trade, which makes the pattern less typical and lowers my confidence.\"}",
+ "case_id": "rej53_031",
+ "_time": "2026-10-19T18:32:29+0800"
+}

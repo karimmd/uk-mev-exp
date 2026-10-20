@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xaf31fd9c3b0350424bf96e551d2d1264d8466205",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.074271,
+ "gas_eth": 0.010469,
+ "profit_after_gas": 0.063802,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 3422.387784 PUSH into the PUSH/WETH pool in the front leg for 7.277908 WETH. The victim then sells PUSH on the same pool, and the back leg buys back exactly 3422.387784 PUSH for 7.203637 WETH, closing the short. Net WETH is +0.074271, gas is 0.004658 + 0.005811 ETH, and no PUSH is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2942,
+  "output_tokens": 702,
+  "thinking_tokens": 417
+ },
+ "_request_id": "req_011CgBWDhzRev9NR1544EyAy",
+ "_response_id": "msg_011CgBWDiMWe7ay8bwDz8N5P",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xaf31fd9c3b0350424bf96e551d2d1264d8466205\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.074271,\"gas_eth\":0.010469,\"profit_after_gas\":0.063802,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 3422.387784 PUSH into the PUSH/WETH pool in the front leg for 7.277908 WETH. The victim then sells PUSH on the same pool, and the back leg buys back exactly 3422.387784 PUSH for 7.203637 WETH, closing the short. Net WETH is +0.074271, gas is 0.004658 + 0.005811 ETH, and no PUSH is left over.\"}",
+ "case_id": "sym100_014",
+ "_time": "2026-10-19T19:19:05+0800"
+}

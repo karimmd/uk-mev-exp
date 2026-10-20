@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x87898263b6c5babe34b4ec53f22d98430b91e371",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.031206,
+ "gas_eth": 0.074287,
+ "residual": "0.000001 BEAN dust (negligible)",
+ "confidence": 5,
+ "note": "Contract 0x0000\u2026594e buys 18562.71 BEAN for 4.474893 WETH on pool 0x8789\u2026e371 and sells it back there for 4.580386 WETH. The victim's 25 ETH buy of BEAN on the same pool sits between them. Gross 0.105493 WETH minus 0.074287 ETH gas leaves about +0.0312 ETH, with only 1e-6 BEAN left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3077,
+  "output_tokens": 541,
+  "thinking_tokens": 257
+ },
+ "_request_id": "req_011CgBQE7x8idbfy5WDzd9yP",
+ "_response_id": "msg_011CgBQEDwY6fuvzfQZsVWy8",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x87898263b6c5babe34b4ec53f22d98430b91e371\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.031206, \"gas_eth\": 0.074287, \"residual\": \"0.000001 BEAN dust (negligible)\", \"confidence\": 5, \"note\": \"Contract 0x0000\u2026594e buys 18562.71 BEAN for 4.474893 WETH on pool 0x8789\u2026e371 and sells it back there for 4.580386 WETH. The victim's 25 ETH buy of BEAN on the same pool sits between them. Gross 0.105493 WETH minus 0.074287 ETH gas leaves about +0.0312 ETH, with only 1e-6 BEAN left over.\"}",
+ "case_id": "pack_018",
+ "_time": "2026-10-19T18:00:31+0800"
+}

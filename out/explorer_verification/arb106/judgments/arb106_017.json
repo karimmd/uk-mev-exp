@@ -1,0 +1,25 @@
+{
+ "actor": "0xa1006d0051a35b0000f961a8000000009ea8d2db",
+ "pools": [
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0x97e7d56a0408570ba1a7852de36350f7713906ec",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.069293,
+ "gas_eth": 0.062741,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 10.344133 WETH to the DAI pool and receives 10.413426 WETH from the FXS pool. In between, the pools pass tokens directly to each other: WETH to DAI to FRAX to FXS to WETH. That makes a four-pool cycle with a gross gain of 0.069293 WETH, or about 0.006552 ETH after the 0.062741 ETH gas fee. The actor holds no other token afterward.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026057200000000003,
+ "_session": "a084b8c6-2592-417b-ac1e-f960ca836ca2",
+ "_raw": "{\"actor\":\"0xa1006d0051a35b0000f961a8000000009ea8d2db\",\"pools\":[\"0x60594a405d53811d3bc4766596efd80fd545a270\",\"0x97e7d56a0408570ba1a7852de36350f7713906ec\",\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"0xcd8286b48936cdac20518247dbd310ab681a9fbf\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.069293,\"gas_eth\":0.062741,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 10.344133 WETH to the DAI pool and receives 10.413426 WETH from the FXS pool. In between, the pools pass tokens directly to each other: WETH to DAI to FRAX to FXS to WETH. That makes a four-pool cycle with a gross gain of 0.069293 WETH, or about 0.006552 ETH after the 0.062741 ETH gas fee. The actor holds no other token afterward.\"}",
+ "case_id": "arb106_017",
+ "_time": "2026-10-13T22:13:49+0800"
+}

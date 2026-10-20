@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.018448,
+ "gas_eth": 0.013303,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH through the EXRD/WETH pool (0x3f2e\u2026) into the EXRD/USDC pool (0x684b\u2026) and ends the front leg holding 3681.319455 USDC. The back leg returns exactly that USDC to 0x684b\u2026, so the position opens and closes around the victim's EXRD\u2192USDC swap on 0x684b\u2026. Net WETH is +1.268656 \u2212 1.229617 = +0.039039. The 0.020591 ETH internal transfer to 0x99c8\u2026 (likely a builder tip) leaves +0.018448, and after 0.013303 ETH of gas about +0.005145 ETH remains.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0262312,
+ "_session": "449f5e47-be96-438c-93f4-3caeb97f39f0",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.018448,\"gas_eth\":0.013303,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract routes WETH through the EXRD/WETH pool (0x3f2e\u2026) into the EXRD/USDC pool (0x684b\u2026) and ends the front leg holding 3681.319455 USDC. The back leg returns exactly that USDC to 0x684b\u2026, so the position opens and closes around the victim's EXRD\u2192USDC swap on 0x684b\u2026. Net WETH is +1.268656 \u2212 1.229617 = +0.039039. The 0.020591 ETH internal transfer to 0x99c8\u2026 (likely a builder tip) leaves +0.018448, and after 0.013303 ETH of gas about +0.005145 ETH remains.\"}",
+ "case_id": "rej53_013",
+ "_time": "2026-10-13T21:55:54+0800"
+}

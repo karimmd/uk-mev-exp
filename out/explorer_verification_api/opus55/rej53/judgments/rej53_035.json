@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe618785149a1ee7d3042e304e2f899f7a4616b7d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01896,
+ "gas_eth": 0.012964,
+ "residual": "about 0.000545 USDT (dust)",
+ "confidence": 4,
+ "note": "Contract 0x...3b3cc22a routes WETH to WOZX to USDT in front, ending in USDT bought from pool e618. The victim then sells WOZX into e618, and the back leg reverses the route on the same pools, returning 1.126643 WETH for 1.016895 WETH spent. Netting the 0.090788 ETH forwarded to 0x7f10 (likely a builder payment) and 0.012964 ETH gas leaves about +0.006 ETH, so the result is positive whether or not the payment is counted.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3147,
+  "output_tokens": 1017,
+  "thinking_tokens": 697
+ },
+ "_request_id": "req_011CgBSqoMvNsEoETCBp4Zzm",
+ "_response_id": "msg_011CgBSqohm4LvBxuiHyna8S",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xe618785149a1ee7d3042e304e2f899f7a4616b7d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.01896, \"gas_eth\": 0.012964, \"residual\": \"about 0.000545 USDT (dust)\", \"confidence\": 4, \"note\": \"Contract 0x...3b3cc22a routes WETH to WOZX to USDT in front, ending in USDT bought from pool e618. The victim then sells WOZX into e618, and the back leg reverses the route on the same pools, returning 1.126643 WETH for 1.016895 WETH spent. Netting the 0.090788 ETH forwarded to 0x7f10 (likely a builder payment) and 0.012964 ETH gas leaves about +0.006 ETH, so the result is positive whether or not the payment is counted.\"}",
+ "case_id": "rej53_035",
+ "_time": "2026-10-19T18:34:53+0800"
+}

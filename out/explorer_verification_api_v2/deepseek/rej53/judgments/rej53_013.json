@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.018448,
+ "gas_eth": 0.013303,
+ "profit_after_gas": 0.005145,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives USDC on the EXRD/USDC pool in the front leg and repays it in the back leg, with the victim trading the same pool in between. Net WETH/ETH is +0.039039 minus the 0.020591 ETH internal transfer, then minus 0.013303 ETH gas, leaving positive profit and no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2578,
+  "output_tokens": 6126,
+  "thinking_tokens": 5939
+ },
+ "_request_id": "46fc85821298c274dcb37f786fb16bbb",
+ "_response_id": "adbbe1b7-6997-4b19-934f-34bc88839340",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.018448,\"gas_eth\":0.013303,\"profit_after_gas\":0.005145,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives USDC on the EXRD/USDC pool in the front leg and repays it in the back leg, with the victim trading the same pool in between. Net WETH/ETH is +0.039039 minus the 0.020591 ETH internal transfer, then minus 0.013303 ETH gas, leaving positive profit and no non-WETH residual.\"}",
+ "case_id": "rej53_013",
+ "_time": "2026-10-19T19:41:30+0800"
+}

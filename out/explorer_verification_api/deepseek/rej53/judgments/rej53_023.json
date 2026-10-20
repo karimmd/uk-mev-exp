@@ -1,0 +1,31 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0xc88ac988a655b91b70def427c8778b4d43f2048d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.138148,
+ "gas_eth": 0.243935,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x55eb receives 64564.942336 USDC in the front leg and spends the same amount in the back leg across the shared pool c88 and pool d2b, with the victim between. Net WETH gain is 0.382083 ETH; after front+back gas of 0.243935 ETH, net is +0.138148 ETH with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2472,
+  "output_tokens": 7676,
+  "thinking_tokens": 7494
+ },
+ "_request_id": "44b4cbcabd1e376bbc0d6a3dafc5a5c4",
+ "_response_id": "4c42c1b6-495e-41f7-be9c-0afa0e62bf23",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0xc88ac988a655b91b70def427c8778b4d43f2048d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.138148,\"gas_eth\":0.243935,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x55eb receives 64564.942336 USDC in the front leg and spends the same amount in the back leg across the shared pool c88 and pool d2b, with the victim between. Net WETH gain is 0.382083 ETH; after front+back gas of 0.243935 ETH, net is +0.138148 ETH with no residual non-WETH holding.\"}",
+ "case_id": "rej53_023",
+ "_time": "2026-10-19T18:59:24+0800"
+}

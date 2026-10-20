@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x0efea698136d636e2babad10821e9064fe08f418",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.029116,
+ "gas_eth": 0.020745,
+ "profit_after_gas": 0.008371,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same actor contract 0x000...b40 on the ICE/WETH pool 0x0efea, buying and then selling the same 4360.590635 ICE. The victim also trades on 0x0efea between them. Net WETH after the two legs is +0.029116 before gas and +0.008371 after gas, with no ICE residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2794,
+  "output_tokens": 3164,
+  "thinking_tokens": 2968
+ },
+ "_request_id": "11b8afe24fbb3be58062edd78c008d77",
+ "_response_id": "9a18c011-84c4-4454-b3ef-68e62f8a56e9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x0efea698136d636e2babad10821e9064fe08f418\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.029116,\"gas_eth\":0.020745,\"profit_after_gas\":0.008371,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs use the same actor contract 0x000...b40 on the ICE/WETH pool 0x0efea, buying and then selling the same 4360.590635 ICE. The victim also trades on 0x0efea between them. Net WETH after the two legs is +0.029116 before gas and +0.008371 after gas, with no ICE residual.\"}",
+ "case_id": "pack_063",
+ "_time": "2026-10-19T19:11:08+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xf44e8ff3bb644479124e691bf572f7813a1bc499",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.05747,
+ "gas_eth": 0.005716,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x3dad\u2026 sells 1.212499 EDDA into the pool for 0.809 WETH in the front leg. The victim then sells EDDA into the same pool, and the actor buys back exactly 1.212499 EDDA for 0.75153 WETH in the back leg. This is a reverse-order bracket, so the EDDA position nets to zero. The WETH gain is 0.05747, or about 0.05175 after 0.005716 ETH of gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3030,
+  "output_tokens": 835,
+  "thinking_tokens": 553
+ },
+ "_request_id": "req_011CgBS1BYJ9JBvtQtu48tuG",
+ "_response_id": "msg_011CgBS1CQeNCEMTvw4rPcUT",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xf44e8ff3bb644479124e691bf572f7813a1bc499\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.05747,\"gas_eth\":0.005716,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract 0x3dad\u2026 sells 1.212499 EDDA into the pool for 0.809 WETH in the front leg. The victim then sells EDDA into the same pool, and the actor buys back exactly 1.212499 EDDA for 0.75153 WETH in the back leg. This is a reverse-order bracket, so the EDDA position nets to zero. The WETH gain is 0.05747, or about 0.05175 after 0.005716 ETH of gas.\"}",
+ "case_id": "sym100_020",
+ "_time": "2026-10-19T18:23:50+0800"
+}

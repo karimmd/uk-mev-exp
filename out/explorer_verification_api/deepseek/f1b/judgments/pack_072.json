@@ -1,0 +1,31 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.17615241,
+ "gas_eth": 0.02384759,
+ "residual": "none",
+ "confidence": 5,
+ "note": "All three legs are OTEN sells for 0.1 WETH by the same sender on the same Uniswap V2 pool; the front leg does not open a token position that the back leg closes. Net ETH for front+back is +0.2 minus 0.02384759 gas, leaving +0.17615241 with no residual token acquired.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2989,
+  "output_tokens": 6761,
+  "thinking_tokens": 6586
+ },
+ "_request_id": "5fa21e1d2cedc952d150b69253748067",
+ "_response_id": "dd96637e-abcd-44fc-be80-e6fea8531444",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe104053d23918cf2787883508834661c138c9f61\",\"pool\":\"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.17615241,\"gas_eth\":0.02384759,\"residual\":\"none\",\"confidence\":5,\"note\":\"All three legs are OTEN sells for 0.1 WETH by the same sender on the same Uniswap V2 pool; the front leg does not open a token position that the back leg closes. Net ETH for front+back is +0.2 minus 0.02384759 gas, leaving +0.17615241 with no residual token acquired.\"}",
+ "case_id": "pack_072",
+ "_time": "2026-10-19T18:14:20+0800"
+}

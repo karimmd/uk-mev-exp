@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9d18248e03122a198eb17b11d3442665d7c5b16f",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.045984,
+ "gas_eth": 0.04623,
+ "residual": "about 203.14 FlokiSanta (dust, worth roughly 0.000001 ETH at the front-leg price)",
+ "confidence": 4,
+ "note": "The same contract buys FlokiSanta in the front leg (3.134871 WETH out) and sells almost all of it in the back leg (3.180855 WETH in). The victim buys on the same pool in between, so this is a sandwich bracket. The gross WETH gain of 0.045984 is less than the 0.04623 ETH combined gas (the back leg paid 487 gwei), so the result is about -0.000246 ETH. The dust residual is too small to change the sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0245692,
+ "_session": "5c5ee327-706b-4806-846e-9485aa16dbe9",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x9d18248e03122a198eb17b11d3442665d7c5b16f\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.045984, \"gas_eth\": 0.04623, \"residual\": \"about 203.14 FlokiSanta (dust, worth roughly 0.000001 ETH at the front-leg price)\", \"confidence\": 4, \"note\": \"The same contract buys FlokiSanta in the front leg (3.134871 WETH out) and sells almost all of it in the back leg (3.180855 WETH in). The victim buys on the same pool in between, so this is a sandwich bracket. The gross WETH gain of 0.045984 is less than the 0.04623 ETH combined gas (the back leg paid 487 gwei), so the result is about -0.000246 ETH. The dust residual is too small to change the sign.\"}",
+ "case_id": "pack_113",
+ "_time": "2026-10-13T20:26:36+0800"
+}

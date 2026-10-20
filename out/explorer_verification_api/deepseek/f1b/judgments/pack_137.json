@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.573318,
+ "gas_eth": 0.018576,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x00000000003b3cc22af3ae1eac0440bcee416b40 buys TOS on pool 0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4 in the front and sells the same TOS back on that pool after the victim's TOS/WTON swap. Its WETH gain is 20.529028 - 19.937134 = 0.591894, and after 0.018576 gas the net is +0.573318 ETH-equivalent with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2606,
+  "output_tokens": 11957,
+  "thinking_tokens": 11717
+ },
+ "_request_id": "fd14fa6c4fd964bd230dfeead43fa04a",
+ "_response_id": "a11aa266-a87f-4cdc-9a88-1874c8ef81d7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.573318,\"gas_eth\":0.018576,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0x00000000003b3cc22af3ae1eac0440bcee416b40 buys TOS on pool 0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4 in the front and sells the same TOS back on that pool after the victim's TOS/WTON swap. Its WETH gain is 20.529028 - 19.937134 = 0.591894, and after 0.018576 gas the net is +0.573318 ETH-equivalent with no residual non-WETH holding.\"}",
+ "case_id": "pack_137",
+ "_time": "2026-10-19T18:27:44+0800"
+}

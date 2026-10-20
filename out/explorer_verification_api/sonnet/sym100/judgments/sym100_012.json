@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x8d82b68f2346483d6b210383edbe27e7f5ef2365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.135393,
+ "gas_eth": 0.032375,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 1669.880824 CTASK into the pool for 2.427789 WETH in the front leg. The victim then also sells CTASK on the same pool. The actor buys back exactly 1669.880824 CTASK for 2.292396 WETH in the back leg. This is a sell-first (inverted) bracket, so the actor's CTASK inventory is restored and no token residual remains. The WETH net is +0.135393, and after gas of 0.032375 ETH it is about +0.1030 ETH. Confidence is not higher because the actor's CTASK came from inventory held before the front leg, which doesn't match the usual buy-then-sell wording of the protocol.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2629,
+  "output_tokens": 1000,
+  "thinking_tokens": 658
+ },
+ "_request_id": "req_011CgBRxmPBZZ9V5s2PSenvE",
+ "_response_id": "msg_011CgBRxmjX1EAiQnw1nfPEZ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x8d82b68f2346483d6b210383edbe27e7f5ef2365\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.135393,\"gas_eth\":0.032375,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells 1669.880824 CTASK into the pool for 2.427789 WETH in the front leg. The victim then also sells CTASK on the same pool. The actor buys back exactly 1669.880824 CTASK for 2.292396 WETH in the back leg. This is a sell-first (inverted) bracket, so the actor's CTASK inventory is restored and no token residual remains. The WETH net is +0.135393, and after gas of 0.032375 ETH it is about +0.1030 ETH. Confidence is not higher because the actor's CTASK came from inventory held before the front leg, which doesn't match the usual buy-then-sell wording of the protocol.\"}",
+ "case_id": "sym100_012",
+ "_time": "2026-10-19T18:23:18+0800"
+}

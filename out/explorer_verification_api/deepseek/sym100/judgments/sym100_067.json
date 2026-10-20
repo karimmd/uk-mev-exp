@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.468351,
+ "gas_eth": 0.063781,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same actor sells CWS for WETH before the victim and buys CWS back after on the same pool, but the front leg sells rather than opens a non-WETH position, so the Q1 open/close direction fails. Net WETH gain after front and back gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2425,
+  "output_tokens": 6564,
+  "thinking_tokens": 6386
+ },
+ "_request_id": "b5eec77730f19e6c01b81a8433099c86",
+ "_response_id": "6d1054a1-ff66-47f8-80ec-7ddd65dc4f28",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.468351, \"gas_eth\": 0.063781, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same actor sells CWS for WETH before the victim and buys CWS back after on the same pool, but the front leg sells rather than opens a non-WETH position, so the Q1 open/close direction fails. Net WETH gain after front and back gas is positive.\"}",
+ "case_id": "sym100_067",
+ "_time": "2026-10-19T18:51:01+0800"
+}

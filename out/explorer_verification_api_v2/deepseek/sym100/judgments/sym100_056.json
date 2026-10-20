@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3545d371334f4374872e915caf5ec36c0d83b93e",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": 0.06449,
+ "gas_eth": 0.06748,
+ "profit_after_gas": -0.00299,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are a two-pool CGG/WETH arbitrage by the same contract, sharing the Uniswap V3 pool with the victim, but the actor's CGG net position is zero so no non-WETH sandwich position is opened and closed. WETH gain before gas is 0.06449 ETH, while front and back gas totals 0.06748 ETH, leaving a small negative result.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2684,
+  "output_tokens": 9534,
+  "thinking_tokens": 9336
+ },
+ "_request_id": "480d67fff544267eb5137731b12b9e95",
+ "_response_id": "39fbd481-6b2c-41ba-92f4-e13817a01fe5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x3545d371334f4374872e915caf5ec36c0d83b93e\",\"Q1\":\"no\",\"Q2\":\"no\",\"net_eth_before_gas\":0.06449,\"gas_eth\":0.06748,\"profit_after_gas\":-0.00299,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are a two-pool CGG/WETH arbitrage by the same contract, sharing the Uniswap V3 pool with the victim, but the actor's CGG net position is zero so no non-WETH sandwich position is opened and closed. WETH gain before gas is 0.06449 ETH, while front and back gas totals 0.06748 ETH, leaving a small negative result.\"}",
+ "case_id": "sym100_056",
+ "_time": "2026-10-19T19:34:27+0800"
+}

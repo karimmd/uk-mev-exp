@@ -1,0 +1,17 @@
+{
+ "actor": "0x0000007c68390193776e8b44df3b698d311070b9",
+ "pool": "0xc4002da5ceb8c65b3dd985f6c4a9bc961d932690",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.060329,
+ "gas_eth": 0.052503,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 328460.712404 POP for 1.529115 WETH in the front leg, and the victim then buys POP on the same UniswapV3 pool. The back leg sells the identical POP amount for 1.589444 WETH, so the gross gain is 0.060329 WETH, or about 0.007826 ETH after 0.052503 ETH of gas, which includes a high back-leg gas price of 492 gwei. The POP position is fully closed, leaving no residual.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0179687,
+ "_session": "dd6a7c48-7d7c-439d-9d08-71470bb8d2f5",
+ "_raw": "{\"actor\": \"0x0000007c68390193776e8b44df3b698d311070b9\", \"pool\": \"0xc4002da5ceb8c65b3dd985f6c4a9bc961d932690\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.060329, \"gas_eth\": 0.052503, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 328460.712404 POP for 1.529115 WETH in the front leg, and the victim then buys POP on the same UniswapV3 pool. The back leg sells the identical POP amount for 1.589444 WETH, so the gross gain is 0.060329 WETH, or about 0.007826 ETH after 0.052503 ETH of gas, which includes a high back-leg gas price of 492 gwei. The POP position is fully closed, leaving no residual.\"}",
+ "case_id": "pack_105",
+ "_time": "2026-10-13T20:25:04+0800"
+}

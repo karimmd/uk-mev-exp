@@ -1,0 +1,24 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0x122e55503a0b2e5cd528effa44d0b2fea300f24b",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xf5ca27927ffb16bd8c870dcb49750146cce8217c"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.01265,
+ "gas_eth": 0.011511,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 1.46 WETH to the USDC/WETH V3 pool, and the USDC goes straight to the WOO/USDC V2 pair. The WOO goes on to the WOO/WETH V3 pool, which pays 1.47265 WETH back to the actor, so the cycle closes in WETH with +0.01265 WETH gross. After the 0.011511 ETH gas fee, the net is about +0.00114 ETH, and no other token is left with the actor. The sender pays the gas, so the actor's own net depends on the sender and actor being the same operator.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0189707,
+ "_session": "c7bc06c3-0e41-4981-80e2-4703fafc721f",
+ "_raw": "{\"actor\": \"0x9762b1d716bb97735905996e013d61c140722249\", \"pools\": [\"0x122e55503a0b2e5cd528effa44d0b2fea300f24b\", \"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0xf5ca27927ffb16bd8c870dcb49750146cce8217c\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.01265, \"gas_eth\": 0.011511, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 1.46 WETH to the USDC/WETH V3 pool, and the USDC goes straight to the WOO/USDC V2 pair. The WOO goes on to the WOO/WETH V3 pool, which pays 1.47265 WETH back to the actor, so the cycle closes in WETH with +0.01265 WETH gross. After the 0.011511 ETH gas fee, the net is about +0.00114 ETH, and no other token is left with the actor. The sender pays the gas, so the actor's own net depends on the sender and actor being the same operator.\"}",
+ "case_id": "arb106_048",
+ "_time": "2026-10-13T22:21:30+0800"
+}

@@ -1,0 +1,24 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
+  "0xd6c2542362f4c63dcd6fbfca6849690308258b3c",
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.011699,
+ "gas_eth": 0.010764,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Triangular route WETH -> SHIB (V3 pool) -> SAITAMA (V2 pool) -> WETH (V2 pool), with each intermediate token passed directly from pool to pool. 0xdfee sends 0.868318 WETH and receives 0.880017 WETH, a gross gain of 0.011699 WETH, which is about 0.000935 ETH after the 0.010764 ETH gas fee, or about 0.000888 ETH if the 0.000047 ETH internal tip also comes out of the profit. The actor's identity is uncertain: 0xdfee emits no events and the transaction's target (0x0000000000007f15...) never appears in a token transfer, so the profit is the thin margin over gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0263727,
+ "_session": "26f5df77-b99d-4073-82c1-ae106d021d5a",
+ "_raw": "{\"actor\": \"0xdfee68a9adb981cd08699891a11cabe10f25ec44\", \"pools\": [\"0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec\", \"0xd6c2542362f4c63dcd6fbfca6849690308258b3c\", \"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.011699, \"gas_eth\": 0.010764, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Triangular route WETH -> SHIB (V3 pool) -> SAITAMA (V2 pool) -> WETH (V2 pool), with each intermediate token passed directly from pool to pool. 0xdfee sends 0.868318 WETH and receives 0.880017 WETH, a gross gain of 0.011699 WETH, which is about 0.000935 ETH after the 0.010764 ETH gas fee, or about 0.000888 ETH if the 0.000047 ETH internal tip also comes out of the profit. The actor's identity is uncertain: 0xdfee emits no events and the transaction's target (0x0000000000007f15...) never appears in a token transfer, so the profit is the thin margin over gas.\"}",
+ "case_id": "arb106_055",
+ "_time": "2026-10-13T22:23:16+0800"
+}

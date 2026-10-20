@@ -1,0 +1,32 @@
+{
+ "actor": "0xd3761fad7cf72112c286c1640141e3d8aecdd4f2",
+ "pool": "0x43ae24960e5534731fc831386c07755a2dc33d47",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 12.880545,
+ "gas_eth": 0.037182,
+ "profit_after_gas": 12.843363,
+ "residual": "short 1000 SNX (500 front + 500 back sold, no buyback)",
+ "confidence": 4,
+ "note": "All three legs sell SNX for ETH on the same Uniswap V2 SNX/WETH pool; front and back both send SNX out and receive ETH, so no position is opened in front and closed in back. Net ETH is positive, but the actor ends with 1000 SNX sold and not repurchased, so the overall sign including the non-WETH leg is not determinable.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4030,
+  "output_tokens": 13078,
+  "thinking_tokens": 12865
+ },
+ "_request_id": "fc5a612bbc77605c5994441f4dd7b451",
+ "_response_id": "044054fe-2b35-4e84-bf4e-23d12fa10048",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xd3761fad7cf72112c286c1640141e3d8aecdd4f2\",\"pool\":\"0x43ae24960e5534731fc831386c07755a2dc33d47\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":12.880545,\"gas_eth\":0.037182,\"profit_after_gas\":12.843363,\"residual\":\"short 1000 SNX (500 front + 500 back sold, no buyback)\",\"confidence\":4,\"note\":\"All three legs sell SNX for ETH on the same Uniswap V2 SNX/WETH pool; front and back both send SNX out and receive ETH, so no position is opened in front and closed in back. Net ETH is positive, but the actor ends with 1000 SNX sold and not repurchased, so the overall sign including the non-WETH leg is not determinable.\"}",
+ "case_id": "pack_176",
+ "_time": "2026-10-19T19:25:57+0800"
+}

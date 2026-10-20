@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.091987,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x499dd9 buys 3,020,068 PEOPLE for 19.216836 WETH on UniswapV3 pool 0x83abec. The victim buys PEOPLE on the same pool, and 0x499dd9 then sells the same PEOPLE amount back for 19.403861 WETH (+0.187025). The 0.121771 ETH sent as back-leg value and forwarded to 0xb7e390 (likely a miner tip), plus 0.157241 ETH gas, leave the actor about -0.092 ETH after cost (net_eth is after gas).",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2851,
+  "output_tokens": 686,
+  "thinking_tokens": 364
+ },
+ "_request_id": "req_011CgBRfBKqjEURcBzwdEyTx",
+ "_response_id": "msg_011CgBRfF5pHs4bue2HnWFUf",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x83abecf7204d5afc1bea5df734f085f2535a9976\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.091987, \"gas_eth\": 0.157241, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x499dd9 buys 3,020,068 PEOPLE for 19.216836 WETH on UniswapV3 pool 0x83abec. The victim buys PEOPLE on the same pool, and 0x499dd9 then sells the same PEOPLE amount back for 19.403861 WETH (+0.187025). The 0.121771 ETH sent as back-leg value and forwarded to 0xb7e390 (likely a miner tip), plus 0.157241 ETH gas, leave the actor about -0.092 ETH after cost (net_eth is after gas).\"}",
+ "case_id": "pack_141",
+ "_time": "2026-10-19T18:19:18+0800"
+}

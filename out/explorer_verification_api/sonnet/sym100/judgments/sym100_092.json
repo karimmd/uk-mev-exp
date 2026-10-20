@@ -1,0 +1,31 @@
+{
+ "actor": "0x4ac1ae64fb072201d9e264c01c126aba57f5b6d2",
+ "pool": "0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.091762,
+ "gas_eth": 0.005514,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 5,979,329.2918 AXN into the pool for 2.490013 WETH in the front leg. The victim then sells 79.95M AXN on the same pool. The actor buys back exactly the same AXN for 2.398251 WETH in the back leg. That nets +0.091762 WETH, or about +0.0862 ETH after 0.005514 ETH of gas, and leaves no AXN residual. This is a sell-side sandwich that opens a short and closes it, so Q1 depends on reading the position as a short rather than a held long.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3093,
+  "output_tokens": 1021,
+  "thinking_tokens": 707
+ },
+ "_request_id": "req_011CgBSSWTnNFc3Si7quJZcv",
+ "_response_id": "msg_011CgBSSWpsUSLNrk3JVRmpR",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x4ac1ae64fb072201d9e264c01c126aba57f5b6d2\",\"pool\":\"0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.091762,\"gas_eth\":0.005514,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 5,979,329.2918 AXN into the pool for 2.490013 WETH in the front leg. The victim then sells 79.95M AXN on the same pool. The actor buys back exactly the same AXN for 2.398251 WETH in the back leg. That nets +0.091762 WETH, or about +0.0862 ETH after 0.005514 ETH of gas, and leaves no AXN residual. This is a sell-side sandwich that opens a short and closes it, so Q1 depends on reading the position as a short rather than a held long.\"}",
+ "case_id": "sym100_092",
+ "_time": "2026-10-19T18:29:34+0800"
+}

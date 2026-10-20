@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xb767c20d9773adce84d0f0a5bc64e2f114ad3076",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016066,
+ "gas_eth": 0.00807,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x3dad sold 1,980,461.84 wOMI for 3.775 WETH on pool 0xb767. The victim then sold 2M wOMI on the same pool, and 0x3dad bought back exactly the same wOMI amount for 3.750864 WETH, a sell-side sandwich that leaves no residual wOMI. WETH gain of 0.024136 minus 0.00807 gas gives about +0.016066 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3043,
+  "output_tokens": 646,
+  "thinking_tokens": 360
+ },
+ "_request_id": "req_011CgBSLzAkHSRGQrbMPPmuC",
+ "_response_id": "msg_011CgBSLzYaAYxPD4nPTxfz2",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xb767c20d9773adce84d0f0a5bc64e2f114ad3076\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.016066, \"gas_eth\": 0.00807, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x3dad sold 1,980,461.84 wOMI for 3.775 WETH on pool 0xb767. The victim then sold 2M wOMI on the same pool, and 0x3dad bought back exactly the same wOMI amount for 3.750864 WETH, a sell-side sandwich that leaves no residual wOMI. WETH gain of 0.024136 minus 0.00807 gas gives about +0.016066 ETH.\"}",
+ "case_id": "sym100_053",
+ "_time": "2026-10-19T18:28:18+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000005be1b41f8ed12d32409c8475e83f2ee3",
+ "pool": "0xfe903a12359496b932e24c5e9b78f1b9060a6342",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.238623,
+ "gas_eth": 0.036141,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor received PKF in the front leg and sent the identical PKF amount back in the back leg on the same Uniswap V2 pool used by the victim between them. It netted +0.274764 WETH before gas and +0.238623 ETH after the two stated gas fees, with no residual PKF.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2299,
+  "output_tokens": 2033,
+  "thinking_tokens": 1863
+ },
+ "_request_id": "205480d06b22706d49b60f162bf8397b",
+ "_response_id": "f5475176-ab3c-4249-9225-fa9d67a46787",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000005be1b41f8ed12d32409c8475e83f2ee3\",\"pool\":\"0xfe903a12359496b932e24c5e9b78f1b9060a6342\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.238623,\"gas_eth\":0.036141,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor received PKF in the front leg and sent the identical PKF amount back in the back leg on the same Uniswap V2 pool used by the victim between them. It netted +0.274764 WETH before gas and +0.238623 ETH after the two stated gas fees, with no residual PKF.\"}",
+ "case_id": "pack_038",
+ "_time": "2026-10-19T18:09:18+0800"
+}

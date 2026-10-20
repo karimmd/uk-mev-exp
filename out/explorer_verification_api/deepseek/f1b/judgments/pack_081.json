@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc66ce0de9fd74e6ce40b6b8a9e86103ec56e45ed",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.943746,
+ "gas_eth": 0.022299,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back share the KST/WETH pool 0xc66ce..., and the actor receives then returns the same KST amount while the victim trades the same pool between them. Net WETH gain is 1.966045 minus front/back gas 0.022299; the internal ETH transfer cancels the back-leg ETH value.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2316,
+  "output_tokens": 3666,
+  "thinking_tokens": 3499
+ },
+ "_request_id": "b82b25784593d438a9418f8c59a27c55",
+ "_response_id": "b4279bd7-437f-445b-9932-018fef987240",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xc66ce0de9fd74e6ce40b6b8a9e86103ec56e45ed\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.943746,\"gas_eth\":0.022299,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back share the KST/WETH pool 0xc66ce..., and the actor receives then returns the same KST amount while the victim trades the same pool between them. Net WETH gain is 1.966045 minus front/back gas 0.022299; the internal ETH transfer cancels the back-leg ETH value.\"}",
+ "case_id": "pack_081",
+ "_time": "2026-10-19T18:16:11+0800"
+}

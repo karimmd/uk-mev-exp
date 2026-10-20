@@ -1,0 +1,38 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x788248dddf945542ca202713e6cb74195db07209",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "OHM",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001773,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 2.152211 OHM from the V2 pair and sends 2.1 OHM to one V3 pool and 0.052211 OHM to another, so OHM nets to zero. It receives 0.011817 WETH from the second V3 pool, unwraps it, pays 0.010044 ETH to 0xea67 (likely a miner or builder tip, not a pool), and keeps 0.001773 ETH. The explorer shows a gas fee of 0, and the sender EOA pays gas rather than the actor, so the profit stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2421,
+  "output_tokens": 1040,
+  "thinking_tokens": 640
+ },
+ "_request_id": "req_011CgBSvBJPRnAgAgcycrXaU",
+ "_response_id": "msg_011CgBSvBjwMgsh2gZ1Qm1dz",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x788248dddf945542ca202713e6cb74195db07209\",\"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"],\"cycle_token\":\"OHM\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001773,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 2.152211 OHM from the V2 pair and sends 2.1 OHM to one V3 pool and 0.052211 OHM to another, so OHM nets to zero. It receives 0.011817 WETH from the second V3 pool, unwraps it, pays 0.010044 ETH to 0xea67 (likely a miner or builder tip, not a pool), and keeps 0.001773 ETH. The explorer shows a gas fee of 0, and the sender EOA pays gas rather than the actor, so the profit stays positive.\"}",
+ "case_id": "arb106_022",
+ "_time": "2026-10-19T18:35:49+0800"
+}

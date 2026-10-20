@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02577,
+ "gas_eth": 0.017411,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both executed by 0x00000000003b... which acquired and disposed of PROS on the UniswapV2 pool 0x3155..., the same pool the victim used. Net WETH gain 0.043181 less gas 0.017411 leaves a positive result; no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2536,
+  "output_tokens": 6731,
+  "thinking_tokens": 6564
+ },
+ "_request_id": "d6b4cef8d6fb8f7b1965fa07f9e0272f",
+ "_response_id": "1f46fc73-d714-46e9-8e49-d4057a23b548",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.02577,\"gas_eth\":0.017411,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both executed by 0x00000000003b... which acquired and disposed of PROS on the UniswapV2 pool 0x3155..., the same pool the victim used. Net WETH gain 0.043181 less gas 0.017411 leaves a positive result; no residual non-WETH holding.\"}",
+ "case_id": "pack_056",
+ "_time": "2026-10-19T18:11:50+0800"
+}

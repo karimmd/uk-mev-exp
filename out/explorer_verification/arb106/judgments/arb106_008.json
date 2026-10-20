@@ -1,0 +1,24 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+  "0xa295c1301e063728d733f9fb2155448fff9c70b7"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.043935,
+ "gas_eth": 0.030283,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 2.540141 WETH to the USDC/WETH V3 pool. That pool's USDC goes straight to the USDC/EXRD V2 pool, whose EXRD goes to the EXRD/WETH V3 pool. That pool returns 2.584594 WETH to the actor. The WETH gain is 0.044453, less 0.000518 ETH sent out, gives 0.043935. After the 0.030283 gas fee the position is about +0.01365 ETH, and no other token is left with the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0238332,
+ "_session": "bcc4684d-7fb8-4975-b0ad-dcc1b60e63a2",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"0xa295c1301e063728d733f9fb2155448fff9c70b7\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.043935,\"gas_eth\":0.030283,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 2.540141 WETH to the USDC/WETH V3 pool. That pool's USDC goes straight to the USDC/EXRD V2 pool, whose EXRD goes to the EXRD/WETH V3 pool. That pool returns 2.584594 WETH to the actor. The WETH gain is 0.044453, less 0.000518 ETH sent out, gives 0.043935. After the 0.030283 gas fee the position is about +0.01365 ETH, and no other token is left with the actor.\"}",
+ "case_id": "arb106_008",
+ "_time": "2026-10-13T22:11:47+0800"
+}

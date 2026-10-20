@@ -1,0 +1,31 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.046858,
+ "gas_eth": 0.005269,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 49999999999.999992 JEJUDOGE into the pool for 4.036043 WETH in the front leg. The victim sold JEJUDOGE on the same pool in between. The back leg bought back exactly the same token amount for 3.989185 WETH, so the token position is flat. Net WETH is +0.046858, or about +0.04159 ETH after 0.005269 ETH gas. This is a reverse-direction sandwich, and the actor must have held the JEJUDOGE inventory beforehand.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3037,
+  "output_tokens": 842,
+  "thinking_tokens": 543
+ },
+ "_request_id": "req_011CgBS948HXdqjK8LcEdSbE",
+ "_response_id": "msg_011CgBS95fp1y2mEA77H5fnV",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\",\"pool\":\"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.046858,\"gas_eth\":0.005269,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 49999999999.999992 JEJUDOGE into the pool for 4.036043 WETH in the front leg. The victim sold JEJUDOGE on the same pool in between. The back leg bought back exactly the same token amount for 3.989185 WETH, so the token position is flat. Net WETH is +0.046858, or about +0.04159 ETH after 0.005269 ETH gas. This is a reverse-direction sandwich, and the actor must have held the JEJUDOGE inventory beforehand.\"}",
+ "case_id": "sym100_043",
+ "_time": "2026-10-19T18:25:37+0800"
+}

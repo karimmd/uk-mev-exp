@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x4085cafb2c519e6bf69ad410d91dbb6139948366",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.227999,
+ "gas_eth": 0.211921,
+ "profit_after_gas": 0.016078,
+ "residual": "0.014981 VR",
+ "confidence": 5,
+ "note": "Front buys VR via WETH/USDT and VR/USDT pools; back sells VR on the same VR/USDT pool the victim uses. WETH net is +0.227999 ETH before gas, and after 0.211921 ETH gas the actor is +0.016078 ETH with a tiny VR residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2491,
+  "output_tokens": 5672,
+  "thinking_tokens": 5473
+ },
+ "_request_id": "760ea6d0d273e0a463fd6fd21a295bca",
+ "_response_id": "5e2388a9-e029-48c5-882b-6a3e3c6c47e8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x4085cafb2c519e6bf69ad410d91dbb6139948366\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.227999, \"gas_eth\": 0.211921, \"profit_after_gas\": 0.016078, \"residual\": \"0.014981 VR\", \"confidence\": 5, \"note\": \"Front buys VR via WETH/USDT and VR/USDT pools; back sells VR on the same VR/USDT pool the victim uses. WETH net is +0.227999 ETH before gas, and after 0.211921 ETH gas the actor is +0.016078 ETH with a tiny VR residual.\"}",
+ "case_id": "rej53_011",
+ "_time": "2026-10-19T19:41:07+0800"
+}

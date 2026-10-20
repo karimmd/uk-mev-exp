@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x742c15d71ea7444964bc39b0ed729b3729adc361",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.080145,
+ "gas_eth": 0.043282,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back share actor and pool 0x742c with the victim, but the actor is flat in OMG across the front: it buys OMG on 0x48e and sells it into 0x742c in the same transaction, so no non-WETH position is opened and later closed. WETH delta is +0.080145 before gas and +0.036863 after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2848,
+  "output_tokens": 9615,
+  "thinking_tokens": 9436
+ },
+ "_request_id": "95ae78ebed5e33718c6b819a35572470",
+ "_response_id": "2d1086f8-3366-40a2-9d6a-b601feb452f3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x742c15d71ea7444964bc39b0ed729b3729adc361\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.080145,\"gas_eth\":0.043282,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back share actor and pool 0x742c with the victim, but the actor is flat in OMG across the front: it buys OMG on 0x48e and sells it into 0x742c in the same transaction, so no non-WETH position is opened and later closed. WETH delta is +0.080145 before gas and +0.036863 after gas.\"}",
+ "case_id": "sym100_085",
+ "_time": "2026-10-19T18:54:20+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xf44e8ff3bb644479124e691bf572f7813a1bc499",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.051754,
+ "gas_eth": 0.005716,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x3dad sold 1.212499 EDDA for 0.809 WETH on pool 0xf44e before the victim's large EDDA sale on the same pool. It then bought back exactly 1.212499 EDDA for 0.75153 WETH, a sell-first bracket that opens and closes a short EDDA position. Net is 0.05747 WETH minus 0.005716 ETH gas, about +0.0518 ETH, with no residual EDDA.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3030,
+  "output_tokens": 574,
+  "thinking_tokens": 285
+ },
+ "_request_id": "req_011CgBS86h3WVxKMJ3GHnuEd",
+ "_response_id": "msg_011CgBS871ttG2bnwMmaRA6q",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xf44e8ff3bb644479124e691bf572f7813a1bc499\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.051754, \"gas_eth\": 0.005716, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x3dad sold 1.212499 EDDA for 0.809 WETH on pool 0xf44e before the victim's large EDDA sale on the same pool. It then bought back exactly 1.212499 EDDA for 0.75153 WETH, a sell-first bracket that opens and closes a short EDDA position. Net is 0.05747 WETH minus 0.005716 ETH gas, about +0.0518 ETH, with no residual EDDA.\"}",
+ "case_id": "sym100_020",
+ "_time": "2026-10-19T18:25:23+0800"
+}

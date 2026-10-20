@@ -1,0 +1,17 @@
+{
+ "actor": "0x1b2ac99dab967744395c6e425a11d51c4af51b81",
+ "pool": "0x7f1da3697236d4a5e0efd2a99de5d9c076937856",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.054878,
+ "gas_eth": 0.022257,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x1b2a first sells 149076.17 UNN for 5.550942 WETH. The victim then sells 500000 UNN into the same pool. The contract then buys back exactly 149076.17 UNN for 5.496064 WETH, so no UNN is left over. The WETH gain is 0.054878, and after 0.022257 ETH of front and back gas the position is about +0.0326 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0224332,
+ "_session": "8f7998dc-e255-4739-9701-d130eac25c41",
+ "_raw": "{\"actor\": \"0x1b2ac99dab967744395c6e425a11d51c4af51b81\", \"pool\": \"0x7f1da3697236d4a5e0efd2a99de5d9c076937856\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.054878, \"gas_eth\": 0.022257, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x1b2a first sells 149076.17 UNN for 5.550942 WETH. The victim then sells 500000 UNN into the same pool. The contract then buys back exactly 149076.17 UNN for 5.496064 WETH, so no UNN is left over. The WETH gain is 0.054878, and after 0.022257 ETH of front and back gas the position is about +0.0326 ETH.\"}",
+ "case_id": "pack_024",
+ "_time": "2026-10-13T20:08:54+0800"
+}

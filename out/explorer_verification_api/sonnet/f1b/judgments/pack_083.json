@@ -1,0 +1,31 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x1f3d61248ec81542889535595903078109707941",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.084911,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 0.313561 KBTC through the WETH\u2192WBTC\u2192KBTC route before the victim, who trades WBTC\u2192KBTC on the same KBTC/WBTC pool. The actor then sells exactly 0.313561 KBTC back after the victim. WETH net is 7.827973 \u2212 7.659549 = +0.168424, minus a 0.083513 ETH internal transfer to 0x99c8\u2026 (likely a builder payment), giving +0.084911. Gas is 0 for both bracket legs, and no KBTC is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3053,
+  "output_tokens": 810,
+  "thinking_tokens": 510
+ },
+ "_request_id": "req_011CgBQysKY99gqDWHNrzAxF",
+ "_response_id": "msg_011CgBQyxLuGma2GzxLsFZ8n",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\",\"pool\":\"0x1f3d61248ec81542889535595903078109707941\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.084911,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 0.313561 KBTC through the WETH\u2192WBTC\u2192KBTC route before the victim, who trades WBTC\u2192KBTC on the same KBTC/WBTC pool. The actor then sells exactly 0.313561 KBTC back after the victim. WETH net is 7.827973 \u2212 7.659549 = +0.168424, minus a 0.083513 ETH internal transfer to 0x99c8\u2026 (likely a builder payment), giving +0.084911. Gas is 0 for both bracket legs, and no KBTC is left over.\"}",
+ "case_id": "pack_083",
+ "_time": "2026-10-19T18:10:26+0800"
+}

@@ -1,0 +1,38 @@
+{
+ "actor": "0xff26d7d5710b916b62c8317c9228c06a38446203",
+ "pools": [
+  "0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222",
+  "0x5069c5fbed5757642023e55458ae363b1cbf0616",
+  "0xa7ad4ce6c21d9e875f1067cd377256326b483002"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.007521,
+ "gas_eth": 0.001615,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor deposited ETH to WETH, routed WETH through three UniswapV2 pools via MFUND and SANSHU, and received more WETH back before withdrawing to ETH. After the stated gas fee, the net ETH/WETH gain is about 0.007521 ETH with no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1971,
+  "output_tokens": 11244,
+  "thinking_tokens": 11007
+ },
+ "_request_id": "776723bbc6dbc78058dbc010031e888b",
+ "_response_id": "ad2741b2-7d94-4548-a0ee-c17d13dbe27b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xff26d7d5710b916b62c8317c9228c06a38446203\",\"pools\":[\"0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222\",\"0x5069c5fbed5757642023e55458ae363b1cbf0616\",\"0xa7ad4ce6c21d9e875f1067cd377256326b483002\"],\"cycle_token\":\"WETH\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.007521,\"gas_eth\":0.001615,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor deposited ETH to WETH, routed WETH through three UniswapV2 pools via MFUND and SANSHU, and received more WETH back before withdrawing to ETH. After the stated gas fee, the net ETH/WETH gain is about 0.007521 ETH with no non-WETH residual.\"}",
+ "case_id": "arb106_016",
+ "_time": "2026-10-19T19:08:09+0800"
+}

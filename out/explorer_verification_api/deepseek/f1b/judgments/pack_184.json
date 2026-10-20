@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 14.730576,
+ "gas_eth": 0.017477,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use UniswapV3 pool 0xcbcdf9626bc03e24f779434178a73a0b4bad62ed; the actor contract takes 42.944214 WBTC in front and returns the same amount in back while the victim trades that pool in between. WETH delta is +14.748053 before gas, gas is 0.017477, so net after gas is +14.730576 with no residual WBTC.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4062,
+  "output_tokens": 10253,
+  "thinking_tokens": 10057
+ },
+ "_request_id": "7dab52aae6c031ca67d93d9711dd7b9d",
+ "_response_id": "e8915a16-dd9e-49a5-83e2-cdae7e5fc35d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xcbcdf9626bc03e24f779434178a73a0b4bad62ed\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":14.730576,\"gas_eth\":0.017477,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use UniswapV3 pool 0xcbcdf9626bc03e24f779434178a73a0b4bad62ed; the actor contract takes 42.944214 WBTC in front and returns the same amount in back while the victim trades that pool in between. WETH delta is +14.748053 before gas, gas is 0.017477, so net after gas is +14.730576 with no residual WBTC.\"}",
+ "case_id": "pack_184",
+ "_time": "2026-10-19T18:35:07+0800"
+}

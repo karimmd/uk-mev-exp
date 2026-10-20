@@ -1,0 +1,39 @@
+{
+ "actor": "0x00000000000123685885532dcb685c442dc83126",
+ "pools": [
+  "0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79",
+  "0xd4981ed8892cacc135192385de05b19684231e74",
+  "0xb8fce31f3dd2f0de6823575f1d35da4a306a5777"
+ ],
+ "cycle_token": "SST",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.021243,
+ "gas_eth": 0.008805,
+ "profit_after_gas": 0.012438,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract trades on three pools. SST (988.658207 in and out) and USDT (1229.969019 in and out) both net to zero, and the only profit is 0.080927 WETH, which is unwrapped to ETH. The contract pays 0.059684 ETH to 0xe206\u2026 (likely a builder tip) and forwards 0.021243 ETH to the sender, so the contract's own ETH nets to zero. I counted the operator (contract plus sender) as the actor: 0.021243 retained, less 0.008805 gas, leaves 0.012438.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2624,
+  "output_tokens": 1524,
+  "thinking_tokens": 1112
+ },
+ "_request_id": "req_011CgBXC2YTMS7JNv4oUfxkP",
+ "_response_id": "msg_011CgBXC2tYWygHYvQHgRjzV",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000123685885532dcb685c442dc83126\",\"pools\":[\"0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79\",\"0xd4981ed8892cacc135192385de05b19684231e74\",\"0xb8fce31f3dd2f0de6823575f1d35da4a306a5777\"],\"cycle_token\":\"SST\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.021243,\"gas_eth\":0.008805,\"profit_after_gas\":0.012438,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract trades on three pools. SST (988.658207 in and out) and USDT (1229.969019 in and out) both net to zero, and the only profit is 0.080927 WETH, which is unwrapped to ETH. The contract pays 0.059684 ETH to 0xe206\u2026 (likely a builder tip) and forwards 0.021243 ETH to the sender, so the contract's own ETH nets to zero. I counted the operator (contract plus sender) as the actor: 0.021243 retained, less 0.008805 gas, leaves 0.012438.\"}",
+ "case_id": "arb106_039",
+ "_time": "2026-10-19T19:31:55+0800"
+}

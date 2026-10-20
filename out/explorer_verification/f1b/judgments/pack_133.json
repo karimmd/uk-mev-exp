@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x7270233ccae676e776a659affc35219e6fcfbb10",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.027261,
+ "gas_eth": 0.024422,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract runs both legs. In the front leg it swaps WETH to CFG on pool 0x6127 and then CFG to USDC on pool 0x7270. The victim sells CFG for USDC on 0x7270 after that. The back leg swaps USDC to CFG on 0x7270 and then CFG to WETH on 0x6127. CFG and USDC net to zero, and WETH goes from -2.421606 to +2.448867, a gain of +0.027261. Fees are 0.024422 ETH, so the result after fees is about +0.00284 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0271952,
+ "_session": "0079a6fc-6051-4001-96df-7e7b00dd34da",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x7270233ccae676e776a659affc35219e6fcfbb10\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.027261,\"gas_eth\":0.024422,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract runs both legs. In the front leg it swaps WETH to CFG on pool 0x6127 and then CFG to USDC on pool 0x7270. The victim sells CFG for USDC on 0x7270 after that. The back leg swaps USDC to CFG on 0x7270 and then CFG to WETH on 0x6127. CFG and USDC net to zero, and WETH goes from -2.421606 to +2.448867, a gain of +0.027261. Fees are 0.024422 ETH, so the result after fees is about +0.00284 ETH.\"}",
+ "case_id": "pack_133",
+ "_time": "2026-10-13T20:30:08+0800"
+}

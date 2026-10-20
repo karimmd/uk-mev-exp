@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.054201,
+ "gas_eth": 0.249344,
+ "profit_after_gas": -0.195143,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 5438.946266 POW on the V3 POW/WETH pool in the front leg, the victim bought POW on the same pool, and the actor sold the same POW back in the back leg, so the bracket is a sandwich. The WETH gain was 3.746107 \u2212 3.580897 = 0.165210. The back leg's 0.111009 ETH tx value was forwarded to another address and counted as a cost. After gas of 0.249344 ETH at 1200 gwei the result is negative. It is also negative if the 0.111009 ETH is not counted.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2953,
+  "output_tokens": 987,
+  "thinking_tokens": 656
+ },
+ "_request_id": "req_011CgBVSdVoHFnaGPQur3ucc",
+ "_response_id": "msg_011CgBVSdr96JNx4V8R18QE4",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.054201,\"gas_eth\":0.249344,\"profit_after_gas\":-0.195143,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 5438.946266 POW on the V3 POW/WETH pool in the front leg, the victim bought POW on the same pool, and the actor sold the same POW back in the back leg, so the bracket is a sandwich. The WETH gain was 3.746107 \u2212 3.580897 = 0.165210. The back leg's 0.111009 ETH tx value was forwarded to another address and counted as a cost. After gas of 0.249344 ETH at 1200 gwei the result is negative. It is also negative if the 0.111009 ETH is not counted.\"}",
+ "case_id": "pack_066",
+ "_time": "2026-10-19T19:08:56+0800"
+}

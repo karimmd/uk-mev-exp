@@ -1,0 +1,17 @@
+{
+ "actor": "0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047981,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor swaps WETH to POND to USDC in the front leg (2.301631 WETH out, 5977.238937 USDC in). It returns the same USDC in the back leg for 2.402137 WETH, so the gross gain is +0.100506 WETH. The victim sells POND for USDC on the shared POND/USDC pool between the two legs. The back leg also pays 0.052525 ETH to another address, probably a builder tip. That leaves about +0.04798 ETH. Both legs show a gas price of 0, so their fees are 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0311672,
+ "_session": "cbaee150-796f-4337-98e1-96681b709b59",
+ "_raw": "{\"actor\":\"0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23\",\"pool\":\"0xd18748b9839b0081a867a1a871d5b562b2ec9884\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.047981,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor swaps WETH to POND to USDC in the front leg (2.301631 WETH out, 5977.238937 USDC in). It returns the same USDC in the back leg for 2.402137 WETH, so the gross gain is +0.100506 WETH. The victim sells POND for USDC on the shared POND/USDC pool between the two legs. The back leg also pays 0.052525 ETH to another address, probably a builder tip. That leaves about +0.04798 ETH. Both legs show a gas price of 0, so their fees are 0.\"}",
+ "case_id": "rej53_037",
+ "_time": "2026-10-13T22:00:58+0800"
+}

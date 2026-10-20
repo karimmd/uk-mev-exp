@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2fa7361d7e3b812375604681eb155a97b4d65e9e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.312431,
+ "gas_eth": 0.176448,
+ "profit_after_gas": 0.135983,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs both trade on the same Uniswap V3 pool through actor 0x499dd900..., which buys aKLIMA before the victim and sells the same amount back after. Netting WETH and ETH flows leaves +0.312431 before gas, and gas is about 0.176448, so profit after gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2832,
+  "output_tokens": 8104,
+  "thinking_tokens": 7919
+ },
+ "_request_id": "35ead2ec141ab1e8e267705d53872b15",
+ "_response_id": "2b9a6264-c2c7-4d34-b596-b4cd85a89966",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x2fa7361d7e3b812375604681eb155a97b4d65e9e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.312431,\"gas_eth\":0.176448,\"profit_after_gas\":0.135983,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs both trade on the same Uniswap V3 pool through actor 0x499dd900..., which buys aKLIMA before the victim and sells the same amount back after. Netting WETH and ETH flows leaves +0.312431 before gas, and gas is about 0.176448, so profit after gas is positive.\"}",
+ "case_id": "pack_060",
+ "_time": "2026-10-19T19:10:47+0800"
+}

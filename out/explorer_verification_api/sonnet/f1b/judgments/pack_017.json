@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013544,
+ "gas_eth": 0.0,
+ "residual": "about 5.27e12 MOONPUG (266728859863781.09 bought minus 261457822590376.78 sold)",
+ "confidence": 3,
+ "note": "The contract 0x1d6e bought MOONPUG with 0.57 WETH in the front leg and sold most of it back for 0.670962 WETH after the victim's buy on the same pool, so it is a sandwich. WETH net is +0.100962, and subtracting the 0.087418 ETH forwarded to 0xb3b7 in the back leg gives +0.013544 with zero gas fees. The leftover MOONPUG can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3194,
+  "output_tokens": 1018,
+  "thinking_tokens": 694
+ },
+ "_request_id": "req_011CgBQCojVDbqnjcZk2RBrL",
+ "_response_id": "msg_011CgBQCvEQa4RzHcTbhPfT7",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.013544,\"gas_eth\":0.0,\"residual\":\"about 5.27e12 MOONPUG (266728859863781.09 bought minus 261457822590376.78 sold)\",\"confidence\":3,\"note\":\"The contract 0x1d6e bought MOONPUG with 0.57 WETH in the front leg and sold most of it back for 0.670962 WETH after the victim's buy on the same pool, so it is a sandwich. WETH net is +0.100962, and subtracting the 0.087418 ETH forwarded to 0xb3b7 in the back leg gives +0.013544 with zero gas fees. The leftover MOONPUG can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_017",
+ "_time": "2026-10-19T18:00:16+0800"
+}

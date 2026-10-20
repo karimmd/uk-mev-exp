@@ -1,0 +1,467 @@
+{
+ "arms_in_group_map": {
+  "control_detected": 10299,
+  "control_nearmiss": 7080,
+  "target_strict_miss": 258
+ },
+ "boundary_ge3": {
+  "by_group": {
+   "missed": {
+    "rejected": 3,
+    "structurally_supported": 4,
+    "undecidable": 6
+   },
+   "recorded": {
+    "rejected": 71,
+    "structurally_supported": 1261,
+    "undecidable": 125
+   }
+  },
+  "n": 1470
+ },
+ "bounds": {
+  "all_undecidable_to_rejection": {
+   "missed_share_pct": 31.3953,
+   "recorded_share_pct": 62.8313,
+   "standardized_diff_pp": -23.4493,
+   "unadjusted_diff_pp": -31.436
+  },
+  "all_undecidable_to_support": {
+   "missed_share_pct": 79.845,
+   "recorded_share_pct": 95.252,
+   "standardized_diff_pp": -11.0894,
+   "unadjusted_diff_pp": -15.407
+  }
+ },
+ "by_covariate": {
+  "amm_design": {
+   "mixed_v2_v3": {
+    "missed": {
+     "rejected": 9,
+     "structurally_supported": 10,
+     "undecidable": 8
+    },
+    "recorded": {
+     "rejected": 15,
+     "structurally_supported": 173,
+     "undecidable": 294
+    }
+   },
+   "v2_only": {
+    "missed": {
+     "rejected": 42,
+     "structurally_supported": 55,
+     "undecidable": 103
+    },
+    "recorded": {
+     "rejected": 434,
+     "structurally_supported": 6046,
+     "undecidable": 2596
+    }
+   },
+   "v3_only": {
+    "missed": {
+     "rejected": 1,
+     "structurally_supported": 16,
+     "undecidable": 14
+    },
+    "recorded": {
+     "rejected": 40,
+     "structurally_supported": 252,
+     "undecidable": 449
+    }
+   }
+  },
+  "era": {
+   "flashbots_pre_london": {
+    "missed": {
+     "rejected": 21,
+     "structurally_supported": 30,
+     "undecidable": 69
+    },
+    "recorded": {
+     "rejected": 266,
+     "structurally_supported": 3258,
+     "undecidable": 1438
+    }
+   },
+   "post_london": {
+    "missed": {
+     "rejected": 29,
+     "structurally_supported": 41,
+     "undecidable": 55
+    },
+    "recorded": {
+     "rejected": 120,
+     "structurally_supported": 1180,
+     "undecidable": 1559
+    }
+   },
+   "pre_flashbots": {
+    "missed": {
+     "rejected": 2,
+     "structurally_supported": 10,
+     "undecidable": 1
+    },
+    "recorded": {
+     "rejected": 103,
+     "structurally_supported": 2033,
+     "undecidable": 342
+    }
+   }
+  },
+  "n_pools": {
+   "1": {
+    "missed": {
+     "rejected": 9,
+     "structurally_supported": 40,
+     "undecidable": 44
+    },
+    "recorded": {
+     "rejected": 386,
+     "structurally_supported": 4529,
+     "undecidable": 2112
+    }
+   },
+   "12": {
+    "missed": {},
+    "recorded": {
+     "undecidable": 1
+    }
+   },
+   "2": {
+    "missed": {
+     "rejected": 37,
+     "structurally_supported": 32,
+     "undecidable": 76
+    },
+    "recorded": {
+     "rejected": 78,
+     "structurally_supported": 1738,
+     "undecidable": 994
+    }
+   },
+   "3": {
+    "missed": {
+     "rejected": 6,
+     "structurally_supported": 8,
+     "undecidable": 4
+    },
+    "recorded": {
+     "rejected": 14,
+     "structurally_supported": 134,
+     "undecidable": 139
+    }
+   },
+   "4": {
+    "missed": {
+     "structurally_supported": 1,
+     "undecidable": 1
+    },
+    "recorded": {
+     "rejected": 9,
+     "structurally_supported": 46,
+     "undecidable": 57
+    }
+   },
+   "5": {
+    "missed": {},
+    "recorded": {
+     "structurally_supported": 10,
+     "undecidable": 22
+    }
+   },
+   "6": {
+    "missed": {},
+    "recorded": {
+     "rejected": 2,
+     "structurally_supported": 11,
+     "undecidable": 10
+    }
+   },
+   "7": {
+    "missed": {},
+    "recorded": {
+     "structurally_supported": 2,
+     "undecidable": 1
+    }
+   },
+   "8": {
+    "missed": {},
+    "recorded": {
+     "structurally_supported": 1,
+     "undecidable": 2
+    }
+   },
+   "9": {
+    "missed": {},
+    "recorded": {
+     "undecidable": 1
+    }
+   }
+  },
+  "observable_gas_price_zero": {
+   "False": {
+    "missed": {
+     "rejected": 44,
+     "structurally_supported": 73,
+     "undecidable": 93
+    },
+    "recorded": {
+     "rejected": 344,
+     "structurally_supported": 5372,
+     "undecidable": 2208
+    }
+   },
+   "True": {
+    "missed": {
+     "rejected": 8,
+     "structurally_supported": 8,
+     "undecidable": 32
+    },
+    "recorded": {
+     "rejected": 145,
+     "structurally_supported": 1099,
+     "undecidable": 1131
+    }
+   }
+  }
+ },
+ "cases_contrasted": 10557,
+ "comparator_sensitivity": {
+  "note": "both negative; the unpooled contrast is primary by plan 2b, decided on semantics",
+  "pooled_nearmiss_into_comparator_diff_pp": -13.308,
+  "pooled_recorded_support_pct": 44.7034,
+  "primary_unpooled_diff_pp": -31.436,
+  "swing_pp": 18.128
+ },
+ "generated_at": "2026-09-20 21:11:51 CST",
+ "groups": {
+  "missed": 258,
+  "recorded": 10299
+ },
+ "maj2_reference": {
+  "blinded": true,
+  "cases": 17637,
+  "generated_at": "2026-09-20 21:00:37 CST",
+  "moved_examples": [
+   {
+    "case_id": "case_010cdd795986bad1ab49",
+    "frozen_value_flow": "positive",
+    "outcome": "structurally_supported",
+    "per_leg_value_flow": "negative"
+   },
+   {
+    "case_id": "case_01f710c9003c117567cb",
+    "frozen_value_flow": "undecidable",
+    "outcome": "rejected",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_028416aba8b68b752bd9",
+    "frozen_value_flow": "undecidable",
+    "outcome": "rejected",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_029ecf76bea5e72fd6f4",
+    "frozen_value_flow": "positive",
+    "outcome": "structurally_supported",
+    "per_leg_value_flow": "negative"
+   },
+   {
+    "case_id": "case_02c6805c3b54d244ed59",
+    "frozen_value_flow": "positive",
+    "outcome": "structurally_supported",
+    "per_leg_value_flow": "negative"
+   },
+   {
+    "case_id": "case_0332268780e3c1ebc223",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0345a1a5bdd2b4928f0e",
+    "frozen_value_flow": "undecidable",
+    "outcome": "rejected",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0380c73b48070e8a455d",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_04246f7c280464a5aaad",
+    "frozen_value_flow": "undecidable",
+    "outcome": "rejected",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0448a0a206d47c65abaf",
+    "frozen_value_flow": "positive",
+    "outcome": "structurally_supported",
+    "per_leg_value_flow": "negative"
+   },
+   {
+    "case_id": "case_04dc250282c23c22a790",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_05b5a9d7850142ec2cec",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_06d756abaedeeccb32f7",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0887a181c49daa686159",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_092dd49af6f5c9405e44",
+    "frozen_value_flow": "undecidable",
+    "outcome": "rejected",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0acde135636134a67586",
+    "frozen_value_flow": "undecidable",
+    "outcome": "rejected",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0c2c470fe656bf7e4cee",
+    "frozen_value_flow": "undecidable",
+    "outcome": "rejected",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0c56846d1ab75f638b66",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0cadb7035f5aaf31e05e",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   },
+   {
+    "case_id": "case_0df49b29a359d7eee3ce",
+    "frozen_value_flow": "undecidable",
+    "outcome": "undecidable",
+    "per_leg_value_flow": "cross_token_position_unpriced"
+   }
+  ],
+  "outcomes_by_boundary_size": {
+   "0": {
+    "rejected": 3186,
+    "undecidable": 567
+   },
+   "1": {
+    "rejected": 1113,
+    "structurally_supported": 396,
+    "undecidable": 89
+   },
+   "2": {
+    "rejected": 888,
+    "structurally_supported": 6165,
+    "undecidable": 3572
+   },
+   "3": {
+    "rejected": 231,
+    "structurally_supported": 1289,
+    "undecidable": 141
+   }
+  },
+  "question": "does folding a second sender into the boundary manufacture support?",
+  "support_from_boundary_ge3": 1289,
+  "support_lost_under_per_leg_boundary": 70,
+  "support_rate": 0.445087,
+  "support_rate_excluding_boundary_ge3": 0.372002,
+  "support_rate_under_per_leg_boundary": 0.441118,
+  "support_total": 7850,
+  "tally": {
+   "changed": 306,
+   "positive_to_negative": 72,
+   "recomputed": 1661,
+   "same": 1355,
+   "unaffected_by_construction": 15976,
+   "undecidable_to_cross_token_position_unpriced": 234
+  },
+  "test": "per-leg boundary {actor, sender-of-that-leg} vs frozen union boundary",
+  "two_sender_cases": 1661
+ },
+ "outcome_by_group": {
+  "missed": {
+   "rejected": 52,
+   "structurally_supported": 81,
+   "undecidable": 125
+  },
+  "recorded": {
+   "rejected": 489,
+   "structurally_supported": 6471,
+   "undecidable": 3339
+  }
+ },
+ "plan_sha256": "d46b0f5710c41d1e30bdc0754db676537f4d2e427b10d044a4e56e02f6f83f1c",
+ "primary_confirmatory": {
+  "coverage_floor": 0.8,
+  "coverage_of_missed": 1.0,
+  "demoted_to_exploratory": false,
+  "permutation_null_95_band_pp": [
+   -8.1543,
+   7.4394
+  ],
+  "permutation_p_two_sided": 5e-05,
+  "permutations": 20000,
+  "standardized_diff_pp": -23.4493,
+  "standardized_missed_pct": 42.4405,
+  "standardized_recorded_pct": 65.8897,
+  "statistic": "standardized support-share difference, missed - recorded, pp",
+  "strata_included": 21
+ },
+ "primary_contrast": "target_strict_miss vs control_detected",
+ "third_arm_control_nearmiss": {
+  "n": 7080,
+  "outcomes": {
+   "rejected": 4877,
+   "structurally_supported": 1298,
+   "undecidable": 905
+  }
+ },
+ "unadjusted": {
+  "diff_pp": -31.436,
+  "missed_support_pct": 31.3953,
+  "n_missed": 258,
+  "n_recorded": 10299,
+  "newcombe_95_pp": [
+   -36.8709,
+   -25.461
+  ],
+  "recorded_support_pct": 62.8313
+ },
+ "undecidable_share": {
+  "blinded_null_95_band_pp": [
+   -5.08,
+   5.15
+  ],
+  "diff_pp": 16.029,
+  "exceeds_band": true,
+  "missed_pct": 48.4496,
+  "recorded_pct": 32.4206
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000790b928b2ba74d7f53a2079e6a131f",
+ "pools": [
+  "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+  "0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2",
+  "0x23bb251705615b4efe9442be5f2aeb0e20b39858",
+  "0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1"
+ ],
+ "cycle_token": "INV and VERI",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.009303,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.009303,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor buys INV with WETH on one pool and sells the same INV on another. It also buys VERI on one pool and sells the same VERI on another. Both token cycles close exactly. WETH nets +0.037211 across the four swaps. The actor then unwraps 0.027908 WETH and sends that ETH to 0x2a0e (probably a miner/builder payment), leaving +0.009303 WETH. The gas fee shown is 0.0 because the gas price is 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3371,
+  "output_tokens": 1062,
+  "thinking_tokens": 628
+ },
+ "_request_id": "req_011CgBXc4LGa88yaxqtFfCxG",
+ "_response_id": "msg_011CgBXc4hbtGsULhyvpbTcP",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000790b928b2ba74d7f53a2079e6a131f\",\"pools\":[\"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\",\"0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2\",\"0x23bb251705615b4efe9442be5f2aeb0e20b39858\",\"0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1\"],\"cycle_token\":\"INV and VERI\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.009303,\"gas_eth\":0.0,\"profit_after_gas\":0.009303,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor buys INV with WETH on one pool and sells the same INV on another. It also buys VERI on one pool and sells the same VERI on another. Both token cycles close exactly. WETH nets +0.037211 across the four swaps. The actor then unwraps 0.027908 WETH and sends that ETH to 0x2a0e (probably a miner/builder payment), leaving +0.009303 WETH. The gas fee shown is 0.0 because the gas price is 0.0 gwei.\"}",
+ "case_id": "arb106_103",
+ "_time": "2026-10-19T19:37:18+0800"
+}

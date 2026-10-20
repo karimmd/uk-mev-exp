@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x29b0aa11de97f6d5a3293d980990e820bda5fbab",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.096466,
+ "gas_eth": 0.023819,
+ "profit_after_gas": 0.072647,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sells 1057.784535 TRDL for 5.244 WETH in front, the victim also trades the same TRDL/WETH pool, and the actor buys back the same TRDL for 5.147534 WETH in back. Net WETH before gas is 0.096466, leaving positive profit after 0.023819 gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2363,
+  "output_tokens": 2293,
+  "thinking_tokens": 2102
+ },
+ "_request_id": "6db100498c87c9a365d33c08a194f876",
+ "_response_id": "3f9e39b2-b58c-4256-9647-77b297f5d052",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x29b0aa11de97f6d5a3293d980990e820bda5fbab\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.096466,\"gas_eth\":0.023819,\"profit_after_gas\":0.072647,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sells 1057.784535 TRDL for 5.244 WETH in front, the victim also trades the same TRDL/WETH pool, and the actor buys back the same TRDL for 5.147534 WETH in back. Net WETH before gas is 0.096466, leaving positive profit after 0.023819 gas.\"}",
+ "case_id": "sym100_069",
+ "_time": "2026-10-19T19:35:42+0800"
+}

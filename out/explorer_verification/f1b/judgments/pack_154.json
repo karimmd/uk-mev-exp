@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x76efea638426a85a868eac23d5efb34ba52156c1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.020471,
+ "gas_eth": 0.010242,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract paid 1.568451 WETH for 26782.993464 UNV in the front leg. It sold the same UNV amount back to the same pool in the back leg for 1.588922 WETH. The victim bought UNV on that pool in between. net_eth is the gross WETH gain before gas. After the 0.010242 ETH gas for both legs, the position is still positive at about +0.010229 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0228028,
+ "_session": "8bcc4d5e-f1a8-4bba-9b5a-b2e4cd2a63ad",
+ "_raw": "{\"actor\": \"0x00000000500e2fece27a7600435d0c48d64e0c00\", \"pool\": \"0x76efea638426a85a868eac23d5efb34ba52156c1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.020471, \"gas_eth\": 0.010242, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract paid 1.568451 WETH for 26782.993464 UNV in the front leg. It sold the same UNV amount back to the same pool in the back leg for 1.588922 WETH. The victim bought UNV on that pool in between. net_eth is the gross WETH gain before gas. After the 0.010242 ETH gas for both legs, the position is still positive at about +0.010229 ETH.\"}",
+ "case_id": "pack_154",
+ "_time": "2026-10-13T20:34:37+0800"
+}

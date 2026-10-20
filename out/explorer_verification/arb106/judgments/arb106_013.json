@@ -1,0 +1,24 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222",
+  "0x5069c5fbed5757642023e55458ae363b1cbf0616",
+  "0xa7ad4ce6c21d9e875f1067cd377256326b483002"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.011932,
+ "gas_eth": 0.004052,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The path is a triangular loop: WETH goes into the WETH/MFUND pool, MFUND goes to the MFUND/SANSHU pool, and SANSHU goes to the SANSHU/WETH pool, which pays WETH back to the actor. The actor sends 0.919155 WETH and receives 0.931087 WETH, a gross gain of 0.011932. After the 0.004052 ETH gas fee that leaves about 0.00788 ETH. The actor is inferred from the transfers, since the called contract 0x0000000000007f15... shows no token movements itself, and the WETH start and end both sit at 0xdfee68....",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026733200000000002,
+ "_session": "99413e16-6cb0-4d1e-9be0-75b5b8926bb1",
+ "_raw": "{\"actor\":\"0xdfee68a9adb981cd08699891a11cabe10f25ec44\",\"pools\":[\"0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222\",\"0x5069c5fbed5757642023e55458ae363b1cbf0616\",\"0xa7ad4ce6c21d9e875f1067cd377256326b483002\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.011932,\"gas_eth\":0.004052,\"residual\":\"none\",\"confidence\":4,\"note\":\"The path is a triangular loop: WETH goes into the WETH/MFUND pool, MFUND goes to the MFUND/SANSHU pool, and SANSHU goes to the SANSHU/WETH pool, which pays WETH back to the actor. The actor sends 0.919155 WETH and receives 0.931087 WETH, a gross gain of 0.011932. After the 0.004052 ETH gas fee that leaves about 0.00788 ETH. The actor is inferred from the transfers, since the called contract 0x0000000000007f15... shows no token movements itself, and the WETH start and end both sit at 0xdfee68....\"}",
+ "case_id": "arb106_013",
+ "_time": "2026-10-13T22:12:57+0800"
+}

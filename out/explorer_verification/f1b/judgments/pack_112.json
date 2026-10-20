@@ -1,0 +1,17 @@
+{
+ "actor": "0xda6b746b76fdc8424764d6981e9ef5c3b13a56af",
+ "pool": "0x1be574041828303f0bfb5d06a2414f3bd6da1b2a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.07157,
+ "gas_eth": 0.049524,
+ "residual": "about 18,561,680,721 HUSKY (620476359389.32 received in front minus 601914678668.39 sold in back)",
+ "confidence": 4,
+ "note": "The same contract (called by the same sender) buys HUSKY with 0.54 WETH on the HUSKY/WETH pool before the victim's PAID->WETH->HUSKY swap through that pool. It sells HUSKY back after the victim for 0.61157 WETH. Net WETH is +0.07157, or about +0.0220 after 0.049524 ETH of gas. The unsold HUSKY residual can only add value, so the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.023360699999999998,
+ "_session": "17e8f68d-56ab-451d-b194-77d1e8a8f28e",
+ "_raw": "{\"actor\": \"0xda6b746b76fdc8424764d6981e9ef5c3b13a56af\", \"pool\": \"0x1be574041828303f0bfb5d06a2414f3bd6da1b2a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.07157, \"gas_eth\": 0.049524, \"residual\": \"about 18,561,680,721 HUSKY (620476359389.32 received in front minus 601914678668.39 sold in back)\", \"confidence\": 4, \"note\": \"The same contract (called by the same sender) buys HUSKY with 0.54 WETH on the HUSKY/WETH pool before the victim's PAID->WETH->HUSKY swap through that pool. It sells HUSKY back after the victim for 0.61157 WETH. Net WETH is +0.07157, or about +0.0220 after 0.049524 ETH of gas. The unsold HUSKY residual can only add value, so the sign is positive.\"}",
+ "case_id": "pack_112",
+ "_time": "2026-10-13T20:26:27+0800"
+}

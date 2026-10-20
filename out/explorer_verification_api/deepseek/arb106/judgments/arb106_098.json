@@ -1,0 +1,38 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000498,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor flash-borrows USDT from the UniswapV2 pair, uses it to buy FNK on a UniswapV3 pool routed to repay the pair, and buys WETH on another UniswapV3 pool. USDT nets to zero while WETH is withdrawn and, after a 0.004484 ETH payment, leaves +0.000498 ETH net; gas is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1897,
+  "output_tokens": 8920,
+  "thinking_tokens": 8658
+ },
+ "_request_id": "79c00a8a31eb80f59f767d9d5fc3802a",
+ "_response_id": "1017ec2b-d7e2-4a10-bab1-b18c56bd1d72",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\"],\"cycle_token\":\"USDT\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000498,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor flash-borrows USDT from the UniswapV2 pair, uses it to buy FNK on a UniswapV3 pool routed to repay the pair, and buys WETH on another UniswapV3 pool. USDT nets to zero while WETH is withdrawn and, after a 0.004484 ETH payment, leaves +0.000498 ETH net; gas is zero.\"}",
+ "case_id": "arb106_098",
+ "_time": "2026-10-19T19:41:04+0800"
+}

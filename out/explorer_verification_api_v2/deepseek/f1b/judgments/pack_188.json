@@ -1,0 +1,32 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.017259,
+ "gas_eth": 0.010017945,
+ "profit_after_gas": 0.007241055,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are calls to contract 0x4df3..., which receives UNIUSD in front and sends the exact same amount back in back on UniswapV2 pair 0xbd39..., the pool the victim also trades. Gross ETH/WETH gain is 2.436503 - 2.419244 = 0.017259 ETH; subtracting gas 0.00687687 + 0.003141075 leaves positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3615,
+  "output_tokens": 5793,
+  "thinking_tokens": 5582
+ },
+ "_request_id": "57426ec8b53a8eadbb89e2339a3d937d",
+ "_response_id": "ffaec60f-6a17-49da-bd6b-7b2e35393b93",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\",\"pool\":\"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.017259,\"gas_eth\":0.010017945,\"profit_after_gas\":0.007241055,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are calls to contract 0x4df3..., which receives UNIUSD in front and sends the exact same amount back in back on UniswapV2 pair 0xbd39..., the pool the victim also trades. Gross ETH/WETH gain is 2.436503 - 2.419244 = 0.017259 ETH; subtracting gas 0.00687687 + 0.003141075 leaves positive profit.\"}",
+ "case_id": "pack_188",
+ "_time": "2026-10-19T19:26:50+0800"
+}

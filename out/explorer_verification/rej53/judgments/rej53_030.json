@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0x31cf0327782a22958e7361f75ed86a7b69eb0aa7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.075812,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 27826.161747 FORM through the WETH/USDT pool (0x06da...) and the USDT/FORM pool (0x31cf...) in the front leg. The victim buys FORM on 0x31cf... in between. The actor sells the same FORM amount back in the back leg, so no FORM is left over. WETH goes from 4.559590 out to 4.667893 in, a gain of 0.108303. After the 0.032491 ETH payment to 0xea67... the net is 0.075812. Gas for the two legs shows as 0.0 gwei, so I counted it as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0256568,
+ "_session": "1089f0cd-0abb-41e1-84d1-cf85b1b00b93",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0x31cf0327782a22958e7361f75ed86a7b69eb0aa7\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.075812, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 27826.161747 FORM through the WETH/USDT pool (0x06da...) and the USDT/FORM pool (0x31cf...) in the front leg. The victim buys FORM on 0x31cf... in between. The actor sells the same FORM amount back in the back leg, so no FORM is left over. WETH goes from 4.559590 out to 4.667893 in, a gain of 0.108303. After the 0.032491 ETH payment to 0xea67... the net is 0.075812. Gas for the two legs shows as 0.0 gwei, so I counted it as 0.\"}",
+ "case_id": "rej53_030",
+ "_time": "2026-10-13T21:59:23+0800"
+}

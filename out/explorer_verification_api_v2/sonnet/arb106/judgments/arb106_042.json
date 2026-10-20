@@ -1,0 +1,42 @@
+{
+ "actor": "0x452c3f8858ca651f388ebc439b2719d1006354bc",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x93f267fd92b432bebf4da4e13b8615bb8eb2095c",
+  "0x61247d8aca1c485a50728e1336d9b26c8339e701",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x3cc5519fb7f811159f30ba21dc2258341872dd67",
+  "0x04dd76803f247b611d4f470fc6cd206a9d02f869"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.053874,
+ "gas_eth": 0.049404,
+ "profit_after_gas": 0.00447,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends WETH into two separate three-pool routes (USDC/GUSD and USDT/EFI) and gets more WETH back from each. The received WETH is 2.49357 + 1.457925 = 3.951495 and the sent WETH is 2.465655 + 1.431966 = 3.897621, so net is +0.053874 WETH before gas. After the 0.049404 ETH gas fee the net is +0.00447 ETH. The actor holds no other token, and the gas is paid by the sender.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2720,
+  "output_tokens": 1198,
+  "thinking_tokens": 709
+ },
+ "_request_id": "req_011CgBXCxJzKZfFfUH8fQaje",
+ "_response_id": "msg_011CgBXCxh4SknyxhHM9mnvT",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x452c3f8858ca651f388ebc439b2719d1006354bc\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x93f267fd92b432bebf4da4e13b8615bb8eb2095c\",\"0x61247d8aca1c485a50728e1336d9b26c8339e701\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0x3cc5519fb7f811159f30ba21dc2258341872dd67\",\"0x04dd76803f247b611d4f470fc6cd206a9d02f869\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.053874,\"gas_eth\":0.049404,\"profit_after_gas\":0.00447,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends WETH into two separate three-pool routes (USDC/GUSD and USDT/EFI) and gets more WETH back from each. The received WETH is 2.49357 + 1.457925 = 3.951495 and the sent WETH is 2.465655 + 1.431966 = 3.897621, so net is +0.053874 WETH before gas. After the 0.049404 ETH gas fee the net is +0.00447 ETH. The actor holds no other token, and the gas is paid by the sender.\"}",
+ "case_id": "arb106_042",
+ "_time": "2026-10-19T19:32:05+0800"
+}

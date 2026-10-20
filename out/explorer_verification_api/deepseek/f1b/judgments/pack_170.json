@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f2a2b2729f624bd23f252f46bae42628d822a6e",
+ "pool": "0xbc6b3dc17e86c8cacf0f384f2e19468c36154a22",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 2.694241,
+ "gas_eth": 0.007558,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back use the same UniswapV2 pool; actor 0x3f2a receives 189.368585 CP3R in front and sends the same amount back in back, with the victim trading that pool between them. WETH nets +2.701799 before gas, yielding +2.694241 after the two fees, with no residual CP3R holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2333,
+  "output_tokens": 1941,
+  "thinking_tokens": 1758
+ },
+ "_request_id": "b995ac70b9982b7e29658a9285168290",
+ "_response_id": "6f3bbc4a-17f8-48ed-a36b-ccb3c34c0797",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3f2a2b2729f624bd23f252f46bae42628d822a6e\",\"pool\":\"0xbc6b3dc17e86c8cacf0f384f2e19468c36154a22\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":2.694241,\"gas_eth\":0.007558,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back use the same UniswapV2 pool; actor 0x3f2a receives 189.368585 CP3R in front and sends the same amount back in back, with the victim trading that pool between them. WETH nets +2.701799 before gas, yielding +2.694241 after the two fees, with no residual CP3R holding.\"}",
+ "case_id": "pack_170",
+ "_time": "2026-10-19T18:32:57+0800"
+}

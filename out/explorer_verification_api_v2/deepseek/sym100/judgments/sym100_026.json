@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x376079a32d73b3942639486da4841ca31afa9960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.145744,
+ "gas_eth": 0.002884,
+ "profit_after_gas": 0.14286,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The helper contract sells EPAY for WETH in the front leg and later spends WETH to buy back the identical EPAY amount in the back leg on the same Uniswap V2 pool. The victim trades that same pool between them. Net WETH is +0.145744 before gas, and EPAY nets to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2402,
+  "output_tokens": 4003,
+  "thinking_tokens": 3827
+ },
+ "_request_id": "17ecdb9bddcc63a9904eb6515a96c80b",
+ "_response_id": "467add2d-0ca8-408a-ad84-5561893a44d0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x376079a32d73b3942639486da4841ca31afa9960\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.145744,\"gas_eth\":0.002884,\"profit_after_gas\":0.14286,\"residual\":\"none\",\"confidence\":5,\"note\":\"The helper contract sells EPAY for WETH in the front leg and later spends WETH to buy back the identical EPAY amount in the back leg on the same Uniswap V2 pool. The victim trades that same pool between them. Net WETH is +0.145744 before gas, and EPAY nets to zero.\"}",
+ "case_id": "sym100_026",
+ "_time": "2026-10-19T19:31:01+0800"
+}

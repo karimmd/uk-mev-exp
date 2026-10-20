@@ -1,0 +1,31 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.278445,
+ "gas_eth": 0.011402,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same EOA trades pool 0x0c4a in both legs: it sells 574.97 QNT for 9.050 WETH, then buys the same QNT back for 8.761 WETH, leaving no QNT residual and about +0.278 ETH after gas. However, the front leg runs opposite to the victim, which buys QNT on that pool after the front leg made QNT cheaper, so the victim is helped rather than squeezed. The victim's buy would also raise the actor's buy-back cost, so the profit must come from other trades between positions 74 and 94, and this is not a real sandwich bracket even though the literal criteria (same actor, shared pool, victim in between) are met.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3606,
+  "output_tokens": 1379,
+  "thinking_tokens": 1020
+ },
+ "_request_id": "req_011CgBSTp1FYabXvuL5vWtJS",
+ "_response_id": "msg_011CgBSTpMqQtCHVarYFvByY",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\", \"pool\": \"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.278445, \"gas_eth\": 0.011402, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same EOA trades pool 0x0c4a in both legs: it sells 574.97 QNT for 9.050 WETH, then buys the same QNT back for 8.761 WETH, leaving no QNT residual and about +0.278 ETH after gas. However, the front leg runs opposite to the victim, which buys QNT on that pool after the front leg made QNT cheaper, so the victim is helped rather than squeezed. The victim's buy would also raise the actor's buy-back cost, so the profit must come from other trades between positions 74 and 94, and this is not a real sandwich bracket even though the literal criteria (same actor, shared pool, victim in between) are met.\"}\n```",
+ "case_id": "sym100_072",
+ "_time": "2026-10-19T18:29:58+0800"
+}

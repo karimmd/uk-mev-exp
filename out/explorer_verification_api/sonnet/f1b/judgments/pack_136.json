@@ -1,0 +1,31 @@
+{
+ "actor": "0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567",
+ "pool": "0xb9f7046f985a906ee3f48f738a44bbcd22bee727",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.088251,
+ "gas_eth": 0.021903,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x1dc0\u2026 buys 83959.177451 MNET from the WETH/MNET pool in the front leg for 1.579578 WETH. The victim then buys MNET on the same pool, and the contract sells exactly the same MNET amount back in the back leg for 1.667829 WETH. The gross gain is 0.088251 ETH, and after front and back gas of 0.021903 ETH the net is about +0.066 ETH. The front and back transactions come from different EOAs, but both call the same contract, which is the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3305,
+  "output_tokens": 615,
+  "thinking_tokens": 314
+ },
+ "_request_id": "req_011CgBRWdaQQeknDJJ1sZ1Ux",
+ "_response_id": "msg_011CgBRWieG9nBvKhPoDEdDD",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567\",\"pool\":\"0xb9f7046f985a906ee3f48f738a44bbcd22bee727\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.088251,\"gas_eth\":0.021903,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x1dc0\u2026 buys 83959.177451 MNET from the WETH/MNET pool in the front leg for 1.579578 WETH. The victim then buys MNET on the same pool, and the contract sells exactly the same MNET amount back in the back leg for 1.667829 WETH. The gross gain is 0.088251 ETH, and after front and back gas of 0.021903 ETH the net is about +0.066 ETH. The front and back transactions come from different EOAs, but both call the same contract, which is the actor.\"}",
+ "case_id": "pack_136",
+ "_time": "2026-10-19T18:17:22+0800"
+}

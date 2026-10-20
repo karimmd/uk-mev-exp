@@ -1,0 +1,110 @@
+{
+ "original_258": {
+  "label": "original 258 vs recorded",
+  "n_missed": 258,
+  "sup_missed": 220,
+  "n_recorded": 10299,
+  "sup_recorded": 9045,
+  "unadj_pp": -2.552742758949278,
+  "newcombe": [
+   -7.433025536598989,
+   1.3077726009049218
+  ],
+  "standardized_pp": -9.665763441194631,
+  "level_missed": 77.60650332111663,
+  "level_recorded": 87.27226676231125,
+  "strata": 21,
+  "perm_band": [
+   -7.041772048248673,
+   5.934149426235191
+  ],
+  "perm_p": 0.004999750012499375,
+  "undecidable_gap_pp": 2.3104966494322907,
+  "block_boot": [
+   -17.097377701600447,
+   -0.27140189789612856
+  ],
+  "actor_boot": [
+   -28.983918216846803,
+   -0.6059584917674221
+  ],
+  "loo_range": [
+   -10.943981488154774,
+   -5.218242192577538
+  ],
+  "distinct_blocks": 8555,
+  "distinct_actors": 317
+ },
+ "symmetric_1642": {
+  "label": "symmetric 1,642 vs recorded",
+  "n_missed": 1642,
+  "sup_missed": 1358,
+  "n_recorded": 10299,
+  "sup_recorded": 9045,
+  "unadj_pp": -5.12004109997789,
+  "newcombe": [
+   -7.122754234139187,
+   -3.252395931661062
+  ],
+  "standardized_pp": -10.514223249738407,
+  "level_missed": 76.40575685379197,
+  "level_recorded": 86.91998010353036,
+  "strata": 26,
+  "perm_band": [
+   -3.804306847238559,
+   3.053731031958107
+  ],
+  "perm_p": 4.999750012499375e-05,
+  "undecidable_gap_pp": -2.350882155143083,
+  "block_boot": [
+   -13.771575758757493,
+   -4.3007791611394115
+  ],
+  "actor_boot": [
+   -17.100106925333314,
+   -4.499113027745771
+  ],
+  "loo_range": [
+   -12.273552315777037,
+   -6.141735505542645
+  ],
+  "distinct_blocks": 9326,
+  "distinct_actors": 394
+ },
+ "new_1384_only": {
+  "label": "new 1,384 only vs recorded",
+  "n_missed": 1384,
+  "sup_missed": 1138,
+  "n_recorded": 10299,
+  "sup_recorded": 9045,
+  "unadj_pp": -5.598627062395078,
+  "newcombe": [
+   -7.789920794044214,
+   -3.5690779314204635
+  ],
+  "standardized_pp": -7.331033981756152,
+  "level_missed": 80.22589467496026,
+  "level_recorded": 87.55692865671641,
+  "strata": 23,
+  "perm_band": [
+   -4.350080230772879,
+   2.9542405036720454
+  ],
+  "perm_p": 4.999750012499375e-05,
+  "undecidable_gap_pp": -5.711882771051426,
+  "block_boot": [
+   -10.094081950918577,
+   -3.031224222279716
+  ],
+  "actor_boot": [
+   -14.452696794412168,
+   -0.3496745420421776
+  ],
+  "loo_range": [
+   -9.795806130756324,
+   -5.181112838376045
+  ],
+  "distinct_blocks": 9193,
+  "distinct_actors": 392
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x9282dc5c422fa91ff2f6ff3a0b45b7bf97cf78e7",
+ "pool": "0x1549a45a18b1658783aa27068fee449cc80876ce",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0266053572,
+ "gas_eth": 0.0150556428,
+ "residual": "1807610037815.15625 MADINU",
+ "confidence": 5,
+ "note": "The actor bought MADINU on pool 0x1549... before the victim and sold most of it on the same pool after the victim. Gross ETH/WETH change is +0.041661, gas is 0.0150556428, leaving net +0.0266053572 ETH; a MADINU residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2655,
+  "output_tokens": 15877,
+  "thinking_tokens": 15696
+ },
+ "_request_id": "eb2819ba85139e7a6222f8a47ce93e14",
+ "_response_id": "f6762502-ef38-4312-9f9a-b98f37b3259f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x9282dc5c422fa91ff2f6ff3a0b45b7bf97cf78e7\",\"pool\":\"0x1549a45a18b1658783aa27068fee449cc80876ce\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.0266053572,\"gas_eth\":0.0150556428,\"residual\":\"1807610037815.15625 MADINU\",\"confidence\":5,\"note\":\"The actor bought MADINU on pool 0x1549... before the victim and sold most of it on the same pool after the victim. Gross ETH/WETH change is +0.041661, gas is 0.0150556428, leaving net +0.0266053572 ETH; a MADINU residual remains.\"}",
+ "case_id": "pack_026",
+ "_time": "2026-10-19T18:06:45+0800"
+}

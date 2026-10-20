@@ -1,0 +1,18 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": 0.035459,
+ "residual": "front sender holds 28470.711815 MXS; back sender holds 25565.296828 MXS",
+ "confidence": 5,
+ "note": "All three legs buy MXS with ETH through the same pair (0x13bb...). The front sender (0xfdf4...) and back sender (0xfc8e...) are different addresses. The back leg buys MXS instead of selling it, so no position is closed and there is no sandwich bracket. Gas for the front and back legs is 0.022289 + 0.013170 = 0.035459 ETH, but there is no round trip to net, so Q2 is no.",
+ "confidence_note": "none",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026045199999999998,
+ "_session": "bf74af84-72d4-4f77-9bc1-c24fd4d6ad12",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": 0.035459, \"residual\": \"front sender holds 28470.711815 MXS; back sender holds 25565.296828 MXS\", \"confidence\": 5, \"note\": \"All three legs buy MXS with ETH through the same pair (0x13bb...). The front sender (0xfdf4...) and back sender (0xfc8e...) are different addresses. The back leg buys MXS instead of selling it, so no position is closed and there is no sandwich bracket. Gas for the front and back legs is 0.022289 + 0.013170 = 0.035459 ETH, but there is no round trip to net, so Q2 is no.\", \"confidence_note\": \"none\"}",
+ "case_id": "pack_050",
+ "_time": "2026-10-13T20:13:41+0800"
+}

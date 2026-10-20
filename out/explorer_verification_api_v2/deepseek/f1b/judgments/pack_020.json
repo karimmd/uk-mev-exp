@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.023709548,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front leg sells MXS for ETH from 0x071cac3a76241945f8e751c836d5c86a10a9acea, while the back leg buys MXS for 0x09aeafc2853c6a81524c8fe57c9fadfb5af4c843; these are different economic actors, not one acting in both legs. The shared pool is the MXS/WETH Uniswap V2 pool 0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f, which the victim also trades, but the actor mismatch prevents a sandwich.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3140,
+  "output_tokens": 8549,
+  "thinking_tokens": 8298
+ },
+ "_request_id": "6fc575eaf0e91a89bec61610bc38d04a",
+ "_response_id": "9e9db376-3961-46a1-bedf-aa5632e2ac4d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": 0.023709548, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The front leg sells MXS for ETH from 0x071cac3a76241945f8e751c836d5c86a10a9acea, while the back leg buys MXS for 0x09aeafc2853c6a81524c8fe57c9fadfb5af4c843; these are different economic actors, not one acting in both legs. The shared pool is the MXS/WETH Uniswap V2 pool 0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f, which the victim also trades, but the actor mismatch prevents a sandwich.\"}",
+ "case_id": "pack_020",
+ "_time": "2026-10-19T19:06:14+0800"
+}

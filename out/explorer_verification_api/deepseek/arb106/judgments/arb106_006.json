@@ -1,0 +1,37 @@
+{
+ "actor": "0x0000000000007f150bd6f54c40a34d7c3d5e9f56",
+ "pools": [
+  "0x701d570d96caae620b64478046d79780912c5c17",
+  "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974"
+ ],
+ "cycle_token": null,
+ "profit_token": "ETH",
+ "Q1": "no",
+ "Q1_reason": "minted token sale",
+ "Q2": "yes",
+ "net_eth": 1.041107,
+ "gas_eth": 0.994649,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor minted IBETH from the zero address, routed it through two Uniswap V2 pools into WETH, then unwrapped to ETH. Net ETH/WETH before gas is about +1.041107 ETH; subtracting the 0.994649 ETH gas fee leaves a small positive net position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2209,
+  "output_tokens": 8810,
+  "thinking_tokens": 8598
+ },
+ "_request_id": "4d8d74a45cd89066e98bce58cbf72bfa",
+ "_response_id": "05763ca3-fb2b-4f6d-8347-5d9f40e215fa",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000007f150bd6f54c40a34d7c3d5e9f56\",\"pools\":[\"0x701d570d96caae620b64478046d79780912c5c17\",\"0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974\"],\"cycle_token\":null,\"profit_token\":\"ETH\",\"Q1\":\"no\",\"Q1_reason\":\"minted token sale\",\"Q2\":\"yes\",\"net_eth\":1.041107,\"gas_eth\":0.994649,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor minted IBETH from the zero address, routed it through two Uniswap V2 pools into WETH, then unwrapped to ETH. Net ETH/WETH before gas is about +1.041107 ETH; subtracting the 0.994649 ETH gas fee leaves a small positive net position.\"}",
+ "case_id": "arb106_006",
+ "_time": "2026-10-19T19:05:10+0800"
+}

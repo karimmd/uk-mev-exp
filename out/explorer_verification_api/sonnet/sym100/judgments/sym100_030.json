@@ -1,0 +1,31 @@
+{
+ "actor": "0x738c0249c49dd4988a8b22b0f3257c8a9fd36fd6",
+ "pool": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.169027,
+ "gas_eth": 0.026996,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sells 1242.795971 API3 for 2.850253 WETH before the victim, who also sells API3 on the same pool. It then buys back exactly 1242.795971 API3 for 2.681226 WETH. The WETH gain is 0.169027, and after 0.026996 ETH of gas for the two legs it is about +0.142031 ETH, with no API3 left over. The direction is sell first, buy back after, which fits the victim's sell pushing the price down in between.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3253,
+  "output_tokens": 833,
+  "thinking_tokens": 548
+ },
+ "_request_id": "req_011CgBS4xrfnwjFFCXR7SE4k",
+ "_response_id": "msg_011CgBS4yEk5G4uRnLaXCE6n",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x738c0249c49dd4988a8b22b0f3257c8a9fd36fd6\",\"pool\":\"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.169027,\"gas_eth\":0.026996,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sells 1242.795971 API3 for 2.850253 WETH before the victim, who also sells API3 on the same pool. It then buys back exactly 1242.795971 API3 for 2.681226 WETH. The WETH gain is 0.169027, and after 0.026996 ETH of gas for the two legs it is about +0.142031 ETH, with no API3 left over. The direction is sell first, buy back after, which fits the victim's sell pushing the price down in between.\"}",
+ "case_id": "sym100_030",
+ "_time": "2026-10-19T18:24:41+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.116299,
+ "gas_eth": 0.020767,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract paid 7.363492 WETH to the V3 USDC/WETH pool in the front leg. That routed USDC into the USDC/USDap V2 pair, and the actor received 24081.30 USDap. The back leg returned the same 24081.30 USDap to the V2 pair and took 7.681949 WETH from the V3 pool, which nets +0.318457 WETH. The 0.202158 ETH internal transfer to 0xea67... is subtracted, giving 0.116299 ETH. Gas of 0.020767 ETH leaves about +0.0955 ETH. The USDC and USDap positions both net to zero, and the victim's USDC->USDap swap on the same V2 pair sits between the two legs.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.030165200000000003,
+ "_session": "cc802527-d472-4185-a7dc-637d2f84a3f2",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.116299, \"gas_eth\": 0.020767, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract paid 7.363492 WETH to the V3 USDC/WETH pool in the front leg. That routed USDC into the USDC/USDap V2 pair, and the actor received 24081.30 USDap. The back leg returned the same 24081.30 USDap to the V2 pair and took 7.681949 WETH from the V3 pool, which nets +0.318457 WETH. The 0.202158 ETH internal transfer to 0xea67... is subtracted, giving 0.116299 ETH. Gas of 0.020767 ETH leaves about +0.0955 ETH. The USDC and USDap positions both net to zero, and the victim's USDC->USDap swap on the same V2 pair sits between the two legs.\"}",
+ "case_id": "rej53_022",
+ "_time": "2026-10-13T21:57:44+0800"
+}

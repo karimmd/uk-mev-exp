@@ -1,0 +1,38 @@
+{
+ "actor": "0xd736ebda454cbeb64db68b88579c4073b619efdd",
+ "pools": [
+  "0xbe380cb425d1094def80ae5dd3838422eba2c4e3",
+  "0xd2d66b8abbfceb779f0872b2e9efa0a95f078ba7",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "FAST",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.004443,
+ "gas_eth": 0.002133,
+ "residual": "none",
+ "confidence": 5,
+ "note": "This is a three-pool triangular route WETH\u2192FAST\u2192RFI\u2192WETH, in which the actor flash-swaps FAST out of the be38 pool. The FAST it receives and sends match exactly, and RFI moves straight from pool to pool. The actor gets 0.075540 WETH and repays 0.071097, a net of 0.004443 WETH, which stays positive (about 0.00231) after the 0.002133 ETH gas fee paid by the sender.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2201,
+  "output_tokens": 687,
+  "thinking_tokens": 303
+ },
+ "_request_id": "req_011CgBTGKiiU2fFfu21M72TX",
+ "_response_id": "msg_011CgBTGLb3VDytJAqRyd9te",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xd736ebda454cbeb64db68b88579c4073b619efdd\", \"pools\": [\"0xbe380cb425d1094def80ae5dd3838422eba2c4e3\", \"0xd2d66b8abbfceb779f0872b2e9efa0a95f078ba7\", \"0x4c8341379e95f70c08defb76c4f9c036525edc30\"], \"cycle_token\": \"FAST\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.004443, \"gas_eth\": 0.002133, \"residual\": \"none\", \"confidence\": 5, \"note\": \"This is a three-pool triangular route WETH\u2192FAST\u2192RFI\u2192WETH, in which the actor flash-swaps FAST out of the be38 pool. The FAST it receives and sends match exactly, and RFI moves straight from pool to pool. The actor gets 0.075540 WETH and repays 0.071097, a net of 0.004443 WETH, which stays positive (about 0.00231) after the 0.002133 ETH gas fee paid by the sender.\"}",
+ "case_id": "arb106_047",
+ "_time": "2026-10-19T18:40:22+0800"
+}

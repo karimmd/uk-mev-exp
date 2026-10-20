@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5b155ea384905485fde4b24ef1cd63a7d2398100",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.050495,
+ "gas_eth": 0.11782,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x0000\u2026594e routes WETH through USDC to buy 2648851.757734 BILL on the USDC/BILL pool 0x5b15\u20268100. The victim then buys BILL with USDC on that same pool, and the back leg sells exactly the same BILL amount, receiving 4.420501 WETH for the 4.252186 WETH spent. The WETH gain of 0.168315 exceeds combined gas of 0.11782 ETH, leaving about 0.0505 ETH net with no residual holding.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3041,
+  "output_tokens": 468,
+  "thinking_tokens": 170
+ },
+ "_request_id": "req_011CgBSefHSA9iX8jiuKbZeW",
+ "_response_id": "msg_011CgBSeg9nbfQUJfN1NZuHe",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x5b155ea384905485fde4b24ef1cd63a7d2398100\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.050495, \"gas_eth\": 0.11782, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x0000\u2026594e routes WETH through USDC to buy 2648851.757734 BILL on the USDC/BILL pool 0x5b15\u20268100. The victim then buys BILL with USDC on that same pool, and the back leg sells exactly the same BILL amount, receiving 4.420501 WETH for the 4.252186 WETH spent. The WETH gain of 0.168315 exceeds combined gas of 0.11782 ETH, leaving about 0.0505 ETH net with no residual holding.\"}",
+ "case_id": "rej53_002",
+ "_time": "2026-10-19T18:32:16+0800"
+}

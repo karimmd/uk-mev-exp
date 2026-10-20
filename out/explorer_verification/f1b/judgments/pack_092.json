@@ -1,0 +1,17 @@
+{
+ "actor": "0x86a53c9e32abd3677e38bd0b390f24dd080e6426",
+ "pool": "0x8867f20c1c63baccec7617626254a060eeb0e61e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.024663,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 18653.127364 PHA with 10.570436 WETH in the front leg and sells exactly that amount back for 10.715240 WETH in the back leg. The victim buys PHA on the same pool in between. Gross gain is 0.144804 ETH, and 0.120141 ETH was unwrapped and sent to 0xd224... in the back leg (likely a miner payment). That leaves 0.024663 ETH, and both legs show 0 gas fee at 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0229767,
+ "_session": "31781c29-2ce3-43fd-b5ce-d73071e0cb5b",
+ "_raw": "{\"actor\": \"0x86a53c9e32abd3677e38bd0b390f24dd080e6426\", \"pool\": \"0x8867f20c1c63baccec7617626254a060eeb0e61e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.024663, \"gas_eth\": 0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 18653.127364 PHA with 10.570436 WETH in the front leg and sells exactly that amount back for 10.715240 WETH in the back leg. The victim buys PHA on the same pool in between. Gross gain is 0.144804 ETH, and 0.120141 ETH was unwrapped and sent to 0xd224... in the back leg (likely a miner payment). That leaves 0.024663 ETH, and both legs show 0 gas fee at 0.0 gwei.\"}",
+ "case_id": "pack_092",
+ "_time": "2026-10-13T20:22:37+0800"
+}

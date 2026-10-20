@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.027383,
+ "gas_eth": 0.024008,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x1315 routes WETH through USDT to buy 43133.53 DON on the USDT/DON pool 0x91b1. The victim then buys DON with USDT on that same pool, and 0x1315 sells exactly the same DON back, ending with +0.131181 WETH. I treated the 0.107501 ETH paid to the sending EOA as internal to the actor but counted the 0.103798 ETH paid to 0x5a0b (likely a builder or miner payment) as a cost, giving 0.027383 ETH, or about +0.003375 ETH after 0.024008 ETH of gas; the margin is thin and depends on that treatment.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3251,
+  "output_tokens": 819,
+  "thinking_tokens": 465
+ },
+ "_request_id": "req_011CgBSoAQcgg35GfGrfGVpu",
+ "_response_id": "msg_011CgBSoAow6zJDa6SVqzTbr",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\", \"pool\": \"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.027383, \"gas_eth\": 0.024008, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x1315 routes WETH through USDT to buy 43133.53 DON on the USDT/DON pool 0x91b1. The victim then buys DON with USDT on that same pool, and 0x1315 sells exactly the same DON back, ending with +0.131181 WETH. I treated the 0.107501 ETH paid to the sending EOA as internal to the actor but counted the 0.103798 ETH paid to 0x5a0b (likely a builder or miner payment) as a cost, giving 0.027383 ETH, or about +0.003375 ETH after 0.024008 ETH of gas; the margin is thin and depends on that treatment.\"}",
+ "case_id": "rej53_028",
+ "_time": "2026-10-19T18:34:15+0800"
+}

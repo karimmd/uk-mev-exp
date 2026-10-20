@@ -1,0 +1,5 @@
+protocol PROTOCOL_ARBITRAGE.md version 1
+sha256 b20e6fd04036c1aa4bd19c7e672babfd8fa156c04d71d0f02ca4834e42496156
+registered_at 2026-10-13T21:04:34+08:00 (date -Is on the server)
+reader claude-sonnet-5-5 via Claude Code headless, tools disabled
+sources Blockscout API v2, Etherscan API V2

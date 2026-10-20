@@ -1,0 +1,32 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x1ab24a692eff49b9712ceacdef853152d78b9050",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.061366,
+ "gas_eth": 0.025594,
+ "profit_after_gas": 0.035772,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg sells XPb for WETH on the shared Uniswap V2 pool; back leg rebuys XPb with WETH after the victim trades on the same pool. The WETH gain exceeds the front and back gas fees, and the XPb amount is exactly round-tripped.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2275,
+  "output_tokens": 2692,
+  "thinking_tokens": 2528
+ },
+ "_request_id": "41c7df9d9fbd1b67d1d90938dce6215e",
+ "_response_id": "222cb5d1-2340-4e6b-862b-ced794b138f0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdac775cd972ac612907682ff757af66f75eecece\",\"pool\":\"0x1ab24a692eff49b9712ceacdef853152d78b9050\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.061366,\"gas_eth\":0.025594,\"profit_after_gas\":0.035772,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leg sells XPb for WETH on the shared Uniswap V2 pool; back leg rebuys XPb with WETH after the victim trades on the same pool. The WETH gain exceeds the front and back gas fees, and the XPb amount is exactly round-tripped.\"}",
+ "case_id": "sym100_002",
+ "_time": "2026-10-19T19:29:03+0800"
+}

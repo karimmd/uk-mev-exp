@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013544,
+ "gas_eth": 0.0,
+ "residual": "about 5.271e12 MOONPUG (266728859863781.09 bought minus 261457822590376.78 sold)",
+ "confidence": 4,
+ "note": "The same contract bought MOONPUG with 0.57 WETH in the front leg and sold most of it back for 0.670962 WETH in the back leg. The victim bought MOONPUG on the same pool in between. The WETH gain is +0.100962. The back leg also sent 0.087418 ETH to 0xb3b7\u2026 (likely a miner or builder payment), which leaves +0.013544 ETH after that payment. Both legs show a 0 gwei gas price, so gas is 0, and the leftover MOONPUG only adds to the position.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.029462000000000002,
+ "_session": "f2668f80-a548-46fd-a4f1-ccb9549a2460",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.013544,\"gas_eth\":0.0,\"residual\":\"about 5.271e12 MOONPUG (266728859863781.09 bought minus 261457822590376.78 sold)\",\"confidence\":4,\"note\":\"The same contract bought MOONPUG with 0.57 WETH in the front leg and sold most of it back for 0.670962 WETH in the back leg. The victim bought MOONPUG on the same pool in between. The WETH gain is +0.100962. The back leg also sent 0.087418 ETH to 0xb3b7\u2026 (likely a miner or builder payment), which leaves +0.013544 ETH after that payment. Both legs show a 0 gwei gas price, so gas is 0, and the leftover MOONPUG only adds to the position.\"}",
+ "case_id": "pack_017",
+ "_time": "2026-10-13T20:07:42+0800"
+}

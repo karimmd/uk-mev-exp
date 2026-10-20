@@ -1,0 +1,40 @@
+{
+ "actor": "0x3765521db364ee269e9540970fd21e5a3e825699",
+ "pools": [
+  "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+  "0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615",
+  "0x3125e45d5665e98a08388a7df051a728b647eaae",
+  "0x724d5c9c618a2152e99a45649a3b8cf198321f46"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.00165,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.00165,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 0.579783 WETH and gets 0.588453 WETH back after a four-pool loop: WETH\u2192MANA (V2), MANA\u2192USDC (V3), USDC\u2192REVV (V3), REVV\u2192WETH (V2). Each intermediate token goes straight from one pool to the next. The 0.007023 ETH internal payment to 0x01ca8a\u2026 (likely a builder or coinbase tip) leaves about 0.00165 ETH, and the reported gas fee is zero at 0 gwei.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2344,
+  "output_tokens": 832,
+  "thinking_tokens": 381
+ },
+ "_request_id": "req_011CgBXFK9R3gpq48dGbMpz7",
+ "_response_id": "msg_011CgBXFKUWbeJ8A7jRYGmdN",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3765521db364ee269e9540970fd21e5a3e825699\", \"pools\": [\"0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3\", \"0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615\", \"0x3125e45d5665e98a08388a7df051a728b647eaae\", \"0x724d5c9c618a2152e99a45649a3b8cf198321f46\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.00165, \"gas_eth\": 0.0, \"profit_after_gas\": 0.00165, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 0.579783 WETH and gets 0.588453 WETH back after a four-pool loop: WETH\u2192MANA (V2), MANA\u2192USDC (V3), USDC\u2192REVV (V3), REVV\u2192WETH (V2). Each intermediate token goes straight from one pool to the next. The 0.007023 ETH internal payment to 0x01ca8a\u2026 (likely a builder or coinbase tip) leaves about 0.00165 ETH, and the reported gas fee is zero at 0 gwei.\"}",
+ "case_id": "arb106_031",
+ "_time": "2026-10-19T19:32:36+0800"
+}

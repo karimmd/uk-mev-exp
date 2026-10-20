@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbe55c87dff2a9f5c95cb5c07572c51fd91fe0732",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.107377,
+ "gas_eth": 0.051155,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 8436.182084 ROOM into the pool for 14.491313 WETH in the front leg. The victim also sells ROOM on the same pool. The actor then buys back exactly 8436.182084 ROOM for 14.383936 WETH in the back leg, so the round trip is closed with no residual. Net WETH is +0.107377. After 0.051155 ETH of front and back gas, the profit is about +0.056222 ETH. The bracket runs sell, then victim sell, then buy-back, and the victim trade is small (0.035 WETH), so it is a less typical sandwich shape.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0260672,
+ "_session": "7b951421-83c1-46c9-bb1f-76eb838e045b",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xbe55c87dff2a9f5c95cb5c07572c51fd91fe0732\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.107377, \"gas_eth\": 0.051155, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 8436.182084 ROOM into the pool for 14.491313 WETH in the front leg. The victim also sells ROOM on the same pool. The actor then buys back exactly 8436.182084 ROOM for 14.383936 WETH in the back leg, so the round trip is closed with no residual. Net WETH is +0.107377. After 0.051155 ETH of front and back gas, the profit is about +0.056222 ETH. The bracket runs sell, then victim sell, then buy-back, and the victim trade is small (0.035 WETH), so it is a less typical sandwich shape.\"}",
+ "case_id": "sym100_017",
+ "_time": "2026-10-13T21:26:12+0800"
+}

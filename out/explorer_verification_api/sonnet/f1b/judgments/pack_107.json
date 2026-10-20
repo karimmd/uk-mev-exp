@@ -1,0 +1,31 @@
+{
+ "actor": "0x59903993ae67bf48f10832e9be28935fee04d6f6",
+ "pool": "0xd65e975c7d0d5871eff8b079120e43c9f377ada1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0035,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 4441.946284 YOP with 2.303848 WETH in the front leg. The victim then buys YOP on the same YOP/WETH pool, routed SHIB to WETH to YOP. The back leg sells exactly 4441.946284 YOP for 2.337182 WETH, a gross gain of 0.033334 ETH. The actor then sends 0.029834 ETH to 0x1ad9...5836 (probably a miner or builder payment), leaving about 0.0035 ETH. Gas for both legs is 0 at 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3599,
+  "output_tokens": 680,
+  "thinking_tokens": 367
+ },
+ "_request_id": "req_011CgBRF7dg63q8LuvSXicaW",
+ "_response_id": "msg_011CgBRFD6b8zh1rrgYJsyAQ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x59903993ae67bf48f10832e9be28935fee04d6f6\",\"pool\":\"0xd65e975c7d0d5871eff8b079120e43c9f377ada1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.0035,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 4441.946284 YOP with 2.303848 WETH in the front leg. The victim then buys YOP on the same YOP/WETH pool, routed SHIB to WETH to YOP. The back leg sells exactly 4441.946284 YOP for 2.337182 WETH, a gross gain of 0.033334 ETH. The actor then sends 0.029834 ETH to 0x1ad9...5836 (probably a miner or builder payment), leaving about 0.0035 ETH. Gas for both legs is 0 at 0.0 gwei.\"}",
+ "case_id": "pack_107",
+ "_time": "2026-10-19T18:13:52+0800"
+}

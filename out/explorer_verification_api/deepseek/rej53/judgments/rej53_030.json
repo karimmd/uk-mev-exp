@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0x31cf0327782a22958e7361f75ed86a7b69eb0aa7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.075812,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x00000000032962b51589768828ad878876299e14 receives FORM on the front leg via pool 0x31cf0327782a22958e7361f75ed86a7b69eb0aa7 and swaps it back on the back leg through that same pool, which the victim also trades. Its received WETH exceeds spent WETH, reduced by the 0.032491 ETH internal outflow, leaving a positive net and no residual FORM.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2844,
+  "output_tokens": 2050,
+  "thinking_tokens": 1857
+ },
+ "_request_id": "538fba7318e0d9a2fc58be34f482e692",
+ "_response_id": "7ca2ed5b-4208-486f-af7e-bd324b574404",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000032962b51589768828ad878876299e14\",\"pool\":\"0x31cf0327782a22958e7361f75ed86a7b69eb0aa7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.075812,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x00000000032962b51589768828ad878876299e14 receives FORM on the front leg via pool 0x31cf0327782a22958e7361f75ed86a7b69eb0aa7 and swaps it back on the back leg through that same pool, which the victim also trades. Its received WETH exceeds spent WETH, reduced by the 0.032491 ETH internal outflow, leaving a positive net and no residual FORM.\"}",
+ "case_id": "rej53_030",
+ "_time": "2026-10-19T18:59:48+0800"
+}

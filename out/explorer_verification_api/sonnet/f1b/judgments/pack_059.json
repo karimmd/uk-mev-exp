@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008836,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 530.133065 UNQT for 0.483237 WETH in the front leg. The victim buys UNQT on the same pool, and the actor sells all 530.133065 UNQT back for 0.513110 WETH, so the gross gain is 0.029873 ETH. The back leg also forwards its 0.021037 ETH value to what looks like a miner address (0xea67\u2026), which I counted as a cost. That leaves about +0.008836 ETH, and gas is 0 at 0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3417,
+  "output_tokens": 806,
+  "thinking_tokens": 518
+ },
+ "_request_id": "req_011CgBQhxvw4rBU9XgojP2gR",
+ "_response_id": "msg_011CgBQi5MPJqwrGmmbRFjGu",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0x020e6d0e80d08567ecb14f942fa326748407a845\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.008836,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 530.133065 UNQT for 0.483237 WETH in the front leg. The victim buys UNQT on the same pool, and the actor sells all 530.133065 UNQT back for 0.513110 WETH, so the gross gain is 0.029873 ETH. The back leg also forwards its 0.021037 ETH value to what looks like a miner address (0xea67\u2026), which I counted as a cost. That leaves about +0.008836 ETH, and gas is 0 at 0 gwei.\"}",
+ "case_id": "pack_059",
+ "_time": "2026-10-19T18:06:50+0800"
+}

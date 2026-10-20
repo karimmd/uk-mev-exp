@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000740a22fa209cf6806d38f7605385",
+ "pool": "0x287856d10418e01ef1e93df9962b04d9a3a521c9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.466671,
+ "gas_eth": 0.01153,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x0000\u2026740a buys 0.127231 SSL for 0.151825 WETH on pool 0x2878\u202621c9 at position 125. The victim then buys SSL with 39.07 ETH on the same pool at position 128. The same contract sells exactly 0.127231 SSL back for 0.630026 WETH at position 129, a gross gain of 0.478201 WETH less 0.01153 ETH in gas; the two legs have different senders but the same executing contract.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2863,
+  "output_tokens": 556,
+  "thinking_tokens": 272
+ },
+ "_request_id": "req_011CgBRg6dbEBRWJ3kAE5QZ1",
+ "_response_id": "msg_011CgBRgAYVW462U2pCuwErC",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000000740a22fa209cf6806d38f7605385\", \"pool\": \"0x287856d10418e01ef1e93df9962b04d9a3a521c9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.466671, \"gas_eth\": 0.01153, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x0000\u2026740a buys 0.127231 SSL for 0.151825 WETH on pool 0x2878\u202621c9 at position 125. The victim then buys SSL with 39.07 ETH on the same pool at position 128. The same contract sells exactly 0.127231 SSL back for 0.630026 WETH at position 129, a gross gain of 0.478201 WETH less 0.01153 ETH in gas; the two legs have different senders but the same executing contract.\"}",
+ "case_id": "pack_144",
+ "_time": "2026-10-19T18:19:30+0800"
+}

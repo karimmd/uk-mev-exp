@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9ca8aef2372c705d6848fdda3c1267a7f51267c1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.010406,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 3.177798 UDT for 2.81 WETH on the WETH/UDT pool in the front leg. The victim then buys UDT on the same pool (via CHAIN->WETH->UDT). The back leg sells exactly 3.177798 UDT for 2.915113 WETH, so the gross gain is +0.105113 WETH. The back-leg transaction value of 0.094707 ETH is forwarded to 0x829b\u2026a830, which looks like a bribe. Netting it out gives +0.010406 ETH, and both legs show 0 gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3124,
+  "output_tokens": 906,
+  "thinking_tokens": 586
+ },
+ "_request_id": "req_011CgBRrpo9cVwjXduAN1rK8",
+ "_response_id": "msg_011CgBRrq8kPVnrjy4hAP9Uz",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x9ca8aef2372c705d6848fdda3c1267a7f51267c1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.010406,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 3.177798 UDT for 2.81 WETH on the WETH/UDT pool in the front leg. The victim then buys UDT on the same pool (via CHAIN->WETH->UDT). The back leg sells exactly 3.177798 UDT for 2.915113 WETH, so the gross gain is +0.105113 WETH. The back-leg transaction value of 0.094707 ETH is forwarded to 0x829b\u2026a830, which looks like a bribe. Netting it out gives +0.010406 ETH, and both legs show 0 gas fee.\"}",
+ "case_id": "pack_192",
+ "_time": "2026-10-19T18:21:56+0800"
+}

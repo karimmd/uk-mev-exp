@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001258,
+ "gas_eth": 0.019522,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sells INV on pool 0x328dfd via pool 0x73e02e before the victim, then buys INV back on 0x328dfd after the victim also sells INV there. Net WETH gain is 0.103004 ETH, less 0.082224 ETH internal transfer and 0.019522 ETH gas, leaving +0.001258 ETH; no residual INV remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2816,
+  "output_tokens": 14352,
+  "thinking_tokens": 14165
+ },
+ "_request_id": "a9281d3e976be1b3bfd3d9786bee8917",
+ "_response_id": "d5a0fd3c-4be9-492e-8494-4b5b4f89fa67",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.001258,\"gas_eth\":0.019522,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sells INV on pool 0x328dfd via pool 0x73e02e before the victim, then buys INV back on 0x328dfd after the victim also sells INV there. Net WETH gain is 0.103004 ETH, less 0.082224 ETH internal transfer and 0.019522 ETH gas, leaving +0.001258 ETH; no residual INV remains.\"}",
+ "case_id": "sym100_049",
+ "_time": "2026-10-19T18:47:24+0800"
+}

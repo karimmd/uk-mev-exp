@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008836,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x0000\u202627d2 bought 530.133065 UNQT for 0.483237 WETH on pool 0x020e\u2026a845. The victim then bought UNQT on the same pool. The contract sold the same 530.133065 UNQT back for 0.513110 WETH, a gross gain of 0.029873 WETH. Gas was zero, and the 0.021037 ETH that the sender passed through as value and paid to 0xea67\u20268ec8 (likely the block builder) leaves about 0.008836 ETH net, which is still positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3417,
+  "output_tokens": 783,
+  "thinking_tokens": 476
+ },
+ "_request_id": "req_011CgBQkpUXJFiWYChcGnJMp",
+ "_response_id": "msg_011CgBQkvywYNHvoHVptUXpB",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0x020e6d0e80d08567ecb14f942fa326748407a845\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.008836, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x0000\u202627d2 bought 530.133065 UNQT for 0.483237 WETH on pool 0x020e\u2026a845. The victim then bought UNQT on the same pool. The contract sold the same 530.133065 UNQT back for 0.513110 WETH, a gross gain of 0.029873 WETH. Gas was zero, and the 0.021037 ETH that the sender passed through as value and paid to 0xea67\u20268ec8 (likely the block builder) leaves about 0.008836 ETH net, which is still positive.\"}",
+ "case_id": "pack_059",
+ "_time": "2026-10-19T18:07:31+0800"
+}

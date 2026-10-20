@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x9314941c11d6dee1d7bf93113eb74d4718949f3b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.327825,
+ "gas_eth": 0.043961,
+ "profit_after_gas": 0.283864,
+ "residual": "250829570863.375 $HOKK",
+ "confidence": 5,
+ "note": "The same contract 0x000000000000084e91743124a982076c59f10084 buys HOKK with WETH in the front leg and sells HOKK back to the same HOKK/WETH pool after the victim trades on that pool. The WETH net is positive before gas, and remains positive after front/back gas fees, leaving 250,829,570,863.375 $HOKK residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2341,
+  "output_tokens": 3413,
+  "thinking_tokens": 3203
+ },
+ "_request_id": "a2c0040edb2a1ae8bc6e63439d23aac7",
+ "_response_id": "fd1c2822-464d-4015-b7f5-10907ecad575",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000084e91743124a982076c59f10084\",\"pool\":\"0x9314941c11d6dee1d7bf93113eb74d4718949f3b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.327825,\"gas_eth\":0.043961,\"profit_after_gas\":0.283864,\"residual\":\"250829570863.375 $HOKK\",\"confidence\":5,\"note\":\"The same contract 0x000000000000084e91743124a982076c59f10084 buys HOKK with WETH in the front leg and sells HOKK back to the same HOKK/WETH pool after the victim trades on that pool. The WETH net is positive before gas, and remains positive after front/back gas fees, leaving 250,829,570,863.375 $HOKK residual.\"}",
+ "case_id": "pack_012",
+ "_time": "2026-10-19T19:04:54+0800"
+}

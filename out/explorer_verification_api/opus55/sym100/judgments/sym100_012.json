@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x8d82b68f2346483d6b210383edbe27e7f5ef2365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.103018,
+ "gas_eth": 0.032375,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x...4a30 sold 1669.880824 CTASK for 2.427789 WETH on pool 0x8d82, just before the victim's 6000 CTASK sell on that same pool, then bought back exactly 1669.880824 CTASK for 2.292396 WETH. This is the sell-side form of a sandwich: the CTASK leg nets to zero and the actor gains 0.135393 WETH. Subtracting 0.032375 ETH of gas leaves +0.103018 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2629,
+  "output_tokens": 710,
+  "thinking_tokens": 409
+ },
+ "_request_id": "req_011CgBS5iaxEgS6XxRSdksuY",
+ "_response_id": "msg_011CgBS5iw3J9n4pbeahtEba",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x8d82b68f2346483d6b210383edbe27e7f5ef2365\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.103018, \"gas_eth\": 0.032375, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x...4a30 sold 1669.880824 CTASK for 2.427789 WETH on pool 0x8d82, just before the victim's 6000 CTASK sell on that same pool, then bought back exactly 1669.880824 CTASK for 2.292396 WETH. This is the sell-side form of a sandwich: the CTASK leg nets to zero and the actor gains 0.135393 WETH. Subtracting 0.032375 ETH of gas leaves +0.103018 ETH.\"}\n```",
+ "case_id": "sym100_012",
+ "_time": "2026-10-19T18:24:51+0800"
+}

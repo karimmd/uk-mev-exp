@@ -1,0 +1,31 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x87c6c475f40299e5ce3cba736f613f97e820f101",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.039376,
+ "gas_eth": 0.039298,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract 0x01ff6318440f7d5553a82294d78262d5f5084eff is the pool counterparty in front and back: it sends 0.515420 WETH and receives 0.554796 WETH, with the victim swapping on the same V2 pool between. Raw WETH gain is 0.039376; after 0.039298 gas the net is +0.000078, and no residual non-WETH holding is shown.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2055,
+  "output_tokens": 7738,
+  "thinking_tokens": 7535
+ },
+ "_request_id": "20a9722202aa350c83a6021fcd259661",
+ "_response_id": "54fc3b84-7f95-44e5-a933-4ed14e8ec0c6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x01ff6318440f7d5553a82294d78262d5f5084eff\",\"pool\":\"0x87c6c475f40299e5ce3cba736f613f97e820f101\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.039376,\"gas_eth\":0.039298,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract 0x01ff6318440f7d5553a82294d78262d5f5084eff is the pool counterparty in front and back: it sends 0.515420 WETH and receives 0.554796 WETH, with the victim swapping on the same V2 pool between. Raw WETH gain is 0.039376; after 0.039298 gas the net is +0.000078, and no residual non-WETH holding is shown.\"}",
+ "case_id": "pack_032",
+ "_time": "2026-10-19T18:08:30+0800"
+}

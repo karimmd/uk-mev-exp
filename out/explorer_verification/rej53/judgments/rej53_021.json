@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x063271fdac84b94e9283557f748594dc84092bf3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.435421,
+ "gas_eth": 0.024007,
+ "residual": "about 86.63 PROPHET (2917.690446 received minus 2831.058526 sold)",
+ "confidence": 3,
+ "note": "The same contract buys PROPHET with 6.990214 WETH in the front leg and sells PROPHET for 8.425635 WETH in the back leg, both on the PROPHET/WETH pool that the victim also trades through. Net WETH is +1.435421 and gas is 0.024007 ETH, so the position is positive (about +1.411 ETH) even before counting the leftover PROPHET. Confidence is held down because the victim's transaction is a multi-hop route that sells PROPHET into the pool rather than buying, so it does not look like a classic same-direction sandwich victim, though it satisfies the stated criteria.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0274647,
+ "_session": "459f42cc-06ee-465e-b58c-2e624cbe70d1",
+ "_raw": "{\"actor\": \"0x000000000000084e91743124a982076c59f10084\", \"pool\": \"0x063271fdac84b94e9283557f748594dc84092bf3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.435421, \"gas_eth\": 0.024007, \"residual\": \"about 86.63 PROPHET (2917.690446 received minus 2831.058526 sold)\", \"confidence\": 3, \"note\": \"The same contract buys PROPHET with 6.990214 WETH in the front leg and sells PROPHET for 8.425635 WETH in the back leg, both on the PROPHET/WETH pool that the victim also trades through. Net WETH is +1.435421 and gas is 0.024007 ETH, so the position is positive (about +1.411 ETH) even before counting the leftover PROPHET. Confidence is held down because the victim's transaction is a multi-hop route that sells PROPHET into the pool rather than buying, so it does not look like a classic same-direction sandwich victim, though it satisfies the stated criteria.\"}",
+ "case_id": "rej53_021",
+ "_time": "2026-10-13T21:57:31+0800"
+}

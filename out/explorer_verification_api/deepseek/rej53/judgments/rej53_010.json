@@ -1,0 +1,31 @@
+{
+ "actor": "0xce50840272d623272d6aef25e403f2265c27cfe7",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.376187,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract 0xce508402 bought ALBT in the front leg on the USDT/ALBT pool 0x1cd926f3, the victim traded the same pool, and the actor sold the same ALBT in the back leg. WETH flows net +0.501583, minus the 0.125396 ETH internal outflow, with zero front/back gas and no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3175,
+  "output_tokens": 2778,
+  "thinking_tokens": 2595
+ },
+ "_request_id": "4229c43980b3f5b5119ac796793f9e4a",
+ "_response_id": "007a2f3e-92fd-49aa-a351-094a43e18829",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xce50840272d623272d6aef25e403f2265c27cfe7\",\"pool\":\"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.376187,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract 0xce508402 bought ALBT in the front leg on the USDT/ALBT pool 0x1cd926f3, the victim traded the same pool, and the actor sold the same ALBT in the back leg. WETH flows net +0.501583, minus the 0.125396 ETH internal outflow, with zero front/back gas and no residual non-WETH holding.\"}",
+ "case_id": "rej53_010",
+ "_time": "2026-10-19T18:57:55+0800"
+}

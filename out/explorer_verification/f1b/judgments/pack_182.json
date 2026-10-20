@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0xcd7989894bc033581532d2cd88da5db0a4b12859",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.21087,
+ "gas_eth": 0.047245,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor buys 2871.878644 BADGER on the V2 pool in the front leg, funded by WETH routed through the V3 pool and WBTC. The victim then buys BADGER from the same V2 pool, and the actor sells exactly 2871.878644 BADGER back in the back leg. WETH net is +1.134131 (18.922931 \u2212 17.7888). The 0.923261 ETH sent on to 0xea67\u2026 in the back leg is deducted as a cost. That leaves +0.21087 ETH, or about +0.1636 ETH after 0.047245 ETH gas, with no residual token holding.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0317312,
+ "_session": "d57509ef-d86a-4f49-9400-29542363a7e9",
+ "_raw": "{\"actor\": \"0x00000081c57cbc967248bea482c417207e84cffb\", \"pool\": \"0xcd7989894bc033581532d2cd88da5db0a4b12859\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.21087, \"gas_eth\": 0.047245, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor buys 2871.878644 BADGER on the V2 pool in the front leg, funded by WETH routed through the V3 pool and WBTC. The victim then buys BADGER from the same V2 pool, and the actor sells exactly 2871.878644 BADGER back in the back leg. WETH net is +1.134131 (18.922931 \u2212 17.7888). The 0.923261 ETH sent on to 0xea67\u2026 in the back leg is deducted as a cost. That leaves +0.21087 ETH, or about +0.1636 ETH after 0.047245 ETH gas, with no residual token holding.\"}",
+ "case_id": "pack_182",
+ "_time": "2026-10-13T20:40:23+0800"
+}

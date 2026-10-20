@@ -1,0 +1,17 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.146484,
+ "gas_eth": 0.016492,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 6608.905755 INFI for 1.850367 WETH in the front leg. It bought back exactly 6608.905755 INFI for 1.703883 WETH in the back leg. The victim sold INFI on the same pool between the two legs, in the same direction as the front leg. Net WETH is +0.146484. After gas of 0.016492 ETH (front and back legs) the position is about +0.12999 ETH, with no INFI left over. The front leg starts by selling INFI, so the actor must have held INFI beforehand, which is the only unusual part.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0218808,
+ "_session": "b8028196-1b0b-4489-aec4-f3bf33f4ed9a",
+ "_raw": "{\"actor\": \"0x09ddb304758caf024706dee2e92b569ca4823aa1\", \"pool\": \"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.146484, \"gas_eth\": 0.016492, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sold 6608.905755 INFI for 1.850367 WETH in the front leg. It bought back exactly 6608.905755 INFI for 1.703883 WETH in the back leg. The victim sold INFI on the same pool between the two legs, in the same direction as the front leg. Net WETH is +0.146484. After gas of 0.016492 ETH (front and back legs) the position is about +0.12999 ETH, with no INFI left over. The front leg starts by selling INFI, so the actor must have held INFI beforehand, which is the only unusual part.\"}",
+ "case_id": "sym100_094",
+ "_time": "2026-10-13T21:43:52+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1f964ff83c54ce447adae5cb93f9ec17018bf55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.006336,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.006336,
+ "residual": "about 501678560799.35 BEZOGE (bought 25104904877090.12, sold 24603226316290.77); this may be a transfer tax rather than a held balance",
+ "confidence": 4,
+ "note": "The same sender's contract buys BEZOGE with 2.211908 WETH on pool 0x1f964ff8 before the victim buys BEZOGE there, then sells it back for 2.270042 WETH, a gross gain of 0.058134 WETH. The 0.051798 ETH sent from the sender through the contract to 0x00192fb1 looks like a builder payment, so I counted it as a cost, leaving 0.006336 ETH; gas was charged at 0 gwei. The leftover BEZOGE can only add value, so the sign stays positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3611,
+  "output_tokens": 1264,
+  "thinking_tokens": 876
+ },
+ "_request_id": "req_011CgBVT1Tu9hyQhSFTj7SCP",
+ "_response_id": "msg_011CgBVT1z9zNKFHMiNhjWYD",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x1f964ff83c54ce447adae5cb93f9ec17018bf55b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.006336, \"gas_eth\": 0.0, \"profit_after_gas\": 0.006336, \"residual\": \"about 501678560799.35 BEZOGE (bought 25104904877090.12, sold 24603226316290.77); this may be a transfer tax rather than a held balance\", \"confidence\": 4, \"note\": \"The same sender's contract buys BEZOGE with 2.211908 WETH on pool 0x1f964ff8 before the victim buys BEZOGE there, then sells it back for 2.270042 WETH, a gross gain of 0.058134 WETH. The 0.051798 ETH sent from the sender through the contract to 0x00192fb1 looks like a builder payment, so I counted it as a cost, leaving 0.006336 ETH; gas was charged at 0 gwei. The leftover BEZOGE can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_069",
+ "_time": "2026-10-19T19:09:06+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x570febdf89c07f256c75686caca215289bb11cfc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.09648,
+ "gas_eth": 0.021028,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 613.525441 ERN into the ERN/WETH pool in the front leg for 16.523149 WETH. The victim then sold 1000 ERN into the same pool, and the back leg bought back exactly 613.525441 ERN for 16.426669 WETH, so ERN nets to zero. The WETH gain is 0.09648, and after 0.021028 ETH of front and back gas it is about +0.0755 ETH. The bracket is sell-first, so the actor must have held ERN beforehand.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2969,
+  "output_tokens": 854,
+  "thinking_tokens": 559
+ },
+ "_request_id": "req_011CgBRvijdkeyqsCLDrCm5Y",
+ "_response_id": "msg_011CgBRvj3jYRyHSDe4p2LN7",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x570febdf89c07f256c75686caca215289bb11cfc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.09648, \"gas_eth\": 0.021028, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sold 613.525441 ERN into the ERN/WETH pool in the front leg for 16.523149 WETH. The victim then sold 1000 ERN into the same pool, and the back leg bought back exactly 613.525441 ERN for 16.426669 WETH, so ERN nets to zero. The WETH gain is 0.09648, and after 0.021028 ETH of front and back gas it is about +0.0755 ETH. The bracket is sell-first, so the actor must have held ERN beforehand.\"}",
+ "case_id": "sym100_006",
+ "_time": "2026-10-19T18:22:49+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xdc2b82bc1106c9c5286e59344896fb0ceb932f53",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs use different executor contracts (0x...7f15 and 0x...6f65) and each is a complete buy-on-0x28a5/sell-on-0xdc2b arbitrage, leaving no non-WETH position. The victim buys RGT on 0xdc2b between them, but no single actor opens and closes a position across the victim.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4435,
+  "output_tokens": 13755,
+  "thinking_tokens": 13590
+ },
+ "_request_id": "a4335f85fe9e1eeeb4f27b70f29abfb2",
+ "_response_id": "1735a48a-d6aa-4ceb-bc63-998fee9656b7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xdc2b82bc1106c9c5286e59344896fb0ceb932f53\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":null,\"profit_after_gas\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back legs use different executor contracts (0x...7f15 and 0x...6f65) and each is a complete buy-on-0x28a5/sell-on-0xdc2b arbitrage, leaving no non-WETH position. The victim buys RGT on 0xdc2b between them, but no single actor opens and closes a position across the victim.\"}",
+ "case_id": "pack_073",
+ "_time": "2026-10-19T19:13:52+0800"
+}

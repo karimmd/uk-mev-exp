@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.097205,
+ "gas_eth": 0.000207,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The sender's own address pays 2.0008 WETH to pool 0x7e02 for 30967.458211 UCT in the front leg. It sells exactly that UCT back to the same pool for 2.098212 WETH in the back leg, while the victim buys UCT on that pool in between. That nets 0.097412 WETH, less 0.000207 ETH gas, with no residual UCT.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2975,
+  "output_tokens": 419,
+  "thinking_tokens": 159
+ },
+ "_request_id": "req_011CgBRH1b6RE8s4Y1NxNCSN",
+ "_response_id": "msg_011CgBRH5R2jsbsLFmHeMCso",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.097205, \"gas_eth\": 0.000207, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The sender's own address pays 2.0008 WETH to pool 0x7e02 for 30967.458211 UCT in the front leg. It sells exactly that UCT back to the same pool for 2.098212 WETH in the back leg, while the victim buys UCT on that pool in between. That nets 0.097412 WETH, less 0.000207 ETH gas, with no residual UCT.\"}",
+ "case_id": "pack_102",
+ "_time": "2026-10-19T18:14:16+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x895324433d8026fad0531428ccfbac7a6b32fbf8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.067071,
+ "gas_eth": 0.029171,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 375298.36 RAINI to the pool for 1.828093 WETH in the front leg, the victim then also sells RAINI into that pool, and the actor buys back exactly 375298.36 RAINI for 1.761022 WETH in the back leg. WETH net is +0.067071, and after 0.029171 ETH of front and back gas it is about +0.0379 ETH. The sell-first, buy-back-cheaper order means the position was funded from existing RAINI inventory rather than opened by a prior buy, but it is flat at the end.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0234047,
+ "_session": "6dba3f71-cdc1-4319-92be-f05d5d453a4e",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x895324433d8026fad0531428ccfbac7a6b32fbf8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.067071, \"gas_eth\": 0.029171, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sells 375298.36 RAINI to the pool for 1.828093 WETH in the front leg, the victim then also sells RAINI into that pool, and the actor buys back exactly 375298.36 RAINI for 1.761022 WETH in the back leg. WETH net is +0.067071, and after 0.029171 ETH of front and back gas it is about +0.0379 ETH. The sell-first, buy-back-cheaper order means the position was funded from existing RAINI inventory rather than opened by a prior buy, but it is flat at the end.\"}",
+ "case_id": "sym100_015",
+ "_time": "2026-10-13T21:25:50+0800"
+}

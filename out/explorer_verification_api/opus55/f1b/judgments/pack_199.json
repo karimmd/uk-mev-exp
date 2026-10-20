@@ -1,0 +1,31 @@
+{
+ "actor": "0x00bf034cec51975faece51b285724301436b21c4",
+ "pool": "0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.181209,
+ "gas_eth": 0.050839,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x00bf\u202621c4 buys 14944.146367 ORO for 20 WETH on pool 0xa89a\u2026e8fc before the victim's 8 ETH buy on the same pool, then sells exactly that ORO for 20.232048 WETH. That is a 0.232048 WETH gross gain, minus 0.050839 ETH in gas for both legs. The front and back legs come from different senders, but both call the same contract, which holds and releases the position.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3064,
+  "output_tokens": 501,
+  "thinking_tokens": 216
+ },
+ "_request_id": "req_011CgBS1FeMdSoRn9KcKZM3Z",
+ "_response_id": "msg_011CgBS1FyxBCvHJzRupFHyu",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00bf034cec51975faece51b285724301436b21c4\", \"pool\": \"0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.181209, \"gas_eth\": 0.050839, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x00bf\u202621c4 buys 14944.146367 ORO for 20 WETH on pool 0xa89a\u2026e8fc before the victim's 8 ETH buy on the same pool, then sells exactly that ORO for 20.232048 WETH. That is a 0.232048 WETH gross gain, minus 0.050839 ETH in gas for both legs. The front and back legs come from different senders, but both call the same contract, which holds and releases the position.\"}",
+ "case_id": "pack_199",
+ "_time": "2026-10-19T18:23:50+0800"
+}

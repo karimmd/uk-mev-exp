@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -0.1025,
+ "gas_eth": 0.008395,
+ "residual": "85801.445 MXS at 0x09c950e4 (front) and 88137.762 MXS at 0x5e487271 (back); neither is sold",
+ "confidence": 4,
+ "note": "Both the front and back legs are ETH-to-MXS buys on the same pool. Front sender 0x09c9 receives MXS and back sender 0x5e48 receives MXS, so no actor opens and then closes a position. The senders also differ, and neither sells MXS back. The victim is also a MXS-to-ETH sell, so the bracket pattern does not hold. The net ETH figure is simply the combined WETH spent (0.05 + 0.0525) and has no profit meaning.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028321199999999998,
+ "_session": "125f3306-8194-4081-b254-130c381dbce9",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": -0.1025, \"gas_eth\": 0.008395, \"residual\": \"85801.445 MXS at 0x09c950e4 (front) and 88137.762 MXS at 0x5e487271 (back); neither is sold\", \"confidence\": 4, \"note\": \"Both the front and back legs are ETH-to-MXS buys on the same pool. Front sender 0x09c9 receives MXS and back sender 0x5e48 receives MXS, so no actor opens and then closes a position. The senders also differ, and neither sells MXS back. The victim is also a MXS-to-ETH sell, so the bracket pattern does not hold. The net ETH figure is simply the combined WETH spent (0.05 + 0.0525) and has no profit meaning.\"}",
+ "case_id": "pack_196",
+ "_time": "2026-10-13T20:43:07+0800"
+}

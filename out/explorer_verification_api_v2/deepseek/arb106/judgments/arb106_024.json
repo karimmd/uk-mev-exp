@@ -1,0 +1,38 @@
+{
+ "actor": "0x649c8131c5fd45f3b75597224b45217b53578ec8",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": null,
+ "profit_token": "WETH",
+ "Q1": "no",
+ "Q1_reason": "flash loan only",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.004732,
+ "gas_eth": 0.004259,
+ "profit_after_gas": 0.000473,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two Uniswap V2 pools; actor 0x649c sends 0.275905 WETH to one pool and receives 0.280637 WETH from the other, netting +0.004732 WETH before gas. No closed-cycle token is held by the actor, so it is a flash-swap repayment rather than the defined arbitrage cycle. After the 0.004259 ETH gas fee, profit is +0.000473 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1467,
+  "output_tokens": 5460,
+  "thinking_tokens": 5200
+ },
+ "_request_id": "b70d28672d8901573da3f6cadd72e640",
+ "_response_id": "19de9bd3-a7a3-4bfd-ba90-22b29cdb1a8e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x649c8131c5fd45f3b75597224b45217b53578ec8\",\"pools\":[\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\",\"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"],\"cycle_token\":null,\"profit_token\":\"WETH\",\"Q1\":\"no\",\"Q1_reason\":\"flash loan only\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.004732,\"gas_eth\":0.004259,\"profit_after_gas\":0.000473,\"residual\":\"none\",\"confidence\":4,\"note\":\"Two Uniswap V2 pools; actor 0x649c sends 0.275905 WETH to one pool and receives 0.280637 WETH from the other, netting +0.004732 WETH before gas. No closed-cycle token is held by the actor, so it is a flash-swap repayment rather than the defined arbitrage cycle. After the 0.004259 ETH gas fee, profit is +0.000473 ETH.\"}",
+ "case_id": "arb106_024",
+ "_time": "2026-10-19T19:52:13+0800"
+}

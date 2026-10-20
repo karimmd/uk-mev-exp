@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x21359dfb99489204a3549692dd80f2cff4d4e8f9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.094627,
+ "gas_eth": 0.028407,
+ "profit_after_gas": 0.06622,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front swaps 4.03 WETH for 5074.997847 STR via pool 0x21359..., and back swaps the same STR amount back to 4.124627 WETH on the same pool. The victim trades the same pool in between, and the actor nets +0.094627 ETH before gas; after front+back gas the profit remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2367,
+  "output_tokens": 3618,
+  "thinking_tokens": 3424
+ },
+ "_request_id": "9b24654b4b7c4bd9fdab1fd2a7c51bfa",
+ "_response_id": "fa70e797-52c6-48ae-8ca5-c684b0f2d9cf",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x21359dfb99489204a3549692dd80f2cff4d4e8f9\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.094627,\"gas_eth\":0.028407,\"profit_after_gas\":0.06622,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front swaps 4.03 WETH for 5074.997847 STR via pool 0x21359..., and back swaps the same STR amount back to 4.124627 WETH on the same pool. The victim trades the same pool in between, and the actor nets +0.094627 ETH before gas; after front+back gas the profit remains positive.\"}",
+ "case_id": "pack_067",
+ "_time": "2026-10-19T19:11:31+0800"
+}

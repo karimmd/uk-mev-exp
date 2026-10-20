@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.097205,
+ "gas_eth": 0.000207,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both trade UCT/WETH on the same UniswapV2 pool 0x7e02..., with the victim's UCT/WETH hop between them. The actor spends 2.000800 WETH and later receives 2.098212 WETH, paying 0.000207 ETH gas, for a positive net of 0.097205 ETH; the UCT position is exactly closed.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2296,
+  "output_tokens": 6207,
+  "thinking_tokens": 6025
+ },
+ "_request_id": "0e2ff5d7d9c3d19a87ffa048d387fe25",
+ "_response_id": "5ef66a01-9bc3-42dd-9abe-62e01b769424",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.097205,\"gas_eth\":0.000207,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both trade UCT/WETH on the same UniswapV2 pool 0x7e02..., with the victim's UCT/WETH hop between them. The actor spends 2.000800 WETH and later receives 2.098212 WETH, paying 0.000207 ETH gas, for a positive net of 0.097205 ETH; the UCT position is exactly closed.\"}",
+ "case_id": "pack_102",
+ "_time": "2026-10-19T18:20:09+0800"
+}

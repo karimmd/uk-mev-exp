@@ -1,0 +1,42 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xf248959d7aa50cd47b448f507063eaa6cc5404c4",
+  "0x5f094191ddad05c5b6ddfa992a4f49d8d679290d",
+  "0xf0d1109e723cb06e400e2e57d0b6c7c32bedf61a",
+  "0x9e98deac1a416c9ce3c892bd8eef586f1291ca35",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xbbc95e1eb6ee476e9cbb8112435e14b372563038",
+  "0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.019599,
+ "gas_eth": 0.018107,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two pool-to-pool WETH cycles. The first is WETH\u2192PRE\u2192USDT\u2192BEL\u2192WETH, netting +0.0112 WETH. The second starts with a USDC/WETH V3 flash-swap and goes USDC\u2192WOO\u2192WETH, netting +0.008399 WETH. Gross WETH gain is 0.019599 against a 0.018107 ETH fee, leaving about +0.0015 ETH, with no residual tokens or mints.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3041,
+  "output_tokens": 1023,
+  "thinking_tokens": 504
+ },
+ "_request_id": "req_011CgBTYuqzv6oEMnP8Cn34i",
+ "_response_id": "msg_011CgBTYvCa2o8tUKRPopeXW",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0xf248959d7aa50cd47b448f507063eaa6cc5404c4\", \"0x5f094191ddad05c5b6ddfa992a4f49d8d679290d\", \"0xf0d1109e723cb06e400e2e57d0b6c7c32bedf61a\", \"0x9e98deac1a416c9ce3c892bd8eef586f1291ca35\", \"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0xbbc95e1eb6ee476e9cbb8112435e14b372563038\", \"0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.019599, \"gas_eth\": 0.018107, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two pool-to-pool WETH cycles. The first is WETH\u2192PRE\u2192USDT\u2192BEL\u2192WETH, netting +0.0112 WETH. The second starts with a USDC/WETH V3 flash-swap and goes USDC\u2192WOO\u2192WETH, netting +0.008399 WETH. Gross WETH gain is 0.019599 against a 0.018107 ETH fee, leaving about +0.0015 ETH, with no residual tokens or mints.\"}",
+ "case_id": "arb106_088",
+ "_time": "2026-10-19T18:44:09+0800"
+}

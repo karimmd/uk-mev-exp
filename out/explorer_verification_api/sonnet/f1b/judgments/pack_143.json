@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000000007f150bd6f54c40a34d7c3d5e9f56",
+ "pool": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.065769,
+ "gas_eth": 0.015021,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front and back legs are different actors (0x\u20267f15 and 0x\u20266f65). Each leg is a self-contained cyclic arbitrage between pools 0x7b18\u2026 and 0x4dd2\u2026, buying API3 on one and selling it on the other within the same transaction, so neither opens a position that the other closes. The victim only buys API3 on 0x4dd2\u2026, and the front actor ends with no API3 left. For the front actor, 13.485641 WETH in minus 13.415322 out, less the 0.00455 ETH coinbase payment, gives +0.065769 ETH, or about +0.0507 ETH after 0.015021 ETH gas, so Q2 is yes. The back actor's own arb nets about +0.934 ETH after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4776,
+  "output_tokens": 1120,
+  "thinking_tokens": 742
+ },
+ "_request_id": "req_011CgBRaKhzG9EACqVCi4eXe",
+ "_response_id": "msg_011CgBRaQCMtet5KcbUHZ6zQ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x0000000000007f150bd6f54c40a34d7c3d5e9f56\", \"pool\": \"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.065769, \"gas_eth\": 0.015021, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front and back legs are different actors (0x\u20267f15 and 0x\u20266f65). Each leg is a self-contained cyclic arbitrage between pools 0x7b18\u2026 and 0x4dd2\u2026, buying API3 on one and selling it on the other within the same transaction, so neither opens a position that the other closes. The victim only buys API3 on 0x4dd2\u2026, and the front actor ends with no API3 left. For the front actor, 13.485641 WETH in minus 13.415322 out, less the 0.00455 ETH coinbase payment, gives +0.065769 ETH, or about +0.0507 ETH after 0.015021 ETH gas, so Q2 is yes. The back actor's own arb nets about +0.934 ETH after gas.\"}",
+ "case_id": "pack_143",
+ "_time": "2026-10-19T18:18:15+0800"
+}

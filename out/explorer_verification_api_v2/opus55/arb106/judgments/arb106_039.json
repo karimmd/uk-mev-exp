@@ -1,0 +1,39 @@
+{
+ "actor": "0x00000000000123685885532dcb685c442dc83126",
+ "pools": [
+  "0xb8fce31f3dd2f0de6823575f1d35da4a306a5777",
+  "0xd4981ed8892cacc135192385de05b19684231e74",
+  "0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79"
+ ],
+ "cycle_token": "SST",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.021243,
+ "gas_eth": 0.008805,
+ "profit_after_gas": 0.012438,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract runs SST through three pools. It takes 988.66 SST from the V3 pool for 1229.97 USDT, gets the same USDT back from the V2 pool for 822.1 SST, and sells the surplus 166.56 SST for 0.080927 WETH, so SST and USDT both net to zero. It unwraps the WETH, pays 0.059684 ETH to 0xe206 (likely a payment to the miner, since the transaction is at position 0) and forwards 0.021243 ETH to the sender. Counting the actor contract and the sender together, profit is 0.021243 minus the 0.008805 gas fee, which is positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2624,
+  "output_tokens": 1183,
+  "thinking_tokens": 726
+ },
+ "_request_id": "req_011CgBXJcZ1crbq6D9Lcp6CF",
+ "_response_id": "msg_011CgBXJctbNYv89t163LZgX",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000123685885532dcb685c442dc83126\", \"pools\": [\"0xb8fce31f3dd2f0de6823575f1d35da4a306a5777\", \"0xd4981ed8892cacc135192385de05b19684231e74\", \"0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79\"], \"cycle_token\": \"SST\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.021243, \"gas_eth\": 0.008805, \"profit_after_gas\": 0.012438, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract runs SST through three pools. It takes 988.66 SST from the V3 pool for 1229.97 USDT, gets the same USDT back from the V2 pool for 822.1 SST, and sells the surplus 166.56 SST for 0.080927 WETH, so SST and USDT both net to zero. It unwraps the WETH, pays 0.059684 ETH to 0xe206 (likely a payment to the miner, since the transaction is at position 0) and forwards 0.021243 ETH to the sender. Counting the actor contract and the sender together, profit is 0.021243 minus the 0.008805 gas fee, which is positive.\"}",
+ "case_id": "arb106_039",
+ "_time": "2026-10-19T19:33:24+0800"
+}

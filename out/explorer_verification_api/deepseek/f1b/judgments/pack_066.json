@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.084134,
+ "gas_eth": 0.249344,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use actor 0x499d... trading POW/WETH on Uniswap V3 pool 0xc079..., with the victim on the same pool between them. The actor received 5438.946266 POW in front and returned the same amount in back, leaving no POW residual; WETH net +0.165210 minus gas 0.249344 gives -0.084134 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2223,
+  "output_tokens": 6159,
+  "thinking_tokens": 5974
+ },
+ "_request_id": "20a87494e8513626c2b1311c6be43ffa",
+ "_response_id": "5a52a6e7-8907-4ee4-8d7c-2d0bf071265b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.084134,\"gas_eth\":0.249344,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use actor 0x499d... trading POW/WETH on Uniswap V3 pool 0xc079..., with the victim on the same pool between them. The actor received 5438.946266 POW in front and returned the same amount in back, leaving no POW residual; WETH net +0.165210 minus gas 0.249344 gives -0.084134 ETH.\"}",
+ "case_id": "pack_066",
+ "_time": "2026-10-19T18:13:00+0800"
+}

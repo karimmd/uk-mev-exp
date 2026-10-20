@@ -1,0 +1,17 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x7ba9b94127d434182287de708643932ec036d365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.636694,
+ "gas_eth": 0.018576,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys 132246.6589 eRSDL with 17.43 WETH in the front leg and sells exactly that amount back for 18.066694 WETH in the back leg. The victim buys eRSDL on the same pool in between. Gross gain is 0.636694 ETH, or about 0.618118 ETH after the 0.018576 ETH gas on both legs, with no token residual.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.020012699999999998,
+ "_session": "b95b9bbc-c667-470d-a38f-f9e2dcf253ed",
+ "_raw": "{\"actor\": \"0x51acf0af77adcb20de482e1cd678f620baf07e0c\", \"pool\": \"0x7ba9b94127d434182287de708643932ec036d365\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.636694, \"gas_eth\": 0.018576, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same contract buys 132246.6589 eRSDL with 17.43 WETH in the front leg and sells exactly that amount back for 18.066694 WETH in the back leg. The victim buys eRSDL on the same pool in between. Gross gain is 0.636694 ETH, or about 0.618118 ETH after the 0.018576 ETH gas on both legs, with no token residual.\"}",
+ "case_id": "pack_019",
+ "_time": "2026-10-13T20:08:01+0800"
+}

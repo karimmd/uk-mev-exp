@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000005704c6049f869409f38a2bc239efd4b",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.068122,
+ "gas_eth": 0.010512,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x0000...efd4b, called by the same sender in both legs, sold 82.510754 MPH for 8.449176 WETH on the MPH/WETH pool before the victim's larger MPH sell on the same pool. It then bought back exactly 82.510754 MPH for 8.370542 WETH, a reverse-direction bracket that returns the token position flat. The WETH gain of 0.078634 minus 0.010512 gas leaves about +0.068122 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2994,
+  "output_tokens": 609,
+  "thinking_tokens": 320
+ },
+ "_request_id": "req_011CgBSYu21eYGUNjbLaEm9y",
+ "_response_id": "msg_011CgBSYuNMspLrwQM3QskpJ",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000005704c6049f869409f38a2bc239efd4b\", \"pool\": \"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.068122, \"gas_eth\": 0.010512, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x0000...efd4b, called by the same sender in both legs, sold 82.510754 MPH for 8.449176 WETH on the MPH/WETH pool before the victim's larger MPH sell on the same pool. It then bought back exactly 82.510754 MPH for 8.370542 WETH, a reverse-direction bracket that returns the token position flat. The WETH gain of 0.078634 minus 0.010512 gas leaves about +0.068122 ETH.\"}",
+ "case_id": "sym100_086",
+ "_time": "2026-10-19T18:30:59+0800"
+}

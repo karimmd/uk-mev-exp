@@ -1,0 +1,38 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "SAITAMA",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.007525,
+ "gas_eth": 0.005652,
+ "profit_after_gas": 0.001873,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends WETH into the first Uniswap V2 pool and receives more WETH from the second; the SAITAMA output is routed directly between the two pools, completing a cross-pool WETH/SAITAMA cycle with a small WETH profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1470,
+  "output_tokens": 21228,
+  "thinking_tokens": 20985
+ },
+ "_request_id": "03e5a79ddab5d39c6a7d4bd096e4846d",
+ "_response_id": "43724cc5-30bc-4eed-9af9-3b753668e452",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xdfee68a9adb981cd08699891a11cabe10f25ec44\", \"pools\": [\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\", \"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"], \"cycle_token\": \"SAITAMA\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.007525, \"gas_eth\": 0.005652, \"profit_after_gas\": 0.001873, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends WETH into the first Uniswap V2 pool and receives more WETH from the second; the SAITAMA output is routed directly between the two pools, completing a cross-pool WETH/SAITAMA cycle with a small WETH profit.\"}",
+ "case_id": "arb106_086",
+ "_time": "2026-10-19T20:06:39+0800"
+}

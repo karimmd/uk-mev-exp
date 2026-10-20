@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x611cde65dea90918c0078ac0400a72b0d25b9bb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.122294,
+ "gas_eth": 0.099206,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract (called by 0x50ef...) sells REN into the victim's pool 0x611c in the front leg, the victim then sells REN into the same pool, and the actor buys REN back from 0x611c in the back leg. Each leg is a two-pool round trip with 0x8bd1 supplying and absorbing the REN, so the actor holds no REN between legs; this fits the bracket only under a loose reading of 'position', hence confidence 3. WETH nets -0.179815 in the front and +0.302109 in the back, giving +0.122294 before gas and about +0.0231 ETH after the 0.099206 ETH gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0358987,
+ "_session": "5c039c24-34a7-40aa-b221-f6ab3ec660c9",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x611cde65dea90918c0078ac0400a72b0d25b9bb1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.122294, \"gas_eth\": 0.099206, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract (called by 0x50ef...) sells REN into the victim's pool 0x611c in the front leg, the victim then sells REN into the same pool, and the actor buys REN back from 0x611c in the back leg. Each leg is a two-pool round trip with 0x8bd1 supplying and absorbing the REN, so the actor holds no REN between legs; this fits the bracket only under a loose reading of 'position', hence confidence 3. WETH nets -0.179815 in the front and +0.302109 in the back, giving +0.122294 before gas and about +0.0231 ETH after the 0.099206 ETH gas.\"}",
+ "case_id": "sym100_044",
+ "_time": "2026-10-13T21:32:27+0800"
+}

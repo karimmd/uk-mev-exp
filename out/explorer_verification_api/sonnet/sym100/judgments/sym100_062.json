@@ -1,0 +1,31 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.006816,
+ "gas_eth": 5e-06,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract routes WETH through a second pool (0xcc39\u2026) and pool 0x8d2a\u2026, which the victim also trades. In the front leg it sells RUNE into 0x8d2a\u2026 ahead of the victim's RUNE sale, and in the back leg it buys RUNE back from 0x8d2a\u2026. The actor ends with no RUNE. Net WETH is -0.026517 + 0.064640 = +0.038123, less a 0.031307 ETH payment to 0x5a0b\u2026 and about 0.000005 ETH gas, leaving about +0.0068 ETH. Because the actor never holds RUNE between transactions, this could also be read as two atomic arbitrages, so Q1 is not fully certain.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4138,
+  "output_tokens": 1407,
+  "thinking_tokens": 1040
+ },
+ "_request_id": "req_011CgBSGBbChPpdb4tuFBdom",
+ "_response_id": "msg_011CgBSGC2zMZTvLe5MHWSUS",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\",\"pool\":\"0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.006816,\"gas_eth\":0.000005,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract routes WETH through a second pool (0xcc39\u2026) and pool 0x8d2a\u2026, which the victim also trades. In the front leg it sells RUNE into 0x8d2a\u2026 ahead of the victim's RUNE sale, and in the back leg it buys RUNE back from 0x8d2a\u2026. The actor ends with no RUNE. Net WETH is -0.026517 + 0.064640 = +0.038123, less a 0.031307 ETH payment to 0x5a0b\u2026 and about 0.000005 ETH gas, leaving about +0.0068 ETH. Because the actor never holds RUNE between transactions, this could also be read as two atomic arbitrages, so Q1 is not fully certain.\"}",
+ "case_id": "sym100_062",
+ "_time": "2026-10-19T18:27:17+0800"
+}

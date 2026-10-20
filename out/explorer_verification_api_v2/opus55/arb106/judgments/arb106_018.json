@@ -1,0 +1,41 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77",
+  "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+  "0x52127470de72e5ef77ca962d23125cbe096e2d81",
+  "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+  "0x495f8ef80e13e9e1e77d60d2f384bb49694823ef"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02599,
+ "gas_eth": 0.023583,
+ "profit_after_gas": 0.002407,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The pools pass tokens directly to each other in a closed five-pool loop: WETH to MANA (V3 0x8661), MANA to DAI (V2 0x495f), DAI to USDT (V3 0x6f48), USDT to RACA (V2 0x700f), and RACA back to WETH (V2 0x5212). The actor only touches WETH: it sends 2.231473 to 0x8661 and receives 2.257463 from 0x5212, a gain of 0.025990 WETH. That gain only slightly exceeds the 0.023583 ETH gas fee, so profit after gas is about 0.0024 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2471,
+  "output_tokens": 984,
+  "thinking_tokens": 463
+ },
+ "_request_id": "req_011CgBXAbZzjFMSmCJYuyNT2",
+ "_response_id": "msg_011CgBXAbuqyJAQ7Ks82N7vQ",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\", \"pools\": [\"0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77\", \"0x700fc86c46299cf2a8fd86edadae3f57014351b0\", \"0x52127470de72e5ef77ca962d23125cbe096e2d81\", \"0x8661ae7918c0115af9e3691662f605e9c550ddc9\", \"0x495f8ef80e13e9e1e77d60d2f384bb49694823ef\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.02599, \"gas_eth\": 0.023583, \"profit_after_gas\": 0.002407, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The pools pass tokens directly to each other in a closed five-pool loop: WETH to MANA (V3 0x8661), MANA to DAI (V2 0x495f), DAI to USDT (V3 0x6f48), USDT to RACA (V2 0x700f), and RACA back to WETH (V2 0x5212). The actor only touches WETH: it sends 2.231473 to 0x8661 and receives 2.257463 from 0x5212, a gain of 0.025990 WETH. That gain only slightly exceeds the 0.023583 ETH gas fee, so profit after gas is about 0.0024 ETH.\"}",
+ "case_id": "arb106_018",
+ "_time": "2026-10-19T19:31:35+0800"
+}

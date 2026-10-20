@@ -1,0 +1,42 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+  "0x495864cad6cf60e97efcd3f14ff8b1f167956ba2",
+  "0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8",
+  "0x7a019e9f33af312b5e5c6b065fbc733ccaa09f39",
+  "0xcd9dab5e666de980cecdc180cb31f296733e2587",
+  "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.032227,
+ "gas_eth": 0.028055,
+ "profit_after_gas": 0.004172,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Three independent WETH-based cycles (API3, UFO, AKITA) with intermediate tokens routed directly between pools; actor nets 0.032227 WETH before gas, positive after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2281,
+  "output_tokens": 15778,
+  "thinking_tokens": 15447
+ },
+ "_request_id": "49f82988e9011b869007a388fbd95cec",
+ "_response_id": "ce125e90-2d7a-41e7-b5d7-c610a1e9bec9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\", \"0x495864cad6cf60e97efcd3f14ff8b1f167956ba2\", \"0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8\", \"0x7a019e9f33af312b5e5c6b065fbc733ccaa09f39\", \"0xcd9dab5e666de980cecdc180cb31f296733e2587\", \"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.032227, \"gas_eth\": 0.028055, \"profit_after_gas\": 0.004172, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Three independent WETH-based cycles (API3, UFO, AKITA) with intermediate tokens routed directly between pools; actor nets 0.032227 WETH before gas, positive after gas.\"}",
+ "case_id": "arb106_090",
+ "_time": "2026-10-19T20:07:23+0800"
+}

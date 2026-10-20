@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2a4a220beb6a0fd217a129125d0034e2db0dee46",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.116051,
+ "gas_eth": 0.275526,
+ "profit_after_gas": -0.159475,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back use the same actor on the HARAMBE/WETH pool 0x2a4a..., and the victim also trades that pool between them. The actor nets +0.116051 WETH before gas, but gas of 0.275526 ETH makes the result negative; the HARAMBE position is fully closed with no residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2347,
+  "output_tokens": 7127,
+  "thinking_tokens": 6942
+ },
+ "_request_id": "b5dca23d2509af0459097ce7278ff961",
+ "_response_id": "61008332-bda3-4476-bff4-7db775ad7cf6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x2a4a220beb6a0fd217a129125d0034e2db0dee46\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.116051,\"gas_eth\":0.275526,\"profit_after_gas\":-0.159475,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back use the same actor on the HARAMBE/WETH pool 0x2a4a..., and the victim also trades that pool between them. The actor nets +0.116051 WETH before gas, but gas of 0.275526 ETH makes the result negative; the HARAMBE position is fully closed with no residual.\"}",
+ "case_id": "pack_064",
+ "_time": "2026-10-19T19:11:26+0800"
+}

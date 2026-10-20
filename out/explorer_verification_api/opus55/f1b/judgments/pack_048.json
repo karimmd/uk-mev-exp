@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.091987,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x499dd9 paid 19.216836 WETH for 3,020,068 PEOPLE on V3 pool 0x83abec, the same pool the victim bought on, then sold the identical PEOPLE amount back for 19.403861 WETH (+0.187025). The sender passed 0.121771 ETH through the contract to 0xb7e390, apparently a builder payment, so the net is 0.065254 before gas. After 0.157241 ETH of front and back gas it is about -0.092 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2805,
+  "output_tokens": 905,
+  "thinking_tokens": 606
+ },
+ "_request_id": "req_011CgBQdCgmxFAtCQwRDMuDg",
+ "_response_id": "msg_011CgBQdKDS9LJGc1gbdRRiG",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x83abecf7204d5afc1bea5df734f085f2535a9976\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.091987, \"gas_eth\": 0.157241, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x499dd9 paid 19.216836 WETH for 3,020,068 PEOPLE on V3 pool 0x83abec, the same pool the victim bought on, then sold the identical PEOPLE amount back for 19.403861 WETH (+0.187025). The sender passed 0.121771 ETH through the contract to 0xb7e390, apparently a builder payment, so the net is 0.065254 before gas. After 0.157241 ETH of front and back gas it is about -0.092 ETH.\"}",
+ "case_id": "pack_048",
+ "_time": "2026-10-19T18:05:48+0800"
+}

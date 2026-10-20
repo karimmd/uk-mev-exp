@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x3867877d568b1699a7fd7d6190d0926aa88c4b86",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.061918,
+ "gas_eth": 0.018136,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0000\u20260c00, called by EOA 0xcc8e\u20262f3c, bought 0.427882 PRCY on PRCY/WETH pair 0x3867\u20264b86 and sold exactly that amount back on the same pair after the victim's PRCY buy there. Net is +0.139668 \u2212 0.000089 WETH \u2212 0.059525 ETH (back-leg value forwarded to 0x1ad9\u2026, likely a builder payment) \u2212 0.018136 gas = +0.061918 ETH, with net_eth taken after gas. The front leg's tiny WETH input for 0.43 PRCY looks odd against the victim's price, which slightly lowers confidence.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3332,
+  "output_tokens": 1003,
+  "thinking_tokens": 648
+ },
+ "_request_id": "req_011CgBSrfaPLysuiBaekLyv8",
+ "_response_id": "msg_011CgBSrfuishrdauWbFutH9",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000500e2fece27a7600435d0c48d64e0c00\", \"pool\": \"0x3867877d568b1699a7fd7d6190d0926aa88c4b86\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.061918, \"gas_eth\": 0.018136, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0000\u20260c00, called by EOA 0xcc8e\u20262f3c, bought 0.427882 PRCY on PRCY/WETH pair 0x3867\u20264b86 and sold exactly that amount back on the same pair after the victim's PRCY buy there. Net is +0.139668 \u2212 0.000089 WETH \u2212 0.059525 ETH (back-leg value forwarded to 0x1ad9\u2026, likely a builder payment) \u2212 0.018136 gas = +0.061918 ETH, with net_eth taken after gas. The front leg's tiny WETH input for 0.43 PRCY looks odd against the victim's price, which slightly lowers confidence.\"}",
+ "case_id": "rej53_038",
+ "_time": "2026-10-19T18:35:04+0800"
+}

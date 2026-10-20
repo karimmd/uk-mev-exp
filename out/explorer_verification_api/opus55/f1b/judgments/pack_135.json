@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.008681,
+ "gas_eth": 0.00023,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg the sender's own address pays 200 WETH into the UniV2 pool 0x0cd898 and receives 15106258.037614 WSHIBA. The victim buys WSHIBA on the same pool, and the back leg sells exactly that WSHIBA amount for 201.008911 WETH. That nets +1.008911 WETH, minus 0.00023 ETH gas, with no residual; the 1 gwei bundle-style gas against the victim's 255 gwei fits a private-ordered sandwich.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3671,
+  "output_tokens": 508,
+  "thinking_tokens": 205
+ },
+ "_request_id": "req_011CgBRbcqez8EtmVXHu3HnA",
+ "_response_id": "msg_011CgBRbgMypiWRGiYJrgiUz",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.008681, \"gas_eth\": 0.00023, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg the sender's own address pays 200 WETH into the UniV2 pool 0x0cd898 and receives 15106258.037614 WSHIBA. The victim buys WSHIBA on the same pool, and the back leg sells exactly that WSHIBA amount for 201.008911 WETH. That nets +1.008911 WETH, minus 0.00023 ETH gas, with no residual; the 1 gwei bundle-style gas against the victim's 255 gwei fits a private-ordered sandwich.\"}",
+ "case_id": "pack_135",
+ "_time": "2026-10-19T18:18:29+0800"
+}

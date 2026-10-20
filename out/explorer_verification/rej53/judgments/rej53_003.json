@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0xb319887931a5a1bb379deb45c2586430b166f21b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02755,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract buys 31462.93 FOR through WETH->USDT->FOR in the front leg and sells exactly that amount back in the back leg. The victim buys FOR on the same USDT/FOR pool (0xb319) in between. WETH goes from -0.364067 to +0.403424, a gain of 0.039357, minus a 0.011807 ETH internal payment to 0xea67... in the back leg. Both legs show 0 gwei, so I counted gas as 0 (the fee shown is 0.000000 ETH).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0273592,
+ "_session": "c70b45fd-2576-4027-99db-26a38d73840d",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0xb319887931a5a1bb379deb45c2586430b166f21b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.027550, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract buys 31462.93 FOR through WETH->USDT->FOR in the front leg and sells exactly that amount back in the back leg. The victim buys FOR on the same USDT/FOR pool (0xb319) in between. WETH goes from -0.364067 to +0.403424, a gain of 0.039357, minus a 0.011807 ETH internal payment to 0xea67... in the back leg. Both legs show 0 gwei, so I counted gas as 0 (the fee shown is 0.000000 ETH).\"}",
+ "case_id": "rej53_003",
+ "_time": "2026-10-13T21:54:05+0800"
+}

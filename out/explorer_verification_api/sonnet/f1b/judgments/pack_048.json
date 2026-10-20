@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.065254,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 3,020,068 PEOPLE for 19.2168 WETH in the front leg, the victim buys PEOPLE on the same V3 pool, and the actor sells the same amount back for 19.4039 WETH. That is a gross gain of 0.187025 WETH. The back leg's 0.121771 ETH value is forwarded to another address (probably a miner tip), leaving 0.065254 ETH. Gas of 0.157241 ETH then makes the total about -0.092 ETH, so the position is negative.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2805,
+  "output_tokens": 767,
+  "thinking_tokens": 470
+ },
+ "_request_id": "req_011CgBQapgeZUnepxgch8bqs",
+ "_response_id": "msg_011CgBQaqAAfhyLYxLukzawy",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.065254,\"gas_eth\":0.157241,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 3,020,068 PEOPLE for 19.2168 WETH in the front leg, the victim buys PEOPLE on the same V3 pool, and the actor sells the same amount back for 19.4039 WETH. That is a gross gain of 0.187025 WETH. The back leg's 0.121771 ETH value is forwarded to another address (probably a miner tip), leaving 0.065254 ETH. Gas of 0.157241 ETH then makes the total about -0.092 ETH, so the position is negative.\"}",
+ "case_id": "pack_048",
+ "_time": "2026-10-19T18:05:14+0800"
+}

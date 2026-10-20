@@ -1,0 +1,24 @@
+{
+ "actor": "0x00000000000e1d0dabf7b7c7b68866fc940d0db8",
+ "pools": [
+  "0xbd1f921786e12a80f2184e4d6a5cacb25dc673c9",
+  "0x5ba61c0a8c4dcccc200cd0ccc40a5725a426d002",
+  "0xecfbe9b182f6477a93065c1c11271232147838e5"
+ ],
+ "cycle_token": "DOLA",
+ "profit_token": "WETH/ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000517,
+ "gas_eth": 0.007591,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor swaps INV and DOLA on a V3 pool and a V2 pool. DOLA nets to zero (1943.433124 in; 1922.1 + 21.333124 out) and INV nets to zero. The last DOLA leg is sold on a third V2 pool for 0.008108 WETH, which is unwrapped and forwarded to the sender. Gross profit is 0.008108 ETH. After the 0.007591 ETH gas fee, it is about +0.000517 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0246632,
+ "_session": "180cc805-ddd3-475c-a519-ba8f0e23f17a",
+ "_raw": "{\"actor\":\"0x00000000000e1d0dabf7b7c7b68866fc940d0db8\",\"pools\":[\"0xbd1f921786e12a80f2184e4d6a5cacb25dc673c9\",\"0x5ba61c0a8c4dcccc200cd0ccc40a5725a426d002\",\"0xecfbe9b182f6477a93065c1c11271232147838e5\"],\"cycle_token\":\"DOLA\",\"profit_token\":\"WETH/ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000517,\"gas_eth\":0.007591,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor swaps INV and DOLA on a V3 pool and a V2 pool. DOLA nets to zero (1943.433124 in; 1922.1 + 21.333124 out) and INV nets to zero. The last DOLA leg is sold on a third V2 pool for 0.008108 WETH, which is unwrapped and forwarded to the sender. Gross profit is 0.008108 ETH. After the 0.007591 ETH gas fee, it is about +0.000517 ETH.\"}",
+ "case_id": "arb106_046",
+ "_time": "2026-10-13T22:21:01+0800"
+}

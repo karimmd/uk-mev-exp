@@ -1,0 +1,39 @@
+{
+ "actor": "0x8698d9d5ea99809c00426484a80be2add4e54581",
+ "pools": [
+  "0x04444d365324134e58104b1d874d00dc68dcea53",
+  "0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de",
+  "0xa6a22e0a89ebcb85444833a5b3c6d13d51e3bb9b",
+  "0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002022,
+ "gas_eth": 0.026866,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends WETH into the NU path and receives WETH back from the final pool, forming a WETH-NU-RNG-FLX-WETH cycle across four Uniswap pools. Gross WETH gain is 0.028888, leaving about 0.002022 ETH/WETH positive after the 0.026866 gas fee, with no residual non-WETH holding or mint.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1693,
+  "output_tokens": 8019,
+  "thinking_tokens": 7735
+ },
+ "_request_id": "90569829c6fa9877c0128eda76fd7a87",
+ "_response_id": "2fd682d5-b36b-4ade-9442-2ba890ec8197",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x8698d9d5ea99809c00426484a80be2add4e54581\",\"pools\":[\"0x04444d365324134e58104b1d874d00dc68dcea53\",\"0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de\",\"0xa6a22e0a89ebcb85444833a5b3c6d13d51e3bb9b\",\"0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.002022,\"gas_eth\":0.026866,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends WETH into the NU path and receives WETH back from the final pool, forming a WETH-NU-RNG-FLX-WETH cycle across four Uniswap pools. Gross WETH gain is 0.028888, leaving about 0.002022 ETH/WETH positive after the 0.026866 gas fee, with no residual non-WETH holding or mint.\"}",
+ "case_id": "arb106_054",
+ "_time": "2026-10-19T19:19:36+0800"
+}

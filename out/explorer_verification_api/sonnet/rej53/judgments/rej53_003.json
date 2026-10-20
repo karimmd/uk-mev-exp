@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0xb319887931a5a1bb379deb45c2586430b166f21b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02755,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 31462.93 FOR with USDT on the FOR/USDT pool in the front leg (funded through the WETH/USDT pool). The victim buys FOR on the same pool in between, and the actor sells exactly the same FOR amount back in the back leg. WETH goes from -0.364067 to +0.403424, a gain of 0.039357. Subtracting the 0.011807 ETH call to 0xea67\u20268ec8 in the back leg leaves about +0.02755 ETH. Both legs show a gas fee of 0 at 0.0 gwei, and no FOR is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3555,
+  "output_tokens": 743,
+  "thinking_tokens": 431
+ },
+ "_request_id": "req_011CgBSX843BXFtX6Raxoga1",
+ "_response_id": "msg_011CgBSX8Q8PxKTGzMNt8dA9",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000032962b51589768828ad878876299e14\",\"pool\":\"0xb319887931a5a1bb379deb45c2586430b166f21b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.02755,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 31462.93 FOR with USDT on the FOR/USDT pool in the front leg (funded through the WETH/USDT pool). The victim buys FOR on the same pool in between, and the actor sells exactly the same FOR amount back in the back leg. WETH goes from -0.364067 to +0.403424, a gain of 0.039357. Subtracting the 0.011807 ETH call to 0xea67\u20268ec8 in the back leg leaves about +0.02755 ETH. Both legs show a gas fee of 0 at 0.0 gwei, and no FOR is left over.\"}",
+ "case_id": "rej53_003",
+ "_time": "2026-10-19T18:30:34+0800"
+}

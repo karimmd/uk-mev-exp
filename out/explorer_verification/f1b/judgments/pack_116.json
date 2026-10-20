@@ -1,0 +1,18 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xa00d47b4b304792eb07b09233467b690db847c91",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.067083,
+ "gas_eth": 0.000175,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same address (0xf6da\u2026) buys 68530.198289 IMX with 9.0001 WETH in the front leg. It sells exactly that IMX back to the same pool in the back leg for 9.067183 WETH. The victim's 0.5 ETH buy of IMX on that pool sits between the two legs. The gross gain is 0.067083 WETH. After 0.000175 ETH of gas the net is about 0.066908 ETH, with no IMX left over.",
+ "net_eth_after_gas": 0.066908,
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0206448,
+ "_session": "efd4b985-da55-47bd-a0a0-bd394cfb9c54",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0xa00d47b4b304792eb07b09233467b690db847c91\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.067083, \"gas_eth\": 0.000175, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same address (0xf6da\u2026) buys 68530.198289 IMX with 9.0001 WETH in the front leg. It sells exactly that IMX back to the same pool in the back leg for 9.067183 WETH. The victim's 0.5 ETH buy of IMX on that pool sits between the two legs. The gross gain is 0.067083 WETH. After 0.000175 ETH of gas the net is about 0.066908 ETH, with no IMX left over.\", \"net_eth_after_gas\": 0.066908}",
+ "case_id": "pack_116",
+ "_time": "2026-10-13T20:27:01+0800"
+}

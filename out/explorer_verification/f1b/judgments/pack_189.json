@@ -1,0 +1,17 @@
+{
+ "actor": "0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792",
+ "pool": "0x7a21a32b536d72613cda8f4d2739821e8dc0f8ca",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028128,
+ "gas_eth": 0.011549,
+ "residual": "none (about 0.000001 SAIYAN dust)",
+ "confidence": 5,
+ "note": "The contract 0xf27b... pays 0.507410 WETH for 5.133686 SAIYAN in the front leg, and sells 5.133685 SAIYAN for 0.535538 WETH in the back leg. The victim buys SAIYAN on the same pool between the two legs. Net WETH is +0.028128, and after 0.011549 ETH in front and back gas the result is about +0.016579 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0226027,
+ "_session": "696c5398-d46b-43f7-bf9e-0d2ce2183802",
+ "_raw": "{\"actor\": \"0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792\", \"pool\": \"0x7a21a32b536d72613cda8f4d2739821e8dc0f8ca\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.028128, \"gas_eth\": 0.011549, \"residual\": \"none (about 0.000001 SAIYAN dust)\", \"confidence\": 5, \"note\": \"The contract 0xf27b... pays 0.507410 WETH for 5.133686 SAIYAN in the front leg, and sells 5.133685 SAIYAN for 0.535538 WETH in the back leg. The victim buys SAIYAN on the same pool between the two legs. Net WETH is +0.028128, and after 0.011549 ETH in front and back gas the result is about +0.016579 ETH.\"}",
+ "case_id": "pack_189",
+ "_time": "2026-10-13T20:41:45+0800"
+}

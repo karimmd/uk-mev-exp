@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xa00d47b4b304792eb07b09233467b690db847c91",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.066908,
+ "gas_eth": 0.000175,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The sender's EOA receives the 68530.198289 IMX directly from the WETH/IMX UniV2 pool in the front leg and returns exactly that amount to the same pool in the back leg. The victim's 0.5 ETH-to-IMX swap on that pool sits between the two legs. The actor's WETH goes from 9.000100 out to 9.067183 in, a gain of 0.067083 before 0.000175 ETH of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2823,
+  "output_tokens": 420,
+  "thinking_tokens": 149
+ },
+ "_request_id": "req_011CgBRRLytTJzsJTPThRK1s",
+ "_response_id": "msg_011CgBRRRBPYYWhcZtj7fTCA",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0xa00d47b4b304792eb07b09233467b690db847c91\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.066908, \"gas_eth\": 0.000175, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The sender's EOA receives the 68530.198289 IMX directly from the WETH/IMX UniV2 pool in the front leg and returns exactly that amount to the same pool in the back leg. The victim's 0.5 ETH-to-IMX swap on that pool sits between the two legs. The actor's WETH goes from 9.000100 out to 9.067183 in, a gain of 0.067083 before 0.000175 ETH of gas.\"}",
+ "case_id": "pack_116",
+ "_time": "2026-10-19T18:16:09+0800"
+}

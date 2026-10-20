@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x428bc363a7d743425863d6e5699683a69cacedc8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028019,
+ "gas_eth": 0,
+ "residual": "about 555179084023.71 JINU (27800140841094.36 received minus 27244961757070.65 sold), possibly a transfer tax or a retained balance",
+ "confidence": 4,
+ "note": "Contract 0x1d6e buys JINU with 1.61 WETH on JINU/WETH pool 0x428b before the victim's USDT->WETH->JINU swap through the same pool. It then sells JINU back for 1.772641 WETH, a gain of 0.162641 WETH. Gas price was zero, but the sender passed 0.134622 ETH through the contract to 0xd224 (likely a builder or miner payment); counting that as cost leaves about +0.028 ETH, and the small leftover JINU only adds to it.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3294,
+  "output_tokens": 815,
+  "thinking_tokens": 458
+ },
+ "_request_id": "req_011CgBQC4UURsVbKds3K6Hj6",
+ "_response_id": "msg_011CgBQC4q4R65srqCNTokfG",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x428bc363a7d743425863d6e5699683a69cacedc8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.028019, \"gas_eth\": 0, \"residual\": \"about 555179084023.71 JINU (27800140841094.36 received minus 27244961757070.65 sold), possibly a transfer tax or a retained balance\", \"confidence\": 4, \"note\": \"Contract 0x1d6e buys JINU with 1.61 WETH on JINU/WETH pool 0x428b before the victim's USDT->WETH->JINU swap through the same pool. It then sells JINU back for 1.772641 WETH, a gain of 0.162641 WETH. Gas price was zero, but the sender passed 0.134622 ETH through the contract to 0xd224 (likely a builder or miner payment); counting that as cost leaves about +0.028 ETH, and the small leftover JINU only adds to it.\"}",
+ "case_id": "pack_015",
+ "_time": "2026-10-19T18:00:06+0800"
+}

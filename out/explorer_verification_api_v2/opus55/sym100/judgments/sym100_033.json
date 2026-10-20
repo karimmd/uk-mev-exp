@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02932,
+ "gas_eth": 0.004804,
+ "profit_after_gas": 0.024516,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x3dad sold 67997.416493 RVP for 1.422 WETH on the RVP/WETH pair 0xee9b, opening a short. The victim then sold 200000 RVP on the same pair, and 0x3dad bought back exactly the same RVP amount for 1.39268 WETH. That leaves a net gain of 0.02932 WETH before 0.004804 ETH of gas, with no residual token holding.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3075,
+  "output_tokens": 456,
+  "thinking_tokens": 154
+ },
+ "_request_id": "req_011CgBWNoZHiF4ujaM3fqGjw",
+ "_response_id": "msg_011CgBWNousdBbJBKPA4EHL3",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.02932, \"gas_eth\": 0.004804, \"profit_after_gas\": 0.024516, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x3dad sold 67997.416493 RVP for 1.422 WETH on the RVP/WETH pair 0xee9b, opening a short. The victim then sold 200000 RVP on the same pair, and 0x3dad bought back exactly the same RVP amount for 1.39268 WETH. That leaves a net gain of 0.02932 WETH before 0.004804 ETH of gas, with no residual token holding.\"}",
+ "case_id": "sym100_033",
+ "_time": "2026-10-19T19:21:08+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x659a9a43b32bea6c113c393930a45c7634a242d5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.119693,
+ "gas_eth": 0.028201,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x51ac\u2026 wrapped 6.75 ETH and bought 17528.18 EROWAN on pool 0x659a\u2026 in the front leg. The victim then bought EROWAN on the same pool. The back leg sold all 17528.18 EROWAN for 6.869693 WETH and unwrapped it. That is +0.119693 ETH before gas and about +0.0915 ETH after the 0.028201 ETH gas for the two legs, with no EROWAN left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0226888,
+ "_session": "5fdd3acb-3a4c-4abd-9cab-ac19a5d44494",
+ "_raw": "{\"actor\": \"0x51acf0af77adcb20de482e1cd678f620baf07e0c\", \"pool\": \"0x659a9a43b32bea6c113c393930a45c7634a242d5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.119693, \"gas_eth\": 0.028201, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x51ac\u2026 wrapped 6.75 ETH and bought 17528.18 EROWAN on pool 0x659a\u2026 in the front leg. The victim then bought EROWAN on the same pool. The back leg sold all 17528.18 EROWAN for 6.869693 WETH and unwrapped it. That is +0.119693 ETH before gas and about +0.0915 ETH after the 0.028201 ETH gas for the two legs, with no EROWAN left over.\"}",
+ "case_id": "pack_159",
+ "_time": "2026-10-13T20:35:37+0800"
+}

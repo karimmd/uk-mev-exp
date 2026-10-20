@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x8d82b68f2346483d6b210383edbe27e7f5ef2365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.135393,
+ "gas_eth": 0.032375,
+ "profit_after_gas": 0.103018,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 1669.880824 CTASK into the pool for 2.427789 WETH in the front leg. The victim then sold CTASK on the same pool, and the actor bought back exactly 1669.880824 CTASK for 2.292396 WETH in the back leg. This is a short bracket with no residual token, netting 0.135393 WETH before gas and 0.103018 after 0.032375 ETH of gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2718,
+  "output_tokens": 593,
+  "thinking_tokens": 315
+ },
+ "_request_id": "req_011CgBWDKHBdEL6rv6vUSx67",
+ "_response_id": "msg_011CgBWDKd2UtZp9KK29W4oa",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x8d82b68f2346483d6b210383edbe27e7f5ef2365\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.135393,\"gas_eth\":0.032375,\"profit_after_gas\":0.103018,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 1669.880824 CTASK into the pool for 2.427789 WETH in the front leg. The victim then sold CTASK on the same pool, and the actor bought back exactly 1669.880824 CTASK for 2.292396 WETH in the back leg. This is a short bracket with no residual token, netting 0.135393 WETH before gas and 0.103018 after 0.032375 ETH of gas.\"}",
+ "case_id": "sym100_012",
+ "_time": "2026-10-19T19:18:59+0800"
+}

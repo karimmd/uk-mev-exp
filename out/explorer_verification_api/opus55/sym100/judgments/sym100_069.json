@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x29b0aa11de97f6d5a3293d980990e820bda5fbab",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.072647,
+ "gas_eth": 0.023819,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xb591 sells 1057.784535 TRDL for 5.244 WETH on pool 0x29b0 just before the victim sells TRDL on the same pool. It then buys back exactly 1057.784535 TRDL for 5.147534 WETH, a sell-first bracket with no TRDL left over. WETH gain of 0.096466 minus 0.023819 gas leaves about +0.0726 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2898,
+  "output_tokens": 596,
+  "thinking_tokens": 322
+ },
+ "_request_id": "req_011CgBSSecfifRtpmu5wG2tW",
+ "_response_id": "msg_011CgBSSexGCwFQU8ART2A6a",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x29b0aa11de97f6d5a3293d980990e820bda5fbab\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.072647, \"gas_eth\": 0.023819, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xb591 sells 1057.784535 TRDL for 5.244 WETH on pool 0x29b0 just before the victim sells TRDL on the same pool. It then buys back exactly 1057.784535 TRDL for 5.147534 WETH, a sell-first bracket with no TRDL left over. WETH gain of 0.096466 minus 0.023819 gas leaves about +0.0726 ETH.\"}",
+ "case_id": "sym100_069",
+ "_time": "2026-10-19T18:29:35+0800"
+}

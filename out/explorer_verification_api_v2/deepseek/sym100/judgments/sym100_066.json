@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.041676,
+ "gas_eth": 0.010921,
+ "profit_after_gas": 0.030755,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells EROWAN into the victim's pool 0x13cd via a cross-pool route, and back buys EROWAN on the same pool and sells it on 0x659a; the actor's WETH net is +0.041676 ETH. The 0.028283 ETH back-leg value is passed through to 0x99c, netting zero for the actor before gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2893,
+  "output_tokens": 18025,
+  "thinking_tokens": 17826
+ },
+ "_request_id": "29a289b2f80bfc4aa3d4be424da86918",
+ "_response_id": "51929263-37b3-4706-829b-e28918e90c5c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.041676,\"gas_eth\":0.010921,\"profit_after_gas\":0.030755,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells EROWAN into the victim's pool 0x13cd via a cross-pool route, and back buys EROWAN on the same pool and sells it on 0x659a; the actor's WETH net is +0.041676 ETH. The 0.028283 ETH back-leg value is passed through to 0x99c, netting zero for the actor before gas.\"}",
+ "case_id": "sym100_066",
+ "_time": "2026-10-19T19:36:31+0800"
+}

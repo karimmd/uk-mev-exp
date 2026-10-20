@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.061616,
+ "gas_eth": 0.042605,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 9171.131681 BBANK into the BBANK/WETH pool for 2.039836 WETH in the front leg. The victim then sells BBANK on the same pool, and the actor buys back exactly 9171.131681 BBANK for 1.978220 WETH in the back leg. That nets +0.061616 WETH, or about +0.019 ETH after 0.042605 ETH gas, with no BBANK left over. The position runs short-then-cover, using BBANK the actor already held before the front leg.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3214,
+  "output_tokens": 880,
+  "thinking_tokens": 581
+ },
+ "_request_id": "req_011CgBSCHwaAn54ZUKmE269W",
+ "_response_id": "msg_011CgBSCJJQq86st5Dec9QK7",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.061616,\"gas_eth\":0.042605,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 9171.131681 BBANK into the BBANK/WETH pool for 2.039836 WETH in the front leg. The victim then sells BBANK on the same pool, and the actor buys back exactly 9171.131681 BBANK for 1.978220 WETH in the back leg. That nets +0.061616 WETH, or about +0.019 ETH after 0.042605 ETH gas, with no BBANK left over. The position runs short-then-cover, using BBANK the actor already held before the front leg.\"}",
+ "case_id": "sym100_051",
+ "_time": "2026-10-19T18:26:21+0800"
+}

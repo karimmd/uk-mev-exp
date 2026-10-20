@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.145437,
+ "gas_eth": 0.132569,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys 8217.906837 CVX in the front leg and sells exactly that amount in the back leg, on the pool where the victim bought CVX in between. WETH net is +0.145437 and gas is 0.132569, so about +0.01287 ETH after cost, with no CVX left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2847,
+  "output_tokens": 483,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQWvznY7uE6g9jqg8hy",
+ "_response_id": "msg_011CgBQX3o4u8NV7fjciNZ7p",
+ "_reader": "sonnet",
+ "_raw": "Net WETH for the actor: 22.672061 received in the back leg minus 22.526624 paid in the front leg = +0.145437 WETH.\n\nGas for the front and back legs: 0.012139 + 0.120430 = 0.132569 ETH.\n\nNet after gas: 0.145437 \u2212 0.132569 = +0.012868 ETH, which is positive.\n\nThe actor is the contract 0x000000000035b5e5ad9019092c665357240f594e. It buys 8217.906837 CVX in the front leg and sells exactly that amount in the back leg, so no CVX is left over. The pool is 0x05767d9e\u2026, and the victim trades on it between the two legs, so this is a sandwich.\n\nThe back-leg fee is very high (1544.5 gwei), but the figures still net positive.\n\n{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x05767d9ef41dc40689678ffca0608878fb3de906\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.145437, \"gas_eth\": 0.132569, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same contract buys 8217.906837 CVX in the front leg and sells exactly that amount in the back leg, on the pool where the victim bought CVX in between. WETH net is +0.145437 and gas is 0.132569, so about +0.01287 ETH after cost, with no CVX left over.\"}",
+ "case_id": "pack_043",
+ "_time": "2026-10-19T18:04:17+0800"
+}

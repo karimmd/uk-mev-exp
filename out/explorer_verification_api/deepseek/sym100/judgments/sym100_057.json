@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xa3d588a914c7534356a006ae3c1d8ae19c9694e1",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.015805,
+ "gas_eth": 0.009794,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The shared pool is 0xa3d588..., but the actor sends PDEX and receives WETH in the front leg, then reverses in the back leg, so it does not open a non-WETH token position in front. Net WETH gain is 0.025599 minus 0.009794 gas, leaving +0.015805 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2111,
+  "output_tokens": 5373,
+  "thinking_tokens": 5201
+ },
+ "_request_id": "bafda51d908537d236789ce0c50292e6",
+ "_response_id": "b3affa5d-9c6e-45d2-bfd8-c5de596ae292",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xa3d588a914c7534356a006ae3c1d8ae19c9694e1\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.015805,\"gas_eth\":0.009794,\"residual\":\"none\",\"confidence\":4,\"note\":\"The shared pool is 0xa3d588..., but the actor sends PDEX and receives WETH in the front leg, then reverses in the back leg, so it does not open a non-WETH token position in front. Net WETH gain is 0.025599 minus 0.009794 gas, leaving +0.015805 ETH.\"}",
+ "case_id": "sym100_057",
+ "_time": "2026-10-19T18:49:08+0800"
+}

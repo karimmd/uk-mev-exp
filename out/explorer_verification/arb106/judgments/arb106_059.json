@@ -1,0 +1,24 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0x3a8027b37cd119cde72c1086ab5d7de912f61b61",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x8c1c499b1796d7f3c2521ac37186b52de024e58c"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.009999,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 2.961143 WETH to the Uniswap V3 USDC/WETH pool. The USDC goes straight to the V2 USDC/RAD pool, and the RAD goes on to the V3 RAD/WETH pool, which returns 2.9871 WETH to the actor. That is a closed WETH triangle with a gross gain of 0.025957 WETH. The actor then pays 0.015958 ETH to 0x5a0b\u20269c4c, probably a miner tip. The explorer shows a zero gas fee, so net is about 0.009999 ETH, and the self-destruct entries (likely gas-token cleanup) carry 0 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027707999999999997,
+ "_session": "1df223d0-f2db-493f-8d76-4be1b7203c8f",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0x3a8027b37cd119cde72c1086ab5d7de912f61b61\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.009999,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 2.961143 WETH to the Uniswap V3 USDC/WETH pool. The USDC goes straight to the V2 USDC/RAD pool, and the RAD goes on to the V3 RAD/WETH pool, which returns 2.9871 WETH to the actor. That is a closed WETH triangle with a gross gain of 0.025957 WETH. The actor then pays 0.015958 ETH to 0x5a0b\u20269c4c, probably a miner tip. The explorer shows a zero gas fee, so net is about 0.009999 ETH, and the self-destruct entries (likely gas-token cleanup) carry 0 ETH.\"}",
+ "case_id": "arb106_059",
+ "_time": "2026-10-13T22:24:02+0800"
+}

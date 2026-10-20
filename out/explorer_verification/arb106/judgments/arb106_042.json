@@ -1,0 +1,27 @@
+{
+ "actor": "0x452c3f8858ca651f388ebc439b2719d1006354bc",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x93f267fd92b432bebf4da4e13b8615bb8eb2095c",
+  "0x61247d8aca1c485a50728e1336d9b26c8339e701",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x3cc5519fb7f811159f30ba21dc2258341872dd67",
+  "0x04dd76803f247b611d4f470fc6cd206a9d02f869"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.053874,
+ "gas_eth": 0.049404,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH-closed routes. The first is WETH to USDC to GUSD to WETH, through the USDC/WETH pool, the USDC/GUSD pool and the GUSD/WETH pool. The second is WETH to USDT to EFI to WETH, through the USDT/WETH pool, the EFI/USDT pool and the EFI/WETH pool. Gross WETH is +0.053874, and after the 0.049404 ETH gas fee about +0.00447 remains. The actor holds no other tokens at the end, and no ETH moves internally. The sender EOA pays the gas, not the actor contract, but I netted the fee against the profit as the protocol directs.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028425199999999998,
+ "_session": "ebae4473-fbcc-42a5-a1aa-2c518d355694",
+ "_raw": "{\"actor\":\"0x452c3f8858ca651f388ebc439b2719d1006354bc\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x93f267fd92b432bebf4da4e13b8615bb8eb2095c\",\"0x61247d8aca1c485a50728e1336d9b26c8339e701\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0x3cc5519fb7f811159f30ba21dc2258341872dd67\",\"0x04dd76803f247b611d4f470fc6cd206a9d02f869\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.053874,\"gas_eth\":0.049404,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor runs two WETH-closed routes. The first is WETH to USDC to GUSD to WETH, through the USDC/WETH pool, the USDC/GUSD pool and the GUSD/WETH pool. The second is WETH to USDT to EFI to WETH, through the USDT/WETH pool, the EFI/USDT pool and the EFI/WETH pool. Gross WETH is +0.053874, and after the 0.049404 ETH gas fee about +0.00447 remains. The actor holds no other tokens at the end, and no ETH moves internally. The sender EOA pays the gas, not the actor contract, but I netted the fee against the profit as the protocol directs.\"}",
+ "case_id": "arb106_042",
+ "_time": "2026-10-13T22:20:13+0800"
+}

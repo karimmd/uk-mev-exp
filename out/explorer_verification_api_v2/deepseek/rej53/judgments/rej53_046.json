@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.076002,
+ "gas_eth": 0.013207,
+ "profit_after_gas": 0.062795,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor is the target contract that holds the token position, and the shared pool is 0x3155. Front sells PROS on that pool and back buys it after the victim's same-pool sale; net WETH/ETH after the internal outflow and gas remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2717,
+  "output_tokens": 7501,
+  "thinking_tokens": 7337
+ },
+ "_request_id": "7db5d8ae7484c2859431114ca7657800",
+ "_response_id": "7c52b9c4-836a-476b-afb0-7cd9de34ee38",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.076002,\"gas_eth\":0.013207,\"profit_after_gas\":0.062795,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor is the target contract that holds the token position, and the shared pool is 0x3155. Front sells PROS on that pool and back buys it after the victim's same-pool sale; net WETH/ETH after the internal outflow and gas remains positive.\"}",
+ "case_id": "rej53_046",
+ "_time": "2026-10-19T19:46:21+0800"
+}

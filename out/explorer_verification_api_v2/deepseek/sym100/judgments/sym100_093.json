@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.199331,
+ "gas_eth": 0.069306,
+ "profit_after_gas": 0.130025,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract 0x3dad sold 44713.708478 TRU for 8.733 WETH in front, victim sold TRU on same pool, and actor bought back exactly the same TRU for 8.533669 WETH in back. Net WETH +0.199331 before gas; after front/back gas (0.069306 ETH) profit is +0.130025 ETH, with no residual TRU.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2525,
+  "output_tokens": 3161,
+  "thinking_tokens": 2950
+ },
+ "_request_id": "8a7b707bd99402aa4d0dbb5a24d5fbd3",
+ "_response_id": "c714a25a-21a5-42a6-8dcd-40e3b02c1f72",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.199331,\"gas_eth\":0.069306,\"profit_after_gas\":0.130025,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract 0x3dad sold 44713.708478 TRU for 8.733 WETH in front, victim sold TRU on same pool, and actor bought back exactly the same TRU for 8.533669 WETH in back. Net WETH +0.199331 before gas; after front/back gas (0.069306 ETH) profit is +0.130025 ETH, with no residual TRU.\"}",
+ "case_id": "sym100_093",
+ "_time": "2026-10-19T19:37:52+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xe46935ae80e05cdebd4a4008b6ccaa36d2845370",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.114444,
+ "gas_eth": 0.063288,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x1d6e... buys 47685.928389 OM for 4.25 WETH in the front leg, the victim buys OM on the same pool (14 ETH), and the same contract sells exactly 47685.928389 OM for 4.364444 WETH in the back leg. The gross gain is +0.114444 ETH and the front and back gas fees total 0.063288 ETH, leaving about +0.0512 ETH. The two legs have different senders, but both call the same actor contract.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2922,
+  "output_tokens": 569,
+  "thinking_tokens": 280
+ },
+ "_request_id": "req_011CgBRMSLV1St3eCAUga51v",
+ "_response_id": "msg_011CgBRMXEuiZmVmgkaXUpRH",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xe46935ae80e05cdebd4a4008b6ccaa36d2845370\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.114444,\"gas_eth\":0.063288,\"residual\":\"none\",\"confidence\":4,\"note\":\"Contract 0x1d6e... buys 47685.928389 OM for 4.25 WETH in the front leg, the victim buys OM on the same pool (14 ETH), and the same contract sells exactly 47685.928389 OM for 4.364444 WETH in the back leg. The gross gain is +0.114444 ETH and the front and back gas fees total 0.063288 ETH, leaving about +0.0512 ETH. The two legs have different senders, but both call the same actor contract.\"}",
+ "case_id": "pack_119",
+ "_time": "2026-10-19T18:15:18+0800"
+}

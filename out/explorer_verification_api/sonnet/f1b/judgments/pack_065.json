@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x4b3d09151ad295623ac9e50967739fd437b0d892",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047129,
+ "gas_eth": 0.033848,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells NCR into the V3 pool 0x4b3d before the victim, which also sells NCR there, then buys NCR back from the V3 pool after the victim. The NCR is sourced from and returned to the V2 pool 0x06bf, so the actor never holds NCR between legs; that makes the 'position opened and closed' reading less certain. WETH nets -0.390566 in the front leg and +0.452447 in the back leg, giving +0.061881. After the 0.014752 ETH payout this is +0.047129, and after 0.033848 gas it is about +0.013281.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3947,
+  "output_tokens": 1640,
+  "thinking_tokens": 1320
+ },
+ "_request_id": "req_011CgBQmYFUqAcesw1bpFXj4",
+ "_response_id": "msg_011CgBQmebyADNbSdU6GzcqL",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0x4b3d09151ad295623ac9e50967739fd437b0d892\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.047129,\"gas_eth\":0.033848,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells NCR into the V3 pool 0x4b3d before the victim, which also sells NCR there, then buys NCR back from the V3 pool after the victim. The NCR is sourced from and returned to the V2 pool 0x06bf, so the actor never holds NCR between legs; that makes the 'position opened and closed' reading less certain. WETH nets -0.390566 in the front leg and +0.452447 in the back leg, giving +0.061881. After the 0.014752 ETH payout this is +0.047129, and after 0.033848 gas it is about +0.013281.\"}",
+ "case_id": "pack_065",
+ "_time": "2026-10-19T18:07:46+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9ca8aef2372c705d6848fdda3c1267a7f51267c1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.105113,
+ "gas_eth": 0,
+ "profit_after_gas": 0.105113,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x1d6e... bought 3.177798 UDT with 2.81 WETH on pool 0x9ca8 in front, then sold the same UDT for 2.915113 WETH in back on the same pool. The victim also trades on that pool between the legs. Net WETH gain is 0.105113, gas is zero, and no UDT is left over.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2562,
+  "output_tokens": 4062,
+  "thinking_tokens": 3855
+ },
+ "_request_id": "13854c34cb70aee77a7ab1efe73adb47",
+ "_response_id": "9eecb7ab-570f-4be0-880d-2dcef1faedf8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x9ca8aef2372c705d6848fdda3c1267a7f51267c1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.105113,\"gas_eth\":0,\"profit_after_gas\":0.105113,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x1d6e... bought 3.177798 UDT with 2.81 WETH on pool 0x9ca8 in front, then sold the same UDT for 2.915113 WETH in back on the same pool. The victim also trades on that pool between the legs. Net WETH gain is 0.105113, gas is zero, and no UDT is left over.\"}",
+ "case_id": "pack_192",
+ "_time": "2026-10-19T19:27:10+0800"
+}

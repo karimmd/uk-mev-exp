@@ -1,0 +1,42 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x4c083084c9d50334b343c44ec97d16011303cc73",
+  "0xad7c57df811afed29dfd1d3b59de81638d8c6be0",
+  "0xd3743fcc49d1d2796447a413be3af274c9231d67",
+  "0x99b42f2b49c395d2a77d973f6009abb5d67da343",
+  "0x0d0d65e7a7db277d3e0f5e1676325e75f3340455",
+  "0xa96c549fa361181a94c081597171e17d27459dbb"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.042553,
+ "gas_eth": 0.038929,
+ "profit_after_gas": 0.003624,
+ "residual": "none",
+ "confidence": 4,
+ "note": "There are two WETH cycles. The first runs 1.025410 WETH through GMEE, REVV and YGG across four V2 pools and returns 1.052745 WETH. The second routes MTA from a V3 pool to a V2 MTA/WETH pool, returning 1.264788 WETH against 1.249570 WETH paid; the intermediate tokens pass pool-to-pool and never stay with the actor, and the net WETH gain of 0.042553 beats the 0.038929 gas fee by a thin margin.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2826,
+  "output_tokens": 918,
+  "thinking_tokens": 415
+ },
+ "_request_id": "req_011CgBX3syHPyG8JU2Q4YPWK",
+ "_response_id": "msg_011CgBX3tK8LkGQW15LnW9YL",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0x4c083084c9d50334b343c44ec97d16011303cc73\", \"0xad7c57df811afed29dfd1d3b59de81638d8c6be0\", \"0xd3743fcc49d1d2796447a413be3af274c9231d67\", \"0x99b42f2b49c395d2a77d973f6009abb5d67da343\", \"0x0d0d65e7a7db277d3e0f5e1676325e75f3340455\", \"0xa96c549fa361181a94c081597171e17d27459dbb\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.042553, \"gas_eth\": 0.038929, \"profit_after_gas\": 0.003624, \"residual\": \"none\", \"confidence\": 4, \"note\": \"There are two WETH cycles. The first runs 1.025410 WETH through GMEE, REVV and YGG across four V2 pools and returns 1.052745 WETH. The second routes MTA from a V3 pool to a V2 MTA/WETH pool, returning 1.264788 WETH against 1.249570 WETH paid; the intermediate tokens pass pool-to-pool and never stay with the actor, and the net WETH gain of 0.042553 beats the 0.038929 gas fee by a thin margin.\"}",
+ "case_id": "arb106_001",
+ "_time": "2026-10-19T19:30:02+0800"
+}

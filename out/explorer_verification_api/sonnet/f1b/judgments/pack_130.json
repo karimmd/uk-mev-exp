@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1965a114cc3341c0d2ba96a6361790b96ba8c20c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.017059,
+ "gas_eth": 0.012111,
+ "residual": "about 0.1274 MX dust (853131.590290 bought, 853131.462888 sold), worth roughly 0.0000005 ETH",
+ "confidence": 4,
+ "note": "The actor contract buys MX with 3.573203 WETH before the victim and sells almost all of it back for 3.609082 WETH after, on the same pool the victim buys from. WETH gain is +0.035879, less the 0.018820 ETH paid out in the back leg to 0x7f10\u2026 (likely a miner tip) gives +0.017059. Gas of 0.012111 leaves about +0.00495 ETH, so the position is positive even counting the dust.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2967,
+  "output_tokens": 859,
+  "thinking_tokens": 540
+ },
+ "_request_id": "req_011CgBRTKm1pCkb3kKz7rD4a",
+ "_response_id": "msg_011CgBRTQ8wDyUvyej5AHQfj",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1965a114cc3341c0d2ba96a6361790b96ba8c20c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.017059,\"gas_eth\":0.012111,\"residual\":\"about 0.1274 MX dust (853131.590290 bought, 853131.462888 sold), worth roughly 0.0000005 ETH\",\"confidence\":4,\"note\":\"The actor contract buys MX with 3.573203 WETH before the victim and sells almost all of it back for 3.609082 WETH after, on the same pool the victim buys from. WETH gain is +0.035879, less the 0.018820 ETH paid out in the back leg to 0x7f10\u2026 (likely a miner tip) gives +0.017059. Gas of 0.012111 leaves about +0.00495 ETH, so the position is positive even counting the dust.\"}",
+ "case_id": "pack_130",
+ "_time": "2026-10-19T18:16:39+0800"
+}

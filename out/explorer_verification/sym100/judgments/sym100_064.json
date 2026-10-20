@@ -1,0 +1,17 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x23201344493fae9e9daf3279e930bdb0d4e5d5ec",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.108665,
+ "gas_eth": 0.030463,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 34383.03 UM into the pool for 2.510223 WETH in the front leg. The victim then sold UM into the same pool. The back leg bought back exactly 34383.03 UM for 2.401558 WETH, so the UM position nets to zero. The WETH gain of 0.108665 minus 0.030463 ETH of gas leaves about +0.0782 ETH. The sandwich runs in the sell direction, so the actor starts with UM inventory rather than buying first.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025491200000000002,
+ "_session": "98e17ab1-b528-4c1e-9361-aa208c21f71f",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x23201344493fae9e9daf3279e930bdb0d4e5d5ec\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.108665, \"gas_eth\": 0.030463, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sold 34383.03 UM into the pool for 2.510223 WETH in the front leg. The victim then sold UM into the same pool. The back leg bought back exactly 34383.03 UM for 2.401558 WETH, so the UM position nets to zero. The WETH gain of 0.108665 minus 0.030463 ETH of gas leaves about +0.0782 ETH. The sandwich runs in the sell direction, so the actor starts with UM inventory rather than buying first.\"}",
+ "case_id": "sym100_064",
+ "_time": "2026-10-13T21:37:07+0800"
+}

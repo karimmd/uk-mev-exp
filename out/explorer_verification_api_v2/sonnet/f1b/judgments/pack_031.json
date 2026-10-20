@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x0dacb47e00aed6abade32c7b398e029393e0d848",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front actor (0x78a55b\u2026) and back actor (0x860bd2\u2026) are different contracts. Each leg is a self-contained arbitrage: buy SOCKS from 0x22d8\u2026 for ETH, sell it into pool 0x0dac\u2026 for WETH, and end with no SOCKS held. No single actor opens a position in the front leg and closes it in the back leg, so this is not a sandwich bracket and there is no single actor whose profit can be netted.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4119,
+  "output_tokens": 981,
+  "thinking_tokens": 723
+ },
+ "_request_id": "req_011CgBVFouKQN1fXezktT5dH",
+ "_response_id": "msg_011CgBVFpEuxN9ePZ8tUBYUy",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x0dacb47e00aed6abade32c7b398e029393e0d848\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front actor (0x78a55b\u2026) and back actor (0x860bd2\u2026) are different contracts. Each leg is a self-contained arbitrage: buy SOCKS from 0x22d8\u2026 for ETH, sell it into pool 0x0dac\u2026 for WETH, and end with no SOCKS held. No single actor opens a position in the front leg and closes it in the back leg, so this is not a sandwich bracket and there is no single actor whose profit can be netted.\"}",
+ "case_id": "pack_031",
+ "_time": "2026-10-19T19:06:30+0800"
+}

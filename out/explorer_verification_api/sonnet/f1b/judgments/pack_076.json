@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x110492b31c59716ac47337e616804e3e3adc0b4a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01867,
+ "gas_eth": 0.108075,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor buys WBTC via WETH->BADGER->WBTC in the front leg and sells it back via WBTC->BADGER->WETH in the back leg; the victim sells BADGER into the shared BADGER/WBTC pool 0x1104 in between. Gross WETH gain 0.126745 minus gas 0.108075 leaves about +0.01867 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4303,
+  "output_tokens": 829,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQtxxEW1jE3mYkGP4TZ",
+ "_response_id": "msg_011CgBQu1ifsepvr1i1SwfTc",
+ "_reader": "sonnet",
+ "_raw": "Front leg: the actor contract 0x0000...f594e sends 68.406470 WETH to the WETH/BADGER pool 0x9752..., which sends BADGER to the BADGER/WBTC pool 0x1104.... That pool sends 1.565618 WBTC back to the actor. The actor ends the front leg holding WBTC, a non-WETH token.\n\nVictim: it sells BADGER into the 0x1104 BADGER/WBTC pool (4680 BADGER in, 2.207 WBTC out). So the victim trades on 0x1104, which is shared with the actor. The victim's other BADGER sale goes to pool 0xcd79.\n\nBack leg: the actor sends 1.565618 WBTC to 0x1104, receives BADGER, routes it to 0x9752, and receives 68.533215 WETH. The WBTC position is fully closed.\n\nQ1: yes. The actor opens and closes a WBTC position, and the victim is between the legs on pool 0x1104. The shared pool is 0x1104, which the victim trades on. Pool 0x9752 is not traded by the victim.\n\nQ2: WETH net = 68.533215 \u2212 68.406470 = 0.126745 ETH. Gas for the two legs is 0.022693 + 0.085382 = 0.108075 ETH. Net after gas = 0.126745 \u2212 0.108075 = 0.018670 ETH, which is positive. The fee is paid by the sender 0x50ef, not the actor contract, but it is still an observable cost. There is no residual holding: WBTC in equals WBTC out (1.565618), and the BADGER passes through (3268.59 out of 0x9752, 3308.47 returned).\n\nNet is therefore +0.01867 ETH.\n\n{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x110492b31c59716ac47337e616804e3e3adc0b4a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.018670, \"gas_eth\": 0.108075, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor buys WBTC via WETH->BADGER->WBTC in the front leg and sells it back via WBTC->BADGER->WETH in the back leg; the victim sells BADGER into the shared BADGER/WBTC pool 0x1104 in between. Gross WETH gain 0.126745 minus gas 0.108075 leaves about +0.01867 ETH.\"}",
+ "case_id": "pack_076",
+ "_time": "2026-10-19T18:09:22+0800"
+}

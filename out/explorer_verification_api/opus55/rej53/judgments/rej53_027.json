@@ -1,0 +1,31 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x43747d31fc178d626047c5b4346a251418167a1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.479943,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0xf73d sent 99.999966 WETH, routed through the WETH/USDT pool 0x06da and then the USDT/NBNG pool 0x43747d31, and received 712300.691802 NBNG. The victim then bought NBNG with USDT on 0x43747d31, and the back leg sold the exact NBNG amount back along the same route for 100.959853 WETH. Net is +0.959887 WETH less a 0.479944 ETH internal payment to 0x5a0b (likely the miner) gives +0.479943 ETH; both legs show zero gas fees and the NBNG position is fully closed.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3102,
+  "output_tokens": 646,
+  "thinking_tokens": 310
+ },
+ "_request_id": "req_011CgBSncahY7NojGshU41m6",
+ "_response_id": "msg_011CgBSncvXdyzeB1puG5amp",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\", \"pool\": \"0x43747d31fc178d626047c5b4346a251418167a1a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.479943, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0xf73d sent 99.999966 WETH, routed through the WETH/USDT pool 0x06da and then the USDT/NBNG pool 0x43747d31, and received 712300.691802 NBNG. The victim then bought NBNG with USDT on 0x43747d31, and the back leg sold the exact NBNG amount back along the same route for 100.959853 WETH. Net is +0.959887 WETH less a 0.479944 ETH internal payment to 0x5a0b (likely the miner) gives +0.479943 ETH; both legs show zero gas fees and the NBNG position is fully closed.\"}",
+ "case_id": "rej53_027",
+ "_time": "2026-10-19T18:34:05+0800"
+}

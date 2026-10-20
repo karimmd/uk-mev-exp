@@ -1,0 +1,31 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.474247,
+ "gas_eth": 0.082625,
+ "residual": "632.627513 MINT",
+ "confidence": 5,
+ "note": "Front and back both use actor 0x7f94... and the same Uniswap V2 pool 0x092e...; actor receives MINT in front and spends it in back, with victim in between. Gross ETH/WETH gain is 21.464093 - 20.907221 = 0.556872 ETH; subtracting front+back gas 0.082625 ETH leaves +0.474247 ETH. Residual 632.627513 MINT remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3235,
+  "output_tokens": 11227,
+  "thinking_tokens": 11028
+ },
+ "_request_id": "b5a08b4903f5398b862f616f043e371d",
+ "_response_id": "b8c70f69-0349-457e-b4b7-bb8007dfe911",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7f941cdae3c01906e42f8325af0693a848f81072\",\"pool\":\"0x092e793afe54366601eb7ef7e63b6abb93edb485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.474247,\"gas_eth\":0.082625,\"residual\":\"632.627513 MINT\",\"confidence\":5,\"note\":\"Front and back both use actor 0x7f94... and the same Uniswap V2 pool 0x092e...; actor receives MINT in front and spends it in back, with victim in between. Gross ETH/WETH gain is 21.464093 - 20.907221 = 0.556872 ETH; subtracting front+back gas 0.082625 ETH leaves +0.474247 ETH. Residual 632.627513 MINT remains.\"}",
+ "case_id": "rej53_044",
+ "_time": "2026-10-19T19:02:55+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.344833,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH\u2192ACR on pool d3d7 and then ACR\u2192USDC on pool a8ef, getting 10652.709116 USDC. The victim then sells ACR for USDC on a8ef, and the back leg reverses the same USDC amount for 8.609824 WETH, so the USDC position closes exactly. Net is +0.62697 WETH less the 0.282137 ETH paid out (likely a miner bribe), with zero gas price on both actor legs, giving +0.344833 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3663,
+  "output_tokens": 734,
+  "thinking_tokens": 438
+ },
+ "_request_id": "req_011CgBSwfUL5aerL26AprtYA",
+ "_response_id": "msg_011CgBSwfpQUjtZDEuMwTUiz",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.344833, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract routes WETH\u2192ACR on pool d3d7 and then ACR\u2192USDC on pool a8ef, getting 10652.709116 USDC. The victim then sells ACR for USDC on a8ef, and the back leg reverses the same USDC amount for 8.609824 WETH, so the USDC position closes exactly. Net is +0.62697 WETH less the 0.282137 ETH paid out (likely a miner bribe), with zero gas price on both actor legs, giving +0.344833 ETH.\"}",
+ "case_id": "rej53_052",
+ "_time": "2026-10-19T18:36:09+0800"
+}

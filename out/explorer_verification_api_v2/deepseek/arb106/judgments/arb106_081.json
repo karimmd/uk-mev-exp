@@ -1,0 +1,38 @@
+{
+ "actor": "0xf277db0f2098ba87bcc27250150c2d681a39ef75",
+ "pools": [
+  "0x8d8da72161da2d800ebdd2a316214eac7c32fca0",
+  "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.000156,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.000156,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two Uniswap V2 pools: USDT received from 0x8d8da and sent to 0x0d4a, WETH received from 0x0d4a. Net USDT zero, net ETH/WETH positive after an internal ETH payment. The missing input to 0x8d8da suggests donation extraction, but the pattern fits a two-pool closed-cycle arbitrage with a bribe.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1507,
+  "output_tokens": 20363,
+  "thinking_tokens": 20109
+ },
+ "_request_id": "7470178462745ca1fa479291db2a1506",
+ "_response_id": "366ae352-a513-4493-b466-e70de9805e37",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf277db0f2098ba87bcc27250150c2d681a39ef75\",\"pools\":[\"0x8d8da72161da2d800ebdd2a316214eac7c32fca0\",\"0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852\"],\"cycle_token\":\"USDT\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.000156,\"gas_eth\":0.0,\"profit_after_gas\":0.000156,\"residual\":\"none\",\"confidence\":4,\"note\":\"Two Uniswap V2 pools: USDT received from 0x8d8da and sent to 0x0d4a, WETH received from 0x0d4a. Net USDT zero, net ETH/WETH positive after an internal ETH payment. The missing input to 0x8d8da suggests donation extraction, but the pattern fits a two-pool closed-cycle arbitrage with a bribe.\"}",
+ "case_id": "arb106_081",
+ "_time": "2026-10-19T20:05:45+0800"
+}

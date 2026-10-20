@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.071069,
+ "gas_eth": 0.033829,
+ "profit_after_gas": 0.03724,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs are executed by contract 0x...35b5, which buys USDC on pool 0x8c1c before the victim's RAD->USDC trade on the same pool and sells the same USDC back afterward. Netting WETH in/out plus the 0.148998 ETH internal transfer gives 0.071069 ETH before gas; subtracting front/back gas leaves a positive 0.03724 ETH with no residual non-WETH position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3040,
+  "output_tokens": 7182,
+  "thinking_tokens": 6970
+ },
+ "_request_id": "520c6fd77bea159e187f289b38a5416e",
+ "_response_id": "b2dbcbbc-7c4e-45bb-aecb-211593e09f59",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.071069,\"gas_eth\":0.033829,\"profit_after_gas\":0.03724,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs are executed by contract 0x...35b5, which buys USDC on pool 0x8c1c before the victim's RAD->USDC trade on the same pool and sells the same USDC back afterward. Netting WETH in/out plus the 0.148998 ETH internal transfer gives 0.071069 ETH before gas; subtracting front/back gas leaves a positive 0.03724 ETH with no residual non-WETH position.\"}",
+ "case_id": "rej53_036",
+ "_time": "2026-10-19T19:44:42+0800"
+}

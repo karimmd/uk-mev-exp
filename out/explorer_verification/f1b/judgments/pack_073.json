@@ -1,0 +1,17 @@
+{
+ "actor": "0x0000000000007f150bd6f54c40a34d7c3d5e9f56",
+ "pool": "0xdc2b82bc1106c9c5286e59344896fb0ceb932f53",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.281409,
+ "gas_eth": 0.071493,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a single-transaction arbitrage by contract 0x7f15. It buys RGT on pool 0x28a5 and sells it on pool 0xdc2b, so it holds no position afterward. The back leg is the same arbitrage by a different contract, 0x6f65, so no actor opens a position in the front and closes it in the back, and the legs are not a bracket around the victim. The victim only shares pool 0xdc2b. The front actor's own net is 7.846803 - 7.549925 - 0.015469 = +0.281409 ETH before 0.071493 gas, about +0.2099 after gas. The back actor's equivalent is about +0.1923 ETH before 0.009537 gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.034094700000000006,
+ "_session": "1de3bad2-fd9d-48b4-8d22-8fbe0ecf37b7",
+ "_raw": "{\"actor\": \"0x0000000000007f150bd6f54c40a34d7c3d5e9f56\", \"pool\": \"0xdc2b82bc1106c9c5286e59344896fb0ceb932f53\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.281409, \"gas_eth\": 0.071493, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a single-transaction arbitrage by contract 0x7f15. It buys RGT on pool 0x28a5 and sells it on pool 0xdc2b, so it holds no position afterward. The back leg is the same arbitrage by a different contract, 0x6f65, so no actor opens a position in the front and closes it in the back, and the legs are not a bracket around the victim. The victim only shares pool 0xdc2b. The front actor's own net is 7.846803 - 7.549925 - 0.015469 = +0.281409 ETH before 0.071493 gas, about +0.2099 after gas. The back actor's equivalent is about +0.1923 ETH before 0.009537 gas.\"}",
+ "case_id": "pack_073",
+ "_time": "2026-10-13T20:18:17+0800"
+}

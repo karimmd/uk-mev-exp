@@ -1,0 +1,32 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.050269,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.050269,
+ "residual": "none",
+ "confidence": 5,
+ "note": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51 is the contract holding JINDOGE after the front and selling it in the back; the victim trades the same USDT/JINDOGE pool 0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e. Net WETH/ETH is -10.874441 + 11.158956 - 0.234246 = 0.050269; front/back gas fees are zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3369,
+  "output_tokens": 6868,
+  "thinking_tokens": 6626
+ },
+ "_request_id": "6c472676e26e6a37e7847ac8df45c26d",
+ "_response_id": "c1c85b24-1639-4a27-9c97-1eb1848412a9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\",\"pool\":\"0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.050269,\"gas_eth\":0.0,\"profit_after_gas\":0.050269,\"residual\":\"none\",\"confidence\":5,\"note\":\"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51 is the contract holding JINDOGE after the front and selling it in the back; the victim trades the same USDT/JINDOGE pool 0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e. Net WETH/ETH is -10.874441 + 11.158956 - 0.234246 = 0.050269; front/back gas fees are zero.\"}",
+ "case_id": "rej53_024",
+ "_time": "2026-10-19T19:42:38+0800"
+}

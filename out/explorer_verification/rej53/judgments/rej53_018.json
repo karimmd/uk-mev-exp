@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd4981ed8892cacc135192385de05b19684231e74",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.054149,
+ "gas_eth": 0.032678,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x7cf0 routes WETH through the SST/WETH pool (0xdfa7) into the SST/USDT pool (0xd498). That leaves it holding 605.539644 USDT, and the back leg sends exactly that amount back to 0xd498. The victim swaps SST for USDT on 0xd498 between the two legs. The actor's WETH moves from -0.581585 to +0.635734, a gain of 0.054149. Gas for both legs is 0.032678, so the position is about +0.02147 ETH after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0283292,
+ "_session": "02abfdfe-569b-48a3-81b6-924d3eb50f49",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xd4981ed8892cacc135192385de05b19684231e74\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.054149, \"gas_eth\": 0.032678, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract 0x7cf0 routes WETH through the SST/WETH pool (0xdfa7) into the SST/USDT pool (0xd498). That leaves it holding 605.539644 USDT, and the back leg sends exactly that amount back to 0xd498. The victim swaps SST for USDT on 0xd498 between the two legs. The actor's WETH moves from -0.581585 to +0.635734, a gain of 0.054149. Gas for both legs is 0.032678, so the position is about +0.02147 ETH after gas.\"}",
+ "case_id": "rej53_018",
+ "_time": "2026-10-13T21:56:52+0800"
+}

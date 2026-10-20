@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.344833,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract swaps WETH to ACR to USDC in the front leg. The victim sells ACR for USDC on the ACR/USDC pool 0xa8ef between the two legs. The back leg returns exactly 10652.709116 USDC to that pool and routes the ACR out to WETH. The WETH gain is 8.609824 - 7.982854 = 0.626970, less a 0.282137 ETH call out to 0xea67... (probably a builder payment). Both legs show 0 gwei gas, so the fee is 0, and no USDC or ACR is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3663,
+  "output_tokens": 842,
+  "thinking_tokens": 536
+ },
+ "_request_id": "req_011CgBSn6M1T2Q6tdVxtJtmp",
+ "_response_id": "msg_011CgBSn6gbu5mu14tVjsAZU",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000032962b51589768828ad878876299e14\",\"pool\":\"0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.344833,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract swaps WETH to ACR to USDC in the front leg. The victim sells ACR for USDC on the ACR/USDC pool 0xa8ef between the two legs. The back leg returns exactly 10652.709116 USDC to that pool and routes the ACR out to WETH. The WETH gain is 8.609824 - 7.982854 = 0.626970, less a 0.282137 ETH call out to 0xea67... (probably a builder payment). Both legs show 0 gwei gas, so the fee is 0, and no USDC or ACR is left over.\"}",
+ "case_id": "rej53_052",
+ "_time": "2026-10-19T18:33:59+0800"
+}

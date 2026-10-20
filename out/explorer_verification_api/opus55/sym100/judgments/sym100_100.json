@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.063983,
+ "gas_eth": 0.030886,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xb591 sells 323.665965 PMON for 8.978 WETH on pool 0xbf4f. The victim then sells PMON for WETH on the same pool, and 0xb591 buys back exactly 323.665965 PMON for 8.883131 WETH. This is an inverted-direction bracket, a short PMON position opened and closed around the victim, netting 0.094869 WETH minus 0.030886 ETH gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3019,
+  "output_tokens": 705,
+  "thinking_tokens": 426
+ },
+ "_request_id": "req_011CgBSdyZGLB2aYYL2K6cbv",
+ "_response_id": "msg_011CgBSdz3nHLu7z8xf1yQwc",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.063983, \"gas_eth\": 0.030886, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xb591 sells 323.665965 PMON for 8.978 WETH on pool 0xbf4f. The victim then sells PMON for WETH on the same pool, and 0xb591 buys back exactly 323.665965 PMON for 8.883131 WETH. This is an inverted-direction bracket, a short PMON position opened and closed around the victim, netting 0.094869 WETH minus 0.030886 ETH gas.\"}",
+ "case_id": "sym100_100",
+ "_time": "2026-10-19T18:32:09+0800"
+}

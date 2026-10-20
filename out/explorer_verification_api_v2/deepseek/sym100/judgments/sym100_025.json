@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xc17b5116ab39c8f747f045e107ea47a917532cdc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.033104,
+ "gas_eth": 0.003889,
+ "profit_after_gas": 0.029215,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs both trade on the NIIFI/WETH pool 0xc17b..., with actor 0x3dad receiving 1.655 WETH for NIIFI then paying 1.621896 WETH to buy back the same NIIFI amount. The victim also trades that same pool between them. Net WETH before gas is +0.033104, leaving +0.029215 after the front/back gas fees, with no residual NIIFI.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2355,
+  "output_tokens": 3601,
+  "thinking_tokens": 3389
+ },
+ "_request_id": "69fe45407ae104acff4cba8372704215",
+ "_response_id": "9535ce44-63bf-40df-b1ee-be3e53956b63",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xc17b5116ab39c8f747f045e107ea47a917532cdc\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.033104,\"gas_eth\":0.003889,\"profit_after_gas\":0.029215,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs both trade on the NIIFI/WETH pool 0xc17b..., with actor 0x3dad receiving 1.655 WETH for NIIFI then paying 1.621896 WETH to buy back the same NIIFI amount. The victim also trades that same pool between them. Net WETH before gas is +0.033104, leaving +0.029215 after the front/back gas fees, with no residual NIIFI.\"}",
+ "case_id": "sym100_025",
+ "_time": "2026-10-19T19:30:54+0800"
+}

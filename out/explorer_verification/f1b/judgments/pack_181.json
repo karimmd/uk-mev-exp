@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6af1becb78701f5919adb6f6932965abe4547763",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.002253,
+ "gas_eth": 0.0,
+ "residual": "about 634,111,774 KELPIE (31,729,722,858.60 bought minus 31,095,611,084.42 sold)",
+ "confidence": 4,
+ "note": "The same contract buys KELPIE with 0.147386 WETH in the front leg and sells it back for 0.173279 WETH in the back leg. The victim buys KELPIE on the same pool (0x6af1...) in between. Gross WETH gain is 0.025893, and the 0.023640 ETH paid out to 0xea67... in the back leg (likely a miner tip) leaves 0.002253 ETH with zero gas fee. The leftover KELPIE is a small extra holding, so it cannot flip the sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0242547,
+ "_session": "9633ff10-dcfd-414d-b837-abb3b9270e65",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x6af1becb78701f5919adb6f6932965abe4547763\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.002253, \"gas_eth\": 0.0, \"residual\": \"about 634,111,774 KELPIE (31,729,722,858.60 bought minus 31,095,611,084.42 sold)\", \"confidence\": 4, \"note\": \"The same contract buys KELPIE with 0.147386 WETH in the front leg and sells it back for 0.173279 WETH in the back leg. The victim buys KELPIE on the same pool (0x6af1...) in between. Gross WETH gain is 0.025893, and the 0.023640 ETH paid out to 0xea67... in the back leg (likely a miner tip) leaves 0.002253 ETH with zero gas fee. The leftover KELPIE is a small extra holding, so it cannot flip the sign.\"}",
+ "case_id": "pack_181",
+ "_time": "2026-10-13T20:40:11+0800"
+}

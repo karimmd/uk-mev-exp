@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x95cfa1f48fad82232772d3b1415ad4393517f3b5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001574,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use contract 0x000...35b5e5 to buy then sell the same 5617.071840 XRUNE on UniswapV2 pair 0x95cfa..., and the victim swaps on that same pool in between. Net WETH gain is 0.657492 - 0.626025 = 0.031467, minus the 0.029893 ETH internal transfer, leaving +0.001574 ETH; front/back gas is zero and no XRUNE remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2902,
+  "output_tokens": 4106,
+  "thinking_tokens": 3903
+ },
+ "_request_id": "a4760c5922b759827e60d0ab3f61908e",
+ "_response_id": "325f0d01-f1e5-4925-b898-202264597f44",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x95cfa1f48fad82232772d3b1415ad4393517f3b5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.001574,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use contract 0x000...35b5e5 to buy then sell the same 5617.071840 XRUNE on UniswapV2 pair 0x95cfa..., and the victim swaps on that same pool in between. Net WETH gain is 0.657492 - 0.626025 = 0.031467, minus the 0.029893 ETH internal transfer, leaving +0.001574 ETH; front/back gas is zero and no XRUNE remains.\"}",
+ "case_id": "pack_156",
+ "_time": "2026-10-19T18:31:27+0800"
+}

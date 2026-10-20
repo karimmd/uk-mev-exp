@@ -1,0 +1,27 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x495864cad6cf60e97efcd3f14ff8b1f167956ba2",
+  "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+  "0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8",
+  "0x7a019e9f33af312b5e5c6b065fbc733ccaa09f39",
+  "0xcd9dab5e666de980cecdc180cb31f296733e2587",
+  "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.032227,
+ "gas_eth": 0.028055,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs three separate two-pool WETH round trips (API3: V3 to V2, UFO: V2 to V2, AKITA: V3 to V2). Each one sends WETH into one pool and gets back slightly more from another, and the intermediate tokens move pool to pool without touching the actor. Net WETH is +0.032227 (2.668436 in, 2.636209 out), which is +0.004172 after the 0.028055 gas fee. The actor holds no other token, and nothing is minted from the zero address. The cycle closes on the intermediate token between pools rather than on a zero-net token at the actor, which is why confidence is not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027840700000000003,
+ "_session": "9605dde5-20de-46a0-8bd0-7f0bdc4697dd",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0x495864cad6cf60e97efcd3f14ff8b1f167956ba2\", \"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\", \"0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8\", \"0x7a019e9f33af312b5e5c6b065fbc733ccaa09f39\", \"0xcd9dab5e666de980cecdc180cb31f296733e2587\", \"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.032227, \"gas_eth\": 0.028055, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs three separate two-pool WETH round trips (API3: V3 to V2, UFO: V2 to V2, AKITA: V3 to V2). Each one sends WETH into one pool and gets back slightly more from another, and the intermediate tokens move pool to pool without touching the actor. Net WETH is +0.032227 (2.668436 in, 2.636209 out), which is +0.004172 after the 0.028055 gas fee. The actor holds no other token, and nothing is minted from the zero address. The cycle closes on the intermediate token between pools rather than on a zero-net token at the actor, which is why confidence is not 5.\"}",
+ "case_id": "arb106_090",
+ "_time": "2026-10-13T22:30:55+0800"
+}

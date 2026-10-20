@@ -1,0 +1,37 @@
+{
+ "actor": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9",
+ "pools": [
+  "0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26",
+  "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878"
+ ],
+ "cycle_token": null,
+ "profit_token": null,
+ "Q1": "no",
+ "Q1_reason": "routed sale",
+ "Q2": "cannot tell",
+ "net_eth": 28.985346,
+ "gas_eth": 0.01477,
+ "residual": "-100373.706315 USDC (USDC given up for 29.025859 WETH)",
+ "confidence": 3,
+ "note": "Helper 0xbf3f\u2026 takes 9.73M USDC from 0x5617\u2026 and spends 100,373.7 USDC on FEI at the V3 pool 0x8c54\u2026. The FEI goes to the V2 pool 0x94b0\u2026, which sends 29.03 WETH to 0x5617\u2026, and the helper returns the rest of the USDC, so its own USDC and FEI net to zero with no profit. 0x5617\u2026 emits no events and ends -100,373.7 USDC and +29.03 WETH (net_eth also deducts the 0.0257 ETH builder payment), which reads as a USDC-to-WETH route rather than a same-token cycle, and its sign depends on the ETH/USDC price.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2460,
+  "output_tokens": 2667,
+  "thinking_tokens": 2200
+ },
+ "_request_id": "req_011CgBTPQQSjBaih3sUxX72x",
+ "_response_id": "msg_011CgBTPRdN3LaTV6qLvZjrP",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x56178a0d5f301baf6cf3e1cd53d9863437345bf9\", \"pools\": [\"0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26\", \"0x94b0a3d511b6ecdb17ebf877278ab030acb0a878\"], \"cycle_token\": null, \"profit_token\": null, \"Q1\": \"no\", \"Q1_reason\": \"routed sale\", \"Q2\": \"cannot tell\", \"net_eth\": 28.985346, \"gas_eth\": 0.01477, \"residual\": \"-100373.706315 USDC (USDC given up for 29.025859 WETH)\", \"confidence\": 3, \"note\": \"Helper 0xbf3f\u2026 takes 9.73M USDC from 0x5617\u2026 and spends 100,373.7 USDC on FEI at the V3 pool 0x8c54\u2026. The FEI goes to the V2 pool 0x94b0\u2026, which sends 29.03 WETH to 0x5617\u2026, and the helper returns the rest of the USDC, so its own USDC and FEI net to zero with no profit. 0x5617\u2026 emits no events and ends -100,373.7 USDC and +29.03 WETH (net_eth also deducts the 0.0257 ETH builder payment), which reads as a USDC-to-WETH route rather than a same-token cycle, and its sign depends on the ETH/USDC price.\"}\n```",
+ "case_id": "arb106_065",
+ "_time": "2026-10-19T18:42:20+0800"
+}

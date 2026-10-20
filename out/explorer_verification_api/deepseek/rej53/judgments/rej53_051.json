@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.043181,
+ "gas_eth": 0.017411,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract opens a PROS position in front and closes the same amount in back on the UniswapV2 pool the victim also trades. Net WETH profit is 3.107414 - 3.064233 = 0.043181 ETH; subtracting front and back gas 0.017411 still leaves a positive result, with no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2538,
+  "output_tokens": 6113,
+  "thinking_tokens": 5940
+ },
+ "_request_id": "c7e31de50be03e0734d670a57e59b440",
+ "_response_id": "1002e4fd-2df2-46c6-af57-62c54d0c8ae4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.043181,\"gas_eth\":0.017411,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract opens a PROS position in front and closes the same amount in back on the UniswapV2 pool the victim also trades. Net WETH profit is 3.107414 - 3.064233 = 0.043181 ETH; subtracting front and back gas 0.017411 still leaves a positive result, with no non-WETH residual.\"}",
+ "case_id": "rej53_051",
+ "_time": "2026-10-19T19:03:50+0800"
+}

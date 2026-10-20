@@ -1,0 +1,39 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x14de8287adc90f0f95bf567c0707670de52e3813",
+  "0x8ae720a71622e824f576b4a8c03031066548a3b1",
+  "0x7a3c548416bbe8e09ac4fd6151af2dc6957a75ca",
+  "0x350db0440f1ff18e900dcc8c01180aa00e72cc91"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.022928,
+ "gas_eth": 0.022782,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives WETH from two Uniswap V3 pools and sends WETH to two Uniswap V2 pools, with RAI and MET flowing directly between pools. It nets +0.022928 WETH before gas, leaving a small positive net after the 0.022782 ETH gas fee.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1777,
+  "output_tokens": 12474,
+  "thinking_tokens": 12212
+ },
+ "_request_id": "eb57cd715d12076b205c4b5721971a47",
+ "_response_id": "ba189123-c2d4-46e7-b932-99c26c645a7a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x14de8287adc90f0f95bf567c0707670de52e3813\",\"0x8ae720a71622e824f576b4a8c03031066548a3b1\",\"0x7a3c548416bbe8e09ac4fd6151af2dc6957a75ca\",\"0x350db0440f1ff18e900dcc8c01180aa00e72cc91\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.022928,\"gas_eth\":0.022782,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives WETH from two Uniswap V3 pools and sends WETH to two Uniswap V2 pools, with RAI and MET flowing directly between pools. It nets +0.022928 WETH before gas, leaving a small positive net after the 0.022782 ETH gas fee.\"}",
+ "case_id": "arb106_066",
+ "_time": "2026-10-19T19:26:18+0800"
+}

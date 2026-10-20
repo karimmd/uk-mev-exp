@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a sell of MXS by 0x882e (940000 MXS in, 0.058469 ETH out). The back leg is a buy of MXS by a different address, 0x1feb (0.1 ETH in, 1558208 MXS out). The two legs have different actors and don't open and close one position, and the front sells as the victim does, so this is not a sandwich bracket. Without a single actor there is no net position to sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0287072,
+ "_session": "4a1bf085-82eb-41d2-b893-891f3014a42b",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a sell of MXS by 0x882e (940000 MXS in, 0.058469 ETH out). The back leg is a buy of MXS by a different address, 0x1feb (0.1 ETH in, 1558208 MXS out). The two legs have different actors and don't open and close one position, and the front sells as the victim does, so this is not a sandwich bracket. Without a single actor there is no net position to sign.\"}",
+ "case_id": "pack_078",
+ "_time": "2026-10-13T20:19:25+0800"
+}

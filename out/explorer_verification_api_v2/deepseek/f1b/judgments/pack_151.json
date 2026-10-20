@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.032356,
+ "profit_after_gas": null,
+ "residual": "different actors; MXS sold in both legs, no single actor position",
+ "confidence": 5,
+ "note": "Front and back both sell MXS for ETH on the same MXS/WETH pool, but their sender/economic actor addresses differ. The victim buys MXS on that same pool. No single actor opens and closes a position, and the actor/residual mismatch prevents a Q2 sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3242,
+  "output_tokens": 9185,
+  "thinking_tokens": 9026
+ },
+ "_request_id": "960a988b509d3c3228ca7e8240c60583",
+ "_response_id": "90a03a04-7d73-4b4d-bf3a-870ffab6fd41",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.032356,\"profit_after_gas\":null,\"residual\":\"different actors; MXS sold in both legs, no single actor position\",\"confidence\":5,\"note\":\"Front and back both sell MXS for ETH on the same MXS/WETH pool, but their sender/economic actor addresses differ. The victim buys MXS on that same pool. No single actor opens and closes a position, and the actor/residual mismatch prevents a Q2 sign.\"}",
+ "case_id": "pack_151",
+ "_time": "2026-10-19T19:22:42+0800"
+}

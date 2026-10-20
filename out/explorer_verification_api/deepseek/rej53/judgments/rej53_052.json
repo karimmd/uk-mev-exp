@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.344833,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract ends the front leg holding USDC acquired through the ACR/USDC pool and gives up the same USDC in the back leg; the victim trades that same ACR/USDC pool in between. Net WETH is +0.626970 ETH, less 0.282137 ETH internal transfer, with zero front/back gas and no residual non-WETH balance.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2880,
+  "output_tokens": 4233,
+  "thinking_tokens": 4064
+ },
+ "_request_id": "ed201672401383214401a65ea0b1f38a",
+ "_response_id": "d68e011f-6da8-4eaf-8fb1-d1611a476303",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000032962b51589768828ad878876299e14\",\"pool\":\"0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.344833,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract ends the front leg holding USDC acquired through the ACR/USDC pool and gives up the same USDC in the back leg; the victim trades that same ACR/USDC pool in between. Net WETH is +0.626970 ETH, less 0.282137 ETH internal transfer, with zero front/back gas and no residual non-WETH balance.\"}",
+ "case_id": "rej53_052",
+ "_time": "2026-10-19T19:03:48+0800"
+}

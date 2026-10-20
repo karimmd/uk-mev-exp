@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xc0917d9f473618029bea42dd61b05fcf0251be42",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are distinct contracts (0x00c409... and 0x860bd2...) that each buy and sell YETI within their own transaction, leaving no persistent token position for one actor across the victim. Both legs and the victim touch Uniswap pool 0xc091..., but the differing actors mean this is not a sandwich bracket, so a single actor's net cannot be determined.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3772,
+  "output_tokens": 9079,
+  "thinking_tokens": 8902
+ },
+ "_request_id": "c310425297e33899669b524685d7b587",
+ "_response_id": "9bfc3fd0-afe4-4ea0-a71a-f30effd2f37f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0xc0917d9f473618029bea42dd61b05fcf0251be42\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back are distinct contracts (0x00c409... and 0x860bd2...) that each buy and sell YETI within their own transaction, leaving no persistent token position for one actor across the victim. Both legs and the victim touch Uniswap pool 0xc091..., but the differing actors mean this is not a sandwich bracket, so a single actor's net cannot be determined.\"}",
+ "case_id": "pack_171",
+ "_time": "2026-10-19T19:24:52+0800"
+}

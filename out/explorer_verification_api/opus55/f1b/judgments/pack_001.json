@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x280ab9403372be0371313a9ddd9222b5590dbfef",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.041742,
+ "gas_eth": 0.0,
+ "residual": "about 697845119115.72 JSHIBA (front bought 34917813261615.93, back sold 34219968142500.21)",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026932d bought JSHIBA for 5.84 WETH on pair 0x280a\u2026dfef before the victim's WETH\u2192JSHIBA buy on the same pair, then sold JSHIBA back for 6.241362 WETH (+0.401362). Both legs paid zero gas. The 0.35962 ETH value passed straight to 0x2f73\u2026 (likely a builder or miner payment), which leaves about +0.0417 ETH. A small leftover JSHIBA balance only adds to the result, so the sign is not in doubt.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3330,
+  "output_tokens": 1039,
+  "thinking_tokens": 682
+ },
+ "_request_id": "req_011CgBQ1XmjJ5ferBnn3MjcS",
+ "_response_id": "msg_011CgBQ1YpjjmYmFTw3XyiEs",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x280ab9403372be0371313a9ddd9222b5590dbfef\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.041742, \"gas_eth\": 0.0, \"residual\": \"about 697845119115.72 JSHIBA (front bought 34917813261615.93, back sold 34219968142500.21)\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026932d bought JSHIBA for 5.84 WETH on pair 0x280a\u2026dfef before the victim's WETH\u2192JSHIBA buy on the same pair, then sold JSHIBA back for 6.241362 WETH (+0.401362). Both legs paid zero gas. The 0.35962 ETH value passed straight to 0x2f73\u2026 (likely a builder or miner payment), which leaves about +0.0417 ETH. A small leftover JSHIBA balance only adds to the result, so the sign is not in doubt.\"}",
+ "case_id": "pack_001",
+ "_time": "2026-10-19T17:57:45+0800"
+}

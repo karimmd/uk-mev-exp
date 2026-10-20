@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000007253c7b66206e928357d14c4574c83de71",
+ "pools": [
+  "0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.008001,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Multi-hop WETH/USDC/FEI/TRIBE cycle across four pools; actor received 13.939577 WETH and sent 13.916985 WETH, netting ~0.022592 WETH, then paid 0.014591 ETH to the miner, leaving positive net ~0.008001 ETH. No residual non-WETH holdings.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1719,
+  "output_tokens": 8865,
+  "thinking_tokens": 8589
+ },
+ "_request_id": "05eaad7a2f885cd44fade1fd0026d7ec",
+ "_response_id": "0484f535-e1d8-4f6f-bd90-8faaf4540678",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000007253c7b66206e928357d14c4574c83de71\",\"pools\":[\"0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.008001,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Multi-hop WETH/USDC/FEI/TRIBE cycle across four pools; actor received 13.939577 WETH and sent 13.916985 WETH, netting ~0.022592 WETH, then paid 0.014591 ETH to the miner, leaving positive net ~0.008001 ETH. No residual non-WETH holdings.\"}",
+ "case_id": "arb106_102",
+ "_time": "2026-10-19T19:41:44+0800"
+}

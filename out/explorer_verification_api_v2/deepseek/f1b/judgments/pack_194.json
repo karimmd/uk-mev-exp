@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.008868,
+ "profit_after_gas": null,
+ "residual": "front actor 0xbcdec0b56453796979fef56747e7de10281e9c25 holds 21095.574 MXS; back actor 0x7612f25f5d6a24745a122aa1174e88d8202cff6a holds 7064.249616 MXS",
+ "confidence": 5,
+ "note": "Both front and back buy MXS on the same 0x13bb... pool, but the front holder does not sell in the back leg and the back leg's recipient is a different address. The victim also trades on the shared MXS pool, but there is no common actor closing a position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3133,
+  "output_tokens": 7277,
+  "thinking_tokens": 7055
+ },
+ "_request_id": "fefd0572b9d6560d1754b0668a1241e8",
+ "_response_id": "67d0b262-ba58-456c-878d-4e8894f1c44f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.008868,\"profit_after_gas\":null,\"residual\":\"front actor 0xbcdec0b56453796979fef56747e7de10281e9c25 holds 21095.574 MXS; back actor 0x7612f25f5d6a24745a122aa1174e88d8202cff6a holds 7064.249616 MXS\",\"confidence\":5,\"note\":\"Both front and back buy MXS on the same 0x13bb... pool, but the front holder does not sell in the back leg and the back leg's recipient is a different address. The victim also trades on the shared MXS pool, but there is no common actor closing a position.\"}",
+ "case_id": "pack_194",
+ "_time": "2026-10-19T19:27:37+0800"
+}

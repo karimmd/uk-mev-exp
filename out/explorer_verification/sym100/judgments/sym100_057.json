@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xa3d588a914c7534356a006ae3c1d8ae19c9694e1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.025599,
+ "gas_eth": 0.009794,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract actor sells 375.657054 PDEX into the pool in the front leg, the victim sells PDEX into the same pool, and the actor buys back exactly 375.657054 PDEX in the back leg. This is an inverted sandwich that starts from PDEX inventory. WETH netted +2.326 - 2.300401 = +0.025599, and front plus back gas of 0.005170 + 0.004624 = 0.009794 leaves about +0.0158 ETH with no residual PDEX. The confidence is held down because the actor starts with PDEX inventory rather than opening a position by buying.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.022562699999999998,
+ "_session": "22736d7c-a67f-4834-aef6-dcf84fe5383c",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xa3d588a914c7534356a006ae3c1d8ae19c9694e1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.025599, \"gas_eth\": 0.009794, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract actor sells 375.657054 PDEX into the pool in the front leg, the victim sells PDEX into the same pool, and the actor buys back exactly 375.657054 PDEX in the back leg. This is an inverted sandwich that starts from PDEX inventory. WETH netted +2.326 - 2.300401 = +0.025599, and front plus back gas of 0.005170 + 0.004624 = 0.009794 leaves about +0.0158 ETH with no residual PDEX. The confidence is held down because the actor starts with PDEX inventory rather than opening a position by buying.\"}",
+ "case_id": "sym100_057",
+ "_time": "2026-10-13T21:35:31+0800"
+}

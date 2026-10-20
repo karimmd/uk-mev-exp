@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xcb49221ad08e84b1692f80b62cd5f90c1aadbe6e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.024822,
+ "gas_eth": 0.0041,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (0x3dad\u2026) trades CUDOS/WETH on the pool 0xcb49\u2026 in both the front and back legs, with the victim's CUDOS-to-WETH swap on that pool in between. The direction is sell-first: the actor sells 114948.586662 CUDOS for 1.356 WETH, then buys the same CUDOS back for 1.327078 WETH. That gives a WETH gain of 0.028922, and subtracting 0.0041 ETH gas leaves about +0.024822 ETH. The CUDOS amounts net to zero, so there is no residual holding.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0248808,
+ "_session": "304f09cb-a739-4501-b9ba-d23cf89f0793",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xcb49221ad08e84b1692f80b62cd5f90c1aadbe6e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.024822, \"gas_eth\": 0.0041, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract (0x3dad\u2026) trades CUDOS/WETH on the pool 0xcb49\u2026 in both the front and back legs, with the victim's CUDOS-to-WETH swap on that pool in between. The direction is sell-first: the actor sells 114948.586662 CUDOS for 1.356 WETH, then buys the same CUDOS back for 1.327078 WETH. That gives a WETH gain of 0.028922, and subtracting 0.0041 ETH gas leaves about +0.024822 ETH. The CUDOS amounts net to zero, so there is no residual holding.\"}",
+ "case_id": "pack_103",
+ "_time": "2026-10-13T20:24:43+0800"
+}

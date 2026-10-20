@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs trade the same MXS/WETH UniswapV2 pool 0x13bb, but the front leg is 0x882e selling MXS for ETH and the back leg is a different address, 0x1feb, buying MXS with 0.1 ETH. No single actor opens a position in the front and closes it in the back. With no common actor, no bracket PnL can be computed.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3947,
+  "output_tokens": 505,
+  "thinking_tokens": 276
+ },
+ "_request_id": "req_011CgBQzP4wj7JC83to5a29V",
+ "_response_id": "msg_011CgBQzW1QfeP6xwewyeTEy",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs trade the same MXS/WETH UniswapV2 pool 0x13bb, but the front leg is 0x882e selling MXS for ETH and the back leg is a different address, 0x1feb, buying MXS with 0.1 ETH. No single actor opens a position in the front and closes it in the back. With no common actor, no bracket PnL can be computed.\"}\n```",
+ "case_id": "pack_078",
+ "_time": "2026-10-19T18:10:32+0800"
+}

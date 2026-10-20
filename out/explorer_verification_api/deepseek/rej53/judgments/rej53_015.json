@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x62e3c242b5e903071458ad90a160493d84911c77",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.064447,
+ "gas_eth": 0.052814,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front swaps WETH->LSS then LSS->USDT on the shared 0x62e3 pool, leaving the actor with USDT. Back swaps the same USDT back through LSS to WETH, with the victim trading LSS->USDT on that same pool between them. Net WETH +0.064447 minus gas 0.052814 leaves +0.011633.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2382,
+  "output_tokens": 7161,
+  "thinking_tokens": 6986
+ },
+ "_request_id": "4ef235ab89e3f80da24fac1b9f73b390",
+ "_response_id": "6fc8478b-b607-40c2-b1e3-a8908c101a77",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x62e3c242b5e903071458ad90a160493d84911c77\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.064447,\"gas_eth\":0.052814,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front swaps WETH->LSS then LSS->USDT on the shared 0x62e3 pool, leaving the actor with USDT. Back swaps the same USDT back through LSS to WETH, with the victim trading LSS->USDT on that same pool between them. Net WETH +0.064447 minus gas 0.052814 leaves +0.011633.\"}",
+ "case_id": "rej53_015",
+ "_time": "2026-10-19T18:58:38+0800"
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0x97e7d56a0408570ba1a7852de36350f7713906ec",
+  "0x8a1d0db124d33772082a0f4558ec17d7c9f6e525",
+  "0x61f8b7670d9de7a6852c09cfcc9dd597ec3087cc"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.024073,
+ "gas_eth": 0.022948,
+ "profit_after_gas": 0.001125,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a four-pool cycle: WETH to PHONON on V3 pool 0x61f8, PHONON to FRAX on V2 pair 0x8a1d, FRAX to DAI on V3 pool 0x97e7, then DAI to WETH on V3 pool 0x6059. Each intermediate token passes straight from one pool to the next, so the actor only touches WETH. The actor nets 0.024073 WETH, which covers the 0.022948 ETH gas fee by a thin margin.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2226,
+  "output_tokens": 825,
+  "thinking_tokens": 376
+ },
+ "_request_id": "req_011CgBXfkdX3CUAzmvyPtrY3",
+ "_response_id": "msg_011CgBXfkzbzBUrhxUAuX8jM",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\", \"pools\": [\"0x60594a405d53811d3bc4766596efd80fd545a270\", \"0x97e7d56a0408570ba1a7852de36350f7713906ec\", \"0x8a1d0db124d33772082a0f4558ec17d7c9f6e525\", \"0x61f8b7670d9de7a6852c09cfcc9dd597ec3087cc\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.024073, \"gas_eth\": 0.022948, \"profit_after_gas\": 0.001125, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a four-pool cycle: WETH to PHONON on V3 pool 0x61f8, PHONON to FRAX on V2 pair 0x8a1d, FRAX to DAI on V3 pool 0x97e7, then DAI to WETH on V3 pool 0x6059. Each intermediate token passes straight from one pool to the next, so the actor only touches WETH. The actor nets 0.024073 WETH, which covers the 0.022948 ETH gas fee by a thin margin.\"}",
+ "case_id": "arb106_092",
+ "_time": "2026-10-19T19:38:07+0800"
+}

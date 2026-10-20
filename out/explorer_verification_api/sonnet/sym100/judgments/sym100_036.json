@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x3127bbbc05f343192855ea40b54a34831ce72e04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.077983,
+ "gas_eth": 0.023678,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sends 924.961234 WAR to the pool for 2.206240 WETH in the front leg. The victim then sells 784 WAR into the same pool, and the actor buys back exactly 924.961234 WAR for 2.128257 WETH in the back leg. This is a reverse-direction bracket that relies on pre-existing WAR inventory. WAR nets to zero, WETH nets +0.077983, and after 0.023678 ETH of gas the position is about +0.0543 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2991,
+  "output_tokens": 837,
+  "thinking_tokens": 554
+ },
+ "_request_id": "req_011CgBS6pXv6yYbxFeM779MJ",
+ "_response_id": "msg_011CgBS6prGoGoaLj4w1b3pc",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x3127bbbc05f343192855ea40b54a34831ce72e04\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.077983,\"gas_eth\":0.023678,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sends 924.961234 WAR to the pool for 2.206240 WETH in the front leg. The victim then sells 784 WAR into the same pool, and the actor buys back exactly 924.961234 WAR for 2.128257 WETH in the back leg. This is a reverse-direction bracket that relies on pre-existing WAR inventory. WAR nets to zero, WETH nets +0.077983, and after 0.023678 ETH of gas the position is about +0.0543 ETH.\"}",
+ "case_id": "sym100_036",
+ "_time": "2026-10-19T18:25:06+0800"
+}

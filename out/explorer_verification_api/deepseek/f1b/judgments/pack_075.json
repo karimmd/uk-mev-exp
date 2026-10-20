@@ -1,0 +1,31 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.474246409,
+ "gas_eth": 0.082625591,
+ "residual": "632.627513 MINT (0x0cdf9acd87e940837ff21bb40c9fd55f68bba059)",
+ "confidence": 4,
+ "note": "Actor 0x7f941... holds MINT after the front leg and sells it back on the same Uniswap V2 pool 0x092e...; the victim trades on that pool between them. Net ETH/WETH after front/back gas is about +0.474 ETH, with 632.627513 MINT left as residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3261,
+  "output_tokens": 13330,
+  "thinking_tokens": 13130
+ },
+ "_request_id": "e7c1e70392ba78178462385290a74429",
+ "_response_id": "c014712a-00ba-4b10-91d4-cb220eae7b4f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7f941cdae3c01906e42f8325af0693a848f81072\",\"pool\":\"0x092e793afe54366601eb7ef7e63b6abb93edb485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.474246409,\"gas_eth\":0.082625591,\"residual\":\"632.627513 MINT (0x0cdf9acd87e940837ff21bb40c9fd55f68bba059)\",\"confidence\":4,\"note\":\"Actor 0x7f941... holds MINT after the front leg and sells it back on the same Uniswap V2 pool 0x092e...; the victim trades on that pool between them. Net ETH/WETH after front/back gas is about +0.474 ETH, with 632.627513 MINT left as residual.\"}",
+ "case_id": "pack_075",
+ "_time": "2026-10-19T18:15:27+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x7a08ed5862ba4c2887ef169a17637eadb27beecf",
+ "pool": "0xaadb00551312a3c2a8b46597a39ef1105afb2c08",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049721,
+ "gas_eth": 0.033614,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x7a08 bought 39,651,792.148310 AXN with 7.44 ETH on the AXN/WETH pool in the front leg. The victim bought AXN on the same pool. The contract then sold the same AXN amount back in the back leg for 7.489721 ETH. Gross profit is +0.049721 ETH. After 0.033614 ETH of gas for both legs, the profit is about +0.016107 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025203200000000002,
+ "_session": "4c4fd437-701b-4d41-8548-879f634d290c",
+ "_raw": "{\"actor\": \"0x7a08ed5862ba4c2887ef169a17637eadb27beecf\", \"pool\": \"0xaadb00551312a3c2a8b46597a39ef1105afb2c08\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.049721, \"gas_eth\": 0.033614, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x7a08 bought 39,651,792.148310 AXN with 7.44 ETH on the AXN/WETH pool in the front leg. The victim bought AXN on the same pool. The contract then sold the same AXN amount back in the back leg for 7.489721 ETH. Gross profit is +0.049721 ETH. After 0.033614 ETH of gas for both legs, the profit is about +0.016107 ETH.\"}",
+ "case_id": "pack_193",
+ "_time": "2026-10-13T20:42:30+0800"
+}

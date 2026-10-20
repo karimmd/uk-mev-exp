@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0x35a1f588dbd86446a4eb8133ccc96e3db0e65be4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011599,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x\u20262962 swaps 100 WETH to DOGZ on pool f89a, then sells that DOGZ for 323.553 USDT on pool 35a1 in the front leg. The victim sells DOGZ into 35a1 between the legs. In the back leg the contract returns exactly 323.553 USDT to 35a1 and gets 100.01657 WETH back through f89a, so no token is left over. Net is +0.01657 WETH minus the 0.004971 ETH call to 0xea67\u2026; the explorers show both legs at 0 gwei, so I took gas as 0, though the display may be rounding a small fee.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0306792,
+ "_session": "60df670a-4f54-4c53-8c5a-23757d6ebdd7",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0x35a1f588dbd86446a4eb8133ccc96e3db0e65be4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.011599, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x\u20262962 swaps 100 WETH to DOGZ on pool f89a, then sells that DOGZ for 323.553 USDT on pool 35a1 in the front leg. The victim sells DOGZ into 35a1 between the legs. In the back leg the contract returns exactly 323.553 USDT to 35a1 and gets 100.01657 WETH back through f89a, so no token is left over. Net is +0.01657 WETH minus the 0.004971 ETH call to 0xea67\u2026; the explorers show both legs at 0 gwei, so I took gas as 0, though the display may be rounding a small fee.\"}",
+ "case_id": "rej53_032",
+ "_time": "2026-10-13T21:59:51+0800"
+}

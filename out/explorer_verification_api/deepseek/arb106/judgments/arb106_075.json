@@ -1,0 +1,43 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17",
+  "0x29c827ce49accf68a1a278c67c9d30c52fbbc348",
+  "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+  "0xb66c491e2356bf32b7e3ea14af7f60b3ed171a22",
+  "0x22def8cf4e481417cb014d9dc64975ba12e3a184",
+  "0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537",
+  "0xc12c4c3e0008b838f75189bfb39283467cf6e5b3",
+  "0xaff587846a44aa086a6555ff69055d3380fd379a"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.007628,
+ "gas_eth": 0.055005,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract nets +0.062633 WETH from swaps across eight pools, with no non-WETH residual or mint shown. After the 0.055005 ETH gas fee, its observable net remains positive at about 0.007628 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2584,
+  "output_tokens": 10880,
+  "thinking_tokens": 10529
+ },
+ "_request_id": "c0568ec756b9c20969a1053ff18a1f22",
+ "_response_id": "13793bff-9895-49da-a98b-793f9ae7a8dc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17\",\"0x29c827ce49accf68a1a278c67c9d30c52fbbc348\",\"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\",\"0xb66c491e2356bf32b7e3ea14af7f60b3ed171a22\",\"0x22def8cf4e481417cb014d9dc64975ba12e3a184\",\"0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537\",\"0xc12c4c3e0008b838f75189bfb39283467cf6e5b3\",\"0xaff587846a44aa086a6555ff69055d3380fd379a\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.007628,\"gas_eth\":0.055005,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract nets +0.062633 WETH from swaps across eight pools, with no non-WETH residual or mint shown. After the 0.055005 ETH gas fee, its observable net remains positive at about 0.007628 ETH.\"}",
+ "case_id": "arb106_075",
+ "_time": "2026-10-19T19:30:25+0800"
+}

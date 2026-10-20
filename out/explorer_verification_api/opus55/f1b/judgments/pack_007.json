@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x4d4786384eb4e356ea2df195bbe84c89440accf0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.050029,
+ "gas_eth": 0.025748,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a sell-side bracket on the BLANK/WETH UniswapV2 pool 0x4d47. Contract 0xb591, called by 0xc85e, sells 16528.27 BLANK for 7.886 WETH before the victim's BLANK sale, then buys exactly the same BLANK back for 7.810223 WETH. That leaves +0.075777 WETH, minus 0.025748 ETH gas, with no BLANK left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3020,
+  "output_tokens": 606,
+  "thinking_tokens": 326
+ },
+ "_request_id": "req_011CgBQ5tRosEYLpUT6HyRvW",
+ "_response_id": "msg_011CgBQ5zJXnJxqDkZWCr7jW",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x4d4786384eb4e356ea2df195bbe84c89440accf0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.050029, \"gas_eth\": 0.025748, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a sell-side bracket on the BLANK/WETH UniswapV2 pool 0x4d47. Contract 0xb591, called by 0xc85e, sells 16528.27 BLANK for 7.886 WETH before the victim's BLANK sale, then buys exactly the same BLANK back for 7.810223 WETH. That leaves +0.075777 WETH, minus 0.025748 ETH gas, with no BLANK left over.\"}",
+ "case_id": "pack_007",
+ "_time": "2026-10-19T17:58:42+0800"
+}

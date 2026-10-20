@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.065254,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor buys 3,020,068 PEOPLE in the front leg, the victim buys PEOPLE on the same V3 pool, and the actor sells the identical amount in the back leg. The WETH gain is 0.187025, and subtracting the 0.121771 ETH sent on to 0xb7e3... (likely a builder tip) gives 0.065254 before gas. After 0.157241 ETH of gas the result is about -0.092 ETH, so it is negative.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0210187,
+ "_session": "fd6949b2-37cb-431a-8fd0-acffb2ebd72a",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x83abecf7204d5afc1bea5df734f085f2535a9976\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.065254, \"gas_eth\": 0.157241, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor buys 3,020,068 PEOPLE in the front leg, the victim buys PEOPLE on the same V3 pool, and the actor sells the identical amount in the back leg. The WETH gain is 0.187025, and subtracting the 0.121771 ETH sent on to 0xb7e3... (likely a builder tip) gives 0.065254 before gas. After 0.157241 ETH of gas the result is about -0.092 ETH, so it is negative.\"}",
+ "case_id": "pack_048",
+ "_time": "2026-10-13T20:13:19+0800"
+}

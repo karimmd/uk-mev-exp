@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.213542,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both route through 0x000000000027d2..., which receives and later returns the same STARL amount on the shared UniswapV2 pool, with the victim swapping on that pool in between. WETH net is 10.453447 - 10.239905 = +0.213542 ETH; back-leg ETH value is forwarded out and front/back gas fees are zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2407,
+  "output_tokens": 4427,
+  "thinking_tokens": 4240
+ },
+ "_request_id": "69b7c9e73a8eb60f4fca064449ca0f25",
+ "_response_id": "5671da46-e882-43ed-9703-13e69e0db0fa",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.213542,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both route through 0x000000000027d2..., which receives and later returns the same STARL amount on the shared UniswapV2 pool, with the victim swapping on that pool in between. WETH net is 10.453447 - 10.239905 = +0.213542 ETH; back-leg ETH value is forwarded out and front/back gas fees are zero.\"}",
+ "case_id": "pack_099",
+ "_time": "2026-10-19T18:19:28+0800"
+}

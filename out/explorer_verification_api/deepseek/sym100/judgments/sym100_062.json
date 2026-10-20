@@ -1,0 +1,31 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.006816,
+ "gas_eth": 5e-06,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are multi-hop arbitrages routed through two Uniswap V2 pools; the executor never holds RUNE, so no non-WETH position is opened and closed across legs. The shared pool with the victim is 0x8d2a4..., and the combined ETH/WETH net is +0.006816 before gas (+0.006811 after gas), with no residual RUNE.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3287,
+  "output_tokens": 13865,
+  "thinking_tokens": 13681
+ },
+ "_request_id": "1050403b8a88992693b2d3c7bcc3a7b5",
+ "_response_id": "04ac4c21-6815-4876-af40-517386b6dfd7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\",\"pool\":\"0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.006816,\"gas_eth\":0.000005,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are multi-hop arbitrages routed through two Uniswap V2 pools; the executor never holds RUNE, so no non-WETH position is opened and closed across legs. The shared pool with the victim is 0x8d2a4..., and the combined ETH/WETH net is +0.006816 before gas (+0.006811 after gas), with no residual RUNE.\"}",
+ "case_id": "sym100_062",
+ "_time": "2026-10-19T18:50:43+0800"
+}

@@ -1,0 +1,25 @@
+{
+ "actor": "0x8698d9d5ea99809c00426484a80be2add4e54581",
+ "pools": [
+  "0x29c827ce49accf68a1a278c67c9d30c52fbbc348",
+  "0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17",
+  "0x7ec0b75a98997c927ace6d87958147a105147ea0",
+  "0x99b42f2b49c395d2a77d973f6009abb5d67da343"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.020915,
+ "gas_eth": 0.019244,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 1.396192 WETH into the WETH/VEGA pool, and the output is routed pool-to-pool (VEGA -> USDC -> YGG) through a V2 pool, a V3 pool and a final V2 pool, which pays back 1.417107 WETH. The WETH gain is 0.020915 before gas and about 0.001671 ETH after the 0.019244 ETH fee, with no residual tokens. The WETH both leaves and returns, so it is the profit token as well as the cycle token. That is a slight departure from the strict 'nets to about zero' wording, and it is the main reason confidence is not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.020876699999999998,
+ "_session": "e463685a-3990-4854-8101-4175871eaee1",
+ "_raw": "{\"actor\": \"0x8698d9d5ea99809c00426484a80be2add4e54581\", \"pools\": [\"0x29c827ce49accf68a1a278c67c9d30c52fbbc348\", \"0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17\", \"0x7ec0b75a98997c927ace6d87958147a105147ea0\", \"0x99b42f2b49c395d2a77d973f6009abb5d67da343\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.020915, \"gas_eth\": 0.019244, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 1.396192 WETH into the WETH/VEGA pool, and the output is routed pool-to-pool (VEGA -> USDC -> YGG) through a V2 pool, a V3 pool and a final V2 pool, which pays back 1.417107 WETH. The WETH gain is 0.020915 before gas and about 0.001671 ETH after the 0.019244 ETH fee, with no residual tokens. The WETH both leaves and returns, so it is the profit token as well as the cycle token. That is a slight departure from the strict 'nets to about zero' wording, and it is the main reason confidence is not 5.\"}",
+ "case_id": "arb106_070",
+ "_time": "2026-10-13T22:26:24+0800"
+}

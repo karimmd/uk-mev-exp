@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.103683186,
+ "profit_after_gas": null,
+ "residual": "front sender received 193.826 PRIA; back sender received 189.930 PRIA; no common closing actor",
+ "confidence": 5,
+ "note": "All three swaps trade PRIA/WETH on the same Uniswap V2 pair, but the front and back legs are both ETH-to-PRIA buys paying PRIA to different addresses. No common actor opens and closes a position, so this is not a sandwich bracket.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3424,
+  "output_tokens": 8671,
+  "thinking_tokens": 8509
+ },
+ "_request_id": "576438f34746300ff2f200a8d59ac0be",
+ "_response_id": "5eb98385-716d-4a3b-af86-419537444d3f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xac350eefccdae050614070e5040e17759cebb3e9\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.103683186,\"profit_after_gas\":null,\"residual\":\"front sender received 193.826 PRIA; back sender received 189.930 PRIA; no common closing actor\",\"confidence\":5,\"note\":\"All three swaps trade PRIA/WETH on the same Uniswap V2 pair, but the front and back legs are both ETH-to-PRIA buys paying PRIA to different addresses. No common actor opens and closes a position, so this is not a sandwich bracket.\"}",
+ "case_id": "pack_138",
+ "_time": "2026-10-19T19:21:34+0800"
+}

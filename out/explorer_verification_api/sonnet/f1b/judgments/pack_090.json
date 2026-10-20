@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.015568,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 93112565531.76 JEJUDOGE for 3.859384 WETH in the front leg and sells exactly that amount back for 3.933715 WETH in the back leg. The victim's USDT->WETH->JEJUDOGE swap routes through the same pool in between. The WETH gain is 0.074331, and subtracting the 0.058763 ETH sent in as back-leg value and forwarded to 0x5a0b\u2026 (likely a miner payment) leaves about +0.015568 ETH, with gas fees shown as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3355,
+  "output_tokens": 827,
+  "thinking_tokens": 523
+ },
+ "_request_id": "req_011CgBR453bivzwaKgnxNwtj",
+ "_response_id": "msg_011CgBR4EqCv7nbena8H8wTX",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.015568,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 93112565531.76 JEJUDOGE for 3.859384 WETH in the front leg and sells exactly that amount back for 3.933715 WETH in the back leg. The victim's USDT->WETH->JEJUDOGE swap routes through the same pool in between. The WETH gain is 0.074331, and subtracting the 0.058763 ETH sent in as back-leg value and forwarded to 0x5a0b\u2026 (likely a miner payment) leaves about +0.015568 ETH, with gas fees shown as 0.\"}",
+ "case_id": "pack_090",
+ "_time": "2026-10-19T18:11:24+0800"
+}

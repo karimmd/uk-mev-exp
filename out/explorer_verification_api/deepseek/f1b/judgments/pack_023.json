@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008683,
+ "gas_eth": 0.356902,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives USDC in the front leg and spends the same USDC amount in the back leg on the HEX/USDC pool that the victim also trades. Net WETH gain is 0.365585 ETH, and subtracting front/back gas gives +0.008683 ETH with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2506,
+  "output_tokens": 3141,
+  "thinking_tokens": 2980
+ },
+ "_request_id": "523f272761a66ecf9f313b0aefdb3305",
+ "_response_id": "fdbd1f28-c5b3-4858-967b-c1ec0edd152a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.008683,\"gas_eth\":0.356902,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives USDC in the front leg and spends the same USDC amount in the back leg on the HEX/USDC pool that the victim also trades. Net WETH gain is 0.365585 ETH, and subtracting front/back gas gives +0.008683 ETH with no residual non-WETH holding.\"}",
+ "case_id": "pack_023",
+ "_time": "2026-10-19T18:04:51+0800"
+}

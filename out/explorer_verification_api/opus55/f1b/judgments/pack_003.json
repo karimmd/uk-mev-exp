@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd4981ed8892cacc135192385de05b19684231e74",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.021471,
+ "gas_eth": 0.032678,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x7cf0 routes WETH to SST to USDT through pools dfa7 and d498 in the front leg, receiving 605.539644 USDT, and returns exactly that USDT through the same path in the back leg. The victim sells SST for USDT on d498 between the two legs. WETH out was 0.581585 and WETH back was 0.635734, a gain of 0.054149; after 0.032678 ETH of front and back gas the net is about +0.0215 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3819,
+  "output_tokens": 630,
+  "thinking_tokens": 340
+ },
+ "_request_id": "req_011CgBQ42k5QHgNtTtifSzkq",
+ "_response_id": "msg_011CgBQ49vvDbMAmjr5JJEH3",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xd4981ed8892cacc135192385de05b19684231e74\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.021471, \"gas_eth\": 0.032678, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x7cf0 routes WETH to SST to USDT through pools dfa7 and d498 in the front leg, receiving 605.539644 USDT, and returns exactly that USDT through the same path in the back leg. The victim sells SST for USDT on d498 between the two legs. WETH out was 0.581585 and WETH back was 0.635734, a gain of 0.054149; after 0.032678 ETH of front and back gas the net is about +0.0215 ETH.\"}",
+ "case_id": "pack_003",
+ "_time": "2026-10-19T17:58:15+0800"
+}

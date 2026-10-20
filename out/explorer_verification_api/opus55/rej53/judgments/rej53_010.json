@@ -1,0 +1,31 @@
+{
+ "actor": "0xce50840272d623272d6aef25e403f2265c27cfe7",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.376187,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0xce50 routes WETH\u2192USDT\u2192ALBT through pool 0x06da and then pool 0x1cd9 to buy 112939.66 ALBT before the victim. The victim buys ALBT with USDT on pool 0x1cd9, and the back leg sells exactly that ALBT back along the same route. The actor receives 21.450911 WETH against 20.949328 sent (+0.501583), less a 0.125396 ETH internal payment (likely to the block builder), with zero gas price on both legs, leaving about +0.376 ETH net and no ALBT left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3904,
+  "output_tokens": 587,
+  "thinking_tokens": 262
+ },
+ "_request_id": "req_011CgBShFMrJnBqgUST4YA9u",
+ "_response_id": "msg_011CgBShFiwFaE9Q9fkRhHCX",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xce50840272d623272d6aef25e403f2265c27cfe7\", \"pool\": \"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.376187, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0xce50 routes WETH\u2192USDT\u2192ALBT through pool 0x06da and then pool 0x1cd9 to buy 112939.66 ALBT before the victim. The victim buys ALBT with USDT on pool 0x1cd9, and the back leg sells exactly that ALBT back along the same route. The actor receives 21.450911 WETH against 20.949328 sent (+0.501583), less a 0.125396 ETH internal payment (likely to the block builder), with zero gas price on both legs, leaving about +0.376 ETH net and no ALBT left over.\"}",
+ "case_id": "rej53_010",
+ "_time": "2026-10-19T18:32:51+0800"
+}

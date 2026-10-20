@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.05996,
+ "gas_eth": 0.019695,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract spent 33.774883 WETH and received 34.641501 WETH, a gain of 0.866618. The back leg also paid 0.806658 ETH to 0x829b\u2026, which I counted as a cost. That leaves 0.05996 ETH, or about 0.0403 ETH after 0.019695 ETH of gas. The 5782.131347 of the 0x3432 token bought in the front leg is sold back in the back leg on pool 0xe157\u2026, which the victim also swaps on between the two legs. I could not tell from the card whether the 0x853d and 0x3432 tokens are both FRAX variants, but that does not change the result.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0339492,
+ "_session": "1afbb665-46d9-4145-b8d3-4e90f3d30cc1",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.05996, \"gas_eth\": 0.019695, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract spent 33.774883 WETH and received 34.641501 WETH, a gain of 0.866618. The back leg also paid 0.806658 ETH to 0x829b\u2026, which I counted as a cost. That leaves 0.05996 ETH, or about 0.0403 ETH after 0.019695 ETH of gas. The 5782.131347 of the 0x3432 token bought in the front leg is sold back in the back leg on pool 0xe157\u2026, which the victim also swaps on between the two legs. I could not tell from the card whether the 0x853d and 0x3432 tokens are both FRAX variants, but that does not change the result.\"}",
+ "case_id": "pack_097",
+ "_time": "2026-10-13T20:23:35+0800"
+}

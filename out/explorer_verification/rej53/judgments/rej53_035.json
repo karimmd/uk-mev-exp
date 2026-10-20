@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe618785149a1ee7d3042e304e2f899f7a4616b7d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01896,
+ "gas_eth": 0.012964,
+ "residual": "about 0.000545 USDT dust",
+ "confidence": 4,
+ "note": "The actor sends 1.016895 WETH through the WETH/WOZX pool into the WOZX/USDT pool and ends the front leg holding 3653.64 USDT. The victim sells WOZX for USDT on the WOZX/USDT pool. The back leg returns the USDT to that pool and brings back 1.126643 WETH. Net is +0.109748 WETH minus the 0.090788 ETH forwarded to 0x7f10..., which looks like a builder payment, giving +0.01896 ETH before gas. After 0.012964 ETH of gas, the position is still positive at about +0.006 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025036700000000002,
+ "_session": "2f66ba64-6010-492d-81ba-2c0ec7f00b01",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xe618785149a1ee7d3042e304e2f899f7a4616b7d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.01896, \"gas_eth\": 0.012964, \"residual\": \"about 0.000545 USDT dust\", \"confidence\": 4, \"note\": \"The actor sends 1.016895 WETH through the WETH/WOZX pool into the WOZX/USDT pool and ends the front leg holding 3653.64 USDT. The victim sells WOZX for USDT on the WOZX/USDT pool. The back leg returns the USDT to that pool and brings back 1.126643 WETH. Net is +0.109748 WETH minus the 0.090788 ETH forwarded to 0x7f10..., which looks like a builder payment, giving +0.01896 ETH before gas. After 0.012964 ETH of gas, the position is still positive at about +0.006 ETH.\"}",
+ "case_id": "rej53_035",
+ "_time": "2026-10-13T22:00:35+0800"
+}

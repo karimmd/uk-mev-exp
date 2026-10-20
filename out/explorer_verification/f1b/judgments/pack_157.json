@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2a4a220beb6a0fd217a129125d0034e2db0dee46",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.034259,
+ "gas_eth": 0.275526,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 423,402,468.646795 HARAMBE for 20.336594 WETH in the front leg. It sells the same amount back for 20.452645 WETH in the back leg. Both legs use the V3 pool that the victim also trades on, and the victim buys HARAMBE from that pool between them. The gross gain is 0.116051 WETH. The back leg's 0.081792 ETH value was passed on to 0x829b\u2026, which looks like a bribe, so the net before gas is 0.034259 ETH. Gas of 0.275526 ETH more than wipes that out, for roughly -0.241 ETH overall.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0262532,
+ "_session": "43ff7862-bab4-4e88-b3c5-a5000a338e84",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x2a4a220beb6a0fd217a129125d0034e2db0dee46\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.034259, \"gas_eth\": 0.275526, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 423,402,468.646795 HARAMBE for 20.336594 WETH in the front leg. It sells the same amount back for 20.452645 WETH in the back leg. Both legs use the V3 pool that the victim also trades on, and the victim buys HARAMBE from that pool between them. The gross gain is 0.116051 WETH. The back leg's 0.081792 ETH value was passed on to 0x829b\u2026, which looks like a bribe, so the net before gas is 0.034259 ETH. Gas of 0.275526 ETH more than wipes that out, for roughly -0.241 ETH overall.\"}",
+ "case_id": "pack_157",
+ "_time": "2026-10-13T20:35:18+0800"
+}

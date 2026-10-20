@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.054201,
+ "gas_eth": 0.249344,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 5438.946 POW with 3.580897 WETH in the front leg. The victim buys POW on the same V3 pool. The actor then sells all of the POW for 3.746107 WETH in the back leg. The WETH gain is 0.165210. The back leg's 0.111009 ETH value is forwarded to another address (likely a builder tip), which leaves 0.054201 ETH. Gas for the two legs is 0.249344 ETH, so the position is negative after cost.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2864,
+  "output_tokens": 708,
+  "thinking_tokens": 420
+ },
+ "_request_id": "req_011CgBQnFziAHy3JakWFuABK",
+ "_response_id": "msg_011CgBQnPApY9fFVEpWtpik4",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.054201,\"gas_eth\":0.249344,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 5438.946 POW with 3.580897 WETH in the front leg. The victim buys POW on the same V3 pool. The actor then sells all of the POW for 3.746107 WETH in the back leg. The WETH gain is 0.165210. The back leg's 0.111009 ETH value is forwarded to another address (likely a builder tip), which leaves 0.054201 ETH. Gas for the two legs is 0.249344 ETH, so the position is negative after cost.\"}",
+ "case_id": "pack_066",
+ "_time": "2026-10-19T18:07:50+0800"
+}

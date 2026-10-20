@@ -1,0 +1,43 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x5ed0dde7441efcd728e31cfd055c4c7efe20a57b",
+  "0x9c3ec0db90cf88f1881cabc6cb0faf0c5aa9f1c2",
+  "0x4d3138931437dcc356ca511ac812e14ba8199fd6",
+  "0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8",
+  "0x8616e439239bf0c116f430f399502e706dc8b7fb",
+  "0x8b59be2fc6fccc2256cc4841843a13ce29da16bd"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.030395,
+ "gas_eth": 0.028075,
+ "profit_after_gas": 0.00232,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The target contract sends WETH into two multihop swap routes and receives WETH back from both, netting +0.030395 WETH before gas. After the 0.028075 ETH gas fee, the position remains slightly positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2370,
+  "output_tokens": 7914,
+  "thinking_tokens": 7570
+ },
+ "_request_id": "e8c499ed6bb5b81651661888a1dfdd1b",
+ "_response_id": "7f9fcdb6-eb17-4421-bda4-481eabd35eed",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x5ed0dde7441efcd728e31cfd055c4c7efe20a57b\",\"0x9c3ec0db90cf88f1881cabc6cb0faf0c5aa9f1c2\",\"0x4d3138931437dcc356ca511ac812e14ba8199fd6\",\"0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8\",\"0x8616e439239bf0c116f430f399502e706dc8b7fb\",\"0x8b59be2fc6fccc2256cc4841843a13ce29da16bd\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.030395,\"gas_eth\":0.028075,\"profit_after_gas\":0.00232,\"residual\":\"none\",\"confidence\":5,\"note\":\"The target contract sends WETH into two multihop swap routes and receives WETH back from both, netting +0.030395 WETH before gas. After the 0.028075 ETH gas fee, the position remains slightly positive.\"}",
+ "case_id": "arb106_011",
+ "_time": "2026-10-19T19:49:53+0800"
+}

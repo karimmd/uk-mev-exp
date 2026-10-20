@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x18a797c7c70c1bf22fdee1c09062aba709cacf04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.023123,
+ "gas_eth": 0.014524,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought 6976.184938 RGT for 47.660716 WETH in the front leg at position 0. It sold the same RGT back for 47.683839 WETH in the back leg at position 3. The victim traded the same RGT/WETH pool at position 2. The WETH gain is +0.023123 (net_eth, before gas). Front and back gas total 0.014524 ETH, so the position after gas is about +0.008599 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024045999999999998,
+ "_session": "778e2a79-0516-475f-8ecc-7516028c30fd",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0x18a797c7c70c1bf22fdee1c09062aba709cacf04\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.023123, \"gas_eth\": 0.014524, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract bought 6976.184938 RGT for 47.660716 WETH in the front leg at position 0. It sold the same RGT back for 47.683839 WETH in the back leg at position 3. The victim traded the same RGT/WETH pool at position 2. The WETH gain is +0.023123 (net_eth, before gas). Front and back gas total 0.014524 ETH, so the position after gas is about +0.008599 ETH.\"}",
+ "case_id": "pack_140",
+ "_time": "2026-10-13T20:31:41+0800"
+}

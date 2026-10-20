@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022273,
+ "gas_eth": 0.018664,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0000\u20266b40 buys 70338.63 HORD on the HORD/USDT V2 pool 0xde6f, routing 5.019531 WETH through the V3 pool 0x11b8. The victim then buys HORD on 0xde6f, and the back leg sells the same 70338.63 HORD and returns 5.065932 WETH. That is +0.046401 WETH, less the 0.024128 ETH passed through to 0x3ece (likely a miner payment) and 0.018664 gas, leaving about +0.0036 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3552,
+  "output_tokens": 946,
+  "thinking_tokens": 628
+ },
+ "_request_id": "req_011CgBRFiuUPhAzhBHDhgqT7",
+ "_response_id": "msg_011CgBRFqJhHA6MJxGUZowow",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.022273, \"gas_eth\": 0.018664, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0000\u20266b40 buys 70338.63 HORD on the HORD/USDT V2 pool 0xde6f, routing 5.019531 WETH through the V3 pool 0x11b8. The victim then buys HORD on 0xde6f, and the back leg sells the same 70338.63 HORD and returns 5.065932 WETH. That is +0.046401 WETH, less the 0.024128 ETH passed through to 0x3ece (likely a miner payment) and 0.018664 gas, leaving about +0.0036 ETH.\"}",
+ "case_id": "pack_100",
+ "_time": "2026-10-19T18:14:04+0800"
+}

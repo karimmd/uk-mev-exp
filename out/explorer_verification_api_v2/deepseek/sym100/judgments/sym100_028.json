@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xaec21057bb0c910c22f6f6db64ae6743e96718b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.492079,
+ "gas_eth": 0.035149,
+ "profit_after_gas": 0.45693,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract 0xb591... sold DWZ for WETH in the front leg and bought the same DWZ amount back in the back leg on the same UniswapV2 pool. The victim traded DWZ->WETH on that pool between them, and the actor nets positive WETH after gas with no residual DWZ.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2443,
+  "output_tokens": 2518,
+  "thinking_tokens": 2336
+ },
+ "_request_id": "d2698f2a7a42ab854feb9527d55e3f00",
+ "_response_id": "0fadb285-caba-4784-b096-8e21fa4cc88a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xaec21057bb0c910c22f6f6db64ae6743e96718b4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.492079,\"gas_eth\":0.035149,\"profit_after_gas\":0.45693,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract 0xb591... sold DWZ for WETH in the front leg and bought the same DWZ amount back in the back leg on the same UniswapV2 pool. The victim traded DWZ->WETH on that pool between them, and the actor nets positive WETH after gas with no residual DWZ.\"}",
+ "case_id": "sym100_028",
+ "_time": "2026-10-19T19:31:06+0800"
+}

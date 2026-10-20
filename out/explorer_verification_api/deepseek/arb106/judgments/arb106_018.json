@@ -1,0 +1,40 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+  "0x52127470de72e5ef77ca962d23125cbe096e2d81",
+  "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+  "0x495f8ef80e13e9e1e77d60d2f384bb49694823ef",
+  "0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002407,
+ "gas_eth": 0.023583,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Multi-hop flash-swap path WETH\u2192MANA\u2192DAI\u2192USDT\u2192RACA\u2192WETH across five pools; actor nets +0.02599 WETH gross, and after the 0.023583 ETH gas fee remains +0.002407 ETH-equivalent.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1853,
+  "output_tokens": 11964,
+  "thinking_tokens": 11680
+ },
+ "_request_id": "e3849c9aeeb3638a40f0cf178b9c94ad",
+ "_response_id": "fe4916e0-28e6-48dd-9d6c-e4889e0e4aa3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\",\"pools\":[\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"0x52127470de72e5ef77ca962d23125cbe096e2d81\",\"0x8661ae7918c0115af9e3691662f605e9c550ddc9\",\"0x495f8ef80e13e9e1e77d60d2f384bb49694823ef\",\"0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.002407,\"gas_eth\":0.023583,\"residual\":\"none\",\"confidence\":5,\"note\":\"Multi-hop flash-swap path WETH\u2192MANA\u2192DAI\u2192USDT\u2192RACA\u2192WETH across five pools; actor nets +0.02599 WETH gross, and after the 0.023583 ETH gas fee remains +0.002407 ETH-equivalent.\"}",
+ "case_id": "arb106_018",
+ "_time": "2026-10-19T19:09:32+0800"
+}

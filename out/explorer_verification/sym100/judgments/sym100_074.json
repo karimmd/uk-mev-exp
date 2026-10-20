@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x94b86ca6f7a495930fe7f552eb9e4cbb5ef2b736",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0.175917,
+ "gas_eth": 0.175918,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Each leg is an atomic V3<->V2 round trip: the ICE goes straight from the V3 pool to the V2 pool (front) and back (back), so the actor never holds ICE between legs. The WETH nets to -0.291278 in the front and +0.467195 in the back, about +0.175917 in total, which matches the 0.175918 ETH of gas, so the result after cost is roughly zero (-0.000001). The victim does trade on the shared V2 pool, and the front and back legs push that pool in opposite directions around it. The no-position-held point is what stops me from calling it a bracket.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0342347,
+ "_session": "2dfd0f6d-7c1c-4e45-b00c-736e71d720b3",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x94b86ca6f7a495930fe7f552eb9e4cbb5ef2b736\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": 0.175917, \"gas_eth\": 0.175918, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Each leg is an atomic V3<->V2 round trip: the ICE goes straight from the V3 pool to the V2 pool (front) and back (back), so the actor never holds ICE between legs. The WETH nets to -0.291278 in the front and +0.467195 in the back, about +0.175917 in total, which matches the 0.175918 ETH of gas, so the result after cost is roughly zero (-0.000001). The victim does trade on the shared V2 pool, and the front and back legs push that pool in opposite directions around it. The no-position-held point is what stops me from calling it a bracket.\"}",
+ "case_id": "sym100_074",
+ "_time": "2026-10-13T21:39:29+0800"
+}

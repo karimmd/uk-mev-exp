@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xc352e35a7e5364e53073b4670d5f622438774a41",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.03971,
+ "gas_eth": 0.038117,
+ "residual": "about 2.31e12 FIRU (116252572492237.48 bought minus 113938882152028.33 sold)",
+ "confidence": 4,
+ "note": "The same contract bought FIRU with 0.290722 WETH in the front leg and sold FIRU for 0.330432 WETH in the back leg. Both trades were on the FIRU/WETH pool that the victim's SHIB->WETH->FIRU swap also went through, and the victim sits between them. Net WETH is +0.03971, and gas for the two legs is 0.038117, leaving about +0.0016 ETH. The leftover FIRU has non-negative value, so the sign stays positive, but the margin is thin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.023696799999999997,
+ "_session": "f3081545-875b-4f66-aaf9-829eebf370e5",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xc352e35a7e5364e53073b4670d5f622438774a41\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.03971, \"gas_eth\": 0.038117, \"residual\": \"about 2.31e12 FIRU (116252572492237.48 bought minus 113938882152028.33 sold)\", \"confidence\": 4, \"note\": \"The same contract bought FIRU with 0.290722 WETH in the front leg and sold FIRU for 0.330432 WETH in the back leg. Both trades were on the FIRU/WETH pool that the victim's SHIB->WETH->FIRU swap also went through, and the victim sits between them. Net WETH is +0.03971, and gas for the two legs is 0.038117, leaving about +0.0016 ETH. The leftover FIRU has non-negative value, so the sign stays positive, but the margin is thin.\"}",
+ "case_id": "pack_168",
+ "_time": "2026-10-13T20:37:18+0800"
+}

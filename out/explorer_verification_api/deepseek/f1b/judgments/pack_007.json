@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x4d4786384eb4e356ea2df195bbe84c89440accf0",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.050029,
+ "gas_eth": 0.025748,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front leg sells BLANK for WETH, while the back leg buys BLANK back; this closes/opens in the opposite direction from the Q1 non-WETH position definition. The round trip nets +0.075777 WETH before gas and +0.050029 ETH after front/back gas, with no residual BLANK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2361,
+  "output_tokens": 5503,
+  "thinking_tokens": 5339
+ },
+ "_request_id": "2ffc15e128bba852191c41a9b28bb89f",
+ "_response_id": "262945da-e882-4baf-ae47-97e279bcf432",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x4d4786384eb4e356ea2df195bbe84c89440accf0\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.050029,\"gas_eth\":0.025748,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front leg sells BLANK for WETH, while the back leg buys BLANK back; this closes/opens in the opposite direction from the Q1 non-WETH position definition. The round trip nets +0.075777 WETH before gas and +0.050029 ETH after front/back gas, with no residual BLANK.\"}",
+ "case_id": "pack_007",
+ "_time": "2026-10-19T17:58:59+0800"
+}

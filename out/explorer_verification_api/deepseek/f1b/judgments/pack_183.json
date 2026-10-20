@@ -1,0 +1,31 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x43747d31fc178d626047c5b4346a251418167a1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.479943,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xf73d received 712300.691802 NBNG in the front leg and sold the same amount back through the USDT/NBNG pool 0x4374, which the victim also used. Net ETH/WETH is 100.959853 - 99.999966 - 0.479944 = 0.479943 ETH, with zero front/back gas fees and no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2500,
+  "output_tokens": 4098,
+  "thinking_tokens": 3911
+ },
+ "_request_id": "f57d1b1964416fdcf0bbcfb4728cde54",
+ "_response_id": "6532d166-7386-4afa-842e-acc735d62637",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\",\"pool\":\"0x43747d31fc178d626047c5b4346a251418167a1a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.479943,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0xf73d received 712300.691802 NBNG in the front leg and sold the same amount back through the USDT/NBNG pool 0x4374, which the victim also used. Net ETH/WETH is 100.959853 - 99.999966 - 0.479944 = 0.479943 ETH, with zero front/back gas fees and no residual non-WETH holding.\"}",
+ "case_id": "pack_183",
+ "_time": "2026-10-19T18:34:26+0800"
+}

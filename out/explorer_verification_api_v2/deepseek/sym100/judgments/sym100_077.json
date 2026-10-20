@@ -1,0 +1,32 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.050511,
+ "gas_eth": 0.05326,
+ "profit_after_gas": -0.002749,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold SMINU for WETH in front, then bought the same SMINU amount back with less WETH after the victim traded the same pool. Net WETH gain is 0.050511 ETH, but front and back gas totals 0.053260 ETH, leaving a small loss.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2474,
+  "output_tokens": 2170,
+  "thinking_tokens": 1992
+ },
+ "_request_id": "52514f0beefa70c86ac28cdf49ff50c7",
+ "_response_id": "92427ebe-e672-47c6-9784-3b849fce98d3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.050511,\"gas_eth\":0.05326,\"profit_after_gas\":-0.002749,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold SMINU for WETH in front, then bought the same SMINU amount back with less WETH after the victim traded the same pool. Net WETH gain is 0.050511 ETH, but front and back gas totals 0.053260 ETH, leaving a small loss.\"}",
+ "case_id": "sym100_077",
+ "_time": "2026-10-19T19:36:26+0800"
+}

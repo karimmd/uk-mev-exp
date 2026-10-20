@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1f964ff83c54ce447adae5cb93f9ec17018bf55b",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 0.006336,
+ "gas_eth": 0.0,
+ "residual": "about 501,678,560,800 BEZOGE (25,104.9B received in the front leg minus 24,603.2B sold in the back leg)",
+ "confidence": 3,
+ "note": "The contract bought BEZOGE with 2.211908 WETH in the front leg, the victim bought BEZOGE on the same pool (0x1f96\u2026), and the contract sold BEZOGE back for 2.270042 WETH, so this is a sandwich. The WETH gain is 0.058134. Subtracting the 0.051798 ETH the back leg forwards to 0x00192fb1 (looks like a builder tip) leaves 0.006336, with gas at 0 gwei. About 0.046 ETH of BEZOGE is left unsold at the back-leg price, which is larger than 0.006336, so the sign of the net position can't be settled.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.030594,
+ "_session": "5962c5ff-7b65-4ac1-b96d-005d53ba8603",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x1f964ff83c54ce447adae5cb93f9ec17018bf55b\", \"Q1\": \"yes\", \"Q2\": \"cannot tell\", \"net_eth\": 0.006336, \"gas_eth\": 0.0, \"residual\": \"about 501,678,560,800 BEZOGE (25,104.9B received in the front leg minus 24,603.2B sold in the back leg)\", \"confidence\": 3, \"note\": \"The contract bought BEZOGE with 2.211908 WETH in the front leg, the victim bought BEZOGE on the same pool (0x1f96\u2026), and the contract sold BEZOGE back for 2.270042 WETH, so this is a sandwich. The WETH gain is 0.058134. Subtracting the 0.051798 ETH the back leg forwards to 0x00192fb1 (looks like a builder tip) leaves 0.006336, with gas at 0 gwei. About 0.046 ETH of BEZOGE is left unsold at the back-leg price, which is larger than 0.006336, so the sign of the net position can't be settled.\"}",
+ "case_id": "pack_069",
+ "_time": "2026-10-13T20:17:30+0800"
+}

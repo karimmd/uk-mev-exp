@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x05767d9ef41dc40689678ffca0608878fb3de906",
+  "0x2e4784446a0a06df3d1a040b03e1680ee266c35a",
+  "0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9",
+  "0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.035074,
+ "gas_eth": 0.02901,
+ "profit_after_gas": 0.006064,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Two atomic legs, each routing a token from a Uniswap V3 pool to a V2 pool. CVX and TOWER move pool to pool and never touch the actor. The actor takes WETH from the V2 pool and pays less WETH to the V3 pool: +0.018430 on CVX and +0.016644 on TOWER. No token is minted to the actor and no residual is left. A strict reading of Q1 wants a token the actor both receives and sends at net zero. Here the actor's only token is WETH, which nets positive, so the cycle closes through the pools rather than through the actor, and I still call it an arbitrage.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2425,
+  "output_tokens": 1147,
+  "thinking_tokens": 673
+ },
+ "_request_id": "req_011CgBXZUhemyJvZm8V7ym3d",
+ "_response_id": "msg_011CgBXZV4DvLKSR3ocoJhT2",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x05767d9ef41dc40689678ffca0608878fb3de906\",\"0x2e4784446a0a06df3d1a040b03e1680ee266c35a\",\"0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9\",\"0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.035074,\"gas_eth\":0.02901,\"profit_after_gas\":0.006064,\"residual\":\"none\",\"confidence\":3,\"note\":\"Two atomic legs, each routing a token from a Uniswap V3 pool to a V2 pool. CVX and TOWER move pool to pool and never touch the actor. The actor takes WETH from the V2 pool and pays less WETH to the V3 pool: +0.018430 on CVX and +0.016644 on TOWER. No token is minted to the actor and no residual is left. A strict reading of Q1 wants a token the actor both receives and sends at net zero. Here the actor's only token is WETH, which nets positive, so the cycle closes through the pools rather than through the actor, and I still call it an arbitrage.\"}",
+ "case_id": "arb106_095",
+ "_time": "2026-10-19T19:36:44+0800"
+}

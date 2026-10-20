@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9ac681f68a589cc3763bad9ce43be3380696b136",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013539,
+ "gas_eth": 0.068133,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both call the same contract, which buys and sells the same amount of MM on the Uniswap V3 pool 0x9ac681... The victim trades on that same pool between them. Gross WETH gain is 0.081672 ETH; after 0.068133 ETH gas, net is +0.013539 ETH with no MM residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2607,
+  "output_tokens": 4691,
+  "thinking_tokens": 4520
+ },
+ "_request_id": "d2b7cca1b1e5fbe0b85ae3673ab8a77d",
+ "_response_id": "01a29630-1749-44aa-9148-6f3942644d4c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x9ac681f68a589cc3763bad9ce43be3380696b136\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.013539,\"gas_eth\":0.068133,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both call the same contract, which buys and sells the same amount of MM on the Uniswap V3 pool 0x9ac681... The victim trades on that same pool between them. Gross WETH gain is 0.081672 ETH; after 0.068133 ETH gas, net is +0.013539 ETH with no MM residual.\"}",
+ "case_id": "pack_098",
+ "_time": "2026-10-19T18:19:08+0800"
+}

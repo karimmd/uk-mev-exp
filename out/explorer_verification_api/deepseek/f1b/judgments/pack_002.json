@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.092166,
+ "gas_eth": 0.024731,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs are both executed by the same contract 0x1315..., which receives USDC in the front on pool 0xd187... and spends exactly that USDC in the back on the same pool, with the victim's POND->USDC swap in between. Net WETH gain is 0.035226 but internal ETH outflows total 0.127392, giving -0.092166 ETH/WETH before gas; after gas it remains negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2601,
+  "output_tokens": 9337,
+  "thinking_tokens": 9138
+ },
+ "_request_id": "dc5dac232c3a117ab76cfb818c15ff54",
+ "_response_id": "b4e16a5d-877d-4d1f-9673-e019994478ec",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0xd18748b9839b0081a867a1a871d5b562b2ec9884\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.092166,\"gas_eth\":0.024731,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs are both executed by the same contract 0x1315..., which receives USDC in the front on pool 0xd187... and spends exactly that USDC in the back on the same pool, with the victim's POND->USDC swap in between. Net WETH gain is 0.035226 but internal ETH outflows total 0.127392, giving -0.092166 ETH/WETH before gas; after gas it remains negative.\"}",
+ "case_id": "pack_002",
+ "_time": "2026-10-19T17:58:04+0800"
+}

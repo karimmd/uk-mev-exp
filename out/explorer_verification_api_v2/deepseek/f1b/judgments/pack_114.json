@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9c6c852a56de59a59f7a4527724a2a0a87f7d223",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.236228,
+ "gas_eth": 0.104134,
+ "profit_after_gas": 0.132094,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys FERA on pool 0x9c6c... in the front leg and sells the exact FERA amount back in the back leg, with the victim buying FERA on the same pool in between. Net WETH is +0.236228 before gas, and after front/back gas fees the actor remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2521,
+  "output_tokens": 3766,
+  "thinking_tokens": 3576
+ },
+ "_request_id": "20e7d74d0e82271570ba72c3c08e2a5b",
+ "_response_id": "d646812c-453f-463e-ae3a-59acd306471e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x9c6c852a56de59a59f7a4527724a2a0a87f7d223\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.236228,\"gas_eth\":0.104134,\"profit_after_gas\":0.132094,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract buys FERA on pool 0x9c6c... in the front leg and sells the exact FERA amount back in the back leg, with the victim buying FERA on the same pool in between. Net WETH is +0.236228 before gas, and after front/back gas fees the actor remains positive.\"}",
+ "case_id": "pack_114",
+ "_time": "2026-10-19T19:18:48+0800"
+}

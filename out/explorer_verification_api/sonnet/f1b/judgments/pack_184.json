@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.081201,
+ "gas_eth": 0.017477,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 42.944214 WBTC from the Uniswap V3 WBTC/WETH pool for 524.854919 WETH. The victim then bought WBTC on the same pool in the same direction, and the actor sold the identical 42.944214 WBTC back for 539.602972 WETH. The WETH gain is 14.748053; subtracting the 13.666852 ETH value sent in the back transaction and forwarded on to 0x1ad9\u2026 leaves 1.081201 ETH. After 0.017477 ETH of gas the position is about +1.0637 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 5047,
+  "output_tokens": 860,
+  "thinking_tokens": 544
+ },
+ "_request_id": "req_011CgBRpkEmLH6y96TCDf6HM",
+ "_response_id": "msg_011CgBRpkaLjSZmcwArfPCyu",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xcbcdf9626bc03e24f779434178a73a0b4bad62ed\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.081201,\"gas_eth\":0.017477,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 42.944214 WBTC from the Uniswap V3 WBTC/WETH pool for 524.854919 WETH. The victim then bought WBTC on the same pool in the same direction, and the actor sold the identical 42.944214 WBTC back for 539.602972 WETH. The WETH gain is 14.748053; subtracting the 13.666852 ETH value sent in the back transaction and forwarded on to 0x1ad9\u2026 leaves 1.081201 ETH. After 0.017477 ETH of gas the position is about +1.0637 ETH.\"}",
+ "case_id": "pack_184",
+ "_time": "2026-10-19T18:21:28+0800"
+}

@@ -1,0 +1,25 @@
+{
+ "actor": "0x0000007253c7b66206e928357d14c4574c83de71",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.008001,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 13.916985 WETH into the USDC/WETH V3 pool. The value then passes USDC -> FEI -> TRIBE through the FEI/USDC V3 pool, the TRIBE/FEI V2 pool and the TRIBE/WETH V3 pool, and the actor receives 13.939577 WETH back, a gross gain of 0.022592. After the 0.014591 ETH internal payment to 0xea67 (likely a builder tip) the net is about +0.008001 ETH; the explorer shows a 0 gwei gas fee, so no further gas is deducted. The actor touches only WETH and the intermediate tokens never rest with it, so the closed cycle is the whole loop rather than a token netting to zero at the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024068700000000002,
+ "_session": "68f8ea43-2656-46de-b793-8ca42b7130ef",
+ "_raw": "{\"actor\":\"0x0000007253c7b66206e928357d14c4574c83de71\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.008001,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 13.916985 WETH into the USDC/WETH V3 pool. The value then passes USDC -> FEI -> TRIBE through the FEI/USDC V3 pool, the TRIBE/FEI V2 pool and the TRIBE/WETH V3 pool, and the actor receives 13.939577 WETH back, a gross gain of 0.022592. After the 0.014591 ETH internal payment to 0xea67 (likely a builder tip) the net is about +0.008001 ETH; the explorer shows a 0 gwei gas fee, so no further gas is deducted. The actor touches only WETH and the intermediate tokens never rest with it, so the closed cycle is the whole loop rather than a token netting to zero at the actor.\"}",
+ "case_id": "arb106_102",
+ "_time": "2026-10-13T22:33:43+0800"
+}

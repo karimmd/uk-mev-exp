@@ -1,0 +1,32 @@
+{
+ "actor": "0xa405e822d1c3a8568c6b82eb6e570fca0136f802",
+ "pool": "0x09062ce4f20aac71f8074ac6cf8e6968abd4d03e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.045323,
+ "gas_eth": 0.045096,
+ "profit_after_gas": 0.000227,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought EQX in the front leg, the victim bought on the same pool, and the actor sold the same EQX amount in the back leg. Net WETH gain before gas was 0.045323, leaving a slightly positive 0.000227 after the two gas fees, with no residual EQX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2362,
+  "output_tokens": 3606,
+  "thinking_tokens": 3424
+ },
+ "_request_id": "b928f0941903f95997f4a03dc05ccced",
+ "_response_id": "f3de320f-0b5c-42fc-8243-a6f93e91ea2d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa405e822d1c3a8568c6b82eb6e570fca0136f802\",\"pool\":\"0x09062ce4f20aac71f8074ac6cf8e6968abd4d03e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.045323,\"gas_eth\":0.045096,\"profit_after_gas\":0.000227,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract bought EQX in the front leg, the victim bought on the same pool, and the actor sold the same EQX amount in the back leg. Net WETH gain before gas was 0.045323, leaving a slightly positive 0.000227 after the two gas fees, with no residual EQX.\"}",
+ "case_id": "pack_124",
+ "_time": "2026-10-19T19:19:45+0800"
+}

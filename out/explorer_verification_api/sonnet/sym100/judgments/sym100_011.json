@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfca090c1868004bec9c91f53db013288dc21c55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.230121,
+ "gas_eth": 0.206774,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract (called by the same sender) sells 10453.15 MOD into the pool in the front leg for 18.219 WETH. It then buys back exactly 10453.15 MOD for 16.988879 WETH in the back leg. The victim sells MOD on the same pool in between, in the same direction as the front leg. Net WETH is +1.230121, and after 0.206774 ETH of gas for the two legs it is still about +1.023 ETH. The MOD position is flat, though the front leg sold MOD the actor already held rather than buying it first.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3241,
+  "output_tokens": 879,
+  "thinking_tokens": 579
+ },
+ "_request_id": "req_011CgBRxKuWDVEeWFDc9YTNC",
+ "_response_id": "msg_011CgBRxLFbTxbhVEakem6qC",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xfca090c1868004bec9c91f53db013288dc21c55b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.230121,\"gas_eth\":0.206774,\"residual\":\"none\",\"confidence\":3,\"note\":\"The same contract (called by the same sender) sells 10453.15 MOD into the pool in the front leg for 18.219 WETH. It then buys back exactly 10453.15 MOD for 16.988879 WETH in the back leg. The victim sells MOD on the same pool in between, in the same direction as the front leg. Net WETH is +1.230121, and after 0.206774 ETH of gas for the two legs it is still about +1.023 ETH. The MOD position is flat, though the front leg sold MOD the actor already held rather than buying it first.\"}",
+ "case_id": "sym100_011",
+ "_time": "2026-10-19T18:23:12+0800"
+}

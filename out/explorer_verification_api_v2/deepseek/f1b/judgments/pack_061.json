@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.04247,
+ "gas_eth": 0.021902,
+ "profit_after_gas": 0.020568,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought 13.260718 BTRFLY in the front and sold the same amount in the back on the victim's OHM/BTRFLY pool 0xe9ab..., so the victim was bracketed. Net WETH across the legs is +0.04247; after the stated front and back fees it remains positive, with no residual BTRFLY left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2593,
+  "output_tokens": 6030,
+  "thinking_tokens": 5817
+ },
+ "_request_id": "9d80ff94b4a0285489e6ad76721c451c",
+ "_response_id": "5ef931db-5394-48c0-8c18-7e44857adf62",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.04247, \"gas_eth\": 0.021902, \"profit_after_gas\": 0.020568, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract bought 13.260718 BTRFLY in the front and sold the same amount in the back on the victim's OHM/BTRFLY pool 0xe9ab..., so the victim was bracketed. Net WETH across the legs is +0.04247; after the stated front and back fees it remains positive, with no residual BTRFLY left.\"}",
+ "case_id": "pack_061",
+ "_time": "2026-10-19T19:11:14+0800"
+}

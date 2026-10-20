@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.026136,
+ "gas_eth": 0.009554,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor buys 18343.12 USDT in the front leg by routing WETH through the ALBT/WETH pool and then the ALBT/USDT pool 0x1cd9. The victim sells ALBT for USDT on 0x1cd9. The back leg returns exactly 18343.122297 USDT and the actor gets 6.004439 WETH, against 5.949158 WETH spent, a gain of 0.055281 ETH. The back leg also sends 0.029145 ETH to 0xea67, probably a builder tip, funded by the tx value. After that and 0.009554 ETH of gas, the net is about +0.0166 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0261208,
+ "_session": "06d721d2-1adc-458a-9c5c-1a884a8d7e17",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.026136, \"gas_eth\": 0.009554, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor buys 18343.12 USDT in the front leg by routing WETH through the ALBT/WETH pool and then the ALBT/USDT pool 0x1cd9. The victim sells ALBT for USDT on 0x1cd9. The back leg returns exactly 18343.122297 USDT and the actor gets 6.004439 WETH, against 5.949158 WETH spent, a gain of 0.055281 ETH. The back leg also sends 0.029145 ETH to 0xea67, probably a builder tip, funded by the tx value. After that and 0.009554 ETH of gas, the net is about +0.0166 ETH.\"}",
+ "case_id": "pack_123",
+ "_time": "2026-10-13T20:28:20+0800"
+}

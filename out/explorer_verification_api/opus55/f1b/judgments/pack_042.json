@@ -1,0 +1,31 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0.176152,
+ "gas_eth": 0.023848,
+ "residual": "-0.004647 OTEN (sold in front and back legs, not reacquired)",
+ "confidence": 4,
+ "note": "The front, victim and back legs all come from the same address, 0xe104\u20269c61, through the Uniswap V2 router on the same OTEN/WETH pool. Each one sells OTEN for exactly 0.1 ETH, so no position is opened and closed and the victim is the same actor. These look like three identical sells, not a sandwich; the +0.2 ETH received is sale proceeds for about 0.0046 OTEN, worth about 0.2 ETH at the pool's own price, so after 0.0238 ETH of gas the actor is not ahead.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3701,
+  "output_tokens": 1014,
+  "thinking_tokens": 680
+ },
+ "_request_id": "req_011CgBQYAcs16o2zNP7DTy3P",
+ "_response_id": "msg_011CgBQYGJvmCiENVdimyqtp",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xe104053d23918cf2787883508834661c138c9f61\", \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": 0.176152, \"gas_eth\": 0.023848, \"residual\": \"-0.004647 OTEN (sold in front and back legs, not reacquired)\", \"confidence\": 4, \"note\": \"The front, victim and back legs all come from the same address, 0xe104\u20269c61, through the Uniswap V2 router on the same OTEN/WETH pool. Each one sells OTEN for exactly 0.1 ETH, so no position is opened and closed and the victim is the same actor. These look like three identical sells, not a sandwich; the +0.2 ETH received is sale proceeds for about 0.0046 OTEN, worth about 0.2 ETH at the pool's own price, so after 0.0238 ETH of gas the actor is not ahead.\"}",
+ "case_id": "pack_042",
+ "_time": "2026-10-19T18:04:40+0800"
+}

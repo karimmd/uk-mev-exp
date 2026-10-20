@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xa00d47b4b304792eb07b09233467b690db847c91",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.066908,
+ "gas_eth": 0.000175,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are the same economic actor, both trading on the same IMX/WETH UniswapV2 pool, with the victim between them. The actor netted +0.067083 WETH before gas; after 0.000175 gas the position is +0.066908 ETH/WETH, with no residual IMX left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2204,
+  "output_tokens": 4993,
+  "thinking_tokens": 4831
+ },
+ "_request_id": "4b8e213d9bd3e374c5081adebe97d1bd",
+ "_response_id": "f428a61e-c3fc-4c56-a4a7-edd0a1cbd861",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0xa00d47b4b304792eb07b09233467b690db847c91\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.066908,\"gas_eth\":0.000175,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are the same economic actor, both trading on the same IMX/WETH UniswapV2 pool, with the victim between them. The actor netted +0.067083 WETH before gas; after 0.000175 gas the position is +0.066908 ETH/WETH, with no residual IMX left.\"}",
+ "case_id": "pack_116",
+ "_time": "2026-10-19T18:22:47+0800"
+}

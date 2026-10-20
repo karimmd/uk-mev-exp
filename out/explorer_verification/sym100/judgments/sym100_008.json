@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5fa464cefe8901d66c09b85d5fcdc55b3738c688",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.129141,
+ "gas_eth": 0.012972,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract is the same in both legs and trades TOKE across two pools, 0xd4e7 and 0x5fa4, so each leg is a two-pool round trip and ends flat in TOKE. The victim sells TOKE into 0x5fa4 between them, and the front leg also sells TOKE into that pool while the back leg buys it back. WETH nets -0.088986 in the front and +0.347422 in the back, and the 0.129295 ETH sent to 0x99c8 in the back leg is subtracted. That leaves 0.129141 before gas and about +0.1162 ETH after the 0.012972 ETH of gas. The weak point for Q1 is that the actor holds no TOKE position between the legs.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.032816700000000004,
+ "_session": "7edcfa9f-5886-4116-b012-c4950a0ace86",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x5fa464cefe8901d66c09b85d5fcdc55b3738c688\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.129141, \"gas_eth\": 0.012972, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract is the same in both legs and trades TOKE across two pools, 0xd4e7 and 0x5fa4, so each leg is a two-pool round trip and ends flat in TOKE. The victim sells TOKE into 0x5fa4 between them, and the front leg also sells TOKE into that pool while the back leg buys it back. WETH nets -0.088986 in the front and +0.347422 in the back, and the 0.129295 ETH sent to 0x99c8 in the back leg is subtracted. That leaves 0.129141 before gas and about +0.1162 ETH after the 0.012972 ETH of gas. The weak point for Q1 is that the actor holds no TOKE position between the legs.\"}",
+ "case_id": "sym100_008",
+ "_time": "2026-10-13T21:24:19+0800"
+}

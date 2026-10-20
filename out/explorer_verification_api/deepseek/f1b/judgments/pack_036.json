@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2a4a220beb6a0fd217a129125d0034e2db0dee46",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.159475,
+ "gas_eth": 0.275526,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x499dd... received and later returned the same HARAMBE amount on Uniswap V3 pool 0x2a4a..., with the victim swapping on the same pool between. It gained 0.116051 WETH from the round trip, but front+back gas totals 0.275526 ETH, making the net negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2214,
+  "output_tokens": 10114,
+  "thinking_tokens": 9925
+ },
+ "_request_id": "a7541f1bb392539d25fd6198b4c3a655",
+ "_response_id": "999312e5-0e19-4408-b58e-d3c2ea0e346b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x2a4a220beb6a0fd217a129125d0034e2db0dee46\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.159475, \"gas_eth\": 0.275526, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x499dd... received and later returned the same HARAMBE amount on Uniswap V3 pool 0x2a4a..., with the victim swapping on the same pool between. It gained 0.116051 WETH from the round trip, but front+back gas totals 0.275526 ETH, making the net negative.\"}",
+ "case_id": "pack_036",
+ "_time": "2026-10-19T18:09:25+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2a4a220beb6a0fd217a129125d0034e2db0dee46",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.159475,
+ "gas_eth": 0.275526,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The target contract 0x499dd... opens a HARAMBE position in the front leg and closes the same amount in the back leg on the same Uniswap V3 pool the victim trades. WETH profit is 0.116051, but front and back gas total 0.275526 ETH, giving a negative observable net; the back-leg ETH value and internal transfer cancel.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2279,
+  "output_tokens": 6169,
+  "thinking_tokens": 5991
+ },
+ "_request_id": "c90a09d440a3360f451b08ab8148b7e1",
+ "_response_id": "72b4be27-ca07-4c9d-9c2c-5da615944451",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x2a4a220beb6a0fd217a129125d0034e2db0dee46\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.159475,\"gas_eth\":0.275526,\"residual\":\"none\",\"confidence\":5,\"note\":\"The target contract 0x499dd... opens a HARAMBE position in the front leg and closes the same amount in the back leg on the same Uniswap V3 pool the victim trades. WETH profit is 0.116051, but front and back gas total 0.275526 ETH, giving a negative observable net; the back-leg ETH value and internal transfer cancel.\"}",
+ "case_id": "pack_064",
+ "_time": "2026-10-19T18:12:53+0800"
+}

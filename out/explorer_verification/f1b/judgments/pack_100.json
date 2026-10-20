@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022273,
+ "gas_eth": 0.018664,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 70338.63 HORD on the V2 pool in the front leg (paying with WETH via the V3 USDT/WETH pool), the victim buys HORD on the same V2 pool, and the actor sells exactly 70338.63 HORD back in the back leg. WETH netted +0.046401 (5.065932 - 5.019531), minus the 0.024128 ETH forwarded to 0x3ecef08d... (likely a builder tip) gives 0.022273, and after 0.018664 ETH gas the result is about +0.0036 ETH, a thin margin that depends on treating the forwarded value as a cost.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0265667,
+ "_session": "feb6406b-f061-4998-b014-3829842d7f9a",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.022273, \"gas_eth\": 0.018664, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 70338.63 HORD on the V2 pool in the front leg (paying with WETH via the V3 USDT/WETH pool), the victim buys HORD on the same V2 pool, and the actor sells exactly 70338.63 HORD back in the back leg. WETH netted +0.046401 (5.065932 - 5.019531), minus the 0.024128 ETH forwarded to 0x3ecef08d... (likely a builder tip) gives 0.022273, and after 0.018664 ETH gas the result is about +0.0036 ETH, a thin margin that depends on treating the forwarded value as a cost.\"}",
+ "case_id": "pack_100",
+ "_time": "2026-10-13T20:24:05+0800"
+}

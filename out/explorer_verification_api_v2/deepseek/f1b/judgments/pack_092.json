@@ -1,0 +1,32 @@
+{
+ "actor": "0x86a53c9e32abd3677e38bd0b390f24dd080e6426",
+ "pool": "0x8867f20c1c63baccec7617626254a060eeb0e61e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.024663,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.024663,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs both use the same PHA-WETH UniswapV2 pool, with the victim trading on that pool between them. The actor contract buys 18653.127364 PHA in front and sells exactly that amount in back; netting its WETH/ETH transfers leaves 0.024663 ETH-equivalent before zero gas fees, with no residual PHA.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2962,
+  "output_tokens": 5957,
+  "thinking_tokens": 5765
+ },
+ "_request_id": "982b331b0bf4f46a93e8846217a2a3d9",
+ "_response_id": "1a478280-9dbc-460f-aade-edd3fa6248f4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x86a53c9e32abd3677e38bd0b390f24dd080e6426\",\"pool\":\"0x8867f20c1c63baccec7617626254a060eeb0e61e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.024663,\"gas_eth\":0.0,\"profit_after_gas\":0.024663,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs both use the same PHA-WETH UniswapV2 pool, with the victim trading on that pool between them. The actor contract buys 18653.127364 PHA in front and sells exactly that amount in back; netting its WETH/ETH transfers leaves 0.024663 ETH-equivalent before zero gas fees, with no residual PHA.\"}",
+ "case_id": "pack_092",
+ "_time": "2026-10-19T19:16:08+0800"
+}

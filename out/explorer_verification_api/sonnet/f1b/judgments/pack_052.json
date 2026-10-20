@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.067718,
+ "gas_eth": 0.035292,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 24.393202 BTRFLY via WETH->OHM->BTRFLY in the front leg. It sells exactly 24.393202 BTRFLY back through the same two pools in the back leg. The victim's USDC->WETH->OHM->BTRFLY swap runs through both pools between the two legs. WETH out 9.577905 and in 9.645623 gives +0.067718 ETH before gas; after 0.035292 ETH gas the net is about +0.032426 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3577,
+  "output_tokens": 706,
+  "thinking_tokens": 412
+ },
+ "_request_id": "req_011CgBQd5i6G7W5GK3TGeQN8",
+ "_response_id": "msg_011CgBQdBph2VtJidQLNAoEd",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.067718,\"gas_eth\":0.035292,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 24.393202 BTRFLY via WETH->OHM->BTRFLY in the front leg. It sells exactly 24.393202 BTRFLY back through the same two pools in the back leg. The victim's USDC->WETH->OHM->BTRFLY swap runs through both pools between the two legs. WETH out 9.577905 and in 9.645623 gives +0.067718 ETH before gas; after 0.035292 ETH gas the net is about +0.032426 ETH.\"}",
+ "case_id": "pack_052",
+ "_time": "2026-10-19T18:05:43+0800"
+}

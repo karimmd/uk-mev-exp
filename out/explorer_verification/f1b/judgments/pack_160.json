@@ -1,0 +1,17 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.00147,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 185.787870 COLLAR with 1.453431 WETH in the front leg. The victim buys COLLAR on the same pool in between. The contract sells all 185.787870 COLLAR back for 1.463231 WETH, a gross gain of +0.009800 ETH. The back leg also sends 0.011270 ETH to 0x829b\u2026, which looks like a builder payment, and that exceeds the gain. Both legs show a 0 gwei gas fee, so the net is -0.00147 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0253132,
+ "_session": "f7ebf69e-5bfb-49bc-b979-8886069d14a6",
+ "_raw": "{\"actor\": \"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\", \"pool\": \"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.00147, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 185.787870 COLLAR with 1.453431 WETH in the front leg. The victim buys COLLAR on the same pool in between. The contract sells all 185.787870 COLLAR back for 1.463231 WETH, a gross gain of +0.009800 ETH. The back leg also sends 0.011270 ETH to 0x829b\u2026, which looks like a builder payment, and that exceeds the gain. Both legs show a 0 gwei gas fee, so the net is -0.00147 ETH.\"}",
+ "case_id": "pack_160",
+ "_time": "2026-10-13T20:35:46+0800"
+}

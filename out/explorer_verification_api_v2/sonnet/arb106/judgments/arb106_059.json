@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0x3a8027b37cd119cde72c1086ab5d7de912f61b61",
+  "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.009999,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.009999,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Triangular route across three pools: WETH goes into the V3 USDC/WETH pool, USDC goes to the V2 USDC/RAD pair, RAD goes to the V3 RAD/WETH pool, which pays WETH back to the actor. The actor receives 2.9871 WETH and sends 2.961143 WETH, a gain of 0.025957, then pays 0.015958 ETH to another address (likely a miner tip). That leaves about 0.009999 ETH, and the explorer shows a gas fee of 0 at 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2719,
+  "output_tokens": 1357,
+  "thinking_tokens": 932
+ },
+ "_request_id": "req_011CgBXKGTocGQVYzaAWJ62p",
+ "_response_id": "msg_011CgBXKGqdRKwWLDYqhW1VY",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0x3a8027b37cd119cde72c1086ab5d7de912f61b61\",\"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.009999,\"gas_eth\":0.0,\"profit_after_gas\":0.009999,\"residual\":\"none\",\"confidence\":4,\"note\":\"Triangular route across three pools: WETH goes into the V3 USDC/WETH pool, USDC goes to the V2 USDC/RAD pair, RAD goes to the V3 RAD/WETH pool, which pays WETH back to the actor. The actor receives 2.9871 WETH and sends 2.961143 WETH, a gain of 0.025957, then pays 0.015958 ETH to another address (likely a miner tip). That leaves about 0.009999 ETH, and the explorer shows a gas fee of 0 at 0.0 gwei.\"}",
+ "case_id": "arb106_059",
+ "_time": "2026-10-19T19:33:32+0800"
+}

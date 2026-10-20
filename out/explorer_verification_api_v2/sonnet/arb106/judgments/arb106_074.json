@@ -1,0 +1,42 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x39c9e3128b8736e02a30b2b9b7e50ff522b935c5",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877",
+  "0x8406cb08a52afd2a97e958b8fad2103243b6af3e",
+  "0x69d91b94f0aaf8e8a2586909fa77a5c2c89818d5",
+  "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.03635,
+ "gas_eth": 0.030893,
+ "profit_after_gas": 0.005457,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 2.033373 WETH into a V3 pool and the chain of pools (WETH, FXS, FRAX, OHM, USDC, HEX, then WETH) returns 2.070655 WETH, so it touches only WETH. Net is +0.037282 WETH, less a 0.000932 ETH internal payment (likely a miner tip), giving 0.03635 before gas and 0.005457 after the 0.030893 ETH fee. The explorer's 'FRAX' label on 0x3432 looks wrong (it is probably FXS), but this does not change the trace.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2803,
+  "output_tokens": 1430,
+  "thinking_tokens": 905
+ },
+ "_request_id": "req_011CgBXR9TnfodqhjazcqsvW",
+ "_response_id": "msg_011CgBXR9ntBHAQ5rr3wBZK9",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x39c9e3128b8736e02a30b2b9b7e50ff522b935c5\",\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877\",\"0x8406cb08a52afd2a97e958b8fad2103243b6af3e\",\"0x69d91b94f0aaf8e8a2586909fa77a5c2c89818d5\",\"0x55d5c232d921b9eaa6b37b5845e439acd04b4dba\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.03635,\"gas_eth\":0.030893,\"profit_after_gas\":0.005457,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 2.033373 WETH into a V3 pool and the chain of pools (WETH, FXS, FRAX, OHM, USDC, HEX, then WETH) returns 2.070655 WETH, so it touches only WETH. Net is +0.037282 WETH, less a 0.000932 ETH internal payment (likely a miner tip), giving 0.03635 before gas and 0.005457 after the 0.030893 ETH fee. The explorer's 'FRAX' label on 0x3432 looks wrong (it is probably FXS), but this does not change the trace.\"}",
+ "case_id": "arb106_074",
+ "_time": "2026-10-19T19:34:52+0800"
+}

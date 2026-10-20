@@ -1,0 +1,17 @@
+{
+ "actor": "0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047981,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor routes WETH->POND (pool 0xccb4...) then POND->USDC on the shared pool 0xd187..., holding 5977.238937 USDC after the front leg, and returns exactly that USDC in the back leg, with the victim selling POND for USDC on 0xd187... in between. WETH goes from 2.301631 in to 2.402137 out (+0.100506), minus a 0.052525 ETH payment to 0xea67... in the back leg (likely a miner tip); both legs show 0 gwei gas fees, so net is about +0.047981 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0277627,
+ "_session": "8b771818-f9de-45c6-b27f-71c7bf4c58ca",
+ "_raw": "{\"actor\": \"0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23\", \"pool\": \"0xd18748b9839b0081a867a1a871d5b562b2ec9884\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.047981, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor routes WETH->POND (pool 0xccb4...) then POND->USDC on the shared pool 0xd187..., holding 5977.238937 USDC after the front leg, and returns exactly that USDC in the back leg, with the victim selling POND for USDC on 0xd187... in between. WETH goes from 2.301631 in to 2.402137 out (+0.100506), minus a 0.052525 ETH payment to 0xea67... in the back leg (likely a miner tip); both legs show 0 gwei gas fees, so net is about +0.047981 ETH.\"}",
+ "case_id": "pack_122",
+ "_time": "2026-10-13T20:28:09+0800"
+}

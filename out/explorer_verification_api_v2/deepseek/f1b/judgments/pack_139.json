@@ -1,0 +1,32 @@
+{
+ "actor": "0xfb5761fde5227d8bb093daf9db87013b3ab9cd24",
+ "pool": "0x5f57c5f9564d6a4e25d908605341632e33e7874d",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": -1e-06,
+ "gas_eth": 0.01624,
+ "profit_after_gas": -0.016241,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0xfb... sold 8407.2903 ROCKS for WETH in the front leg and bought the same ROCKS back in the back leg on the same UniswapV2 pool used by the victim. Its WETH inflow and outflows net to about -0.000001 before gas, and the front/back gas fees make the after-cost position negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2555,
+  "output_tokens": 7674,
+  "thinking_tokens": 7477
+ },
+ "_request_id": "4f7a9e5152e0b4ad3b1a68b6cfa0274e",
+ "_response_id": "ab11e79b-62da-45c3-b602-0903d0531c7d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xfb5761fde5227d8bb093daf9db87013b3ab9cd24\",\"pool\":\"0x5f57c5f9564d6a4e25d908605341632e33e7874d\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":-0.000001,\"gas_eth\":0.01624,\"profit_after_gas\":-0.016241,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0xfb... sold 8407.2903 ROCKS for WETH in the front leg and bought the same ROCKS back in the back leg on the same UniswapV2 pool used by the victim. Its WETH inflow and outflows net to about -0.000001 before gas, and the front/back gas fees make the after-cost position negative.\"}",
+ "case_id": "pack_139",
+ "_time": "2026-10-19T19:21:25+0800"
+}

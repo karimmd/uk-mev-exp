@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0xb264dc9d22ece51aaa6028c5cbf2738b684560d6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.003941,
+ "gas_eth": 0.046169,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract 0x000... received 13123.960935 NEWO on the V2 pair in front and returned the same amount on the same pair in back, with the victim swapping on that pair in between. Net WETH gain is 1.280652 - 1.230542 = 0.050110; subtracting front+back gas 0.046169 leaves +0.003941 ETH/WETH and no residual NEWO.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2362,
+  "output_tokens": 3019,
+  "thinking_tokens": 2832
+ },
+ "_request_id": "ff7b44321db7470eb17cf0f2eb9c36da",
+ "_response_id": "e918a107-488a-4ff4-95f5-5b6fbc51b51f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0xb264dc9d22ece51aaa6028c5cbf2738b684560d6\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.003941,\"gas_eth\":0.046169,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract 0x000... received 13123.960935 NEWO on the V2 pair in front and returned the same amount on the same pair in back, with the victim swapping on that pair in between. Net WETH gain is 1.280652 - 1.230542 = 0.050110; subtracting front+back gas 0.046169 leaves +0.003941 ETH/WETH and no residual NEWO.\"}",
+ "case_id": "rej53_040",
+ "_time": "2026-10-19T19:02:05+0800"
+}

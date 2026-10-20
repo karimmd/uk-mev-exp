@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.130025,
+ "gas_eth": 0.069306,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front received 8.733 WETH for 44713.708478 TRU; back paid 8.533669 WETH to buy back the same TRU on the same UniswapV2 pool, with the victim's TRU sale between. Gross WETH gain is 0.199331; total gas is 0.069306, leaving 0.130025 net and no residual TRU.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2457,
+  "output_tokens": 8345,
+  "thinking_tokens": 8155
+ },
+ "_request_id": "af430391256fce31fe48895dc3af173a",
+ "_response_id": "3128bbb0-f4e4-4a72-b305-0cbed2fe4299",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.130025,\"gas_eth\":0.069306,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front received 8.733 WETH for 44713.708478 TRU; back paid 8.533669 WETH to buy back the same TRU on the same UniswapV2 pool, with the victim's TRU sale between. Gross WETH gain is 0.199331; total gas is 0.069306, leaving 0.130025 net and no residual TRU.\"}",
+ "case_id": "sym100_093",
+ "_time": "2026-10-19T18:55:30+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.079913,
+ "gas_eth": 0.044567,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are the same actor swapping WETH/PEOPLE on pool 0x83ab..., and the victim also trades on that pool between them. Gross WETH delta is +0.124480 before gas; after front/back gas of 0.044567 the net is +0.079913, with no residual PEOPLE left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2167,
+  "output_tokens": 7438,
+  "thinking_tokens": 7270
+ },
+ "_request_id": "4f93d9074eabe57113462874ef0e0887",
+ "_response_id": "598f9576-79ee-4d11-b914-42e5839ec9bd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.079913,\"gas_eth\":0.044567,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are the same actor swapping WETH/PEOPLE on pool 0x83ab..., and the victim also trades on that pool between them. Gross WETH delta is +0.124480 before gas; after front/back gas of 0.044567 the net is +0.079913, with no residual PEOPLE left.\"}",
+ "case_id": "pack_111",
+ "_time": "2026-10-19T18:21:51+0800"
+}

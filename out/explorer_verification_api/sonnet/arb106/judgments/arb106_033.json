@@ -1,0 +1,40 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x919fa96e88d67499339577fa202345436bcdaf79",
+  "0x58dc5a51fe44589beb22e8ce67720b5bc5378009",
+  "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+  "0x30e7e1989cf774726dd9f4780cab42d5558003e6",
+  "0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.038186,
+ "gas_eth": 0.035807,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 2.339946 WETH from the V3 CRV pool. It sends 2.323212 WETH to the CRV/WETH pair, which pays CRV directly to the V3 pool. It then sends 1.371171 WETH through SUPER, SAND and back to WETH, receiving 1.392623 WETH. WETH nets +0.038186, and after the 0.035807 gas fee about +0.00238 ETH remains. The actor holds no other token.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2589,
+  "output_tokens": 964,
+  "thinking_tokens": 531
+ },
+ "_request_id": "req_011CgBSyfapfDySKKZsKf9p8",
+ "_response_id": "msg_011CgBSyfwuQCuQ6sZEVp4ri",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x919fa96e88d67499339577fa202345436bcdaf79\",\"0x58dc5a51fe44589beb22e8ce67720b5bc5378009\",\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"0x30e7e1989cf774726dd9f4780cab42d5558003e6\",\"0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.038186,\"gas_eth\":0.035807,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 2.339946 WETH from the V3 CRV pool. It sends 2.323212 WETH to the CRV/WETH pair, which pays CRV directly to the V3 pool. It then sends 1.371171 WETH through SUPER, SAND and back to WETH, receiving 1.392623 WETH. WETH nets +0.038186, and after the 0.035807 gas fee about +0.00238 ETH remains. The actor holds no other token.\"}",
+ "case_id": "arb106_033",
+ "_time": "2026-10-19T18:36:36+0800"
+}

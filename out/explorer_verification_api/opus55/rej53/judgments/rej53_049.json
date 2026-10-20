@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x164fe0239d703379bddde3c80e4d4800a1cd452b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.014344,
+ "gas_eth": 0.014053,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0000\u2026594e bought 829.147676 BTC2X-FLI on the WBTC/BTC2X-FLI V2 pool 0x164fe\u2026 (routing WETH through the V3 pool 0x4585\u2026), the victim then bought BTC2X-FLI with WBTC on the same pool, and the actor sold exactly 829.147676 back. On WETH it paid 11.631427 and got back 11.709243, a gain of 0.077816. Subtracting the 0.049419 ETH internal payment (likely a builder or miner tip) and 0.014053 ETH gas leaves about +0.0143 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3845,
+  "output_tokens": 733,
+  "thinking_tokens": 393
+ },
+ "_request_id": "req_011CgBSvs5JH4ptg9QrUwEfP",
+ "_response_id": "msg_011CgBSvsZpCnZHj7yfkoAUQ",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x164fe0239d703379bddde3c80e4d4800a1cd452b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.014344, \"gas_eth\": 0.014053, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0000\u2026594e bought 829.147676 BTC2X-FLI on the WBTC/BTC2X-FLI V2 pool 0x164fe\u2026 (routing WETH through the V3 pool 0x4585\u2026), the victim then bought BTC2X-FLI with WBTC on the same pool, and the actor sold exactly 829.147676 back. On WETH it paid 11.631427 and got back 11.709243, a gain of 0.077816. Subtracting the 0.049419 ETH internal payment (likely a builder or miner tip) and 0.014053 ETH gas leaves about +0.0143 ETH.\"}\n```",
+ "case_id": "rej53_049",
+ "_time": "2026-10-19T18:35:58+0800"
+}

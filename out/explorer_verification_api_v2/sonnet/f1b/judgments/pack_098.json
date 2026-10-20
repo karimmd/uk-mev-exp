@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9ac681f68a589cc3763bad9ce43be3380696b136",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.081672,
+ "gas_eth": 0.068133,
+ "profit_after_gas": 0.013539,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 69.817709 MM in the front leg and sells exactly that amount in the back leg on the pool the victim buys from, so the position is fully closed. The WETH gain is 0.081672 against 0.068133 ETH of gas. The back leg shows a 0 gwei gas price, which I took at face value; if it hides an unshown cost, Q2 could change.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3368,
+  "output_tokens": 801,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVd5yYVG4MGxi6ituLD",
+ "_response_id": "msg_011CgBVd6Kt2d9dZgvBYfsDB",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0x9ac681f68a589cc3763bad9ce43be3380696b136 (Uniswap V3 MM/WETH). The front leg buys 69.817709 MM for 7.796880 WETH. The victim buys 25.1 MM with ETH on the same pool. The back leg sells 69.817709 MM for 7.878552 WETH, so the position is fully closed with no residual.\n\nThe actor is the contract 0x00000000003b3cc22af3ae1eac0440bcee416b40, which holds the MM after the front leg and gives it up in the back leg. The sender is 0xb7ab...\n\nNet WETH before gas: 7.878552 \u2212 7.796880 = 0.081672.\n\nGas: the front fee is 0.068133 ETH (61444 \u00d7 1108.9 gwei = 0.068133). The back leg shows 0.0 gwei and a fee of 0.000000, so the total is 0.068133. A 0.0 gwei gas price in the back leg is odd, but it is what the explorer shows. It may be a rounding artifact or a miner-paid or bundle transaction, so the figure is uncertain. Taking the data as shown, profit after gas is 0.081672 \u2212 0.068133 = 0.013539, which is positive.\n\nThe back leg's zero fee is probably a flashbots-style bundle with zero gas price, perhaps paid through a coinbase transfer. No coinbase transfer is shown in the evidence, so I take the observable cost as given. The front-leg gas is very high, 1108.9 gwei, which is effectively the bribe. Q2 is therefore yes on the observable figures.\n\n{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x9ac681f68a589cc3763bad9ce43be3380696b136\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.081672,\"gas_eth\":0.068133,\"profit_after_gas\":0.013539,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract buys 69.817709 MM in the front leg and sells exactly that amount in the back leg on the pool the victim buys from, so the position is fully closed. The WETH gain is 0.081672 against 0.068133 ETH of gas. The back leg shows a 0 gwei gas price, which I took at face value; if it hides an unshown cost, Q2 could change.\"}",
+ "case_id": "pack_098",
+ "_time": "2026-10-19T19:11:19+0800"
+}

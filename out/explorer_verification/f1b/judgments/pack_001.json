@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x280ab9403372be0371313a9ddd9222b5590dbfef",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.041742,
+ "gas_eth": 0.0,
+ "residual": "about 697845119115.72 JSHIBA (front received 34917813261615.93, back returned 34219968142500.21)",
+ "confidence": 4,
+ "note": "The same contract buys JSHIBA with 5.84 WETH in the front leg and sells JSHIBA for 6.241362 WETH in the back leg, on the same pool the victim buys JSHIBA from. Net is 0.401362 WETH minus the 0.35962 ETH forwarded to 0x2f73..., with zero gas fee shown. The leftover JSHIBA can only add to the total, so the sign stays positive, but its value is unknown.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0331275,
+ "_session": "83bc7040-a8b3-405a-be3f-ebd4a89f6822",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x280ab9403372be0371313a9ddd9222b5590dbfef\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.041742, \"gas_eth\": 0.0, \"residual\": \"about 697845119115.72 JSHIBA (front received 34917813261615.93, back returned 34219968142500.21)\", \"confidence\": 4, \"note\": \"The same contract buys JSHIBA with 5.84 WETH in the front leg and sells JSHIBA for 6.241362 WETH in the back leg, on the same pool the victim buys JSHIBA from. Net is 0.401362 WETH minus the 0.35962 ETH forwarded to 0x2f73..., with zero gas fee shown. The leftover JSHIBA can only add to the total, so the sign stays positive, but its value is unknown.\"}",
+ "case_id": "pack_001",
+ "_time": "2026-10-13T20:04:27+0800"
+}

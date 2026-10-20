@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "front sender holds 85801.445022 MXS; back sender holds 88137.761741 MXS",
+ "confidence": 5,
+ "note": "Front and back legs come from different senders (0x09c9\u2026 and 0x5e48\u2026), and both buy MXS with ETH through the router on pool 0x13bb\u2026. So no single actor opens and closes a position, even though the victim sells MXS on the same pool. Because there is no common actor and each buyer is left holding MXS, the bracket's profit cannot be computed.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3907,
+  "output_tokens": 471,
+  "thinking_tokens": 205
+ },
+ "_request_id": "req_011CgBWD4HnwqSHbnQvrN6SH",
+ "_response_id": "msg_011CgBWD4ddarSMYGbbLXZcB",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"front sender holds 85801.445022 MXS; back sender holds 88137.761741 MXS\", \"confidence\": 5, \"note\": \"Front and back legs come from different senders (0x09c9\u2026 and 0x5e48\u2026), and both buy MXS with ETH through the router on pool 0x13bb\u2026. So no single actor opens and closes a position, even though the victim sells MXS on the same pool. Because there is no common actor and each buyer is left holding MXS, the bracket's profit cannot be computed.\"}",
+ "case_id": "pack_196",
+ "_time": "2026-10-19T19:18:56+0800"
+}

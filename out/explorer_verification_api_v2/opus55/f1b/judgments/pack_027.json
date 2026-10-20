@@ -1,0 +1,32 @@
+{
+ "actor": "0xa1fac94eabbc27715a022a96009babfb4a49fb5d",
+ "pool": "0xfac2c7bc156c2c764ea21def2262ec2131100ab1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.16272,
+ "gas_eth": 0.030145,
+ "profit_after_gas": 0.132575,
+ "residual": "about 170704890.52 RAKUC (bought 8663724207.61, sold 8493019317.09); it may have been lost to a token transfer tax",
+ "confidence": 4,
+ "note": "Contract 0xa1fac94e, called by the same sender in both legs, bought RAKUC for 1.555025 WETH on pool 0xfac2c7. The victim then bought RAKUC on that same pool, and the contract sold its RAKUC back for 1.717745 WETH. The token contract's own fee swap to ETH in the back leg goes to 0x3b2669 and is not the actor's; any RAKUC residual can only add to the already positive WETH result.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3822,
+  "output_tokens": 924,
+  "thinking_tokens": 570
+ },
+ "_request_id": "req_011CgBVDQVboKVzF4oMNeCV2",
+ "_response_id": "msg_011CgBVDQrRdY7iuVXDeVx4z",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xa1fac94eabbc27715a022a96009babfb4a49fb5d\", \"pool\": \"0xfac2c7bc156c2c764ea21def2262ec2131100ab1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.16272, \"gas_eth\": 0.030145, \"profit_after_gas\": 0.132575, \"residual\": \"about 170704890.52 RAKUC (bought 8663724207.61, sold 8493019317.09); it may have been lost to a token transfer tax\", \"confidence\": 4, \"note\": \"Contract 0xa1fac94e, called by the same sender in both legs, bought RAKUC for 1.555025 WETH on pool 0xfac2c7. The victim then bought RAKUC on that same pool, and the contract sold its RAKUC back for 1.717745 WETH. The token contract's own fee swap to ETH in the back leg goes to 0x3b2669 and is not the actor's; any RAKUC residual can only add to the already positive WETH result.\"}",
+ "case_id": "pack_027",
+ "_time": "2026-10-19T19:05:58+0800"
+}

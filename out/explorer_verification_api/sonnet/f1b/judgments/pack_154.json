@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x76efea638426a85a868eac23d5efb34ba52156c1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.020471,
+ "gas_eth": 0.010242,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 26782.993464 UNV for 1.568451 WETH in the front leg and sold exactly that amount back for 1.588922 WETH in the back leg, on the same UNV/WETH pool the victim bought UNV from in between. The net_eth figure is the WETH gain before gas (+0.020471); after the front and back fees of 0.010242 ETH the position is about +0.010229 ETH, so Q2 is yes.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3200,
+  "output_tokens": 779,
+  "thinking_tokens": 513
+ },
+ "_request_id": "req_011CgBRfwCZbbM8hTtGW7m3t",
+ "_response_id": "msg_011CgBRfy6BBebmAESDdZ2bi",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000500e2fece27a7600435d0c48d64e0c00\",\"pool\":\"0x76efea638426a85a868eac23d5efb34ba52156c1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.020471,\"gas_eth\":0.010242,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 26782.993464 UNV for 1.568451 WETH in the front leg and sold exactly that amount back for 1.588922 WETH in the back leg, on the same UNV/WETH pool the victim bought UNV from in between. The net_eth figure is the WETH gain before gas (+0.020471); after the front and back fees of 0.010242 ETH the position is about +0.010229 ETH, so Q2 is yes.\"}",
+ "case_id": "pack_154",
+ "_time": "2026-10-19T18:19:28+0800"
+}

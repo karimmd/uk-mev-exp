@@ -1,0 +1,31 @@
+{
+ "actor": "0x5927b6650a572f74451ea42ea216a0339de1a55f",
+ "pool": "0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.039935,
+ "gas_eth": 0.003711,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are the same actor trading on the same pool as the victim, which is between them. The actor sells BASE in front and buys the same BASE amount back in back, netting +0.043646 WETH before gas and +0.039935 WETH after gas, with no residual BASE.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2405,
+  "output_tokens": 8749,
+  "thinking_tokens": 8583
+ },
+ "_request_id": "a3b3197f95dc3fbfd0cf6171390bd383",
+ "_response_id": "d7774ada-0573-4ae7-a0c6-9275c3f47b11",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x5927b6650a572f74451ea42ea216a0339de1a55f\",\"pool\":\"0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.039935,\"gas_eth\":0.003711,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are the same actor trading on the same pool as the victim, which is between them. The actor sells BASE in front and buys the same BASE amount back in back, netting +0.043646 WETH before gas and +0.039935 WETH after gas, with no residual BASE.\"}",
+ "case_id": "sym100_084",
+ "_time": "2026-10-19T18:54:13+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.006816,
+ "gas_eth": 5e-06,
+ "profit_after_gas": 0.006811,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are both initiated by 0x022a... calling 0xcc1deb..., which sells RUNE on the shared pool 0x8d2a... in front and buys it back after the victim's RUNE sell. Net WETH is +0.038123 before the 0.031307 ETH internal outflow, giving +0.006816 before gas and +0.006811 after gas. No RUNE residual is visible for the actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3355,
+  "output_tokens": 15862,
+  "thinking_tokens": 15648
+ },
+ "_request_id": "b4d469e556925153fb98b307659c1a29",
+ "_response_id": "0f8d2648-66a9-4b6e-97f1-7dce1e82901e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\",\"pool\":\"0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.006816,\"gas_eth\":0.000005,\"profit_after_gas\":0.006811,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are both initiated by 0x022a... calling 0xcc1deb..., which sells RUNE on the shared pool 0x8d2a... in front and buys it back after the victim's RUNE sell. Net WETH is +0.038123 before the 0.031307 ETH internal outflow, giving +0.006816 before gas and +0.006811 after gas. No RUNE residual is visible for the actor.\"}",
+ "case_id": "sym100_062",
+ "_time": "2026-10-19T19:35:52+0800"
+}

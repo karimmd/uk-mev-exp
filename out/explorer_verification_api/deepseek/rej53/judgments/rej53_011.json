@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x4085cafb2c519e6bf69ad410d91dbb6139948366",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016078,
+ "gas_eth": 0.211921,
+ "residual": "0.014981 VR (0x7d5121505149065b562c789a0145ed750e6e8cdd)",
+ "confidence": 5,
+ "note": "Front and back legs use the same USDT/VR pool 0x4085... where the victim also trades, with the actor contract 0x000...3b3c opening and closing the VR position. The actor nets +0.227999 WETH before gas; subtracting 0.211921 ETH gas leaves +0.016078 ETH, and the small positive VR residual does not change the sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2423,
+  "output_tokens": 3498,
+  "thinking_tokens": 3287
+ },
+ "_request_id": "c0e4c8fb2e028e0ea9f7abe41e445287",
+ "_response_id": "b3ae8030-b802-4999-a02f-77a32d29307f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x4085cafb2c519e6bf69ad410d91dbb6139948366\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.016078,\"gas_eth\":0.211921,\"residual\":\"0.014981 VR (0x7d5121505149065b562c789a0145ed750e6e8cdd)\",\"confidence\":5,\"note\":\"Front and back legs use the same USDT/VR pool 0x4085... where the victim also trades, with the actor contract 0x000...3b3c opening and closing the VR position. The actor nets +0.227999 WETH before gas; subtracting 0.211921 ETH gas leaves +0.016078 ETH, and the small positive VR residual does not change the sign.\"}",
+ "case_id": "rej53_011",
+ "_time": "2026-10-19T18:58:08+0800"
+}

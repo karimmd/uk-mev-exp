@@ -1,0 +1,31 @@
+{
+ "actor": "0xa405e822d1c3a8568c6b82eb6e570fca0136f802",
+ "pool": "0x09062ce4f20aac71f8074ac6cf8e6968abd4d03e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000227,
+ "gas_eth": 0.045096,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same target contract receives EQX in the front leg and sends the identical EQX amount back to the same UniswapV2 pool in the back leg, with the victim trading that pool in between. Net WETH gain is 0.045323, and subtracting front/back gas fees leaves +0.000227 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2294,
+  "output_tokens": 2378,
+  "thinking_tokens": 2210
+ },
+ "_request_id": "b52e1c26758b9b06dc62d8df60645005",
+ "_response_id": "9e497b58-5b90-4bdd-a039-bd50d0d8c285",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa405e822d1c3a8568c6b82eb6e570fca0136f802\",\"pool\":\"0x09062ce4f20aac71f8074ac6cf8e6968abd4d03e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.000227,\"gas_eth\":0.045096,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same target contract receives EQX in the front leg and sends the identical EQX amount back to the same UniswapV2 pool in the back leg, with the victim trading that pool in between. Net WETH gain is 0.045323, and subtracting front/back gas fees leaves +0.000227 ETH.\"}",
+ "case_id": "pack_124",
+ "_time": "2026-10-19T18:24:30+0800"
+}

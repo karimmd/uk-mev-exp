@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5e4a92625a337707ba362abff463bccc5b896d21",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.025282,
+ "gas_eth": 0.021495,
+ "residual": "about -0.005626 USDT (negligible)",
+ "confidence": 4,
+ "note": "The actor routes WETH -> NGC on pool 0x31f8 and then NGC -> USDT on pool 0x5e4a in the front leg, and reverses both in the back leg. The victim sells NGC for USDT on 0x5e4a in between. WETH gain is 851.029649 - 850.994156 = 0.035493, minus the 0.010211 ETH forwarded to 0x7f10, gives net_eth 0.025282 before gas. After 0.021495 ETH gas the result is about +0.003787 ETH, so the margin is thin but positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025910700000000002,
+ "_session": "4e1ffff1-a5cb-4757-a1f3-77837a68a259",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x5e4a92625a337707ba362abff463bccc5b896d21\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.025282, \"gas_eth\": 0.021495, \"residual\": \"about -0.005626 USDT (negligible)\", \"confidence\": 4, \"note\": \"The actor routes WETH -> NGC on pool 0x31f8 and then NGC -> USDT on pool 0x5e4a in the front leg, and reverses both in the back leg. The victim sells NGC for USDT on 0x5e4a in between. WETH gain is 851.029649 - 850.994156 = 0.035493, minus the 0.010211 ETH forwarded to 0x7f10, gives net_eth 0.025282 before gas. After 0.021495 ETH gas the result is about +0.003787 ETH, so the margin is thin but positive.\"}",
+ "case_id": "rej53_006",
+ "_time": "2026-10-13T21:54:39+0800"
+}

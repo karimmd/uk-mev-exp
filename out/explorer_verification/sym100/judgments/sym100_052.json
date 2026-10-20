@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x438d3e9cacab4614a8f1613ac7b182378d76e1f8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016637,
+ "gas_eth": 0.004327,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract trades on the same WSCRT/WETH pool in the front and back legs, with the victim's WSCRT sale in between. The front leg sells 1867.832613 WSCRT for 1.104680 WETH. The back leg buys exactly 1867.832613 WSCRT back for 1.088043 WETH. That nets +0.016637 WETH and leaves +0.012310 ETH after 0.004327 ETH of gas. This is a short-style bracket: the actor sells WSCRT first and rebuys it afterwards, rather than buying first, so Q1 is slightly less certain.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028994000000000002,
+ "_session": "ace9d240-513c-42db-9e50-0273e7b1c284",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x438d3e9cacab4614a8f1613ac7b182378d76e1f8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.016637, \"gas_eth\": 0.004327, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract trades on the same WSCRT/WETH pool in the front and back legs, with the victim's WSCRT sale in between. The front leg sells 1867.832613 WSCRT for 1.104680 WETH. The back leg buys exactly 1867.832613 WSCRT back for 1.088043 WETH. That nets +0.016637 WETH and leaves +0.012310 ETH after 0.004327 ETH of gas. This is a short-style bracket: the actor sells WSCRT first and rebuys it afterwards, rather than buying first, so Q1 is slightly less certain.\"}",
+ "case_id": "sym100_052",
+ "_time": "2026-10-13T21:34:27+0800"
+}

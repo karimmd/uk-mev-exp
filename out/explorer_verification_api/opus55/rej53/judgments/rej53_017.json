@@ -1,0 +1,31 @@
+{
+ "actor": "0x78cce34b82f8cef05eb658ddcf10f9a154298ed4",
+ "pool": "0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.094876,
+ "gas_eth": 0.018019,
+ "residual": "about 74.27B eMax (3723.87B received minus 3649.60B sold), possibly lost to a transfer fee",
+ "confidence": 4,
+ "note": "The actor contract 0x78cc wraps 5.58 ETH and buys eMax on pool 0xb143. The victim then buys eMax on the same pool via an ELON-to-WETH-to-eMax route. In the back leg the actor sells eMax there for 5.692895 WETH and unwraps it. The WETH lines to 0x0 mirror the Deposit and Withdrawal events, so I did not count them separately. Gross gain is 0.112895 ETH minus 0.018019 ETH gas, which is positive, and any leftover eMax could only add to that.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3456,
+  "output_tokens": 957,
+  "thinking_tokens": 593
+ },
+ "_request_id": "req_011CgBSjPxM8bF6hT9SKmxvo",
+ "_response_id": "msg_011CgBSjQJS5mBfn6eXv6xZn",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x78cce34b82f8cef05eb658ddcf10f9a154298ed4\", \"pool\": \"0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.094876, \"gas_eth\": 0.018019, \"residual\": \"about 74.27B eMax (3723.87B received minus 3649.60B sold), possibly lost to a transfer fee\", \"confidence\": 4, \"note\": \"The actor contract 0x78cc wraps 5.58 ETH and buys eMax on pool 0xb143. The victim then buys eMax on the same pool via an ELON-to-WETH-to-eMax route. In the back leg the actor sells eMax there for 5.692895 WETH and unwraps it. The WETH lines to 0x0 mirror the Deposit and Withdrawal events, so I did not count them separately. Gross gain is 0.112895 ETH minus 0.018019 ETH gas, which is positive, and any leftover eMax could only add to that.\"}",
+ "case_id": "rej53_017",
+ "_time": "2026-10-19T18:33:25+0800"
+}

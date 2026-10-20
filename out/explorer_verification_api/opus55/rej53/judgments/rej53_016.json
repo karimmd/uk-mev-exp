@@ -1,0 +1,31 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x329cc2740670a039efca7663bddbefa03d19522d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.096999,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x1be0\u2026 buys 283010.994421 ARES via WETH\u2192USDC (0x397f\u2026) and USDC\u2192ARES (0x329c\u2026) before the victim's USDC\u2192ARES swap on 0x329c\u2026. It then sells the same ARES amount back along the reverse route. WETH nets +0.169304, less a 0.072305 ETH internal transfer to 0x99c8\u2026 (likely a builder payment); both legs paid 0 gwei, and the 8 CHI burned is not counted as ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4186,
+  "output_tokens": 499,
+  "thinking_tokens": 199
+ },
+ "_request_id": "req_011CgBSj199jbZzhs7ziS4H1",
+ "_response_id": "msg_011CgBSj1Yx1Mr342ww8bEzb",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\", \"pool\": \"0x329cc2740670a039efca7663bddbefa03d19522d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.096999, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x1be0\u2026 buys 283010.994421 ARES via WETH\u2192USDC (0x397f\u2026) and USDC\u2192ARES (0x329c\u2026) before the victim's USDC\u2192ARES swap on 0x329c\u2026. It then sells the same ARES amount back along the reverse route. WETH nets +0.169304, less a 0.072305 ETH internal transfer to 0x99c8\u2026 (likely a builder payment); both legs paid 0 gwei, and the 8 CHI burned is not counted as ETH.\"}",
+ "case_id": "rej53_016",
+ "_time": "2026-10-19T18:33:15+0800"
+}

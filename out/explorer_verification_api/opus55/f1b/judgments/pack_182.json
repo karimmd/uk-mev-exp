@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0xcd7989894bc033581532d2cd88da5db0a4b12859",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.163625,
+ "gas_eth": 0.047245,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x00000081 bought 2871.878644 BADGER on the WBTC/BADGER V2 pool 0xcd79, routing through the WETH/WBTC V3 pool 0x4585. The victim then bought BADGER on the same pool 0xcd79, and the contract sold exactly the same BADGER amount back on it. WETH net is +1.134131 (18.922931 in, 17.788800 out); subtracting the 0.923261 ETH sent as value and forwarded to 0xea674f and 0.047245 ETH gas leaves about +0.1636 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4033,
+  "output_tokens": 707,
+  "thinking_tokens": 385
+ },
+ "_request_id": "req_011CgBRu84XNgw7cNbJPjhTz",
+ "_response_id": "msg_011CgBRu9XLq6kyLSQyZaxWH",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000081c57cbc967248bea482c417207e84cffb\", \"pool\": \"0xcd7989894bc033581532d2cd88da5db0a4b12859\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.163625, \"gas_eth\": 0.047245, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x00000081 bought 2871.878644 BADGER on the WBTC/BADGER V2 pool 0xcd79, routing through the WETH/WBTC V3 pool 0x4585. The victim then bought BADGER on the same pool 0xcd79, and the contract sold exactly the same BADGER amount back on it. WETH net is +1.134131 (18.922931 in, 17.788800 out); subtracting the 0.923261 ETH sent as value and forwarded to 0xea674f and 0.047245 ETH gas leaves about +0.1636 ETH.\"}",
+ "case_id": "pack_182",
+ "_time": "2026-10-19T18:22:28+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.096352,
+ "gas_eth": 0.034701,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells SUPER for WETH and back buys SUPER with WETH, so the actor does not open a long non-WETH position; the victim also buys SUPER, opposite to a standard sandwich. Net WETH gain 0.096352 minus gas 0.034701 leaves a positive position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2238,
+  "output_tokens": 11220,
+  "thinking_tokens": 11067
+ },
+ "_request_id": "d188ffe0e61dd384f1fec15a4ba3e4b2",
+ "_response_id": "2b739b37-e71b-440f-85b0-bbf4f51fc8a5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.096352,\"gas_eth\":0.034701,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells SUPER for WETH and back buys SUPER with WETH, so the actor does not open a long non-WETH position; the victim also buys SUPER, opposite to a standard sandwich. Net WETH gain 0.096352 minus gas 0.034701 leaves a positive position.\"}",
+ "case_id": "sym100_095",
+ "_time": "2026-10-19T18:56:04+0800"
+}

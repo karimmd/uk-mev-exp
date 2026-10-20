@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e",
+  "0xb6909b960dbbe7392d405429eb2b3649752b4838",
+  "0x3139bbba7f4b9125595cb4ebeefdac1fce7ab5f1",
+  "0xcc39592f5cb193a70f262aa301f54db1d600e6da"
+ ],
+ "cycle_token": "BAT and RUNE",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.005305,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.005305,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The transaction holds two two-pool cycles. In the first, BAT is bought on a V3 pool and sold on a V2 pool. In the second, RUNE is bought on a V3 pool and sold on a V2 pool. Both close exactly, with WETH in (6.739979) exceeding WETH out (6.718756) by 0.021223. Gas price was 0 gwei, which suggests a Flashbots bundle, and the internal 0.015918 ETH payment to 0x829bd8\u2026 (likely the miner) is counted as a cost, leaving +0.005305 ETH. The zero-value self-destructs look like gas-token burns.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3097,
+  "output_tokens": 969,
+  "thinking_tokens": 472
+ },
+ "_request_id": "req_011CgBXSJWHJtZZgMByoFQ4X",
+ "_response_id": "msg_011CgBXSJqsMmXdDWJEro4bv",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000000a1c7212a1c129512d80eb30d14dc08\", \"pools\": [\"0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e\", \"0xb6909b960dbbe7392d405429eb2b3649752b4838\", \"0x3139bbba7f4b9125595cb4ebeefdac1fce7ab5f1\", \"0xcc39592f5cb193a70f262aa301f54db1d600e6da\"], \"cycle_token\": \"BAT and RUNE\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.005305, \"gas_eth\": 0.0, \"profit_after_gas\": 0.005305, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The transaction holds two two-pool cycles. In the first, BAT is bought on a V3 pool and sold on a V2 pool. In the second, RUNE is bought on a V3 pool and sold on a V2 pool. Both close exactly, with WETH in (6.739979) exceeding WETH out (6.718756) by 0.021223. Gas price was 0 gwei, which suggests a Flashbots bundle, and the internal 0.015918 ETH payment to 0x829bd8\u2026 (likely the miner) is counted as a cost, leaving +0.005305 ETH. The zero-value self-destructs look like gas-token burns.\"}",
+ "case_id": "arb106_060",
+ "_time": "2026-10-19T19:35:07+0800"
+}

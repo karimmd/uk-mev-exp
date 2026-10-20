@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x3127bbbc05f343192855ea40b54a34831ce72e04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.077983,
+ "gas_eth": 0.023678,
+ "profit_after_gas": 0.054305,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold 924.961234 WAR for 2.206240 WETH in the front leg and bought back the same WAR for 2.128257 WETH in the back leg on the same UniswapV2 pool the victim used. Net WAR is zero and net WETH before gas is positive; after front and back gas fees it remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2414,
+  "output_tokens": 2216,
+  "thinking_tokens": 2034
+ },
+ "_request_id": "c0ba73542293b487e6da3588d3cabf85",
+ "_response_id": "fa5fa56f-5716-4200-a90b-eb354ce220ec",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x3127bbbc05f343192855ea40b54a34831ce72e04\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.077983,\"gas_eth\":0.023678,\"profit_after_gas\":0.054305,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold 924.961234 WAR for 2.206240 WETH in the front leg and bought back the same WAR for 2.128257 WETH in the back leg on the same UniswapV2 pool the victim used. Net WAR is zero and net WETH before gas is positive; after front and back gas fees it remains positive.\"}",
+ "case_id": "sym100_036",
+ "_time": "2026-10-19T19:31:39+0800"
+}

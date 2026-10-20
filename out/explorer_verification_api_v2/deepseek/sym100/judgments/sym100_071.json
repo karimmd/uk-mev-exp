@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.069007,
+ "gas_eth": 0.031091,
+ "profit_after_gas": 0.037916,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs are both executed by contract 0x00000000000064c443ef440577c26525a3c34a30 on the same UniswapV2 URQA/WETH pool, selling 442.269926 URQA for 0.773930 WETH and later buying the same URQA amount back for 0.704923 WETH. The victim trades on that same pool between the two legs. Net WETH is +0.069007, gas is 0.031091, leaving +0.037916 after gas with no URQA residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2352,
+  "output_tokens": 2759,
+  "thinking_tokens": 2525
+ },
+ "_request_id": "8f39ab584cf53c05cbfb6c4bc32f247a",
+ "_response_id": "5105eec8-93ac-428c-aba9-fbc9a79ccc7b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.069007,\"gas_eth\":0.031091,\"profit_after_gas\":0.037916,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs are both executed by contract 0x00000000000064c443ef440577c26525a3c34a30 on the same UniswapV2 URQA/WETH pool, selling 442.269926 URQA for 0.773930 WETH and later buying the same URQA amount back for 0.704923 WETH. The victim trades on that same pool between the two legs. Net WETH is +0.069007, gas is 0.031091, leaving +0.037916 after gas with no URQA residual.\"}",
+ "case_id": "sym100_071",
+ "_time": "2026-10-19T19:35:56+0800"
+}

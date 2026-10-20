@@ -1,0 +1,32 @@
+{
+ "actor": "0x8be4db5926232bc5b02b841dbede8161924495c4",
+ "pool": "0x414fbf662fc98415dbee27c72013a6f3a937ed66",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.34452,
+ "gas_eth": 0.164688,
+ "profit_after_gas": 0.179832,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg, contract 0x8be4\u2026 buys 12644.731114 OWL for 25.82 WETH on pool 0x414f\u2026. The victim then buys OWL with 17 ETH on the same pool. In the back leg, the same contract sells exactly that OWL back for 26.16452 WETH, so the position is fully closed and only gas is deducted, even though the front and back legs have different senders.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3121,
+  "output_tokens": 464,
+  "thinking_tokens": 185
+ },
+ "_request_id": "req_011CgBV796yYwAsrPxxpbjgH",
+ "_response_id": "msg_011CgBV79S4ePgZjEgbTEZJM",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x8be4db5926232bc5b02b841dbede8161924495c4\", \"pool\": \"0x414fbf662fc98415dbee27c72013a6f3a937ed66\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.34452, \"gas_eth\": 0.164688, \"profit_after_gas\": 0.179832, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg, contract 0x8be4\u2026 buys 12644.731114 OWL for 25.82 WETH on pool 0x414f\u2026. The victim then buys OWL with 17 ETH on the same pool. In the back leg, the same contract sells exactly that OWL back for 26.16452 WETH, so the position is fully closed and only gas is deducted, even though the front and back legs have different senders.\"}",
+ "case_id": "pack_008",
+ "_time": "2026-10-19T19:04:29+0800"
+}

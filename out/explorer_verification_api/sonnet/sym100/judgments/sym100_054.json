@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x20d2c17d1928ef4290bf17f922a10eaa2770bf43",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.111215,
+ "gas_eth": 0.02553,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 128.014979 MUSE into the MUSE/WETH pool for 5.601308 WETH in the front leg. The victim then sells 330.77 MUSE into the same pool. The actor buys back exactly 128.014979 MUSE for 5.490093 WETH in the back leg. The gross gain is 0.111215 ETH; after 0.02553 ETH gas the net is about +0.0857 ETH, with no MUSE left over. The front leg opens in the sell direction, so the actor must have held MUSE beforehand. That is the only reason I am not more confident in Q1.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3031,
+  "output_tokens": 1031,
+  "thinking_tokens": 712
+ },
+ "_request_id": "req_011CgBSCxVK9mdQiDBGP8c6Q",
+ "_response_id": "msg_011CgBSCxqQcgG53ddVqLgHj",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x20d2c17d1928ef4290bf17f922a10eaa2770bf43\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.111215,\"gas_eth\":0.02553,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells 128.014979 MUSE into the MUSE/WETH pool for 5.601308 WETH in the front leg. The victim then sells 330.77 MUSE into the same pool. The actor buys back exactly 128.014979 MUSE for 5.490093 WETH in the back leg. The gross gain is 0.111215 ETH; after 0.02553 ETH gas the net is about +0.0857 ETH, with no MUSE left over. The front leg opens in the sell direction, so the actor must have held MUSE beforehand. That is the only reason I am not more confident in Q1.\"}",
+ "case_id": "sym100_054",
+ "_time": "2026-10-19T18:26:31+0800"
+}

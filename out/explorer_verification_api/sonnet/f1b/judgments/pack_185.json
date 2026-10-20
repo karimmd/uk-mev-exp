@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000cb53d776774284822b1298ade47f",
+ "pool": "0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.007925,
+ "gas_eth": 0,
+ "residual": "about 481,026,501,859.6 KEANU (24057112862586.113 bought minus 23576086360726.5 sold)",
+ "confidence": 4,
+ "note": "The bot contract bought KEANU for 1.554598 WETH on the KEANU/WETH pool before the victim's DAI\u2192WETH\u2192KEANU swap, which also went through that pool. It sold most of it back after the victim for 1.604821 WETH. The WETH gain of 0.050223 less the 0.042298 ETH paid to 0xea67\u2026 (likely a miner bribe) gives +0.007925 ETH, and both legs had zero gas fees. The small leftover KEANU can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3383,
+  "output_tokens": 988,
+  "thinking_tokens": 657
+ },
+ "_request_id": "req_011CgBRq8ZvZHcTCECzyURLj",
+ "_response_id": "msg_011CgBRq91UPedPv5avVdMak",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000000cb53d776774284822b1298ade47f\",\"pool\":\"0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.007925,\"gas_eth\":0,\"residual\":\"about 481,026,501,859.6 KEANU (24057112862586.113 bought minus 23576086360726.5 sold)\",\"confidence\":4,\"note\":\"The bot contract bought KEANU for 1.554598 WETH on the KEANU/WETH pool before the victim's DAI\u2192WETH\u2192KEANU swap, which also went through that pool. It sold most of it back after the victim for 1.604821 WETH. The WETH gain of 0.050223 less the 0.042298 ETH paid to 0xea67\u2026 (likely a miner bribe) gives +0.007925 ETH, and both legs had zero gas fees. The small leftover KEANU can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_185",
+ "_time": "2026-10-19T18:21:34+0800"
+}

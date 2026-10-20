@@ -1,0 +1,24 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x868b7bbbfe148516e5397f23982923686182c2d2",
+  "0xc50ef7861153c51d383d9a7d48e6c9467fb90c38",
+  "0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b"
+ ],
+ "cycle_token": "USTC",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.023719,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor takes USTC from the V3 pool, USDT from one V2 pool and WETH from another, and returns USDT and USTC to the pools. USTC and USDT both net to zero, leaving +0.237195 WETH. It unwraps that to ETH and sends 0.213476 ETH to 0xf541... (likely a builder tip), leaving about +0.023719 ETH. The gas fee shows as 0 because the gas price is 0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0251072,
+ "_session": "a2a69856-4592-450b-8c7c-7bcb97d50a4e",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x868b7bbbfe148516e5397f23982923686182c2d2\",\"0xc50ef7861153c51d383d9a7d48e6c9467fb90c38\",\"0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b\"],\"cycle_token\":\"USTC\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.023719,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor takes USTC from the V3 pool, USDT from one V2 pool and WETH from another, and returns USDT and USTC to the pools. USTC and USDT both net to zero, leaving +0.237195 WETH. It unwraps that to ETH and sends 0.213476 ETH to 0xf541... (likely a builder tip), leaving about +0.023719 ETH. The gas fee shows as 0 because the gas price is 0 gwei.\"}",
+ "case_id": "arb106_058",
+ "_time": "2026-10-13T22:23:49+0800"
+}

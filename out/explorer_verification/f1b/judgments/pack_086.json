@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x70885952f174fb5396deebb66ce3b4b2adfcef8a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.053794,
+ "gas_eth": 0.046463,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract takes 8255.82 USDT from the USDT/STOS V3 pool in the front leg and returns exactly that amount in the back leg. The victim swaps on that V3 pool in between. The WETH leg runs through a separate V2 pool, so this also looks like a cross-pool arbitrage. The WETH gain is 2.674771 \u2212 2.620977 = 0.053794. After 0.046463 ETH of gas, the net is about +0.00733 ETH, and no token is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0272092,
+ "_session": "33889f8c-445a-4bbc-915d-01e90ea63a75",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0x70885952f174fb5396deebb66ce3b4b2adfcef8a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.053794,\"gas_eth\":0.046463,\"residual\":\"none\",\"confidence\":3,\"note\":\"The contract takes 8255.82 USDT from the USDT/STOS V3 pool in the front leg and returns exactly that amount in the back leg. The victim swaps on that V3 pool in between. The WETH leg runs through a separate V2 pool, so this also looks like a cross-pool arbitrage. The WETH gain is 2.674771 \u2212 2.620977 = 0.053794. After 0.046463 ETH of gas, the net is about +0.00733 ETH, and no token is left over.\"}",
+ "case_id": "pack_086",
+ "_time": "2026-10-13T20:21:16+0800"
+}

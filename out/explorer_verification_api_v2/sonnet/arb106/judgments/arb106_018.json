@@ -1,0 +1,41 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+  "0x495f8ef80e13e9e1e77d60d2f384bb49694823ef",
+  "0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77",
+  "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+  "0x52127470de72e5ef77ca962d23125cbe096e2d81"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02599,
+ "gas_eth": 0.023583,
+ "profit_after_gas": 0.002407,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 2.231473 WETH into the V3 MANA/WETH pool. The output then passes directly pool to pool through MANA, DAI, USDT and RACA, and 2.257463 WETH returns to the actor from the RACA/WETH pair. The actor ends +0.02599 WETH before gas and +0.002407 ETH after the 0.023583 ETH fee, with no other tokens left over and no mints.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2471,
+  "output_tokens": 1130,
+  "thinking_tokens": 692
+ },
+ "_request_id": "req_011CgBX4rvJvrGqLxhgTQXRo",
+ "_response_id": "msg_011CgBX4sHPznRpRLRUWRqxr",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\",\"pools\":[\"0x8661ae7918c0115af9e3691662f605e9c550ddc9\",\"0x495f8ef80e13e9e1e77d60d2f384bb49694823ef\",\"0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77\",\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"0x52127470de72e5ef77ca962d23125cbe096e2d81\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.02599,\"gas_eth\":0.023583,\"profit_after_gas\":0.002407,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 2.231473 WETH into the V3 MANA/WETH pool. The output then passes directly pool to pool through MANA, DAI, USDT and RACA, and 2.257463 WETH returns to the actor from the RACA/WETH pair. The actor ends +0.02599 WETH before gas and +0.002407 ETH after the 0.023583 ETH fee, with no other tokens left over and no mints.\"}",
+ "case_id": "arb106_018",
+ "_time": "2026-10-19T19:30:15+0800"
+}

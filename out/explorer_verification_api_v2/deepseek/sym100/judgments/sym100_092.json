@@ -1,0 +1,32 @@
+{
+ "actor": "0x4ac1ae64fb072201d9e264c01c126aba57f5b6d2",
+ "pool": "0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.091762,
+ "gas_eth": 0.005514,
+ "profit_after_gas": 0.086248,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs both call 0x4ac1..., which sells 5,979,329.2918 AXN for 2.490013 WETH and later buys the same AXN amount back for 2.398251 WETH on the shared Uniswap V2 pool. The victim trades on the same pool between these legs, and the actor's AXN position nets to zero with positive net WETH before and after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2519,
+  "output_tokens": 2236,
+  "thinking_tokens": 2025
+ },
+ "_request_id": "d5decd7a29a12d93c895e7d2ff52a460",
+ "_response_id": "ab4427e5-ae7d-49af-8575-99ef466b3808",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4ac1ae64fb072201d9e264c01c126aba57f5b6d2\",\"pool\":\"0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.091762,\"gas_eth\":0.005514,\"profit_after_gas\":0.086248,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs both call 0x4ac1..., which sells 5,979,329.2918 AXN for 2.490013 WETH and later buys the same AXN amount back for 2.398251 WETH on the shared Uniswap V2 pool. The victim trades on the same pool between these legs, and the actor's AXN position nets to zero with positive net WETH before and after gas.\"}",
+ "case_id": "sym100_092",
+ "_time": "2026-10-19T19:37:46+0800"
+}

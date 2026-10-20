@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.094869,
+ "gas_eth": 0.030886,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract sells 323.665965 PMON into the pool before the victim, who also sells PMON into that pool, then buys back exactly 323.665965 PMON after the victim. It receives 8.978 WETH and pays 8.883131 WETH, so WETH is +0.094869 and about +0.0640 after 0.030886 ETH of gas. The bracket runs in the sell-first direction, so the actor must have held PMON beforehand. The PMON position nets to zero and no residual is left.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3019,
+  "output_tokens": 828,
+  "thinking_tokens": 542
+ },
+ "_request_id": "req_011CgBSVnBg26CZiGiQR29K3",
+ "_response_id": "msg_011CgBSVnY1kGqmqvpEKJq5A",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.094869,\"gas_eth\":0.030886,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract sells 323.665965 PMON into the pool before the victim, who also sells PMON into that pool, then buys back exactly 323.665965 PMON after the victim. It receives 8.978 WETH and pays 8.883131 WETH, so WETH is +0.094869 and about +0.0640 after 0.030886 ETH of gas. The bracket runs in the sell-first direction, so the actor must have held PMON beforehand. The PMON position nets to zero and no residual is left.\"}",
+ "case_id": "sym100_100",
+ "_time": "2026-10-19T18:30:18+0800"
+}

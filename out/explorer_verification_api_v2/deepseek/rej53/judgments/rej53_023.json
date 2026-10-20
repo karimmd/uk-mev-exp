@@ -1,0 +1,32 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0xc88ac988a655b91b70def427c8778b4d43f2048d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.382083,
+ "gas_eth": 0.243935,
+ "profit_after_gas": 0.138148,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both route through the DERC/USDC Uniswap V2 pool 0xc88a..., with 0x55eb receiving then spending the same 64564.942336 USDC; net WETH across the legs is +0.382083 before gas. Victim also trades that pool, and after listed front/back gas the net remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2540,
+  "output_tokens": 5550,
+  "thinking_tokens": 5362
+ },
+ "_request_id": "089c7d0936393cc42feb446e531d5c33",
+ "_response_id": "b531b4c2-59b7-4548-a9f8-ac31ff4541df",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0xc88ac988a655b91b70def427c8778b4d43f2048d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.382083,\"gas_eth\":0.243935,\"profit_after_gas\":0.138148,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both route through the DERC/USDC Uniswap V2 pool 0xc88a..., with 0x55eb receiving then spending the same 64564.942336 USDC; net WETH across the legs is +0.382083 before gas. Victim also trades that pool, and after listed front/back gas the net remains positive.\"}",
+ "case_id": "rej53_023",
+ "_time": "2026-10-19T19:42:26+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.052961,
+ "gas_eth": 0.011798,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x42d0 wraps 11 ETH and buys 2765.9853 CEL in the front leg. The victim then buys 8181.2326 CEL on the same pool. In the back leg the contract sells exactly 2765.9853 CEL for 11.052961 WETH and unwraps it. Gross gain is 0.052961 ETH. After 0.011798 ETH of front and back gas, the net is about +0.041163 ETH, with no CEL left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0258332,
+ "_session": "1e69e3dd-68e3-4e00-8816-9e5b754b6c32",
+ "_raw": "{\"actor\": \"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\", \"pool\": \"0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.052961, \"gas_eth\": 0.011798, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x42d0 wraps 11 ETH and buys 2765.9853 CEL in the front leg. The victim then buys 8181.2326 CEL on the same pool. In the back leg the contract sells exactly 2765.9853 CEL for 11.052961 WETH and unwraps it. Gross gain is 0.052961 ETH. After 0.011798 ETH of front and back gas, the net is about +0.041163 ETH, with no CEL left over.\"}",
+ "case_id": "pack_128",
+ "_time": "2026-10-13T20:29:14+0800"
+}

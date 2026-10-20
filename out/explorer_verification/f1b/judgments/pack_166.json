@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd2e19525ca8dd5e2787e8553aa50f7d5039a0b44",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.019151,
+ "gas_eth": 0.0,
+ "residual": "about 57,508,700,997.93 HATT (2889577707006.02 bought minus 2832069006008.09 sold)",
+ "confidence": 4,
+ "note": "The same contract buys HATT with 2.11 WETH in the front leg and sells HATT for 2.252916 WETH in the back leg, with the victim buying HATT on the same pool in between. WETH gain is +0.142916, and the 0.123765 ETH value forwarded to 0x5a0b... in the back leg (likely a miner payment) leaves +0.019151 with 0 gas. The leftover HATT can only add to this, so the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026396700000000002,
+ "_session": "926f20fc-8bc6-4091-a80f-1719aa7cff39",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0xd2e19525ca8dd5e2787e8553aa50f7d5039a0b44\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.019151, \"gas_eth\": 0.0, \"residual\": \"about 57,508,700,997.93 HATT (2889577707006.02 bought minus 2832069006008.09 sold)\", \"confidence\": 4, \"note\": \"The same contract buys HATT with 2.11 WETH in the front leg and sells HATT for 2.252916 WETH in the back leg, with the victim buying HATT on the same pool in between. WETH gain is +0.142916, and the 0.123765 ETH value forwarded to 0x5a0b... in the back leg (likely a miner payment) leaves +0.019151 with 0 gas. The leftover HATT can only add to this, so the sign is positive.\"}",
+ "case_id": "pack_166",
+ "_time": "2026-10-13T20:36:55+0800"
+}

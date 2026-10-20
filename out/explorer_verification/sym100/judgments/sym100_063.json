@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xc60c479f3cc66f1654a4113f4949c98ce77a9995",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049285,
+ "gas_eth": 0.01681,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (called by 0xd38b...) trades the KYL/WETH pair in the front and back legs with the victim's KYL sale in between on that pair. It sells 12340.913099 KYL for 6.859451 WETH, then buys back the identical 12340.913099 KYL for 6.810166 WETH after the victim's sale. That leaves 0.049285 WETH before gas and about 0.03248 ETH after the 0.01681 ETH gas, with no residual KYL. The structure is a same-direction front-run funded from KYL inventory rather than a buy-first sandwich, which is why confidence is 4 and not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0241307,
+ "_session": "e7081499-670a-422b-a6d7-8a60ce1f6d9b",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xc60c479f3cc66f1654a4113f4949c98ce77a9995\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.049285, \"gas_eth\": 0.01681, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract (called by 0xd38b...) trades the KYL/WETH pair in the front and back legs with the victim's KYL sale in between on that pair. It sells 12340.913099 KYL for 6.859451 WETH, then buys back the identical 12340.913099 KYL for 6.810166 WETH after the victim's sale. That leaves 0.049285 WETH before gas and about 0.03248 ETH after the 0.01681 ETH gas, with no residual KYL. The structure is a same-direction front-run funded from KYL inventory rather than a buy-first sandwich, which is why confidence is 4 and not 5.\"}",
+ "case_id": "sym100_063",
+ "_time": "2026-10-13T21:36:57+0800"
+}

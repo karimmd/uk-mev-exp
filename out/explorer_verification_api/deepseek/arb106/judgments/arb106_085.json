@@ -1,0 +1,40 @@
+{
+ "actor": "0x00328ca21100054700d065f700a555009c760000",
+ "pools": [
+  "0x96f5b7c2be10dc7de02fa8858a8f1bd19c2fa72a",
+  "0x4cd36d6f32586177e36179a810595a33163a20bf",
+  "0x645524239af0e49ffb0b61d8e5646f8e3b57e322",
+  "0x7dd3f5705504002dc946aeafe6629b9481b72272",
+  "0x3416cf6c708da44db2624d63ea0aaef7113527c6"
+ ],
+ "cycle_token": "USDC",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.017543,
+ "gas_eth": 0.098375,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sent WETH and USDC and received USDC and WETH; USDC netted exactly to zero while WETH increased by 0.115918. After the 0.098375 ETH gas fee, net ETH/WETH profit is about 0.017543 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1980,
+  "output_tokens": 6502,
+  "thinking_tokens": 6222
+ },
+ "_request_id": "e911cb0f8b92fec98c9ad04866e5cd40",
+ "_response_id": "131a5e38-7ec5-4ea7-82cb-057b126630c1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00328ca21100054700d065f700a555009c760000\",\"pools\":[\"0x96f5b7c2be10dc7de02fa8858a8f1bd19c2fa72a\",\"0x4cd36d6f32586177e36179a810595a33163a20bf\",\"0x645524239af0e49ffb0b61d8e5646f8e3b57e322\",\"0x7dd3f5705504002dc946aeafe6629b9481b72272\",\"0x3416cf6c708da44db2624d63ea0aaef7113527c6\"],\"cycle_token\":\"USDC\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.017543,\"gas_eth\":0.098375,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sent WETH and USDC and received USDC and WETH; USDC netted exactly to zero while WETH increased by 0.115918. After the 0.098375 ETH gas fee, net ETH/WETH profit is about 0.017543 ETH.\"}",
+ "case_id": "arb106_085",
+ "_time": "2026-10-19T19:32:24+0800"
+}

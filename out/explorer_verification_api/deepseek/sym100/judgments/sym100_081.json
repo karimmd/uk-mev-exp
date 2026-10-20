@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.013962,
+ "gas_eth": 0.072341,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract performs a WETH-token-WETH round trip within the front leg, so it does not hold a non-WETH position after the front leg. The back leg reverses the cycle. Net WETH after gas is positive (~0.01396 ETH).",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2455,
+  "output_tokens": 9964,
+  "thinking_tokens": 9811
+ },
+ "_request_id": "edc3eb147443593257f9c02e5658e9dd",
+ "_response_id": "e95e1f53-56e3-488e-83c1-27530e4fd465",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000d41c96294ccdac8612bdfe29c641af\",\"pool\":\"0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.013962,\"gas_eth\":0.072341,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract performs a WETH-token-WETH round trip within the front leg, so it does not hold a non-WETH position after the front leg. The back leg reverses the cycle. Net WETH after gas is positive (~0.01396 ETH).\"}",
+ "case_id": "sym100_081",
+ "_time": "2026-10-19T18:53:35+0800"
+}

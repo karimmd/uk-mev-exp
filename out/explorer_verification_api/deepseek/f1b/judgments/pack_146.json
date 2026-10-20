@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.18327,
+ "gas_eth": 0.0148,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Same contract sold AKITA for WETH in the front leg and bought the same AKITA amount back after the victim's AKITA sell on the shared Uniswap V2 pool. Gross WETH gain 0.19807 minus 0.0148 gas leaves a positive net; the AKITA amount nets to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2368,
+  "output_tokens": 13356,
+  "thinking_tokens": 13195
+ },
+ "_request_id": "f546d4479ceeab6873634596e17c1b22",
+ "_response_id": "0f2a2fdd-44b1-4ace-9dad-8f3fa641bae9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.18327,\"gas_eth\":0.0148,\"residual\":\"none\",\"confidence\":4,\"note\":\"Same contract sold AKITA for WETH in the front leg and bought the same AKITA amount back after the victim's AKITA sell on the shared Uniswap V2 pool. Gross WETH gain 0.19807 minus 0.0148 gas leaves a positive net; the AKITA amount nets to zero.\"}",
+ "case_id": "pack_146",
+ "_time": "2026-10-19T18:30:15+0800"
+}

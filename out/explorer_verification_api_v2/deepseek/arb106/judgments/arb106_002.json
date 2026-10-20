@@ -1,0 +1,41 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf",
+  "0xce7e98d4da6ebda6af474ea618c6b175729cd366",
+  "0xa5c475167f03b1556c054e0da78192cd2779087f",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.067922,
+ "gas_eth": 0.052853,
+ "profit_after_gas": 0.015069,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor receives 5.735764 WETH from one pool, sends 5.667178 WETH to another, and retains 0.068586 WETH profit. After the 0.000664 ETH internal transfer and gas fee, the position remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2031,
+  "output_tokens": 23277,
+  "thinking_tokens": 22959
+ },
+ "_request_id": "5c5c8a94534ff1fdf53511737daf25ed",
+ "_response_id": "992cb276-656e-4b97-8e85-62796fbacfb0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0xcd8286b48936cdac20518247dbd310ab681a9fbf\", \"0xce7e98d4da6ebda6af474ea618c6b175729cd366\", \"0xa5c475167f03b1556c054e0da78192cd2779087f\", \"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\", \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.067922, \"gas_eth\": 0.052853, \"profit_after_gas\": 0.015069, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor receives 5.735764 WETH from one pool, sends 5.667178 WETH to another, and retains 0.068586 WETH profit. After the 0.000664 ETH internal transfer and gas fee, the position remains positive.\"}",
+ "case_id": "arb106_002",
+ "_time": "2026-10-19T19:48:36+0800"
+}

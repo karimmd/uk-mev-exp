@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xa4f35395910d7a4ff110669ced4b70227a166877",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071019,
+ "gas_eth": 0.035667,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 915.230241 MRCH to the pool for 1.836503 WETH in the front leg. The victim then sells MRCH on the same pool, and the actor buys back exactly 915.230241 MRCH for 1.765484 WETH in the back leg. This is a sell-first (short-side) bracket. The WETH difference is +0.071019, and after 0.035667 ETH of gas for the front and back legs the position is about +0.03535 ETH, with no MRCH left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2971,
+  "output_tokens": 821,
+  "thinking_tokens": 542
+ },
+ "_request_id": "req_011CgBSBrU8rMeng9y7dormF",
+ "_response_id": "msg_011CgBSBrqxiGcxWCDR6RLUi",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xa4f35395910d7a4ff110669ced4b70227a166877\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.071019,\"gas_eth\":0.035667,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 915.230241 MRCH to the pool for 1.836503 WETH in the front leg. The victim then sells MRCH on the same pool, and the actor buys back exactly 915.230241 MRCH for 1.765484 WETH in the back leg. This is a sell-first (short-side) bracket. The WETH difference is +0.071019, and after 0.035667 ETH of gas for the front and back legs the position is about +0.03535 ETH, with no MRCH left over.\"}",
+ "case_id": "sym100_050",
+ "_time": "2026-10-19T18:26:14+0800"
+}

@@ -1,0 +1,23 @@
+{
+ "actor": "0x0000000000007f150bd6f54c40a34d7c3d5e9f56",
+ "pools": [
+  "0x701d570d96caae620b64478046d79780912c5c17",
+  "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974"
+ ],
+ "cycle_token": "ETH/WETH",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 1.041107,
+ "gas_eth": 0.994649,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor paid 56.118353 ETH to the ibETH contract and was minted 53.906 IBETH. It sold the IBETH into the IBETH/LINK pool, and the LINK went to the LINK/WETH pool, which returned 57.159460 WETH. It unwrapped that to ETH, so the ETH cycle closes with +1.041107 ETH before gas. The IBETH came from a mint, not a pool, but it was paid for with ETH, so I treated this as a closed ETH cycle rather than a sale of free tokens. The sender, not the actor, paid the 0.994649 ETH fee, which leaves about +0.0465 ETH after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0288212,
+ "_session": "a1d35ae1-e3ab-4a0e-afe6-3dc629268789",
+ "_raw": "{\"actor\":\"0x0000000000007f150bd6f54c40a34d7c3d5e9f56\",\"pools\":[\"0x701d570d96caae620b64478046d79780912c5c17\",\"0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974\"],\"cycle_token\":\"ETH/WETH\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":1.041107,\"gas_eth\":0.994649,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor paid 56.118353 ETH to the ibETH contract and was minted 53.906 IBETH. It sold the IBETH into the IBETH/LINK pool, and the LINK went to the LINK/WETH pool, which returned 57.159460 WETH. It unwrapped that to ETH, so the ETH cycle closes with +1.041107 ETH before gas. The IBETH came from a mint, not a pool, but it was paid for with ETH, so I treated this as a closed ETH cycle rather than a sale of free tokens. The sender, not the actor, paid the 0.994649 ETH fee, which leaves about +0.0465 ETH after gas.\"}",
+ "case_id": "arb106_006",
+ "_time": "2026-10-13T22:11:24+0800"
+}

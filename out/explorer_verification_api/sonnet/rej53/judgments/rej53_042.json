@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1197774e49f98b24c7afa88f0eb6fbd0e0786a0a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011446,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys zUSD on the V2 USDT/zUSD pool in the front leg, using USDT bought from the V3 WETH/USDT pool with 1.171875 WETH. The victim buys zUSD on the same V2 pool, and the back leg sells exactly 3006.977897 zUSD and converts the proceeds to 1.197310 WETH. The WETH gain of 0.025435 minus the 0.013989 ETH forwarded to 0x5a0b\u2026 (likely a miner bribe) leaves about +0.011446 ETH. Both legs have 0 gas price, so the gas fee is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3806,
+  "output_tokens": 851,
+  "thinking_tokens": 520
+ },
+ "_request_id": "req_011CgBSj5HgqEqU2fdd7CVdF",
+ "_response_id": "msg_011CgBSj5f1MmiQqZbjLtTRR",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1197774e49f98b24c7afa88f0eb6fbd0e0786a0a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.011446,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys zUSD on the V2 USDT/zUSD pool in the front leg, using USDT bought from the V3 WETH/USDT pool with 1.171875 WETH. The victim buys zUSD on the same V2 pool, and the back leg sells exactly 3006.977897 zUSD and converts the proceeds to 1.197310 WETH. The WETH gain of 0.025435 minus the 0.013989 ETH forwarded to 0x5a0b\u2026 (likely a miner bribe) leaves about +0.011446 ETH. Both legs have 0 gas price, so the gas fee is 0.\"}",
+ "case_id": "rej53_042",
+ "_time": "2026-10-19T18:33:17+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34b8487fc2912c486b04d1436b07f19f7730cd43",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.022414,
+ "gas_eth": 0.028687,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are flash-swap arbitrages around the victim on the same Uniswap V3 pool, but the actor never carries a non-WETH token balance between legs. The actor contract nets positive WETH after gas, with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2774,
+  "output_tokens": 9760,
+  "thinking_tokens": 9592
+ },
+ "_request_id": "9a59dfaf9b302f67885b4ab27041bd00",
+ "_response_id": "9c1c0840-6262-4649-abd6-4f257e2449e6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x34b8487fc2912c486b04d1436b07f19f7730cd43\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.022414, \"gas_eth\": 0.028687, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Front and back are flash-swap arbitrages around the victim on the same Uniswap V3 pool, but the actor never carries a non-WETH token balance between legs. The actor contract nets positive WETH after gas, with no residual non-WETH holding.\"}",
+ "case_id": "sym100_099",
+ "_time": "2026-10-19T18:56:52+0800"
+}

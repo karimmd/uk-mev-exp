@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xeb4664d8229dde455dca168a404ed6c03d4bb701",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.114185,
+ "gas_eth": 0.017271,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 799.417606 URUS into the pool for 12.171014 WETH in the front leg. The victim then sells 485 URUS into the same pool, and the actor buys back exactly 799.417606 URUS for 12.056829 WETH. This is a sandwich built on the sell side from inventory, so the URUS position round-trips to zero. The WETH gain of 0.114185 less 0.017271 gas leaves about +0.0969 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2978,
+  "output_tokens": 890,
+  "thinking_tokens": 611
+ },
+ "_request_id": "req_011CgBRv2SjCFy5MKwfZpFb4",
+ "_response_id": "msg_011CgBRv2n4ACkQRoUyLn8Di",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xeb4664d8229dde455dca168a404ed6c03d4bb701\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.114185, \"gas_eth\": 0.017271, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 799.417606 URUS into the pool for 12.171014 WETH in the front leg. The victim then sells 485 URUS into the same pool, and the actor buys back exactly 799.417606 URUS for 12.056829 WETH. This is a sandwich built on the sell side from inventory, so the URUS position round-trips to zero. The WETH gain of 0.114185 less 0.017271 gas leaves about +0.0969 ETH.\"}",
+ "case_id": "sym100_004",
+ "_time": "2026-10-19T18:22:41+0800"
+}

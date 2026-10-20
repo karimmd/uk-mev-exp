@@ -1,0 +1,32 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x23201344493fae9e9daf3279e930bdb0d4e5d5ec",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.108665,
+ "gas_eth": 0.030463,
+ "profit_after_gas": 0.078202,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor sells UM for WETH in front and buys the same UM amount back in back on the same UniswapV2 pool, with the victim's UM sale between. Net WETH is +0.108665 before gas; front and back gas total 0.030463 ETH, leaving +0.078202 ETH after gas. The UM position returns to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2196,
+  "output_tokens": 2569,
+  "thinking_tokens": 2376
+ },
+ "_request_id": "e31bd9fc5e5b842cc241a16ae37b4944",
+ "_response_id": "051a6f90-23c7-43b1-b687-f4ab5dca9850",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x23201344493fae9e9daf3279e930bdb0d4e5d5ec\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.108665,\"gas_eth\":0.030463,\"profit_after_gas\":0.078202,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor sells UM for WETH in front and buys the same UM amount back in back on the same UniswapV2 pool, with the victim's UM sale between. Net WETH is +0.108665 before gas; front and back gas total 0.030463 ETH, leaving +0.078202 ETH after gas. The UM position returns to zero.\"}",
+ "case_id": "sym100_064",
+ "_time": "2026-10-19T19:35:13+0800"
+}

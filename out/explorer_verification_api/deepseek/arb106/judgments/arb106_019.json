@@ -1,0 +1,38 @@
+{
+ "actor": "0x4b74b30c790daa943ccce0ffc470d05423edfeb6",
+ "pools": [
+  "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+  "0x5069c5fbed5757642023e55458ae363b1cbf0616",
+  "0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000505,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The target contract performs a WETH to SANSHU to MFUND to WETH multi-hop across three Uniswap V2 pools, ending with 0.005042 more WETH. After a 0.004537 ETH internal payment and zero gas, net ETH/WETH is positive 0.000505, with no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1648,
+  "output_tokens": 6740,
+  "thinking_tokens": 6495
+ },
+ "_request_id": "fb2fbce7c53d441cb41436fb8bb815b5",
+ "_response_id": "544df0a5-16ec-4db8-940e-9cebc4961358",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4b74b30c790daa943ccce0ffc470d05423edfeb6\",\"pools\":[\"0xa7ad4ce6c21d9e875f1067cd377256326b483002\",\"0x5069c5fbed5757642023e55458ae363b1cbf0616\",\"0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000505,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The target contract performs a WETH to SANSHU to MFUND to WETH multi-hop across three Uniswap V2 pools, ending with 0.005042 more WETH. After a 0.004537 ETH internal payment and zero gas, net ETH/WETH is positive 0.000505, with no non-WETH residual.\"}",
+ "case_id": "arb106_019",
+ "_time": "2026-10-19T19:08:23+0800"
+}

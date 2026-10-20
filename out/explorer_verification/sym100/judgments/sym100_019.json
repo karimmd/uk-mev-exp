@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfe903a12359496b932e24c5e9b78f1b9060a6342",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.65344,
+ "gas_eth": 0.392697,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 22542.862174 PKF into the pool for 15.563 WETH before the victim's PKF sale on the same pool, then buys back exactly 22542.862174 PKF for 14.90956 WETH, so PKF nets to zero. WETH gain of 0.65344 minus 0.392697 ETH gas (front 0.356005 + back 0.036692) leaves about +0.2607 ETH. The bracket runs in the reverse (sell-then-rebuy) direction, which is why I held confidence at 4.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0234187,
+ "_session": "f6b0aded-98ee-4547-8d0d-ecd478599a57",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0xfe903a12359496b932e24c5e9b78f1b9060a6342\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.65344, \"gas_eth\": 0.392697, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 22542.862174 PKF into the pool for 15.563 WETH before the victim's PKF sale on the same pool, then buys back exactly 22542.862174 PKF for 14.90956 WETH, so PKF nets to zero. WETH gain of 0.65344 minus 0.392697 ETH gas (front 0.356005 + back 0.036692) leaves about +0.2607 ETH. The bracket runs in the reverse (sell-then-rebuy) direction, which is why I held confidence at 4.\"}",
+ "case_id": "sym100_019",
+ "_time": "2026-10-13T21:26:33+0800"
+}

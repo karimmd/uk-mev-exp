@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xc47047e59bbc58cf223eaf2de10bc722cd46f325",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.106065,
+ "gas_eth": 0.040785,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 111713.46 ASM on the V3 ASM/USDC pool in the front leg, funded via the V2 WETH/USDC pool. The victim buys ASM on the same V3 pool, and the actor sells the identical ASM amount back in the back leg. WETH net is 3.443655 - 2.759247 = +0.684408, minus the 0.578343 ETH value forwarded to 0x829b gives +0.106065 ETH. After 0.040785 ETH gas the result is about +0.06528 ETH, still positive. ASM and USDC are fully round-tripped, so no residual holding remains.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3484,
+  "output_tokens": 971,
+  "thinking_tokens": 636
+ },
+ "_request_id": "req_011CgBR7fT8Qf4jD4Xmxco3E",
+ "_response_id": "msg_011CgBR7koMBokoToZp8mbPR",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xc47047e59bbc58cf223eaf2de10bc722cd46f325\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.106065,\"gas_eth\":0.040785,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 111713.46 ASM on the V3 ASM/USDC pool in the front leg, funded via the V2 WETH/USDC pool. The victim buys ASM on the same V3 pool, and the actor sells the identical ASM amount back in the back leg. WETH net is 3.443655 - 2.759247 = +0.684408, minus the 0.578343 ETH value forwarded to 0x829b gives +0.106065 ETH. After 0.040785 ETH gas the result is about +0.06528 ETH, still positive. ASM and USDC are fully round-tripped, so no residual holding remains.\"}",
+ "case_id": "pack_095",
+ "_time": "2026-10-19T18:12:12+0800"
+}

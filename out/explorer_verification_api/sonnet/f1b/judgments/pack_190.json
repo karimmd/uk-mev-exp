@@ -1,0 +1,31 @@
+{
+ "actor": "0x4edc5e546633f22357841b2d23a100a461160e80",
+ "pool": "0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -3.0,
+ "gas_eth": 0.07089,
+ "residual": "36.970611 XFYI (12.2155 + 11.988106 + 11.767005) held by the sender",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender and each buys XFYI with 1 ETH through the same pool. The 'victim' is the same address as the front and back legs, and the back leg buys XFYI again instead of selling. No position is closed, so this is not a sandwich. The actor spent 3 ETH and holds the XFYI, and the gas total is 0.026402 + 0.022244 + 0.022244 = 0.07089 ETH across all three legs. The back leg alone is not a close, so Q2 is no.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3392,
+  "output_tokens": 328,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRrWNPAGZSaTotFcR21",
+ "_response_id": "msg_011CgBRrWjx9XAVaMeuCPnYd",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x4edc5e546633f22357841b2d23a100a461160e80\", \"pool\": \"0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": -3.0, \"gas_eth\": 0.07089, \"residual\": \"36.970611 XFYI (12.2155 + 11.988106 + 11.767005) held by the sender\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender and each buys XFYI with 1 ETH through the same pool. The 'victim' is the same address as the front and back legs, and the back leg buys XFYI again instead of selling. No position is closed, so this is not a sandwich. The actor spent 3 ETH and holds the XFYI, and the gas total is 0.026402 + 0.022244 + 0.022244 = 0.07089 ETH across all three legs. The back leg alone is not a close, so Q2 is no.\"}",
+ "case_id": "pack_190",
+ "_time": "2026-10-19T18:21:48+0800"
+}

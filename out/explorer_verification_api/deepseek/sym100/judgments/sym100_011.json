@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfca090c1868004bec9c91f53db013288dc21c55b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 1.023347,
+ "gas_eth": 0.206774,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use pool 0xfca090c1868004bec9c91f53db013288dc21c55b and the same holder 0xb5917a48a99c1f8c76119a5133fde1169ec11170, with the victim between them on the same pool. The front leg sells MOD for WETH and the back leg buys MOD back, so no non-WETH position is opened in front; it is a reverse/sell sandwich rather than the specified bracket. Net WETH delta is +1.230121, gas is 0.206774, and MOD nets to zero, leaving +1.023347 ETH after cost.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2554,
+  "output_tokens": 9361,
+  "thinking_tokens": 9121
+ },
+ "_request_id": "45e95252d4ad9421fed13f6f79530ab6",
+ "_response_id": "d0ff0629-418a-4439-8acf-f55f304a4827",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xfca090c1868004bec9c91f53db013288dc21c55b\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":1.023347,\"gas_eth\":0.206774,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use pool 0xfca090c1868004bec9c91f53db013288dc21c55b and the same holder 0xb5917a48a99c1f8c76119a5133fde1169ec11170, with the victim between them on the same pool. The front leg sells MOD for WETH and the back leg buys MOD back, so no non-WETH position is opened in front; it is a reverse/sell sandwich rather than the specified bracket. Net WETH delta is +1.230121, gas is 0.206774, and MOD nets to zero, leaving +1.023347 ETH after cost.\"}",
+ "case_id": "sym100_011",
+ "_time": "2026-10-19T18:39:50+0800"
+}

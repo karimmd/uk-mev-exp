@@ -1,0 +1,17 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x6f9e023c0881ec3d8f56630a6c4fd137c025419e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.064572,
+ "gas_eth": 0.050902,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 107285.569164 YLDY for 0.429162 WETH in the front leg, the victim sold YLDY on the same pool, and the actor bought back the identical YLDY amount for 0.364590 WETH in the back leg. This is a sell-first bracket with no residual token. Net WETH is +0.064572, and after 0.050902 ETH of gas it is about +0.01367 ETH. The actor sold YLDY it already held rather than buying first, which is why confidence is 4 rather than 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0225727,
+ "_session": "3d511a65-9059-4ff7-abf4-c3211c33a72f",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x6f9e023c0881ec3d8f56630a6c4fd137c025419e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.064572, \"gas_eth\": 0.050902, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sold 107285.569164 YLDY for 0.429162 WETH in the front leg, the victim sold YLDY on the same pool, and the actor bought back the identical YLDY amount for 0.364590 WETH in the back leg. This is a sell-first bracket with no residual token. Net WETH is +0.064572, and after 0.050902 ETH of gas it is about +0.01367 ETH. The actor sold YLDY it already held rather than buying first, which is why confidence is 4 rather than 5.\"}",
+ "case_id": "sym100_089",
+ "_time": "2026-10-13T21:42:44+0800"
+}

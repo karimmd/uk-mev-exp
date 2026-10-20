@@ -1,0 +1,24 @@
+{
+ "actor": "0xd736ebda454cbeb64db68b88579c4073b619efdd",
+ "pools": [
+  "0xbe380cb425d1094def80ae5dd3838422eba2c4e3",
+  "0xd2d66b8abbfceb779f0872b2e9efa0a95f078ba7",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "FAST",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.004443,
+ "gas_eth": 0.002133,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor takes FAST from the FAST/WETH pool and sends it on to the FAST/RFI pool. That pool's RFI goes straight to the RFI/WETH pool, which pays the actor 0.07554 WETH. The actor then pays 0.071097 WETH to the first pool to close the cycle. Net is +0.004443 WETH, or about +0.00231 ETH after the 0.002133 ETH gas fee. FAST nets to zero and no residual token is left.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.020976799999999997,
+ "_session": "4913a329-6a0f-40e8-870b-5206364929c0",
+ "_raw": "{\"actor\":\"0xd736ebda454cbeb64db68b88579c4073b619efdd\",\"pools\":[\"0xbe380cb425d1094def80ae5dd3838422eba2c4e3\",\"0xd2d66b8abbfceb779f0872b2e9efa0a95f078ba7\",\"0x4c8341379e95f70c08defb76c4f9c036525edc30\"],\"cycle_token\":\"FAST\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.004443,\"gas_eth\":0.002133,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor takes FAST from the FAST/WETH pool and sends it on to the FAST/RFI pool. That pool's RFI goes straight to the RFI/WETH pool, which pays the actor 0.07554 WETH. The actor then pays 0.071097 WETH to the first pool to close the cycle. Net is +0.004443 WETH, or about +0.00231 ETH after the 0.002133 ETH gas fee. FAST nets to zero and no residual token is left.\"}",
+ "case_id": "arb106_047",
+ "_time": "2026-10-13T22:21:14+0800"
+}

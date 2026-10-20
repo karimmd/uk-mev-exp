@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x376079a32d73b3942639486da4841ca31afa9960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.14286,
+ "gas_eth": 0.002884,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back share the same UniswapV2 EPAY/WETH pool with the victim between them. The actor contract sold EPAY for 9.292415 WETH and later bought the same EPAY amount back for 9.146671 WETH, a sell-side sandwich. Net WETH gain is 0.145744 minus 0.002884 gas, with no non-WETH residual left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2334,
+  "output_tokens": 10632,
+  "thinking_tokens": 10454
+ },
+ "_request_id": "3fcd021b81e3a8df3316b51ec7e3050e",
+ "_response_id": "5a0da626-3bb5-49f0-adac-bc4b0c651a29",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x376079a32d73b3942639486da4841ca31afa9960\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.14286,\"gas_eth\":0.002884,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back share the same UniswapV2 EPAY/WETH pool with the victim between them. The actor contract sold EPAY for 9.292415 WETH and later bought the same EPAY amount back for 9.146671 WETH, a sell-side sandwich. Net WETH gain is 0.145744 minus 0.002884 gas, with no non-WETH residual left.\"}",
+ "case_id": "sym100_026",
+ "_time": "2026-10-19T18:42:53+0800"
+}

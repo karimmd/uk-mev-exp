@@ -1,0 +1,17 @@
+{
+ "actor": "0x66f049111958809841bbe4b81c034da2d953aa0c",
+ "pool": "0x82dbc2673e9640343d263a3c55de49021ad39ae2",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.011613,
+ "gas_eth": 0.012374,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 29779.520984 EDEN for 57.772711 WETH in the front leg. The victim then bought EDEN with 74 ETH on the same pool. The actor sold exactly the same EDEN back for 57.788830 WETH. That is a WETH gain of 0.016119, less the 0.004506 ETH sent to 0x5a0b... in the back leg, so 0.011613 before gas. Gas for the two legs was 0.012374 ETH, so the result is about -0.00076 ETH, which is negative.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0258772,
+ "_session": "fd7121bd-14af-4500-8420-58b6c69f5299",
+ "_raw": "{\"actor\": \"0x66f049111958809841bbe4b81c034da2d953aa0c\", \"pool\": \"0x82dbc2673e9640343d263a3c55de49021ad39ae2\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.011613, \"gas_eth\": 0.012374, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract bought 29779.520984 EDEN for 57.772711 WETH in the front leg. The victim then bought EDEN with 74 ETH on the same pool. The actor sold exactly the same EDEN back for 57.788830 WETH. That is a WETH gain of 0.016119, less the 0.004506 ETH sent to 0x5a0b... in the back leg, so 0.011613 before gas. Gas for the two legs was 0.012374 ETH, so the result is about -0.00076 ETH, which is negative.\"}",
+ "case_id": "pack_021",
+ "_time": "2026-10-13T20:08:20+0800"
+}

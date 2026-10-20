@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd65e975c7d0d5871eff8b079120e43c9f377ada1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013096,
+ "gas_eth": 0.01047,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract is called by the same sender in both legs. Front leg: it sells YOP into the victim's pool 0xd65e\u2026 by routing WETH through a second pool 0xe427\u2026, which gives -0.072112 WETH. Back leg: it buys YOP back from 0xd65e\u2026 and sells it into 0xe427\u2026, which gives +0.085208 WETH. Gross WETH is +0.013096, and after 0.01047 ETH gas the net is about +0.002626 ETH. The actor holds no YOP at the end of either leg; the position shows up as pool imbalance rather than a held token, so Q1 is less certain.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3415,
+  "output_tokens": 1135,
+  "thinking_tokens": 807
+ },
+ "_request_id": "req_011CgBSDaoccP84AwDvWgyr3",
+ "_response_id": "msg_011CgBSDbAx3TdYjzmPs2VKr",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xd65e975c7d0d5871eff8b079120e43c9f377ada1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.013096,\"gas_eth\":0.01047,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract is called by the same sender in both legs. Front leg: it sells YOP into the victim's pool 0xd65e\u2026 by routing WETH through a second pool 0xe427\u2026, which gives -0.072112 WETH. Back leg: it buys YOP back from 0xd65e\u2026 and sells it into 0xe427\u2026, which gives +0.085208 WETH. Gross WETH is +0.013096, and after 0.01047 ETH gas the net is about +0.002626 ETH. The actor holds no YOP at the end of either leg; the position shows up as pool imbalance rather than a held token, so Q1 is less certain.\"}",
+ "case_id": "sym100_055",
+ "_time": "2026-10-19T18:26:40+0800"
+}

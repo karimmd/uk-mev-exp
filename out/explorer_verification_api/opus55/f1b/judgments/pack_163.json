@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001998,
+ "gas_eth": 0.028703,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026 buys 166.047434 UNQT for 0.2468 WETH on UNQT/WETH pool 0x020e\u2026 before the victim buys UNQT on that same pool. It then sells exactly 166.047434 UNQT back for 0.277501 WETH, a gross gain of 0.030701 WETH. After the 0.028703 ETH combined gas (the back leg paid 591 gwei) the net is a thin +0.002 ETH; the zero-value self-destruct internals look like gas-token refunds and do not move ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3216,
+  "output_tokens": 574,
+  "thinking_tokens": 256
+ },
+ "_request_id": "req_011CgBRnkAjyTHq8daCWUxRo",
+ "_response_id": "msg_011CgBRnkW5qxXnn1bz2ZdmM",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x020e6d0e80d08567ecb14f942fa326748407a845\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.001998, \"gas_eth\": 0.028703, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026 buys 166.047434 UNQT for 0.2468 WETH on UNQT/WETH pool 0x020e\u2026 before the victim buys UNQT on that same pool. It then sells exactly 166.047434 UNQT back for 0.277501 WETH, a gross gain of 0.030701 WETH. After the 0.028703 ETH combined gas (the back leg paid 591 gwei) the net is a thin +0.002 ETH; the zero-value self-destruct internals look like gas-token refunds and do not move ETH.\"}",
+ "case_id": "pack_163",
+ "_time": "2026-10-19T18:20:59+0800"
+}

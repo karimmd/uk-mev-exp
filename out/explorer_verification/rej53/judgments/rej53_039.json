@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022273,
+ "gas_eth": 0.018664,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 70338.63 HORD in the front leg (USDT/HORD V2 pool, funded by a WETH->USDT hop on the V3 pool). The victim buys HORD on the same V2 pool in between. The back leg sells exactly 70338.63 HORD and converts the USDT back to WETH, for a WETH gain of 0.046401. The 0.024128 ETH sent with the back transaction is forwarded to 0x3ece... (likely a builder or coinbase tip), leaving 0.022273 before gas. After 0.018664 ETH of gas the net is about +0.0036 ETH. If that tip were not a cost to the actor, the figure would be higher, so the sign holds either way.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028280700000000002,
+ "_session": "39cd5505-f3f6-4b52-a2bd-5ac3da542adb",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.022273, \"gas_eth\": 0.018664, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 70338.63 HORD in the front leg (USDT/HORD V2 pool, funded by a WETH->USDT hop on the V3 pool). The victim buys HORD on the same V2 pool in between. The back leg sells exactly 70338.63 HORD and converts the USDT back to WETH, for a WETH gain of 0.046401. The 0.024128 ETH sent with the back transaction is forwarded to 0x3ece... (likely a builder or coinbase tip), leaving 0.022273 before gas. After 0.018664 ETH of gas the net is about +0.0036 ETH. If that tip were not a cost to the actor, the figure would be higher, so the sign holds either way.\"}",
+ "case_id": "rej53_039",
+ "_time": "2026-10-13T22:01:22+0800"
+}

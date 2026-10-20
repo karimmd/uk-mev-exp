@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0xec745519247642fbf14689ac7254068dffba08e3",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.014601,
+ "residual": "Front sender 0x8516...cb6d holds about 3.7575e15 ELONGD, never sold. Back sender 0x823f...dc33 received about 7.4816e15 ELONGD.",
+ "confidence": 4,
+ "note": "The front (from 0x8516...) and back (from 0x823f...) legs have different senders, and both send ETH in and take ELONGD out of the same pool. Nothing closes a position, since the back leg buys ELONGD rather than selling it. The victim trades ELONGD on that pool, but there is no single actor who opens and closes a position, so this is not a sandwich bracket. No sign for Q2 is possible because the front sender is left holding ELONGD.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0242647,
+ "_session": "8bcff978-a752-44d4-a0f6-f97b2bdea337",
+ "_raw": "{\"actor\": null, \"pool\": \"0xec745519247642fbf14689ac7254068dffba08e3\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.014601, \"residual\": \"Front sender 0x8516...cb6d holds about 3.7575e15 ELONGD, never sold. Back sender 0x823f...dc33 received about 7.4816e15 ELONGD.\", \"confidence\": 4, \"note\": \"The front (from 0x8516...) and back (from 0x823f...) legs have different senders, and both send ETH in and take ELONGD out of the same pool. Nothing closes a position, since the back leg buys ELONGD rather than selling it. The victim trades ELONGD on that pool, but there is no single actor who opens and closes a position, so this is not a sandwich bracket. No sign for Q2 is possible because the front sender is left holding ELONGD.\"}",
+ "case_id": "pack_070",
+ "_time": "2026-10-13T20:17:40+0800"
+}

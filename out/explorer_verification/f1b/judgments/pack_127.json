@@ -1,0 +1,17 @@
+{
+ "actor": "0x4ef377462b03b650d52140c482394a6703d0d338",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -101.134146,
+ "gas_eth": 0.119744,
+ "residual": "16004 SUSHI (10004 from front + 6000 from back)",
+ "confidence": 4,
+ "note": "All three legs buy SUSHI with ETH on the same pool. In the back leg the sender again pays WETH to the pool and receives 6000 SUSHI, so it never sells or closes the position from the front leg. The actor ends holding 16004 SUSHI after spending about 101.13 ETH, so no sign for the net position can be given from this data.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0275652,
+ "_session": "8a981c82-cdb9-4e09-b6ed-fc5c6a73bf63",
+ "_raw": "{\"actor\": \"0x4ef377462b03b650d52140c482394a6703d0d338\", \"pool\": \"0x795065dcc9f64b5614c407a6efdc400da6221fb0\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -101.134146, \"gas_eth\": 0.119744, \"residual\": \"16004 SUSHI (10004 from front + 6000 from back)\", \"confidence\": 4, \"note\": \"All three legs buy SUSHI with ETH on the same pool. In the back leg the sender again pays WETH to the pool and receives 6000 SUSHI, so it never sells or closes the position from the front leg. The actor ends holding 16004 SUSHI after spending about 101.13 ETH, so no sign for the net position can be given from this data.\"}",
+ "case_id": "pack_127",
+ "_time": "2026-10-13T20:29:06+0800"
+}

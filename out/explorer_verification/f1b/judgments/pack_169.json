@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.077763,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 32.74B STARL with 12.118578 WETH in the front leg. It sells the same amount back in the back leg for 12.273782 WETH, which is +0.155204 WETH gross. The victim buys STARL on the same pool in between. The back leg also forwards 0.077441 ETH to 0xb3b7\u2026, probably a builder payment. Subtracting it leaves about +0.077763 ETH, and gas is 0 gwei (0 ETH fee).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0271832,
+ "_session": "7c91941e-96d3-4a3f-8513-0c375aa75761",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.077763, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 32.74B STARL with 12.118578 WETH in the front leg. It sells the same amount back in the back leg for 12.273782 WETH, which is +0.155204 WETH gross. The victim buys STARL on the same pool in between. The back leg also forwards 0.077441 ETH to 0xb3b7\u2026, probably a builder payment. Subtracting it leaves about +0.077763 ETH, and gas is 0 gwei (0 ETH fee).\"}",
+ "case_id": "pack_169",
+ "_time": "2026-10-13T20:37:28+0800"
+}

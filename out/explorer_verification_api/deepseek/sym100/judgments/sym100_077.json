@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -0.002749,
+ "gas_eth": 0.05326,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg sells SMINU for WETH and back leg buys the SMINU back, so the actor does not open a non-WETH token position in the front leg. Net WETH is +0.050511 before gas; after 0.053260 gas the net is -0.002749.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2406,
+  "output_tokens": 6164,
+  "thinking_tokens": 5985
+ },
+ "_request_id": "e296f0c2ac1c626780bef55687897133",
+ "_response_id": "ff73cb42-7d45-48cc-b188-d96290d5b370",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": -0.002749, \"gas_eth\": 0.05326, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front leg sells SMINU for WETH and back leg buys the SMINU back, so the actor does not open a non-WETH token position in the front leg. Net WETH is +0.050511 before gas; after 0.053260 gas the net is -0.002749.\"}",
+ "case_id": "sym100_077",
+ "_time": "2026-10-19T18:52:53+0800"
+}

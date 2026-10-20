@@ -1,0 +1,32 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0xae8b9d75a75a8b7c5cc5deb51fa916ac49147dad",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.033525,
+ "gas_eth": 0.02314,
+ "profit_after_gas": 0.010385,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same target contract 0xc1df... sells then buys the same DEPO amount on the Uniswap pair 0xae8b..., while the victim trades that same pair in between. Net WETH is +0.033525 before gas; subtracting 0.02314 gas leaves a positive 0.010385.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2368,
+  "output_tokens": 3592,
+  "thinking_tokens": 3410
+ },
+ "_request_id": "9d653617110500efc6d20c0d93b55f1a",
+ "_response_id": "2c0dd241-712f-4d64-a5b3-cf53dc71679c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0xae8b9d75a75a8b7c5cc5deb51fa916ac49147dad\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.033525,\"gas_eth\":0.02314,\"profit_after_gas\":0.010385,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same target contract 0xc1df... sells then buys the same DEPO amount on the Uniswap pair 0xae8b..., while the victim trades that same pair in between. Net WETH is +0.033525 before gas; subtracting 0.02314 gas leaves a positive 0.010385.\"}",
+ "case_id": "sym100_048",
+ "_time": "2026-10-19T19:33:11+0800"
+}

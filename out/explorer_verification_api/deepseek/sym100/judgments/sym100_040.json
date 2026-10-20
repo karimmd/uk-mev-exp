@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.075701,
+ "gas_eth": 0.010177,
+ "residual": "none",
+ "confidence": 5,
+ "note": "c1dfd is the front/back actor; it sells SYN for WETH before the victim's SYN sale and buys back the same SYN amount after on pool 0x4a86. Gross WETH delta is +0.075701, gas is 0.010177, so net after gas is +0.065524; SYN nets to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2295,
+  "output_tokens": 10624,
+  "thinking_tokens": 10451
+ },
+ "_request_id": "3ee432b7c3b0481e647fa481ad323866",
+ "_response_id": "c6596f3e-31d0-4c8d-8375-bf3417e5a5b3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.075701,\"gas_eth\":0.010177,\"residual\":\"none\",\"confidence\":5,\"note\":\"c1dfd is the front/back actor; it sells SYN for WETH before the victim's SYN sale and buys back the same SYN amount after on pool 0x4a86. Gross WETH delta is +0.075701, gas is 0.010177, so net after gas is +0.065524; SYN nets to zero.\"}",
+ "case_id": "sym100_040",
+ "_time": "2026-10-19T18:45:41+0800"
+}

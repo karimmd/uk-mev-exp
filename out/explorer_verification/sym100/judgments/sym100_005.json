@@ -1,0 +1,17 @@
+{
+ "actor": "0x0724ee5d148584c39425af7777a12bab54fa880a",
+ "pool": "0x9dc696f1067a6b9929986283f6d316be9c9198fd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.093616,
+ "gas_eth": 0.020745,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract 0x0724 sells 10112.294722 BONDLY into the pool for 3.247220 WETH in the front leg. The victim then sells 110060 BONDLY into the same pool, and the back leg buys back exactly the same BONDLY for 3.153604 WETH. This is a sell-first, buy-back-cheaper bracket, so the BONDLY position is flat at the end. Net WETH is +0.093616, and after 0.020745 ETH of front and back gas the result is about +0.0729 ETH. The front and back legs were sent from different EOAs (0x607b and 0x6baa) to the same actor contract, which lowers my confidence slightly.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027988,
+ "_session": "52c497f1-dbdb-42dc-b72f-0032588db534",
+ "_raw": "{\"actor\": \"0x0724ee5d148584c39425af7777a12bab54fa880a\", \"pool\": \"0x9dc696f1067a6b9929986283f6d316be9c9198fd\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.093616, \"gas_eth\": 0.020745, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The contract 0x0724 sells 10112.294722 BONDLY into the pool for 3.247220 WETH in the front leg. The victim then sells 110060 BONDLY into the same pool, and the back leg buys back exactly the same BONDLY for 3.153604 WETH. This is a sell-first, buy-back-cheaper bracket, so the BONDLY position is flat at the end. Net WETH is +0.093616, and after 0.020745 ETH of front and back gas the result is about +0.0729 ETH. The front and back legs were sent from different EOAs (0x607b and 0x6baa) to the same actor contract, which lowers my confidence slightly.\"}",
+ "case_id": "sym100_005",
+ "_time": "2026-10-13T21:23:36+0800"
+}

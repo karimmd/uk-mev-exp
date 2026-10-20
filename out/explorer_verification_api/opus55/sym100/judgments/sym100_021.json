@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd03dffd02db4b076e3eed9272a6a243a23de16e3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01983,
+ "gas_eth": 0.290373,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0x7cf0 routes WETH through V3 pool 0x1c98 and V2 pool 0xd03d. In the front leg it sells 284.62 METIS into V2 pool 0xd03d, the victim then sells METIS into the same pool, and the back leg buys 437.11 METIS back out of it; METIS nets to zero across V3/V2, so the 'position' is a pool-price push rather than a held token balance, which lowers confidence on Q1. WETH nets -0.188134 + 0.498337 = +0.310203 against 0.290373 gas, leaving about +0.0198 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3106,
+  "output_tokens": 1437,
+  "thinking_tokens": 1096
+ },
+ "_request_id": "req_011CgBS8mzSBqtZ7ZRCsZRWY",
+ "_response_id": "msg_011CgBS8nLmeKQSP3JzDzm1i",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xd03dffd02db4b076e3eed9272a6a243a23de16e3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.01983, \"gas_eth\": 0.290373, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0x7cf0 routes WETH through V3 pool 0x1c98 and V2 pool 0xd03d. In the front leg it sells 284.62 METIS into V2 pool 0xd03d, the victim then sells METIS into the same pool, and the back leg buys 437.11 METIS back out of it; METIS nets to zero across V3/V2, so the 'position' is a pool-price push rather than a held token balance, which lowers confidence on Q1. WETH nets -0.188134 + 0.498337 = +0.310203 against 0.290373 gas, leaving about +0.0198 ETH.\"}",
+ "case_id": "sym100_021",
+ "_time": "2026-10-19T18:25:40+0800"
+}

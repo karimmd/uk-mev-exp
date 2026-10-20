@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a self-contained arbitrage by contract 0x0aa3e7a6: it buys 23915.8 GLM on pool b5f790 for 5.075 WETH and sells it immediately on 78740436 for 5.370 WETH, so no GLM position is carried past the victim. The back leg is a separate arbitrage by a different contract, 0x...5117dd3a, which buys GLM on 78740436 and sells it on b5f790. No single actor opens a position in the front leg and closes it in the back leg, so this is not a sandwich bracket and there is no single actor whose profit could be netted.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4541,
+  "output_tokens": 776,
+  "thinking_tokens": 456
+ },
+ "_request_id": "req_011CgBVXFKwrzHS8rqoJ6RoU",
+ "_response_id": "msg_011CgBVXFhGrcNE8TSPm8hvf",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": null, \"pool\": \"0xb5f790a03b7559312d9e738df5056a4b4c8459f4\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a self-contained arbitrage by contract 0x0aa3e7a6: it buys 23915.8 GLM on pool b5f790 for 5.075 WETH and sells it immediately on 78740436 for 5.370 WETH, so no GLM position is carried past the victim. The back leg is a separate arbitrage by a different contract, 0x...5117dd3a, which buys GLM on 78740436 and sells it on b5f790. No single actor opens a position in the front leg and closes it in the back leg, so this is not a sandwich bracket and there is no single actor whose profit could be netted.\"}\n```",
+ "case_id": "pack_080",
+ "_time": "2026-10-19T19:09:59+0800"
+}

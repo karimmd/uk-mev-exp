@@ -1,0 +1,31 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x635b58600509acfe70e0bd4c4935c08182774e58",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000919,
+ "gas_eth": 0.086705,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor address receives STACK in the front leg and sends the exact amount back in the back leg on pool 0x635b..., which the victim also trades on. Gross WETH gain is 0.087624 minus front/back gas 0.086705, leaving a small positive net with no residual STACK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2242,
+  "output_tokens": 2910,
+  "thinking_tokens": 2747
+ },
+ "_request_id": "cf47fa7d7e6244f37f57bed298f95e78",
+ "_response_id": "1971874e-0d6b-4bf5-b0ee-61d0344469ed",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x01ff6318440f7d5553a82294d78262d5f5084eff\",\"pool\":\"0x635b58600509acfe70e0bd4c4935c08182774e58\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.000919,\"gas_eth\":0.086705,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor address receives STACK in the front leg and sends the exact amount back in the back leg on pool 0x635b..., which the victim also trades on. Gross WETH gain is 0.087624 minus front/back gas 0.086705, leaving a small positive net with no residual STACK.\"}",
+ "case_id": "pack_198",
+ "_time": "2026-10-19T18:36:38+0800"
+}

@@ -1,0 +1,26 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0x73a6a761fe483ba19debb8f56ac5bbf14c0cdad1",
+  "0xe06f8d30ac334c857fc8c380c85969c150f38a6a",
+  "0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002798,
+ "gas_eth": 0.029456,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 3.190082 WETH from the V3 pool 0x6059 and sends 3.157113 WETH to the V3 pool 0x73a6. The pools in between form a closed loop: SUSHI, then FRAX, then OHM, then DAI, which returns to 0x6059. The actor holds only WETH and no other token. Net is +0.032969 WETH, minus 0.000715 ETH sent out internally and the 0.029456 ETH gas fee, which leaves about +0.0028 ETH. WETH is not netted to zero, so the closed cycle is at the pool level, not the actor's token level. That is why confidence is 4, not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027751200000000004,
+ "_session": "ef18f1b7-9159-4706-91c4-c6e8d0e066cb",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x60594a405d53811d3bc4766596efd80fd545a270\",\"0x73a6a761fe483ba19debb8f56ac5bbf14c0cdad1\",\"0xe06f8d30ac334c857fc8c380c85969c150f38a6a\",\"0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.002798,\"gas_eth\":0.029456,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 3.190082 WETH from the V3 pool 0x6059 and sends 3.157113 WETH to the V3 pool 0x73a6. The pools in between form a closed loop: SUSHI, then FRAX, then OHM, then DAI, which returns to 0x6059. The actor holds only WETH and no other token. Net is +0.032969 WETH, minus 0.000715 ETH sent out internally and the 0.029456 ETH gas fee, which leaves about +0.0028 ETH. WETH is not netted to zero, so the closed cycle is at the pool level, not the actor's token level. That is why confidence is 4, not 5.\"}",
+ "case_id": "arb106_053",
+ "_time": "2026-10-13T22:22:47+0800"
+}

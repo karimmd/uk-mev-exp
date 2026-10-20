@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6af1becb78701f5919adb6f6932965abe4547763",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.025893,
+ "gas_eth": 0,
+ "profit_after_gas": 0.025893,
+ "residual": "634111774.180504 KELPIE",
+ "confidence": 5,
+ "note": "The actor contract bought KELPIE with WETH on pool 0x6af1... in front and sold KELPIE for WETH on the same pool in back, with the victim trading through that pool in between. Net WETH gain is 0.025893 with zero front/back gas, plus a residual KELPIE holding remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2402,
+  "output_tokens": 5964,
+  "thinking_tokens": 5774
+ },
+ "_request_id": "2b16354aec611a8f1516a53e600c7438",
+ "_response_id": "6690d16f-0e60-455a-bca5-f5c47b9f994c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x6af1becb78701f5919adb6f6932965abe4547763\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.025893,\"gas_eth\":0,\"profit_after_gas\":0.025893,\"residual\":\"634111774.180504 KELPIE\",\"confidence\":5,\"note\":\"The actor contract bought KELPIE with WETH on pool 0x6af1... in front and sold KELPIE for WETH on the same pool in back, with the victim trading through that pool in between. Net WETH gain is 0.025893 with zero front/back gas, plus a residual KELPIE holding remains.\"}",
+ "case_id": "pack_181",
+ "_time": "2026-10-19T19:25:56+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.122608,
+ "gas_eth": 0.010257,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 13,442,189.245015 SPELL into the SPELL/WETH pool in the front leg for 3.505 WETH. The victim then sells SPELL into the same pool. In the back leg the actor buys back exactly the same SPELL amount for 3.382392 WETH. This is a reverse-direction sandwich, and it leaves no residual SPELL. WETH net is +0.122608, and after 0.010257 ETH of front and back gas it is about +0.112351 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3040,
+  "output_tokens": 922,
+  "thinking_tokens": 620
+ },
+ "_request_id": "req_011CgBRxAk6Uk5rMhNC8mc2K",
+ "_response_id": "msg_011CgBRxB6RxdfPY1NCgZw8s",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xb5de0c3753b6e1b4dba616db82767f17513e6d4e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.122608, \"gas_eth\": 0.010257, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 13,442,189.245015 SPELL into the SPELL/WETH pool in the front leg for 3.505 WETH. The victim then sells SPELL into the same pool. In the back leg the actor buys back exactly the same SPELL amount for 3.382392 WETH. This is a reverse-direction sandwich, and it leaves no residual SPELL. WETH net is +0.122608, and after 0.010257 ETH of front and back gas it is about +0.112351 ETH.\"}",
+ "case_id": "sym100_010",
+ "_time": "2026-10-19T18:23:09+0800"
+}

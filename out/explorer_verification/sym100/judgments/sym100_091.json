@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x570febdf89c07f256c75686caca215289bb11cfc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.380099,
+ "gas_eth": 0.024277,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract sells 1441.165691 ERN into the ERN/WETH pool for 17.702044 WETH in the front leg. The victim then sells 1200 ERN into that pool, which pushes the ERN price down. The back leg buys exactly 1441.165691 ERN back for 17.321945 WETH. The actor nets +0.380099 WETH, or about +0.355822 ETH after 0.024277 ETH of front and back gas, and ends with no ERN residual. The ordering is inverted: the front leg sells ERN the actor already held, so the position is effectively short, but the bracket still fits.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026756000000000002,
+ "_session": "3608793b-56bb-4c82-94fb-f90be872f898",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x570febdf89c07f256c75686caca215289bb11cfc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.380099, \"gas_eth\": 0.024277, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract sells 1441.165691 ERN into the ERN/WETH pool for 17.702044 WETH in the front leg. The victim then sells 1200 ERN into that pool, which pushes the ERN price down. The back leg buys exactly 1441.165691 ERN back for 17.321945 WETH. The actor nets +0.380099 WETH, or about +0.355822 ETH after 0.024277 ETH of front and back gas, and ends with no ERN residual. The ordering is inverted: the front leg sells ERN the actor already held, so the position is effectively short, but the bracket still fits.\"}",
+ "case_id": "sym100_091",
+ "_time": "2026-10-13T21:43:12+0800"
+}

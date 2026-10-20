@@ -1,0 +1,43 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x86e69d1ae728c9cd229f07bbf34e01bf27258354",
+  "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+  "0x7ce01885a13c652241ae02ea7369ee8d466802eb",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878",
+  "0x9e79ccaacaaa5dbb6714eea8fdfd6496c9618f40",
+  "0x4a9c7b98c1a92db0ad33b31b549fb1820fe571ff"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008922,
+ "gas_eth": 0.008288,
+ "profit_after_gas": 0.000634,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract runs three WETH-start, WETH-end cycles. The first goes through a V3 pool, then TRU, then a V2 pool. The second goes TRIBE to FEI and back to WETH. The third goes through SWINGBY. Each cycle returns more WETH than it sent: 0.905150 in versus 0.896228 out, so 0.008922 before gas. Intermediate tokens move only pool to pool, nothing is minted or left behind, and the margin over the stated 0.008288 fee is thin but positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3268,
+  "output_tokens": 1187,
+  "thinking_tokens": 621
+ },
+ "_request_id": "req_011CgBXT1UNs7ozxyCk8qLDh",
+ "_response_id": "msg_011CgBXT1piUKpACgCYPttzY",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\", \"pools\": [\"0x86e69d1ae728c9cd229f07bbf34e01bf27258354\", \"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\", \"0x7ce01885a13c652241ae02ea7369ee8d466802eb\", \"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\", \"0x94b0a3d511b6ecdb17ebf877278ab030acb0a878\", \"0x9e79ccaacaaa5dbb6714eea8fdfd6496c9618f40\", \"0x4a9c7b98c1a92db0ad33b31b549fb1820fe571ff\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.008922, \"gas_eth\": 0.008288, \"profit_after_gas\": 0.000634, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract runs three WETH-start, WETH-end cycles. The first goes through a V3 pool, then TRU, then a V2 pool. The second goes TRIBE to FEI and back to WETH. The third goes through SWINGBY. Each cycle returns more WETH than it sent: 0.905150 in versus 0.896228 out, so 0.008922 before gas. Intermediate tokens move only pool to pool, nothing is minted or left behind, and the margin over the stated 0.008288 fee is thin but positive.\"}\n```",
+ "case_id": "arb106_061",
+ "_time": "2026-10-19T19:35:18+0800"
+}

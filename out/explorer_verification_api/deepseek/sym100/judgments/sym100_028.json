@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xaec21057bb0c910c22f6f6db64ae6743e96718b4",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.45693,
+ "gas_eth": 0.035149,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same actor and pool are used with the victim between, but the front sells DWZ for WETH and the back buys the same DWZ back, so no non-WETH token position is opened in the front and closed in the back as Q1 defines. Gross WETH across the legs is +0.492079; subtracting 0.035149 gas gives +0.45693, and the DWZ amount is exactly restored.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2375,
+  "output_tokens": 11602,
+  "thinking_tokens": 11415
+ },
+ "_request_id": "42b0f65b6369794a0dd524bf79cd0147",
+ "_response_id": "3836b650-c851-4352-8b1c-18a6ca62d92f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xaec21057bb0c910c22f6f6db64ae6743e96718b4\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.45693,\"gas_eth\":0.035149,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same actor and pool are used with the victim between, but the front sells DWZ for WETH and the back buys the same DWZ back, so no non-WETH token position is opened in the front and closed in the back as Q1 defines. Gross WETH across the legs is +0.492079; subtracting 0.035149 gas gives +0.45693, and the DWZ amount is exactly restored.\"}",
+ "case_id": "sym100_028",
+ "_time": "2026-10-19T18:43:18+0800"
+}

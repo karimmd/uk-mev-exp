@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0xaa736ca527252cf9f65abed23c21f5ac46af27e3",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 1.958944,
+ "gas_eth": 0.022745,
+ "profit_after_gas": 1.936199,
+ "residual": "-16825.804927 GOLD (back leg sold 36674.45 GOLD vs 19848.65 bought in front; excess drawn from prior inventory)",
+ "confidence": 3,
+ "note": "The same contract, called by the same sender, buys GOLD on pair 0xaa73 before the victim's GOLD buy on that pair and sells GOLD there afterwards. It sold about 16826 more GOLD than it bought, worth roughly 1.9 WETH at block prices. That nearly offsets the 1.959 WETH gain, so the sign after gas depends on how that inventory is valued.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2996,
+  "output_tokens": 1128,
+  "thinking_tokens": 786
+ },
+ "_request_id": "req_011CgBW95DyXLRChtE9D4Kac",
+ "_response_id": "msg_011CgBW95gWsoxaspTwCEgvg",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x00000000c9fdd743c60055c0e4ea30d266272c1f\", \"pool\": \"0xaa736ca527252cf9f65abed23c21f5ac46af27e3\", \"Q1\": \"yes\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": 1.958944, \"gas_eth\": 0.022745, \"profit_after_gas\": 1.936199, \"residual\": \"-16825.804927 GOLD (back leg sold 36674.45 GOLD vs 19848.65 bought in front; excess drawn from prior inventory)\", \"confidence\": 3, \"note\": \"The same contract, called by the same sender, buys GOLD on pair 0xaa73 before the victim's GOLD buy on that pair and sells GOLD there afterwards. It sold about 16826 more GOLD than it bought, worth roughly 1.9 WETH at block prices. That nearly offsets the 1.959 WETH gain, so the sign after gas depends on how that inventory is valued.\"}\n```",
+ "case_id": "pack_186",
+ "_time": "2026-10-19T19:18:10+0800"
+}

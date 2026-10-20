@@ -1,0 +1,38 @@
+{
+ "actor": "0xd736ebda454cbeb64db68b88579c4073b619efdd",
+ "pools": [
+  "0xd2d66b8abbfceb779f0872b2e9efa0a95f078ba7",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30",
+  "0xbe380cb425d1094def80ae5dd3838422eba2c4e3"
+ ],
+ "cycle_token": "FAST",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.00231,
+ "gas_eth": 0.002133,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract receives and sends the same 95.623416 FAST, receives 0.075540 WETH from one pool, and sends 0.071097 WETH to another, leaving +0.004443 WETH before gas. After the 0.002133 ETH gas fee, the net position is +0.00231 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1667,
+  "output_tokens": 6103,
+  "thinking_tokens": 5860
+ },
+ "_request_id": "47b7bf0044cabd98297f6e919eb83a61",
+ "_response_id": "8bb98836-96f2-4d99-9034-c124f83301cf",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xd736ebda454cbeb64db68b88579c4073b619efdd\",\"pools\":[\"0xd2d66b8abbfceb779f0872b2e9efa0a95f078ba7\",\"0x4c8341379e95f70c08defb76c4f9c036525edc30\",\"0xbe380cb425d1094def80ae5dd3838422eba2c4e3\"],\"cycle_token\":\"FAST\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.00231,\"gas_eth\":0.002133,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract receives and sends the same 95.623416 FAST, receives 0.075540 WETH from one pool, and sends 0.071097 WETH to another, leaving +0.004443 WETH before gas. After the 0.002133 ETH gas fee, the net position is +0.00231 ETH.\"}",
+ "case_id": "arb106_047",
+ "_time": "2026-10-19T19:16:20+0800"
+}

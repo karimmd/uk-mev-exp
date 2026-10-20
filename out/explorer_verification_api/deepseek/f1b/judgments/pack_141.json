@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.187025,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both route through the same PEOPLE/WETH Uniswap V3 pool 0x83ab..., with 0x499... receiving PEOPLE in front and giving the same amount back in back. The victim also trades on 0x83ab..., and the actor nets +0.187025 WETH before gas; after 0.157241 ETH front/back gas the position remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2255,
+  "output_tokens": 9686,
+  "thinking_tokens": 9507
+ },
+ "_request_id": "197af5c2e3208553c720231bf048f8ce",
+ "_response_id": "de37072a-5f13-463c-bbe9-d633776f1423",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.187025,\"gas_eth\":0.157241,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both route through the same PEOPLE/WETH Uniswap V3 pool 0x83ab..., with 0x499... receiving PEOPLE in front and giving the same amount back in back. The victim also trades on 0x83ab..., and the actor nets +0.187025 WETH before gas; after 0.157241 ETH front/back gas the position remains positive.\"}",
+ "case_id": "pack_141",
+ "_time": "2026-10-19T18:28:25+0800"
+}

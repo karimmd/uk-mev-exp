@@ -1,0 +1,31 @@
+{
+ "actor": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9",
+ "pool": "0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 7.130422,
+ "gas_eth": 0.005064,
+ "residual": "-159.811746 ETH2X-FLI (sold in front and back, never bought)",
+ "confidence": 4,
+ "note": "All three legs go through the same contract 0xa57bd001, are sent by different senders, and are the same direction: 0x56178a0d sells ETH2X-FLI for WETH on pool 0xf91c12. No position is opened in the front and closed in the back, so this is not a sandwich bracket. The 7.135486 WETH received, less 0.005064 ETH gas, is offset by 159.81 FLI given up, so the sign cannot be settled from this data.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2852,
+  "output_tokens": 716,
+  "thinking_tokens": 396
+ },
+ "_request_id": "req_011CgBQjQzciJB1SAcXFFCB9",
+ "_response_id": "msg_011CgBQjWu59wMJAgueYYrc1",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x56178a0d5f301baf6cf3e1cd53d9863437345bf9\", \"pool\": \"0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 7.130422, \"gas_eth\": 0.005064, \"residual\": \"-159.811746 ETH2X-FLI (sold in front and back, never bought)\", \"confidence\": 4, \"note\": \"All three legs go through the same contract 0xa57bd001, are sent by different senders, and are the same direction: 0x56178a0d sells ETH2X-FLI for WETH on pool 0xf91c12. No position is opened in the front and closed in the back, so this is not a sandwich bracket. The 7.135486 WETH received, less 0.005064 ETH gas, is offset by 159.81 FLI given up, so the sign cannot be settled from this data.\"}\n```",
+ "case_id": "pack_057",
+ "_time": "2026-10-19T18:07:11+0800"
+}

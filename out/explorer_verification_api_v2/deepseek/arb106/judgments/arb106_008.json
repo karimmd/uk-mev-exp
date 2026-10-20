@@ -1,0 +1,39 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+  "0xa295c1301e063728d733f9fb2155448fff9c70b7"
+ ],
+ "cycle_token": null,
+ "profit_token": "WETH",
+ "Q1": "no",
+ "Q1_reason": "other",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.043935,
+ "gas_eth": 0.030283,
+ "profit_after_gas": 0.013652,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor only has WETH inflow/outflow; intermediate USDC and EXRD route directly between pools, so no net-zero token position for the actor. Net WETH +0.044453 minus 0.000518 ETH internal transfer and 0.030283 gas leaves +0.013652 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1630,
+  "output_tokens": 27317,
+  "thinking_tokens": 27070
+ },
+ "_request_id": "98e852426c5279e193a56f38355bc5e8",
+ "_response_id": "bb096118-7fde-4de9-b972-5798b0edf19c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"0xa295c1301e063728d733f9fb2155448fff9c70b7\"],\"cycle_token\":null,\"profit_token\":\"WETH\",\"Q1\":\"no\",\"Q1_reason\":\"other\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.043935,\"gas_eth\":0.030283,\"profit_after_gas\":0.013652,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor only has WETH inflow/outflow; intermediate USDC and EXRD route directly between pools, so no net-zero token position for the actor. Net WETH +0.044453 minus 0.000518 ETH internal transfer and 0.030283 gas leaves +0.013652 ETH.\"}",
+ "case_id": "arb106_008",
+ "_time": "2026-10-19T19:50:26+0800"
+}

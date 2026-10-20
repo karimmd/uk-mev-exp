@@ -1,0 +1,40 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x4e56fff9004cb210a3bdef04b9c3fcb22b54f0de",
+  "0x69b81152c5a8d35a67b32a4d3772795d96cae4da"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.013996,
+ "gas_eth": 0.013506,
+ "profit_after_gas": 0.00049,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Flash swap arbitrage across four pools: WETH from 0x6059 used through OHM v2/v1 and DAI to repay, actor 0xa75a nets +0.013996 WETH before gas. Gas 0.013506 leaves small positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1739,
+  "output_tokens": 19935,
+  "thinking_tokens": 19660
+ },
+ "_request_id": "cbdc40c57d8f2960447911c251ee19b2",
+ "_response_id": "d670feaa-e286-4bea-aba2-9c1604c0900b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\",\"pools\":[\"0x60594a405d53811d3bc4766596efd80fd545a270\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x4e56fff9004cb210a3bdef04b9c3fcb22b54f0de\",\"0x69b81152c5a8d35a67b32a4d3772795d96cae4da\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.013996,\"gas_eth\":0.013506,\"profit_after_gas\":0.00049,\"residual\":\"none\",\"confidence\":4,\"note\":\"Flash swap arbitrage across four pools: WETH from 0x6059 used through OHM v2/v1 and DAI to repay, actor 0xa75a nets +0.013996 WETH before gas. Gas 0.013506 leaves small positive profit.\"}",
+ "case_id": "arb106_004",
+ "_time": "2026-10-19T19:48:23+0800"
+}

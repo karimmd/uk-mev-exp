@@ -1,0 +1,32 @@
+{
+ "actor": "0xb8db34f834e9df42f2002ceb7b829dad89d08e14",
+ "pool": "0xcb4f983e705caeb7217c5c3785001cb138115f0b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.031537,
+ "gas_eth": 0.011175,
+ "profit_after_gas": 0.020362,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract b8db executes multi-hop WETH cycles in front and back and shares pool 0xcb4f with the victim, but it nets to zero non-WETH holdings after each transaction, so no non-WETH position is opened in front and closed in back. Across both legs it nets +0.031537 WETH before gas; after 0.011175 gas it is +0.020362 WETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3931,
+  "output_tokens": 11238,
+  "thinking_tokens": 11037
+ },
+ "_request_id": "469452d8f3af375609b1e9ef98b4da32",
+ "_response_id": "2c6186e2-bf3e-443a-b25f-e49f4095252e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb8db34f834e9df42f2002ceb7b829dad89d08e14\",\"pool\":\"0xcb4f983e705caeb7217c5c3785001cb138115f0b\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.031537,\"gas_eth\":0.011175,\"profit_after_gas\":0.020362,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract b8db executes multi-hop WETH cycles in front and back and shares pool 0xcb4f with the victim, but it nets to zero non-WETH holdings after each transaction, so no non-WETH position is opened in front and closed in back. Across both legs it nets +0.031537 WETH before gas; after 0.011175 gas it is +0.020362 WETH.\"}",
+ "case_id": "sym100_039",
+ "_time": "2026-10-19T19:32:27+0800"
+}

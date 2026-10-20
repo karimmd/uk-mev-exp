@@ -1,0 +1,24 @@
+{
+ "actor": "0x00000000000123685885532dcb685c442dc83126",
+ "pools": [
+  "0xb6694aeaaf22abba85c481b67551da9e073714ea",
+  "0xcb07100455559fd63109778e7674f4d9a2e737a1",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "USDC",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.008317,
+ "gas_eth": 0.005713,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 1673.809445 USDC from the V2 pair and sends 1622.1 plus 51.709445 USDC to the two V3 pools, so USDC nets to zero. It receives 0.016108 WETH from the USDC/WETH V3 pool and unwraps it to ETH, which is the only positive token. The actor then pays 0.007791 ETH to 0x52bc (likely a builder tip) and 0.008317 ETH to the sender, leaving the contract at zero. The sender's net is 0.008317 - 0.005713 gas = about +0.0026 ETH, so the position is positive after cost, with the sign depending on counting the sender and contract as one operator.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0250627,
+ "_session": "88d96d5d-33a8-4bda-be39-11d07968fd5b",
+ "_raw": "{\"actor\":\"0x00000000000123685885532dcb685c442dc83126\",\"pools\":[\"0xb6694aeaaf22abba85c481b67551da9e073714ea\",\"0xcb07100455559fd63109778e7674f4d9a2e737a1\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"USDC\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.008317,\"gas_eth\":0.005713,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 1673.809445 USDC from the V2 pair and sends 1622.1 plus 51.709445 USDC to the two V3 pools, so USDC nets to zero. It receives 0.016108 WETH from the USDC/WETH V3 pool and unwraps it to ETH, which is the only positive token. The actor then pays 0.007791 ETH to 0x52bc (likely a builder tip) and 0.008317 ETH to the sender, leaving the contract at zero. The sender's net is 0.008317 - 0.005713 gas = about +0.0026 ETH, so the position is positive after cost, with the sign depending on counting the sender and contract as one operator.\"}",
+ "case_id": "arb106_106",
+ "_time": "2026-10-13T22:34:46+0800"
+}

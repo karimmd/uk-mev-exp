@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": null,
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.945248,
+ "gas_eth": 0.92832,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front and back legs are cross-pool swaps between the V2 and V3 LOOKS/WETH pools, and the actor contract ends with no LOOKS position. Net WETH across the two legs is +0.945248 ETH; after 0.928320 ETH gas, the actor remains +0.016928 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3230,
+  "output_tokens": 10904,
+  "thinking_tokens": 10761
+ },
+ "_request_id": "489c6d60bd8365f35d04e33618cfb138",
+ "_response_id": "053b159e-66a1-4077-b5f7-62e84ac30160",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":null,\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.945248,\"gas_eth\":0.928320,\"residual\":\"none\",\"confidence\":4,\"note\":\"The front and back legs are cross-pool swaps between the V2 and V3 LOOKS/WETH pools, and the actor contract ends with no LOOKS position. Net WETH across the two legs is +0.945248 ETH; after 0.928320 ETH gas, the actor remains +0.016928 ETH.\"}",
+ "case_id": "sym100_047",
+ "_time": "2026-10-19T18:49:35+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.070113,
+ "gas_eth": 0.008274,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 373.776975 OHM on the OHM/DAI V2 pair in the front leg, the victim buys OHM on the same pair, and the actor sells exactly 373.776975 OHM back in the back leg. The V3 WETH/DAI pool is used for funding and exit, so WETH nets +0.146069 (33.607418 - 33.461349). The 0.075956 ETH sent with the back tx is forwarded to 0xb7e3\u2026f707, which reads as a builder tip, so net is 0.070113 ETH before gas and 0.061839 ETH after the 0.008274 ETH gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025328700000000003,
+ "_session": "82f56d64-d72f-41c9-8c92-efb82b2de009",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.070113,\"gas_eth\":0.008274,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 373.776975 OHM on the OHM/DAI V2 pair in the front leg, the victim buys OHM on the same pair, and the actor sells exactly 373.776975 OHM back in the back leg. The V3 WETH/DAI pool is used for funding and exit, so WETH nets +0.146069 (33.607418 - 33.461349). The 0.075956 ETH sent with the back tx is forwarded to 0xb7e3\u2026f707, which reads as a builder tip, so net is 0.070113 ETH before gas and 0.061839 ETH after the 0.008274 ETH gas.\"}",
+ "case_id": "pack_088",
+ "_time": "2026-10-13T20:21:46+0800"
+}

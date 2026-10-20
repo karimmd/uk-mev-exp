@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x611cde65dea90918c0078ac0400a72b0d25b9bb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.122294,
+ "gas_eth": 0.099206,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract trades REN against WETH on the shared pool 0x611c, selling REN into it in the front leg and buying it back in the back leg, with the victim's large REN sale into 0x611c in between. The other pool, 0x8bd1, serves as the REN source and sink, so the actor holds no REN after either leg. WETH net is -0.179815 in the front leg and +0.302109 in the back leg, for +0.122294 before gas. After 0.099206 ETH of gas the result is about +0.0231 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4975,
+  "output_tokens": 1071,
+  "thinking_tokens": 780
+ },
+ "_request_id": "req_011CgBS9YFxyZmkAJCwZeKZs",
+ "_response_id": "msg_011CgBS9YcniJxsfkRnQjYzm",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x611cde65dea90918c0078ac0400a72b0d25b9bb1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.122294,\"gas_eth\":0.099206,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract trades REN against WETH on the shared pool 0x611c, selling REN into it in the front leg and buying it back in the back leg, with the victim's large REN sale into 0x611c in between. The other pool, 0x8bd1, serves as the REN source and sink, so the actor holds no REN after either leg. WETH net is -0.179815 in the front leg and +0.302109 in the back leg, for +0.122294 before gas. After 0.099206 ETH of gas the result is about +0.0231 ETH.\"}",
+ "case_id": "sym100_044",
+ "_time": "2026-10-19T18:25:44+0800"
+}

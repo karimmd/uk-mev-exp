@@ -1,0 +1,17 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.112412,
+ "gas_eth": 0.101725,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 30590.96 NCT for 1.509 WETH in the front leg. In the back leg it buys exactly 30590.96 NCT back for 1.396588 WETH, so no NCT is left over. The victim trades WETH to NCT on the same pool (0x9f4a...) in between. The WETH gain of 0.112412 less 0.101725 ETH gas leaves about +0.0107 ETH. The direction is unusual: the front leg sells NCT rather than buying it, and the victim's buy follows, so the victim may not be harmed. That is why confidence is only 3.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0374312,
+ "_session": "9e0ce6e9-f37f-453a-b5dc-101ebcd24597",
+ "_raw": "{\"actor\": \"0xdac775cd972ac612907682ff757af66f75eecece\", \"pool\": \"0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.112412, \"gas_eth\": 0.101725, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sells 30590.96 NCT for 1.509 WETH in the front leg. In the back leg it buys exactly 30590.96 NCT back for 1.396588 WETH, so no NCT is left over. The victim trades WETH to NCT on the same pool (0x9f4a...) in between. The WETH gain of 0.112412 less 0.101725 ETH gas leaves about +0.0107 ETH. The direction is unusual: the front leg sells NCT rather than buying it, and the victim's buy follows, so the victim may not be harmed. That is why confidence is only 3.\"}",
+ "case_id": "sym100_097",
+ "_time": "2026-10-13T21:44:35+0800"
+}

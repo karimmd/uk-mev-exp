@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000e8b06d9bf77ba40fc89e4eaa4f225e5c",
+ "pool": "0x7ba9b94127d434182287de708643932ec036d365",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 0.049968,
+ "gas_eth": 0.049544,
+ "residual": "The back leg sold 724.168524 eRSDL against 376.110599 bought in the front leg. That leaves about 348.06 eRSDL more sold than acquired in these two legs, so the actor used outside inventory or the token rebases.",
+ "confidence": 3,
+ "note": "The same contract buys eRSDL with 0.05 WETH in the front leg, the victim sells 67778 eRSDL into the same pool in between, and the contract sells eRSDL back in the back leg. The WETH net is +0.049968 and the front and back gas is 0.049544, so the nominal result is about +0.000424 ETH. However, the back leg sold roughly 348 eRSDL more than the front leg bought, and those extra tokens account for much of the WETH proceeds. That makes the sign of the profit unreliable.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0300312,
+ "_session": "e535dc2a-bafc-4daa-81ea-fc9030af5579",
+ "_raw": "{\"actor\": \"0x00000000e8b06d9bf77ba40fc89e4eaa4f225e5c\", \"pool\": \"0x7ba9b94127d434182287de708643932ec036d365\", \"Q1\": \"yes\", \"Q2\": \"cannot tell\", \"net_eth\": 0.049968, \"gas_eth\": 0.049544, \"residual\": \"The back leg sold 724.168524 eRSDL against 376.110599 bought in the front leg. That leaves about 348.06 eRSDL more sold than acquired in these two legs, so the actor used outside inventory or the token rebases.\", \"confidence\": 3, \"note\": \"The same contract buys eRSDL with 0.05 WETH in the front leg, the victim sells 67778 eRSDL into the same pool in between, and the contract sells eRSDL back in the back leg. The WETH net is +0.049968 and the front and back gas is 0.049544, so the nominal result is about +0.000424 ETH. However, the back leg sold roughly 348 eRSDL more than the front leg bought, and those extra tokens account for much of the WETH proceeds. That makes the sign of the profit unreliable.\"}",
+ "case_id": "rej53_033",
+ "_time": "2026-10-13T22:00:08+0800"
+}

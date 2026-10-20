@@ -1,0 +1,31 @@
+{
+ "actor": "0x0898f84acaa1d6229e78a73ee71d8fbbe4ac4bc6",
+ "pool": "0xae95aebf655e9b40c7e0d262198b970cd25f28af",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.039319,
+ "gas_eth": 0.013072,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor trades on the same rHEGIC/WETH pool as the victim, but the front leg sells rHEGIC for WETH and the back leg buys it back, so it does not open a non-WETH token position in front and close it in back. After netting WETH and subtracting front/back gas, the actor is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2479,
+  "output_tokens": 8589,
+  "thinking_tokens": 8414
+ },
+ "_request_id": "d6ad4b959ff762daa3b6b651afc3fe27",
+ "_response_id": "91db3ae1-0b9b-44c1-ba50-78273e55c36b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0898f84acaa1d6229e78a73ee71d8fbbe4ac4bc6\",\"pool\":\"0xae95aebf655e9b40c7e0d262198b970cd25f28af\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.039319,\"gas_eth\":0.013072,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor trades on the same rHEGIC/WETH pool as the victim, but the front leg sells rHEGIC for WETH and the back leg buys it back, so it does not open a non-WETH token position in front and close it in back. After netting WETH and subtracting front/back gas, the actor is positive.\"}",
+ "case_id": "sym100_061",
+ "_time": "2026-10-19T18:50:18+0800"
+}

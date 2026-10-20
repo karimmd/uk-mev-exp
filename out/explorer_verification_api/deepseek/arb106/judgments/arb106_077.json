@@ -1,0 +1,38 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x9e0905249ceefffb9605e034b534544684a58be6",
+  "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001095,
+ "gas_eth": 0.01012,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor receives 3.751436 WETH from one V3 pool and sends 3.739764 WETH to another, while USDC and HEX route between two other pools, forming a WETH-USDC-HEX-WETH cycle. Net WETH profit is 0.011672, with a 0.000457 ETH internal transfer and 0.010120 ETH gas cost, leaving a positive net.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1564,
+  "output_tokens": 7017,
+  "thinking_tokens": 6758
+ },
+ "_request_id": "77d8a2df1311daec2edc6782ab82f13e",
+ "_response_id": "5a242a39-1b0b-45de-a70f-66befa60a10a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x9e0905249ceefffb9605e034b534544684a58be6\",\"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001095,\"gas_eth\":0.01012,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor receives 3.751436 WETH from one V3 pool and sends 3.739764 WETH to another, while USDC and HEX route between two other pools, forming a WETH-USDC-HEX-WETH cycle. Net WETH profit is 0.011672, with a 0.000457 ETH internal transfer and 0.010120 ETH gas cost, leaving a positive net.\"}",
+ "case_id": "arb106_077",
+ "_time": "2026-10-19T19:29:25+0800"
+}

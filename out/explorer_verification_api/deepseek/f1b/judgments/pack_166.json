@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd2e19525ca8dd5e2787e8553aa50f7d5039a0b44",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.142916,
+ "gas_eth": 0,
+ "residual": "57508700997.9292 HATT",
+ "confidence": 5,
+ "note": "The contract 0x1d6e... receives HATT in the front and sends it back on the same HATT/WETH pool 0xd2e... in the back, with the victim also swapping on that pool between them. Net WETH is +0.142916 (gas zero), and there is a residual HATT holding but it does not prevent a positive sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2651,
+  "output_tokens": 10187,
+  "thinking_tokens": 10000
+ },
+ "_request_id": "c9d79ca0aae2840ea499ae6e226031f2",
+ "_response_id": "e372a2fd-b72a-4c2f-9ff6-dcd4507f5489",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xd2e19525ca8dd5e2787e8553aa50f7d5039a0b44\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.142916,\"gas_eth\":0,\"residual\":\"57508700997.9292 HATT\",\"confidence\":5,\"note\":\"The contract 0x1d6e... receives HATT in the front and sends it back on the same HATT/WETH pool 0xd2e... in the back, with the victim also swapping on that pool between them. Net WETH is +0.142916 (gas zero), and there is a residual HATT holding but it does not prevent a positive sign.\"}",
+ "case_id": "pack_166",
+ "_time": "2026-10-19T18:32:59+0800"
+}

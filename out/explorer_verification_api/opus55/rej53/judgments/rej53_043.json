@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000b65e5ae3c80a89f73fbcfdeabc3c2c06",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.004544,
+ "gas_eth": 0.048343,
+ "residual": "0.000001 USDC dust (negligible)",
+ "confidence": 4,
+ "note": "The contract 0x00000000b65e routes WETH to EXRD on pool 3f2e and then EXRD to USDC on pool 684b. The victim then sells EXRD for USDC on 684b, and the back leg reverses the route to recover 1.550951 WETH against 1.498064 WETH paid. The 0.052887 WETH gross gain exceeds the 0.048343 ETH of front and back gas, leaving about +0.0045 ETH, with only 1 micro-USDC left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3143,
+  "output_tokens": 630,
+  "thinking_tokens": 316
+ },
+ "_request_id": "req_011CgBStX11GAXyz2jhzKh5d",
+ "_response_id": "msg_011CgBStXUnVzCKPDnN1DkyD",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000b65e5ae3c80a89f73fbcfdeabc3c2c06\", \"pool\": \"0x684b00a5773679f88598a19976fbeb25a68e9a5f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.004544, \"gas_eth\": 0.048343, \"residual\": \"0.000001 USDC dust (negligible)\", \"confidence\": 4, \"note\": \"The contract 0x00000000b65e routes WETH to EXRD on pool 3f2e and then EXRD to USDC on pool 684b. The victim then sells EXRD for USDC on 684b, and the back leg reverses the route to recover 1.550951 WETH against 1.498064 WETH paid. The 0.052887 WETH gross gain exceeds the 0.048343 ETH of front and back gas, leaving about +0.0045 ETH, with only 1 micro-USDC left over.\"}",
+ "case_id": "rej53_043",
+ "_time": "2026-10-19T18:35:25+0800"
+}

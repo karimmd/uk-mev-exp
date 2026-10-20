@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x611cde65dea90918c0078ac0400a72b0d25b9bb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.023088,
+ "gas_eth": 0.099206,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same target contract controls both legs: it sells REN on victim pool 0x611c in the front leg, sourcing REN via 0x8bd, and buys REN back in the back leg. Net WETH after gas is positive, with no non-WETH residual left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4066,
+  "output_tokens": 11408,
+  "thinking_tokens": 11253
+ },
+ "_request_id": "ecea2e53e41dbac9193d329bbe1ecae1",
+ "_response_id": "8003420b-dd76-43ff-b51f-ee2cf929299a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x611cde65dea90918c0078ac0400a72b0d25b9bb1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.023088,\"gas_eth\":0.099206,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same target contract controls both legs: it sells REN on victim pool 0x611c in the front leg, sourcing REN via 0x8bd, and buys REN back in the back leg. Net WETH after gas is positive, with no non-WETH residual left.\"}",
+ "case_id": "sym100_044",
+ "_time": "2026-10-19T18:46:18+0800"
+}

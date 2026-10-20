@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.005452,
+ "gas_eth": 0.040054,
+ "residual": "687.893575 DRIP",
+ "confidence": 5,
+ "note": "Front and back both trade DRIP/WETH on pool 0xd2ef..., with the same target contract holding DRIP after the front leg. Net WETH is +0.045506 minus 0.040054 gas, leaving +0.005452 ETH and 687.893575 DRIP residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2686,
+  "output_tokens": 6768,
+  "thinking_tokens": 6600
+ },
+ "_request_id": "37ac82381baec0ea04eaa68d8993cadc",
+ "_response_id": "b20c8a55-81c6-4b60-98da-b594f468b600",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.005452,\"gas_eth\":0.040054,\"residual\":\"687.893575 DRIP\",\"confidence\":5,\"note\":\"Front and back both trade DRIP/WETH on pool 0xd2ef..., with the same target contract holding DRIP after the front leg. Net WETH is +0.045506 minus 0.040054 gas, leaving +0.005452 ETH and 687.893575 DRIP residual.\"}",
+ "case_id": "pack_142",
+ "_time": "2026-10-19T18:28:25+0800"
+}

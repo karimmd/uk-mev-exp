@@ -1,0 +1,32 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xc47047e59bbc58cf223eaf2de10bc722cd46f325",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.684408,
+ "gas_eth": 0.040785,
+ "profit_after_gas": 0.643623,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract buys ASM on UniswapV3 pool 0xc47047 in front and sells the same ASM amount back after the victim also trades that pool. ETH/WETH flows net to +0.684408 (the 0.578343 ETH tx value and internal transfer cancel), and gas totals 0.040785 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2818,
+  "output_tokens": 13668,
+  "thinking_tokens": 13485
+ },
+ "_request_id": "8e8ae5f2c06e8317b8b68203c3221983",
+ "_response_id": "e32737db-ff88-4e15-a8aa-18b4fd10a8f5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xc47047e59bbc58cf223eaf2de10bc722cd46f325\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.684408,\"gas_eth\":0.040785,\"profit_after_gas\":0.643623,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract buys ASM on UniswapV3 pool 0xc47047 in front and sells the same ASM amount back after the victim also trades that pool. ETH/WETH flows net to +0.684408 (the 0.578343 ETH tx value and internal transfer cancel), and gas totals 0.040785 ETH.\"}",
+ "case_id": "pack_095",
+ "_time": "2026-10-19T19:17:14+0800"
+}

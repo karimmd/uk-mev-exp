@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.012456,
+ "gas_eth": 0.003114,
+ "profit_after_gas": 0.009342,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x3dad sold 676.268793 DFYN for 0.533 WETH in the front leg and bought the same DFYN back for 0.520544 WETH in the back leg on the same UniswapV2 pair the victim traded. Net WETH gain is 0.012456 before gas; subtracting 0.003114 ETH gas leaves a positive profit with no residual DFYN change.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2454,
+  "output_tokens": 2498,
+  "thinking_tokens": 2295
+ },
+ "_request_id": "384a5a5a8cd35d0cb68c98330f3a878e",
+ "_response_id": "e50e6309-d48a-46a1-adc3-d686bfc7154d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xcab335e1964363e48a790da303b74ec02d3f8fb2\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.012456,\"gas_eth\":0.003114,\"profit_after_gas\":0.009342,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x3dad sold 676.268793 DFYN for 0.533 WETH in the front leg and bought the same DFYN back for 0.520544 WETH in the back leg on the same UniswapV2 pair the victim traded. Net WETH gain is 0.012456 before gas; subtracting 0.003114 ETH gas leaves a positive profit with no residual DFYN change.\"}",
+ "case_id": "sym100_037",
+ "_time": "2026-10-19T19:31:44+0800"
+}

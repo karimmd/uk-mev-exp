@@ -1,0 +1,24 @@
+{
+ "actor": "0xff26d7d5710b916b62c8317c9228c06a38446203",
+ "pools": [
+  "0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222",
+  "0x5069c5fbed5757642023e55458ae363b1cbf0616",
+  "0xa7ad4ce6c21d9e875f1067cd377256326b483002"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.009136,
+ "gas_eth": 0.001615,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor wraps 0.750381 ETH, sends it through a three-pool triangle (WETH->MFUND->SANSHU->WETH) and unwraps 0.759517 ETH, so MFUND and SANSHU net to zero in the actor's hands. Net gain of 0.009136 ETH leaves about 0.007521 ETH after the 0.001615 ETH gas fee. The sender EOA paid that fee, not the actor, but the result is positive either way. The WETH deposit and withdrawal are the actor's own, not a mint or a claim.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0208747,
+ "_session": "57c78dc3-ec71-4bbc-ab86-355f4363903c",
+ "_raw": "{\"actor\": \"0xff26d7d5710b916b62c8317c9228c06a38446203\", \"pools\": [\"0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222\", \"0x5069c5fbed5757642023e55458ae363b1cbf0616\", \"0xa7ad4ce6c21d9e875f1067cd377256326b483002\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.009136, \"gas_eth\": 0.001615, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor wraps 0.750381 ETH, sends it through a three-pool triangle (WETH->MFUND->SANSHU->WETH) and unwraps 0.759517 ETH, so MFUND and SANSHU net to zero in the actor's hands. Net gain of 0.009136 ETH leaves about 0.007521 ETH after the 0.001615 ETH gas fee. The sender EOA paid that fee, not the actor, but the result is positive either way. The WETH deposit and withdrawal are the actor's own, not a mint or a claim.\"}",
+ "case_id": "arb106_016",
+ "_time": "2026-10-13T22:13:37+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xeb46faa47a6a52519839a2e52c7b28a2db17651e",
+ "pool": "0xc930fedc53a8426203c9203079ca76d49f65b964",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.068951,
+ "gas_eth": 0.004403,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0xeb46 buys 27.925853 RL3R for 1.632892 WETH in the front leg. The victim then buys RL3R with 5 ETH on the same pool. The back leg sells exactly 27.925853 RL3R for 1.701843 WETH, so the gross gain is 0.068951 ETH. After 0.004403 ETH of front and back gas, the net is about +0.064548 ETH, with no RL3R left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0232232,
+ "_session": "29858d87-43ac-477f-8c15-1e1f107fb082",
+ "_raw": "{\"actor\": \"0xeb46faa47a6a52519839a2e52c7b28a2db17651e\", \"pool\": \"0xc930fedc53a8426203c9203079ca76d49f65b964\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.068951, \"gas_eth\": 0.004403, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0xeb46 buys 27.925853 RL3R for 1.632892 WETH in the front leg. The victim then buys RL3R with 5 ETH on the same pool. The back leg sells exactly 27.925853 RL3R for 1.701843 WETH, so the gross gain is 0.068951 ETH. After 0.004403 ETH of front and back gas, the net is about +0.064548 ETH, with no RL3R left over.\"}",
+ "case_id": "pack_148",
+ "_time": "2026-10-13T20:33:19+0800"
+}

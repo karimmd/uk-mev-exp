@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xc17b5116ab39c8f747f045e107ea47a917532cdc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.029215,
+ "gas_eth": 0.003889,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x3dad sells 22476.001624 NIIFI for 1.655 WETH on pool 0xc17b before the victim sells NIIFI into the same pool. In the back leg it buys back exactly 22476.001624 NIIFI for 1.621896 WETH, a reverse-direction bracket that leaves no residual. WETH net is +0.033104, minus 0.003889 gas, giving about +0.029215 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2947,
+  "output_tokens": 596,
+  "thinking_tokens": 315
+ },
+ "_request_id": "req_011CgBSAVbVvYH2saf3qUFP6",
+ "_response_id": "msg_011CgBSAVwpzSpVX5TD7qHss",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xc17b5116ab39c8f747f045e107ea47a917532cdc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.029215, \"gas_eth\": 0.003889, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x3dad sells 22476.001624 NIIFI for 1.655 WETH on pool 0xc17b before the victim sells NIIFI into the same pool. In the back leg it buys back exactly 22476.001624 NIIFI for 1.621896 WETH, a reverse-direction bracket that leaves no residual. WETH net is +0.033104, minus 0.003889 gas, giving about +0.029215 ETH.\"}",
+ "case_id": "sym100_025",
+ "_time": "2026-10-19T18:25:55+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xc0917d9f473618029bea42dd61b05fcf0251be42",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0.016357,
+ "gas_eth": 0.016602,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg (0x00c409\u2026) buys YETI on pool 0xc0917d and sells it on a second pool (0x4cfa6c) in the same transaction, so it is a self-contained arbitrage that leaves no YETI. The back leg is a different actor (0x860bd2\u2026) doing the reverse arbitrage, buying on 0x4cfa6c and selling on 0xc0917d, so no single actor opens a position in the front and closes it in the back. For Q2 I netted the two legs together (+0.016072 and +0.000285 ETH) against combined gas of 0.016602 ETH, which gives a slightly negative result.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4574,
+  "output_tokens": 824,
+  "thinking_tokens": 515
+ },
+ "_request_id": "req_011CgBRky6JgTPt8MMJ1gvmm",
+ "_response_id": "msg_011CgBRkyS9313xA3gYEr5Rg",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xc0917d9f473618029bea42dd61b05fcf0251be42\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": 0.016357, \"gas_eth\": 0.016602, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg (0x00c409\u2026) buys YETI on pool 0xc0917d and sells it on a second pool (0x4cfa6c) in the same transaction, so it is a self-contained arbitrage that leaves no YETI. The back leg is a different actor (0x860bd2\u2026) doing the reverse arbitrage, buying on 0x4cfa6c and selling on 0xc0917d, so no single actor opens a position in the front and closes it in the back. For Q2 I netted the two legs together (+0.016072 and +0.000285 ETH) against combined gas of 0.016602 ETH, which gives a slightly negative result.\"}",
+ "case_id": "pack_171",
+ "_time": "2026-10-19T18:20:37+0800"
+}

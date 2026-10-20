@@ -1,0 +1,32 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x5c1e3f0979513f1111995da718780bd24e73cda3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.071366,
+ "gas_eth": 0.030557,
+ "profit_after_gas": 0.040809,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front bought 3202.841186 BRD on the V3 BRD/USDT pool and back sold exactly that amount after the victim traded the same pool. Net WETH was +0.071366 before front/back gas; no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3230,
+  "output_tokens": 3946,
+  "thinking_tokens": 3776
+ },
+ "_request_id": "c0c6d2cd10ed26f4f1a5a40f8c2cd1fc",
+ "_response_id": "6d199a78-c503-4519-9c3a-052076fc5276",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0x5c1e3f0979513f1111995da718780bd24e73cda3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.071366,\"gas_eth\":0.030557,\"profit_after_gas\":0.040809,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front bought 3202.841186 BRD on the V3 BRD/USDT pool and back sold exactly that amount after the victim traded the same pool. Net WETH was +0.071366 before front/back gas; no non-WETH residual.\"}",
+ "case_id": "pack_062",
+ "_time": "2026-10-19T19:11:07+0800"
+}

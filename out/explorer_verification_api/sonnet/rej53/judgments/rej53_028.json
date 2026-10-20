@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.027383,
+ "gas_eth": 0.024008,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract buys 43133.534828 DON on the USDT/DON pool in the front leg, the victim buys DON on that pool, and the contract sells the identical DON amount back in the back leg, so the bracket is clean. WETH net is +0.131181, minus the 0.103798 ETH paid to 0x5a0b (probably a miner tip) gives +0.027383, and after 0.024008 gas the result is about +0.0034 ETH. This counts the 0.107501 ETH sent to the sender in the front leg as a transfer to the same operator, not a cost; if it were a cost, the net would be negative.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3251,
+  "output_tokens": 1237,
+  "thinking_tokens": 908
+ },
+ "_request_id": "req_011CgBSeMGDuDG1Cb7huSEwa",
+ "_response_id": "msg_011CgBSeMcouqsLfNqfqu8wy",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.027383,\"gas_eth\":0.024008,\"residual\":\"none\",\"confidence\":3,\"note\":\"The contract buys 43133.534828 DON on the USDT/DON pool in the front leg, the victim buys DON on that pool, and the contract sells the identical DON amount back in the back leg, so the bracket is clean. WETH net is +0.131181, minus the 0.103798 ETH paid to 0x5a0b (probably a miner tip) gives +0.027383, and after 0.024008 gas the result is about +0.0034 ETH. This counts the 0.107501 ETH sent to the sender in the front leg as a transfer to the same operator, not a cost; if it were a cost, the net would be negative.\"}",
+ "case_id": "rej53_028",
+ "_time": "2026-10-19T18:32:18+0800"
+}

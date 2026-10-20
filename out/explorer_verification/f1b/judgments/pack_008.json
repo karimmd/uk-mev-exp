@@ -1,0 +1,17 @@
+{
+ "actor": "0x8be4db5926232bc5b02b841dbede8161924495c4",
+ "pool": "0x414fbf662fc98415dbee27c72013a6f3a937ed66",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.34452,
+ "gas_eth": 0.164688,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x8be4 buys 12644.731114 OWL with 25.82 WETH in the front leg. It sells the same OWL amount back for 26.16452 WETH in the back leg. The victim buys OWL on the same pool between the two legs. The gross gain is 0.34452 ETH and the combined gas fee is 0.164688 ETH, so about 0.1798 ETH remains. The two legs are sent from different EOAs, but both call the same contract, which I treated as the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0219308,
+ "_session": "bd767414-7775-4007-829c-c56b76574cef",
+ "_raw": "{\"actor\": \"0x8be4db5926232bc5b02b841dbede8161924495c4\", \"pool\": \"0x414fbf662fc98415dbee27c72013a6f3a937ed66\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.34452, \"gas_eth\": 0.164688, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x8be4 buys 12644.731114 OWL with 25.82 WETH in the front leg. It sells the same OWL amount back for 26.16452 WETH in the back leg. The victim buys OWL on the same pool between the two legs. The gross gain is 0.34452 ETH and the combined gas fee is 0.164688 ETH, so about 0.1798 ETH remains. The two legs are sent from different EOAs, but both call the same contract, which I treated as the actor.\"}",
+ "case_id": "pack_008",
+ "_time": "2026-10-13T20:05:42+0800"
+}

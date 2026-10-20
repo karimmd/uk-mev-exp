@@ -1,0 +1,17 @@
+{
+ "actor": "0x00bf034cec51975faece51b285724301436b21c4",
+ "pool": "0x86fef14c27c78deaeb4349fd959caa11fc5b5d75",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.068087,
+ "gas_eth": 0.005842,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x00bf spends 3.24 WETH for 739.094753 RARI in the front leg. The back leg sells the same 739.094753 RARI for 3.308087 WETH, and the victim buys RARI on the same pool in between. The two legs come from different sender EOAs but the same contract, so I take that contract as the actor. Net WETH is +0.068087, and after 0.005842 ETH of front and back gas the position is about +0.0622 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0236572,
+ "_session": "21863a30-4727-404d-b59b-12bd80bd77a7",
+ "_raw": "{\"actor\": \"0x00bf034cec51975faece51b285724301436b21c4\", \"pool\": \"0x86fef14c27c78deaeb4349fd959caa11fc5b5d75\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.068087, \"gas_eth\": 0.005842, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x00bf spends 3.24 WETH for 739.094753 RARI in the front leg. The back leg sells the same 739.094753 RARI for 3.308087 WETH, and the victim buys RARI on the same pool in between. The two legs come from different sender EOAs but the same contract, so I take that contract as the actor. Net WETH is +0.068087, and after 0.005842 ETH of front and back gas the position is about +0.0622 ETH.\"}",
+ "case_id": "pack_129",
+ "_time": "2026-10-13T20:29:23+0800"
+}

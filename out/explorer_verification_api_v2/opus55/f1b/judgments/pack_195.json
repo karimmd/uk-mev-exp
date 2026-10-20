@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none (no common actor; front sender disposed of 2106242.66 MXS, back sender acquired 3928.31 MXS)",
+ "confidence": 4,
+ "note": "All three legs swap on the same Uniswap V2 MXS/WETH pool 0x13bb\u2026 through the public router. The front sender 0x5136\u2026 is not the back sender 0x09ae\u2026: 0x5136\u2026 sold 2.1M MXS for 16.11 ETH, and 0x09ae\u2026 bought only 3928 MXS with 0.03 ETH. With different actors and no position opened and closed by one party, there is no bracket and no actor P&L to compute.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3919,
+  "output_tokens": 648,
+  "thinking_tokens": 339
+ },
+ "_request_id": "req_011CgBWCjXB7BKELzyvjZqWo",
+ "_response_id": "msg_011CgBWCjxTwWXMYCAfyzZrq",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none (no common actor; front sender disposed of 2106242.66 MXS, back sender acquired 3928.31 MXS)\", \"confidence\": 4, \"note\": \"All three legs swap on the same Uniswap V2 MXS/WETH pool 0x13bb\u2026 through the public router. The front sender 0x5136\u2026 is not the back sender 0x09ae\u2026: 0x5136\u2026 sold 2.1M MXS for 16.11 ETH, and 0x09ae\u2026 bought only 3928 MXS with 0.03 ETH. With different actors and no position opened and closed by one party, there is no bracket and no actor P&L to compute.\"}",
+ "case_id": "pack_195",
+ "_time": "2026-10-19T19:18:54+0800"
+}

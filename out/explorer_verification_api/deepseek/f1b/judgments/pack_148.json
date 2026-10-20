@@ -1,0 +1,31 @@
+{
+ "actor": "0xeb46faa47a6a52519839a2e52c7b28a2db17651e",
+ "pool": "0xc930fedc53a8426203c9203079ca76d49f65b964",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.064547552,
+ "gas_eth": 0.004403448,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xeb46faa47a6a52519839a2e52c7b28a2db17651e opens and closes the same RL3R position on the UniswapV2 pool also used by the victim, with the victim in between. Gross WETH delta is +0.068951; after 0.004403448 ETH gas, the net remains positive and no RL3R residual is left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2248,
+  "output_tokens": 5513,
+  "thinking_tokens": 5322
+ },
+ "_request_id": "20ba14ea51e0eeab4dc3dc218314c684",
+ "_response_id": "8503fbbe-2af6-4a37-8a6d-e42f08142062",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xeb46faa47a6a52519839a2e52c7b28a2db17651e\",\"pool\":\"0xc930fedc53a8426203c9203079ca76d49f65b964\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.064547552,\"gas_eth\":0.004403448,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0xeb46faa47a6a52519839a2e52c7b28a2db17651e opens and closes the same RL3R position on the UniswapV2 pool also used by the victim, with the victim in between. Gross WETH delta is +0.068951; after 0.004403448 ETH gas, the net remains positive and no RL3R residual is left.\"}",
+ "case_id": "pack_148",
+ "_time": "2026-10-19T18:30:22+0800"
+}

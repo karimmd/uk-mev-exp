@@ -1,0 +1,31 @@
+{
+ "actor": "0xc65433d2a598c323e04fd143566b08609af008dc",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016366,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract paid 0.44 WETH for 146.279741 COLLAR in the front leg, the victim bought COLLAR on the same pool, and the contract sold the identical COLLAR amount for 0.458185 WETH in the back leg. That is +0.018185 WETH, less a 0.001819 ETH internal transfer to 0x99c8\u2026 (about 10% of the profit), leaving +0.016366 ETH with zero gas fee shown. I did not count the back transaction's 0.018185 ETH value as actor income, since it is a transfer from the operator's own sender; the result stays positive either way.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3274,
+  "output_tokens": 1083,
+  "thinking_tokens": 763
+ },
+ "_request_id": "req_011CgBQAiioHjhRRs936AJJf",
+ "_response_id": "msg_011CgBQAj3ecUoC8pvZVRmWQ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xc65433d2a598c323e04fd143566b08609af008dc\",\"pool\":\"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.016366,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract paid 0.44 WETH for 146.279741 COLLAR in the front leg, the victim bought COLLAR on the same pool, and the contract sold the identical COLLAR amount for 0.458185 WETH in the back leg. That is +0.018185 WETH, less a 0.001819 ETH internal transfer to 0x99c8\u2026 (about 10% of the profit), leaving +0.016366 ETH with zero gas fee shown. I did not count the back transaction's 0.018185 ETH value as actor income, since it is a transfer from the operator's own sender; the result stays positive either way.\"}",
+ "case_id": "pack_013",
+ "_time": "2026-10-19T17:59:47+0800"
+}

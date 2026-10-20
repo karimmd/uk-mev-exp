@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.19807,
+ "gas_eth": 0.0148,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 51071915653.522133 AKITA into the AKITA/WETH pool for 3.035358 WETH in the front leg, the victim sells AKITA into the same pool, and the back leg buys back exactly the same AKITA amount for 2.837288 WETH. Gross WETH gain is 0.19807, and after 0.0148 ETH of front and back gas the net is about +0.1833 ETH. The AKITA amounts in the front and back legs match exactly, so there is no residual holding. The bracket is on the sell side (the actor starts with AKITA inventory rather than buying first), which is the only reason I'm not at 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.022684700000000002,
+ "_session": "1cc7c5de-57af-470a-962e-07ee0c8c8fb4",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.19807, \"gas_eth\": 0.0148, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 51071915653.522133 AKITA into the AKITA/WETH pool for 3.035358 WETH in the front leg, the victim sells AKITA into the same pool, and the back leg buys back exactly the same AKITA amount for 2.837288 WETH. Gross WETH gain is 0.19807, and after 0.0148 ETH of front and back gas the net is about +0.1833 ETH. The AKITA amounts in the front and back legs match exactly, so there is no residual holding. The bracket is on the sell side (the actor starts with AKITA inventory rather than buying first), which is the only reason I'm not at 5.\"}",
+ "case_id": "pack_146",
+ "_time": "2026-10-13T20:32:56+0800"
+}

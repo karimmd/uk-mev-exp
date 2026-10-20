@@ -1,0 +1,39 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0x69b81152c5a8d35a67b32a4d3772795d96cae4da",
+  "0x4e56fff9004cb210a3bdef04b9c3fcb22b54f0de",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x60594a405d53811d3bc4766596efd80fd545a270"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.013996,
+ "gas_eth": 0.013506,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 5.137288 WETH into a V2 pool and receives 5.151284 WETH from a V3 pool. In between, the path runs through V2, V3, and V2 pools as wsOHM, then OHM, then DAI, and back to WETH, so the cycle closes. The gross gain is 0.013996 WETH and the gas fee is 0.013506 ETH, leaving about +0.00049 ETH. The sender EOA paid the gas, and the actor contract holds no residual tokens.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2200,
+  "output_tokens": 1179,
+  "thinking_tokens": 762
+ },
+ "_request_id": "req_011CgBSonHcoQ9oKbUJNaME6",
+ "_response_id": "msg_011CgBSoo9yCUr6SJfUzc8kF",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\",\"pools\":[\"0x69b81152c5a8d35a67b32a4d3772795d96cae4da\",\"0x4e56fff9004cb210a3bdef04b9c3fcb22b54f0de\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x60594a405d53811d3bc4766596efd80fd545a270\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.013996,\"gas_eth\":0.013506,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 5.137288 WETH into a V2 pool and receives 5.151284 WETH from a V3 pool. In between, the path runs through V2, V3, and V2 pools as wsOHM, then OHM, then DAI, and back to WETH, so the cycle closes. The gross gain is 0.013996 WETH and the gas fee is 0.013506 ETH, leaving about +0.00049 ETH. The sender EOA paid the gas, and the actor contract holds no residual tokens.\"}",
+ "case_id": "arb106_004",
+ "_time": "2026-10-19T18:34:24+0800"
+}

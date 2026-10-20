@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xaec21057bb0c910c22f6f6db64ae6743e96718b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.492079,
+ "gas_eth": 0.035149,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor sells 2999.802063 DWZ for 15.137 WETH in the front leg, the victim sells 464 DWZ into the same pool, and the actor buys back exactly 2999.802063 DWZ for 14.644921 WETH. That leaves +0.492079 WETH before gas and about +0.45693 ETH after the 0.035149 ETH gas, with no DWZ residual. The bracket is sell-first and buy-back-later rather than buy-first, and the front leg's DWZ inventory source is not visible in these three transactions, which is why confidence is 3.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0254587,
+ "_session": "358f369c-543c-43f8-901f-f0aa757b367f",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0xaec21057bb0c910c22f6f6db64ae6743e96718b4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.492079, \"gas_eth\": 0.035149, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor sells 2999.802063 DWZ for 15.137 WETH in the front leg, the victim sells 464 DWZ into the same pool, and the actor buys back exactly 2999.802063 DWZ for 14.644921 WETH. That leaves +0.492079 WETH before gas and about +0.45693 ETH after the 0.035149 ETH gas, with no DWZ residual. The bracket is sell-first and buy-back-later rather than buy-first, and the front leg's DWZ inventory source is not visible in these three transactions, which is why confidence is 3.\"}",
+ "case_id": "sym100_028",
+ "_time": "2026-10-13T21:28:58+0800"
+}

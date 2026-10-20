@@ -1,0 +1,17 @@
+{
+ "actor": "0xc65433d2a598c323e04fd143566b08609af008dc",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016366,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0xc654\u2026 paid 0.44 WETH for 146.279741 COLLAR in the front leg, with the victim buying COLLAR on the same pool in between. In the back leg it sold exactly 146.279741 COLLAR for 0.458185 WETH, a gain of 0.018185. I subtracted the 0.001819 ETH paid to 0x99c8\u2026 (probably a miner tip). Gas fees are 0 at 0.0 gwei. I treated the 0.018185 ETH tx value as a transfer between the operator's sender and its contract, not a separate cost, so if it were an extra cost the net would be about -0.0018.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.034515199999999996,
+ "_session": "6fb4fd66-252d-4291-bf4d-d0553cc2f348",
+ "_raw": "{\"actor\": \"0xc65433d2a598c323e04fd143566b08609af008dc\", \"pool\": \"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.016366, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0xc654\u2026 paid 0.44 WETH for 146.279741 COLLAR in the front leg, with the victim buying COLLAR on the same pool in between. In the back leg it sold exactly 146.279741 COLLAR for 0.458185 WETH, a gain of 0.018185. I subtracted the 0.001819 ETH paid to 0x99c8\u2026 (probably a miner tip). Gas fees are 0 at 0.0 gwei. I treated the 0.018185 ETH tx value as a transfer between the operator's sender and its contract, not a separate cost, so if it were an extra cost the net would be about -0.0018.\"}",
+ "case_id": "pack_013",
+ "_time": "2026-10-13T20:06:50+0800"
+}

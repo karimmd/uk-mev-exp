@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x11b815fb8f581194ae79006d24e0d814b7697f6",
+  "0x07f3d316630719f4fc69c152f397c150f0831071",
+  "0x4bec87cb126de6c1f8b410e32d1f4ae472fdd83b",
+  "0x966ea83cf3170a309184bb742398c925249e407e",
+  "0xd966da62dec253128dbd16a4034de6e051e1d2d7"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.039983,
+ "gas_eth": 0.037422,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor 0xb2bb received 15.216425 WETH from pools 0x4bec and 0x966e and sent 15.176442 WETH to pools 0x11b8 and 0xd966, netting 0.039983 WETH before gas; gas 0.037422 leaves about 0.002561 WETH positive. The cyclic multihop swaps across five pools leave no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1840,
+  "output_tokens": 15701,
+  "thinking_tokens": 15390
+ },
+ "_request_id": "309f989bd500e8f453c71825d2c5b3df",
+ "_response_id": "e169a0bc-45ad-4ef7-af88-f000e87e1fd3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x11b815fb8f581194ae79006d24e0d814b7697f6\",\"0x07f3d316630719f4fc69c152f397c150f0831071\",\"0x4bec87cb126de6c1f8b410e32d1f4ae472fdd83b\",\"0x966ea83cf3170a309184bb742398c925249e407e\",\"0xd966da62dec253128dbd16a4034de6e051e1d2d7\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.039983,\"gas_eth\":0.037422,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor 0xb2bb received 15.216425 WETH from pools 0x4bec and 0x966e and sent 15.176442 WETH to pools 0x11b8 and 0xd966, netting 0.039983 WETH before gas; gas 0.037422 leaves about 0.002561 WETH positive. The cyclic multihop swaps across five pools leave no residual non-WETH holding.\"}",
+ "case_id": "arb106_079",
+ "_time": "2026-10-19T19:31:03+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.054814,
+ "gas_eth": 0.028005,
+ "residual": "about -0.00641 USDT (dust shortfall, negligible); DON nets to zero as it only passes between the two pools",
+ "confidence": 4,
+ "note": "The actor contract routes WETH -> DON on pool 0x643b, then DON -> USDT on pool 0x91b1 in the front leg. The victim sells DON for USDT on 0x91b1 in between, and the back leg reverses both hops. Net WETH is +0.054814 (436.403786 - 436.348972), and after 0.028005 ETH of front and back gas the position is about +0.0268 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.022874699999999998,
+ "_session": "b66b9f24-9158-473c-afe8-1affbeb6b821",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.054814, \"gas_eth\": 0.028005, \"residual\": \"about -0.00641 USDT (dust shortfall, negligible); DON nets to zero as it only passes between the two pools\", \"confidence\": 4, \"note\": \"The actor contract routes WETH -> DON on pool 0x643b, then DON -> USDT on pool 0x91b1 in the front leg. The victim sells DON for USDT on 0x91b1 in between, and the back leg reverses both hops. Net WETH is +0.054814 (436.403786 - 436.348972), and after 0.028005 ETH of front and back gas the position is about +0.0268 ETH.\"}",
+ "case_id": "rej53_048",
+ "_time": "2026-10-13T22:03:08+0800"
+}

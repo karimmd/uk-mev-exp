@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.046401,
+ "gas_eth": 0.018664,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front buys HORD on the UniswapV2 HORD/USDT pool, the victim also trades that same pool, and back sells the identical HORD amount. Net WETH gain is +0.046401 ETH; after 0.018664 ETH gas, the position remains positive, with no residual HORD or USDT left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2857,
+  "output_tokens": 10086,
+  "thinking_tokens": 9917
+ },
+ "_request_id": "f13aaa9f1afb35046b704e542aed8741",
+ "_response_id": "4fc06e0a-3deb-480a-936f-52ae524bfba9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.046401,\"gas_eth\":0.018664,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front buys HORD on the UniswapV2 HORD/USDT pool, the victim also trades that same pool, and back sells the identical HORD amount. Net WETH gain is +0.046401 ETH; after 0.018664 ETH gas, the position remains positive, with no residual HORD or USDT left.\"}",
+ "case_id": "pack_100",
+ "_time": "2026-10-19T18:20:05+0800"
+}

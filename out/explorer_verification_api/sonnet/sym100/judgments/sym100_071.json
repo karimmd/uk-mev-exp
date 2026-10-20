@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.069007,
+ "gas_eth": 0.031091,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 442.269926 URQA into the URQA/WETH pool in the front leg and receives 0.773930 WETH. The victim then sells 9500 URQA into the same pool, and the back leg buys back exactly 442.269926 URQA for 0.704923 WETH. The WETH gain is 0.069007, which exceeds the 0.031091 ETH of front and back gas, leaving about +0.0379 ETH and no residual URQA. The round trip starts from the actor's own inventory, so it opens short rather than long, but the bracket is otherwise clean.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2908,
+  "output_tokens": 900,
+  "thinking_tokens": 588
+ },
+ "_request_id": "req_011CgBSKGKnXAigKmCjoULAs",
+ "_response_id": "msg_011CgBSKGh7ZgLQKjfXEXMZJ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.069007,\"gas_eth\":0.031091,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 442.269926 URQA into the URQA/WETH pool in the front leg and receives 0.773930 WETH. The victim then sells 9500 URQA into the same pool, and the back leg buys back exactly 442.269926 URQA for 0.704923 WETH. The WETH gain is 0.069007, which exceeds the 0.031091 ETH of front and back gas, leaving about +0.0379 ETH and no residual URQA. The round trip starts from the actor's own inventory, so it opens short rather than long, but the bracket is otherwise clean.\"}",
+ "case_id": "sym100_071",
+ "_time": "2026-10-19T18:27:55+0800"
+}

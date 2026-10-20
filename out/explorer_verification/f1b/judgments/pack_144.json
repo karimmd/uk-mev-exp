@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000000740a22fa209cf6806d38f7605385",
+ "pool": "0x287856d10418e01ef1e93df9962b04d9a3a521c9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.478201,
+ "gas_eth": 0.01153,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x\u20265385 buys 0.127231 SSL for 0.151825 WETH in the front leg and sells exactly 0.127231 SSL for 0.630026 WETH in the back leg. Both legs use the same SSL/WETH pool the victim buys from in between (39.07 ETH). The two legs have different senders, but the same contract is the actor. Net WETH is +0.478201 and gas for both legs is 0.011530, which leaves about +0.4667 ETH with no SSL residual.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0197507,
+ "_session": "f7516f09-2a1c-4368-807c-81d4bd144ca5",
+ "_raw": "{\"actor\": \"0x000000000000740a22fa209cf6806d38f7605385\", \"pool\": \"0x287856d10418e01ef1e93df9962b04d9a3a521c9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.478201, \"gas_eth\": 0.01153, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x\u20265385 buys 0.127231 SSL for 0.151825 WETH in the front leg and sells exactly 0.127231 SSL for 0.630026 WETH in the back leg. Both legs use the same SSL/WETH pool the victim buys from in between (39.07 ETH). The two legs have different senders, but the same contract is the actor. Net WETH is +0.478201 and gas for both legs is 0.011530, which leaves about +0.4667 ETH with no SSL residual.\"}",
+ "case_id": "pack_144",
+ "_time": "2026-10-13T20:32:35+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xc60c479f3cc66f1654a4113f4949c98ce77a9995",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049285,
+ "gas_eth": 0.01681,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sells 12340.913099 KYL for 6.859451 WETH on pool 0xc60c before the victim's KYL sell on the same pool, then buys back exactly the same KYL for 6.810166 WETH. This is a reverse-direction sandwich around a sell. Gross WETH gain is 0.049285 ETH; after 0.01681 ETH of gas the net is about +0.032475 ETH, with no residual KYL.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2888,
+  "output_tokens": 671,
+  "thinking_tokens": 391
+ },
+ "_request_id": "req_011CgBSQb3KTeAXk9MVCQJ1Z",
+ "_response_id": "msg_011CgBSQbMuV18uoeXx67G9t",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xc60c479f3cc66f1654a4113f4949c98ce77a9995\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.049285, \"gas_eth\": 0.01681, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract sells 12340.913099 KYL for 6.859451 WETH on pool 0xc60c before the victim's KYL sell on the same pool, then buys back exactly the same KYL for 6.810166 WETH. This is a reverse-direction sandwich around a sell. Gross WETH gain is 0.049285 ETH; after 0.01681 ETH of gas the net is about +0.032475 ETH, with no residual KYL.\"}\n```",
+ "case_id": "sym100_063",
+ "_time": "2026-10-19T18:29:07+0800"
+}

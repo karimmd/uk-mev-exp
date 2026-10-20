@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.365585,
+ "gas_eth": 0.356902,
+ "profit_after_gas": 0.008683,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold HEX for USDC on the victim pool in the front leg and bought HEX back with USDC in the back leg, with the victim between. WETH flows net +0.365585 before gas, and after front/back gas the net is still positive. No residual USDC or HEX remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2574,
+  "output_tokens": 4213,
+  "thinking_tokens": 4038
+ },
+ "_request_id": "f0514cbe7229d36eee98e9cdbbb025d7",
+ "_response_id": "bf5064b3-2139-4316-ac26-ddfa4b4f0bb7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.365585,\"gas_eth\":0.356902,\"profit_after_gas\":0.008683,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold HEX for USDC on the victim pool in the front leg and bought HEX back with USDC in the back leg, with the victim between. WETH flows net +0.365585 before gas, and after front/back gas the net is still positive. No residual USDC or HEX remains.\"}",
+ "case_id": "pack_023",
+ "_time": "2026-10-19T19:06:11+0800"
+}

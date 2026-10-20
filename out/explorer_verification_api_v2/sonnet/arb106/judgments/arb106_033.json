@@ -1,0 +1,41 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x919fa96e88d67499339577fa202345436bcdaf79",
+  "0x58dc5a51fe44589beb22e8ce67720b5bc5378009",
+  "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+  "0x30e7e1989cf774726dd9f4780cab42d5558003e6",
+  "0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.038186,
+ "gas_eth": 0.035807,
+ "profit_after_gas": 0.002379,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor takes WETH from the V3 pool and sends WETH to the V2 CRV/WETH pool, which pays CRV to the V3 pool. It then runs WETH to SUPER to SAND and back to WETH through three more V2 pools. WETH nets +0.038186 and is the only token with a position left, so after the 0.035807 gas fee the profit is about 0.002379 ETH. The gas was paid by the sender EOA rather than the actor contract, but the protocol says to subtract it.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2655,
+  "output_tokens": 1243,
+  "thinking_tokens": 780
+ },
+ "_request_id": "req_011CgBXA2dbhrSK6R5REd94q",
+ "_response_id": "msg_011CgBXA3SEBW3orfvzyfX16",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x919fa96e88d67499339577fa202345436bcdaf79\",\"0x58dc5a51fe44589beb22e8ce67720b5bc5378009\",\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"0x30e7e1989cf774726dd9f4780cab42d5558003e6\",\"0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.038186,\"gas_eth\":0.035807,\"profit_after_gas\":0.002379,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor takes WETH from the V3 pool and sends WETH to the V2 CRV/WETH pool, which pays CRV to the V3 pool. It then runs WETH to SUPER to SAND and back to WETH through three more V2 pools. WETH nets +0.038186 and is the only token with a position left, so after the 0.035807 gas fee the profit is about 0.002379 ETH. The gas was paid by the sender EOA rather than the actor contract, but the protocol says to subtract it.\"}",
+ "case_id": "arb106_033",
+ "_time": "2026-10-19T19:31:25+0800"
+}

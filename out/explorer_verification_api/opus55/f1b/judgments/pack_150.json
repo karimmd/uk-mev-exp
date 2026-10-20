@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+ "pool": "0x60f6e2200bfef8b4d120028faff4d9a4486526f4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000375,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0000000099cb\u2026 pays 3.268073 WETH for 5923.743951 IONX on pool 0x60f6e220\u2026 before the victim's IONX buy on that pool. Afterwards it sells exactly that IONX back for 3.305701 WETH, a gross gain of 0.037628. Both legs used 0 gwei gas, but the back leg sends 0.037253 ETH to 0x1ad91ee0\u2026 (apparently a payment to the block producer), which leaves a small positive net of about 0.000375 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2969,
+  "output_tokens": 669,
+  "thinking_tokens": 360
+ },
+ "_request_id": "req_011CgBRiCJDFfH64B7Rrh9jT",
+ "_response_id": "msg_011CgBRiCe4MAjnvimhgTmKn",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000099cb7fc48a935bceb9f05bbae54e8987\", \"pool\": \"0x60f6e2200bfef8b4d120028faff4d9a4486526f4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000375, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0000000099cb\u2026 pays 3.268073 WETH for 5923.743951 IONX on pool 0x60f6e220\u2026 before the victim's IONX buy on that pool. Afterwards it sells exactly that IONX back for 3.305701 WETH, a gross gain of 0.037628. Both legs used 0 gwei gas, but the back leg sends 0.037253 ETH to 0x1ad91ee0\u2026 (apparently a payment to the block producer), which leaves a small positive net of about 0.000375 ETH.\"}",
+ "case_id": "pack_150",
+ "_time": "2026-10-19T18:19:59+0800"
+}

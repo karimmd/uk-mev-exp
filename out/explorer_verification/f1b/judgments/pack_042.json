@@ -1,0 +1,17 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 0.2,
+ "gas_eth": 0.023848,
+ "residual": "OTEN outflow of about 0.004647 (0.002270 + 0.002377) with no OTEN acquired in either leg",
+ "confidence": 4,
+ "note": "The sender of the victim transaction is the same address as the front and back sender. All three legs have the same direction: OTEN is sent to the pool and 0.1 ETH comes back via the router. No leg buys OTEN, so no position is opened and then closed, and there is no separate victim. The ETH netting (+0.2 ETH received across front and back, minus 0.023848 ETH gas) has no OTEN cost basis, so the sign is not meaningful. The identical gas, fee and WETH amounts in all three legs are unusual and may be a data artifact.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0301332,
+ "_session": "b57403db-a242-4c9e-9034-d5657147decb",
+ "_raw": "{\"actor\": \"0xe104053d23918cf2787883508834661c138c9f61\", \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 0.2, \"gas_eth\": 0.023848, \"residual\": \"OTEN outflow of about 0.004647 (0.002270 + 0.002377) with no OTEN acquired in either leg\", \"confidence\": 4, \"note\": \"The sender of the victim transaction is the same address as the front and back sender. All three legs have the same direction: OTEN is sent to the pool and 0.1 ETH comes back via the router. No leg buys OTEN, so no position is opened and then closed, and there is no separate victim. The ETH netting (+0.2 ETH received across front and back, minus 0.023848 ETH gas) has no OTEN cost basis, so the sign is not meaningful. The identical gas, fee and WETH amounts in all three legs are unusual and may be a data artifact.\"}",
+ "case_id": "pack_042",
+ "_time": "2026-10-13T20:12:20+0800"
+}

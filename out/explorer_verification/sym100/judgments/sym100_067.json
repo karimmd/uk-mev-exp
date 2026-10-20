@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.532132,
+ "gas_eth": 0.063781,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Same sender and same contract actor trade the CWS/WETH pool in positions 188 and 190, and the victim sells 738.457 CWS on that pool at position 189. This is a sell-side bracket: the actor sells 1272.850895 CWS for 31.111 WETH, then buys back exactly 1272.850895 CWS for 30.578868 WETH, so the CWS residual is zero. Net WETH is +0.532132 before gas, and after the 0.063781 ETH gas for both legs it is about +0.468351 ETH. The only doubt is that the actor starts the bracket already holding CWS.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0242367,
+ "_session": "e4aac724-c076-40de-be72-e304a5ccb277",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.532132, \"gas_eth\": 0.063781, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Same sender and same contract actor trade the CWS/WETH pool in positions 188 and 190, and the victim sells 738.457 CWS on that pool at position 189. This is a sell-side bracket: the actor sells 1272.850895 CWS for 31.111 WETH, then buys back exactly 1272.850895 CWS for 30.578868 WETH, so the CWS residual is zero. Net WETH is +0.532132 before gas, and after the 0.063781 ETH gas for both legs it is about +0.468351 ETH. The only doubt is that the actor starts the bracket already holding CWS.\"}",
+ "case_id": "sym100_067",
+ "_time": "2026-10-13T21:37:52+0800"
+}

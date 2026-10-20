@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.005366,
+ "gas_eth": 0.039437,
+ "residual": "168395427909.888672 SANSHU",
+ "confidence": 5,
+ "note": "Front and back share the SANSHU/WETH pool 0xa7ad..., with the actor buying SANSHU in front and selling it back after the victim buys on the same pool. The actor's WETH inflow exceeds outflow by 0.044803 ETH, and after 0.039437 ETH front gas remains positive; a small SANSHU residual is left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2640,
+  "output_tokens": 3312,
+  "thinking_tokens": 3114
+ },
+ "_request_id": "0f9c279eec5efae8f4e750ba10eeb0fb",
+ "_response_id": "9de9715a-5c52-4808-9531-ad80dfd3507d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xa7ad4ce6c21d9e875f1067cd377256326b483002\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.005366, \"gas_eth\": 0.039437, \"residual\": \"168395427909.888672 SANSHU\", \"confidence\": 5, \"note\": \"Front and back share the SANSHU/WETH pool 0xa7ad..., with the actor buying SANSHU in front and selling it back after the victim buys on the same pool. The actor's WETH inflow exceeds outflow by 0.044803 ETH, and after 0.039437 ETH front gas remains positive; a small SANSHU residual is left.\"}",
+ "case_id": "pack_051",
+ "_time": "2026-10-19T18:11:04+0800"
+}

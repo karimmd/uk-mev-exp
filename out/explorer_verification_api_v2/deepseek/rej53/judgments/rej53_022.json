@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.116299,
+ "gas_eth": 0.020767,
+ "profit_after_gas": 0.095532,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys USDap on the same 0x5393 pool in the front leg and sells it back there in the back leg, with the victim also trading that pool in between. Net WETH gain is 0.318457 ETH, less 0.202158 ETH internal transfer, giving 0.116299 ETH before front/back gas of 0.020767 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2892,
+  "output_tokens": 4657,
+  "thinking_tokens": 4466
+ },
+ "_request_id": "f29340f0b2b9bb53a7d74c954ad14603",
+ "_response_id": "969a3a15-715d-4a14-8b42-6fbab08c1d86",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.116299,\"gas_eth\":0.020767,\"profit_after_gas\":0.095532,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract buys USDap on the same 0x5393 pool in the front leg and sells it back there in the back leg, with the victim also trading that pool in between. Net WETH gain is 0.318457 ETH, less 0.202158 ETH internal transfer, giving 0.116299 ETH before front/back gas of 0.020767 ETH.\"}",
+ "case_id": "rej53_022",
+ "_time": "2026-10-19T19:42:14+0800"
+}

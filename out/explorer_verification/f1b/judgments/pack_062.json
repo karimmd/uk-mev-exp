@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x5c1e3f0979513f1111995da718780bd24e73cda3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071366,
+ "gas_eth": 0.030557,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sends 0.406118 WETH through the V2 WETH/USDT pool 0x0d4a\u2026 into the V3 BRD/USDT pool 0x5c1e\u2026, receiving 3202.841186 BRD. In the back leg it returns exactly that BRD and receives 0.477484 WETH. The victim buys 18082.98 BRD from the same V3 pool in between. Net is +0.071366 WETH before gas and about +0.0408 ETH after the 0.030557 ETH gas for both legs, with no BRD left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026238699999999997,
+ "_session": "5c210617-da0a-4216-aea9-fc8ea5ea7cb8",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0x5c1e3f0979513f1111995da718780bd24e73cda3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.071366, \"gas_eth\": 0.030557, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sends 0.406118 WETH through the V2 WETH/USDT pool 0x0d4a\u2026 into the V3 BRD/USDT pool 0x5c1e\u2026, receiving 3202.841186 BRD. In the back leg it returns exactly that BRD and receives 0.477484 WETH. The victim buys 18082.98 BRD from the same V3 pool in between. Net is +0.071366 WETH before gas and about +0.0408 ETH after the 0.030557 ETH gas for both legs, with no BRD left over.\"}",
+ "case_id": "pack_062",
+ "_time": "2026-10-13T20:16:04+0800"
+}

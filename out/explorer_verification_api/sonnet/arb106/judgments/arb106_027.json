@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000007253c7b66206e928357d14c4574c83de71",
+ "pools": [
+  "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+  "0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.025156,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The path is WETH to TRIBE (V3 pool 0x6f48), TRIBE to FEI (V2 pair 0x9928), FEI to USDC (V3 pool 0x8c54), then USDC to WETH (V2 pair 0xb4e1). The actor only touches WETH: it receives 41.731608 and sends 41.655060, a gain of 0.076548. It also pays 0.051392 ETH to 0x5a0b, which looks like a bribe, leaving about 0.025156 ETH. The explorer shows a gas price of 0 and fee of 0. Strictly, the actor's own WETH does not net to zero, since the cycle closes through the pools, so the cycle criterion is only loosely met.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3058,
+  "output_tokens": 1271,
+  "thinking_tokens": 784
+ },
+ "_request_id": "req_011CgBSwefiNx8g7stuvA3KR",
+ "_response_id": "msg_011CgBSwezZ1M1kPHLDiBs1Z",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000007253c7b66206e928357d14c4574c83de71\",\"pools\":[\"0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc\",\"0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.025156,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The path is WETH to TRIBE (V3 pool 0x6f48), TRIBE to FEI (V2 pair 0x9928), FEI to USDC (V3 pool 0x8c54), then USDC to WETH (V2 pair 0xb4e1). The actor only touches WETH: it receives 41.731608 and sends 41.655060, a gain of 0.076548. It also pays 0.051392 ETH to 0x5a0b, which looks like a bribe, leaving about 0.025156 ETH. The explorer shows a gas price of 0 and fee of 0. Strictly, the actor's own WETH does not net to zero, since the cycle closes through the pools, so the cycle criterion is only loosely met.\"}",
+ "case_id": "arb106_027",
+ "_time": "2026-10-19T18:36:11+0800"
+}

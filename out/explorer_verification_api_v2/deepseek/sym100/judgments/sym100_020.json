@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xf44e8ff3bb644479124e691bf572f7813a1bc499",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.05747,
+ "gas_eth": 0.005716326,
+ "profit_after_gas": 0.051753674,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs are both executed by the same contract actor, which sells 1.212499 EDDA for 0.809 WETH and later buys the same EDDA back for 0.751530 WETH on the same pool. The victim trades on that pool between them, and the net WETH gain remains positive after gas with no residual EDDA.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2414,
+  "output_tokens": 3350,
+  "thinking_tokens": 3163
+ },
+ "_request_id": "61b1389f4ec9d4a5d7348469e0352b93",
+ "_response_id": "c9aa2f28-be42-404c-997c-2cfdee86fc58",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xf44e8ff3bb644479124e691bf572f7813a1bc499\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.05747,\"gas_eth\":0.005716326,\"profit_after_gas\":0.051753674,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back legs are both executed by the same contract actor, which sells 1.212499 EDDA for 0.809 WETH and later buys the same EDDA back for 0.751530 WETH on the same pool. The victim trades on that pool between them, and the net WETH gain remains positive after gas with no residual EDDA.\"}",
+ "case_id": "sym100_020",
+ "_time": "2026-10-19T19:30:27+0800"
+}

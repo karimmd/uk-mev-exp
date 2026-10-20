@@ -1,0 +1,32 @@
+{
+ "actor": "0xe34820500dcd2a2c3c4ce2c1cac561e30ede0dc7",
+ "pool": "0xdf6b861b4fbcfaffb62dd1906fcd3a863955704b",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 2.003417,
+ "gas_eth": 0.015462,
+ "profit_after_gas": 1.987955,
+ "residual": "net -101.148928 BUILD (starting balance unknown)",
+ "confidence": 4,
+ "note": "Same contract actor buys 64.008969 BUILD on the shared pool in front and sells 165.157897 BUILD in back, with the victim between. The extra BUILD sold means the actor's final non-WETH holding/cost basis is not shown, so the positive ETH/WETH net does not settle Q2.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3762,
+  "output_tokens": 22042,
+  "thinking_tokens": 21851
+ },
+ "_request_id": "17fc8383ed5617f33f478934a1198375",
+ "_response_id": "3b55d5c8-0fac-487f-bbf3-ded19bf6fc98",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe34820500dcd2a2c3c4ce2c1cac561e30ede0dc7\",\"pool\":\"0xdf6b861b4fbcfaffb62dd1906fcd3a863955704b\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":2.003417,\"gas_eth\":0.015462,\"profit_after_gas\":1.987955,\"residual\":\"net -101.148928 BUILD (starting balance unknown)\",\"confidence\":4,\"note\":\"Same contract actor buys 64.008969 BUILD on the shared pool in front and sells 165.157897 BUILD in back, with the victim between. The extra BUILD sold means the actor's final non-WETH holding/cost basis is not shown, so the positive ETH/WETH net does not settle Q2.\"}",
+ "case_id": "rej53_026",
+ "_time": "2026-10-19T19:44:02+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x0efea698136d636e2babad10821e9064fe08f418",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008371,
+ "gas_eth": 0.020745,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x...3b40 bought 4360.590635 ICE for 1.858765 WETH on pool 0x0efe... at position 0, the victim swapped 2 WETH for ICE on the same pool at position 1, and the contract sold the same 4360.590635 ICE back for 1.887881 WETH at position 2. The WETH gain of 0.029116 minus gas of 0.020745 leaves about +0.008371 ETH with no ICE left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3410,
+  "output_tokens": 409,
+  "thinking_tokens": 129
+ },
+ "_request_id": "req_011CgBQoUc2Bzxd6YL4tPeGf",
+ "_response_id": "msg_011CgBQob5CuMsrSvHGqF7zv",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x0efea698136d636e2babad10821e9064fe08f418\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.008371, \"gas_eth\": 0.020745, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x...3b40 bought 4360.590635 ICE for 1.858765 WETH on pool 0x0efe... at position 0, the victim swapped 2 WETH for ICE on the same pool at position 1, and the contract sold the same 4360.590635 ICE back for 1.887881 WETH at position 2. The WETH gain of 0.029116 minus gas of 0.020745 leaves about +0.008371 ETH with no ICE left over.\"}",
+ "case_id": "pack_063",
+ "_time": "2026-10-19T18:08:02+0800"
+}

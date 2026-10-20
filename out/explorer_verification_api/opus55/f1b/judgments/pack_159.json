@@ -1,0 +1,31 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x659a9a43b32bea6c113c393930a45c7634a242d5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.091492,
+ "gas_eth": 0.028201,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x51acf0 wraps 6.75 ETH and buys 17528.180027 EROWAN on pool 0x659a. The victim then buys EROWAN with WETH on the same pool. The contract sells exactly 17528.180027 EROWAN back for 6.869693 WETH and unwraps it, so the gross gain is 0.119693 ETH, or 0.091492 ETH after 0.028201 ETH of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3354,
+  "output_tokens": 460,
+  "thinking_tokens": 183
+ },
+ "_request_id": "req_011CgBRmZUX79ujscPsWi3T4",
+ "_response_id": "msg_011CgBRmZos5XQ53ma6L23qi",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x51acf0af77adcb20de482e1cd678f620baf07e0c\", \"pool\": \"0x659a9a43b32bea6c113c393930a45c7634a242d5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.091492, \"gas_eth\": 0.028201, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x51acf0 wraps 6.75 ETH and buys 17528.180027 EROWAN on pool 0x659a. The victim then buys EROWAN with WETH on the same pool. The contract sells exactly 17528.180027 EROWAN back for 6.869693 WETH and unwraps it, so the gross gain is 0.119693 ETH, or 0.091492 ETH after 0.028201 ETH of gas.\"}",
+ "case_id": "pack_159",
+ "_time": "2026-10-19T18:20:43+0800"
+}

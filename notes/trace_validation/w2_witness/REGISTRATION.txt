@@ -1,0 +1,5 @@
+sha256 12a2659ed57fe8dcf5f6623d5688dce001c13185b42df311beef7ea94d52b72a W2_WITNESS_RULE.md
+sha256 2473acae23888c2b75e4acad9d264697f3e3d046b9b7df7eda38d76c52d78017 witness.py
+frozen_witness_sha256 634deca57d0af119ce83f95b6ca4586ea758a7b3513de47b59b4912dbea7865a (unchanged, scripts/trace_validation/trajectory/witness.py)
+registered_at 2026-10-14T14:21:13+08:00 (read from date -Is on the server)
+fixtures 42 of 42 frozen trajectory fixtures pass on the revised file (test_trajectory.py in w2_witness/, run 2026-10-14)

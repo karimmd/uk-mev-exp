@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045506,
+ "gas_eth": 0.040054,
+ "residual": "about 687.89 DRIP (34394.678763 bought minus 33706.785188 sold)",
+ "confidence": 4,
+ "note": "The same contract buys DRIP with 0.172002 WETH in the front leg and sells 33706.785188 DRIP for 0.217508 WETH in the back leg, on the DRIP/WETH pool the victim's USDC->WETH->DRIP swap also trades through. Net WETH is +0.045506 and gas is 0.040054 (back leg shows 0 gwei), leaving about +0.005452 ETH before the small leftover DRIP, which only adds to it.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0255467,
+ "_session": "27a87281-51d9-4346-91c5-37ce663d9d1b",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.045506, \"gas_eth\": 0.040054, \"residual\": \"about 687.89 DRIP (34394.678763 bought minus 33706.785188 sold)\", \"confidence\": 4, \"note\": \"The same contract buys DRIP with 0.172002 WETH in the front leg and sells 33706.785188 DRIP for 0.217508 WETH in the back leg, on the DRIP/WETH pool the victim's USDC->WETH->DRIP swap also trades through. Net WETH is +0.045506 and gas is 0.040054 (back leg shows 0 gwei), leaving about +0.005452 ETH before the small leftover DRIP, which only adds to it.\"}",
+ "case_id": "pack_142",
+ "_time": "2026-10-13T20:32:05+0800"
+}

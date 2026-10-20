@@ -1,0 +1,32 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x70885952f174fb5396deebb66ce3b4b2adfcef8a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.053794,
+ "gas_eth": 0.046463,
+ "profit_after_gas": 0.007331,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x7cf09... receives USDT in the front leg and returns the same USDT in the back leg through the V3 pool also used by the victim. Its WETH balance increases by 0.053794 before gas; the front and back gas fees total 0.046463, leaving positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2458,
+  "output_tokens": 4310,
+  "thinking_tokens": 4126
+ },
+ "_request_id": "3e131b88695c5a09d46be2093c0cc06f",
+ "_response_id": "b25ca4ad-f7c2-4dbf-91d6-027cda31699d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0x70885952f174fb5396deebb66ce3b4b2adfcef8a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.053794,\"gas_eth\":0.046463,\"profit_after_gas\":0.007331,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0x7cf09... receives USDT in the front leg and returns the same USDT in the back leg through the V3 pool also used by the victim. Its WETH balance increases by 0.053794 before gas; the front and back gas fees total 0.046463, leaving positive profit.\"}",
+ "case_id": "pack_086",
+ "_time": "2026-10-19T19:15:05+0800"
+}

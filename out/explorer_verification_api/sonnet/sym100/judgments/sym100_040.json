@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.075701,
+ "gas_eth": 0.010177,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 12261.068643 SYN into the SYN/WETH pool for 10.496856 WETH in the front leg. The victim then sells SYN into the same pool, and the actor buys back exactly 12261.068643 SYN for 10.421155 WETH in the back leg. Net WETH is +0.075701 before gas and about +0.0655 after the 0.010177 ETH gas for both legs. The SYN round trip nets to zero, so no SYN is left over. The position runs short-then-cover, and the actor was apparently already holding the SYN inventory before the front leg.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2938,
+  "output_tokens": 862,
+  "thinking_tokens": 542
+ },
+ "_request_id": "req_011CgBS893vbaKkN3i8NBKF6",
+ "_response_id": "msg_011CgBS89Qm4sW43ymZcNk3Z",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.075701,\"gas_eth\":0.010177,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 12261.068643 SYN into the SYN/WETH pool for 10.496856 WETH in the front leg. The victim then sells SYN into the same pool, and the actor buys back exactly 12261.068643 SYN for 10.421155 WETH in the back leg. Net WETH is +0.075701 before gas and about +0.0655 after the 0.010177 ETH gas for both legs. The SYN round trip nets to zero, so no SYN is left over. The position runs short-then-cover, and the actor was apparently already holding the SYN inventory before the front leg.\"}",
+ "case_id": "sym100_040",
+ "_time": "2026-10-19T18:25:25+0800"
+}

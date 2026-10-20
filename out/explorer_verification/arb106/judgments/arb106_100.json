@@ -1,0 +1,26 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pools": [
+  "0x4e0924d3a751be199c426d52fb1f2337fa96f736",
+  "0x5777d92f208679db4b9778590fa3cab3ac9e2168",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0xfdf12d1f85b5082877a6e070524f50f6c84faa6b",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "USDC",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.117897,
+ "gas_eth": 0.875409,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 147745.941238 USDC from the USDC/LUSD V3 pool. It sends 144819.813084 USDC to the DAI/USDC pool (DAI -> OHM -> LUSD, with the LUSD returning to the first pool) and 2926.128154 USDC to the USDC/WETH pool for 0.993306 WETH. USDC nets exactly to zero and WETH is the only positive position; 0.993306 WETH minus 0.875409 ETH gas gives about +0.1179 ETH. The sender is a separate address, so the gas is attributed to the actor on the assumption that the sender and actor are the same operator.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0233707,
+ "_session": "e6782338-cd63-4e77-8c39-1b0242479308",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pools\":[\"0x4e0924d3a751be199c426d52fb1f2337fa96f736\",\"0x5777d92f208679db4b9778590fa3cab3ac9e2168\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0xfdf12d1f85b5082877a6e070524f50f6c84faa6b\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"USDC\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.117897,\"gas_eth\":0.875409,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 147745.941238 USDC from the USDC/LUSD V3 pool. It sends 144819.813084 USDC to the DAI/USDC pool (DAI -> OHM -> LUSD, with the LUSD returning to the first pool) and 2926.128154 USDC to the USDC/WETH pool for 0.993306 WETH. USDC nets exactly to zero and WETH is the only positive position; 0.993306 WETH minus 0.875409 ETH gas gives about +0.1179 ETH. The sender is a separate address, so the gas is attributed to the actor on the assumption that the sender and actor are the same operator.\"}",
+ "case_id": "arb106_100",
+ "_time": "2026-10-13T22:33:07+0800"
+}

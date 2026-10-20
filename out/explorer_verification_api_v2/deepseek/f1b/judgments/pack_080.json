@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.10399,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are independent arbitrages by different contracts (0x0aa3... and 0x5117...) against the same Uniswap V2 GLM/WETH pool; no single non-pool actor opens in front and closes in back. The apparent common counterparty 0x787404... behaves as a pool/market maker, so it is excluded as actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3688,
+  "output_tokens": 12901,
+  "thinking_tokens": 12737
+ },
+ "_request_id": "3c009325b481fa6f6ea706251391b700",
+ "_response_id": "80abfb5b-a233-4ff2-a4f1-fa52774cbf78",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xb5f790a03b7559312d9e738df5056a4b4c8459f4\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.10399,\"profit_after_gas\":null,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are independent arbitrages by different contracts (0x0aa3... and 0x5117...) against the same Uniswap V2 GLM/WETH pool; no single non-pool actor opens in front and closes in back. The apparent common counterparty 0x787404... behaves as a pool/market maker, so it is excluded as actor.\"}",
+ "case_id": "pack_080",
+ "_time": "2026-10-19T19:15:00+0800"
+}

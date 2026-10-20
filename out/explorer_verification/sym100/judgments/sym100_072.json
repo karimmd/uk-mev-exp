@@ -1,0 +1,17 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.278445,
+ "gas_eth": 0.011402,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The sender trades directly with the pool. It sells 574.97 QNT for 9.050384 WETH in the front leg, then buys the same 574.971366 QNT back for 8.760537 WETH in the back leg. It opens no QNT long position, and the victim's WETH\u2192QNT buy pushes the price against the back leg, so this is not a standard sandwich. The victim is a bot that also routes QNT through a second pool (0x2fa9\u2026). Net is +0.289847 WETH minus 0.011402 ETH gas, which is +0.278445 ETH. Transactions between the three legs (positions 74\u201390 and 92\u201394) may account for the price move.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.03392,
+ "_session": "dd71c950-e017-45d7-aef2-5b4d7c6286b3",
+ "_raw": "{\"actor\": \"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\", \"pool\": \"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.278445, \"gas_eth\": 0.011402, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The sender trades directly with the pool. It sells 574.97 QNT for 9.050384 WETH in the front leg, then buys the same 574.971366 QNT back for 8.760537 WETH in the back leg. It opens no QNT long position, and the victim's WETH\u2192QNT buy pushes the price against the back leg, so this is not a standard sandwich. The victim is a bot that also routes QNT through a second pool (0x2fa9\u2026). Net is +0.289847 WETH minus 0.011402 ETH gas, which is +0.278445 ETH. Transactions between the three legs (positions 74\u201390 and 92\u201394) may account for the price move.\"}",
+ "case_id": "sym100_072",
+ "_time": "2026-10-13T21:38:59+0800"
+}

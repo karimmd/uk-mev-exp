@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0x3f61171b1297f6e512c750c172ba86026ab0e820",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.034598,
+ "gas_eth": 0.067601,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract holds and later spends the 6077.899056 USDC via the FLEX/USDC UniswapV2 pair, which the victim also trades. Net WETH gain is 0.102199, gas totals 0.067601, leaving +0.034598 ETH/WETH with no residual non-WETH tokens.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2537,
+  "output_tokens": 4707,
+  "thinking_tokens": 4542
+ },
+ "_request_id": "28e9ba96acaa67570a5d6439dde348c7",
+ "_response_id": "0ae8e892-711a-4071-8a62-53334e3c4964",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000081c57cbc967248bea482c417207e84cffb\",\"pool\":\"0x3f61171b1297f6e512c750c172ba86026ab0e820\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.034598,\"gas_eth\":0.067601,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract holds and later spends the 6077.899056 USDC via the FLEX/USDC UniswapV2 pair, which the victim also trades. Net WETH gain is 0.102199, gas totals 0.067601, leaving +0.034598 ETH/WETH with no residual non-WETH tokens.\"}",
+ "case_id": "pack_177",
+ "_time": "2026-10-19T18:33:53+0800"
+}

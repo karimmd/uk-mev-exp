@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions have the same sender (0xe104...), the same gas and the same pattern: they sell OTEN into the pool for 0.1 ETH each. The sender is also the victim, and no leg opens a position that a later leg closes. Each leg is a sell with the same direction, so this is not a sandwich bracket. Q2 is also no: there is no bracket, and every leg only pays gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3700,
+  "output_tokens": 226,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBR6uyEGj6oqfpCjz7xD",
+ "_response_id": "msg_011CgBR72hJHjb9tVSKpWfpo",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions have the same sender (0xe104...), the same gas and the same pattern: they sell OTEN into the pool for 0.1 ETH each. The sender is also the victim, and no leg opens a position that a later leg closes. Each leg is a sell with the same direction, so this is not a sandwich bracket. Q2 is also no: there is no bracket, and every leg only pays gas.\"}",
+ "case_id": "pack_093",
+ "_time": "2026-10-19T18:11:57+0800"
+}

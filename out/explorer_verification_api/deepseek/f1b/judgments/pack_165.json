@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.797988,
+ "gas_eth": 0.758563,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front received 1997.688058 WTON and spent 4.060760 WETH; back spent the same WTON and received 4.858748 WETH, sharing pool 0x1c0ce9 with the victim. Gross WETH delta is +0.797988; front+back gas 0.758563 leaves about +0.039425, with no residual WTON.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2364,
+  "output_tokens": 5916,
+  "thinking_tokens": 5725
+ },
+ "_request_id": "3213937f6312cf765d48b0ca24a3c5d0",
+ "_response_id": "4f503d4d-51bd-4394-b99d-4a7268c3a51a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.797988,\"gas_eth\":0.758563,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front received 1997.688058 WTON and spent 4.060760 WETH; back spent the same WTON and received 4.858748 WETH, sharing pool 0x1c0ce9 with the victim. Gross WETH delta is +0.797988; front+back gas 0.758563 leaves about +0.039425, with no residual WTON.\"}",
+ "case_id": "pack_165",
+ "_time": "2026-10-19T18:32:25+0800"
+}

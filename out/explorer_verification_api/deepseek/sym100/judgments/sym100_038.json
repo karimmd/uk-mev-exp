@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xf7d31825946e7fd99ef07212d34b9dad84c396b7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.020853,
+ "gas_eth": 0.010662,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells BONE on the shared pool before the victim's BONE sell, then back buys BONE on the same pool after. Net WETH from legs is +0.020853; after 0.010662 gas, net is +0.010191 ETH. No residual BONE remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2445,
+  "output_tokens": 9428,
+  "thinking_tokens": 9271
+ },
+ "_request_id": "6291796c1cb51a7b2d3c7e62787377a0",
+ "_response_id": "25344c1f-e4a3-4741-8952-afa473a25bb1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000d41c96294ccdac8612bdfe29c641af\",\"pool\":\"0xf7d31825946e7fd99ef07212d34b9dad84c396b7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.020853,\"gas_eth\":0.010662,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells BONE on the shared pool before the victim's BONE sell, then back buys BONE on the same pool after. Net WETH from legs is +0.020853; after 0.010662 gas, net is +0.010191 ETH. No residual BONE remains.\"}",
+ "case_id": "sym100_038",
+ "_time": "2026-10-19T18:45:00+0800"
+}

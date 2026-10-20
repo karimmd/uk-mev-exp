@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x553db97b11642e0f9471d511296577421518de1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049823784,
+ "gas_eth": 0.000196216,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are sent by the same actor, which receives MAK in front and returns the identical MAK amount in back on the same UniswapV2 pool the victim trades on. Gross WETH gain is 0.05002, gas totals 0.000196216 ETH, leaving a positive net and no residual MAK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2253,
+  "output_tokens": 2291,
+  "thinking_tokens": 2128
+ },
+ "_request_id": "c30cc425456fcc6820fc67a33086480a",
+ "_response_id": "9ea673a0-ee28-4994-89aa-dcb52739fa26",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0x553db97b11642e0f9471d511296577421518de1a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.049823784,\"gas_eth\":0.000196216,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are sent by the same actor, which receives MAK in front and returns the identical MAK amount in back on the same UniswapV2 pool the victim trades on. Gross WETH gain is 0.05002, gas totals 0.000196216 ETH, leaving a positive net and no residual MAK.\"}",
+ "case_id": "pack_053",
+ "_time": "2026-10-19T18:11:16+0800"
+}

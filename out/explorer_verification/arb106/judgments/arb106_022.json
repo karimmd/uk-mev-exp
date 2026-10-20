@@ -1,0 +1,24 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x788248dddf945542ca202713e6cb74195db07209",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "OHM",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001773,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 2.152211 OHM from the V2 DAI/OHM pair. It sends 2.1 OHM to the V3 DAI/OHM pool and 0.052211 OHM to the V3 OHM/WETH pool, so OHM nets to zero. It receives 0.011817 WETH, unwraps it to ETH, and pays 0.010044 ETH to 0xea67\u20268ec8, which looks like a builder payment. That leaves +0.001773 ETH, and the gas fee shown is 0 because the gas price is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0252832,
+ "_session": "45e7ea35-945d-4022-98bb-ea8a322109e2",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x788248dddf945542ca202713e6cb74195db07209\",\"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"],\"cycle_token\":\"OHM\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001773,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 2.152211 OHM from the V2 DAI/OHM pair. It sends 2.1 OHM to the V3 DAI/OHM pool and 0.052211 OHM to the V3 OHM/WETH pool, so OHM nets to zero. It receives 0.011817 WETH, unwraps it to ETH, and pays 0.010044 ETH to 0xea67\u20268ec8, which looks like a builder payment. That leaves +0.001773 ETH, and the gas fee shown is 0 because the gas price is 0.\"}",
+ "case_id": "arb106_022",
+ "_time": "2026-10-13T22:15:23+0800"
+}

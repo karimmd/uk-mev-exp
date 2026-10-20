@@ -1,0 +1,31 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.462709,
+ "gas_eth": 0.06517,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought 632.746926 KEN with 11 ETH in the front leg, the victim bought KEN on the same pool in between, and the back leg sold the same KEN for 11.462709 ETH. The gross gain is 0.462709 ETH and the net after 0.06517 ETH of gas is about 0.397539 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3470,
+  "output_tokens": 507,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRtpMAtELrUVGbLScLY",
+ "_response_id": "msg_011CgBRtpgGgTUYmPUYS4DxC",
+ "_reader": "sonnet",
+ "_raw": "Net: the actor spent 11.000000 ETH in the front leg and received 11.462709 ETH in the back leg, a gain of 0.462709 ETH.\n\nGas for the two legs: 0.035413 + 0.029757 = 0.065170 ETH.\n\nAfter gas the position is 0.462709 \u2212 0.065170 = 0.397539 ETH, which is positive.\n\nThe front leg bought 632.746926 KEN and the back leg sold exactly the same amount, so no KEN is left over.\n\nThe actor is the contract 0x42d0ba0223700dea8bca7983cc4bf0e000dee772, called by the sender. The victim trades on the same pool, 0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e, in the position between the two legs.\n\n{\"actor\": \"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\", \"pool\": \"0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.462709, \"gas_eth\": 0.06517, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract bought 632.746926 KEN with 11 ETH in the front leg, the victim bought KEN on the same pool in between, and the back leg sold the same KEN for 11.462709 ETH. The gross gain is 0.462709 ETH and the net after 0.06517 ETH of gas is about 0.397539 ETH.\"}",
+ "case_id": "pack_200",
+ "_time": "2026-10-19T18:22:20+0800"
+}

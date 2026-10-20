@@ -1,0 +1,17 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x4214290310264a27b0ba8cff02b4c592d0234aa1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.018306,
+ "gas_eth": 6e-06,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor routes RFOX through pool 0xc448... and the victim's pool 0x4214..., so it never holds RFOX itself. In the front leg it sells RFOX into 0x4214 ahead of the victim's RFOX sale and in the back leg it buys RFOX back from 0x4214, which fits a sell-side sandwich. WETH nets +0.759885 on the back leg and -0.741579 on the front leg, giving +0.018306. After gas (0.000006) and the 0.011076 ETH payment to 0xf541... (likely a builder tip), about +0.007224 remains, still positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0303327,
+ "_session": "8b4f00f5-bd99-4abc-ab26-f8236a647205",
+ "_raw": "{\"actor\": \"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\", \"pool\": \"0x4214290310264a27b0ba8cff02b4c592d0234aa1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.018306, \"gas_eth\": 0.000006, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor routes RFOX through pool 0xc448... and the victim's pool 0x4214..., so it never holds RFOX itself. In the front leg it sells RFOX into 0x4214 ahead of the victim's RFOX sale and in the back leg it buys RFOX back from 0x4214, which fits a sell-side sandwich. WETH nets +0.759885 on the back leg and -0.741579 on the front leg, giving +0.018306. After gas (0.000006) and the 0.011076 ETH payment to 0xf541... (likely a builder tip), about +0.007224 remains, still positive.\"}",
+ "case_id": "sym100_027",
+ "_time": "2026-10-13T21:28:42+0800"
+}

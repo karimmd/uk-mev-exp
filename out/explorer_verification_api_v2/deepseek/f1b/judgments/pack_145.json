@@ -1,0 +1,32 @@
+{
+ "actor": "0x68e8924bbfc74c479bccd4107d0f80209c6c2cc4",
+ "pool": "0xe9bd6ddc2b13f46715382f74534950e004399d10",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": -0.000614,
+ "gas_eth": 0.006912,
+ "profit_after_gas": -0.007526,
+ "residual": "18.031286 DOGIRA",
+ "confidence": 5,
+ "note": "All three legs buy DOGIRA on the same UniswapV2 pair; the back leg also buys rather than closes the front position. The actor paid 0.000614 ETH before gas and holds 18.031286 DOGIRA, whose ETH value is not observable.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3113,
+  "output_tokens": 5261,
+  "thinking_tokens": 5081
+ },
+ "_request_id": "127a326469ca03ee0be10749563e2ddc",
+ "_response_id": "ba845649-c8bd-486c-8973-f37c6a928690",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x68e8924bbfc74c479bccd4107d0f80209c6c2cc4\",\"pool\":\"0xe9bd6ddc2b13f46715382f74534950e004399d10\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":-0.000614,\"gas_eth\":0.006912,\"profit_after_gas\":-0.007526,\"residual\":\"18.031286 DOGIRA\",\"confidence\":5,\"note\":\"All three legs buy DOGIRA on the same UniswapV2 pair; the back leg also buys rather than closes the front position. The actor paid 0.000614 ETH before gas and holds 18.031286 DOGIRA, whose ETH value is not observable.\"}",
+ "case_id": "pack_145",
+ "_time": "2026-10-19T19:21:58+0800"
+}

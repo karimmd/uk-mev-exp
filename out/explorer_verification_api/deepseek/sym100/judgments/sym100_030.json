@@ -1,0 +1,31 @@
+{
+ "actor": "0x738c0249c49dd4988a8b22b0f3257c8a9fd36fd6",
+ "pool": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.142031,
+ "gas_eth": 0.026996,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor sold 1242.795971 API3 for WETH in the front leg and bought the same amount back in the back leg on the shared pool, so this is an opposite-direction/reverse bracket, not an open-token-front/close-token-back sandwich. After netting WETH flows and subtracting both gas fees, the actor is positive by about 0.142031 ETH/WETH, with no net API3 residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2592,
+  "output_tokens": 14191,
+  "thinking_tokens": 13999
+ },
+ "_request_id": "68a1db043bb13271625959a9cdbe447b",
+ "_response_id": "b7ac501f-68c0-487d-92fb-1f17f910d70b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x738c0249c49dd4988a8b22b0f3257c8a9fd36fd6\",\"pool\":\"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.142031,\"gas_eth\":0.026996,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor sold 1242.795971 API3 for WETH in the front leg and bought the same amount back in the back leg on the shared pool, so this is an opposite-direction/reverse bracket, not an open-token-front/close-token-back sandwich. After netting WETH flows and subtracting both gas fees, the actor is positive by about 0.142031 ETH/WETH, with no net API3 residual.\"}",
+ "case_id": "sym100_030",
+ "_time": "2026-10-19T18:43:57+0800"
+}

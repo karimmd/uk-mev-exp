@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0x31cf0327782a22958e7361f75ed86a7b69eb0aa7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.075812,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.075812,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives FORM in the front leg and returns the exact same FORM amount in the back leg on the shared USDT/FORM pool that the victim also trades. WETH net is +0.108303, less 0.032491 ETH sent out in the back leg, with zero gas cost shown.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2912,
+  "output_tokens": 4349,
+  "thinking_tokens": 4180
+ },
+ "_request_id": "408388279bf15a89d6f4150743fdedc3",
+ "_response_id": "489922e1-253e-4585-8af6-1f833488737d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000032962b51589768828ad878876299e14\",\"pool\":\"0x31cf0327782a22958e7361f75ed86a7b69eb0aa7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.075812,\"gas_eth\":0.0,\"profit_after_gas\":0.075812,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives FORM in the front leg and returns the exact same FORM amount in the back leg on the shared USDT/FORM pool that the victim also trades. WETH net is +0.108303, less 0.032491 ETH sent out in the back leg, with zero gas cost shown.\"}",
+ "case_id": "rej53_030",
+ "_time": "2026-10-19T19:43:02+0800"
+}

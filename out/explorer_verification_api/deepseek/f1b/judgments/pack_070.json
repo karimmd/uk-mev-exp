@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xec745519247642fbf14689ac7254068dffba08e3",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "front actor: 3757504363484344.5 ELONGD; back actor: 7481614221375560 ELONGD",
+ "confidence": 5,
+ "note": "The front and back transactions are from different EOAs and both buy ELONGD; the back leg does not close a position opened by the front. The victim also uses the shared ELONGD/WETH pool 0xec7455, but the different-actor and open-close conditions fail, so this is not a sandwich bracket.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2982,
+  "output_tokens": 7827,
+  "thinking_tokens": 7665
+ },
+ "_request_id": "adea6112080b5bcbc0a5635f01155458",
+ "_response_id": "c49a523d-72ed-4283-8594-d1dcce6cd1da",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xec745519247642fbf14689ac7254068dffba08e3\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":null,\"residual\":\"front actor: 3757504363484344.5 ELONGD; back actor: 7481614221375560 ELONGD\",\"confidence\":5,\"note\":\"The front and back transactions are from different EOAs and both buy ELONGD; the back leg does not close a position opened by the front. The victim also uses the shared ELONGD/WETH pool 0xec7455, but the different-actor and open-close conditions fail, so this is not a sandwich bracket.\"}",
+ "case_id": "pack_070",
+ "_time": "2026-10-19T18:14:04+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x18a797c7c70c1bf22fdee1c09062aba709cacf04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008599,
+ "gas_eth": 0.014524,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg, contract 0x0000\u202646aa buys 6976.184938 RGT for 47.660716 WETH on the RGT/WETH UniswapV2 pool 0x18a7\u2026cf04. The victim then buys RGT on the same pool. In the back leg the contract sells exactly 6976.184938 RGT for 47.683839 WETH, a gross gain of 0.023123 WETH; after 0.014524 ETH of front and back gas it is positive by about 0.0086 ETH, with no residual.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2970,
+  "output_tokens": 485,
+  "thinking_tokens": 184
+ },
+ "_request_id": "req_011CgBRe5mwhSRYv1gBp8yB8",
+ "_response_id": "msg_011CgBRe8e6UqsF6ykxXAECD",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0x18a797c7c70c1bf22fdee1c09062aba709cacf04\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.008599, \"gas_eth\": 0.014524, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg, contract 0x0000\u202646aa buys 6976.184938 RGT for 47.660716 WETH on the RGT/WETH UniswapV2 pool 0x18a7\u2026cf04. The victim then buys RGT on the same pool. In the back leg the contract sells exactly 6976.184938 RGT for 47.683839 WETH, a gross gain of 0.023123 WETH; after 0.014524 ETH of front and back gas it is positive by about 0.0086 ETH, with no residual.\"}",
+ "case_id": "pack_140",
+ "_time": "2026-10-19T18:19:03+0800"
+}

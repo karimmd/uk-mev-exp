@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.029873,
+ "gas_eth": 0,
+ "profit_after_gas": 0.029873,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front buys UNQT with WETH and back sells the exact same UNQT on the same UniswapV2 pool, with the victim's WETH->UNQT buy in between. Net WETH change is +0.029873 ETH/WETH after the back leg, with zero gas fees and no residual UNQT.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2826,
+  "output_tokens": 9092,
+  "thinking_tokens": 8917
+ },
+ "_request_id": "0d6c986a39505e382d08c3232bba374e",
+ "_response_id": "9f91b50e-466f-4750-a4fc-b37e87825a5d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0x020e6d0e80d08567ecb14f942fa326748407a845\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.029873,\"gas_eth\":0,\"profit_after_gas\":0.029873,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front buys UNQT with WETH and back sells the exact same UNQT on the same UniswapV2 pool, with the victim's WETH->UNQT buy in between. Net WETH change is +0.029873 ETH/WETH after the back leg, with zero gas fees and no residual UNQT.\"}",
+ "case_id": "pack_059",
+ "_time": "2026-10-19T19:10:54+0800"
+}

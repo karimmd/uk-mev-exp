@@ -1,0 +1,17 @@
+{
+ "actor": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9",
+ "pool": "0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 7.135486,
+ "gas_eth": 0.005064,
+ "residual": "none acquired; the actor sends out 159.81 ETH2X-FLI across the front and back legs and receives none",
+ "confidence": 4,
+ "note": "All three legs have the same direction on the same pool. 0x5617 sends ETH2X-FLI to the pool and receives WETH each time, so it is selling in the front, victim and back legs. No leg buys FLI, so no position is opened and then closed. The WETH inflow of 7.135 (5.077 + 2.058) is not a round-trip profit, and the front and back legs come from different senders (0x53ec and 0x54d0).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0253972,
+ "_session": "2ae4c57c-e542-47bb-95b0-bc47638ed831",
+ "_raw": "{\"actor\": \"0x56178a0d5f301baf6cf3e1cd53d9863437345bf9\", \"pool\": \"0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 7.135486, \"gas_eth\": 0.005064, \"residual\": \"none acquired; the actor sends out 159.81 ETH2X-FLI across the front and back legs and receives none\", \"confidence\": 4, \"note\": \"All three legs have the same direction on the same pool. 0x5617 sends ETH2X-FLI to the pool and receives WETH each time, so it is selling in the front, victim and back legs. No leg buys FLI, so no position is opened and then closed. The WETH inflow of 7.135 (5.077 + 2.058) is not a round-trip profit, and the front and back legs come from different senders (0x53ec and 0x54d0).\"}",
+ "case_id": "pack_057",
+ "_time": "2026-10-13T20:14:59+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xb43542e6b7c209f7da4b579792f67a1844546ce8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.035087,
+ "gas_eth": 0.030475,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys USDC through the WETH/TIDAL pool 0x9553 and the TIDAL/USDC pool 0xb435 in the front leg. It returns the same 4266.374147 USDC to 0xb435 in the back leg, and the victim sells TIDAL into 0xb435 in between. WETH net is +0.053566 (1.958710 - 1.905144). Subtracting the 0.018479 ETH internal transfer to 0x8595 gives 0.035087 before gas. Gas is 0.030475, so the position is about +0.004612 ETH after cost, with no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0258708,
+ "_session": "5f6a8bb5-1c9f-4806-9c22-98e21a2b83ce",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0xb43542e6b7c209f7da4b579792f67a1844546ce8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.035087, \"gas_eth\": 0.030475, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys USDC through the WETH/TIDAL pool 0x9553 and the TIDAL/USDC pool 0xb435 in the front leg. It returns the same 4266.374147 USDC to 0xb435 in the back leg, and the victim sells TIDAL into 0xb435 in between. WETH net is +0.053566 (1.958710 - 1.905144). Subtracting the 0.018479 ETH internal transfer to 0x8595 gives 0.035087 before gas. Gas is 0.030475, so the position is about +0.004612 ETH after cost, with no residual token.\"}",
+ "case_id": "rej53_020",
+ "_time": "2026-10-13T21:57:16+0800"
+}

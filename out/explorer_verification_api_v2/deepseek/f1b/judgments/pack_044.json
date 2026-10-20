@@ -1,0 +1,32 @@
+{
+ "actor": "0xfad95b6089c53a0d1d861eabfaadd8901b0f8533",
+ "pool": "0x03a6947837d25c4d060fc6b78c0277b67a6adc40",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.169456,
+ "gas_eth": 0.029741,
+ "profit_after_gas": 0.139715,
+ "residual": "371752340.203106 SCOOINU",
+ "confidence": 5,
+ "note": "Actor contract 0xfad95... bought SCOOINU on pool 0x03a... in the front leg, the victim also traded that pool, and the actor sold SCOOINU back on the same pool. Net ETH/WETH after gas is positive, with residual SCOOINU left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2750,
+  "output_tokens": 7976,
+  "thinking_tokens": 7787
+ },
+ "_request_id": "2681dcdce7d59cbf1755ac7c76e88362",
+ "_response_id": "b69e4e4c-7387-4688-af43-736d3850f4e9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xfad95b6089c53a0d1d861eabfaadd8901b0f8533\",\"pool\":\"0x03a6947837d25c4d060fc6b78c0277b67a6adc40\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.169456,\"gas_eth\":0.029741,\"profit_after_gas\":0.139715,\"residual\":\"371752340.203106 SCOOINU\",\"confidence\":5,\"note\":\"Actor contract 0xfad95... bought SCOOINU on pool 0x03a... in the front leg, the victim also traded that pool, and the actor sold SCOOINU back on the same pool. Net ETH/WETH after gas is positive, with residual SCOOINU left.\"}",
+ "case_id": "pack_044",
+ "_time": "2026-10-19T19:08:43+0800"
+}

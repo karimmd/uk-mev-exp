@@ -1,0 +1,39 @@
+{
+ "actor": "0x4c5c2dd90634ec51d2a912314ccf8ab7046291c9",
+ "pools": [
+  "0xb8fce31f3dd2f0de6823575f1d35da4a306a5777",
+  "0xd4981ed8892cacc135192385de05b19684231e74",
+  "0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.021243,
+ "gas_eth": 0.008805,
+ "profit_after_gas": 0.012438,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Triangular arbitrage: USDT->SST on V3, SST->USDT and SST->WETH on two V2 pools; profit is withdrawn to ETH and forwarded to sender/miner. Sender nets +0.012438 ETH after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2029,
+  "output_tokens": 25879,
+  "thinking_tokens": 25639
+ },
+ "_request_id": "8020fc7dd70dff8ed2e16fba700b4651",
+ "_response_id": "f9087c89-5166-43df-8107-8b8aade7625b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4c5c2dd90634ec51d2a912314ccf8ab7046291c9\",\"pools\":[\"0xb8fce31f3dd2f0de6823575f1d35da4a306a5777\",\"0xd4981ed8892cacc135192385de05b19684231e74\",\"0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79\"],\"cycle_token\":\"USDT\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.021243,\"gas_eth\":0.008805,\"profit_after_gas\":0.012438,\"residual\":\"none\",\"confidence\":4,\"note\":\"Triangular arbitrage: USDT->SST on V3, SST->USDT and SST->WETH on two V2 pools; profit is withdrawn to ETH and forwarded to sender/miner. Sender nets +0.012438 ETH after gas.\"}",
+ "case_id": "arb106_039",
+ "_time": "2026-10-19T19:57:19+0800"
+}

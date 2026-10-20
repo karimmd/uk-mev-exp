@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000cb53d776774284822b1298ade47f",
+ "pool": "0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.007925,
+ "gas_eth": 0.0,
+ "residual": "about 481026501860 KEANU (2% of the front-leg amount), possibly a token transfer fee rather than a real holding",
+ "confidence": 4,
+ "note": "Contract 0x0000...e47f buys KEANU for 1.554598 WETH on pool 0xfee4...b7b3 before the victim's DAI->WETH->KEANU route through that pool, then sells for 1.604821 WETH (+0.050223). The 0.042298 ETH sent as transaction value was forwarded to 0xea67...8ec8, which looks like a miner payment; subtracting it gives about 0.0079 ETH with zero gas fees. Any leftover KEANU would only add value, so the sign is positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3383,
+  "output_tokens": 1196,
+  "thinking_tokens": 847
+ },
+ "_request_id": "req_011CgBRvLTRz8G8bsUfwde66",
+ "_response_id": "msg_011CgBRvLnXTQhSkWL7A7xmh",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x000000000000cb53d776774284822b1298ade47f\", \"pool\": \"0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.007925, \"gas_eth\": 0.0, \"residual\": \"about 481026501860 KEANU (2% of the front-leg amount), possibly a token transfer fee rather than a real holding\", \"confidence\": 4, \"note\": \"Contract 0x0000...e47f buys KEANU for 1.554598 WETH on pool 0xfee4...b7b3 before the victim's DAI->WETH->KEANU route through that pool, then sells for 1.604821 WETH (+0.050223). The 0.042298 ETH sent as transaction value was forwarded to 0xea67...8ec8, which looks like a miner payment; subtracting it gives about 0.0079 ETH with zero gas fees. Any leftover KEANU would only add value, so the sign is positive.\"}\n```",
+ "case_id": "pack_185",
+ "_time": "2026-10-19T18:22:50+0800"
+}

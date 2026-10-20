@@ -1,0 +1,25 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x14de8287adc90f0f95bf567c0707670de52e3813",
+  "0x8ae720a71622e824f576b4a8c03031066548a3b1",
+  "0x7a3c548416bbe8e09ac4fd6151af2dc6957a75ca",
+  "0x350db0440f1ff18e900dcc8c01180aa00e72cc91"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.022928,
+ "gas_eth": 0.022782,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor runs two V3-to-V2 legs (RAI and MET), each pulling more WETH from the V3 pool than it pays the V2 pool, and RAI and MET move pool to pool without touching the actor. Gross WETH gain is 0.022928 (0.012688 + 0.010240), so after the 0.022782 ETH gas fee it nets about +0.000146 ETH, a thin margin that rounding could affect. The only token the actor holds is WETH, so no cycle token nets to zero at the actor itself, which lowers my confidence slightly.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0229427,
+ "_session": "586733b3-5140-487b-8654-1890b3db4ef1",
+ "_raw": "{\"actor\": \"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\", \"pools\": [\"0x14de8287adc90f0f95bf567c0707670de52e3813\", \"0x8ae720a71622e824f576b4a8c03031066548a3b1\", \"0x7a3c548416bbe8e09ac4fd6151af2dc6957a75ca\", \"0x350db0440f1ff18e900dcc8c01180aa00e72cc91\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.022928, \"gas_eth\": 0.022782, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor runs two V3-to-V2 legs (RAI and MET), each pulling more WETH from the V3 pool than it pays the V2 pool, and RAI and MET move pool to pool without touching the actor. Gross WETH gain is 0.022928 (0.012688 + 0.010240), so after the 0.022782 ETH gas fee it nets about +0.000146 ETH, a thin margin that rounding could affect. The only token the actor holds is WETH, so no cycle token nets to zero at the actor itself, which lowers my confidence slightly.\"}",
+ "case_id": "arb106_066",
+ "_time": "2026-10-13T22:25:34+0800"
+}

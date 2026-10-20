@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071069,
+ "gas_eth": 0.033829,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the actor routes WETH through the WETH/RAD pool into the USDC/RAD pool and ends up holding 135008.58 USDC. The victim sells RAD for USDC on that same USDC/RAD pool. The back leg returns exactly the same USDC to that pool and takes WETH out of the WETH/RAD pool. WETH goes from 233.023445 out to 233.243512 in (+0.220067), minus a 0.148998 ETH internal transfer to 0x829b, gives +0.071069 ETH. After 0.033829 ETH gas the result is about +0.0372 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3695,
+  "output_tokens": 899,
+  "thinking_tokens": 576
+ },
+ "_request_id": "req_011CgBSh9yR1B1dWVT7urPbC",
+ "_response_id": "msg_011CgBShALV8gKqUUSYB4Zfs",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.071069,\"gas_eth\":0.033829,\"residual\":\"none\",\"confidence\":4,\"note\":\"In the front leg the actor routes WETH through the WETH/RAD pool into the USDC/RAD pool and ends up holding 135008.58 USDC. The victim sells RAD for USDC on that same USDC/RAD pool. The back leg returns exactly the same USDC to that pool and takes WETH out of the WETH/RAD pool. WETH goes from 233.023445 out to 233.243512 in (+0.220067), minus a 0.148998 ETH internal transfer to 0x829b, gives +0.071069 ETH. After 0.033829 ETH gas the result is about +0.0372 ETH.\"}",
+ "case_id": "rej53_036",
+ "_time": "2026-10-19T18:32:52+0800"
+}

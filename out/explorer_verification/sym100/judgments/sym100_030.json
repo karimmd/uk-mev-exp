@@ -1,0 +1,17 @@
+{
+ "actor": "0x738c0249c49dd4988a8b22b0f3257c8a9fd36fd6",
+ "pool": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.169027,
+ "gas_eth": 0.026996,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender EOA sells 1242.795971 API3 for 2.850253 WETH in the front leg, the victim sells API3 into the same pool in between, and the back leg buys back exactly 1242.795971 API3 for 2.681226 WETH, so no API3 is left over. Net WETH is +0.169027 before gas and about +0.142 after the 0.026996 ETH of combined gas. The position is inventory-based (sell first, buy back after), but it moves in the same direction as the victim and is reversed afterwards, which fits a sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0242407,
+ "_session": "bf42f96e-954b-4933-b1b7-a051a380564d",
+ "_raw": "{\"actor\": \"0x738c0249c49dd4988a8b22b0f3257c8a9fd36fd6\", \"pool\": \"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.169027, \"gas_eth\": 0.026996, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The sender EOA sells 1242.795971 API3 for 2.850253 WETH in the front leg, the victim sells API3 into the same pool in between, and the back leg buys back exactly 1242.795971 API3 for 2.681226 WETH, so no API3 is left over. Net WETH is +0.169027 before gas and about +0.142 after the 0.026996 ETH of combined gas. The position is inventory-based (sell first, buy back after), but it moves in the same direction as the victim and is reversed afterwards, which fits a sandwich.\"}",
+ "case_id": "sym100_030",
+ "_time": "2026-10-13T21:29:21+0800"
+}

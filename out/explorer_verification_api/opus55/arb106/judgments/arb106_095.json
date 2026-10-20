@@ -1,0 +1,39 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x2e4784446a0a06df3d1a040b03e1680ee266c35a",
+  "0x05767d9ef41dc40689678ffca0608878fb3de906",
+  "0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95",
+  "0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.035074,
+ "gas_eth": 0.02901,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The transaction holds two separate WETH cycles across V3 and V2 pools. In the first, WETH goes to V3 pool 0x2e47, CVX passes to V2 pool 0x0576, and WETH comes back to the actor (+0.018430). In the second, WETH goes to V3 pool 0xe3a4, TOWER passes to V2 pool 0xdbaa, and WETH comes back (+0.016644). CVX and TOWER move only between pools, so the actor holds no residual; its gross WETH gain is 0.035074, which is +0.006064 after the 0.029010 gas fee.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2359,
+  "output_tokens": 985,
+  "thinking_tokens": 513
+ },
+ "_request_id": "req_011CgBTcDKJZkCcHvP8xHvK9",
+ "_response_id": "msg_011CgBTcDdubamoAyus6u5Sz",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0x2e4784446a0a06df3d1a040b03e1680ee266c35a\", \"0x05767d9ef41dc40689678ffca0608878fb3de906\", \"0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95\", \"0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.035074, \"gas_eth\": 0.02901, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The transaction holds two separate WETH cycles across V3 and V2 pools. In the first, WETH goes to V3 pool 0x2e47, CVX passes to V2 pool 0x0576, and WETH comes back to the actor (+0.018430). In the second, WETH goes to V3 pool 0xe3a4, TOWER passes to V2 pool 0xdbaa, and WETH comes back (+0.016644). CVX and TOWER move only between pools, so the actor holds no residual; its gross WETH gain is 0.035074, which is +0.006064 after the 0.029010 gas fee.\"}\n```",
+ "case_id": "arb106_095",
+ "_time": "2026-10-19T18:44:55+0800"
+}

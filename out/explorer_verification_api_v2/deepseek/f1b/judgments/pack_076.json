@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x110492b31c59716ac47337e616804e3e3adc0b4a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.126745,
+ "gas_eth": 0.108075,
+ "profit_after_gas": 0.01867,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives WBTC in the front leg and sells the same WBTC in the back leg, while the victim trades the same BADGER/WBTC pool at 0x110492... . Net WETH gain is 0.126745 ETH before fees, fees sum to 0.108075 ETH, and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3587,
+  "output_tokens": 3261,
+  "thinking_tokens": 3079
+ },
+ "_request_id": "f73c1c595c334e608667c0adca5d8099",
+ "_response_id": "c508dbcb-e042-4981-ac4e-f1e573ba7829",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x110492b31c59716ac47337e616804e3e3adc0b4a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.126745,\"gas_eth\":0.108075,\"profit_after_gas\":0.01867,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives WBTC in the front leg and sells the same WBTC in the back leg, while the victim trades the same BADGER/WBTC pool at 0x110492... . Net WETH gain is 0.126745 ETH before fees, fees sum to 0.108075 ETH, and no non-WETH residual remains.\"}",
+ "case_id": "pack_076",
+ "_time": "2026-10-19T19:13:39+0800"
+}

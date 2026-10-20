@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbe55c87dff2a9f5c95cb5c07572c51fd91fe0732",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.107377,
+ "gas_eth": 0.051155,
+ "profit_after_gas": 0.056222,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold 8436.182084 ROOM for 14.491313 WETH in front, and bought the same ROOM amount back for 14.383936 WETH in back on the same UniswapV2 pool, with the victim between. Net WETH before gas is +0.107377; subtracting front and back gas leaves +0.056222 ETH/WETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2278,
+  "output_tokens": 6588,
+  "thinking_tokens": 6394
+ },
+ "_request_id": "0ebae3cd6c2b7a86f509476e312b07ae",
+ "_response_id": "76295000-bb4f-4036-aa0c-0e37bee07c34",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xbe55c87dff2a9f5c95cb5c07572c51fd91fe0732\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.107377,\"gas_eth\":0.051155,\"profit_after_gas\":0.056222,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold 8436.182084 ROOM for 14.491313 WETH in front, and bought the same ROOM amount back for 14.383936 WETH in back on the same UniswapV2 pool, with the victim between. Net WETH before gas is +0.107377; subtracting front and back gas leaves +0.056222 ETH/WETH.\"}",
+ "case_id": "sym100_017",
+ "_time": "2026-10-19T19:30:29+0800"
+}

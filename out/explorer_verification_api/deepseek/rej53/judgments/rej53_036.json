@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.03724,
+ "gas_eth": 0.033829,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract received 135008.580671 USDC in the front leg and returned exactly that in the back leg via the shared RAD/USDC UniswapV2 pool 0x8c1c..., with the victim trading that pool in between. Net WETH gain 0.220067 less internal ETH payment 0.148998 and gas 0.033829 is positive; no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2972,
+  "output_tokens": 6513,
+  "thinking_tokens": 6329
+ },
+ "_request_id": "1a70c7a5980cc7e4cd69a38eb5f1957b",
+ "_response_id": "af08f61b-80cc-4c24-b7cc-1ab5a2568e59",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.03724,\"gas_eth\":0.033829,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract received 135008.580671 USDC in the front leg and returned exactly that in the back leg via the shared RAD/USDC UniswapV2 pool 0x8c1c..., with the victim trading that pool in between. Net WETH gain 0.220067 less internal ETH payment 0.148998 and gas 0.033829 is positive; no non-WETH residual remains.\"}",
+ "case_id": "rej53_036",
+ "_time": "2026-10-19T19:01:52+0800"
+}

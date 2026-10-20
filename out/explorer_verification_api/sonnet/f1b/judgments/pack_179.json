@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xc03ac1e9c6946fed9e36732cebbcd73b0c7a0637",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000444,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 723,485,138.9 TT with 0.428852 WETH on the pool before the victim, then sells exactly the same TT back after the victim for 0.446596 WETH. The WETH gain is 0.017744. The 0.0173 ETH sent in the back leg's value and forwarded to 0xbcc8 looks like a bribe, so I counted it as a cost, leaving about +0.000444 ETH. Gas fees for both legs show as 0 because the gas price is listed as 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3092,
+  "output_tokens": 789,
+  "thinking_tokens": 486
+ },
+ "_request_id": "req_011CgBRoZseHohtHu3b98nBY",
+ "_response_id": "msg_011CgBRoaFD3o3dkoL4DCeDg",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\",\"pool\":\"0xc03ac1e9c6946fed9e36732cebbcd73b0c7a0637\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.000444,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 723,485,138.9 TT with 0.428852 WETH on the pool before the victim, then sells exactly the same TT back after the victim for 0.446596 WETH. The WETH gain is 0.017744. The 0.0173 ETH sent in the back leg's value and forwarded to 0xbcc8 looks like a bribe, so I counted it as a cost, leaving about +0.000444 ETH. Gas fees for both legs show as 0 because the gas price is listed as 0.0 gwei.\"}",
+ "case_id": "pack_179",
+ "_time": "2026-10-19T18:21:11+0800"
+}

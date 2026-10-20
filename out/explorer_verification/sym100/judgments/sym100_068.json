@@ -1,0 +1,17 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x4e37dcad9e6e1465f33387587cef22616aac2541",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.162934,
+ "gas_eth": 0.035398,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 47.257777 DIS into the pool for 4.365 WETH in the front leg. The victim then sells 58.47 DIS into the same pool. In the back leg the actor buys back exactly 47.257777 DIS for 4.202066 WETH. This is a reverse-direction sandwich: the DIS balance round-trips to zero, with a WETH gain of 0.162934 before gas and about 0.1275 ETH after the 0.035398 ETH gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0269052,
+ "_session": "e8f61dfa-77fa-4924-82f5-966369aef6cb",
+ "_raw": "{\"actor\": \"0xdac775cd972ac612907682ff757af66f75eecece\", \"pool\": \"0x4e37dcad9e6e1465f33387587cef22616aac2541\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.162934, \"gas_eth\": 0.035398, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 47.257777 DIS into the pool for 4.365 WETH in the front leg. The victim then sells 58.47 DIS into the same pool. In the back leg the actor buys back exactly 47.257777 DIS for 4.202066 WETH. This is a reverse-direction sandwich: the DIS balance round-trips to zero, with a WETH gain of 0.162934 before gas and about 0.1275 ETH after the 0.035398 ETH gas.\"}",
+ "case_id": "sym100_068",
+ "_time": "2026-10-13T21:38:03+0800"
+}

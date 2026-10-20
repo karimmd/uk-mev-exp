@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xa4f35395910d7a4ff110669ced4b70227a166877",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.035352,
+ "gas_eth": 0.035667,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are the same actor and share pool 0xa4f..., but the front leg sells MRCH for WETH and the back leg buys the same MRCH back, so no non-WETH position is opened in front and closed in back. The round trip nets +0.071019 WETH before gas and +0.035352 after the listed gas fees, with net MRCH residual zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2317,
+  "output_tokens": 15332,
+  "thinking_tokens": 15157
+ },
+ "_request_id": "ef44f8f0e156bb84c5b9e383839eedbd",
+ "_response_id": "6eda736e-7995-4701-a4d7-e7728259f287",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xa4f35395910d7a4ff110669ced4b70227a166877\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.035352,\"gas_eth\":0.035667,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are the same actor and share pool 0xa4f..., but the front leg sells MRCH for WETH and the back leg buys the same MRCH back, so no non-WETH position is opened in front and closed in back. The round trip nets +0.071019 WETH before gas and +0.035352 after the listed gas fees, with net MRCH residual zero.\"}",
+ "case_id": "sym100_050",
+ "_time": "2026-10-19T18:47:54+0800"
+}

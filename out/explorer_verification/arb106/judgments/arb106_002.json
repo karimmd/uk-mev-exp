@@ -1,0 +1,26 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf",
+  "0xce7e98d4da6ebda6af474ea618c6b175729cd366",
+  "0xa5c475167f03b1556c054e0da78192cd2779087f",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.067922,
+ "gas_eth": 0.052853,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor takes 5.735764 WETH from a V3 pool and pays 5.667178 WETH into a V2 pool. The remaining legs (FODL, USDC and FRAX) run pool to pool and never touch the actor, so the closed WETH->FODL->USDC->FRAX->WETH route is inferred from the transfer chain. The odd FRAX-labelled token 0x3432b6a6 and the missing return WETH leg keep this from being certain. Net is +0.068586 WETH minus a 0.000664 ETH internal payment, then minus the 0.052853 ETH gas fee, which leaves about +0.0151 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028470699999999998,
+ "_session": "80c29d89-1ac8-4eab-8ed2-ba09cb1dd338",
+ "_raw": "{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0xcd8286b48936cdac20518247dbd310ab681a9fbf\", \"0xce7e98d4da6ebda6af474ea618c6b175729cd366\", \"0xa5c475167f03b1556c054e0da78192cd2779087f\", \"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\", \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.067922, \"gas_eth\": 0.052853, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor takes 5.735764 WETH from a V3 pool and pays 5.667178 WETH into a V2 pool. The remaining legs (FODL, USDC and FRAX) run pool to pool and never touch the actor, so the closed WETH->FODL->USDC->FRAX->WETH route is inferred from the transfer chain. The odd FRAX-labelled token 0x3432b6a6 and the missing return WETH leg keep this from being certain. Net is +0.068586 WETH minus a 0.000664 ETH internal payment, then minus the 0.052853 ETH gas fee, which leaves about +0.0151 ETH.\"}",
+ "case_id": "arb106_002",
+ "_time": "2026-10-13T22:10:26+0800"
+}

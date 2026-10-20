@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045727,
+ "gas_eth": 0.009554,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received USDT after the front leg and spent the same USDT in the back leg on the victim's ALBT/USDT pool. Net WETH gain was 6.004439 - 5.949158 = 0.055281 ETH, minus front/back gas 0.009554 ETH, leaving positive 0.045727 ETH and no residual non-WETH token.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2551,
+  "output_tokens": 7667,
+  "thinking_tokens": 7489
+ },
+ "_request_id": "cf8c16fa4b2a2692bec5e24693be8606",
+ "_response_id": "e6d2665a-1c2a-4a89-aeb7-3c290f795933",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.045727,\"gas_eth\":0.009554,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received USDT after the front leg and spent the same USDT in the back leg on the victim's ALBT/USDT pool. Net WETH gain was 6.004439 - 5.949158 = 0.055281 ETH, minus front/back gas 0.009554 ETH, leaving positive 0.045727 ETH and no residual non-WETH token.\"}",
+ "case_id": "rej53_001",
+ "_time": "2026-10-19T18:57:34+0800"
+}

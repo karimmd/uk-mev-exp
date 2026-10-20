@@ -1,0 +1,42 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x495864cad6cf60e97efcd3f14ff8b1f167956ba2",
+  "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+  "0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8",
+  "0x7a019e9f33af312b5e5c6b065fbc733ccaa09f39",
+  "0xcd9dab5e666de980cecdc180cb31f296733e2587",
+  "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b"
+ ],
+ "cycle_token": "API3 / UFO / AKITA (each passed pool-to-pool, netting to zero)",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.032227,
+ "gas_eth": 0.028055,
+ "profit_after_gas": 0.004172,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Three separate two-pool WETH cycles: API3 (V3 to V2) nets +0.011536 WETH, UFO (V2 to V2) nets +0.010287 WETH, and AKITA (V2 to V3) nets +0.010404 WETH. In each cycle the intermediate token moves directly between the two pools, and the actor handles only WETH with its pools. The total of 0.032227 WETH exceeds the 0.028055 ETH gas fee, a thin but positive margin.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2974,
+  "output_tokens": 1065,
+  "thinking_tokens": 528
+ },
+ "_request_id": "req_011CgBXezmYuqCAc8j3Z35oz",
+ "_response_id": "msg_011CgBXf1F4vnfyategRVwoo",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0x495864cad6cf60e97efcd3f14ff8b1f167956ba2\", \"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\", \"0x97e1fcb93ae7267dbafad23f7b9afaa08264cfd8\", \"0x7a019e9f33af312b5e5c6b065fbc733ccaa09f39\", \"0xcd9dab5e666de980cecdc180cb31f296733e2587\", \"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\"], \"cycle_token\": \"API3 / UFO / AKITA (each passed pool-to-pool, netting to zero)\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.032227, \"gas_eth\": 0.028055, \"profit_after_gas\": 0.004172, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Three separate two-pool WETH cycles: API3 (V3 to V2) nets +0.011536 WETH, UFO (V2 to V2) nets +0.010287 WETH, and AKITA (V2 to V3) nets +0.010404 WETH. In each cycle the intermediate token moves directly between the two pools, and the actor handles only WETH with its pools. The total of 0.032227 WETH exceeds the 0.028055 ETH gas fee, a thin but positive margin.\"}",
+ "case_id": "arb106_090",
+ "_time": "2026-10-19T19:37:59+0800"
+}

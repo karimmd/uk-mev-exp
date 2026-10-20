@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9ac681f68a589cc3763bad9ce43be3380696b136",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013539,
+ "gas_eth": 0.068133,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x0000...6b40 pays 7.796880 WETH for 69.817709 MM on UniswapV3 pool 0x9ac6...b136. The victim then buys MM on the same pool, and the back leg sells the identical 69.817709 MM back for 7.878552 WETH. The WETH gain is 0.081672; subtracting the 0.068133 front fee and the zero-fee back leg (0 gwei, likely a private bundle) leaves about +0.013539 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3279,
+  "output_tokens": 501,
+  "thinking_tokens": 207
+ },
+ "_request_id": "req_011CgBREjeazwyTWC5La8xhc",
+ "_response_id": "msg_011CgBREoxJ5LUTgxvkBShuX",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x9ac681f68a589cc3763bad9ce43be3380696b136\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.013539, \"gas_eth\": 0.068133, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x0000...6b40 pays 7.796880 WETH for 69.817709 MM on UniswapV3 pool 0x9ac6...b136. The victim then buys MM on the same pool, and the back leg sells the identical 69.817709 MM back for 7.878552 WETH. The WETH gain is 0.081672; subtracting the 0.068133 front fee and the zero-fee back leg (0 gwei, likely a private bundle) leaves about +0.013539 ETH.\"}",
+ "case_id": "pack_098",
+ "_time": "2026-10-19T18:13:46+0800"
+}

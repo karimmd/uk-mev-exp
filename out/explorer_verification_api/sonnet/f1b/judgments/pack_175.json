@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000005736775feb0c8568e7dee77222a26880",
+ "pool": "0xc34da1ab0f93dfed30729951dafcfb9ce3e2a9ae",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.1214,
+ "gas_eth": 0.05412,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 13933.463 XTM with 1.753999 WETH in the front leg and sells exactly that XTM for 1.875399 WETH in the back leg, on pool 0xc34d\u2026, which the victim also trades (WETH in, XTM out) between them. Gross WETH gain is 0.1214; after front and back gas of 0.05412 ETH, the position is about +0.0673 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4123,
+  "output_tokens": 696,
+  "thinking_tokens": 437
+ },
+ "_request_id": "req_011CgBRnS3a5LWsfufzYBJks",
+ "_response_id": "msg_011CgBRnSPuA2qDQ7hCSPBUo",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000005736775feb0c8568e7dee77222a26880\",\"pool\":\"0xc34da1ab0f93dfed30729951dafcfb9ce3e2a9ae\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.1214,\"gas_eth\":0.05412,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 13933.463 XTM with 1.753999 WETH in the front leg and sells exactly that XTM for 1.875399 WETH in the back leg, on pool 0xc34d\u2026, which the victim also trades (WETH in, XTM out) between them. Gross WETH gain is 0.1214; after front and back gas of 0.05412 ETH, the position is about +0.0673 ETH.\"}",
+ "case_id": "pack_175",
+ "_time": "2026-10-19T18:20:55+0800"
+}

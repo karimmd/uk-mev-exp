@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x30296ea311779740ec158ff8c9e3a8c0217f8113",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.09047,
+ "gas_eth": 0.084765,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are calls to the same actor contract, which sells BFLY on the shared Uniswap V2 pool before the victim's BFLY sale and buys the same amount back after. Net WETH is 0.175235 less 0.084765 gas, leaving about 0.09047 ETH and no residual BFLY.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2441,
+  "output_tokens": 10202,
+  "thinking_tokens": 10032
+ },
+ "_request_id": "0cec705a7750717ad3f715bc4f3551a5",
+ "_response_id": "ef468741-f4bc-4b2a-9aa8-50f3beac4d82",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x30296ea311779740ec158ff8c9e3a8c0217f8113\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.09047,\"gas_eth\":0.084765,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are calls to the same actor contract, which sells BFLY on the shared Uniswap V2 pool before the victim's BFLY sale and buys the same amount back after. Net WETH is 0.175235 less 0.084765 gas, leaving about 0.09047 ETH and no residual BFLY.\"}",
+ "case_id": "sym100_034",
+ "_time": "2026-10-19T18:44:20+0800"
+}

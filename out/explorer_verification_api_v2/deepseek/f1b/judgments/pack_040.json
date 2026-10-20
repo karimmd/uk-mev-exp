@@ -1,0 +1,32 @@
+{
+ "actor": "0x575c3a99429352eda66661fc3857b9f83f58a73f",
+ "pool": "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.099535,
+ "gas_eth": 0,
+ "profit_after_gas": 0.099535,
+ "residual": "395422486345.136718 SANSHU",
+ "confidence": 5,
+ "note": "The called contract 0x575c... bought SANSHU in the front leg and sold it in the back leg on the same SANSHU/WETH pool the victim used. Netting WETH/ETH flows, including the 0.231386 ETH internal transfer out, leaves +0.099535 ETH before zero gas cost.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2548,
+  "output_tokens": 4257,
+  "thinking_tokens": 4072
+ },
+ "_request_id": "4053b5afbd2d2527f29288815e50fb5c",
+ "_response_id": "e912b91b-e7cf-4310-be2a-a97cbbbcd486",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x575c3a99429352eda66661fc3857b9f83f58a73f\",\"pool\":\"0xa7ad4ce6c21d9e875f1067cd377256326b483002\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.099535,\"gas_eth\":0,\"profit_after_gas\":0.099535,\"residual\":\"395422486345.136718 SANSHU\",\"confidence\":5,\"note\":\"The called contract 0x575c... bought SANSHU in the front leg and sold it in the back leg on the same SANSHU/WETH pool the victim used. Netting WETH/ETH flows, including the 0.231386 ETH internal transfer out, leaves +0.099535 ETH before zero gas cost.\"}",
+ "case_id": "pack_040",
+ "_time": "2026-10-19T19:08:06+0800"
+}

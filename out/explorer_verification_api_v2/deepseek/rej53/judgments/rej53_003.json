@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0xb319887931a5a1bb379deb45c2586430b166f21b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02755,
+ "gas_eth": 0,
+ "profit_after_gas": 0.02755,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys FOR via WETH->USDT->FOR before the victim, and sells the same FOR amount after the victim on the same USDT/FOR pool. Net WETH is 0.403424 - 0.364067 = 0.039357, minus 0.011807 ETH sent out internally, leaving 0.02755 ETH before zero front/back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2901,
+  "output_tokens": 3243,
+  "thinking_tokens": 3042
+ },
+ "_request_id": "276ee2f66dd7806724690a1020ecc4fe",
+ "_response_id": "83836fdd-20ce-4c8c-945b-9ea963aa74dd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0xb319887931a5a1bb379deb45c2586430b166f21b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.02755, \"gas_eth\": 0, \"profit_after_gas\": 0.02755, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract buys FOR via WETH->USDT->FOR before the victim, and sells the same FOR amount after the victim on the same USDT/FOR pool. Net WETH is 0.403424 - 0.364067 = 0.039357, minus 0.011807 ETH sent out internally, leaving 0.02755 ETH before zero front/back gas.\"}",
+ "case_id": "rej53_003",
+ "_time": "2026-10-19T19:40:05+0800"
+}

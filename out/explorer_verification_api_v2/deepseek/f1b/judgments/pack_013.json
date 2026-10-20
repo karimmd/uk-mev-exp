@@ -1,0 +1,32 @@
+{
+ "actor": "0xc65433d2a598c323e04fd143566b08609af008dc",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.034551,
+ "gas_eth": 0,
+ "profit_after_gas": 0.034551,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xc654 bought and then sold the same 146.279741 COLLAR amount on pool 0xd329, with the victim's buy in between. Net ETH/WETH flow is positive even after the 0.001819 ETH internal transfer, and residual COLLAR is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2642,
+  "output_tokens": 6196,
+  "thinking_tokens": 6030
+ },
+ "_request_id": "c8b198389e5ab54523454197b976ec4f",
+ "_response_id": "68592a60-2b76-4f26-a4b7-c2120ca27322",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc65433d2a598c323e04fd143566b08609af008dc\",\"pool\":\"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.034551,\"gas_eth\":0,\"profit_after_gas\":0.034551,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0xc654 bought and then sold the same 146.279741 COLLAR amount on pool 0xd329, with the victim's buy in between. Net ETH/WETH flow is positive even after the 0.001819 ETH internal transfer, and residual COLLAR is zero.\"}",
+ "case_id": "pack_013",
+ "_time": "2026-10-19T19:05:11+0800"
+}

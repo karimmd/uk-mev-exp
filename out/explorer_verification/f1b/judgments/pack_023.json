@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.365585,
+ "gas_eth": 0.356902,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract spends 47.541343 WETH in the front leg, routed through the WETH/HEX pool and the HEX/USDC pool, and ends up holding 167518.77 USDC. The back leg returns exactly that USDC and receives 47.906928 WETH. The victim swaps HEX for USDC on the shared HEX/USDC pool between the two legs. The gross gain is 0.365585 WETH, and front and back gas total 0.356902 ETH, so the net after gas is about +0.00868 ETH. This is thin, and the back leg's gas price was very high.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0264712,
+ "_session": "b99a1cb9-feec-4b16-818e-a48be1eea44f",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.365585, \"gas_eth\": 0.356902, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract spends 47.541343 WETH in the front leg, routed through the WETH/HEX pool and the HEX/USDC pool, and ends up holding 167518.77 USDC. The back leg returns exactly that USDC and receives 47.906928 WETH. The victim swaps HEX for USDC on the shared HEX/USDC pool between the two legs. The gross gain is 0.365585 WETH, and front and back gas total 0.356902 ETH, so the net after gas is about +0.00868 ETH. This is thin, and the back leg's gas price was very high.\"}",
+ "case_id": "pack_023",
+ "_time": "2026-10-13T20:08:43+0800"
+}

@@ -1,0 +1,24 @@
+{
+ "actor": "0x0000000000438f975cbde76d5fdd1aa76be46577",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth": 0.113016,
+ "gas_eth": 0.191713,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Triangular route WETH -> YLD -> RFI -> WETH across three Uniswap V2 pools; the actor sends 5.818196 WETH and receives 5.931212 WETH, a gross gain of 0.113016 that is smaller than the 0.191713 ETH gas fee, so the position is net negative (about -0.0787 ETH). The intermediate YLD and RFI move pool to pool and leave no residual.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0223567,
+ "_session": "c798610b-2aec-4253-8e53-9f301f014ef9",
+ "_raw": "{\"actor\":\"0x0000000000438f975cbde76d5fdd1aa76be46577\",\"pools\":[\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\",\"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\",\"0x4c8341379e95f70c08defb76c4f9c036525edc30\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"no\",\"net_eth\":0.113016,\"gas_eth\":0.191713,\"residual\":\"none\",\"confidence\":4,\"note\":\"Triangular route WETH -> YLD -> RFI -> WETH across three Uniswap V2 pools; the actor sends 5.818196 WETH and receives 5.931212 WETH, a gross gain of 0.113016 that is smaller than the 0.191713 ETH gas fee, so the position is net negative (about -0.0787 ETH). The intermediate YLD and RFI move pool to pool and leave no residual.\"}",
+ "case_id": "arb106_037",
+ "_time": "2026-10-13T22:19:03+0800"
+}

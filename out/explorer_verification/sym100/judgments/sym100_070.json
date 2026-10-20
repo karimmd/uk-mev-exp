@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.087806,
+ "gas_eth": 0.040331,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 1434.317043 CWS to the CWS/WETH pool for 27.442 WETH in the front leg. The victim then sold 300 CWS into the same pool. In the back leg the actor bought back exactly 1434.317043 CWS for 27.354194 WETH. The WETH gain is 0.087806, or about 0.0475 ETH after 0.040331 ETH of gas. The sell-first order means the actor must have held CWS inventory before the front leg.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.023792800000000003,
+ "_session": "9935b4fc-17c7-4f50-8dd8-e4d4f845cf53",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.087806, \"gas_eth\": 0.040331, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sold 1434.317043 CWS to the CWS/WETH pool for 27.442 WETH in the front leg. The victim then sold 300 CWS into the same pool. In the back leg the actor bought back exactly 1434.317043 CWS for 27.354194 WETH. The WETH gain is 0.087806, or about 0.0475 ETH after 0.040331 ETH of gas. The sell-first order means the actor must have held CWS inventory before the front leg.\"}",
+ "case_id": "sym100_070",
+ "_time": "2026-10-13T21:38:29+0800"
+}

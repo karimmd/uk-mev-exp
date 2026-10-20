@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022941,
+ "gas_eth": 0.02199,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH to LON to USDT in the front leg, ending with 62451.878937 USDT. The back leg returns exactly that USDT and receives 21.762541 WETH. The victim sells LON for USDT on the shared LON/USDT pool between the two legs. The WETH gain is 0.022941, and after 0.02199 ETH of front and back gas the result is about +0.00095 ETH. That margin is thin, and any payment to the block builder would not show in this data.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025828700000000003,
+ "_session": "cc31fb88-e0af-44b0-920c-78e9f1d7a1ca",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.022941, \"gas_eth\": 0.02199, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract routes WETH to LON to USDT in the front leg, ending with 62451.878937 USDT. The back leg returns exactly that USDT and receives 21.762541 WETH. The victim sells LON for USDT on the shared LON/USDT pool between the two legs. The WETH gain is 0.022941, and after 0.02199 ETH of front and back gas the result is about +0.00095 ETH. That margin is thin, and any payment to the block builder would not show in this data.\"}",
+ "case_id": "rej53_005",
+ "_time": "2026-10-13T21:54:27+0800"
+}

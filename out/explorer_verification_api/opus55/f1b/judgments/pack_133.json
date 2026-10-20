@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x7270233ccae676e776a659affc35219e6fcfbb10",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.002839,
+ "gas_eth": 0.024422,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg, contract 0x...6b40 routed WETH to CFG on pool 0x6127, then CFG to 6412.918549 USDC on pool 0x7270. The victim then sold CFG for USDC on 0x7270, and the back leg returned exactly that USDC on 0x7270 and sold the larger CFG amount back to 0x6127 for WETH. WETH net is +0.027261; after 0.024422 ETH of gas the actor is about +0.002839 ETH, with no token left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3079,
+  "output_tokens": 611,
+  "thinking_tokens": 314
+ },
+ "_request_id": "req_011CgBRaNUS3cubMNaQUnwiY",
+ "_response_id": "msg_011CgBRaT7EWmA2CW938cEca",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x7270233ccae676e776a659affc35219e6fcfbb10\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.002839, \"gas_eth\": 0.024422, \"residual\": \"none\", \"confidence\": 4, \"note\": \"In the front leg, contract 0x...6b40 routed WETH to CFG on pool 0x6127, then CFG to 6412.918549 USDC on pool 0x7270. The victim then sold CFG for USDC on 0x7270, and the back leg returned exactly that USDC on 0x7270 and sold the larger CFG amount back to 0x6127 for WETH. WETH net is +0.027261; after 0.024422 ETH of gas the actor is about +0.002839 ETH, with no token left over.\"}",
+ "case_id": "pack_133",
+ "_time": "2026-10-19T18:18:14+0800"
+}

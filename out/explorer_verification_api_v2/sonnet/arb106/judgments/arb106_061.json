@@ -1,0 +1,43 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x86e69d1ae728c9cd229f07bbf34e01bf27258354",
+  "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+  "0x7ce01885a13c652241ae02ea7369ee8d466802eb",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878",
+  "0x9e79ccaacaaa5dbb6714eea8fdfd6496c9618f40",
+  "0x4a9c7b98c1a92db0ad33b31b549fb1820fe571ff"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008922,
+ "gas_eth": 0.008288,
+ "profit_after_gas": 0.000634,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor only handles WETH. It sends WETH into three routes (V3 TRU pool to V2 TRU pool; TRIBE to FEI to WETH; SWINGBY pool to another pool) and gets WETH back from each, with intermediate tokens passing pool to pool. WETH in is 0.905150 and out is 0.896228, so net is +0.008922 before gas and about +0.000634 after the stated fee. The gas payer is the EOA sender, which I assumed is the same operator as the actor contract.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3268,
+  "output_tokens": 1354,
+  "thinking_tokens": 816
+ },
+ "_request_id": "req_011CgBXL7Cy5PjCdpdzBu342",
+ "_response_id": "msg_011CgBXL7bYCmXqUnFkNm3NQ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x86e69d1ae728c9cd229f07bbf34e01bf27258354\",\"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\",\"0x7ce01885a13c652241ae02ea7369ee8d466802eb\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x94b0a3d511b6ecdb17ebf877278ab030acb0a878\",\"0x9e79ccaacaaa5dbb6714eea8fdfd6496c9618f40\",\"0x4a9c7b98c1a92db0ad33b31b549fb1820fe571ff\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.008922,\"gas_eth\":0.008288,\"profit_after_gas\":0.000634,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor only handles WETH. It sends WETH into three routes (V3 TRU pool to V2 TRU pool; TRIBE to FEI to WETH; SWINGBY pool to another pool) and gets WETH back from each, with intermediate tokens passing pool to pool. WETH in is 0.905150 and out is 0.896228, so net is +0.008922 before gas and about +0.000634 after the stated fee. The gas payer is the EOA sender, which I assumed is the same operator as the actor contract.\"}",
+ "case_id": "arb106_061",
+ "_time": "2026-10-19T19:33:43+0800"
+}

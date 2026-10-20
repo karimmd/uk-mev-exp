@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.015568,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x27d2ef buys 93112565531.76 JEJUDOGE for 3.859384 WETH in the front leg, the victim buys JEJUDOGE on the same pool (0x9d54...), and the contract sells the identical amount back for 3.933715 WETH. The WETH gain is 0.074331. The back leg's 0.058763 ETH value is forwarded to 0x5a0b..., which looks like a bribe, so net is about +0.015568 ETH with 0 gas fees at 0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0242787,
+ "_session": "b281385d-3491-4376-af94-06b37fd70b5c",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.015568, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x27d2ef buys 93112565531.76 JEJUDOGE for 3.859384 WETH in the front leg, the victim buys JEJUDOGE on the same pool (0x9d54...), and the contract sells the identical amount back for 3.933715 WETH. The WETH gain is 0.074331. The back leg's 0.058763 ETH value is forwarded to 0x5a0b..., which looks like a bribe, so net is about +0.015568 ETH with 0 gas fees at 0 gwei.\"}",
+ "case_id": "pack_090",
+ "_time": "2026-10-13T20:22:09+0800"
+}

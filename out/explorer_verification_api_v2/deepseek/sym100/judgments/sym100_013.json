@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.186289,
+ "gas_eth": 0.0426633426,
+ "profit_after_gas": 0.1436256574,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor sells SHOPX in front, then buys the same SHOPX amount back in back, on the same UniswapV2 pool the victim trades. Net WETH gain is 0.186289 ETH before gas, positive after 0.0426633426 ETH gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2437,
+  "output_tokens": 2092,
+  "thinking_tokens": 1914
+ },
+ "_request_id": "c8f2d6828d4db2221ad01ecfddb03940",
+ "_response_id": "62947e87-87b6-416a-8136-1ae16680bd37",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.186289,\"gas_eth\":0.0426633426,\"profit_after_gas\":0.1436256574,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor sells SHOPX in front, then buys the same SHOPX amount back in back, on the same UniswapV2 pool the victim trades. Net WETH gain is 0.186289 ETH before gas, positive after 0.0426633426 ETH gas.\"}",
+ "case_id": "sym100_013",
+ "_time": "2026-10-19T19:29:50+0800"
+}

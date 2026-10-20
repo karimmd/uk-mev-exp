@@ -1,0 +1,31 @@
+{
+ "actor": "0x40a15a4f062a6c562333ad9b4d530c099f255a7b",
+ "pool": "0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.243281,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same sender, routed through the Uniswap V2 router, swaps 68.9 WETH for 64768.806987 LKR on pool 0x670c\u2026c304 before the victim's 1.8 ETH buy on that pool. It then sells exactly the same LKR amount back for 69.143281 WETH, a gain of +0.243281 WETH. Both legs ran at 0 gwei with no fee and no visible coinbase payment, which points to a private or miner-included bundle, so observable gas cost is zero.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3010,
+  "output_tokens": 559,
+  "thinking_tokens": 255
+ },
+ "_request_id": "req_011CgBQT7aAroWvxy5d8iYvx",
+ "_response_id": "msg_011CgBQTDYLh4NvsVFwhNcMU",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x40a15a4f062a6c562333ad9b4d530c099f255a7b\", \"pool\": \"0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.243281, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same sender, routed through the Uniswap V2 router, swaps 68.9 WETH for 64768.806987 LKR on pool 0x670c\u2026c304 before the victim's 1.8 ETH buy on that pool. It then sells exactly the same LKR amount back for 69.143281 WETH, a gain of +0.243281 WETH. Both legs ran at 0 gwei with no fee and no visible coinbase payment, which points to a private or miner-included bundle, so observable gas cost is zero.\"}",
+ "case_id": "pack_033",
+ "_time": "2026-10-19T18:03:28+0800"
+}

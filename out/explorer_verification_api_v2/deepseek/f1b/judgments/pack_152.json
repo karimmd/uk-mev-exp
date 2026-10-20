@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x38c619c351d6ad03f496a8c82ba5430c86fe0ab7",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.05632,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are separate transactions from different senders/contracts. Each performs a complete round-trip buying LORB from 0x10b and selling it to the UniswapV2 pool 0x38c, leaving no open token position. The victim is another arbitrageur doing the same, so no actor opens in front and closes in back.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3976,
+  "output_tokens": 16285,
+  "thinking_tokens": 16124
+ },
+ "_request_id": "da83495410a652523478de513c3fe56d",
+ "_response_id": "01fc148a-7f5a-4946-ae41-78547a7613f7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x38c619c351d6ad03f496a8c82ba5430c86fe0ab7\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.05632,\"profit_after_gas\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are separate transactions from different senders/contracts. Each performs a complete round-trip buying LORB from 0x10b and selling it to the UniswapV2 pool 0x38c, leaving no open token position. The victim is another arbitrageur doing the same, so no actor opens in front and closes in back.\"}",
+ "case_id": "pack_152",
+ "_time": "2026-10-19T19:23:13+0800"
+}

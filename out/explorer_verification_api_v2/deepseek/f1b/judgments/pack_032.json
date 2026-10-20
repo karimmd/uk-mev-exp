@@ -1,0 +1,32 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x87c6c475f40299e5ce3cba736f613f97e820f101",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.039376,
+ "gas_eth": 0.039298,
+ "profit_after_gas": 7.8e-05,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract 0x01ff... spends WETH to the UniswapV2 pool 0x87c6... in the front leg and receives more WETH back from the same pool in the back leg, with the victim swapping on that pool in between. Net WETH before gas is 0.039376, gas is 0.039298, leaving a small positive profit; the non-WETH position appears opened and closed with no observed residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2123,
+  "output_tokens": 7006,
+  "thinking_tokens": 6798
+ },
+ "_request_id": "6a7f4ae8761bee44ba31de423efb4477",
+ "_response_id": "6e208627-ed69-44aa-995b-bfe23356ffe9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x01ff6318440f7d5553a82294d78262d5f5084eff\",\"pool\":\"0x87c6c475f40299e5ce3cba736f613f97e820f101\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.039376,\"gas_eth\":0.039298,\"profit_after_gas\":0.000078,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract 0x01ff... spends WETH to the UniswapV2 pool 0x87c6... in the front leg and receives more WETH back from the same pool in the back leg, with the victim swapping on that pool in between. Net WETH before gas is 0.039376, gas is 0.039298, leaving a small positive profit; the non-WETH position appears opened and closed with no observed residual.\"}",
+ "case_id": "pack_032",
+ "_time": "2026-10-19T19:07:27+0800"
+}

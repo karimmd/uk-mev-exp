@@ -1,0 +1,38 @@
+{
+ "actor": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9",
+ "pools": [
+  "0x7858e59e0c01ea06df3af3d20ac7b0003275d4bf",
+  "0x4e68ccd3e89f51c3074ca5072bbac773960dfa36"
+ ],
+ "cycle_token": null,
+ "profit_token": "WETH",
+ "Q1": "no",
+ "Q1_reason": "routed sale",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 46.64298,
+ "gas_eth": 0.066794,
+ "profit_after_gas": 46.576186,
+ "residual": "-112848.908406 USDC",
+ "confidence": 4,
+ "note": "The transaction is a routed sale: actor 0x56178... net spent 112,848.908406 USDC and received 46.64298 WETH via two Uniswap V3 pools. The helper 0xbf3f... netted zero, and the USDC residual prevents a definitive profit sign after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1875,
+  "output_tokens": 20729,
+  "thinking_tokens": 20465
+ },
+ "_request_id": "d7379a83b8ab186e6ba050c76dba0678",
+ "_response_id": "9df014bf-db74-4714-a64c-ca7e96ff40be",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x56178a0d5f301baf6cf3e1cd53d9863437345bf9\", \"pools\": [\"0x7858e59e0c01ea06df3af3d20ac7b0003275d4bf\", \"0x4e68ccd3e89f51c3074ca5072bbac773960dfa36\"], \"cycle_token\": null, \"profit_token\": \"WETH\", \"Q1\": \"no\", \"Q1_reason\": \"routed sale\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": 46.64298, \"gas_eth\": 0.066794, \"profit_after_gas\": 46.576186, \"residual\": \"-112848.908406 USDC\", \"confidence\": 4, \"note\": \"The transaction is a routed sale: actor 0x56178... net spent 112,848.908406 USDC and received 46.64298 WETH via two Uniswap V3 pools. The helper 0xbf3f... netted zero, and the USDC residual prevents a definitive profit sign after gas.\"}",
+ "case_id": "arb106_014",
+ "_time": "2026-10-19T19:51:23+0800"
+}

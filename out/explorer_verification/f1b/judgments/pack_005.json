@@ -1,0 +1,17 @@
+{
+ "actor": "0x38f2e4e2e33c81998b20989513e124e9d568f365",
+ "pool": "0x1812ef69e1753f908229df40d304a5fbdcd52dd3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.139598,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor routes 12.150242 WETH through the WETH/USDT pool (0x06da...) into FORTH on the FORTH/USDT pool, which the victim also buys from. The back leg sells exactly 365.683852 FORTH and returns 13.669706 WETH, so FORTH is fully closed. Net WETH is +1.519464, less a 0.379866 ETH payment to 0x04668e... (likely a miner tip) gives +1.139598, with both legs showing 0 gwei and so no gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025862700000000002,
+ "_session": "17a571bc-5f02-40a8-a376-47de31c1a979",
+ "_raw": "{\"actor\": \"0x38f2e4e2e33c81998b20989513e124e9d568f365\", \"pool\": \"0x1812ef69e1753f908229df40d304a5fbdcd52dd3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.139598, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor routes 12.150242 WETH through the WETH/USDT pool (0x06da...) into FORTH on the FORTH/USDT pool, which the victim also buys from. The back leg sells exactly 365.683852 FORTH and returns 13.669706 WETH, so FORTH is fully closed. Net WETH is +1.519464, less a 0.379866 ETH payment to 0x04668e... (likely a miner tip) gives +1.139598, with both legs showing 0 gwei and so no gas fee.\"}",
+ "case_id": "pack_005",
+ "_time": "2026-10-13T20:05:13+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x72af4d1d175672d1f99506e68e6e7cff484be4de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028134,
+ "gas_eth": 0.022507,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 234.177926 ASH with 1.859508 WETH in the front leg and sells the same amount back for 1.887642 WETH in the back leg. The victim buys ASH on the same pool in between. The gross gain is +0.028134 ETH. After the combined gas of 0.022507 ETH it is about +0.005627 ETH, and no ASH is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0245212,
+ "_session": "7c909832-9a34-4d29-9025-812832f11caa",
+ "_raw": "{\"actor\": \"0x00000000500e2fece27a7600435d0c48d64e0c00\", \"pool\": \"0x72af4d1d175672d1f99506e68e6e7cff484be4de\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.028134, \"gas_eth\": 0.022507, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 234.177926 ASH with 1.859508 WETH in the front leg and sells the same amount back for 1.887642 WETH in the back leg. The victim buys ASH on the same pool in between. The gross gain is +0.028134 ETH. After the combined gas of 0.022507 ETH it is about +0.005627 ETH, and no ASH is left over.\"}",
+ "case_id": "pack_010",
+ "_time": "2026-10-13T20:06:09+0800"
+}

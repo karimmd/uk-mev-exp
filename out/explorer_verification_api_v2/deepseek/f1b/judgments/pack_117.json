@@ -1,0 +1,32 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x404e716257c4f4bcc43b967514520b98c0c09dd5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008099,
+ "gas_eth": 0.008014,
+ "profit_after_gas": 8.5e-05,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x01ff... receives HEART in the front leg and sends the identical amount in the back leg on pool 0x404e..., with the victim trading that same pool in between. WETH net is 4.102519 - 4.094420 = 0.008099 before gas; subtracting 0.008014 gas leaves +0.000085 ETH and no residual HEART.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2328,
+  "output_tokens": 2550,
+  "thinking_tokens": 2351
+ },
+ "_request_id": "d6b212e9a298ff60edc8d1ad5f1d4c77",
+ "_response_id": "82b85adf-1f84-422e-af6e-4282b37ce29c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x01ff6318440f7d5553a82294d78262d5f5084eff\",\"pool\":\"0x404e716257c4f4bcc43b967514520b98c0c09dd5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.008099,\"gas_eth\":0.008014,\"profit_after_gas\":0.000085,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x01ff... receives HEART in the front leg and sends the identical amount in the back leg on pool 0x404e..., with the victim trading that same pool in between. WETH net is 4.102519 - 4.094420 = 0.008099 before gas; subtracting 0.008014 gas leaves +0.000085 ETH and no residual HEART.\"}",
+ "case_id": "pack_117",
+ "_time": "2026-10-19T19:19:00+0800"
+}

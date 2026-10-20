@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0x86e69d1ae728c9cd229f07bbf34e01bf27258354",
+  "0xbda1200eed6aa819c781f3b66d1312a3b703eb2e",
+  "0x2efec2097beede290b2eed63e2faf5ecbbc528fc",
+  "0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad"
+ ],
+ "cycle_token": "TRU and CEEK",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.00394,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.00394,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two closed cycles: TRU bought from pool 1 and sold to pool 3, CEEK bought from pool 2 and sold to pool 4, with identical amounts in and out. WETH nets +0.015761, and the 0.011821 ETH internal transfer to 0x99c8... (likely a miner payment) leaves +0.00394. The listed gas fee is 0 because the gas price is 0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2764,
+  "output_tokens": 1140,
+  "thinking_tokens": 728
+ },
+ "_request_id": "req_011CgBWzJnRtg2XMcFWP6BNc",
+ "_response_id": "msg_011CgBWzK9Vny19oEjyv9Ybs",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000a1c7212a1c129512d80eb30d14dc08\",\"pools\":[\"0x86e69d1ae728c9cd229f07bbf34e01bf27258354\",\"0xbda1200eed6aa819c781f3b66d1312a3b703eb2e\",\"0x2efec2097beede290b2eed63e2faf5ecbbc528fc\",\"0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad\"],\"cycle_token\":\"TRU and CEEK\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.00394,\"gas_eth\":0.0,\"profit_after_gas\":0.00394,\"residual\":\"none\",\"confidence\":4,\"note\":\"Two closed cycles: TRU bought from pool 1 and sold to pool 3, CEEK bought from pool 2 and sold to pool 4, with identical amounts in and out. WETH nets +0.015761, and the 0.011821 ETH internal transfer to 0x99c8... (likely a miner payment) leaves +0.00394. The listed gas fee is 0 because the gas price is 0 gwei.\"}",
+ "case_id": "arb106_005",
+ "_time": "2026-10-19T19:29:13+0800"
+}

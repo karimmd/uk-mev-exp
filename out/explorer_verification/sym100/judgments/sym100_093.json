@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.199331,
+ "gas_eth": 0.069306,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 44713.708478 TRU into the TRU/WETH pool for 8.733 WETH before the victim's 50000 TRU sale on the same pool. It then bought back exactly the same TRU for 8.533669 WETH after the victim. The WETH gain of 0.199331 exceeds the front and back gas of 0.069306, leaving about +0.130 ETH. This is a reverse-direction sandwich, and the actor's TRU balance nets to zero.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0246688,
+ "_session": "a770777e-731a-48fd-9aaa-a3cb4f9449b9",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.199331, \"gas_eth\": 0.069306, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sold 44713.708478 TRU into the TRU/WETH pool for 8.733 WETH before the victim's 50000 TRU sale on the same pool. It then bought back exactly the same TRU for 8.533669 WETH after the victim. The WETH gain of 0.199331 exceeds the front and back gas of 0.069306, leaving about +0.130 ETH. This is a reverse-direction sandwich, and the actor's TRU balance nets to zero.\"}",
+ "case_id": "sym100_093",
+ "_time": "2026-10-13T21:43:42+0800"
+}

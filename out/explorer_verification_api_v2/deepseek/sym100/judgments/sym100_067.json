@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.532132,
+ "gas_eth": 0.063780756,
+ "profit_after_gas": 0.468351244,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0xb591... sold 1272.850895 CWS for 31.111 WETH in the front leg, the victim traded CWS on the same pool, and the back leg bought back the same CWS amount for 30.578868 WETH. Net WETH gain is 0.532132 before 0.063780756 ETH gas, so profit after gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2493,
+  "output_tokens": 3892,
+  "thinking_tokens": 3687
+ },
+ "_request_id": "6dd0a995948f2aeb36996f4eac2c7d76",
+ "_response_id": "fe377612-9a8c-4f09-8a82-37957f4615b7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.532132,\"gas_eth\":0.063780756,\"profit_after_gas\":0.468351244,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0xb591... sold 1272.850895 CWS for 31.111 WETH in the front leg, the victim traded CWS on the same pool, and the back leg bought back the same CWS amount for 30.578868 WETH. Net WETH gain is 0.532132 before 0.063780756 ETH gas, so profit after gas is positive.\"}",
+ "case_id": "sym100_067",
+ "_time": "2026-10-19T19:35:31+0800"
+}

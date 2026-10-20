@@ -1,0 +1,25 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x2e4784446a0a06df3d1a040b03e1680ee266c35a",
+  "0x05767d9ef41dc40689678ffca0608878fb3de906",
+  "0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95",
+  "0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9"
+ ],
+ "cycle_token": "CVX and TOWER (intermediate tokens passed directly between the pools, never held by the actor)",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.035074,
+ "gas_eth": 0.02901,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor ran two separate two-pool arbitrages, each buying a token on a V3 pool and selling it on a V2 pool (CVX and TOWER), with the token going straight from the V3 pool to the V2 pool. It received 4.712532 WETH and paid 4.677458 WETH, a gross gain of 0.035074 WETH and about 0.006064 ETH after the 0.029010 gas fee. It holds no other tokens and received none from the zero address. The cycle test is only loosely met: the actor never touches the intermediate tokens, and WETH is the profit token rather than a netted-to-zero cycle token.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0229847,
+ "_session": "b9be79ce-1156-408f-82db-acfe33ca0f13",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x2e4784446a0a06df3d1a040b03e1680ee266c35a\",\"0x05767d9ef41dc40689678ffca0608878fb3de906\",\"0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95\",\"0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9\"],\"cycle_token\":\"CVX and TOWER (intermediate tokens passed directly between the pools, never held by the actor)\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.035074,\"gas_eth\":0.02901,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor ran two separate two-pool arbitrages, each buying a token on a V3 pool and selling it on a V2 pool (CVX and TOWER), with the token going straight from the V3 pool to the V2 pool. It received 4.712532 WETH and paid 4.677458 WETH, a gross gain of 0.035074 WETH and about 0.006064 ETH after the 0.029010 gas fee. It holds no other tokens and received none from the zero address. The cycle test is only loosely met: the actor never touches the intermediate tokens, and WETH is the profit token rather than a netted-to-zero cycle token.\"}",
+ "case_id": "arb106_095",
+ "_time": "2026-10-13T22:32:02+0800"
+}

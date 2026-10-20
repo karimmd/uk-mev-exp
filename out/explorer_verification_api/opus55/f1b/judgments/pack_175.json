@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000005736775feb0c8568e7dee77222a26880",
+ "pool": "0xc34da1ab0f93dfed30729951dafcfb9ce3e2a9ae",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.067281,
+ "gas_eth": 0.054119,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x0000...6880 buys 13933.463034 XTM for 1.753999 WETH on the XTM/WETH pool 0xc34d. The victim then buys XTM on the same pool, and the contract sells exactly the same XTM back for 1.875399 WETH. That is a gross gain of 0.1214 WETH, against 0.054119 ETH gas for the front and back legs.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4123,
+  "output_tokens": 417,
+  "thinking_tokens": 154
+ },
+ "_request_id": "req_011CgBRrhsSKRvWXb5QfeYr9",
+ "_response_id": "msg_011CgBRriJEqsgTjZ6heL79r",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000005736775feb0c8568e7dee77222a26880\", \"pool\": \"0xc34da1ab0f93dfed30729951dafcfb9ce3e2a9ae\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.067281, \"gas_eth\": 0.054119, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x0000...6880 buys 13933.463034 XTM for 1.753999 WETH on the XTM/WETH pool 0xc34d. The victim then buys XTM on the same pool, and the contract sells exactly the same XTM back for 1.875399 WETH. That is a gross gain of 0.1214 WETH, against 0.054119 ETH gas for the front and back legs.\"}",
+ "case_id": "pack_175",
+ "_time": "2026-10-19T18:21:52+0800"
+}

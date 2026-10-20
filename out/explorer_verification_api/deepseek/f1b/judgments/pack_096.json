@@ -1,0 +1,31 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.474246409,
+ "gas_eth": 0.082625591,
+ "residual": "632.627513 MINT (0x0cdf9acd87e940837ff21bb40c9fd55f68bba059)",
+ "confidence": 5,
+ "note": "Front and back both route through the same Uniswap V2 MINT/WETH pool, with actor 0x7f94 buying MINT before the victim's MINT purchase and selling it after. Net ETH/WETH is positive after gas, and the remaining 632.627513 MINT does not overturn the positive sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3115,
+  "output_tokens": 9910,
+  "thinking_tokens": 9714
+ },
+ "_request_id": "c74c16186b63c60b2f6d928f48465ad1",
+ "_response_id": "19fe83b5-72b6-467b-9561-b3c8302d3725",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7f941cdae3c01906e42f8325af0693a848f81072\",\"pool\":\"0x092e793afe54366601eb7ef7e63b6abb93edb485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.474246409,\"gas_eth\":0.082625591,\"residual\":\"632.627513 MINT (0x0cdf9acd87e940837ff21bb40c9fd55f68bba059)\",\"confidence\":5,\"note\":\"Front and back both route through the same Uniswap V2 MINT/WETH pool, with actor 0x7f94 buying MINT before the victim's MINT purchase and selling it after. Net ETH/WETH is positive after gas, and the remaining 632.627513 MINT does not overturn the positive sign.\"}",
+ "case_id": "pack_096",
+ "_time": "2026-10-19T18:19:20+0800"
+}

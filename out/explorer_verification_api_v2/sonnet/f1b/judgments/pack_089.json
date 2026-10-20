@@ -1,0 +1,32 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x66e32d1b776a43935ed20e8dc39a27a140d31c8f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008704,
+ "gas_eth": 0.008497,
+ "profit_after_gas": 0.000207,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract buys 7707.977757 EPK via WETH\u2192USDT\u2192EPK in the front leg, the victim buys EPK on the same EPK/USDT pool, and the actor sells the same EPK amount back in the back leg. WETH net is 2.928702 \u2212 2.919025 = +0.009677. I subtracted the 0.000973 ETH payment to 0x52bc\u2026 (likely a miner tip) as a trade cost, giving 0.008704 before gas. I did not count the 0.100192 ETH the contract sent to its own sender in the front leg, because no WETH withdrawal funds it and it looks like a withdrawal of the contract's existing balance. If that transfer were counted as a cost, the result would turn strongly negative.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3329,
+  "output_tokens": 1351,
+  "thinking_tokens": 963
+ },
+ "_request_id": "req_011CgBVahqDTSx4tzVCGwgXa",
+ "_response_id": "msg_011CgBVaiAZRRjWuiiLezPeB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0x66e32d1b776a43935ed20e8dc39a27a140d31c8f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.008704,\"gas_eth\":0.008497,\"profit_after_gas\":0.000207,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract buys 7707.977757 EPK via WETH\u2192USDT\u2192EPK in the front leg, the victim buys EPK on the same EPK/USDT pool, and the actor sells the same EPK amount back in the back leg. WETH net is 2.928702 \u2212 2.919025 = +0.009677. I subtracted the 0.000973 ETH payment to 0x52bc\u2026 (likely a miner tip) as a trade cost, giving 0.008704 before gas. I did not count the 0.100192 ETH the contract sent to its own sender in the front leg, because no WETH withdrawal funds it and it looks like a withdrawal of the contract's existing balance. If that transfer were counted as a cost, the result would turn strongly negative.\"}",
+ "case_id": "pack_089",
+ "_time": "2026-10-19T19:10:48+0800"
+}

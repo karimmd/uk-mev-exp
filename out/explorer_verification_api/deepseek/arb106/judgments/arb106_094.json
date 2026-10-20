@@ -1,0 +1,39 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pools": [
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8",
+  "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
+  "0x157dfa656fdf0d18e1ba94075a53600d81cb3a97"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth": 0.046164,
+ "gas_eth": 0.049983,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor executed a cyclic multi-hop trade WETH\u2192DAI\u2192FEI\u2192UMA\u2192WETH across four pools, netting +0.046164 WETH before gas. Gas cost 0.049983 ETH makes the after-cost position negative, so Q2 is no.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1651,
+  "output_tokens": 13026,
+  "thinking_tokens": 12768
+ },
+ "_request_id": "3d45c3dcfb98019993473f0ea63e41a5",
+ "_response_id": "e9ebbe5b-e6b4-4f82-94ac-832444a28db6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pools\":[\"0x60594a405d53811d3bc4766596efd80fd545a270\",\"0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8\",\"0x0f024314588466416c8fc66013ba4d3ab2e4efe5\",\"0x157dfa656fdf0d18e1ba94075a53600d81cb3a97\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"no\",\"net_eth\":0.046164,\"gas_eth\":0.049983,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor executed a cyclic multi-hop trade WETH\u2192DAI\u2192FEI\u2192UMA\u2192WETH across four pools, netting +0.046164 WETH before gas. Gas cost 0.049983 ETH makes the after-cost position negative, so Q2 is no.\"}",
+ "case_id": "arb106_094",
+ "_time": "2026-10-19T19:38:37+0800"
+}

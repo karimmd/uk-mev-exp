@@ -1,0 +1,32 @@
+{
+ "actor": "0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.047981,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.047981,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor is contract 0x8f30..., which receives USDC in the front leg and spends the same USDC amount in the back leg on POND/USDC pool 0xd187..., which the victim also trades on. Net WETH gain is 0.100506, minus the 0.052525 ETH internal payment to 0xea67..., with zero gas, leaving +0.047981 ETH and no residual POND/USDC.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3306,
+  "output_tokens": 7408,
+  "thinking_tokens": 7202
+ },
+ "_request_id": "4543cfee6615604786109b38ec8288c7",
+ "_response_id": "e41a6580-3f56-4ca1-8891-f2a3f3ab0c59",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23\",\"pool\":\"0xd18748b9839b0081a867a1a871d5b562b2ec9884\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.047981,\"gas_eth\":0.0,\"profit_after_gas\":0.047981,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor is contract 0x8f30..., which receives USDC in the front leg and spends the same USDC amount in the back leg on POND/USDC pool 0xd187..., which the victim also trades on. Net WETH gain is 0.100506, minus the 0.052525 ETH internal payment to 0xea67..., with zero gas, leaving +0.047981 ETH and no residual POND/USDC.\"}",
+ "case_id": "pack_122",
+ "_time": "2026-10-19T19:19:44+0800"
+}

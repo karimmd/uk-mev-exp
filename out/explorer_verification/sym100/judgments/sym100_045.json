@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xa541279d7a77a768abf45acbcac7f32f28101d5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.278987,
+ "gas_eth": 0.226302,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract buys PSP on pool 0x458a with 8.968 WETH and sells it into pool 0xa541 for 2.875 WETH in the front leg, ahead of the victim's PSP sale on 0xa541. In the back leg it reverses the route (2.637 WETH in, 9.009 WETH out). The actor holds no PSP between legs, so this is a two-pool bracket rather than a classic single-pool one. Net WETH is +0.278987, and after 0.226302 ETH of gas it is about +0.0527 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0311947,
+ "_session": "3e48a49f-3c35-4599-9bce-928574e3baf0",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xa541279d7a77a768abf45acbcac7f32f28101d5f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.278987, \"gas_eth\": 0.226302, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract buys PSP on pool 0x458a with 8.968 WETH and sells it into pool 0xa541 for 2.875 WETH in the front leg, ahead of the victim's PSP sale on 0xa541. In the back leg it reverses the route (2.637 WETH in, 9.009 WETH out). The actor holds no PSP between legs, so this is a two-pool bracket rather than a classic single-pool one. Net WETH is +0.278987, and after 0.226302 ETH of gas it is about +0.0527 ETH.\"}",
+ "case_id": "sym100_045",
+ "_time": "2026-10-13T21:32:41+0800"
+}

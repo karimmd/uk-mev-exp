@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x3867877d568b1699a7fd7d6190d0926aa88c4b86",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.121443,
+ "gas_eth": 0.018136,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives PRCY in the front leg and sends the same PRCY amount back in the back leg on the same PRCY/WETH pool used by the victim between them. Net WETH gain after front/back gas is positive, and the PRCY position is fully closed.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2662,
+  "output_tokens": 2990,
+  "thinking_tokens": 2833
+ },
+ "_request_id": "7a2e65be449c074c62c40266ad377659",
+ "_response_id": "12052814-1e6b-40b4-a7e4-359ecc03a8b2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000500e2fece27a7600435d0c48d64e0c00\",\"pool\":\"0x3867877d568b1699a7fd7d6190d0926aa88c4b86\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.121443,\"gas_eth\":0.018136,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives PRCY in the front leg and sends the same PRCY amount back in the back leg on the same PRCY/WETH pool used by the victim between them. Net WETH gain after front/back gas is positive, and the PRCY position is fully closed.\"}",
+ "case_id": "rej53_038",
+ "_time": "2026-10-19T19:01:56+0800"
+}

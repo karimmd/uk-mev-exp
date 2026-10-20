@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xfdf12d1f85b5082877a6e070524f50f6c84faa6b",
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0x16980c16811bde2b3358c1ce4341541a4c772ec9",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.0304,
+ "gas_eth": 0.027382,
+ "profit_after_gas": 0.003018,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor b2bb received WETH from pool f1b63 and sent WETH to pool 60594, completing a four-pool cycle through DAI, LUSD, and OHM with a net +0.0304 WETH profit. After the 0.027382 ETH gas fee, the profit remains positive at 0.003018 ETH, with no other residual holdings.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1679,
+  "output_tokens": 7861,
+  "thinking_tokens": 7571
+ },
+ "_request_id": "3b537197f305df22351dea7da2251e1a",
+ "_response_id": "a6f21050-f042-4637-a064-8a2d7cb62f6a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0xfdf12d1f85b5082877a6e070524f50f6c84faa6b\",\"0x60594a405d53811d3bc4766596efd80fd545a270\",\"0x16980c16811bde2b3358c1ce4341541a4c772ec9\",\"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.0304,\"gas_eth\":0.027382,\"profit_after_gas\":0.003018,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor b2bb received WETH from pool f1b63 and sent WETH to pool 60594, completing a four-pool cycle through DAI, LUSD, and OHM with a net +0.0304 WETH profit. After the 0.027382 ETH gas fee, the profit remains positive at 0.003018 ETH, with no other residual holdings.\"}",
+ "case_id": "arb106_084",
+ "_time": "2026-10-19T20:05:02+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.365585,
+ "gas_eth": 0.356902,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the actor routes 47.541343 WETH through the WETH/HEX pool (0x55d5\u2026) into the HEX/USDC pool (0xf6dc\u2026) and receives 167518.771209 USDC. The victim sells HEX for USDC on 0xf6dc\u2026, and the back leg returns exactly that USDC and takes out 47.906928 WETH, so the USDC position is fully closed. Gross WETH gain is 0.365585 against 0.356902 ETH combined gas, leaving about +0.00868 ETH; any block-builder payment is not visible in the data shown.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3158,
+  "output_tokens": 720,
+  "thinking_tokens": 402
+ },
+ "_request_id": "req_011CgBQGp9enQhYd4zLN8XAT",
+ "_response_id": "msg_011CgBQGuLCCMaMRd1jiRD8V",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.365585,\"gas_eth\":0.356902,\"residual\":\"none\",\"confidence\":4,\"note\":\"In the front leg the actor routes 47.541343 WETH through the WETH/HEX pool (0x55d5\u2026) into the HEX/USDC pool (0xf6dc\u2026) and receives 167518.771209 USDC. The victim sells HEX for USDC on 0xf6dc\u2026, and the back leg returns exactly that USDC and takes out 47.906928 WETH, so the USDC position is fully closed. Gross WETH gain is 0.365585 against 0.356902 ETH combined gas, leaving about +0.00868 ETH; any block-builder payment is not visible in the data shown.\"}",
+ "case_id": "pack_023",
+ "_time": "2026-10-19T18:01:08+0800"
+}

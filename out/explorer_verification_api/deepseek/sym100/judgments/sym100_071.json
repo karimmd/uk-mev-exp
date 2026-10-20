@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.037916,
+ "gas_eth": 0.031091,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor contract sells URQA in the front and buys the same amount back in the back, so it closes/reopens rather than opens/closes a non-WETH position; same URQA/WETH pool and victim in between. Net WETH gain 0.069007 minus gas 0.031091 is +0.037916 ETH, with no net URQA residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2284,
+  "output_tokens": 14843,
+  "thinking_tokens": 14672
+ },
+ "_request_id": "649160420706a521c0284635280508a7",
+ "_response_id": "f00ef2d8-6392-4a28-b413-0ae2edfb2b11",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.037916,\"gas_eth\":0.031091,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor contract sells URQA in the front and buys the same amount back in the back, so it closes/reopens rather than opens/closes a non-WETH position; same URQA/WETH pool and victim in between. Net WETH gain 0.069007 minus gas 0.031091 is +0.037916 ETH, with no net URQA residual.\"}",
+ "case_id": "sym100_071",
+ "_time": "2026-10-19T18:52:26+0800"
+}

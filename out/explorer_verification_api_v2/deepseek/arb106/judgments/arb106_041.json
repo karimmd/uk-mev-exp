@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000fbcaf22009ef39f5316bc58d9728aa",
+ "pools": [
+  "0xba3f54d4ed114a359b3ab81ed11834a2b54addc1",
+  "0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983",
+  "0x44c21f5dcb285d92320ae345c92e8b6204be8cdf",
+  "0xa44002e8062c90a8f8b3cfce6ec70990bba28ae5"
+ ],
+ "cycle_token": "DG",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.007218,
+ "gas_eth": 0,
+ "profit_after_gas": 0.007218,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor swaps through four pools; DG and ROOK both net to zero, while WETH nets +0.028872 before the 0.021654 ETH internal payment. Gas is zero, leaving +0.007218 ETH/WETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2435,
+  "output_tokens": 5414,
+  "thinking_tokens": 5153
+ },
+ "_request_id": "04a5f6ab41a676941a515bc1441b143e",
+ "_response_id": "51c1604c-b9fe-4807-8dbf-532f3e799d65",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000fbcaf22009ef39f5316bc58d9728aa\",\"pools\":[\"0xba3f54d4ed114a359b3ab81ed11834a2b54addc1\",\"0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983\",\"0x44c21f5dcb285d92320ae345c92e8b6204be8cdf\",\"0xa44002e8062c90a8f8b3cfce6ec70990bba28ae5\"],\"cycle_token\":\"DG\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.007218,\"gas_eth\":0,\"profit_after_gas\":0.007218,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor swaps through four pools; DG and ROOK both net to zero, while WETH nets +0.028872 before the 0.021654 ETH internal payment. Gas is zero, leaving +0.007218 ETH/WETH.\"}",
+ "case_id": "arb106_041",
+ "_time": "2026-10-19T19:56:25+0800"
+}

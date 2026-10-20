@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.150022,
+ "gas_eth": 0.021695,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x3dad, called by the same sender, sells 1094.379276 CWS for 10.506 WETH on pool 0x4044 before the victim sells CWS into the same pool. It then buys back exactly 1094.379276 CWS for 10.334283 WETH, a sell-side sandwich. That nets 0.171717 WETH before 0.021695 ETH of gas, about 0.150022 ETH after, with no CWS left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3071,
+  "output_tokens": 592,
+  "thinking_tokens": 306
+ },
+ "_request_id": "req_011CgBSPWNVXy18aDu4DrPzF",
+ "_response_id": "msg_011CgBSPWkKeZBYcf9a8WnKy",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.150022, \"gas_eth\": 0.021695, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x3dad, called by the same sender, sells 1094.379276 CWS for 10.506 WETH on pool 0x4044 before the victim sells CWS into the same pool. It then buys back exactly 1094.379276 CWS for 10.334283 WETH, a sell-side sandwich. That nets 0.171717 WETH before 0.021695 ETH of gas, about 0.150022 ETH after, with no CWS left over.\"}",
+ "case_id": "sym100_059",
+ "_time": "2026-10-19T18:28:51+0800"
+}

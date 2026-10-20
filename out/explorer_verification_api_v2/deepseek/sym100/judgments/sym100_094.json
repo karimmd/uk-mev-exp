@@ -1,0 +1,32 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.146484,
+ "gas_eth": 0.016492,
+ "profit_after_gas": 0.129992,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Both front and back legs involve the same actor contract 0x09dd... and the same UniswapV2 pool 0xe760...; the victim trades on that pool between them. The actor sold 6608.905755 INFI for 1.850367 WETH in front and bought the same INFI back for 1.703883 WETH in back, netting +0.146484 WETH before front/back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2163,
+  "output_tokens": 4208,
+  "thinking_tokens": 4002
+ },
+ "_request_id": "2736b393c7187724d12ac9d1396314a5",
+ "_response_id": "51f4fbdd-ddbf-4d10-83fc-8303b3ca675e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x09ddb304758caf024706dee2e92b569ca4823aa1\",\"pool\":\"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.146484,\"gas_eth\":0.016492,\"profit_after_gas\":0.129992,\"residual\":\"none\",\"confidence\":5,\"note\":\"Both front and back legs involve the same actor contract 0x09dd... and the same UniswapV2 pool 0xe760...; the victim trades on that pool between them. The actor sold 6608.905755 INFI for 1.850367 WETH in front and bought the same INFI back for 1.703883 WETH in back, netting +0.146484 WETH before front/back gas.\"}",
+ "case_id": "sym100_094",
+ "_time": "2026-10-19T19:38:00+0800"
+}

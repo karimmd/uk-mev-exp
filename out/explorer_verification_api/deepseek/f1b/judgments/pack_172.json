@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd234e8493d6690d6a7820d3f6e4f1f13579efe3a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.079697,
+ "gas_eth": 0.0,
+ "residual": "41242.07372 CHOW (0x925f2c11b99c1a4c46606898ee91ed3d450cfeda)",
+ "confidence": 5,
+ "note": "Front and back use the same actor contract and CHOW/WETH pool; the victim also trades that pool between them. Net WETH is 5.639697 - 5.560000 = 0.079697, gas fees are zero, and the back-leg ETH value and forwarded internal ETH net to zero, leaving a CHOW residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2681,
+  "output_tokens": 6912,
+  "thinking_tokens": 6705
+ },
+ "_request_id": "32f0733173a477095a48e57a4a6d485e",
+ "_response_id": "08e2c444-6d0c-42dc-b126-57b634ecba4c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xd234e8493d6690d6a7820d3f6e4f1f13579efe3a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.079697,\"gas_eth\":0.0,\"residual\":\"41242.07372 CHOW (0x925f2c11b99c1a4c46606898ee91ed3d450cfeda)\",\"confidence\":5,\"note\":\"Front and back use the same actor contract and CHOW/WETH pool; the victim also trades that pool between them. Net WETH is 5.639697 - 5.560000 = 0.079697, gas fees are zero, and the back-leg ETH value and forwarded internal ETH net to zero, leaving a CHOW residual.\"}",
+ "case_id": "pack_172",
+ "_time": "2026-10-19T18:33:32+0800"
+}

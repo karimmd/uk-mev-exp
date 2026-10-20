@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a self-contained arbitrage by 0x0aa3e7\u2026: it buys GLM on the UniV2 pool b5f790 and sells it at once to 0x787404 for WETH (+0.295 WETH before 0.048 gas), so it holds no GLM afterwards. The back leg is a separate arbitrage by a different contract, 0x\u20265117dd: it buys GLM from 0x787404 and sells it on b5f790 (+0.073 WETH before 0.056 gas). No single actor opens a position in the front leg and closes it in the back leg, so there is no shared-actor bracket and no combined net to compute.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4452,
+  "output_tokens": 763,
+  "thinking_tokens": 455
+ },
+ "_request_id": "req_011CgBR1cqxTLAk89L5dL8sN",
+ "_response_id": "msg_011CgBR1iYkMNEBwpz7WGQfe",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0xb5f790a03b7559312d9e738df5056a4b4c8459f4\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a self-contained arbitrage by 0x0aa3e7\u2026: it buys GLM on the UniV2 pool b5f790 and sells it at once to 0x787404 for WETH (+0.295 WETH before 0.048 gas), so it holds no GLM afterwards. The back leg is a separate arbitrage by a different contract, 0x\u20265117dd: it buys GLM from 0x787404 and sells it on b5f790 (+0.073 WETH before 0.056 gas). No single actor opens a position in the front leg and closes it in the back leg, so there is no shared-actor bracket and no combined net to compute.\"}",
+ "case_id": "pack_080",
+ "_time": "2026-10-19T18:10:52+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs trade on the same MXS/WETH pool. The front leg is a sell of MXS for 16.11 ETH by 0x5136a9a5..., so a short. The back leg is a different sender, 0x09aeafc2..., who buys 3928 MXS with 0.03 ETH. The actors differ and the back leg does not close the front position, so this is not a bracket and no actor profit can be computed.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3919,
+  "output_tokens": 249,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBW8VM2TPTA8GzEJhg3X",
+ "_response_id": "msg_011CgBW8WTVr6vjKnkdmMrAk",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs trade on the same MXS/WETH pool. The front leg is a sell of MXS for 16.11 ETH by 0x5136a9a5..., so a short. The back leg is a different sender, 0x09aeafc2..., who buys 3928 MXS with 0.03 ETH. The actors differ and the back leg does not close the front position, so this is not a bracket and no actor profit can be computed.\"}",
+ "case_id": "pack_195",
+ "_time": "2026-10-19T19:17:51+0800"
+}

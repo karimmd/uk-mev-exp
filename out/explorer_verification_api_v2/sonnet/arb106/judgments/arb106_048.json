@@ -1,0 +1,39 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0x122e55503a0b2e5cd528effa44d0b2fea300f24b",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xf5ca27927ffb16bd8c870dcb49750146cce8217c"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.01265,
+ "gas_eth": 0.011511,
+ "profit_after_gas": 0.001139,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 1.46 WETH to the USDC/WETH V3 pool. That pool's USDC goes straight to the USDC/WOO V2 pool, whose WOO goes straight to the WOO/WETH V3 pool, which returns 1.47265 WETH to the actor. This is a triangular WETH\u2192USDC\u2192WOO\u2192WETH cycle through three pools. The actor holds only WETH and nets +0.01265, which is about 0.00114 ETH after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2059,
+  "output_tokens": 1176,
+  "thinking_tokens": 781
+ },
+ "_request_id": "req_011CgBXF5oVAF8Kgt7QopsC9",
+ "_response_id": "msg_011CgBXF6m3Cp8hTHp7Gt4bo",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x9762b1d716bb97735905996e013d61c140722249\",\"pools\":[\"0x122e55503a0b2e5cd528effa44d0b2fea300f24b\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0xf5ca27927ffb16bd8c870dcb49750146cce8217c\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.01265,\"gas_eth\":0.011511,\"profit_after_gas\":0.001139,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 1.46 WETH to the USDC/WETH V3 pool. That pool's USDC goes straight to the USDC/WOO V2 pool, whose WOO goes straight to the WOO/WETH V3 pool, which returns 1.47265 WETH to the actor. This is a triangular WETH\u2192USDC\u2192WOO\u2192WETH cycle through three pools. The actor holds only WETH and nets +0.01265, which is about 0.00114 ETH after gas.\"}",
+ "case_id": "arb106_048",
+ "_time": "2026-10-19T19:32:34+0800"
+}

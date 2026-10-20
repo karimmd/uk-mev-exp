@@ -1,0 +1,80 @@
+{
+ "frozen_mismatches": 0,
+ "generated_at": "2026-10-14T14:21:31+08:00",
+ "outcome_transitions": {
+  "absent_258|rejected|rejected": 12,
+  "absent_258|rejected|structurally_supported": 37,
+  "absent_258|rejected|undecidable": 4,
+  "absent_258|structurally_supported|structurally_supported": 177,
+  "absent_258|undecidable|rejected": 1,
+  "absent_258|undecidable|structurally_supported": 6,
+  "absent_258|undecidable|undecidable": 21,
+  "absent_new|rejected|rejected": 159,
+  "absent_new|rejected|structurally_supported": 15,
+  "absent_new|structurally_supported|structurally_supported": 1120,
+  "absent_new|undecidable|structurally_supported": 3,
+  "absent_new|undecidable|undecidable": 87,
+  "comparison|rejected|rejected": 4903,
+  "comparison|rejected|structurally_supported": 3,
+  "comparison|rejected|undecidable": 1,
+  "comparison|structurally_supported|structurally_supported": 282,
+  "comparison|undecidable|structurally_supported": 2,
+  "comparison|undecidable|undecidable": 505,
+  "recorded|rejected|rejected": 240,
+  "recorded|rejected|structurally_supported": 257,
+  "recorded|rejected|undecidable": 35,
+  "recorded|structurally_supported|structurally_supported": 8772,
+  "recorded|undecidable|structurally_supported": 16,
+  "recorded|undecidable|undecidable": 979
+ },
+ "trajectory_transitions": {
+  "absent_258|negative|negative": 8,
+  "absent_258|negative|positive": 43,
+  "absent_258|positive|positive": 199,
+  "absent_258|undecidable|negative": 1,
+  "absent_258|undecidable|positive": 6,
+  "absent_258|undecidable|undecidable": 1,
+  "absent_new|negative|negative": 158,
+  "absent_new|negative|positive": 15,
+  "absent_new|positive|positive": 1197,
+  "absent_new|undecidable|positive": 3,
+  "absent_new|undecidable|undecidable": 11,
+  "comparison|negative|negative": 4606,
+  "comparison|negative|positive": 5,
+  "comparison|positive|positive": 756,
+  "comparison|undecidable|positive": 3,
+  "comparison|undecidable|undecidable": 326,
+  "recorded|negative|negative": 185,
+  "recorded|negative|positive": 294,
+  "recorded|positive|positive": 9781,
+  "recorded|undecidable|positive": 25,
+  "recorded|undecidable|undecidable": 14
+ },
+ "w2_outcomes_by_arm": {
+  "absent_1642": {
+   "rejected": 172,
+   "structurally_supported": 1358,
+   "undecidable": 112
+  },
+  "absent_258": {
+   "rejected": 13,
+   "structurally_supported": 220,
+   "undecidable": 25
+  },
+  "absent_new": {
+   "rejected": 159,
+   "structurally_supported": 1138,
+   "undecidable": 87
+  },
+  "comparison": {
+   "rejected": 4903,
+   "structurally_supported": 287,
+   "undecidable": 506
+  },
+  "recorded": {
+   "rejected": 240,
+   "structurally_supported": 9045,
+   "undecidable": 1014
+  }
+ }
+}

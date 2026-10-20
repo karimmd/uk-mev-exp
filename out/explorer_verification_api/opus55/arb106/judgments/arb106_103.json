@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000000000790b928b2ba74d7f53a2079e6a131f",
+ "pools": [
+  "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+  "0x23bb251705615b4efe9442be5f2aeb0e20b39858",
+  "0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2",
+  "0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1"
+ ],
+ "cycle_token": "INV and VERI",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.009303,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor ran two closed cycles, each between a V2 and a V3 pool. In the first it bought 4.371483 INV for 1.045311 WETH and sold it for 1.065025 WETH. In the second it bought 40.486599 VERI for 0.291924 WETH and sold it for 0.309421 WETH, so the gross gain is 0.037211 WETH. It unwrapped 0.027908 WETH and sent that ETH to 0x2a0eee\u2026 (likely a miner payment, since gas price was zero at position 0), leaving about 0.0093 ETH net.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3305,
+  "output_tokens": 960,
+  "thinking_tokens": 502
+ },
+ "_request_id": "req_011CgBTfJXAr8wGrZNSuYdeb",
+ "_response_id": "msg_011CgBTfJvjJhEuSbjKaCLHD",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000000790b928b2ba74d7f53a2079e6a131f\", \"pools\": [\"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\", \"0x23bb251705615b4efe9442be5f2aeb0e20b39858\", \"0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2\", \"0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1\"], \"cycle_token\": \"INV and VERI\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.009303, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor ran two closed cycles, each between a V2 and a V3 pool. In the first it bought 4.371483 INV for 1.045311 WETH and sold it for 1.065025 WETH. In the second it bought 40.486599 VERI for 0.291924 WETH and sold it for 0.309421 WETH, so the gross gain is 0.037211 WETH. It unwrapped 0.027908 WETH and sent that ETH to 0x2a0eee\u2026 (likely a miner payment, since gas price was zero at position 0), leaving about 0.0093 ETH net.\"}",
+ "case_id": "arb106_103",
+ "_time": "2026-10-19T18:45:36+0800"
+}

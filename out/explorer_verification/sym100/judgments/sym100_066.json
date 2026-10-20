@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013393,
+ "gas_eth": 0.010921,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor routes EROWAN between pool 0x659a and pool 0x13cd and never holds it. In the front leg it sells into 0x13cd, the same direction as the victim, and in the back leg it buys EROWAN back from 0x13cd before returning it to 0x659a. Net WETH is -0.004634 + 0.046310 = +0.041676, less the 0.028283 ETH sent to 0x99c8 gives 0.013393, and after 0.010921 gas about +0.0025 ETH. Q1 is uncertain because there is no standing token position between legs, only a two-pool round trip around the victim.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0325327,
+ "_session": "bd1848ed-74cb-4fbd-81d6-0285d61d1fab",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.013393, \"gas_eth\": 0.010921, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor routes EROWAN between pool 0x659a and pool 0x13cd and never holds it. In the front leg it sells into 0x13cd, the same direction as the victim, and in the back leg it buys EROWAN back from 0x13cd before returning it to 0x659a. Net WETH is -0.004634 + 0.046310 = +0.041676, less the 0.028283 ETH sent to 0x99c8 gives 0.013393, and after 0.010921 gas about +0.0025 ETH. Q1 is uncertain because there is no standing token position between legs, only a two-pool round trip around the victim.\"}",
+ "case_id": "sym100_066",
+ "_time": "2026-10-13T21:37:40+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.0228,
+ "gas_eth": 0.002952339,
+ "profit_after_gas": 0.019847661,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells CVX for WETH on the same Uniswap V2 pool the victim sells into; back buys the same CVX amount with WETH. Net WETH is +0.0228 ETH before gas, and after front/back gas the actor remains positive with no residual CVX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2427,
+  "output_tokens": 6423,
+  "thinking_tokens": 6251
+ },
+ "_request_id": "214c545f6b212600ff70ad9388403f58",
+ "_response_id": "8898427e-17b4-4e76-ad3c-94df92f4c9b7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x05767d9ef41dc40689678ffca0608878fb3de906\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.0228,\"gas_eth\":0.002952339,\"profit_after_gas\":0.019847661,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells CVX for WETH on the same Uniswap V2 pool the victim sells into; back buys the same CVX amount with WETH. Net WETH is +0.0228 ETH before gas, and after front/back gas the actor remains positive with no residual CVX.\"}",
+ "case_id": "sym100_060",
+ "_time": "2026-10-19T19:35:06+0800"
+}

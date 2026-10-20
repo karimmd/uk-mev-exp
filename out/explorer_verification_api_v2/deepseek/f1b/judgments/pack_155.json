@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.154698,
+ "profit_after_gas": null,
+ "residual": "463.135021 PRIA held by front actor 0xf1e8a3999e6c3bb9a518c3ef7f9bf621586a76ff; 193.826000 PRIA held by back actor 0x1c8ad03a5de826d4e4bcb842e3604e1e2f3e8359",
+ "confidence": 5,
+ "note": "All three legs trade on the same UniswapV2 PRIA/WETH pool, but the front and back legs are both PRIA buys to different recipient actors. The front actor does not give up its PRIA in the back leg, so no position is opened and closed by one actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3451,
+  "output_tokens": 6173,
+  "thinking_tokens": 5950
+ },
+ "_request_id": "4b00029d336919fdc496e73d8e35f8f1",
+ "_response_id": "fccdc446-2e29-4d1c-9996-39f407aa8a6b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xac350eefccdae050614070e5040e17759cebb3e9\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.154698,\"profit_after_gas\":null,\"residual\":\"463.135021 PRIA held by front actor 0xf1e8a3999e6c3bb9a518c3ef7f9bf621586a76ff; 193.826000 PRIA held by back actor 0x1c8ad03a5de826d4e4bcb842e3604e1e2f3e8359\",\"confidence\":5,\"note\":\"All three legs trade on the same UniswapV2 PRIA/WETH pool, but the front and back legs are both PRIA buys to different recipient actors. The front actor does not give up its PRIA in the back leg, so no position is opened and closed by one actor.\"}",
+ "case_id": "pack_155",
+ "_time": "2026-10-19T19:23:08+0800"
+}

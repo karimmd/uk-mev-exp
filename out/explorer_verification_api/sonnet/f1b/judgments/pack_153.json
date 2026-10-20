@@ -1,0 +1,31 @@
+{
+ "actor": "0xf2972a2b8eda253678877995147869ed99b50e39",
+ "pool": "0xc491405d542a393d8d202a72f0fb076447e61891",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.204213,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys WHACKD with 3.554376 WETH in the front leg. The victim's multi-hop swap (TCR->USDT->WETH->WHACKD) ends on the same pool. The back leg sells the same 213636.45 WHACKD (192272.81 to the pool, 21363.65 burned) for 4.233317 WETH. Gross gain is 0.678941 WETH, and 0.474728 ETH is then forwarded to 0xbcc8\u2026e18e, probably a miner payment, leaving 0.204213 ETH. Both attacker legs were at 0 gwei, so gas is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3630,
+  "output_tokens": 804,
+  "thinking_tokens": 482
+ },
+ "_request_id": "req_011CgBRfMyZP6iYRCGgGCZAh",
+ "_response_id": "msg_011CgBRfUhrsX3fCpuFuTR6Q",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xf2972a2b8eda253678877995147869ed99b50e39\",\"pool\":\"0xc491405d542a393d8d202a72f0fb076447e61891\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.204213,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys WHACKD with 3.554376 WETH in the front leg. The victim's multi-hop swap (TCR->USDT->WETH->WHACKD) ends on the same pool. The back leg sells the same 213636.45 WHACKD (192272.81 to the pool, 21363.65 burned) for 4.233317 WETH. Gross gain is 0.678941 WETH, and 0.474728 ETH is then forwarded to 0xbcc8\u2026e18e, probably a miner payment, leaving 0.204213 ETH. Both attacker legs were at 0 gwei, so gas is 0.\"}",
+ "case_id": "pack_153",
+ "_time": "2026-10-19T18:19:22+0800"
+}

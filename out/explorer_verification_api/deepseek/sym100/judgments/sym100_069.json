@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x29b0aa11de97f6d5a3293d980990e820bda5fbab",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.072647,
+ "gas_eth": 0.023819,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract opened a short TRDL position in the front leg and closed it in the back leg, both on pool 0x29b0 where the victim also traded. Gross WETH gain was 0.096466; after 0.023819 gas the net is +0.072647, with no residual TRDL left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2295,
+  "output_tokens": 7185,
+  "thinking_tokens": 7016
+ },
+ "_request_id": "34c7eccb1a3e9e912ad49bcc62c715de",
+ "_response_id": "8a7ff484-58da-44f6-bce4-f51888dc4aeb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x29b0aa11de97f6d5a3293d980990e820bda5fbab\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.072647,\"gas_eth\":0.023819,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract opened a short TRDL position in the front leg and closed it in the back leg, both on pool 0x29b0 where the victim also traded. Gross WETH gain was 0.096466; after 0.023819 gas the net is +0.072647, with no residual TRDL left.\"}",
+ "case_id": "sym100_069",
+ "_time": "2026-10-19T18:51:35+0800"
+}

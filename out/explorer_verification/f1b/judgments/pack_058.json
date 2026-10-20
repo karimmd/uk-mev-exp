@@ -1,0 +1,17 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xaf56ade10a2fec340e09e19a11f32beaf1a3a6a1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.296524,
+ "gas_eth": 0.000194,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The sender 0xf6da... buys 56,743,425.82 ARCN for 1.910809 WETH on the pool, the victim buys ARCN on the same pool (1 ETH in), then the sender sells the identical ARCN amount back for 2.207333 WETH. Net is +0.296524 WETH before gas and about +0.29633 after the 0.000194 ETH gas for both legs, with no ARCN left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0195527,
+ "_session": "386f90b3-7cc3-4dac-bcd2-dd36740015e2",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0xaf56ade10a2fec340e09e19a11f32beaf1a3a6a1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.296524, \"gas_eth\": 0.000194, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The sender 0xf6da... buys 56,743,425.82 ARCN for 1.910809 WETH on the pool, the victim buys ARCN on the same pool (1 ETH in), then the sender sells the identical ARCN amount back for 2.207333 WETH. Net is +0.296524 WETH before gas and about +0.29633 after the 0.000194 ETH gas for both legs, with no ARCN left over.\"}",
+ "case_id": "pack_058",
+ "_time": "2026-10-13T20:15:20+0800"
+}

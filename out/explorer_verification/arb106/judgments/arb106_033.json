@@ -1,0 +1,26 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x919fa96e88d67499339577fa202345436bcdaf79",
+  "0x58dc5a51fe44589beb22e8ce67720b5bc5378009",
+  "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+  "0x30e7e1989cf774726dd9f4780cab42d5558003e6",
+  "0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.038186,
+ "gas_eth": 0.035807,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor takes 2.339946 WETH from the V3 CRV pool, buys CRV on a V2 pair with 2.323212 WETH, and sends that CRV to the V3 pool. It also runs WETH->SUPER->SAND->WETH across three V2 pairs, spending 1.371171 WETH and receiving 1.392623 WETH. The actor nets +0.038186 WETH, or about +0.002379 ETH after the 0.035807 ETH gas fee. No residual tokens, mints or other flows are visible, but the gas fee was paid by the sender, so the post-gas figure assumes the actor and sender share the same economic owner.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0251747,
+ "_session": "2833567c-41b2-44c2-9c4e-03bfd18563b8",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x919fa96e88d67499339577fa202345436bcdaf79\",\"0x58dc5a51fe44589beb22e8ce67720b5bc5378009\",\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"0x30e7e1989cf774726dd9f4780cab42d5558003e6\",\"0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.038186,\"gas_eth\":0.035807,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor takes 2.339946 WETH from the V3 CRV pool, buys CRV on a V2 pair with 2.323212 WETH, and sends that CRV to the V3 pool. It also runs WETH->SUPER->SAND->WETH across three V2 pairs, spending 1.371171 WETH and receiving 1.392623 WETH. The actor nets +0.038186 WETH, or about +0.002379 ETH after the 0.035807 ETH gas fee. No residual tokens, mints or other flows are visible, but the gas fee was paid by the sender, so the post-gas figure assumes the actor and sender share the same economic owner.\"}",
+ "case_id": "arb106_033",
+ "_time": "2026-10-13T22:17:54+0800"
+}

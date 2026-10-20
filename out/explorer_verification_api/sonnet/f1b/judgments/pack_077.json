@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2fa7361d7e3b812375604681eb155a97b4d65e9e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.121991,
+ "gas_eth": 0.176447,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 13.817921 aKLIMA for 4.890465 WETH in the front leg, the victim bought aKLIMA on the same pool 0x2fa7\u2026, and the back leg sold exactly 13.817921 aKLIMA for 5.202896 WETH. The WETH gain is 0.312431, but the back leg also sent 0.190440 ETH to 0x3ece\u2026 (probably a builder tip), leaving 0.121991 before gas. Gas of 0.176447 ETH makes the net about -0.0545 ETH. If the 0.190440 ETH payment were not counted as a cost, the net would be about +0.136 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2753,
+  "output_tokens": 1142,
+  "thinking_tokens": 802
+ },
+ "_request_id": "req_011CgBQung8czJqY17P6V3LD",
+ "_response_id": "msg_011CgBQuuG1kGwheHBfa8yPZ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x2fa7361d7e3b812375604681eb155a97b4d65e9e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.121991,\"gas_eth\":0.176447,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 13.817921 aKLIMA for 4.890465 WETH in the front leg, the victim bought aKLIMA on the same pool 0x2fa7\u2026, and the back leg sold exactly 13.817921 aKLIMA for 5.202896 WETH. The WETH gain is 0.312431, but the back leg also sent 0.190440 ETH to 0x3ece\u2026 (probably a builder tip), leaving 0.121991 before gas. Gas of 0.176447 ETH makes the net about -0.0545 ETH. If the 0.190440 ETH payment were not counted as a cost, the net would be about +0.136 ETH.\"}",
+ "case_id": "pack_077",
+ "_time": "2026-10-19T18:09:33+0800"
+}

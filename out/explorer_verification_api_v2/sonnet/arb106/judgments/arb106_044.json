@@ -1,0 +1,38 @@
+{
+ "actor": "0x313e1e91a38615d163a42fc4d6035fbdf5066a99",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.014811,
+ "gas_eth": 0.012881,
+ "profit_after_gas": 0.00193,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sent 0.842895 WETH to pool 0x9cbf, which sent SAITAMA directly to pool 0xd0dc, and that pool returned 0.857706 WETH to the actor. The net is +0.014811 WETH before gas and about +0.00193 ETH after the 0.012881 ETH fee. The sender EOA pays the gas, not the contract actor, but I netted the fee against the actor's profit as the protocol asks. The WETH leg is a closed cycle with SAITAMA only passing between the pools.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 1982,
+  "output_tokens": 407,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBXDgj9MAys8w5WWgq6t",
+ "_response_id": "msg_011CgBXDhAvxuYamj9HKfXpr",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x313e1e91a38615d163a42fc4d6035fbdf5066a99\", \"pools\": [\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\", \"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.014811, \"gas_eth\": 0.012881, \"profit_after_gas\": 0.00193, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sent 0.842895 WETH to pool 0x9cbf, which sent SAITAMA directly to pool 0xd0dc, and that pool returned 0.857706 WETH to the actor. The net is +0.014811 WETH before gas and about +0.00193 ETH after the 0.012881 ETH fee. The sender EOA pays the gas, not the contract actor, but I netted the fee against the actor's profit as the protocol asks. The WETH leg is a closed cycle with SAITAMA only passing between the pools.\"}",
+ "case_id": "arb106_044",
+ "_time": "2026-10-19T19:32:10+0800"
+}

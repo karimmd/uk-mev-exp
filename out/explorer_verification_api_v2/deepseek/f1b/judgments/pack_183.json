@@ -1,0 +1,32 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x43747d31fc178d626047c5b4346a251418167a1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.479943,
+ "gas_eth": 0,
+ "profit_after_gas": 0.479943,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought NBNG via USDT on the shared 0x4374 pool in the front leg, the victim also traded on that pool, and the actor sold the same NBNG amount back in the back leg. Its WETH gain minus the 0.479944 ETH internal transfer remains positive, with no residual NBNG.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2568,
+  "output_tokens": 3178,
+  "thinking_tokens": 2995
+ },
+ "_request_id": "5435482ad493e3847b167bb131849a00",
+ "_response_id": "7fc62247-4121-49cf-9188-4e50a2f3f35a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\",\"pool\":\"0x43747d31fc178d626047c5b4346a251418167a1a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.479943,\"gas_eth\":0,\"profit_after_gas\":0.479943,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract bought NBNG via USDT on the shared 0x4374 pool in the front leg, the victim also traded on that pool, and the actor sold the same NBNG amount back in the back leg. Its WETH gain minus the 0.479944 ETH internal transfer remains positive, with no residual NBNG.\"}",
+ "case_id": "pack_183",
+ "_time": "2026-10-19T19:26:03+0800"
+}

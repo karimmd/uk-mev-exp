@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xb143bbeb287dcd1034da6e7186ec695316fff78f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 2.923837,
+ "gas_eth": 2.564217,
+ "residual": "about 0.0229 XMT (dust)",
+ "confidence": 4,
+ "note": "The actor contract buys XMT in the front leg by routing WETH to USDT (pool 0x11b8\u2026) and then USDT to XMT (pool 0xb143\u2026). The victim also buys XMT on 0xb143\u2026, and the back leg sells the same XMT amount back through both pools. The actor's WETH rises from 338.123524 to 341.047361, a gain of 2.923837 before gas. Gas for the front and back legs totals 2.564217 ETH, so the position nets about +0.3596 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2842,
+  "output_tokens": 724,
+  "thinking_tokens": 421
+ },
+ "_request_id": "req_011CgBQJ1pPqU8rxXQFfKdx1",
+ "_response_id": "msg_011CgBQJ8NnnzFKXef8x278Q",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xb143bbeb287dcd1034da6e7186ec695316fff78f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":2.923837,\"gas_eth\":2.564217,\"residual\":\"about 0.0229 XMT (dust)\",\"confidence\":4,\"note\":\"The actor contract buys XMT in the front leg by routing WETH to USDT (pool 0x11b8\u2026) and then USDT to XMT (pool 0xb143\u2026). The victim also buys XMT on 0xb143\u2026, and the back leg sells the same XMT amount back through both pools. The actor's WETH rises from 338.123524 to 341.047361, a gain of 2.923837 before gas. Gas for the front and back legs totals 2.564217 ETH, so the position nets about +0.3596 ETH.\"}",
+ "case_id": "pack_025",
+ "_time": "2026-10-19T18:01:24+0800"
+}

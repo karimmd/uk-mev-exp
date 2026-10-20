@@ -1,0 +1,32 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.0098,
+ "gas_eth": 0,
+ "profit_after_gas": 0.0098,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use actor 0x36c1..., which buys then sells exactly 185.787870 COLLAR on the same UniswapV2 pool; the victim trades that pool in between. WETH nets +0.0098 ETH, the back tx value and internal ETH transfer cancel, and gas fees are zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2425,
+  "output_tokens": 3676,
+  "thinking_tokens": 3494
+ },
+ "_request_id": "cb29ff7483ebea13c83c33b01bc85aab",
+ "_response_id": "8b9fb39f-65af-4614-82a3-ba5ec369efdf",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\",\"pool\":\"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.0098,\"gas_eth\":0,\"profit_after_gas\":0.0098,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use actor 0x36c1..., which buys then sells exactly 185.787870 COLLAR on the same UniswapV2 pool; the victim trades that pool in between. WETH nets +0.0098 ETH, the back tx value and internal ETH transfer cancel, and gas fees are zero.\"}",
+ "case_id": "rej53_050",
+ "_time": "2026-10-19T19:46:29+0800"
+}

@@ -1,0 +1,37 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "SAITAMA",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002748,
+ "gas_eth": 0.006204,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor sent WETH to the SAITAMA/WETH pool and received WETH from the SAITAMA/WETH pool via a direct SAITAMA transfer between pools, netting +0.008952 WETH before gas. After gas, net positive. Intermediate SAITAMA did not pass through actor, but transaction is a two-pool arbitrage.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1420,
+  "output_tokens": 12769,
+  "thinking_tokens": 12526
+ },
+ "_request_id": "a5162257a9ae4097d86cdaf9ce08b776",
+ "_response_id": "685eb46b-c980-4872-b5fb-7e8b9a31c9b4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xdfee68a9adb981cd08699891a11cabe10f25ec44\", \"pools\": [\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\", \"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"], \"cycle_token\": \"SAITAMA\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.002748, \"gas_eth\": 0.006204, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor sent WETH to the SAITAMA/WETH pool and received WETH from the SAITAMA/WETH pool via a direct SAITAMA transfer between pools, netting +0.008952 WETH before gas. After gas, net positive. Intermediate SAITAMA did not pass through actor, but transaction is a two-pool arbitrage.\"}",
+ "case_id": "arb106_028",
+ "_time": "2026-10-19T19:11:20+0800"
+}

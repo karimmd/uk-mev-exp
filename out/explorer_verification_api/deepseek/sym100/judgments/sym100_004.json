@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xeb4664d8229dde455dca168a404ed6c03d4bb701",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.114185,
+ "gas_eth": 0.017271,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back share pool 0xeb46...; actor is the contract 0x000...64c4. Front sells URUS for WETH and back buys URUS with WETH, so the actor's non-WETH position is zero; net WETH profit is 0.114185 minus gas 0.017271 = 0.096914 ETH. Because the front leg sells rather than opens a non-WETH position, Q1 is no under the stated definition.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2345,
+  "output_tokens": 7812,
+  "thinking_tokens": 7619
+ },
+ "_request_id": "1bc0271499f631928c884863c128b351",
+ "_response_id": "e060134c-0587-4235-afaa-c9b6a50205c4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xeb4664d8229dde455dca168a404ed6c03d4bb701\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.114185,\"gas_eth\":0.017271,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back share pool 0xeb46...; actor is the contract 0x000...64c4. Front sells URUS for WETH and back buys URUS with WETH, so the actor's non-WETH position is zero; net WETH profit is 0.114185 minus gas 0.017271 = 0.096914 ETH. Because the front leg sells rather than opens a non-WETH position, Q1 is no under the stated definition.\"}",
+ "case_id": "sym100_004",
+ "_time": "2026-10-19T18:38:21+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.397539,
+ "gas_eth": 0.06517,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both trade KEN/WETH on the same UniswapV2 pool, with the victim's KEN buy between them. The actor buys 632.746926 KEN in front and sells the same amount in back, gaining about 0.462709 ETH gross and about 0.397539 ETH after front/back gas, with no residual KEN.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2739,
+  "output_tokens": 7318,
+  "thinking_tokens": 7141
+ },
+ "_request_id": "e1332eb895d074a62740e2a986a43fa0",
+ "_response_id": "43828287-7cd9-4a5b-ab84-a153a062f814",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\",\"pool\":\"0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.397539,\"gas_eth\":0.06517,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both trade KEN/WETH on the same UniswapV2 pool, with the victim's KEN buy between them. The actor buys 632.746926 KEN in front and sells the same amount in back, gaining about 0.462709 ETH gross and about 0.397539 ETH after front/back gas, with no residual KEN.\"}",
+ "case_id": "pack_200",
+ "_time": "2026-10-19T18:37:24+0800"
+}

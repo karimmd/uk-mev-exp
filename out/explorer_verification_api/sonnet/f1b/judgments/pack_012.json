@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x9314941c11d6dee1d7bf93113eb74d4718949f3b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.327825,
+ "gas_eth": 0.043961,
+ "residual": "about 250,829,570,863 $HOKK (12,545,994,060,244 bought minus 12,295,164,489,380.6 sold)",
+ "confidence": 4,
+ "note": "The same contract buys HOKK with 7.109631 WETH in the front leg and sells HOKK for 7.437456 WETH in the back leg. Both legs are on the 0x9314 pool, which the victim also buys from, and the victim sits between them. The WETH gain is +0.327825 before gas, and front plus back gas is 0.043961 ETH, leaving about +0.2839 ETH. The leftover HOKK has non-negative value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2873,
+  "output_tokens": 852,
+  "thinking_tokens": 535
+ },
+ "_request_id": "req_011CgBQ8VQ4Gzh9QmT1vYScW",
+ "_response_id": "msg_011CgBQ8ahoFTvMofJtGqnz7",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000000084e91743124a982076c59f10084\",\"pool\":\"0x9314941c11d6dee1d7bf93113eb74d4718949f3b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.327825,\"gas_eth\":0.043961,\"residual\":\"about 250,829,570,863 $HOKK (12,545,994,060,244 bought minus 12,295,164,489,380.6 sold)\",\"confidence\":4,\"note\":\"The same contract buys HOKK with 7.109631 WETH in the front leg and sells HOKK for 7.437456 WETH in the back leg. Both legs are on the 0x9314 pool, which the victim also buys from, and the victim sits between them. The WETH gain is +0.327825 before gas, and front plus back gas is 0.043961 ETH, leaving about +0.2839 ETH. The leftover HOKK has non-negative value, so the sign stays positive.\"}",
+ "case_id": "pack_012",
+ "_time": "2026-10-19T17:59:16+0800"
+}

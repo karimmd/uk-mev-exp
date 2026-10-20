@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd4981ed8892cacc135192385de05b19684231e74",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.021471,
+ "gas_eth": 0.032678,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are calls into the same contract, which receives USDT in the front and spends the same USDT in the back; the shared SST/USDT Uniswap V2 pool is also used by the victim. Net WETH gain exceeds the summed front/back gas fees, and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3051,
+  "output_tokens": 1903,
+  "thinking_tokens": 1741
+ },
+ "_request_id": "4a13e335002539f17a277f403dc153bc",
+ "_response_id": "da39a7ac-5f1d-4cce-945a-cb758ec7ed8a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xd4981ed8892cacc135192385de05b19684231e74\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.021471,\"gas_eth\":0.032678,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are calls into the same contract, which receives USDT in the front and spends the same USDT in the back; the shared SST/USDT Uniswap V2 pool is also used by the victim. Net WETH gain exceeds the summed front/back gas fees, and no non-WETH residual remains.\"}",
+ "case_id": "rej53_018",
+ "_time": "2026-10-19T18:58:43+0800"
+}

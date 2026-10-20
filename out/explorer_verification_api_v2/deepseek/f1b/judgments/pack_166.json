@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd2e19525ca8dd5e2787e8553aa50f7d5039a0b44",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.142916,
+ "gas_eth": 0,
+ "profit_after_gas": 0.142916,
+ "residual": "57508700997.9292 HATT",
+ "confidence": 5,
+ "note": "Front leg contract 0x1d6e... bought HATT with 2.11 WETH on pool 0xd2e...; victim also bought HATT on the same pool; back leg 0x1d6e... sold HATT for 2.252916 WETH. Net WETH gain is +0.142916 with zero gas fees, and leftover HATT remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2719,
+  "output_tokens": 5628,
+  "thinking_tokens": 5421
+ },
+ "_request_id": "cf1af3f74391aa0ac5eae5587eab9aa1",
+ "_response_id": "9718f1ce-f75c-4066-804c-34309b7ac08a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xd2e19525ca8dd5e2787e8553aa50f7d5039a0b44\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.142916,\"gas_eth\":0,\"profit_after_gas\":0.142916,\"residual\":\"57508700997.9292 HATT\",\"confidence\":5,\"note\":\"Front leg contract 0x1d6e... bought HATT with 2.11 WETH on pool 0xd2e...; victim also bought HATT on the same pool; back leg 0x1d6e... sold HATT for 2.252916 WETH. Net WETH gain is +0.142916 with zero gas fees, and leftover HATT remains positive.\"}",
+ "case_id": "pack_166",
+ "_time": "2026-10-19T19:24:05+0800"
+}

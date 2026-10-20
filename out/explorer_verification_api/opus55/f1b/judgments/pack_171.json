@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xc0917d9f473618029bea42dd61b05fcf0251be42",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a closed arbitrage by contract 0x00c409\u2026 (buy YETI on 0xc0917d, sell on 0x4cfa6c, +0.016072 WETH before a 0.00823 fee). The back leg is a separate arbitrage by a different sender and contract, 0x860bd2\u2026 (buy on 0x4cfa6c, sell on 0xc0917d, +0.000285 WETH before a 0.008372 fee). Each leg opens and closes its own YETI position, so no single actor brackets the victim and no actor-level net across both legs applies.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4574,
+  "output_tokens": 885,
+  "thinking_tokens": 595
+ },
+ "_request_id": "req_011CgBRqG1fLifG5pFV6jXq6",
+ "_response_id": "msg_011CgBRqGMjaYj3Bbhuhbpxj",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": null, \"pool\": \"0xc0917d9f473618029bea42dd61b05fcf0251be42\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a closed arbitrage by contract 0x00c409\u2026 (buy YETI on 0xc0917d, sell on 0x4cfa6c, +0.016072 WETH before a 0.00823 fee). The back leg is a separate arbitrage by a different sender and contract, 0x860bd2\u2026 (buy on 0x4cfa6c, sell on 0xc0917d, +0.000285 WETH before a 0.008372 fee). Each leg opens and closes its own YETI position, so no single actor brackets the victim and no actor-level net across both legs applies.\"}\n```",
+ "case_id": "pack_171",
+ "_time": "2026-10-19T18:21:37+0800"
+}

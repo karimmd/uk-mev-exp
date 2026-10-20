@@ -1,0 +1,113 @@
+{
+ "original_258": {
+  "label": "original 258 vs recorded (check: should reproduce -14.29)",
+  "n_missed": 258,
+  "sup_missed": 177,
+  "n_recorded": 10299,
+  "sup_recorded": 8772,
+  "unadj_pp": -16.568666635053752,
+  "newcombe": [
+   -22.50783370698732,
+   -11.168187589712872
+  ],
+  "standardized_pp": -14.294917128409935,
+  "level_missed": 70.10883608905938,
+  "level_recorded": 84.40375321746933,
+  "strata": 21,
+  "perm_band": [
+   -7.542634117732749,
+   6.325742017200109
+  ],
+  "perm_p": 0.0002999850007499625,
+  "undecidable_gap_pp": 1.9071021903370677,
+  "block_boot": [
+   -22.251623902848582,
+   -4.640400707809301
+  ],
+  "actor_boot": [
+   -30.86082805229059,
+   -5.3349612187494895
+  ],
+  "loo_range": [
+   -16.327476156818975,
+   -10.805550982201428
+  ],
+  "distinct_blocks": 8555,
+  "distinct_actors": 317,
+  "newcombe_note": "corrected 2026-10-13: T8.newcombe already returns percentage points; the script multiplied by 100 once more"
+ },
+ "symmetric_1642": {
+  "label": "symmetric 1,642 vs recorded",
+  "n_missed": 1642,
+  "sup_missed": 1297,
+  "n_recorded": 10299,
+  "sup_recorded": 8772,
+  "unadj_pp": -6.184280039013757,
+  "newcombe": [
+   -8.329624604999525,
+   -4.158072703087906
+  ],
+  "standardized_pp": -9.384395270644807,
+  "level_missed": 74.6563423795541,
+  "level_recorded": 84.04073765019892,
+  "strata": 26,
+  "perm_band": [
+   -4.012571295713741,
+   3.4730668409030385
+  ],
+  "perm_p": 4.999750012499375e-05,
+  "undecidable_gap_pp": -2.0660967356072604,
+  "block_boot": [
+   -12.80510079644307,
+   -3.234916767581053
+  ],
+  "actor_boot": [
+   -16.26237389299485,
+   -3.3429171324338314
+  ],
+  "loo_range": [
+   -10.8681832098368,
+   -5.460767348197271
+  ],
+  "distinct_blocks": 9326,
+  "distinct_actors": 394,
+  "newcombe_note": "corrected 2026-10-13: T8.newcombe already returns percentage points; the script multiplied by 100 once more"
+ },
+ "new_1384_only": {
+  "label": "new 1,384 only vs recorded",
+  "n_missed": 1384,
+  "sup_missed": 1120,
+  "n_recorded": 10299,
+  "sup_recorded": 8772,
+  "unadj_pp": -4.248462306514966,
+  "newcombe": [
+   -6.50562058398371,
+   -2.1455086113866506
+  ],
+  "standardized_pp": -5.626594226135495,
+  "level_missed": 78.99241786639455,
+  "level_recorded": 84.61901209253004,
+  "strata": 23,
+  "perm_band": [
+   -4.463770212369466,
+   3.191750628199108
+  ],
+  "perm_p": 0.00519974001299935,
+  "undecidable_gap_pp": -5.186827868920325,
+  "block_boot": [
+   -8.438484458569794,
+   -1.283605532817822
+  ],
+  "actor_boot": [
+   -12.621529512196972,
+   1.4035643584205615
+  ],
+  "loo_range": [
+   -8.144929985008908,
+   -3.484274097234119
+  ],
+  "distinct_blocks": 9193,
+  "distinct_actors": 392,
+  "newcombe_note": "corrected 2026-10-13: T8.newcombe already returns percentage points; the script multiplied by 100 once more"
+ }
+}

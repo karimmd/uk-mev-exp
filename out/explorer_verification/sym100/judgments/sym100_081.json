@@ -1,0 +1,17 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0863,
+ "gas_eth": 0.072341,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract actor trades in both legs, and the victim sells token 0x892a into pool 0xab2d between them. Front leg: WETH in on 0x43a7, then token sold for WETH on 0xab2d, net -0.0414 WETH. Back leg: WETH in on 0xab2d and token sold for WETH on 0x43a7, net +0.1277 WETH. The total is +0.0863 WETH, or about +0.0140 after 0.0723 ETH gas. The legs are cross-pool and each leg ends flat in the token, so the 'position' is a short on 0xab2d and Q1 is not clear-cut.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0327032,
+ "_session": "8750a14e-ea58-4986-ba25-08069ba24dc2",
+ "_raw": "{\"actor\": \"0x0000000000d41c96294ccdac8612bdfe29c641af\", \"pool\": \"0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.0863, \"gas_eth\": 0.072341, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract actor trades in both legs, and the victim sells token 0x892a into pool 0xab2d between them. Front leg: WETH in on 0x43a7, then token sold for WETH on 0xab2d, net -0.0414 WETH. Back leg: WETH in on 0xab2d and token sold for WETH on 0x43a7, net +0.1277 WETH. The total is +0.0863 WETH, or about +0.0140 after 0.0723 ETH gas. The legs are cross-pool and each leg ends flat in the token, so the 'position' is a short on 0xab2d and Q1 is not clear-cut.\"}",
+ "case_id": "sym100_081",
+ "_time": "2026-10-13T21:41:08+0800"
+}

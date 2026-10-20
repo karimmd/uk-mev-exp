@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.019011,
+ "gas_eth": 0.042605,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x\u20263441 sold 9171.131681 BBANK for 2.039836 WETH on pool 0x2a18 ahead of the victim's BBANK sale on the same pool. It then bought back exactly 9171.131681 BBANK for 1.978220 WETH, a sell-first bracket that leaves no residual. The WETH gain of 0.061616 minus 0.042605 ETH in gas leaves about +0.019 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3214,
+  "output_tokens": 576,
+  "thinking_tokens": 291
+ },
+ "_request_id": "req_011CgBSLRjrdpzoCSF1W8ejR",
+ "_response_id": "msg_011CgBSLSchMnfjgxd27QUC6",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.019011, \"gas_eth\": 0.042605, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x\u20263441 sold 9171.131681 BBANK for 2.039836 WETH on pool 0x2a18 ahead of the victim's BBANK sale on the same pool. It then bought back exactly 9171.131681 BBANK for 1.978220 WETH, a sell-first bracket that leaves no residual. The WETH gain of 0.061616 minus 0.042605 ETH in gas leaves about +0.019 ETH.\"}",
+ "case_id": "sym100_051",
+ "_time": "2026-10-19T18:28:10+0800"
+}

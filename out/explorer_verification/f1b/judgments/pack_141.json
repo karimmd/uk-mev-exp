@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.065254,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract buys 3,020,068 PEOPLE from the V3 pool before the victim's second hop (WETH->PEOPLE on the same pool) and sells the identical amount back after, with no residual. The WETH gain is 19.403861-19.216836=0.187025, minus the 0.121771 ETH the back leg's value forwarded to 0xb7e3... (likely a builder payment), giving 0.065254 before gas. Gas of 0.157241 ETH makes the total about -0.092 ETH, so the position is negative after observable cost.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0215027,
+ "_session": "d8cef7fd-49c1-44dc-9f78-e205cd3fb5c7",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x83abecf7204d5afc1bea5df734f085f2535a9976\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.065254, \"gas_eth\": 0.157241, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract buys 3,020,068 PEOPLE from the V3 pool before the victim's second hop (WETH->PEOPLE on the same pool) and sells the identical amount back after, with no residual. The WETH gain is 19.403861-19.216836=0.187025, minus the 0.121771 ETH the back leg's value forwarded to 0xb7e3... (likely a builder payment), giving 0.065254 before gas. Gas of 0.157241 ETH makes the total about -0.092 ETH, so the position is negative after observable cost.\"}",
+ "case_id": "pack_141",
+ "_time": "2026-10-13T20:31:50+0800"
+}

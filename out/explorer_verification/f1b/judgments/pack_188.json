@@ -1,0 +1,17 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.017259,
+ "gas_eth": 0.010018,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x4df3 (called by 0xc351 in both legs) wrapped 2.419244 ETH and bought UNIUSD on pool 0xbd39 in the front leg. The victim then bought UNIUSD on the same pool with 2.8 ETH. In the back leg the contract sold the full 260792.41 UNIUSD (255576.56 to the pool plus 5215.85 to the token contract) for 2.436503 ETH. That nets +0.017259 ETH before gas, or about +0.007241 ETH after 0.010018 ETH of front and back gas, with no residual holding.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0258987,
+ "_session": "3eb670ca-eb3c-4cb0-97c2-4c4308a120e0",
+ "_raw": "{\"actor\": \"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\", \"pool\": \"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.017259, \"gas_eth\": 0.010018, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x4df3 (called by 0xc351 in both legs) wrapped 2.419244 ETH and bought UNIUSD on pool 0xbd39 in the front leg. The victim then bought UNIUSD on the same pool with 2.8 ETH. In the back leg the contract sold the full 260792.41 UNIUSD (255576.56 to the pool plus 5215.85 to the token contract) for 2.436503 ETH. That nets +0.017259 ETH before gas, or about +0.007241 ETH after 0.010018 ETH of front and back gas, with no residual holding.\"}",
+ "case_id": "pack_188",
+ "_time": "2026-10-13T20:41:32+0800"
+}

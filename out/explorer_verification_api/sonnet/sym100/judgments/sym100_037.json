@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.012456,
+ "gas_eth": 0.003114,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x3dad\u2026 sells 676.268793 DFYN into the DFYN/WETH pool in the front leg for 0.533 WETH. The victim then sells 4027 DFYN into the same pool. The back leg buys back exactly 676.268793 DFYN for 0.520544 WETH, so no DFYN is left over. This is a mirrored sandwich that starts from DFYN inventory. WETH net is +0.012456, which is +0.009342 after 0.003114 ETH gas, so Q2 is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3025,
+  "output_tokens": 876,
+  "thinking_tokens": 575
+ },
+ "_request_id": "req_011CgBS71wGB7VYj3UjdFdX7",
+ "_response_id": "msg_011CgBS72KpyMdCqXV2qXrvA",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xcab335e1964363e48a790da303b74ec02d3f8fb2\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.012456,\"gas_eth\":0.003114,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x3dad\u2026 sells 676.268793 DFYN into the DFYN/WETH pool in the front leg for 0.533 WETH. The victim then sells 4027 DFYN into the same pool. The back leg buys back exactly 676.268793 DFYN for 0.520544 WETH, so no DFYN is left over. This is a mirrored sandwich that starts from DFYN inventory. WETH net is +0.012456, which is +0.009342 after 0.003114 ETH gas, so Q2 is positive.\"}",
+ "case_id": "sym100_037",
+ "_time": "2026-10-19T18:25:09+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x50004cb09702ced04e59dcdaff9df58b6cc97983",
+ "pool": "0x18d98d452072ac2eb7b74ce3db723374360539f1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.230902,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys ibBTC in the front leg through WETH\u2192WBTC\u2192ibBTC, routed over pools 0xbb2b\u2026 and 0x18d9\u2026. The victim swaps WBTC for ibBTC on 0x18d9\u2026, and the back leg sells the same 1.224440 ibBTC back to WETH. WETH nets +0.577253 (20.943623 \u2212 20.366370), and the 0.346351 ETH paid to 0xb3b7\u2026 (likely a miner tip) brings it to +0.230902. Both legs show gas price 0 and fee 0, so gas is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4012,
+  "output_tokens": 843,
+  "thinking_tokens": 528
+ },
+ "_request_id": "req_011CgBQLjagBzDEj29Hon5LJ",
+ "_response_id": "msg_011CgBQLqcouCmCu7sKy3Rhk",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x50004cb09702ced04e59dcdaff9df58b6cc97983\",\"pool\":\"0x18d98d452072ac2eb7b74ce3db723374360539f1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.230902,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys ibBTC in the front leg through WETH\u2192WBTC\u2192ibBTC, routed over pools 0xbb2b\u2026 and 0x18d9\u2026. The victim swaps WBTC for ibBTC on 0x18d9\u2026, and the back leg sells the same 1.224440 ibBTC back to WETH. WETH nets +0.577253 (20.943623 \u2212 20.366370), and the 0.346351 ETH paid to 0xb3b7\u2026 (likely a miner tip) brings it to +0.230902. Both legs show gas price 0 and fee 0, so gas is 0.\"}",
+ "case_id": "pack_029",
+ "_time": "2026-10-19T18:02:02+0800"
+}

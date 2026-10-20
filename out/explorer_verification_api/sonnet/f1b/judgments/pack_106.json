@@ -1,0 +1,31 @@
+{
+ "actor": "0xa6c484c80919be6bec5dfe596b54a90c0f6be843",
+ "pool": "0xe211637a32d526b2bdbb3d61f0c98869ad73c666",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.020569,
+ "gas_eth": 0.005118,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract spent 0.061713 WETH to receive 1450.733835 X10 in the front leg. The victim then bought X10 on the same pool. In the back leg the actor sent out the same 1450.733835 X10 (18.599152 burned plus 1432.134683 to the pool) and received 0.082282 WETH. That is a gross gain of 0.020569 ETH, or about 0.015451 ETH after 0.005118 ETH of gas across both legs.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3310,
+  "output_tokens": 651,
+  "thinking_tokens": 371
+ },
+ "_request_id": "req_011CgBREeAS5yuE4oDtsHLxV",
+ "_response_id": "msg_011CgBREieZLJhNisHcPjZym",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xa6c484c80919be6bec5dfe596b54a90c0f6be843\",\"pool\":\"0xe211637a32d526b2bdbb3d61f0c98869ad73c666\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.020569,\"gas_eth\":0.005118,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract spent 0.061713 WETH to receive 1450.733835 X10 in the front leg. The victim then bought X10 on the same pool. In the back leg the actor sent out the same 1450.733835 X10 (18.599152 burned plus 1432.134683 to the pool) and received 0.082282 WETH. That is a gross gain of 0.020569 ETH, or about 0.015451 ETH after 0.005118 ETH of gas across both legs.\"}",
+ "case_id": "pack_106",
+ "_time": "2026-10-19T18:13:44+0800"
+}

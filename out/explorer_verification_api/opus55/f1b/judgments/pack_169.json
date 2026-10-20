@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.077763,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract bought 32742191893.925209 STARL for 12.118578 WETH on pair 0xa5e9\u2026, and sold the same amount back on that pair for 12.273782 WETH, a gain of 0.155204 WETH. The victim bought STARL on the same pair between the two legs. Both bracket legs paid zero gas, but the back leg carried 0.077441 ETH that was forwarded to 0xb3b7\u2026, likely a builder or miner payment; counting it as a cost leaves about 0.0778 ETH net.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3421,
+  "output_tokens": 754,
+  "thinking_tokens": 445
+ },
+ "_request_id": "req_011CgBRpb28WMAXdG9M1oBra",
+ "_response_id": "msg_011CgBRpbPCdWVUCG2Z6qgVQ",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.077763, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract bought 32742191893.925209 STARL for 12.118578 WETH on pair 0xa5e9\u2026, and sold the same amount back on that pair for 12.273782 WETH, a gain of 0.155204 WETH. The victim bought STARL on the same pair between the two legs. Both bracket legs paid zero gas, but the back leg carried 0.077441 ETH that was forwarded to 0xb3b7\u2026, likely a builder or miner payment; counting it as a cost leaves about 0.0778 ETH net.\"}",
+ "case_id": "pack_169",
+ "_time": "2026-10-19T18:21:26+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0xaa736ca527252cf9f65abed23c21f5ac46af27e3",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 1.936199,
+ "gas_eth": 0.022745,
+ "residual": "16825.804927 GOLD deficit",
+ "confidence": 4,
+ "note": "Front and back actor is the contract called by the sender, trading on the shared UniswapV2 pool; WETH net after gas is positive. However, the back leg sells 16825.804927 more GOLD than the front leg acquired, implying pre-existing GOLD inventory whose cost basis is not observable, so the overall position sign is uncertain.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2280,
+  "output_tokens": 12955,
+  "thinking_tokens": 12760
+ },
+ "_request_id": "edc20085c02c47eb12764b82925ec944",
+ "_response_id": "b5af044f-8afe-4e14-8ab7-9c05be3704e1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000c9fdd743c60055c0e4ea30d266272c1f\", \"pool\": \"0xaa736ca527252cf9f65abed23c21f5ac46af27e3\", \"Q1\": \"yes\", \"Q2\": \"cannot tell\", \"net_eth\": 1.936199, \"gas_eth\": 0.022745, \"residual\": \"16825.804927 GOLD deficit\", \"confidence\": 4, \"note\": \"Front and back actor is the contract called by the sender, trading on the shared UniswapV2 pool; WETH net after gas is positive. However, the back leg sells 16825.804927 more GOLD than the front leg acquired, implying pre-existing GOLD inventory whose cost basis is not observable, so the overall position sign is uncertain.\"}",
+ "case_id": "pack_186",
+ "_time": "2026-10-19T18:35:35+0800"
+}

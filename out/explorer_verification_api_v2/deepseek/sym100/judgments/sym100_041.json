@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xdc3e94ddf605864b79fce18c7cf974e579001e7b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.107156,
+ "gas_eth": 0.007043,
+ "profit_after_gas": 0.100113,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract sells QUICK in the front leg and buys the same QUICK amount back in the back leg on the pool the victim also uses. Net WETH before gas is 1.750411 - 1.643255 = 0.107156, positive after the front and back gas fees, with no residual QUICK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2422,
+  "output_tokens": 4055,
+  "thinking_tokens": 3874
+ },
+ "_request_id": "3e52fb3e084f04f7543257d0351e3853",
+ "_response_id": "42d0b534-dc9f-4d3f-ae0d-a55741176f92",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xdc3e94ddf605864b79fce18c7cf974e579001e7b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.107156,\"gas_eth\":0.007043,\"profit_after_gas\":0.100113,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract sells QUICK in the front leg and buys the same QUICK amount back in the back leg on the pool the victim also uses. Net WETH before gas is 1.750411 - 1.643255 = 0.107156, positive after the front and back gas fees, with no residual QUICK.\"}",
+ "case_id": "sym100_041",
+ "_time": "2026-10-19T19:32:17+0800"
+}

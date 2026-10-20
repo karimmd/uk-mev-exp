@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xb2c29e311916a346304f83aa44527092d5bd4f0f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.018179,
+ "gas_eth": 0.027527,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same target contract trades on the shared MPH/WETH pool before and after the victim, selling MPH in the front and buying it back in the back. Net WETH gain is 0.045706 ETH minus front/back gas 0.027527 ETH, leaving +0.018179 ETH; no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2688,
+  "output_tokens": 9130,
+  "thinking_tokens": 8948
+ },
+ "_request_id": "19f2b310e15e88002e51e443c18c665d",
+ "_response_id": "705882f0-0e07-4cc5-98f0-c0c4208eea41",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xb2c29e311916a346304f83aa44527092d5bd4f0f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.018179, \"gas_eth\": 0.027527, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same target contract trades on the shared MPH/WETH pool before and after the victim, selling MPH in the front and buying it back in the back. Net WETH gain is 0.045706 ETH minus front/back gas 0.027527 ETH, leaving +0.018179 ETH; no non-WETH residual remains.\"}",
+ "case_id": "pack_009",
+ "_time": "2026-10-19T18:04:06+0800"
+}

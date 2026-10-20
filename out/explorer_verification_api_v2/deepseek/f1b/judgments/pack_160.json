@@ -1,0 +1,32 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.0098,
+ "gas_eth": 0,
+ "profit_after_gas": 0.0098,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front buys COLLAR with WETH on the same UniswapV2 pool the victim trades on, and back sells the same COLLAR amount for WETH. The actor nets +0.0098 WETH before gas; front/back gas is zero, and no COLLAR residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2423,
+  "output_tokens": 3711,
+  "thinking_tokens": 3538
+ },
+ "_request_id": "da7049d92afa793457c6bfbd97a0130d",
+ "_response_id": "76c51ff2-33b0-4981-8f8f-b90c9f499f60",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\",\"pool\":\"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.0098,\"gas_eth\":0,\"profit_after_gas\":0.0098,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front buys COLLAR with WETH on the same UniswapV2 pool the victim trades on, and back sells the same COLLAR amount for WETH. The actor nets +0.0098 WETH before gas; front/back gas is zero, and no COLLAR residual remains.\"}",
+ "case_id": "pack_160",
+ "_time": "2026-10-19T19:23:30+0800"
+}

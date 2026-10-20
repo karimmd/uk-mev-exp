@@ -1,0 +1,32 @@
+{
+ "actor": "0xce50840272d623272d6aef25e403f2265c27cfe7",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.376187,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.376187,
+ "residual": "none (7 CHI gas tokens burned, not valued)",
+ "confidence": 5,
+ "note": "Contract 0xce50 buys exactly 112939.660991 ALBT on the USDT/ALBT pool 0x1cd9 via WETH->USDT in the front leg, the victim buys ALBT on the same pool, and 0xce50 sells the identical ALBT amount there in the back leg. WETH nets +0.501583, minus a 0.125396 ETH internal payment out, which looks like a builder/miner tip. Both legs ran at 0 gwei, so the gas fee is zero.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3993,
+  "output_tokens": 644,
+  "thinking_tokens": 309
+ },
+ "_request_id": "req_011CgBWmWmsum2wcLBEwnyJN",
+ "_response_id": "msg_011CgBWmXBSawdsLSyx41rBr",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xce50840272d623272d6aef25e403f2265c27cfe7\", \"pool\": \"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.376187, \"gas_eth\": 0.0, \"profit_after_gas\": 0.376187, \"residual\": \"none (7 CHI gas tokens burned, not valued)\", \"confidence\": 5, \"note\": \"Contract 0xce50 buys exactly 112939.660991 ALBT on the USDT/ALBT pool 0x1cd9 via WETH->USDT in the front leg, the victim buys ALBT on the same pool, and 0xce50 sells the identical ALBT amount there in the back leg. WETH nets +0.501583, minus a 0.125396 ETH internal payment out, which looks like a builder/miner tip. Both legs ran at 0 gwei, so the gas fee is zero.\"}",
+ "case_id": "rej53_010",
+ "_time": "2026-10-19T19:26:18+0800"
+}

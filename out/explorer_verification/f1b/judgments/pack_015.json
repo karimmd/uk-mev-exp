@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x428bc363a7d743425863d6e5699683a69cacedc8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028019,
+ "gas_eth": 0.0,
+ "residual": "about 555,179,084,023.7 JINU (27,800,140,841,094.36 bought minus 27,244,961,757,070.65 sold)",
+ "confidence": 4,
+ "note": "The contract 0x1d6e buys JINU with 1.61 WETH in the front leg and sells JINU for 1.772641 WETH in the back leg, on pool 0x428b, where the victim also buys JINU in between. WETH gain is 0.162641; subtracting the 0.134622 ETH forwarded to 0xd224 (likely a miner tip) leaves +0.028019 ETH, with gas at 0 gwei. The leftover JINU only adds value, so the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026344700000000002,
+ "_session": "d89e9b06-c6b3-46eb-8563-08bcc7bc0956",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x428bc363a7d743425863d6e5699683a69cacedc8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.028019, \"gas_eth\": 0.0, \"residual\": \"about 555,179,084,023.7 JINU (27,800,140,841,094.36 bought minus 27,244,961,757,070.65 sold)\", \"confidence\": 4, \"note\": \"The contract 0x1d6e buys JINU with 1.61 WETH in the front leg and sells JINU for 1.772641 WETH in the back leg, on pool 0x428b, where the victim also buys JINU in between. WETH gain is 0.162641; subtracting the 0.134622 ETH forwarded to 0xd224 (likely a miner tip) leaves +0.028019 ETH, with gas at 0 gwei. The leftover JINU only adds value, so the sign is positive.\"}",
+ "case_id": "pack_015",
+ "_time": "2026-10-13T20:07:15+0800"
+}

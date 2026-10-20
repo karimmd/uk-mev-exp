@@ -1,0 +1,17 @@
+{
+ "actor": "0xdf1bac82673d6b9a18d9c476fd90bbecf00fce5d",
+ "pool": "0x504c65569f5ed6a7a8218a526a38c4c9d6a6b138",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.440299,
+ "gas_eth": 0.08222,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract (0xdf1b\u2026) bought 5429.894650 PLT with 4.422105 WETH in the front leg and sold the same amount back in the back leg for 4.862404 WETH. The victim's 10 ETH buy of PLT on the same pool sits between them. Gross WETH gain is 0.440299 ETH. After front and back gas (0.070459 + 0.011761 = 0.08222 ETH) the net is about +0.358 ETH, and no PLT is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0307996,
+ "_session": "8c86e145-c8bb-49c6-a4d5-587dc51453b4",
+ "_raw": "{\"actor\": \"0xdf1bac82673d6b9a18d9c476fd90bbecf00fce5d\", \"pool\": \"0x504c65569f5ed6a7a8218a526a38c4c9d6a6b138\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.440299, \"gas_eth\": 0.08222, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same contract (0xdf1b\u2026) bought 5429.894650 PLT with 4.422105 WETH in the front leg and sold the same amount back in the back leg for 4.862404 WETH. The victim's 10 ETH buy of PLT on the same pool sits between them. Gross WETH gain is 0.440299 ETH. After front and back gas (0.070459 + 0.011761 = 0.08222 ETH) the net is about +0.358 ETH, and no PLT is left over.\"}",
+ "case_id": "pack_004",
+ "_time": "2026-10-13T20:05:01+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.112412,
+ "gas_eth": 0.101725,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0xdac775 (called by 0x0895) sells 30590.96 NCT for 1.509 WETH on pool 0x9f4a in the front leg and buys back exactly 30590.96 NCT for 1.396588 WETH on the same pool in the back leg. The victim trades WETH\u2192NCT on that pool between them, so this is a short-NCT bracket, which is the reverse of the usual direction. The bracket nets +0.112412 WETH against 0.101725 ETH of gas, about +0.0107 ETH after gas; confidence is limited because the victim's buy should have hurt the back leg, so other transactions at positions 29\u201334 that are not shown may have moved the pool.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4073,
+  "output_tokens": 1382,
+  "thinking_tokens": 1023
+ },
+ "_request_id": "req_011CgBScWv6cmcAWGsLYJmeo",
+ "_response_id": "msg_011CgBScXGwFeqBfDGSNc59L",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xdac775cd972ac612907682ff757af66f75eecece\", \"pool\": \"0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.112412, \"gas_eth\": 0.101725, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0xdac775 (called by 0x0895) sells 30590.96 NCT for 1.509 WETH on pool 0x9f4a in the front leg and buys back exactly 30590.96 NCT for 1.396588 WETH on the same pool in the back leg. The victim trades WETH\u2192NCT on that pool between them, so this is a short-NCT bracket, which is the reverse of the usual direction. The bracket nets +0.112412 WETH against 0.101725 ETH of gas, about +0.0107 ETH after gas; confidence is limited because the victim's buy should have hurt the back leg, so other transactions at positions 29\u201334 that are not shown may have moved the pool.\"}",
+ "case_id": "sym100_097",
+ "_time": "2026-10-19T18:31:57+0800"
+}

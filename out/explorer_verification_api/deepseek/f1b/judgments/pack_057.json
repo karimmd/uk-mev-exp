@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.005064,
+ "residual": "none",
+ "confidence": 5,
+ "note": "All three legs sell ETH2X-FLI for WETH on the same Uniswap V2 pair; the front and back senders are different and both legs sell, so no single actor opens and closes a non-WETH position. The front and back gas fees sum to 0.005064 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2223,
+  "output_tokens": 11377,
+  "thinking_tokens": 11240
+ },
+ "_request_id": "42c5a8a20226f893220f55f6c26b4b87",
+ "_response_id": "f5687fd6-33f9-453b-93b3-b7d88692da97",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":0.005064,\"residual\":\"none\",\"confidence\":5,\"note\":\"All three legs sell ETH2X-FLI for WETH on the same Uniswap V2 pair; the front and back senders are different and both legs sell, so no single actor opens and closes a non-WETH position. The front and back gas fees sum to 0.005064 ETH.\"}",
+ "case_id": "pack_057",
+ "_time": "2026-10-19T18:15:02+0800"
+}

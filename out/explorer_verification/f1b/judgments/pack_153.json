@@ -1,0 +1,17 @@
+{
+ "actor": "0xf2972a2b8eda253678877995147869ed99b50e39",
+ "pool": "0xc491405d542a393d8d202a72f0fb076447e61891",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.204213,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0xf297... bought 213636.452861 WHACKD for 3.554376 WETH in the front leg. It sold exactly that amount (192272.807575 + 21363.645286) in the back leg for 4.233317 WETH, and the victim bought WHACKD on the same pool in between. Gross profit is 0.678941 ETH. The back leg also sends 0.474728 ETH to 0xbcc8..., which I counted as a cost, leaving 0.204213 ETH. Both legs show 0 gwei gas fees, so I used 0 for gas. The 0.474728 ETH payment looks like a builder bribe, but that is my inference, since the data doesn't label it.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0287492,
+ "_session": "1d4e013a-0730-4bb6-a69e-1a226b354ec1",
+ "_raw": "{\"actor\": \"0xf2972a2b8eda253678877995147869ed99b50e39\", \"pool\": \"0xc491405d542a393d8d202a72f0fb076447e61891\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.204213, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0xf297... bought 213636.452861 WHACKD for 3.554376 WETH in the front leg. It sold exactly that amount (192272.807575 + 21363.645286) in the back leg for 4.233317 WETH, and the victim bought WHACKD on the same pool in between. Gross profit is 0.678941 ETH. The back leg also sends 0.474728 ETH to 0xbcc8..., which I counted as a cost, leaving 0.204213 ETH. Both legs show 0 gwei gas fees, so I used 0 for gas. The 0.474728 ETH payment looks like a builder bribe, but that is my inference, since the data doesn't label it.\"}",
+ "case_id": "pack_153",
+ "_time": "2026-10-13T20:34:12+0800"
+}

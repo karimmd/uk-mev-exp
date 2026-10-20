@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.069007,
+ "gas_eth": 0.031091,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sells 442.269926 URQA into the URQA/WETH pool in the front leg and buys back exactly 442.269926 URQA in the back leg. The victim sells 9500 URQA into the same pool between the two legs, so this is a sell-side sandwich. The actor's WETH change is +0.773930 - 0.704923 = +0.069007, and after 0.031091 ETH of gas the net is about +0.037916 ETH. The actor needed URQA inventory before the front leg, but the URQA position nets to zero.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025931199999999998,
+ "_session": "49a7cfba-eab6-42ce-8501-a8a295055f44",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.069007, \"gas_eth\": 0.031091, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sells 442.269926 URQA into the URQA/WETH pool in the front leg and buys back exactly 442.269926 URQA in the back leg. The victim sells 9500 URQA into the same pool between the two legs, so this is a sell-side sandwich. The actor's WETH change is +0.773930 - 0.704923 = +0.069007, and after 0.031091 ETH of gas the net is about +0.037916 ETH. The actor needed URQA inventory before the front leg, but the URQA position nets to zero.\"}",
+ "case_id": "sym100_071",
+ "_time": "2026-10-13T21:38:41+0800"
+}

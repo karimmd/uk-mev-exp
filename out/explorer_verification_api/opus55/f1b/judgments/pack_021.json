@@ -1,0 +1,31 @@
+{
+ "actor": "0x66f049111958809841bbe4b81c034da2d953aa0c",
+ "pool": "0x82dbc2673e9640343d263a3c55de49021ad39ae2",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.000761,
+ "gas_eth": 0.012374,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x66f0 buys 29779.520984 EDEN for 57.772711 WETH on pool 0x82db, the victim then buys EDEN on the same pool, and 0x66f0 sells exactly that EDEN back for 57.788830 WETH, a gross gain of 0.016119. Treating the sender and its contract as one actor, the 0.004506 ETH value it forwarded to 0x5a0b (likely a miner payment) and the 0.012374 ETH of gas leave the actor about -0.000761 ETH. Without the forwarded payment the result would be positive, so the sign depends on counting it.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2977,
+  "output_tokens": 887,
+  "thinking_tokens": 553
+ },
+ "_request_id": "req_011CgBQGE6XS1Q96dmacDAHw",
+ "_response_id": "msg_011CgBQGNVnrWyPaPbjtEPY5",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x66f049111958809841bbe4b81c034da2d953aa0c\", \"pool\": \"0x82dbc2673e9640343d263a3c55de49021ad39ae2\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.000761, \"gas_eth\": 0.012374, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x66f0 buys 29779.520984 EDEN for 57.772711 WETH on pool 0x82db, the victim then buys EDEN on the same pool, and 0x66f0 sells exactly that EDEN back for 57.788830 WETH, a gross gain of 0.016119. Treating the sender and its contract as one actor, the 0.004506 ETH value it forwarded to 0x5a0b (likely a miner payment) and the 0.012374 ETH of gas leave the actor about -0.000761 ETH. Without the forwarded payment the result would be positive, so the sign depends on counting it.\"}",
+ "case_id": "pack_021",
+ "_time": "2026-10-19T18:01:04+0800"
+}

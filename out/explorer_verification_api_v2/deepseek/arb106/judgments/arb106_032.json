@@ -1,0 +1,40 @@
+{
+ "actor": "0xa10fca31a2cb432c9ac976779dc947cfdb003ef0",
+ "pools": [
+  "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+  "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
+  "0x157dfa656fdf0d18e1ba94075a53600d81cb3a97",
+  "0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.071018,
+ "gas_eth": 0.036862,
+ "profit_after_gas": 0.034156,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives 7.560343 WETH from the WETH/DAI V2 pool and sends 7.489325 WETH into the UMA/WETH V3 pool while the intermediate UMA, FEI, and DAI route through four distinct pools. Net WETH before gas is +0.071018, leaving +0.034156 after the stated gas fee.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1715,
+  "output_tokens": 10901,
+  "thinking_tokens": 10609
+ },
+ "_request_id": "7896ce8872a3da4ea6d6c9f611f47c83",
+ "_response_id": "1b6504fd-f891-4a86-8ac9-992ffb25d9cd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa10fca31a2cb432c9ac976779dc947cfdb003ef0\",\"pools\":[\"0xa478c2975ab1ea89e8196811f51a7b7ade33eb11\",\"0x0f024314588466416c8fc66013ba4d3ab2e4efe5\",\"0x157dfa656fdf0d18e1ba94075a53600d81cb3a97\",\"0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.071018,\"gas_eth\":0.036862,\"profit_after_gas\":0.034156,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives 7.560343 WETH from the WETH/DAI V2 pool and sends 7.489325 WETH into the UMA/WETH V3 pool while the intermediate UMA, FEI, and DAI route through four distinct pools. Net WETH before gas is +0.071018, leaving +0.034156 after the stated gas fee.\"}",
+ "case_id": "arb106_032",
+ "_time": "2026-10-19T19:54:39+0800"
+}

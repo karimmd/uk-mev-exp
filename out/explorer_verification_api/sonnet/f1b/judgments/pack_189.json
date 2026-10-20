@@ -1,0 +1,31 @@
+{
+ "actor": "0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792",
+ "pool": "0x7a21a32b536d72613cda8f4d2739821e8dc0f8ca",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028128,
+ "gas_eth": 0.011549,
+ "residual": "none (about 0.000001 SAIYAN rounding dust)",
+ "confidence": 5,
+ "note": "The same contract buys SAIYAN with 0.507410 WETH in the front leg and sells back 5.133685 SAIYAN for 0.535538 WETH in the back leg. Both legs use the pool the victim trades on, and the victim's 1.5 ETH buy sits between them. Net WETH is +0.028128, and after 0.011549 ETH of front and back gas the position is about +0.016579 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3316,
+  "output_tokens": 600,
+  "thinking_tokens": 313
+ },
+ "_request_id": "req_011CgBRrQqWF3tfuFFrTAc8w",
+ "_response_id": "msg_011CgBRrRAbSRXWF2p3Eu1if",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792\",\"pool\":\"0x7a21a32b536d72613cda8f4d2739821e8dc0f8ca\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.028128,\"gas_eth\":0.011549,\"residual\":\"none (about 0.000001 SAIYAN rounding dust)\",\"confidence\":5,\"note\":\"The same contract buys SAIYAN with 0.507410 WETH in the front leg and sells back 5.133685 SAIYAN for 0.535538 WETH in the back leg. Both legs use the pool the victim trades on, and the victim's 1.5 ETH buy sits between them. Net WETH is +0.028128, and after 0.011549 ETH of front and back gas the position is about +0.016579 ETH.\"}",
+ "case_id": "pack_189",
+ "_time": "2026-10-19T18:21:48+0800"
+}

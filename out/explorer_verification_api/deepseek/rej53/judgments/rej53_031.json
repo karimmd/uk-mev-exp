@@ -1,0 +1,31 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.147127,
+ "gas_eth": 0.010519,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both call contract 0x4df3..., which buys token 0x256845... on UniswapV2 pair 0xbd39... and later sells it back, with the victim trading on the same pair between them. Gross ETH/WETH net is 0.157646 ETH; subtracting front+back gas gives about 0.147127 ETH positive, with no residual token holding observed.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2590,
+  "output_tokens": 6915,
+  "thinking_tokens": 6728
+ },
+ "_request_id": "d696ffc2a2faefebf48206bc05df59f6",
+ "_response_id": "b7875315-ac27-4d24-a01a-a602923d9ea0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\",\"pool\":\"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.147127,\"gas_eth\":0.010519,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both call contract 0x4df3..., which buys token 0x256845... on UniswapV2 pair 0xbd39... and later sells it back, with the victim trading on the same pair between them. Gross ETH/WETH net is 0.157646 ETH; subtracting front+back gas gives about 0.147127 ETH positive, with no residual token holding observed.\"}",
+ "case_id": "rej53_031",
+ "_time": "2026-10-19T19:00:18+0800"
+}

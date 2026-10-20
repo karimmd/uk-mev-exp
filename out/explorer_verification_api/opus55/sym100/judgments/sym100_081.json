@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.086303,
+ "gas_eth": 0.072341,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract 0x0000000000d41c\u2026 runs a WETH\u2192token 0x892a6f\u2192WETH loop across pools 0x43a76c and 0xab2d2f. In the front leg it sells the token into 0xab2d2f, in the same direction as the victim's sale on that pool, at a standalone loss of 0.0414 WETH. In the back leg it reverses the loop for a gain of 0.1277 WETH, so after 0.0723 ETH of gas it nets about +0.0140 ETH; the token goes pool-to-pool and the actor never holds it, which makes the 'position' reading less certain.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3121,
+  "output_tokens": 1287,
+  "thinking_tokens": 954
+ },
+ "_request_id": "req_011CgBSXFkdrw6jGHUubkHBL",
+ "_response_id": "msg_011CgBSXG7DdUzMj8iFC2ofd",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000000d41c96294ccdac8612bdfe29c641af\", \"pool\": \"0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.086303, \"gas_eth\": 0.072341, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The contract 0x0000000000d41c\u2026 runs a WETH\u2192token 0x892a6f\u2192WETH loop across pools 0x43a76c and 0xab2d2f. In the front leg it sells the token into 0xab2d2f, in the same direction as the victim's sale on that pool, at a standalone loss of 0.0414 WETH. In the back leg it reverses the loop for a gain of 0.1277 WETH, so after 0.0723 ETH of gas it nets about +0.0140 ETH; the token goes pool-to-pool and the actor never holds it, which makes the 'position' reading less certain.\"}",
+ "case_id": "sym100_081",
+ "_time": "2026-10-19T18:30:43+0800"
+}

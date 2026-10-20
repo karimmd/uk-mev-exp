@@ -1,0 +1,31 @@
+{
+ "actor": "0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567",
+ "pool": "0xb9f7046f985a906ee3f48f738a44bbcd22bee727",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.066348,
+ "gas_eth": 0.021903,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x1dc0\u2026e567 buys 83959.177451 MNET for 1.579578 WETH on pool 0xb9f7\u2026e727 before the victim's 2 ETH buy on the same pool, then sells exactly that MNET back for 1.667829 WETH. That is +0.088251 WETH gross, minus 0.021903 ETH gas. The front and back legs come from different senders, but both call the same contract. The zero-value self-destructs look like gas-token burns and carry no ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3305,
+  "output_tokens": 473,
+  "thinking_tokens": 172
+ },
+ "_request_id": "req_011CgBRcRsciqKowREnDyWhZ",
+ "_response_id": "msg_011CgBRcV1dnfDqtwNKE9n8A",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567\", \"pool\": \"0xb9f7046f985a906ee3f48f738a44bbcd22bee727\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.066348, \"gas_eth\": 0.021903, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x1dc0\u2026e567 buys 83959.177451 MNET for 1.579578 WETH on pool 0xb9f7\u2026e727 before the victim's 2 ETH buy on the same pool, then sells exactly that MNET back for 1.667829 WETH. That is +0.088251 WETH gross, minus 0.021903 ETH gas. The front and back legs come from different senders, but both call the same contract. The zero-value self-destructs look like gas-token burns and carry no ETH.\"}",
+ "case_id": "pack_136",
+ "_time": "2026-10-19T18:18:39+0800"
+}

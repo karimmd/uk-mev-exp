@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.062795,
+ "gas_eth": 0.013207,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg, contract 0x...594e routes WETH through 0x19b8 (WETH/PROS) and 0x3155 (PROS/USDC) and ends up holding 40686.03 USDC. The victim sells PROS into 0x3155 in between, and the back leg returns exactly that USDC through the same pools. WETH comes back 0.327197 above what went out; subtracting the 0.251195 ETH internal transfer (likely a builder payment) and 0.013207 ETH gas leaves about +0.0628 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3342,
+  "output_tokens": 717,
+  "thinking_tokens": 413
+ },
+ "_request_id": "req_011CgBSug7xSi2spDuXn5pZ6",
+ "_response_id": "msg_011CgBSugSozFjniVvVFnTHa",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x3155acd9f75915fcc21d34035f440da7040bd3ba\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.062795, \"gas_eth\": 0.013207, \"residual\": \"none\", \"confidence\": 4, \"note\": \"In the front leg, contract 0x...594e routes WETH through 0x19b8 (WETH/PROS) and 0x3155 (PROS/USDC) and ends up holding 40686.03 USDC. The victim sells PROS into 0x3155 in between, and the back leg returns exactly that USDC through the same pools. WETH comes back 0.327197 above what went out; subtracting the 0.251195 ETH internal transfer (likely a builder payment) and 0.013207 ETH gas leaves about +0.0628 ETH.\"}",
+ "case_id": "rej53_046",
+ "_time": "2026-10-19T18:35:42+0800"
+}

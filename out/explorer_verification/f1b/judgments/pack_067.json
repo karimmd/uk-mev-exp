@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x21359dfb99489204a3549692dd80f2cff4d4e8f9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.094627,
+ "gas_eth": 0.028407,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x1d6e8b bought 5074.997847 STR for 4.03 WETH in the front leg, the victim bought STR on the same pool in between, and the contract sold the identical STR amount back for 4.124627 WETH. The gross gain of 0.094627 ETH exceeds the combined front and back gas of 0.028407 ETH, so the position is about +0.0662 ETH after cost. The two legs have different senders, but both call the same actor contract.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0192887,
+ "_session": "8c68df80-3bc1-458d-b355-ea6817d77535",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x21359dfb99489204a3549692dd80f2cff4d4e8f9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.094627, \"gas_eth\": 0.028407, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x1d6e8b bought 5074.997847 STR for 4.03 WETH in the front leg, the victim bought STR on the same pool in between, and the contract sold the identical STR amount back for 4.124627 WETH. The gross gain of 0.094627 ETH exceeds the combined front and back gas of 0.028407 ETH, so the position is about +0.0662 ETH after cost. The two legs have different senders, but both call the same actor contract.\"}",
+ "case_id": "pack_067",
+ "_time": "2026-10-13T20:17:06+0800"
+}

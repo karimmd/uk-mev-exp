@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022051,
+ "gas_eth": 0.020518,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0000...4a30 sold 9687.003162 COOK for 0.812639 WETH on COOK/WETH pool 0xbdfe... before the victim's large COOK sell on the same pool. It then bought back exactly the same COOK amount for 0.770070 WETH, a sell-side sandwich with no residual. WETH gain of 0.042569 minus 0.020518 gas leaves about +0.022051 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2950,
+  "output_tokens": 689,
+  "thinking_tokens": 410
+ },
+ "_request_id": "req_011CgBSRD4zPwPqdVYy9nyxR",
+ "_response_id": "msg_011CgBSRDRLTS2WmTJ1bnoZe",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.022051, \"gas_eth\": 0.020518, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0000...4a30 sold 9687.003162 COOK for 0.812639 WETH on COOK/WETH pool 0xbdfe... before the victim's large COOK sell on the same pool. It then bought back exactly the same COOK amount for 0.770070 WETH, a sell-side sandwich with no residual. WETH gain of 0.042569 minus 0.020518 gas leaves about +0.022051 ETH.\"}",
+ "case_id": "sym100_065",
+ "_time": "2026-10-19T18:29:16+0800"
+}

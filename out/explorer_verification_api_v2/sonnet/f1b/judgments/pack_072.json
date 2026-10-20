@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender (0xe104...), and each one sells OTEN into the same pool for 0.1 ETH. The 'victim' is the same address doing the same trade, so there is no opposing front/back position and no separate victim. This looks like repeated sells by one account, not a sandwich. Net ETH is not computed because no bracket exists. The actor received 0.1 ETH per leg and paid about 0.0119 ETH gas per tx, so the account is not a profitable bracket actor either.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3791,
+  "output_tokens": 279,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVUc2ob2Eo9SDCn9XyC",
+ "_response_id": "msg_011CgBVUcPP2Ej3UCMzxumsa",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender (0xe104...), and each one sells OTEN into the same pool for 0.1 ETH. The 'victim' is the same address doing the same trade, so there is no opposing front/back position and no separate victim. This looks like repeated sells by one account, not a sandwich. Net ETH is not computed because no bracket exists. The actor received 0.1 ETH per leg and paid about 0.0119 ETH gas per tx, so the account is not a profitable bracket actor either.\"}",
+ "case_id": "pack_072",
+ "_time": "2026-10-19T19:09:18+0800"
+}

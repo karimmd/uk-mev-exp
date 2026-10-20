@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xe9bd6ddc2b13f46715382f74534950e004399d10",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": 0.010554,
+ "residual": "9.015643 DOGIRA per leg, bought three times and never sold",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender (0x68e8...) and each one buys DOGIRA with ETH through the router on the same pool. The sender is the victim too, so there is no separate victim between a front and back leg, and no leg sells the position, so nothing is opened and closed. The three legs are repeated identical buys, not a sandwich. Gas across the three is 0.003861 + 0.003642 + 0.003051 = 0.010554 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3761,
+  "output_tokens": 266,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRcZsL7irZxFe739cpZ",
+ "_response_id": "msg_011CgBRcdLC2KyDRuSVvQu7x",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xe9bd6ddc2b13f46715382f74534950e004399d10\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": 0.010554, \"residual\": \"9.015643 DOGIRA per leg, bought three times and never sold\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender (0x68e8...) and each one buys DOGIRA with ETH through the router on the same pool. The sender is the victim too, so there is no separate victim between a front and back leg, and no leg sells the position, so nothing is opened and closed. The three legs are repeated identical buys, not a sandwich. Gas across the three is 0.003861 + 0.003642 + 0.003051 = 0.010554 ETH.\"}",
+ "case_id": "pack_145",
+ "_time": "2026-10-19T18:18:41+0800"
+}

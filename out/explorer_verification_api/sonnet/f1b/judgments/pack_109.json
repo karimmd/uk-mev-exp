@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016118,
+ "gas_eth": 0.013232,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The front leg buys LDO on pool 0x454f with 99 WETH and sells it straight into pool 0xc558 (the victim's pool) for 22.57 WETH, ahead of the victim's 10000 LDO sale. The back leg reverses this, leaving the actor with +0.114219 WETH and no LDO. After the 0.098101 ETH payment to 0xeea5 (probably a bribe), net is 0.016118 ETH. The 0.104963 ETH sent to the sender is treated as the same operator. Gas of 0.013232 ETH leaves about +0.0029 ETH. The sign depends on that treatment, and it would be negative if the sender's receipt were excluded.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3870,
+  "output_tokens": 1669,
+  "thinking_tokens": 1312
+ },
+ "_request_id": "req_011CgBRGErnGZJgGh34ANWxQ",
+ "_response_id": "msg_011CgBRGKy7fc94qMgYo6gH2",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.016118,\"gas_eth\":0.013232,\"residual\":\"none\",\"confidence\":3,\"note\":\"The front leg buys LDO on pool 0x454f with 99 WETH and sells it straight into pool 0xc558 (the victim's pool) for 22.57 WETH, ahead of the victim's 10000 LDO sale. The back leg reverses this, leaving the actor with +0.114219 WETH and no LDO. After the 0.098101 ETH payment to 0xeea5 (probably a bribe), net is 0.016118 ETH. The 0.104963 ETH sent to the sender is treated as the same operator. Gas of 0.013232 ETH leaves about +0.0029 ETH. The sign depends on that treatment, and it would be negative if the sender's receipt were excluded.\"}",
+ "case_id": "pack_109",
+ "_time": "2026-10-19T18:14:15+0800"
+}

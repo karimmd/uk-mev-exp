@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x30296ea311779740ec158ff8c9e3a8c0217f8113",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.175235,
+ "gas_eth": 0.084765,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Same contract sells 14973.705 BFLY into the pool in the front leg and buys exactly that amount back in the back leg, with the victim's BFLY sale in between on the same pool. WETH gain is 5.605 - 5.429765 = 0.175235, minus 0.084765 gas leaves about +0.0905 ETH, with no BFLY residual.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3078,
+  "output_tokens": 910,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBS6AwjKnAehSqKuhuuY",
+ "_response_id": "msg_011CgBS6BK3h8sdVmmiaJLij",
+ "_reader": "sonnet",
+ "_raw": "Reading the three legs on the shared pool 0x30296ea3\u20268113 (BFLY/WETH):\n\n**Front leg.** The actor contract 0xb5917a48\u2026 sends 14973.705057 BFLY to the pool and receives 5.605 WETH.\n\n**Back leg.** The same contract sends 5.429765 WETH to the pool and receives 14973.705057 BFLY. The BFLY amount matches the front leg exactly, so the position is closed and nothing remains.\n\n**Victim.** The victim sells 7814 BFLY into the same pool between the two legs.\n\n**Sequence.** The sequence is inverted in a way worth noting. The front leg sells BFLY and receives WETH, so the actor must have held BFLY beforehand. The back leg buys the BFLY back. The actor's WETH therefore rises by 5.605 \u2212 5.429765 = 0.175235. The victim also sells BFLY, so the price should fall further after the victim. This fits a sell-first, buy-back-after pattern, but the victim sells into a pool the front leg has already pushed down, and the back leg then buys back cheaper. That is a valid sandwich shape.\n\n**Q1.** Both legs come from one actor on the same pool with the victim between them. The BFLY position is opened (short) in the front leg and closed in the back leg. The \"opens a position in a non-WETH token\" wording is satisfied loosely, since the actor starts with BFLY, sells it and rebuys it. Answer yes.\n\n**Q2.** Gross net is +0.175235 WETH.\n- Gas for front and back is 0.043179 + 0.041586 = 0.084765 ETH.\n- Net after gas is 0.175235 \u2212 0.084765 = 0.09047 ETH, which is positive.\n- The BFLY residual is 0, since 14973.705057 went out and came back.\n- The actor is the contract 0xb5917a48\u2026, and the sender EOA paid the gas. Both legs have no ETH value transfers.\n\n```json\n{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x30296ea311779740ec158ff8c9e3a8c0217f8113\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.175235, \"gas_eth\": 0.084765, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Same contract sells 14973.705 BFLY into the pool in the front leg and buys exactly that amount back in the back leg, with the victim's BFLY sale in between on the same pool. WETH gain is 5.605 - 5.429765 = 0.175235, minus 0.084765 gas leaves about +0.0905 ETH, with no BFLY residual.\"}\n```",
+ "case_id": "sym100_034",
+ "_time": "2026-10-19T18:24:57+0800"
+}

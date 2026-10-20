@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x4d4786384eb4e356ea2df195bbe84c89440accf0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.075777,
+ "gas_eth": 0.025748,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 16528.271828 BLANK into the pool in the front leg, the victim sells 5289 BLANK into the same pool, and the actor buys back exactly 16528.271828 BLANK in the back leg. The trade is a short-side round trip using BLANK inventory the actor already held, not a buy-then-sell, so Q1 is not clear-cut. WETH net is 7.886 - 7.810223 = +0.075777, minus 0.025748 gas gives about +0.050029 ETH, with no BLANK left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0241387,
+ "_session": "a56f0df6-ba88-4e8b-a1e2-83623d029501",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x4d4786384eb4e356ea2df195bbe84c89440accf0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.075777, \"gas_eth\": 0.025748, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sells 16528.271828 BLANK into the pool in the front leg, the victim sells 5289 BLANK into the same pool, and the actor buys back exactly 16528.271828 BLANK in the back leg. The trade is a short-side round trip using BLANK inventory the actor already held, not a buy-then-sell, so Q1 is not clear-cut. WETH net is 7.886 - 7.810223 = +0.075777, minus 0.025748 gas gives about +0.050029 ETH, with no BLANK left over.\"}",
+ "case_id": "pack_007",
+ "_time": "2026-10-13T20:05:32+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0xedc25e28c40762b64fa8fe139939c9164d5b3805",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.053085,
+ "gas_eth": 0.006572,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sold 7196 REVO for 1.412549 WETH and back bought the same 7196 REVO for 1.352892 WETH on the shared REVO/WETH pool. Net WETH gain before gas is 0.059657; after front+back gas 0.006572 it is +0.053085 ETH. The non-WETH position is acquired in the back leg, not opened in the front, so this is not a bracket per Q1.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2303,
+  "output_tokens": 8554,
+  "thinking_tokens": 8354
+ },
+ "_request_id": "b24b9b784db2d5b664e86851ebfa6e47",
+ "_response_id": "59fadd0b-9dd6-4c9b-a20b-98de24bf1597",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\",\"pool\":\"0xedc25e28c40762b64fa8fe139939c9164d5b3805\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.053085,\"gas_eth\":0.006572,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sold 7196 REVO for 1.412549 WETH and back bought the same 7196 REVO for 1.352892 WETH on the shared REVO/WETH pool. Net WETH gain before gas is 0.059657; after front+back gas 0.006572 it is +0.053085 ETH. The non-WETH position is acquired in the back leg, not opened in the front, so this is not a bracket per Q1.\"}",
+ "case_id": "sym100_023",
+ "_time": "2026-10-19T18:41:47+0800"
+}

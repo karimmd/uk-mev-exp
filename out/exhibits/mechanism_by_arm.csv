@@ -1,0 +1,5 @@
+arm,n,two_pool_leg,two_pool_leg_pct,amount_mismatch,amount_mismatch_pct,either,either_pct,victim_adjacent,victim_adjacent_pct,same_sender,same_sender_pct,actor_is_sender_F,actor_is_sender_F_pct,n_inner_median,routed,routed_pct,adjacent_w,adjacent_w_pct
+absent_258,258,85.0,32.9,73.0,28.3,158.0,61.2,134.0,51.9,239.0,92.6,18.0,7.0,1.0,85,32.9,134,51.9
+recorded,10299,68.0,0.7,6.0,0.1,74.0,0.7,6473.0,62.9,8710.0,84.6,336.0,3.3,1.0,68,0.7,6473,62.9
+absent_new,1384,,,,,,,,,,,,,,0,0.0,1384,100.0
+comparison,5696,,,,,,,,,,,,,,0,0.0,5696,100.0

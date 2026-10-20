@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2a4a220beb6a0fd217a129125d0034e2db0dee46",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.116051,
+ "gas_eth": 0.275526,
+ "profit_after_gas": -0.159475,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys HARAMBE on the 0x2a4a pool in the front leg, the victim buys HARAMBE on that pool between the legs, and the contract sells the identical HARAMBE amount back in the back leg. It nets +0.116051 WETH before gas, but the front and back gas fees total 0.275526 ETH, so profit after gas is negative and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2334,
+  "output_tokens": 7012,
+  "thinking_tokens": 6807
+ },
+ "_request_id": "79a0d411d7aa7120b0ce223d522aa770",
+ "_response_id": "09eea698-cc13-4487-9d54-10a6a738bc78",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x2a4a220beb6a0fd217a129125d0034e2db0dee46\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.116051,\"gas_eth\":0.275526,\"profit_after_gas\":-0.159475,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract buys HARAMBE on the 0x2a4a pool in the front leg, the victim buys HARAMBE on that pool between the legs, and the contract sells the identical HARAMBE amount back in the back leg. It nets +0.116051 WETH before gas, but the front and back gas fees total 0.275526 ETH, so profit after gas is negative and no non-WETH residual remains.\"}",
+ "case_id": "pack_157",
+ "_time": "2026-10-19T19:23:14+0800"
+}

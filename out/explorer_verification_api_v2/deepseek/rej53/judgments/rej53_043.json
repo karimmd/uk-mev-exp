@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000b65e5ae3c80a89f73fbcfdeabc3c2c06",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.052887,
+ "gas_eth": 0.048343,
+ "profit_after_gas": 0.004544,
+ "residual": "0.000001 USDC",
+ "confidence": 5,
+ "note": "The called contract bought USDC on the EXRD/USDC pool in the front leg, the victim traded that same pool, and the contract sold USDC back for WETH in the back leg. Net WETH gain is about 0.052887 ETH before 0.048343 ETH front+back gas, leaving a small positive profit and only dust USDC residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2549,
+  "output_tokens": 6492,
+  "thinking_tokens": 6297
+ },
+ "_request_id": "709fa5f0834d65923eb42274abff08ec",
+ "_response_id": "a947421c-9723-4003-8d0b-36c06fd578b7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000b65e5ae3c80a89f73fbcfdeabc3c2c06\",\"pool\":\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.052887,\"gas_eth\":0.048343,\"profit_after_gas\":0.004544,\"residual\":\"0.000001 USDC\",\"confidence\":5,\"note\":\"The called contract bought USDC on the EXRD/USDC pool in the front leg, the victim traded that same pool, and the contract sold USDC back for WETH in the back leg. Net WETH gain is about 0.052887 ETH before 0.048343 ETH front+back gas, leaving a small positive profit and only dust USDC residual.\"}",
+ "case_id": "rej53_043",
+ "_time": "2026-10-19T19:45:52+0800"
+}

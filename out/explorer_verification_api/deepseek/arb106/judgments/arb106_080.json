@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+  "0xfebf38b1d34818d4827034f97b7d6d77c79d4997",
+  "0xa9e98dc206f21fa0992ec640ba37ab4f62b223e9",
+  "0x8dc082087ee75b528dfd4e68fa28966666de1a60",
+  "0x75f89ffbe5c25161cbc7e97c988c9f391eaefaf9"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001929,
+ "gas_eth": 0.016242,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sent and received WETH across multiple Uniswap V2/V3 pools, netting a small positive WETH amount that remains positive after the 0.016242 ETH gas fee. Intermediate SPELL, YFU, and WPE transfers were routed directly between pools, leaving no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1989,
+  "output_tokens": 15875,
+  "thinking_tokens": 15586
+ },
+ "_request_id": "f890f899e767d9df3470d2d864d1651d",
+ "_response_id": "7bf1ae2a-1c3c-4bd4-ac0e-4a57c58602bd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0xb5de0c3753b6e1b4dba616db82767f17513e6d4e\",\"0xfebf38b1d34818d4827034f97b7d6d77c79d4997\",\"0xa9e98dc206f21fa0992ec640ba37ab4f62b223e9\",\"0x8dc082087ee75b528dfd4e68fa28966666de1a60\",\"0x75f89ffbe5c25161cbc7e97c988c9f391eaefaf9\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001929,\"gas_eth\":0.016242,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sent and received WETH across multiple Uniswap V2/V3 pools, netting a small positive WETH amount that remains positive after the 0.016242 ETH gas fee. Intermediate SPELL, YFU, and WPE transfers were routed directly between pools, leaving no non-WETH residual.\"}",
+ "case_id": "arb106_080",
+ "_time": "2026-10-19T19:31:08+0800"
+}

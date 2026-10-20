@@ -1,0 +1,37 @@
+{
+ "actor": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9",
+ "pools": [
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878"
+ ],
+ "cycle_token": null,
+ "profit_token": null,
+ "Q1": "no",
+ "Q1_reason": "routed sale",
+ "Q2": "cannot tell",
+ "net_eth": 30.069527,
+ "gas_eth": 0.065992,
+ "residual": "net -68686.966734 USDC spent by 0x5617 against +30.069527 WETH received",
+ "confidence": 3,
+ "note": "Executor 0xbf3f nets exactly zero in USDC and FEI. The holder 0x5617 emits no Swap or Sync, so it does not look like a pool; it nets out 68,687 USDC and receives 30.07 WETH via the UniV3 USDC/FEI and UniV2 FEI/WETH pools. That is a routed USDC to WETH trade ending in a different asset, not a closed cycle, and the implied price (about $2,284 per ETH) gives no clear profit sign without a USDC/ETH price.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2388,
+  "output_tokens": 1898,
+  "thinking_tokens": 1491
+ },
+ "_request_id": "req_011CgBTYpUHvXxkjyWLNpfb2",
+ "_response_id": "msg_011CgBTYposbNwjwz7Td9eY6",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x56178a0d5f301baf6cf3e1cd53d9863437345bf9\", \"pools\": [\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\", \"0x94b0a3d511b6ecdb17ebf877278ab030acb0a878\"], \"cycle_token\": null, \"profit_token\": null, \"Q1\": \"no\", \"Q1_reason\": \"routed sale\", \"Q2\": \"cannot tell\", \"net_eth\": 30.069527, \"gas_eth\": 0.065992, \"residual\": \"net -68686.966734 USDC spent by 0x5617 against +30.069527 WETH received\", \"confidence\": 3, \"note\": \"Executor 0xbf3f nets exactly zero in USDC and FEI. The holder 0x5617 emits no Swap or Sync, so it does not look like a pool; it nets out 68,687 USDC and receives 30.07 WETH via the UniV3 USDC/FEI and UniV2 FEI/WETH pools. That is a routed USDC to WETH trade ending in a different asset, not a closed cycle, and the implied price (about $2,284 per ETH) gives no clear profit sign without a USDC/ETH price.\"}",
+ "case_id": "arb106_087",
+ "_time": "2026-10-19T18:44:18+0800"
+}

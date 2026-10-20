@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.096352,
+ "gas_eth": 0.034701,
+ "profit_after_gas": 0.061651,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The target contract is the economic actor: it sells SUPER for WETH in the front leg and buys the same SUPER amount back in the back leg on the same Uniswap V2 pool the victim trades on. Net WETH across front and back is +0.096352 ETH; after front/back gas fees of 0.034701 ETH, profit remains +0.061651 ETH with no residual SUPER.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2306,
+  "output_tokens": 5698,
+  "thinking_tokens": 5505
+ },
+ "_request_id": "4e6debb5b6a440fa24391b33c2fe8598",
+ "_response_id": "917d1525-54b1-4765-acf0-86ad51f7ea72",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.096352,\"gas_eth\":0.034701,\"profit_after_gas\":0.061651,\"residual\":\"none\",\"confidence\":5,\"note\":\"The target contract is the economic actor: it sells SUPER for WETH in the front leg and buys the same SUPER amount back in the back leg on the same Uniswap V2 pool the victim trades on. Net WETH across front and back is +0.096352 ETH; after front/back gas fees of 0.034701 ETH, profit remains +0.061651 ETH with no residual SUPER.\"}",
+ "case_id": "sym100_095",
+ "_time": "2026-10-19T19:38:11+0800"
+}

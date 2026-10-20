@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg (sender 0x2cfc\u2026) and the back leg (sender 0x2435\u2026) come from different addresses, both through the public Uniswap V2 router. Both legs sell MXS for ETH on pool 0x13bb\u2026, so no position is opened in front and closed in back. The victim buys MXS on that same pool between them, but with two actors each selling, this is not a bracket and there is no single actor whose net can be computed.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3930,
+  "output_tokens": 515,
+  "thinking_tokens": 274
+ },
+ "_request_id": "req_011CgBRirMw5WhCuGbuKKN7T",
+ "_response_id": "msg_011CgBRirhnFVCmo31QBF5CQ",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg (sender 0x2cfc\u2026) and the back leg (sender 0x2435\u2026) come from different addresses, both through the public Uniswap V2 router. Both legs sell MXS for ETH on pool 0x13bb\u2026, so no position is opened in front and closed in back. The victim buys MXS on that same pool between them, but with two actors each selling, this is not a bracket and there is no single actor whose net can be computed.\"}",
+ "case_id": "pack_151",
+ "_time": "2026-10-19T18:20:07+0800"
+}

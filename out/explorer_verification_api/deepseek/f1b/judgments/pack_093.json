@@ -1,0 +1,31 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.17615241,
+ "gas_eth": 0.02384759,
+ "residual": "none",
+ "confidence": 5,
+ "note": "All three legs are same-direction sells: OTEN goes into the Uniswap V2 pool and the sender receives 0.1 ETH via the router, so front and back do not open then close a non-WETH position. The front and back legs yield 0.2 ETH before gas, and two gas fees total about 0.02384759 ETH, leaving a positive ETH net with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2992,
+  "output_tokens": 4167,
+  "thinking_tokens": 3963
+ },
+ "_request_id": "ca46ec17f25c998c8a2af2ea1ddc206a",
+ "_response_id": "d4dc1e64-44af-4dcc-a305-7d54bc32418c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xe104053d23918cf2787883508834661c138c9f61\", \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.17615241, \"gas_eth\": 0.02384759, \"residual\": \"none\", \"confidence\": 5, \"note\": \"All three legs are same-direction sells: OTEN goes into the Uniswap V2 pool and the sender receives 0.1 ETH via the router, so front and back do not open then close a non-WETH position. The front and back legs yield 0.2 ETH before gas, and two gas fees total about 0.02384759 ETH, leaving a positive ETH net with no residual non-WETH holding.\"}",
+ "case_id": "pack_093",
+ "_time": "2026-10-19T18:18:10+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xa3d588a914c7534356a006ae3c1d8ae19c9694e1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.015805,
+ "gas_eth": 0.009794,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x3dad (called by 0x1351 in both legs) sold 375.657054 PDEX for 2.326 WETH on pair 0xa3d5. The victim then sold PDEX on the same pair, and 0x3dad bought back exactly 375.657054 PDEX for 2.300401 WETH, a reverse-direction bracket with no PDEX left over. Gross gain is 0.025599 WETH; after 0.009794 ETH in gas the net is +0.015805 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2736,
+  "output_tokens": 704,
+  "thinking_tokens": 401
+ },
+ "_request_id": "req_011CgBSNbBw949eDEv6yHe47",
+ "_response_id": "msg_011CgBSNbhSsqpJFujQJ6uYh",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xa3d588a914c7534356a006ae3c1d8ae19c9694e1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.015805, \"gas_eth\": 0.009794, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x3dad (called by 0x1351 in both legs) sold 375.657054 PDEX for 2.326 WETH on pair 0xa3d5. The victim then sold PDEX on the same pair, and 0x3dad bought back exactly 375.657054 PDEX for 2.300401 WETH, a reverse-direction bracket with no PDEX left over. Gross gain is 0.025599 WETH; after 0.009794 ETH in gas the net is +0.015805 ETH.\"}",
+ "case_id": "sym100_057",
+ "_time": "2026-10-19T18:28:41+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xc0917d9f473618029bea42dd61b05fcf0251be42",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": 0.016357,
+ "gas_eth": 0.016602,
+ "profit_after_gas": -0.000245,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a closed round trip by 0x00c409\u2026 (buys YETI on pool 0xc0917d, sells it on 0x4cfa6c, ending flat), so it holds no position when the victim trades. The back leg is a different actor, 0x860bd2\u2026, doing its own round trip in the opposite direction. The actors differ and no position is opened and closed across the victim, so this is not a sandwich. The figures net the two legs together (+0.016072 and +0.000285 WETH against 0.008230 and 0.008372 ETH gas), which comes out slightly negative.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4663,
+  "output_tokens": 835,
+  "thinking_tokens": 526
+ },
+ "_request_id": "req_011CgBW1R28tCMVUzquQ1UWU",
+ "_response_id": "msg_011CgBW1RNiTBvSY6KUYAW29",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xc0917d9f473618029bea42dd61b05fcf0251be42\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": 0.016357, \"gas_eth\": 0.016602, \"profit_after_gas\": -0.000245, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a closed round trip by 0x00c409\u2026 (buys YETI on pool 0xc0917d, sells it on 0x4cfa6c, ending flat), so it holds no position when the victim trades. The back leg is a different actor, 0x860bd2\u2026, doing its own round trip in the opposite direction. The actors differ and no position is opened and closed across the victim, so this is not a sandwich. The figures net the two legs together (+0.016072 and +0.000285 WETH against 0.008230 and 0.008372 ETH gas), which comes out slightly negative.\"}",
+ "case_id": "pack_171",
+ "_time": "2026-10-19T19:16:20+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xb143bbeb287dcd1034da6e7186ec695316fff78f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 2.923837,
+ "gas_eth": 2.564217,
+ "residual": "0.022913 XMT",
+ "confidence": 5,
+ "note": "The target contract receives XMT in the front and sends it back in the back, both through pool 0xb143, which the victim also trades. Gross WETH net is +2.923837 ETH; after front/back gas of 2.564217 ETH, it remains +0.359620 ETH with a tiny 0.022913 XMT residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2222,
+  "output_tokens": 6433,
+  "thinking_tokens": 6259
+ },
+ "_request_id": "5573fd68ba1da350d44a8d55caaa5685",
+ "_response_id": "8aa77752-7ca4-4597-8aae-e9b9e0f61475",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xb143bbeb287dcd1034da6e7186ec695316fff78f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":2.923837,\"gas_eth\":2.564217,\"residual\":\"0.022913 XMT\",\"confidence\":5,\"note\":\"The target contract receives XMT in the front and sends it back in the back, both through pool 0xb143, which the victim also trades. Gross WETH net is +2.923837 ETH; after front/back gas of 2.564217 ETH, it remains +0.359620 ETH with a tiny 0.022913 XMT residual.\"}",
+ "case_id": "pack_025",
+ "_time": "2026-10-19T18:05:32+0800"
+}

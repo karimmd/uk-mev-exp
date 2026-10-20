@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000005704c6049f869409f38a2bc239efd4b",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.078634,
+ "gas_eth": 0.010512,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 82.510754 MPH to the pool for 8.449176 WETH in the front leg. The victim then sells MPH on the same pool. The actor buys back exactly 82.510754 MPH for 8.370542 WETH in the back leg. That is a sandwich on the sell side, with the MPH position round-tripped. Net WETH is +0.078634, and after 0.010512 ETH of gas the result is about +0.068 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2994,
+  "output_tokens": 810,
+  "thinking_tokens": 539
+ },
+ "_request_id": "req_011CgBSQpQjVt28Mc1LZjR1q",
+ "_response_id": "msg_011CgBSQpmZ2neccGguenP5x",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000005704c6049f869409f38a2bc239efd4b\",\"pool\":\"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.078634,\"gas_eth\":0.010512,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 82.510754 MPH to the pool for 8.449176 WETH in the front leg. The victim then sells MPH on the same pool. The actor buys back exactly 82.510754 MPH for 8.370542 WETH in the back leg. That is a sandwich on the sell side, with the MPH position round-tripped. Net WETH is +0.078634, and after 0.010512 ETH of gas the result is about +0.068 ETH.\"}",
+ "case_id": "sym100_086",
+ "_time": "2026-10-19T18:29:11+0800"
+}

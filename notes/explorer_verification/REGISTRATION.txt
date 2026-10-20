@@ -1,0 +1,6 @@
+protocol PROTOCOL.md version 1
+sha256 e95442c22c31f3af1127b8b03390cb160adc5fbb3a6216fc74ad3198fa3d6395
+registered_at 2026-10-13T19:31:50+08:00 (date -Is on the server)
+reader claude-sonnet-5-5 via Claude Code headless, tools disabled
+sources Blockscout API v2, Etherscan API V2
+note the sealed F1b mapping (sha256 79fba76d...85fe) is not read by any script in this run

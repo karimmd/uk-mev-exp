@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0x7fd1de95fc975fbbd8be260525758549ec477960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.216159,
+ "gas_eth": 0.049841,
+ "profit_after_gas": 0.166318,
+ "residual": "2515473.193878 HOGE",
+ "confidence": 5,
+ "note": "Front buys HOGE with WETH on the HOGE/WETH pool; the victim trades that same pool after front; back sells HOGE for WETH. Net WETH before gas is +0.216159 and after front/back gas is +0.166318, with residual HOGE left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2279,
+  "output_tokens": 5226,
+  "thinking_tokens": 5048
+ },
+ "_request_id": "09d61f892808e68b1d4a8fb4dbf0d8d0",
+ "_response_id": "e2f88cbd-06f9-41d4-a2e4-dc16b65ad31b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000c9fdd743c60055c0e4ea30d266272c1f\",\"pool\":\"0x7fd1de95fc975fbbd8be260525758549ec477960\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.216159,\"gas_eth\":0.049841,\"profit_after_gas\":0.166318,\"residual\":\"2515473.193878 HOGE\",\"confidence\":5,\"note\":\"Front buys HOGE with WETH on the HOGE/WETH pool; the victim trades that same pool after front; back sells HOGE for WETH. Net WETH before gas is +0.216159 and after front/back gas is +0.166318, with residual HOGE left.\"}",
+ "case_id": "pack_091",
+ "_time": "2026-10-19T19:15:57+0800"
+}

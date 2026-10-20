@@ -1,0 +1,32 @@
+{
+ "actor": "0x0724ee5d148584c39425af7777a12bab54fa880a",
+ "pool": "0x9dc696f1067a6b9929986283f6d316be9c9198fd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.093616,
+ "gas_eth": 0.020744901,
+ "profit_after_gas": 0.072871099,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sold BONDLY for WETH on the 0x9dc696 pool, victim also sold BONDLY on that pool, and back bought BONDLY with WETH on the same pool. The actor nets +0.093616 WETH before gas, and after front/back gas costs profit remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2356,
+  "output_tokens": 4324,
+  "thinking_tokens": 4143
+ },
+ "_request_id": "f516b16692f9ea3ddc93fa749ccc62b2",
+ "_response_id": "0b693770-4875-4499-bb43-89187f9a2b66",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0724ee5d148584c39425af7777a12bab54fa880a\",\"pool\":\"0x9dc696f1067a6b9929986283f6d316be9c9198fd\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.093616,\"gas_eth\":0.020744901,\"profit_after_gas\":0.072871099,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sold BONDLY for WETH on the 0x9dc696 pool, victim also sold BONDLY on that pool, and back bought BONDLY with WETH on the same pool. The actor nets +0.093616 WETH before gas, and after front/back gas costs profit remains positive.\"}",
+ "case_id": "sym100_005",
+ "_time": "2026-10-19T19:29:21+0800"
+}

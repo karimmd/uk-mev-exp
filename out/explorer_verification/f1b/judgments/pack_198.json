@@ -1,0 +1,17 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x635b58600509acfe70e0bd4c4935c08182774e58",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.087624,
+ "gas_eth": 0.086705,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 79355.203674 STACK for 3.475330 WETH in the front leg. It sold the same amount back in the back leg for 3.562954 WETH, with the victim buying STACK on the same pool in between. The gross gain is 0.087624 ETH and the front and back gas fees total 0.086705 ETH, so the result is about +0.000919 ETH. That is a thin margin, because the back leg paid 1050 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0225792,
+ "_session": "dcbbee79-bd0b-46b5-b9bf-c2ad32178f6e",
+ "_raw": "{\"actor\": \"0x01ff6318440f7d5553a82294d78262d5f5084eff\", \"pool\": \"0x635b58600509acfe70e0bd4c4935c08182774e58\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.087624, \"gas_eth\": 0.086705, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract bought 79355.203674 STACK for 3.475330 WETH in the front leg. It sold the same amount back in the back leg for 3.562954 WETH, with the victim buying STACK on the same pool in between. The gross gain is 0.087624 ETH and the front and back gas fees total 0.086705 ETH, so the result is about +0.000919 ETH. That is a thin margin, because the back leg paid 1050 gwei.\"}",
+ "case_id": "pack_198",
+ "_time": "2026-10-13T20:43:28+0800"
+}

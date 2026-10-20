@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.042569,
+ "gas_eth": 0.020518,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 9687.003162 COOK into the COOK/WETH pool for 0.812639 WETH before the victim. The victim then sells COOK into the same pool. The actor buys back exactly 9687.003162 COOK for 0.770070 WETH, so it ends flat in COOK. The WETH gain of 0.042569 less 0.020518 ETH gas (0.010462 + 0.010056) leaves about +0.022 ETH. The bracket is a short-style sandwich, which is the only point that keeps confidence at 4.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2950,
+  "output_tokens": 738,
+  "thinking_tokens": 433
+ },
+ "_request_id": "req_011CgBSHTFYsqto8fChzKcQF",
+ "_response_id": "msg_011CgBSHTcPKXSsM3ewDR9gD",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.042569,\"gas_eth\":0.020518,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 9687.003162 COOK into the COOK/WETH pool for 0.812639 WETH before the victim. The victim then sells COOK into the same pool. The actor buys back exactly 9687.003162 COOK for 0.770070 WETH, so it ends flat in COOK. The WETH gain of 0.042569 less 0.020518 ETH gas (0.010462 + 0.010056) leaves about +0.022 ETH. The bracket is a short-style sandwich, which is the only point that keeps confidence at 4.\"}",
+ "case_id": "sym100_065",
+ "_time": "2026-10-19T18:27:29+0800"
+}

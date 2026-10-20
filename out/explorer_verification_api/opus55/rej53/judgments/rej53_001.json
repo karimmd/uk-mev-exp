@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016582,
+ "gas_eth": 0.009554,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract, called by 0x50ef, routes WETH to ALBT to USDT in the front leg and takes 18343.122297 USDT. It returns exactly that USDT in the back leg through the same pools and gets 6.004439 WETH. The victim sells ALBT for USDT on the shared ALBT/USDT pool 0x1cd9 between the two legs. WETH net is +0.055281, minus the 0.029145 ETH the back leg passes to 0xea67 (likely a builder tip), minus 0.009554 gas, giving about +0.0166 ETH net after gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3218,
+  "output_tokens": 884,
+  "thinking_tokens": 559
+ },
+ "_request_id": "req_011CgBSefB11JzV99CvTGeX4",
+ "_response_id": "msg_011CgBSeg26fMSzyFo4KRruf",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.016582, \"gas_eth\": 0.009554, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract, called by 0x50ef, routes WETH to ALBT to USDT in the front leg and takes 18343.122297 USDT. It returns exactly that USDT in the back leg through the same pools and gets 6.004439 WETH. The victim sells ALBT for USDT on the shared ALBT/USDT pool 0x1cd9 between the two legs. WETH net is +0.055281, minus the 0.029145 ETH the back leg passes to 0xea67 (likely a builder tip), minus 0.009554 gas, giving about +0.0166 ETH net after gas.\"}",
+ "case_id": "rej53_001",
+ "_time": "2026-10-19T18:32:20+0800"
+}

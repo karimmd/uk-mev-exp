@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xf4d4e16c9a93d88990e0b98820c363369ca91c01",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.112105,
+ "gas_eth": 0.01046,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract traded on the same pool in front and back, with the victim on that pool between them. However the front leg sold CC for WETH and the back leg bought CC back, so it did not open a non-WETH token position in front under Q1. Gross WETH gain is 0.112105; after 0.010460 gas, the result remains positive at 0.101645.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2378,
+  "output_tokens": 11477,
+  "thinking_tokens": 11293
+ },
+ "_request_id": "461b289cf146a470fbec43ffcc38b2b0",
+ "_response_id": "21526b70-5a4d-44e5-9a54-6b607c33583f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xf4d4e16c9a93d88990e0b98820c363369ca91c01\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.112105,\"gas_eth\":0.01046,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract traded on the same pool in front and back, with the victim on that pool between them. However the front leg sold CC for WETH and the back leg bought CC back, so it did not open a non-WETH token position in front under Q1. Gross WETH gain is 0.112105; after 0.010460 gas, the result remains positive at 0.101645.\"}",
+ "case_id": "sym100_035",
+ "_time": "2026-10-19T18:44:55+0800"
+}

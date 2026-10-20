@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.012868,
+ "gas_eth": 0.132569,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract called by 0x3856\u20263bca buys 8217.906837 CVX for 22.526624 WETH on UniV2 pair 0x0576\u2026e906. The victim then buys CVX on the same pair with 56 ETH, and the contract sells the same 8217.906837 CVX back for 22.672061 WETH. That is a gross gain of 0.145437 WETH, against 0.132569 ETH of gas on the front and back legs, leaving a small positive net of about 0.0129 ETH, assuming the gas paid by the sender EOA counts against the contract actor.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2847,
+  "output_tokens": 495,
+  "thinking_tokens": 182
+ },
+ "_request_id": "req_011CgBQZJaP49gRqS6vbFwcM",
+ "_response_id": "msg_011CgBQZRtf6qkVefN7CG1uR",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x05767d9ef41dc40689678ffca0608878fb3de906\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.012868, \"gas_eth\": 0.132569, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract called by 0x3856\u20263bca buys 8217.906837 CVX for 22.526624 WETH on UniV2 pair 0x0576\u2026e906. The victim then buys CVX on the same pair with 56 ETH, and the contract sells the same 8217.906837 CVX back for 22.672061 WETH. That is a gross gain of 0.145437 WETH, against 0.132569 ETH of gas on the front and back legs, leaving a small positive net of about 0.0129 ETH, assuming the gas paid by the sender EOA counts against the contract actor.\"}",
+ "case_id": "pack_043",
+ "_time": "2026-10-19T18:04:51+0800"
+}

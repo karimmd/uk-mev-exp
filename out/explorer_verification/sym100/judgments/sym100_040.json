@@ -1,0 +1,17 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.075701,
+ "gas_eth": 0.010177,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 12261.068643 SYN into the SYN/WETH pool for 10.496856 WETH in the front leg. The victim then sold 34252.58 SYN into the same pool, and the actor bought back exactly 12261.068643 SYN for 10.421155 WETH in the back leg. That leaves a gross gain of 0.075701 WETH and 0.010177 ETH of gas, so the net is about +0.0655 ETH with no SYN left over. The bracket is in the sell direction, so the actor must have held SYN beforehand, and its source isn't shown.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0270412,
+ "_session": "3ebc121b-2dff-40d3-b32b-5e5c90b576c3",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.075701, \"gas_eth\": 0.010177, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sold 12261.068643 SYN into the SYN/WETH pool for 10.496856 WETH in the front leg. The victim then sold 34252.58 SYN into the same pool, and the actor bought back exactly 12261.068643 SYN for 10.421155 WETH in the back leg. That leaves a gross gain of 0.075701 WETH and 0.010177 ETH of gas, so the net is about +0.0655 ETH with no SYN left over. The bracket is in the sell direction, so the actor must have held SYN beforehand, and its source isn't shown.\"}",
+ "case_id": "sym100_040",
+ "_time": "2026-10-13T21:31:34+0800"
+}

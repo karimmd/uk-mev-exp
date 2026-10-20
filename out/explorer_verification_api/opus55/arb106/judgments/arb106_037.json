@@ -1,0 +1,38 @@
+{
+ "actor": "0x0000000000438f975cbde76d5fdd1aa76be46577",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth": 0.113016,
+ "gas_eth": 0.191713,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 5.818196 WETH into a cycle of three UniswapV2 pools (WETH->YLD->RFI->WETH) and receives 5.931212 WETH back, a gross gain of 0.113016 WETH with no residual holding. The 0.191713 ETH gas fee, paid by the sender EOA and already reduced by the gas-token self-destructs, exceeds that gain, leaving about -0.0787 ETH after cost.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2807,
+  "output_tokens": 836,
+  "thinking_tokens": 450
+ },
+ "_request_id": "req_011CgBTCcBJEgusrADygNyEA",
+ "_response_id": "msg_011CgBTCcY8vDX6AkQM7mWZv",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x0000000000438f975cbde76d5fdd1aa76be46577\", \"pools\": [\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\", \"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\", \"0x4c8341379e95f70c08defb76c4f9c036525edc30\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"no\", \"net_eth\": 0.113016, \"gas_eth\": 0.191713, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 5.818196 WETH into a cycle of three UniswapV2 pools (WETH->YLD->RFI->WETH) and receives 5.931212 WETH back, a gross gain of 0.113016 WETH with no residual holding. The 0.191713 ETH gas fee, paid by the sender EOA and already reduced by the gas-token self-destructs, exceeds that gain, leaving about -0.0787 ETH after cost.\"}\n```",
+ "case_id": "arb106_037",
+ "_time": "2026-10-19T18:39:32+0800"
+}

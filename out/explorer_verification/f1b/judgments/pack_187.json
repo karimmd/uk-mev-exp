@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd2f1fd188f127cde9d0feef58c3eb457cc0bcb9c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.120751,
+ "gas_eth": 0.0,
+ "residual": "about 91,849,938 SHIBAL (4,657,697,853.78 bought minus 4,565,847,915.12 sold)",
+ "confidence": 4,
+ "note": "The same contract buys SHIBAL with 3.91 WETH in the front leg and sells most of it back for 5.956627 WETH in the back leg. The victim's SHIBAL buy goes through the same pool in between. The back leg's 1.925876 ETH of value is passed on to 0xea67... (looks like a bribe), so net is 5.956627 - 3.91 - 1.925876 = +0.120751 ETH. Gas is 0 at 0 gwei. The leftover SHIBAL only adds to the result, so the sign holds either way.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0287332,
+ "_session": "3a9c6511-72d6-49ac-a0d5-8c8aec2c43d3",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0xd2f1fd188f127cde9d0feef58c3eb457cc0bcb9c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.120751, \"gas_eth\": 0.0, \"residual\": \"about 91,849,938 SHIBAL (4,657,697,853.78 bought minus 4,565,847,915.12 sold)\", \"confidence\": 4, \"note\": \"The same contract buys SHIBAL with 3.91 WETH in the front leg and sells most of it back for 5.956627 WETH in the back leg. The victim's SHIBAL buy goes through the same pool in between. The back leg's 1.925876 ETH of value is passed on to 0xea67... (looks like a bribe), so net is 5.956627 - 3.91 - 1.925876 = +0.120751 ETH. Gas is 0 at 0 gwei. The leftover SHIBAL only adds to the result, so the sign holds either way.\"}",
+ "case_id": "pack_187",
+ "_time": "2026-10-13T20:41:23+0800"
+}

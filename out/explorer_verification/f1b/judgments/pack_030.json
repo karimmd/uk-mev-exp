@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9b577e849b128ee1a69144b218e809b8bb98c35d",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 0.184799,
+ "gas_eth": 0.0,
+ "residual": "Back leg sells 33669.79 NAOS but the front leg bought only 16632.28, so about 17037.5 NAOS came from earlier inventory that isn't shown here.",
+ "confidence": 3,
+ "note": "The same contract buys NAOS with 3.62 WETH before the victim's 3 ETH buy on the same pool, then sells NAOS back after it for 7.391 WETH. Net WETH is +3.771, and the sender's 3.587 ETH value is forwarded out to 0xb3b7\u2026, which leaves +0.185. Gas is 0, but the extra ~17k NAOS sold has an unknown cost basis, so the sign of the profit can't be set.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.031061200000000004,
+ "_session": "a18cb681-2819-470f-875e-6afe750963c4",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x9b577e849b128ee1a69144b218e809b8bb98c35d\", \"Q1\": \"yes\", \"Q2\": \"cannot tell\", \"net_eth\": 0.184799, \"gas_eth\": 0.0, \"residual\": \"Back leg sells 33669.79 NAOS but the front leg bought only 16632.28, so about 17037.5 NAOS came from earlier inventory that isn't shown here.\", \"confidence\": 3, \"note\": \"The same contract buys NAOS with 3.62 WETH before the victim's 3 ETH buy on the same pool, then sells NAOS back after it for 7.391 WETH. Net WETH is +3.771, and the sender's 3.587 ETH value is forwarded out to 0xb3b7\u2026, which leaves +0.185. Gas is 0, but the extra ~17k NAOS sold has an unknown cost basis, so the sign of the profit can't be set.\"}",
+ "case_id": "pack_030",
+ "_time": "2026-10-13T20:10:04+0800"
+}

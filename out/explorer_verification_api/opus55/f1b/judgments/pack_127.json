@@ -1,0 +1,31 @@
+{
+ "actor": "0x4ef377462b03b650d52140c482394a6703d0d338",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -101.134146,
+ "gas_eth": 0.119744,
+ "residual": "16004 SUSHI held by 0x4ef3\u2026d338",
+ "confidence": 4,
+ "note": "All three legs are ETH->SUSHI buys on the same SushiSwap pair (0x7950\u20261fb0) via the router. The actor buys 10004 SUSHI in the front leg and buys another 6000 SUSHI in the back leg, so the position is never closed and this is not a sandwich bracket. The actor spent about 101.13 ETH plus 0.12 ETH gas and still holds 16004 SUSHI, so the sign of its position cannot be settled from this evidence.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3639,
+  "output_tokens": 681,
+  "thinking_tokens": 367
+ },
+ "_request_id": "req_011CgBRX8yF9kJ9Uq6broKC8",
+ "_response_id": "msg_011CgBRXCwrKbPuv1cmbQGbD",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x4ef377462b03b650d52140c482394a6703d0d338\", \"pool\": \"0x795065dcc9f64b5614c407a6efdc400da6221fb0\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -101.134146, \"gas_eth\": 0.119744, \"residual\": \"16004 SUSHI held by 0x4ef3\u2026d338\", \"confidence\": 4, \"note\": \"All three legs are ETH->SUSHI buys on the same SushiSwap pair (0x7950\u20261fb0) via the router. The actor buys 10004 SUSHI in the front leg and buys another 6000 SUSHI in the back leg, so the position is never closed and this is not a sandwich bracket. The actor spent about 101.13 ETH plus 0.12 ETH gas and still holds 16004 SUSHI, so the sign of its position cannot be settled from this evidence.\"}\n```",
+ "case_id": "pack_127",
+ "_time": "2026-10-19T18:17:31+0800"
+}

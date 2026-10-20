@@ -1,0 +1,31 @@
+{
+ "actor": "0x9282dc5c422fa91ff2f6ff3a0b45b7bf97cf78e7",
+ "pool": "0x1549a45a18b1658783aa27068fee449cc80876ce",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.026606,
+ "gas_eth": 0.015055,
+ "residual": "about 1807610037815.16 MADINU (bought 90815923163824.69, sold 89008313126009.53)",
+ "confidence": 4,
+ "note": "Contract 0x9282 wrapped 0.45 ETH and bought MADINU on pool 0x1549. The victim then bought MADINU on the same pool. In the back leg 0x9282 sold MADINU back for 0.491661 WETH and unwrapped it, a gain of 0.041661 ETH before 0.015055 ETH of gas. The small MADINU residual can only add value (or reflect a transfer tax), so the sign stays positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3397,
+  "output_tokens": 741,
+  "thinking_tokens": 419
+ },
+ "_request_id": "req_011CgBQLqZ6NDUCXwbhZpo8r",
+ "_response_id": "msg_011CgBQLwjQwudjmUfSHZGVv",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x9282dc5c422fa91ff2f6ff3a0b45b7bf97cf78e7\", \"pool\": \"0x1549a45a18b1658783aa27068fee449cc80876ce\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.026606, \"gas_eth\": 0.015055, \"residual\": \"about 1807610037815.16 MADINU (bought 90815923163824.69, sold 89008313126009.53)\", \"confidence\": 4, \"note\": \"Contract 0x9282 wrapped 0.45 ETH and bought MADINU on pool 0x1549. The victim then bought MADINU on the same pool. In the back leg 0x9282 sold MADINU back for 0.491661 WETH and unwrapped it, a gain of 0.041661 ETH before 0.015055 ETH of gas. The small MADINU residual can only add value (or reflect a transfer tax), so the sign stays positive.\"}",
+ "case_id": "pack_026",
+ "_time": "2026-10-19T18:02:04+0800"
+}

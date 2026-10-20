@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.097412,
+ "gas_eth": 0.000208,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor 0xf6da\u2026 buys 30967.458211 UCT with 2.0008 WETH on the WETH/UCT pool before the victim, and sells exactly that amount back after the victim for 2.098212 WETH. The victim's swap of RAZE to WETH to UCT also goes through that pool in between. Net is +0.097412 WETH before gas, and about 0.000208 ETH of gas leaves roughly +0.0972 ETH, with no UCT left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2975,
+  "output_tokens": 590,
+  "thinking_tokens": 308
+ },
+ "_request_id": "req_011CgBRCRbqPSLxFgoTGgwsR",
+ "_response_id": "msg_011CgBRCXRKjsfv1REWp4HWN",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.097412,\"gas_eth\":0.000208,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor 0xf6da\u2026 buys 30967.458211 UCT with 2.0008 WETH on the WETH/UCT pool before the victim, and sells exactly that amount back after the victim for 2.098212 WETH. The victim's swap of RAZE to WETH to UCT also goes through that pool in between. Net is +0.097412 WETH before gas, and about 0.000208 ETH of gas leaves roughly +0.0972 ETH, with no UCT left over.\"}",
+ "case_id": "pack_102",
+ "_time": "2026-10-19T18:13:14+0800"
+}

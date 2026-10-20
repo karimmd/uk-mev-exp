@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.054201,
+ "gas_eth": 0.249344,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x499dd9 bought 5438.946266 POW for 3.580897 WETH on UniV3 pool 0xc07937 at position 7. The victim bought POW on the same pool at position 9, and the contract sold the same POW back for 3.746107 WETH at position 10 (+0.165210 WETH gross); the 0.111009 ETH tx value forwarded to 0x45a36a (likely a builder payment) brings net_eth, shown before gas, to +0.054201. The two 1200-gwei legs cost 0.249344 ETH in fees, so the result after gas is about -0.195143 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2864,
+  "output_tokens": 809,
+  "thinking_tokens": 469
+ },
+ "_request_id": "req_011CgBQpynDhCUEPgU6MSrgx",
+ "_response_id": "msg_011CgBQq7dkX7g94DSpdao5F",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.054201, \"gas_eth\": 0.249344, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x499dd9 bought 5438.946266 POW for 3.580897 WETH on UniV3 pool 0xc07937 at position 7. The victim bought POW on the same pool at position 9, and the contract sold the same POW back for 3.746107 WETH at position 10 (+0.165210 WETH gross); the 0.111009 ETH tx value forwarded to 0x45a36a (likely a builder payment) brings net_eth, shown before gas, to +0.054201. The two 1200-gwei legs cost 0.249344 ETH in fees, so the result after gas is about -0.195143 ETH.\"}",
+ "case_id": "pack_066",
+ "_time": "2026-10-19T18:08:27+0800"
+}

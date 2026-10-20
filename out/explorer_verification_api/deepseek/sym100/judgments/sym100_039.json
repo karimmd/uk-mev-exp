@@ -1,0 +1,31 @@
+{
+ "actor": "0xb8db34f834e9df42f2002ceb7b829dad89d08e14",
+ "pool": "0xcb4f983e705caeb7217c5c3785001cb138115f0b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.020362,
+ "gas_eth": 0.011175,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs share executor 0xb8db and the victim uses the same YFV/WETH pool cb4, but the front leg does not leave the actor holding a non-WETH position to close in the back leg. Net WETH gain is 0.031537 minus front/back gas 0.011175, giving +0.020362 ETH-equivalent with no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3863,
+  "output_tokens": 7898,
+  "thinking_tokens": 7699
+ },
+ "_request_id": "8d1fd73b785469ebca8296d6844243e9",
+ "_response_id": "47665038-215b-41f6-861b-fb40b77935c3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xb8db34f834e9df42f2002ceb7b829dad89d08e14\", \"pool\": \"0xcb4f983e705caeb7217c5c3785001cb138115f0b\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.020362, \"gas_eth\": 0.011175, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The front and back legs share executor 0xb8db and the victim uses the same YFV/WETH pool cb4, but the front leg does not leave the actor holding a non-WETH position to close in the back leg. Net WETH gain is 0.031537 minus front/back gas 0.011175, giving +0.020362 ETH-equivalent with no non-WETH residual.\"}",
+ "case_id": "sym100_039",
+ "_time": "2026-10-19T18:45:25+0800"
+}

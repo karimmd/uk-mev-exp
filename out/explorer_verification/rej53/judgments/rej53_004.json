@@ -1,0 +1,17 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.250298,
+ "gas_eth": 0.159357,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x55eb spends 6.720188 WETH in the front leg. That goes through the RACA/WETH pool 0x5212 and then the RACA/USDT pool 0x700f, and it ends up holding 31120.111039 USDT. The back leg returns exactly that USDT to 0x700f and takes out 6.970486 WETH, so the position is closed. The victim sells RACA into 0x700f between the two legs. The WETH gain of 0.250298 exceeds the combined gas of 0.159357 ETH, leaving about +0.0909 ETH. The back leg's gas price was very high (1649.6 gwei).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025978,
+ "_session": "5c76c350-2ec4-4764-a141-44399c36b96e",
+ "_raw": "{\"actor\": \"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\", \"pool\": \"0x700fc86c46299cf2a8fd86edadae3f57014351b0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.250298, \"gas_eth\": 0.159357, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract 0x55eb spends 6.720188 WETH in the front leg. That goes through the RACA/WETH pool 0x5212 and then the RACA/USDT pool 0x700f, and it ends up holding 31120.111039 USDT. The back leg returns exactly that USDT to 0x700f and takes out 6.970486 WETH, so the position is closed. The victim sells RACA into 0x700f between the two legs. The WETH gain of 0.250298 exceeds the combined gas of 0.159357 ETH, leaving about +0.0909 ETH. The back leg's gas price was very high (1649.6 gwei).\"}",
+ "case_id": "rej53_004",
+ "_time": "2026-10-13T21:54:15+0800"
+}

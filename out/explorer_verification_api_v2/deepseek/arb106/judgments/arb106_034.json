@@ -1,0 +1,40 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x157dfa656fdf0d18e1ba94075a53600d81cb3a97",
+  "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
+  "0xdf50fbde8180c8785842c8e316ebe06f542d3443",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.043135,
+ "gas_eth": 0.04197,
+ "profit_after_gas": 0.001165,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor e33 flash-swaps 4.608952 WETH out of the UMA/WETH pool, routes WETH through USDC/FEI/UMA pools, and repays with UMA while sending 4.565817 WETH to the USDC/WETH pool, netting +0.043135 WETH before gas. After the 0.041970 ETH gas fee, the position remains slightly positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1696,
+  "output_tokens": 17402,
+  "thinking_tokens": 17104
+ },
+ "_request_id": "ed86a15d55863b69e37cfc59bb8e87a2",
+ "_response_id": "6447f7ed-a375-4f77-a32d-bdef84b5acf7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x157dfa656fdf0d18e1ba94075a53600d81cb3a97\",\"0x0f024314588466416c8fc66013ba4d3ab2e4efe5\",\"0xdf50fbde8180c8785842c8e316ebe06f542d3443\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.043135,\"gas_eth\":0.04197,\"profit_after_gas\":0.001165,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor e33 flash-swaps 4.608952 WETH out of the UMA/WETH pool, routes WETH through USDC/FEI/UMA pools, and repays with UMA while sending 4.565817 WETH to the USDC/WETH pool, netting +0.043135 WETH before gas. After the 0.041970 ETH gas fee, the position remains slightly positive.\"}",
+ "case_id": "arb106_034",
+ "_time": "2026-10-19T19:55:24+0800"
+}

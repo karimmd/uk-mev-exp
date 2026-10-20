@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x377931b4f6adceccfc1a080f7a88b4af9d060336",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.898851,
+ "gas_eth": 0.028011,
+ "profit_after_gas": 0.87084,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor bought 508,890.137675 TWO with 2.093795 WETH in the front leg, then sold the same TWO amount for 2.992646 WETH in the back leg on the same Uniswap V3 pool the victim used. The back-leg transaction value and internal ETH transfer offset each other, leaving net WETH gain before gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2258,
+  "output_tokens": 2738,
+  "thinking_tokens": 2551
+ },
+ "_request_id": "fc67c4b73b7e3de658c9ba4c59854ffe",
+ "_response_id": "e2672f7d-abeb-4754-9812-543a3b7d9bc5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x377931b4f6adceccfc1a080f7a88b4af9d060336\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.898851,\"gas_eth\":0.028011,\"profit_after_gas\":0.87084,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor bought 508,890.137675 TWO with 2.093795 WETH in the front leg, then sold the same TWO amount for 2.992646 WETH in the back leg on the same Uniswap V3 pool the victim used. The back-leg transaction value and internal ETH transfer offset each other, leaving net WETH gain before gas.\"}",
+ "case_id": "pack_125",
+ "_time": "2026-10-19T19:19:54+0800"
+}

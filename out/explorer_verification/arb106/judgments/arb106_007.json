@@ -1,0 +1,25 @@
+{
+ "actor": "0xa1006d0051a35b0000f961a8000000009ea8d2db",
+ "pools": [
+  "0x157dfa656fdf0d18e1ba94075a53600d81cb3a97",
+  "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
+  "0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26",
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.022987,
+ "gas_eth": 0.021323,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 4.181074 WETH into the UMA/WETH V3 pool. The route runs UMA to the V2 UMA/FEI pool, FEI to the V3 FEI/USDC pool, then USDC to the V2 USDC/WETH pool, which returns 4.204061 WETH to the actor. That is a gross gain of 0.022987 WETH and about 0.001664 ETH after the 0.021323 ETH fee. The sender EOA paid the fee, not the actor, so the post-gas figure assumes the actor and sender share the same owner.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0253992,
+ "_session": "a1a5e78c-f70b-4fe4-8acb-03fad84b9bc0",
+ "_raw": "{\"actor\":\"0xa1006d0051a35b0000f961a8000000009ea8d2db\",\"pools\":[\"0x157dfa656fdf0d18e1ba94075a53600d81cb3a97\",\"0x0f024314588466416c8fc66013ba4d3ab2e4efe5\",\"0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26\",\"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.022987,\"gas_eth\":0.021323,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 4.181074 WETH into the UMA/WETH V3 pool. The route runs UMA to the V2 UMA/FEI pool, FEI to the V3 FEI/USDC pool, then USDC to the V2 USDC/WETH pool, which returns 4.204061 WETH to the actor. That is a gross gain of 0.022987 WETH and about 0.001664 ETH after the 0.021323 ETH fee. The sender EOA paid the fee, not the actor, so the post-gas figure assumes the actor and sender share the same owner.\"}",
+ "case_id": "arb106_007",
+ "_time": "2026-10-13T22:11:36+0800"
+}

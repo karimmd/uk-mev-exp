@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1965a114cc3341c0d2ba96a6361790b96ba8c20c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.004948,
+ "gas_eth": 0.012111,
+ "residual": "0.127402 MX (dust, non-negative)",
+ "confidence": 4,
+ "note": "Contract 0x0000\u20266b40 (called by 0xa6ae\u2026) buys 853131.59 MX for 3.573203 WETH on pool 0x1965\u2026, the victim then buys MX on the same pool, and the contract sells 853131.46 MX back for 3.609082 WETH. That is a WETH gain of 0.035879, minus the 0.018820 ETH value forwarded to 0x7f10\u2026 (likely a builder payment) and 0.012111 ETH of gas, for about +0.004948 ETH net after gas. The only residual is a tiny positive MX holding, which cannot flip the sign.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2967,
+  "output_tokens": 832,
+  "thinking_tokens": 484
+ },
+ "_request_id": "req_011CgBRZ4DJRadrdaUCRhn3u",
+ "_response_id": "msg_011CgBRZ71yXp8sAhTUXVwod",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x1965a114cc3341c0d2ba96a6361790b96ba8c20c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.004948, \"gas_eth\": 0.012111, \"residual\": \"0.127402 MX (dust, non-negative)\", \"confidence\": 4, \"note\": \"Contract 0x0000\u20266b40 (called by 0xa6ae\u2026) buys 853131.59 MX for 3.573203 WETH on pool 0x1965\u2026, the victim then buys MX on the same pool, and the contract sells 853131.46 MX back for 3.609082 WETH. That is a WETH gain of 0.035879, minus the 0.018820 ETH value forwarded to 0x7f10\u2026 (likely a builder payment) and 0.012111 ETH of gas, for about +0.004948 ETH net after gas. The only residual is a tiny positive MX holding, which cannot flip the sign.\"}",
+ "case_id": "pack_130",
+ "_time": "2026-10-19T18:17:59+0800"
+}

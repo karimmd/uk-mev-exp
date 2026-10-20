@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xdc3e94ddf605864b79fce18c7cf974e579001e7b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.166717,
+ "gas_eth": 0.013946,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract, called by the same sender, sold 3.675846 QUICK for 1.007874 WETH in the front leg. The victim then sold 141 QUICK into the same pool, and in the back leg the contract bought back exactly 3.675846 QUICK for 0.841157 WETH. The WETH gain is 0.166717, and after 0.013946 ETH of gas it is about +0.1528 ETH, with no QUICK left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0249992,
+ "_session": "6e4743a8-5be0-48b5-b90c-a6ed639545a4",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0xdc3e94ddf605864b79fce18c7cf974e579001e7b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.166717, \"gas_eth\": 0.013946, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract, called by the same sender, sold 3.675846 QUICK for 1.007874 WETH in the front leg. The victim then sold 141 QUICK into the same pool, and in the back leg the contract bought back exactly 3.675846 QUICK for 0.841157 WETH. The WETH gain is 0.166717, and after 0.013946 ETH of gas it is about +0.1528 ETH, with no QUICK left over.\"}",
+ "case_id": "sym100_078",
+ "_time": "2026-10-13T21:40:32+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 0.2,
+ "gas_eth": 0.02384759,
+ "profit_after_gas": 0.17615241,
+ "residual": "0.004727 OTEN short",
+ "confidence": 5,
+ "note": "All three legs are the same sender selling OTEN for 0.1 ETH on the same pair; front and back both sell OTEN, so no opposite position is opened and closed. ETH/WETH net for front+back is +0.2 before gas, but the actor also disposed of 0.004727 OTEN, so the overall profit sign is not determined.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3060,
+  "output_tokens": 15837,
+  "thinking_tokens": 15640
+ },
+ "_request_id": "a9d1edaa1841163d8851b7a4f2e79072",
+ "_response_id": "5eb2aaa1-4781-4b0f-8b78-246ad4dbe10e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe104053d23918cf2787883508834661c138c9f61\",\"pool\":\"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":0.2,\"gas_eth\":0.02384759,\"profit_after_gas\":0.17615241,\"residual\":\"0.004727 OTEN short\",\"confidence\":5,\"note\":\"All three legs are the same sender selling OTEN for 0.1 ETH on the same pair; front and back both sell OTEN, so no opposite position is opened and closed. ETH/WETH net for front+back is +0.2 before gas, but the actor also disposed of 0.004727 OTEN, so the overall profit sign is not determined.\"}",
+ "case_id": "pack_093",
+ "_time": "2026-10-19T19:17:13+0800"
+}

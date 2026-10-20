@@ -1,0 +1,31 @@
+{
+ "actor": "0xf1971b9c48538b6240fe6d5b647aafda7ef86863",
+ "pool": "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.078515,
+ "gas_eth": 0.010347,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a reverse-direction bracket on the same YLD/WETH pool 0x242d\u2026. The EOA sells 41.561861 YLD for 1.677888 WETH just before the victim's large YLD sell, then buys back exactly 41.561861 YLD for 1.589026 WETH. That leaves a WETH gain of 0.088862 against 0.010347 ETH in gas, with no residual YLD; confidence is 4 rather than 5 because the actor briefly gives up YLD instead of acquiring it, which fits the 'position' wording less cleanly.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3068,
+  "output_tokens": 783,
+  "thinking_tokens": 462
+ },
+ "_request_id": "req_011CgBRn6627Mkjd2CqejXAF",
+ "_response_id": "msg_011CgBRn7DUvJogvyfmhdphf",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf1971b9c48538b6240fe6d5b647aafda7ef86863\", \"pool\": \"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.078515, \"gas_eth\": 0.010347, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a reverse-direction bracket on the same YLD/WETH pool 0x242d\u2026. The EOA sells 41.561861 YLD for 1.677888 WETH just before the victim's large YLD sell, then buys back exactly 41.561861 YLD for 1.589026 WETH. That leaves a WETH gain of 0.088862 against 0.010347 ETH in gas, with no residual YLD; confidence is 4 rather than 5 because the actor briefly gives up YLD instead of acquiring it, which fits the 'position' wording less cleanly.\"}",
+ "case_id": "pack_161",
+ "_time": "2026-10-19T18:20:53+0800"
+}

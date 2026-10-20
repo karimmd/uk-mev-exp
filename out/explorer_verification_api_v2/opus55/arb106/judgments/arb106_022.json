@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x788248dddf945542ca202713e6cb74195db07209",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "OHM",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.001773,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.001773,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor took 2.152211 OHM from the V2 pool 0x34d7 and sent 2.1 OHM to V3 pool 0x7882, which paid DAI straight to the V2 pool; it sent 0.052211 OHM to V3 pool 0xf1b6 for 0.011817 WETH, so OHM nets to zero across three pools. The WETH was unwrapped (the transfer to the zero address is the withdrawal burn, not a mint), and 0.010044 ETH was then paid to 0xea67, likely a block-builder payment since gas was 0 gwei. That leaves +0.001773 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2487,
+  "output_tokens": 931,
+  "thinking_tokens": 471
+ },
+ "_request_id": "req_011CgBXCBq3kBnxwmfcS4BiZ",
+ "_response_id": "msg_011CgBXCDCeWAbNw2hRWzPXG",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\", \"pools\": [\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\", \"0x788248dddf945542ca202713e6cb74195db07209\", \"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"], \"cycle_token\": \"OHM\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.001773, \"gas_eth\": 0.0, \"profit_after_gas\": 0.001773, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor took 2.152211 OHM from the V2 pool 0x34d7 and sent 2.1 OHM to V3 pool 0x7882, which paid DAI straight to the V2 pool; it sent 0.052211 OHM to V3 pool 0xf1b6 for 0.011817 WETH, so OHM nets to zero across three pools. The WETH was unwrapped (the transfer to the zero address is the withdrawal burn, not a mint), and 0.010044 ETH was then paid to 0xea67, likely a block-builder payment since gas was 0 gwei. That leaves +0.001773 ETH.\"}",
+ "case_id": "arb106_022",
+ "_time": "2026-10-19T19:31:54+0800"
+}

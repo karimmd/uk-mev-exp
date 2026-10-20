@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.002886,
+ "gas_eth": 0.013232,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0x1315 (called by EOA 0x92b0 in both legs) routes WETH->LDO on 0x454f and dumps the LDO into 0xc558 before the victim's LDO sale on 0xc558, then reverses the route afterwards. Net LDO is zero and net WETH is +0.114219, less a 0.098101 ETH payment to 0xeea5 (I treated the 0.104963 sent to the actor's own EOA as internal), less 0.013232 gas, leaving about +0.0029 ETH. Confidence is moderate because the actor never holds LDO itself; its opened position is a cross-pool exposure rather than a token balance.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3870,
+  "output_tokens": 1739,
+  "thinking_tokens": 1384
+ },
+ "_request_id": "req_011CgBRM2uqLgwykoCkFBaQs",
+ "_response_id": "msg_011CgBRM8GYdia2zFF83ZSaE",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\", \"pool\": \"0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.002886, \"gas_eth\": 0.013232, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0x1315 (called by EOA 0x92b0 in both legs) routes WETH->LDO on 0x454f and dumps the LDO into 0xc558 before the victim's LDO sale on 0xc558, then reverses the route afterwards. Net LDO is zero and net WETH is +0.114219, less a 0.098101 ETH payment to 0xeea5 (I treated the 0.104963 sent to the actor's own EOA as internal), less 0.013232 gas, leaving about +0.0029 ETH. Confidence is moderate because the actor never holds LDO itself; its opened position is a cross-pool exposure rather than a token balance.\"}",
+ "case_id": "pack_109",
+ "_time": "2026-10-19T18:15:24+0800"
+}

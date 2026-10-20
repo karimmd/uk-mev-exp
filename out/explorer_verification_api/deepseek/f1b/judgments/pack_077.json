@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2fa7361d7e3b812375604681eb155a97b4d65e9e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.135984,
+ "gas_eth": 0.176447,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received 13.817921 aKLIMA from the 0x2fa pool in front and returned the same amount in back, netting +0.312431 WETH before gas. The victim traded the same 0x2fa pool between the legs. Gas 0.176447 leaves about +0.135984 ETH-equivalent, with no aKLIMA residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2159,
+  "output_tokens": 10014,
+  "thinking_tokens": 9837
+ },
+ "_request_id": "fdc79e5794f8008fa4c261df57ce8c94",
+ "_response_id": "063307fa-5724-416d-bcbc-3d768373a5c7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x2fa7361d7e3b812375604681eb155a97b4d65e9e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.135984,\"gas_eth\":0.176447,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received 13.817921 aKLIMA from the 0x2fa pool in front and returned the same amount in back, netting +0.312431 WETH before gas. The victim traded the same 0x2fa pool between the legs. Gas 0.176447 leaves about +0.135984 ETH-equivalent, with no aKLIMA residual.\"}",
+ "case_id": "pack_077",
+ "_time": "2026-10-19T18:15:44+0800"
+}

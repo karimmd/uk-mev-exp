@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xb43542e6b7c209f7da4b579792f67a1844546ce8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.035087,
+ "gas_eth": 0.030475,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the actor sends 1.905144 WETH through the TIDAL/WETH pool into the TIDAL/USDC pool and ends up holding 4266.374147 USDC. The victim sells TIDAL for USDC on that same TIDAL/USDC pool, and the back leg returns exactly the same USDC for 1.958710 WETH. The WETH gain is 0.053566, less a 0.018479 ETH internal transfer to 0x8595... gives 0.035087, and after 0.030475 gas the result is about +0.0046 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3561,
+  "output_tokens": 741,
+  "thinking_tokens": 429
+ },
+ "_request_id": "req_011CgBQG9KYPHfaKoatB3xiJ",
+ "_response_id": "msg_011CgBQGErfRteSKjWdt4RM9",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0xb43542e6b7c209f7da4b579792f67a1844546ce8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.035087, \"gas_eth\": 0.030475, \"residual\": \"none\", \"confidence\": 4, \"note\": \"In the front leg the actor sends 1.905144 WETH through the TIDAL/WETH pool into the TIDAL/USDC pool and ends up holding 4266.374147 USDC. The victim sells TIDAL for USDC on that same TIDAL/USDC pool, and the back leg returns exactly the same USDC for 1.958710 WETH. The WETH gain is 0.053566, less a 0.018479 ETH internal transfer to 0x8595... gives 0.035087, and after 0.030475 gas the result is about +0.0046 ETH.\"}",
+ "case_id": "pack_022",
+ "_time": "2026-10-19T18:00:59+0800"
+}

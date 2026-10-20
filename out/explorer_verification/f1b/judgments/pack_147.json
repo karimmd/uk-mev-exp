@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x4d9824fbc04eff50ab1dac614eae4e20859d5c91",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -4.666858,
+ "gas_eth": 0.023522,
+ "residual": "1050.460166 DEUS received across the front and back legs, never sold",
+ "confidence": 5,
+ "note": "All three transactions come from the same sender (0x7e10...) and are identical swapExactETHForTokens buys of DEUS (525.230083 DEUS each) on the same pool. The back leg buys again instead of closing the position, and the 'victim' is the same address as the front and back legs, so there is no sandwich bracket. The actor is left holding DEUS and spent ETH on both legs, so no profit sign can be established.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0234147,
+ "_session": "a9249946-2cc2-401c-9378-4b80434a538d",
+ "_raw": "{\"actor\": null, \"pool\": \"0x4d9824fbc04eff50ab1dac614eae4e20859d5c91\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -4.666858, \"gas_eth\": 0.023522, \"residual\": \"1050.460166 DEUS received across the front and back legs, never sold\", \"confidence\": 5, \"note\": \"All three transactions come from the same sender (0x7e10...) and are identical swapExactETHForTokens buys of DEUS (525.230083 DEUS each) on the same pool. The back leg buys again instead of closing the position, and the 'victim' is the same address as the front and back legs, so there is no sandwich bracket. The actor is left holding DEUS and spent ETH on both legs, so no profit sign can be established.\"}",
+ "case_id": "pack_147",
+ "_time": "2026-10-13T20:33:10+0800"
+}

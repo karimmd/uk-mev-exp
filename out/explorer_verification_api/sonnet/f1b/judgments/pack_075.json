@@ -1,0 +1,31 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.556872,
+ "gas_eth": 0.082625,
+ "residual": "about 632.63 MINT (19974.459044 bought minus 19341.831531 sold)",
+ "confidence": 3,
+ "note": "The actor 0x7f94\u2026 buys MINT with 20.907 ETH in the front leg and sells MINT for 21.464 ETH in the back leg. The victim buys MINT on the same pool in between. The ETH change is +0.556872, or +0.474247 after the 0.082625 ETH of front and back gas. About 632.6 MINT stays unsold, but it cannot be worth less than zero, so the sign stays positive. Both gas payers (0x1734\u2026 and 0x1a30\u2026) are assumed to belong to the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4104,
+  "output_tokens": 871,
+  "thinking_tokens": 548
+ },
+ "_request_id": "req_011CgBQtRyQBrvYJ6aHJg828",
+ "_response_id": "msg_011CgBQtXVnoDYT2k1bekQGL",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7f941cdae3c01906e42f8325af0693a848f81072\",\"pool\":\"0x092e793afe54366601eb7ef7e63b6abb93edb485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.556872,\"gas_eth\":0.082625,\"residual\":\"about 632.63 MINT (19974.459044 bought minus 19341.831531 sold)\",\"confidence\":3,\"note\":\"The actor 0x7f94\u2026 buys MINT with 20.907 ETH in the front leg and sells MINT for 21.464 ETH in the back leg. The victim buys MINT on the same pool in between. The ETH change is +0.556872, or +0.474247 after the 0.082625 ETH of front and back gas. About 632.6 MINT stays unsold, but it cannot be worth less than zero, so the sign stays positive. Both gas payers (0x1734\u2026 and 0x1a30\u2026) are assumed to belong to the actor.\"}",
+ "case_id": "pack_075",
+ "_time": "2026-10-19T18:09:13+0800"
+}

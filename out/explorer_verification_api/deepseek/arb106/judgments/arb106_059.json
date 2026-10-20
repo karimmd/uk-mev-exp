@@ -1,0 +1,38 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0x3a8027b37cd119cde72c1086ab5d7de912f61b61",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x8c1c499b1796d7f3c2521ac37186b52de024e58c"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.009999,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor is the target contract; it receives WETH from one Uniswap V3 pool and sends WETH to another while orchestrating USDC/RAD swaps through a third pool. Net WETH after the ETH bribe and zero gas is +0.009999, so the position is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2066,
+  "output_tokens": 15801,
+  "thinking_tokens": 15564
+ },
+ "_request_id": "c38106d13075dc841405c5e4cd61867d",
+ "_response_id": "4f3361f0-7b27-4527-b934-b177fd8b82bc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0x3a8027b37cd119cde72c1086ab5d7de912f61b61\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.009999,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor is the target contract; it receives WETH from one Uniswap V3 pool and sends WETH to another while orchestrating USDC/RAD swaps through a third pool. Net WETH after the ETH bribe and zero gas is +0.009999, so the position is positive.\"}",
+ "case_id": "arb106_059",
+ "_time": "2026-10-19T19:22:59+0800"
+}

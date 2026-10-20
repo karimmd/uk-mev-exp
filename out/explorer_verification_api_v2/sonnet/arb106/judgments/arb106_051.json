@@ -1,0 +1,42 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x008d9d457ad0a75c83d9a5e2b8e4ce89232b5083",
+  "0xd340b57aacdd10f96fc1cf10e15921936f41e29c",
+  "0xc5578194d457dcce3f272538d1ad52c68d1ce849",
+  "0x5777d92f208679db4b9778590fa3cab3ac9e2168",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.017677,
+ "gas_eth": 0.017051,
+ "profit_after_gas": 0.000626,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor only touches WETH. The other tokens (USDT, DAI, USDC, wstETH) move directly between pools. Two WETH cycles run through six pools: a USDT route (V3 0x11b8 and V2 0x008d) and a USDC/DAI/wstETH route. The actor's WETH nets +0.017677, and gas is 0.017051, leaving a thin profit of about 0.000626 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2757,
+  "output_tokens": 1101,
+  "thinking_tokens": 631
+ },
+ "_request_id": "req_011CgBXFqwLb3dGPjD9RxdXZ",
+ "_response_id": "msg_011CgBXFrHvJCWaJogy6TrNq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0x008d9d457ad0a75c83d9a5e2b8e4ce89232b5083\",\"0xd340b57aacdd10f96fc1cf10e15921936f41e29c\",\"0xc5578194d457dcce3f272538d1ad52c68d1ce849\",\"0x5777d92f208679db4b9778590fa3cab3ac9e2168\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.017677,\"gas_eth\":0.017051,\"profit_after_gas\":0.000626,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor only touches WETH. The other tokens (USDT, DAI, USDC, wstETH) move directly between pools. Two WETH cycles run through six pools: a USDT route (V3 0x11b8 and V2 0x008d) and a USDC/DAI/wstETH route. The actor's WETH nets +0.017677, and gas is 0.017051, leaving a thin profit of about 0.000626 ETH.\"}",
+ "case_id": "arb106_051",
+ "_time": "2026-10-19T19:32:42+0800"
+}

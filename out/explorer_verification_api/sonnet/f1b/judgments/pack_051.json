@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.044803,
+ "gas_eth": 0.039437,
+ "residual": "about 168,395,427,910 SANSHU left in the actor contract (front bought 8,425,171,397,409; back sold 8,256,775,969,499)",
+ "confidence": 3,
+ "note": "The same contract bought SANSHU with WETH before the victim and sold it back after, on the SANSHU/WETH pool the victim's USDT->WETH->SANSHU route also hit. WETH net is +0.044803 and front gas is 0.039437 ETH, leaving about +0.005366 ETH. The back leg shows a 0 gwei fee, which is odd but taken as reported. The leftover SANSHU cannot be negative in value, so the sign stays positive even though its value is unknown.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3339,
+  "output_tokens": 910,
+  "thinking_tokens": 574
+ },
+ "_request_id": "req_011CgBQcrg1hMKAU3EHMAmYq",
+ "_response_id": "msg_011CgBQczMNa57oo9JsUvi9P",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xa7ad4ce6c21d9e875f1067cd377256326b483002\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.044803,\"gas_eth\":0.039437,\"residual\":\"about 168,395,427,910 SANSHU left in the actor contract (front bought 8,425,171,397,409; back sold 8,256,775,969,499)\",\"confidence\":3,\"note\":\"The same contract bought SANSHU with WETH before the victim and sold it back after, on the SANSHU/WETH pool the victim's USDT->WETH->SANSHU route also hit. WETH net is +0.044803 and front gas is 0.039437 ETH, leaving about +0.005366 ETH. The back leg shows a 0 gwei fee, which is odd but taken as reported. The leftover SANSHU cannot be negative in value, so the sign stays positive even though its value is unknown.\"}",
+ "case_id": "pack_051",
+ "_time": "2026-10-19T18:05:42+0800"
+}

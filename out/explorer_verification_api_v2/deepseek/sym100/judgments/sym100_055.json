@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd65e975c7d0d5871eff8b079120e43c9f377ada1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.013096,
+ "gas_eth": 0.01047,
+ "profit_after_gas": 0.002626,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are opposite cross-pool YOP/WETH cycles around the victim's YOP sale on d65e; the actor nets +0.013096 WETH before gas and remains positive after deducting front/back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2782,
+  "output_tokens": 18656,
+  "thinking_tokens": 18496
+ },
+ "_request_id": "33bd2df221545eaaa8fe2d92bb5ce7be",
+ "_response_id": "9a7091b2-67ee-4bbf-8349-8978cd72e384",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xd65e975c7d0d5871eff8b079120e43c9f377ada1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.013096,\"gas_eth\":0.01047,\"profit_after_gas\":0.002626,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are opposite cross-pool YOP/WETH cycles around the victim's YOP sale on d65e; the actor nets +0.013096 WETH before gas and remains positive after deducting front/back gas.\"}",
+ "case_id": "sym100_055",
+ "_time": "2026-10-19T19:35:01+0800"
+}

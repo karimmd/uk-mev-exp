@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.143626,
+ "gas_eth": 0.042663,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xb5917a sold 5814.437643 SHOPX for 12.015 WETH on pool 0x37ac54 just before the victim's SHOPX sell on the same pool. It then bought back exactly the same SHOPX amount for 11.828711 WETH, so it gained 0.186289 WETH before 0.042663 ETH of gas. This is a sell-side bracket: the position is a short that is opened and then closed, rather than a long, which is the only reason I am not fully certain.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3048,
+  "output_tokens": 653,
+  "thinking_tokens": 355
+ },
+ "_request_id": "req_011CgBS61vjgqBKsr1HMCpLN",
+ "_response_id": "msg_011CgBS62FLWqzzPGp4Ff9F8",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.143626, \"gas_eth\": 0.042663, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xb5917a sold 5814.437643 SHOPX for 12.015 WETH on pool 0x37ac54 just before the victim's SHOPX sell on the same pool. It then bought back exactly the same SHOPX amount for 11.828711 WETH, so it gained 0.186289 WETH before 0.042663 ETH of gas. This is a sell-side bracket: the position is a short that is opened and then closed, rather than a long, which is the only reason I am not fully certain.\"}",
+ "case_id": "sym100_013",
+ "_time": "2026-10-19T18:24:54+0800"
+}

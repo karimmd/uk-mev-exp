@@ -1,0 +1,32 @@
+{
+ "actor": "0x726cdc837384a7deb8bbea64beba2e7b4d7346c0",
+ "pool": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": -0.0472,
+ "gas_eth": 0.015158,
+ "profit_after_gas": -0.062358,
+ "residual": "17.511325 DAI (from front and back legs)",
+ "confidence": 4,
+ "note": "The same EOA sent all three transactions, and all three buy DAI with ETH through the router on the DAI/WETH pool 0xa478. The back leg adds to the DAI position instead of closing it, and the 'victim' is the actor itself, so this is not a sandwich bracket. Even if the residual DAI is valued at its purchase price (about 0.0472 ETH), the 0.015158 ETH in gas still leaves the position negative.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3465,
+  "output_tokens": 742,
+  "thinking_tokens": 425
+ },
+ "_request_id": "req_011CgBVHTaFqnescz9xncFLY",
+ "_response_id": "msg_011CgBVHTuqhQzTHpL2ZQtXf",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x726cdc837384a7deb8bbea64beba2e7b4d7346c0\", \"pool\": \"0xa478c2975ab1ea89e8196811f51a7b7ade33eb11\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": -0.0472, \"gas_eth\": 0.015158, \"profit_after_gas\": -0.062358, \"residual\": \"17.511325 DAI (from front and back legs)\", \"confidence\": 4, \"note\": \"The same EOA sent all three transactions, and all three buy DAI with ETH through the router on the DAI/WETH pool 0xa478. The back leg adds to the DAI position instead of closing it, and the 'victim' is the actor itself, so this is not a sandwich bracket. Even if the residual DAI is valued at its purchase price (about 0.0472 ETH), the 0.015158 ETH in gas still leaves the position negative.\"}\n```",
+ "case_id": "pack_039",
+ "_time": "2026-10-19T19:06:52+0800"
+}

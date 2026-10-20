@@ -1,0 +1,17 @@
+{
+ "actor": "0x292499bbec93aa92e0556e5dd89b5e7e172228a6",
+ "pool": "0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.058577,
+ "gas_eth": 0.025716,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 758.718651 SPI into the pool in the front leg and takes back exactly 758.718651 SPI in the back leg. The victim sells SPI into the same pool in between, so this is a sandwich in the sell direction, and the actor's SPI position round-trips to zero. WETH net is 27.418 - 27.359423 = +0.058577, and after 0.025716 ETH gas for the two legs it is about +0.032861 ETH. The SPI the actor held before the front leg is not shown, which is the main source of doubt.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0238447,
+ "_session": "aad3e09f-9df3-4749-a512-fa1f369567ee",
+ "_raw": "{\"actor\": \"0x292499bbec93aa92e0556e5dd89b5e7e172228a6\", \"pool\": \"0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.058577, \"gas_eth\": 0.025716, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sells 758.718651 SPI into the pool in the front leg and takes back exactly 758.718651 SPI in the back leg. The victim sells SPI into the same pool in between, so this is a sandwich in the sell direction, and the actor's SPI position round-trips to zero. WETH net is 27.418 - 27.359423 = +0.058577, and after 0.025716 ETH gas for the two legs it is about +0.032861 ETH. The SPI the actor held before the front leg is not shown, which is the main source of doubt.\"}",
+ "case_id": "sym100_018",
+ "_time": "2026-10-13T21:26:24+0800"
+}

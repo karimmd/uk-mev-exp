@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.008911,
+ "gas_eth": 0.000229905,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Same sender buys 15106258.04 WSHIBA with 200 WETH on the pool before the victim's two swaps on that pool, then sells the identical amount back for 201.008911 WETH. Net after gas is about +1.0087 ETH with no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3671,
+  "output_tokens": 561,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRVj7Fsf8ViEnSJfWi1",
+ "_response_id": "msg_011CgBRVpv1hmPhquZ5TN8qe",
+ "_reader": "sonnet",
+ "_raw": "Front and back legs share the sender 0xf6da..., which holds the position directly. The front leg spends 200 WETH and receives 15106258.037614 WSHIBA. The back leg returns exactly that amount of WSHIBA and receives 201.008911 WETH. The pool is 0x0cd898..., and the victim buys WSHIBA on it in position 1. The back leg sits at position 3, so another transaction is at position 2, but the victim is still between the two legs.\n\nThe WETH net is 201.008911 \u2212 200 = 1.008911. Gas is 0.000151 + 0.000079 = 0.00023 ETH (150627 \u00d7 1 gwei = 0.000150627, and 79278 \u00d7 1 gwei = 0.000079278, together 0.000229905). Net after gas is about 1.008681 ETH, which is positive. No WSHIBA is left over.\n\nSince gas is at 1 gwei the fees are small, and the profit is real. The 200 WETH was sent directly from the sender, so no WETH wrapping is involved.\n\n{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.008911, \"gas_eth\": 0.000229905, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Same sender buys 15106258.04 WSHIBA with 200 WETH on the pool before the victim's two swaps on that pool, then sells the identical amount back for 201.008911 WETH. Net after gas is about +1.0087 ETH with no residual token.\"}",
+ "case_id": "pack_135",
+ "_time": "2026-10-19T18:17:08+0800"
+}

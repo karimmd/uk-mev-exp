@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a sell: 0x071cac... sends 1,261,076 MXS into the pool and receives 9.04 ETH, which opens a short. The back leg is by a different address, 0x09aeaf..., which buys only 3,928 MXS with 0.03 ETH. The sizes do not match and the actors differ, so the back leg does not close the front actor's position. Both legs and the victim use pool 0x13bb5a, but there is no single actor with an opened and closed position, so this is not a sandwich bracket. Q2 is therefore not meaningful for a single actor; I answered no and left the figures null.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3889,
+  "output_tokens": 316,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVBDrL94KdKLho1725n",
+ "_response_id": "msg_011CgBVBECgBYMwFW3ehYkaA",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a sell: 0x071cac... sends 1,261,076 MXS into the pool and receives 9.04 ETH, which opens a short. The back leg is by a different address, 0x09aeaf..., which buys only 3,928 MXS with 0.03 ETH. The sizes do not match and the actors differ, so the back leg does not close the front actor's position. Both legs and the victim use pool 0x13bb5a, but there is no single actor with an opened and closed position, so this is not a sandwich bracket. Q2 is therefore not meaningful for a single actor; I answered no and left the figures null.\"}",
+ "case_id": "pack_020",
+ "_time": "2026-10-19T19:05:22+0800"
+}

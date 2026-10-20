@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender and each one sells OTEN for 0.1 ETH on the same pool. The sender sells in every leg. No leg buys and opens a position, and the victim is the same address as the front and back actor. There is no bracket, so Q1 is no and no actor's position can be netted, so Q2 is no.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3701,
+  "output_tokens": 204,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQVpy7Zcac9aoF7n1eF",
+ "_response_id": "msg_011CgBQVqLT7dTRgLSFc61q1",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender and each one sells OTEN for 0.1 ETH on the same pool. The sender sells in every leg. No leg buys and opens a position, and the victim is the same address as the front and back actor. There is no bracket, so Q1 is no and no actor's position can be netted, so Q2 is no.\"}",
+ "case_id": "pack_042",
+ "_time": "2026-10-19T18:04:03+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x3867877d568b1699a7fd7d6190d0926aa88c4b86",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.080054,
+ "gas_eth": 0.018136,
+ "profit_after_gas": 0.061918,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x00000000500e\u2026 bought 0.427882 PRCY for 0.000089 WETH on pool 0x3867\u2026 and sold the same amount back on that pool for 0.139668 WETH, with the victim buying PRCY on that pool between the legs. I counted the 0.059525 ETH that the sender passed through the contract to 0x1ad91ee\u2026 as a cost, giving a net of 0.080054 before gas. The front-leg price looks oddly cheap compared with the victim's, but the flows as shown net clearly positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3421,
+  "output_tokens": 960,
+  "thinking_tokens": 634
+ },
+ "_request_id": "req_011CgBWwnMHsvKLmojkh2etm",
+ "_response_id": "msg_011CgBWwnirUwG4LynSHsgGb",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000500e2fece27a7600435d0c48d64e0c00\", \"pool\": \"0x3867877d568b1699a7fd7d6190d0926aa88c4b86\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.080054, \"gas_eth\": 0.018136, \"profit_after_gas\": 0.061918, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x00000000500e\u2026 bought 0.427882 PRCY for 0.000089 WETH on pool 0x3867\u2026 and sold the same amount back on that pool for 0.139668 WETH, with the victim buying PRCY on that pool between the legs. I counted the 0.059525 ETH that the sender passed through the contract to 0x1ad91ee\u2026 as a cost, giving a net of 0.080054 before gas. The front-leg price looks oddly cheap compared with the victim's, but the flows as shown net clearly positive.\"}",
+ "case_id": "rej53_038",
+ "_time": "2026-10-19T19:28:41+0800"
+}

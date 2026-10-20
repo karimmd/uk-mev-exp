@@ -1,0 +1,41 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
+  "0xbb2b8038a1640196fbe3e38816f3e67cba72d940",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+  "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.047675,
+ "gas_eth": 0.042814,
+ "profit_after_gas": 0.004861,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor b2bbfd executed multi-pool swaps involving WETH as the only net token, receiving and sending WETH through different pools and ending with a positive WETH balance. After the gas fee, the net remains slightly positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2030,
+  "output_tokens": 10318,
+  "thinking_tokens": 10026
+ },
+ "_request_id": "727db97aef8c74855dc27b6fc49fd40f",
+ "_response_id": "a529e81e-2abd-4998-8c5d-0f14a2fe17d3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\",\"0xbb2b8038a1640196fbe3e38816f3e67cba72d940\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\",\"0x55d5c232d921b9eaa6b37b5845e439acd04b4dba\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.047675,\"gas_eth\":0.042814,\"profit_after_gas\":0.004861,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor b2bbfd executed multi-pool swaps involving WETH as the only net token, receiving and sending WETH through different pools and ending with a positive WETH balance. After the gas fee, the net remains slightly positive.\"}",
+ "case_id": "arb106_069",
+ "_time": "2026-10-19T20:02:53+0800"
+}

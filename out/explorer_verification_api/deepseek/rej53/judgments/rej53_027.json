@@ -1,0 +1,31 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x43747d31fc178d626047c5b4346a251418167a1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.479943,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0xf73d... is the economic actor: it acquires 712300.691802 NBNG in the front leg and sends the same amount back in the back leg via the NBNG/USDT pool 0x4374..., which the victim also trades on. Net WETH/ETH is 100.959853 - 99.999966 - 0.479944 = 0.479943 ETH after zero front/back gas, with no residual NBNG.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2502,
+  "output_tokens": 2303,
+  "thinking_tokens": 2102
+ },
+ "_request_id": "d9f680e8013451efb61a5d8632071fc5",
+ "_response_id": "1237e8f8-c8cc-43fb-81a7-67a925b0f870",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\",\"pool\":\"0x43747d31fc178d626047c5b4346a251418167a1a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.479943,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0xf73d... is the economic actor: it acquires 712300.691802 NBNG in the front leg and sends the same amount back in the back leg via the NBNG/USDT pool 0x4374..., which the victim also trades on. Net WETH/ETH is 100.959853 - 99.999966 - 0.479944 = 0.479943 ETH after zero front/back gas, with no residual NBNG.\"}",
+ "case_id": "rej53_027",
+ "_time": "2026-10-19T18:59:27+0800"
+}

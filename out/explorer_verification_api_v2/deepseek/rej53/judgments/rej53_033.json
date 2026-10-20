@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000e8b06d9bf77ba40fc89e4eaa4f225e5c",
+ "pool": "0x7ba9b94127d434182287de708643932ec036d365",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 0.049968,
+ "gas_eth": 0.049544,
+ "profit_after_gas": 0.000424,
+ "residual": "short 348.057925 eRSDL",
+ "confidence": 4,
+ "note": "Front buys 376.110599 eRSDL for 0.05 WETH on the shared Uniswap V2 pool; back sells 724.168524 eRSDL for 0.099968 WETH. Net WETH before gas is +0.049968 and gas is 0.049544, but the actor ends with a net short 348.057925 eRSDL from prior balance, so the overall sign cannot be determined.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2592,
+  "output_tokens": 12633,
+  "thinking_tokens": 12420
+ },
+ "_request_id": "79aa32a586306ecd317cc351d63f2c19",
+ "_response_id": "d11b594f-c97d-47e6-a9d2-58fdfb85da91",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000e8b06d9bf77ba40fc89e4eaa4f225e5c\",\"pool\":\"0x7ba9b94127d434182287de708643932ec036d365\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":0.049968,\"gas_eth\":0.049544,\"profit_after_gas\":0.000424,\"residual\":\"short 348.057925 eRSDL\",\"confidence\":4,\"note\":\"Front buys 376.110599 eRSDL for 0.05 WETH on the shared Uniswap V2 pool; back sells 724.168524 eRSDL for 0.099968 WETH. Net WETH before gas is +0.049968 and gas is 0.049544, but the actor ends with a net short 348.057925 eRSDL from prior balance, so the overall sign cannot be determined.\"}",
+ "case_id": "rej53_033",
+ "_time": "2026-10-19T19:44:51+0800"
+}

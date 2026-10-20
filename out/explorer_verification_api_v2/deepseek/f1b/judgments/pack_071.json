@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.307401,
+ "gas_eth": 0,
+ "profit_after_gas": 0.307401,
+ "residual": "5375712424.321686 CHINU",
+ "confidence": 5,
+ "note": "The actor contract bought CHINU on pool 0xe3c7 in the front leg and sold CHINU on the same pool in the back, with the victim's WETH-to-CHINU swap between them. Net ETH/WETH is +0.307401 with zero front/back gas, and the remaining CHINU residual is positive, so the position is positive after observable cost.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4536,
+  "output_tokens": 9128,
+  "thinking_tokens": 8926
+ },
+ "_request_id": "d554a09aa088b54788e75a9e81176a1c",
+ "_response_id": "22a5cf2f-c9de-4799-b6f4-812c29d71c0e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.307401,\"gas_eth\":0,\"profit_after_gas\":0.307401,\"residual\":\"5375712424.321686 CHINU\",\"confidence\":5,\"note\":\"The actor contract bought CHINU on pool 0xe3c7 in the front leg and sold CHINU on the same pool in the back, with the victim's WETH-to-CHINU swap between them. Net ETH/WETH is +0.307401 with zero front/back gas, and the remaining CHINU residual is positive, so the position is positive after observable cost.\"}",
+ "case_id": "pack_071",
+ "_time": "2026-10-19T19:13:00+0800"
+}

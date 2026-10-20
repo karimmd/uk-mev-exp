@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xf62bc39e99763f3df81c49f711c16e625388c64f",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.112558,
+ "gas_eth": 0.117055,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x7cf0 (called by the same sender in both legs) routes WETH->MIM on pool 0x07d5, then MIM->SHIBOHM on pool 0xf62b, and unwinds the same 35.840232 SHIBOHM in the back leg; the victim buys SHIBOHM with MIM on 0xf62b between them. Gross WETH gain is 1.990021 - 1.877463 = 0.112558, but the combined gas fee of 0.024442 + 0.092613 = 0.117055 exceeds it, so the net is about -0.004497 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0217287,
+ "_session": "0bfed208-bd88-436e-845c-9927101ebf7d",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xf62bc39e99763f3df81c49f711c16e625388c64f\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.112558, \"gas_eth\": 0.117055, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract 0x7cf0 (called by the same sender in both legs) routes WETH->MIM on pool 0x07d5, then MIM->SHIBOHM on pool 0xf62b, and unwinds the same 35.840232 SHIBOHM in the back leg; the victim buys SHIBOHM with MIM on 0xf62b between them. Gross WETH gain is 1.990021 - 1.877463 = 0.112558, but the combined gas fee of 0.024442 + 0.092613 = 0.117055 exceeds it, so the net is about -0.004497 ETH.\"}",
+ "case_id": "rej53_007",
+ "_time": "2026-10-13T21:54:48+0800"
+}

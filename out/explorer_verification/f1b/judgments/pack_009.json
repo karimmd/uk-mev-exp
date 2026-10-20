@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xb2c29e311916a346304f83aa44527092d5bd4f0f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.033436,
+ "gas_eth": 0.027527,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract runs a two-pool MPH/WETH loop in each leg. Both legs touch pool 0xb2c2, which is also the pool the victim sells MPH into. The front leg sells MPH into it and the back leg buys it back, so the actor holds no MPH after either leg. Net WETH is +0.045706. The 0.01227 ETH sent in and then paid out to 0x7f10 is counted as a cost, which gives +0.033436 before gas and about +0.0059 after the 0.027527 ETH gas fee. The bracket is atypical because the actor never holds MPH between legs and the other pool, 0x4d96, funds each leg.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.030324800000000002,
+ "_session": "f215dce8-c91b-45df-a50a-9bd5979587b2",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xb2c29e311916a346304f83aa44527092d5bd4f0f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.033436, \"gas_eth\": 0.027527, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract runs a two-pool MPH/WETH loop in each leg. Both legs touch pool 0xb2c2, which is also the pool the victim sells MPH into. The front leg sells MPH into it and the back leg buys it back, so the actor holds no MPH after either leg. Net WETH is +0.045706. The 0.01227 ETH sent in and then paid out to 0x7f10 is counted as a cost, which gives +0.033436 before gas and about +0.0059 after the 0.027527 ETH gas fee. The bracket is atypical because the actor never holds MPH between legs and the other pool, 0x4d96, funds each leg.\"}",
+ "case_id": "pack_009",
+ "_time": "2026-10-13T20:05:59+0800"
+}

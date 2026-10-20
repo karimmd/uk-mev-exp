@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x742c15d71ea7444964bc39b0ed729b3729adc361",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.080145,
+ "gas_eth": 0.043282,
+ "profit_after_gas": 0.036863,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract address receives front/back token flows and uses the shared UniswapV2 OMG/WETH pool 0x742c as the victim. It sells OMG into that pool in front and buys OMG back in back; net WETH across both legs is positive and remains positive after front and back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2916,
+  "output_tokens": 7583,
+  "thinking_tokens": 7387
+ },
+ "_request_id": "728293e62b5e897fd819795ea140824e",
+ "_response_id": "d9b07ff4-b944-4938-b0cf-98400cbd1158",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x742c15d71ea7444964bc39b0ed729b3729adc361\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.080145, \"gas_eth\": 0.043282, \"profit_after_gas\": 0.036863, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same contract address receives front/back token flows and uses the shared UniswapV2 OMG/WETH pool 0x742c as the victim. It sells OMG into that pool in front and buys OMG back in back; net WETH across both legs is positive and remains positive after front and back gas.\"}",
+ "case_id": "sym100_085",
+ "_time": "2026-10-19T19:37:30+0800"
+}

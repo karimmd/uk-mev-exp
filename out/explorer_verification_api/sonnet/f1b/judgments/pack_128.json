@@ -1,0 +1,31 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.052961,
+ "gas_eth": 0.011798,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x42d0\u2026 wraps and spends 11 ETH to buy 2765.9853 CEL in the front leg. The victim then buys 8181 CEL on the same pool (position 33). In the back leg the contract sells exactly 2765.9853 CEL for 11.052961 ETH, so no CEL is left. The gross gain is 0.052961 ETH, and after front and back gas of 0.011798 ETH the net is about +0.04116 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3421,
+  "output_tokens": 586,
+  "thinking_tokens": 304
+ },
+ "_request_id": "req_011CgBRSSPbmc91eSRYbdvyG",
+ "_response_id": "msg_011CgBRSXuUsSMNjikVuk6Cp",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\",\"pool\":\"0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.052961,\"gas_eth\":0.011798,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0x42d0\u2026 wraps and spends 11 ETH to buy 2765.9853 CEL in the front leg. The victim then buys 8181 CEL on the same pool (position 33). In the back leg the contract sells exactly 2765.9853 CEL for 11.052961 ETH, so no CEL is left. The gross gain is 0.052961 ETH, and after front and back gas of 0.011798 ETH the net is about +0.04116 ETH.\"}",
+ "case_id": "pack_128",
+ "_time": "2026-10-19T18:16:25+0800"
+}

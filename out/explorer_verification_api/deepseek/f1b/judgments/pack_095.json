@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xc47047e59bbc58cf223eaf2de10bc722cd46f325",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.643623,
+ "gas_eth": 0.040785,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x7cf... buys ASM on the shared Uniswap V3 ASM/USDC pool in front and sells the same ASM amount on the same pool in back, with the victim's ASM trade in between. WETH delta is +0.684408; subtracting front+back gas 0.040785 gives +0.643623 net, while the back-leg transaction value and internal ETH transfer net to zero. No residual non-WETH token remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2750,
+  "output_tokens": 7081,
+  "thinking_tokens": 6883
+ },
+ "_request_id": "380d175aacb7499a091fc411f47b9eae",
+ "_response_id": "74556d88-df52-4e67-a4d1-b4372527103a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xc47047e59bbc58cf223eaf2de10bc722cd46f325\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.643623,\"gas_eth\":0.040785,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x7cf... buys ASM on the shared Uniswap V3 ASM/USDC pool in front and sells the same ASM amount on the same pool in back, with the victim's ASM trade in between. WETH delta is +0.684408; subtracting front+back gas 0.040785 gives +0.643623 net, while the back-leg transaction value and internal ETH transfer net to zero. No residual non-WETH token remains.\"}",
+ "case_id": "pack_095",
+ "_time": "2026-10-19T18:18:42+0800"
+}

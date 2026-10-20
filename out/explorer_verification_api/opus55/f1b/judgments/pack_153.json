@@ -1,0 +1,31 @@
+{
+ "actor": "0xf2972a2b8eda253678877995147869ed99b50e39",
+ "pool": "0xc491405d542a393d8d202a72f0fb076447e61891",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.204213,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0xf297 paid 3.554376 WETH for 213636.45 WHACKD on pool 0xc491 before the victim bought WHACKD on that pool. In the back leg it returned the full 213636.45 WHACKD (part of it burned as the token's transfer tax) for 4.233317 WETH, then unwrapped and paid 0.474728 ETH to 0xbcc8, likely a builder or miner tip. Both legs used 0 gwei gas, which suggests a bundle, so net is 4.233317 - 3.554376 - 0.474728 = 0.204213 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3630,
+  "output_tokens": 661,
+  "thinking_tokens": 336
+ },
+ "_request_id": "req_011CgBRjN1tTz6sksxzcemEi",
+ "_response_id": "msg_011CgBRjNPDJT88MnEfUKqq8",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf2972a2b8eda253678877995147869ed99b50e39\", \"pool\": \"0xc491405d542a393d8d202a72f0fb076447e61891\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.204213, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0xf297 paid 3.554376 WETH for 213636.45 WHACKD on pool 0xc491 before the victim bought WHACKD on that pool. In the back leg it returned the full 213636.45 WHACKD (part of it burned as the token's transfer tax) for 4.233317 WETH, then unwrapped and paid 0.474728 ETH to 0xbcc8, likely a builder or miner tip. Both legs used 0 gwei gas, which suggests a bundle, so net is 4.233317 - 3.554376 - 0.474728 = 0.204213 ETH.\"}",
+ "case_id": "pack_153",
+ "_time": "2026-10-19T18:20:15+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x85917d97a4c399816cf6edb2d2e8767002f6a96a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.182744,
+ "gas_eth": 0.02385,
+ "profit_after_gas": 0.158894,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold 1517.495805 ATD for 7.963847 WETH in the front leg and bought the same ATD amount back for 7.781103 WETH in the back leg on the same UniswapV2 pool. The victim also trades on that pool between the two legs, and the net WETH gain exceeds the front+back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2368,
+  "output_tokens": 2977,
+  "thinking_tokens": 2786
+ },
+ "_request_id": "5045eb21cc6dda561524d340556eb404",
+ "_response_id": "4cb4f2da-300d-4faf-9111-9c90668f7d09",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x85917d97a4c399816cf6edb2d2e8767002f6a96a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.182744,\"gas_eth\":0.02385,\"profit_after_gas\":0.158894,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold 1517.495805 ATD for 7.963847 WETH in the front leg and bought the same ATD amount back for 7.781103 WETH in the back leg on the same UniswapV2 pool. The victim also trades on that pool between the two legs, and the net WETH gain exceeds the front+back gas fees.\"}",
+ "case_id": "sym100_031",
+ "_time": "2026-10-19T19:31:19+0800"
+}

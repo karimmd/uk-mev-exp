@@ -1,0 +1,31 @@
+{
+ "actor": "0xf1971b9c48538b6240fe6d5b647aafda7ef86863",
+ "pool": "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.088862,
+ "gas_eth": 0.010347,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender is the actor. It sells 41.561861 YLD for 1.677888 WETH in the front leg, the victim then sells 504.865846 YLD on the same pool, and the actor buys back exactly 41.561861 YLD for 1.589026 WETH in the back leg. This is a sell-first bracket. The actor's gross WETH gain is 0.088862, and after 0.010347 ETH of gas the net is about +0.0785 ETH, with no YLD left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3068,
+  "output_tokens": 963,
+  "thinking_tokens": 679
+ },
+ "_request_id": "req_011CgBRhq5Gb7NAMYQxepaBV",
+ "_response_id": "msg_011CgBRhqiiUzisbyvY5yRdR",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xf1971b9c48538b6240fe6d5b647aafda7ef86863\",\"pool\":\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.088862,\"gas_eth\":0.010347,\"residual\":\"none\",\"confidence\":4,\"note\":\"The sender is the actor. It sells 41.561861 YLD for 1.677888 WETH in the front leg, the victim then sells 504.865846 YLD on the same pool, and the actor buys back exactly 41.561861 YLD for 1.589026 WETH in the back leg. This is a sell-first bracket. The actor's gross WETH gain is 0.088862, and after 0.010347 ETH of gas the net is about +0.0785 ETH, with no YLD left over.\"}",
+ "case_id": "pack_161",
+ "_time": "2026-10-19T18:19:55+0800"
+}

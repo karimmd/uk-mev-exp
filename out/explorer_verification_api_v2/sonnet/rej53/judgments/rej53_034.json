@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9b577e849b128ee1a69144b218e809b8bb98c35d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.184799,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.184799,
+ "residual": "none from the bracket; the back leg sold about 17,037 more NAOS than the front leg bought, so it drew on earlier inventory",
+ "confidence": 3,
+ "note": "The actor contract buys NAOS with 3.62 WETH in the front leg. The victim buys NAOS on the same pool, and the contract sells NAOS back for 7.391397 WETH, a net of +3.771397 WETH. The back transaction's 3.586598 ETH value was forwarded to 0xb3b7\u2026, which looks like a payment to the block producer, so I subtracted it as a cost. Both legs have a 0 gwei gas price, so gas is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3413,
+  "output_tokens": 1099,
+  "thinking_tokens": 756
+ },
+ "_request_id": "req_011CgBWqRvo61rk2u4n1sVh5",
+ "_response_id": "msg_011CgBWqSG8v2NpvfXRZA15G",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x9b577e849b128ee1a69144b218e809b8bb98c35d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.184799,\"gas_eth\":0.0,\"profit_after_gas\":0.184799,\"residual\":\"none from the bracket; the back leg sold about 17,037 more NAOS than the front leg bought, so it drew on earlier inventory\",\"confidence\":3,\"note\":\"The actor contract buys NAOS with 3.62 WETH in the front leg. The victim buys NAOS on the same pool, and the contract sells NAOS back for 7.391397 WETH, a net of +3.771397 WETH. The back transaction's 3.586598 ETH value was forwarded to 0xb3b7\u2026, which looks like a payment to the block producer, so I subtracted it as a cost. Both legs have a 0 gwei gas price, so gas is 0.\"}",
+ "case_id": "rej53_034",
+ "_time": "2026-10-19T19:27:13+0800"
+}

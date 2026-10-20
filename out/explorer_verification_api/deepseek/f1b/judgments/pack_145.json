@@ -1,0 +1,31 @@
+{
+ "actor": "0x68e8924bbfc74c479bccd4107d0f80209c6c2cc4",
+ "pool": "0xe9bd6ddc2b13f46715382f74534950e004399d10",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -0.007526024,
+ "gas_eth": 0.006912024,
+ "residual": "18.031286 DOGIRA",
+ "confidence": 5,
+ "note": "The front and back legs both buy DOGIRA from the same Uniswap pair; the back leg does not transfer DOGIRA back from the actor, so there is no opened-and-closed position. Net ETH/WETH is negative after gas, but the actor retains DOGIRA whose value is not determined, preventing a positive/negative sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3045,
+  "output_tokens": 6896,
+  "thinking_tokens": 6701
+ },
+ "_request_id": "16305a7436058640c6ab3622c456ffd9",
+ "_response_id": "15d8d6fc-1465-4341-9e93-40ab414ec8b7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x68e8924bbfc74c479bccd4107d0f80209c6c2cc4\", \"pool\": \"0xe9bd6ddc2b13f46715382f74534950e004399d10\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -0.007526024, \"gas_eth\": 0.006912024, \"residual\": \"18.031286 DOGIRA\", \"confidence\": 5, \"note\": \"The front and back legs both buy DOGIRA from the same Uniswap pair; the back leg does not transfer DOGIRA back from the actor, so there is no opened-and-closed position. Net ETH/WETH is negative after gas, but the actor retains DOGIRA whose value is not determined, preventing a positive/negative sign.\"}",
+ "case_id": "pack_145",
+ "_time": "2026-10-19T18:29:08+0800"
+}

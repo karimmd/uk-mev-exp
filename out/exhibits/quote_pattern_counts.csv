@@ -1,0 +1,17 @@
+arm,pattern,quote,n
+absent_258,buy_first,WETH,258
+absent_new,sell_first,WETH,1022
+absent_new,weth_only,DAI,1
+absent_new,weth_only,USDC,7
+absent_new,weth_only,USDT,5
+absent_new,weth_only,other,349
+comparison,same_direction_or_other,DAI,3
+comparison,same_direction_or_other,USDC,8
+comparison,same_direction_or_other,USDT,38
+comparison,same_direction_or_other,WETH,5030
+comparison,same_direction_or_other,other,1
+comparison,sell_first,USDC,10
+comparison,sell_first,USDT,1
+comparison,sell_first,WETH,603
+comparison,sell_first,other,2
+recorded,buy_first,WETH,10299

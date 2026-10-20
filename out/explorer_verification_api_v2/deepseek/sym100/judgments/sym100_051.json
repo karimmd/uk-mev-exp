@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.061616,
+ "gas_eth": 0.042605,
+ "profit_after_gas": 0.019011,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold BBANK for WETH in front and bought the same BBANK back with WETH in back on the same Uniswap V2 pool the victim used. Net WETH is positive after subtracting both gas fees, with no residual BBANK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2640,
+  "output_tokens": 2207,
+  "thinking_tokens": 2037
+ },
+ "_request_id": "6a18e981d29662b12134798215a05253",
+ "_response_id": "f18996ef-ce8e-44cf-9cb1-031bdc8724fa",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.061616,\"gas_eth\":0.042605,\"profit_after_gas\":0.019011,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold BBANK for WETH in front and bought the same BBANK back with WETH in back on the same Uniswap V2 pool the victim used. Net WETH is positive after subtracting both gas fees, with no residual BBANK.\"}",
+ "case_id": "sym100_051",
+ "_time": "2026-10-19T19:33:21+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.026809,
+ "gas_eth": 0.028005,
+ "residual": "none material (USDT shortfall of about 0.0064, roughly $0.006)",
+ "confidence": 4,
+ "note": "The actor contract routes WETH through the WETH/DON pool (0x643b\u2026) and the DON/USDT pool (0x91b1\u2026). It holds USDT after the front leg and returns it in the back leg, with the victim's DON->USDT swap on 0x91b1 in between. WETH net is 436.403786 \u2212 436.348972 = +0.054814, minus 0.028005 gas gives about +0.0268 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3164,
+  "output_tokens": 731,
+  "thinking_tokens": 440
+ },
+ "_request_id": "req_011CgBSm4DzJn6GqVWkmKpZK",
+ "_response_id": "msg_011CgBSm4bKn852fv5qEa5gZ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.026809,\"gas_eth\":0.028005,\"residual\":\"none material (USDT shortfall of about 0.0064, roughly $0.006)\",\"confidence\":4,\"note\":\"The actor contract routes WETH through the WETH/DON pool (0x643b\u2026) and the DON/USDT pool (0x91b1\u2026). It holds USDT after the front leg and returns it in the back leg, with the victim's DON->USDT swap on 0x91b1 in between. WETH net is 436.403786 \u2212 436.348972 = +0.054814, minus 0.028005 gas gives about +0.0268 ETH.\"}",
+ "case_id": "rej53_048",
+ "_time": "2026-10-19T18:33:44+0800"
+}

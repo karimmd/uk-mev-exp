@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.23177,
+ "gas_eth": 0.010935,
+ "profit_after_gas": 0.220835,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract 0x000...fabf1 sold 2661.115396 DFYN for 3.869502 WETH in front and bought the same DFYN back for 3.637732 WETH in back on the same Uniswap V2 pool; the victim traded on that pool in between. Net WETH before gas is 0.23177 ETH, and after gas fees of 0.010935 ETH the position is positive with no residual DFYN.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2450,
+  "output_tokens": 3473,
+  "thinking_tokens": 3262
+ },
+ "_request_id": "e066203ad485ef8b6526d28d09446ea3",
+ "_response_id": "d1535567-2442-40ed-b0f5-46bf8c550629",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xcab335e1964363e48a790da303b74ec02d3f8fb2\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.23177,\"gas_eth\":0.010935,\"profit_after_gas\":0.220835,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract 0x000...fabf1 sold 2661.115396 DFYN for 3.869502 WETH in front and bought the same DFYN back for 3.637732 WETH in back on the same Uniswap V2 pool; the victim traded on that pool in between. Net WETH before gas is 0.23177 ETH, and after gas fees of 0.010935 ETH the position is positive with no residual DFYN.\"}",
+ "case_id": "sym100_032",
+ "_time": "2026-10-19T19:31:28+0800"
+}

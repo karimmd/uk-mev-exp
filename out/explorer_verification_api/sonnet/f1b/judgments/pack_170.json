@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f2a2b2729f624bd23f252f46bae42628d822a6e",
+ "pool": "0xbc6b3dc17e86c8cacf0f384f2e19468c36154a22",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 2.701799,
+ "gas_eth": 0.007558,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x3f2a is the target of both the front and back legs. It buys 189.368585 CP3R for 28.893796 WETH on the pool, the victim buys CP3R on the same pool in between, and the contract sells exactly 189.368585 CP3R back for 31.595595 WETH. The senders differ, but the same contract holds the position. WETH gain is +2.701799; after 0.007558 ETH gas it is about +2.694241, with no CP3R left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2935,
+  "output_tokens": 601,
+  "thinking_tokens": 309
+ },
+ "_request_id": "req_011CgBRkqxwVUHxVuiXK5NDC",
+ "_response_id": "msg_011CgBRkrL1w7bQ4mHJAPU3k",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x3f2a2b2729f624bd23f252f46bae42628d822a6e\", \"pool\": \"0xbc6b3dc17e86c8cacf0f384f2e19468c36154a22\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 2.701799, \"gas_eth\": 0.007558, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x3f2a is the target of both the front and back legs. It buys 189.368585 CP3R for 28.893796 WETH on the pool, the victim buys CP3R on the same pool in between, and the contract sells exactly 189.368585 CP3R back for 31.595595 WETH. The senders differ, but the same contract holds the position. WETH gain is +2.701799; after 0.007558 ETH gas it is about +2.694241, with no CP3R left over.\"}",
+ "case_id": "pack_170",
+ "_time": "2026-10-19T18:20:34+0800"
+}

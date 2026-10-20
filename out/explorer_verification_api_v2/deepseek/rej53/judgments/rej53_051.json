@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.043181,
+ "gas_eth": 0.017411,
+ "profit_after_gas": 0.02577,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives PROS on the front leg and sells the same PROS on the shared UniswapV2 pool in the back leg, bracketing the victim's trade on that pool. Net WETH gained is 3.107414 - 3.064233 = 0.043181 ETH; the back-leg ETH value and internal transfer cancel, and gas fees total 0.008480 + 0.008931 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2606,
+  "output_tokens": 4266,
+  "thinking_tokens": 4064
+ },
+ "_request_id": "f1d2142db0649ad03fc26bca0e5b7419",
+ "_response_id": "d8580580-fd4b-438d-82e0-06dd1c33e43a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.043181,\"gas_eth\":0.017411,\"profit_after_gas\":0.02577,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives PROS on the front leg and sells the same PROS on the shared UniswapV2 pool in the back leg, bracketing the victim's trade on that pool. Net WETH gained is 3.107414 - 3.064233 = 0.043181 ETH; the back-leg ETH value and internal transfer cancel, and gas fees total 0.008480 + 0.008931 ETH.\"}",
+ "case_id": "rej53_051",
+ "_time": "2026-10-19T19:46:41+0800"
+}

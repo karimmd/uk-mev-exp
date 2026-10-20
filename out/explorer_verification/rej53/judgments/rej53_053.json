@@ -1,0 +1,17 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.025172,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract pays 2.675540 WETH in the front leg and gets 4364.807017 USDC through the WETH/EXRD and EXRD/USDC pools. In the back leg it returns exactly that USDC and receives 2.728533 WETH. The victim sells EXRD for USDC on the EXRD/USDC pool between the two legs. Net WETH is +0.052993. After the 0.027821 ETH internal transfer to 0x5a0b\u2026 in the back leg, the position is +0.025172 ETH. Both legs show gas price 0.0 gwei, so I took gas as 0. No USDC or EXRD is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0286672,
+ "_session": "20611609-8f4c-44cd-ad3c-543642c6718c",
+ "_raw": "{\"actor\": \"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\", \"pool\": \"0x684b00a5773679f88598a19976fbeb25a68e9a5f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.025172, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract pays 2.675540 WETH in the front leg and gets 4364.807017 USDC through the WETH/EXRD and EXRD/USDC pools. In the back leg it returns exactly that USDC and receives 2.728533 WETH. The victim sells EXRD for USDC on the EXRD/USDC pool between the two legs. Net WETH is +0.052993. After the 0.027821 ETH internal transfer to 0x5a0b\u2026 in the back leg, the position is +0.025172 ETH. Both legs show gas price 0.0 gwei, so I took gas as 0. No USDC or EXRD is left over.\"}",
+ "case_id": "rej53_053",
+ "_time": "2026-10-13T22:04:08+0800"
+}

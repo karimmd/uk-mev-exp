@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.040265,
+ "gas_eth": 0.019695,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x7cf0 spends 33.774883 WETH through the WETH/FRAX pool 0xec8c and the FRAX/FXS pool 0xe157 to buy 5782.131347 FXS (token 0x3432, labelled FRAX), and sells exactly that amount back for 34.641501 WETH after the victim's large FRAX-to-FXS buy on 0xe157. Gross WETH gain is 0.866618; the 0.806658 ETH sent in as tx value and forwarded to 0x829b (likely a builder bribe) and 0.019695 gas are subtracted, leaving about +0.0403 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4390,
+  "output_tokens": 698,
+  "thinking_tokens": 348
+ },
+ "_request_id": "req_011CgBRE1UZb6G6UiKQLgMkj",
+ "_response_id": "msg_011CgBRE3cJoDsB91YwNZqA2",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.040265, \"gas_eth\": 0.019695, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x7cf0 spends 33.774883 WETH through the WETH/FRAX pool 0xec8c and the FRAX/FXS pool 0xe157 to buy 5782.131347 FXS (token 0x3432, labelled FRAX), and sells exactly that amount back for 34.641501 WETH after the victim's large FRAX-to-FXS buy on 0xe157. Gross WETH gain is 0.866618; the 0.806658 ETH sent in as tx value and forwarded to 0x829b (likely a builder bribe) and 0.019695 gas are subtracted, leaving about +0.0403 ETH.\"}",
+ "case_id": "pack_097",
+ "_time": "2026-10-19T18:13:37+0800"
+}

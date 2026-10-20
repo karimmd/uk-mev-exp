@@ -1,0 +1,32 @@
+{
+ "actor": "0x38f2e4e2e33c81998b20989513e124e9d568f365",
+ "pool": "0x1812ef69e1753f908229df40d304a5fbdcd52dd3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 1.139598,
+ "gas_eth": 0.0,
+ "profit_after_gas": 1.139598,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys FORTH on the victim's FORTH/USDT pool in the front leg and sells the same 365.683852 FORTH back into that pool in the back leg. WETH in minus WETH out and the 0.379866 ETH internal transfer nets 1.139598 ETH; front/back gas fees are zero, and no FORTH remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3287,
+  "output_tokens": 5541,
+  "thinking_tokens": 5351
+ },
+ "_request_id": "090e0d79dbb31df24adbdc565b8ca375",
+ "_response_id": "fff7d24f-3cb2-4703-916d-2a50fcdc7f29",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x38f2e4e2e33c81998b20989513e124e9d568f365\",\"pool\":\"0x1812ef69e1753f908229df40d304a5fbdcd52dd3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":1.139598,\"gas_eth\":0.0,\"profit_after_gas\":1.139598,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract buys FORTH on the victim's FORTH/USDT pool in the front leg and sells the same 365.683852 FORTH back into that pool in the back leg. WETH in minus WETH out and the 0.379866 ETH internal transfer nets 1.139598 ETH; front/back gas fees are zero, and no FORTH remains.\"}",
+ "case_id": "pack_005",
+ "_time": "2026-10-19T19:04:39+0800"
+}

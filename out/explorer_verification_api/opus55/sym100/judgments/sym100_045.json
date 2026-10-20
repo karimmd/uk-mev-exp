@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xa541279d7a77a768abf45acbcac7f32f28101d5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.052685,
+ "gas_eth": 0.226302,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0x7cf0 routes WETH\u2192PSP on 0x458a and PSP\u2192WETH on 0xa541 in the front leg, then reverses the route in the back leg. This brackets the victim's PSP sale on 0xa541. Gross WETH is +0.278987 and gas is 0.226302, leaving +0.052685. PSP only ever moved pool-to-pool and the actor never held it, which makes the 'position opened' criterion less clean.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4144,
+  "output_tokens": 981,
+  "thinking_tokens": 694
+ },
+ "_request_id": "req_011CgBSHbPwc3M6TuBD7uoV7",
+ "_response_id": "msg_011CgBSHbmmXoGCPPZDebqWf",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xa541279d7a77a768abf45acbcac7f32f28101d5f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.052685, \"gas_eth\": 0.226302, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0x7cf0 routes WETH\u2192PSP on 0x458a and PSP\u2192WETH on 0xa541 in the front leg, then reverses the route in the back leg. This brackets the victim's PSP sale on 0xa541. Gross WETH is +0.278987 and gas is 0.226302, leaving +0.052685. PSP only ever moved pool-to-pool and the actor never held it, which makes the 'position opened' criterion less clean.\"}",
+ "case_id": "sym100_045",
+ "_time": "2026-10-19T18:27:35+0800"
+}

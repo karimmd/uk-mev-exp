@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5b155ea384905485fde4b24ef1cd63a7d2398100",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.168315,
+ "gas_eth": 0.11782,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH to USDC on pool 0x397f, then USDC to BILL on pool 0x5b15, which the victim also buys from. It sells the same 2648851.757734 BILL back in the back leg, so no BILL is left over. Gross WETH gain is 4.420501 \u2212 4.252186 = 0.168315. Gas for the two legs is 0.007556 + 0.110264 = 0.11782 ETH, which leaves about +0.0505 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0220768,
+ "_session": "c1348ef9-eee2-419f-9315-47fc76cd7718",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x5b155ea384905485fde4b24ef1cd63a7d2398100\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.168315, \"gas_eth\": 0.11782, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract routes WETH to USDC on pool 0x397f, then USDC to BILL on pool 0x5b15, which the victim also buys from. It sells the same 2648851.757734 BILL back in the back leg, so no BILL is left over. Gross WETH gain is 4.420501 \u2212 4.252186 = 0.168315. Gas for the two legs is 0.007556 + 0.110264 = 0.11782 ETH, which leaves about +0.0505 ETH.\"}",
+ "case_id": "rej53_002",
+ "_time": "2026-10-13T21:53:55+0800"
+}

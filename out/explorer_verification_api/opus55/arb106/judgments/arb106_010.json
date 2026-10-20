@@ -1,0 +1,39 @@
+{
+ "actor": "0x000000799cd54a82b54e8597f099b0183b301584",
+ "pools": [
+  "0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.043208,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The cycle runs through four pools: TRIBE/WETH on V3, FEI/TRIBE on V2, FEI/USDC on V3 and USDC/WETH on V2, with intermediate tokens passed pool to pool. The actor received 74.497866 WETH and sent 74.343262 WETH, then unwrapped the 0.154604 surplus; the WETH transfer to the zero address is that withdrawal, not a mint. After the 0.111396 ETH payment to 0x5a0b54\u2026, likely a miner bribe given the 0-gwei gas price at position 0, the net is +0.043208 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3190,
+  "output_tokens": 877,
+  "thinking_tokens": 411
+ },
+ "_request_id": "req_011CgBT2NXzJiAHgyBZaksQZ",
+ "_response_id": "msg_011CgBT2NrqNb5V8ig6XqfPw",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000799cd54a82b54e8597f099b0183b301584\", \"pools\": [\"0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364\", \"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\", \"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\", \"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.043208, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The cycle runs through four pools: TRIBE/WETH on V3, FEI/TRIBE on V2, FEI/USDC on V3 and USDC/WETH on V2, with intermediate tokens passed pool to pool. The actor received 74.497866 WETH and sent 74.343262 WETH, then unwrapped the 0.154604 surplus; the WETH transfer to the zero address is that withdrawal, not a mint. After the 0.111396 ETH payment to 0x5a0b54\u2026, likely a miner bribe given the 0-gwei gas price at position 0, the net is +0.043208 ETH.\"}",
+ "case_id": "arb106_010",
+ "_time": "2026-10-19T18:37:14+0800"
+}

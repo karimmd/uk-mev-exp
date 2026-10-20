@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.05996,
+ "gas_eth": 0.019695,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract swaps WETH to FRAX to FXS (token 0x3432\u2026) in the front leg, receiving 5782.131347 FXS. The victim buys FXS with FRAX on the FRAX/FXS pool 0xe157\u2026, and the back leg sells exactly that FXS back to WETH. WETH goes from 33.774883 out to 34.641501 in (+0.866618). The 0.806658 ETH value sent in the back leg is forwarded to 0x829b\u2026 (likely a builder tip), leaving +0.05996 ETH before gas and about +0.0403 ETH after the 0.019695 ETH gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4390,
+  "output_tokens": 1001,
+  "thinking_tokens": 665
+ },
+ "_request_id": "req_011CgBR92hqrFoqgkrYrPJ4d",
+ "_response_id": "msg_011CgBR94kdYNoZLBRw1XkvP",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.05996,\"gas_eth\":0.019695,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract swaps WETH to FRAX to FXS (token 0x3432\u2026) in the front leg, receiving 5782.131347 FXS. The victim buys FXS with FRAX on the FRAX/FXS pool 0xe157\u2026, and the back leg sells exactly that FXS back to WETH. WETH goes from 33.774883 out to 34.641501 in (+0.866618). The 0.806658 ETH value sent in the back leg is forwarded to 0x829b\u2026 (likely a builder tip), leaving +0.05996 ETH before gas and about +0.0403 ETH after the 0.019695 ETH gas.\"}",
+ "case_id": "pack_097",
+ "_time": "2026-10-19T18:12:31+0800"
+}

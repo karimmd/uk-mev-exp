@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.220835,
+ "gas_eth": 0.010935,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 2661.115396 DFYN for WETH in the front leg, then buys back the same DFYN amount for WETH in the back leg around the victim's DFYN sell on the shared pool. Net WETH gain is 0.231770 ETH before gas, and after 0.010935 ETH gas the actor is positive with no residual DFYN.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2382,
+  "output_tokens": 12354,
+  "thinking_tokens": 12177
+ },
+ "_request_id": "6f34d8886f783eba3d8969868a6c4ff8",
+ "_response_id": "6305a046-3095-4518-851d-b57d660772d3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xcab335e1964363e48a790da303b74ec02d3f8fb2\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.220835,\"gas_eth\":0.010935,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract actor sells 2661.115396 DFYN for WETH in the front leg, then buys back the same DFYN amount for WETH in the back leg around the victim's DFYN sell on the shared pool. Net WETH gain is 0.231770 ETH before gas, and after 0.010935 ETH gas the actor is positive with no residual DFYN.\"}",
+ "case_id": "sym100_032",
+ "_time": "2026-10-19T18:44:15+0800"
+}

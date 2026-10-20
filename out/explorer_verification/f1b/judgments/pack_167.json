@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xc491405d542a393d8d202a72f0fb076447e61891",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001992,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 108071.19 WHACKD with 0.4071 WETH in the front leg, the victim buys WHACKD on the same WHACKD/WETH pool, and the back leg sells all 108071.19 WHACKD (97264.07 to the pool plus 10807.12 burned) for 0.438214 WETH. The gross gain of 0.031114 ETH is reduced by the 0.029122 ETH transaction value, forwarded to 0x04668e\u2026 and likely a miner bribe, leaving +0.001992 ETH with gas fees of about 0 at 0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0244847,
+ "_session": "f13301d2-831d-4f8d-9f12-bee83661c593",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xc491405d542a393d8d202a72f0fb076447e61891\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.001992,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 108071.19 WHACKD with 0.4071 WETH in the front leg, the victim buys WHACKD on the same WHACKD/WETH pool, and the back leg sells all 108071.19 WHACKD (97264.07 to the pool plus 10807.12 burned) for 0.438214 WETH. The gross gain of 0.031114 ETH is reduced by the 0.029122 ETH transaction value, forwarded to 0x04668e\u2026 and likely a miner bribe, leaving +0.001992 ETH with gas fees of about 0 at 0 gwei.\"}",
+ "case_id": "pack_167",
+ "_time": "2026-10-13T20:37:06+0800"
+}

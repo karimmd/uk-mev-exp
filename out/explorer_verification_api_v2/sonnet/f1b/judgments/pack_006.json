@@ -1,0 +1,32 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xddf8390ced9fad414b1ca1dd4fe14f881c2cfa70",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.223742,
+ "gas_eth": 0.22041,
+ "profit_after_gas": 0.003332,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Same sender and contract buy 13434.36 NTVRK before the victim's buy and sell the same amount after it, on the same pool. WETH net is +0.223742 against gas of 0.220410 (the back leg paid 2368 gwei), leaving a thin positive profit of about 0.0033 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3036,
+  "output_tokens": 726,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBV6f1GuemLRZBV88SD2",
+ "_response_id": "msg_011CgBV6fM8Gegi5nBLsPrEX",
+ "_reader": "sonnet",
+ "_raw": "Reading the three legs from the explorer data:\n\n- **Pool:** All three legs trade on the pair 0xddf8390c\u2026cfa70 (NTVRK/WETH).\n- **Actor:** The front and back legs are sent by the same address, 0x83b4\u202654f5, to the contract 0x0000000000d41c96294ccdac8612bdfe29c641af. That contract holds the NTVRK position between the legs, so it is the economic actor.\n- **Q1:** The front leg buys 13434.36 NTVRK with 8.279961 WETH. The victim then buys NTVRK on the same pool with 4.5 ETH. The back leg sells exactly 13434.359994 NTVRK, so the position is closed. This is a sandwich bracket.\n- **Net before gas:** The actor receives 8.503703 WETH in the back leg and pays 8.279961 WETH in the front leg. The difference is 0.223742.\n- **Gas:** The front fee is 0.006723 ETH and the back fee is 0.213687 ETH, for a total of 0.220410 ETH.\n- **Profit after gas:** 0.223742 \u2212 0.220410 = 0.003332 ETH, which is positive.\n- **Residual:** The NTVRK bought is fully sold, so none remains.\n\nWhether the sender or the contract pays the gas does not change the sign here. The margin is thin, and the figures are rounded to six decimals.\n\n{\"actor\": \"0x0000000000d41c96294ccdac8612bdfe29c641af\", \"pool\": \"0xddf8390ced9fad414b1ca1dd4fe14f881c2cfa70\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.223742, \"gas_eth\": 0.22041, \"profit_after_gas\": 0.003332, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Same sender and contract buy 13434.36 NTVRK before the victim's buy and sell the same amount after it, on the same pool. WETH net is +0.223742 against gas of 0.220410 (the back leg paid 2368 gwei), leaving a thin positive profit of about 0.0033 ETH.\"}",
+ "case_id": "pack_006",
+ "_time": "2026-10-19T19:04:23+0800"
+}

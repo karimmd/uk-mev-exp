@@ -1,0 +1,31 @@
+{
+ "actor": "0xc6e6dd6a0c61651d1bc055dc1c22418a729d41bb",
+ "pool": "0x51c1d5cdf10dda49219054920c22c8d4a23eed89",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.713041,
+ "gas_eth": 0.30479,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received 2,478,058.296219 LX in the front leg and sent the same amount back in the back leg on the same Uniswap V2 pool used by the victim. It paid 16.53 WETH and received 17.547831 WETH; after front/back gas of about 0.30479 ETH, net is about +0.713041 ETH and no LX remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2441,
+  "output_tokens": 3017,
+  "thinking_tokens": 2829
+ },
+ "_request_id": "bb9bc7b9136b2f882cd56cb9e6bcb5c9",
+ "_response_id": "effe2135-7d92-4537-b3a7-dddbcf8cd0ea",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc6e6dd6a0c61651d1bc055dc1c22418a729d41bb\",\"pool\":\"0x51c1d5cdf10dda49219054920c22c8d4a23eed89\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.713041,\"gas_eth\":0.30479,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received 2,478,058.296219 LX in the front leg and sent the same amount back in the back leg on the same Uniswap V2 pool used by the victim. It paid 16.53 WETH and received 17.547831 WETH; after front/back gas of about 0.30479 ETH, net is about +0.713041 ETH and no LX remains.\"}",
+ "case_id": "pack_014",
+ "_time": "2026-10-19T18:01:05+0800"
+}

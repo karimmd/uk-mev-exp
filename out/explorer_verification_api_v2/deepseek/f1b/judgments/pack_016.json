@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.467854,
+ "gas_eth": 0.00968,
+ "profit_after_gas": 0.458174,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use the same actor contract and BOND/USDC pool; the victim's BOND buy is between them. Net WETH across the two legs is +0.467854 ETH, and after front/back gas the result is positive with no residual BOND.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2632,
+  "output_tokens": 8542,
+  "thinking_tokens": 8371
+ },
+ "_request_id": "1cbd41a39fae3ab92a1695312a9df209",
+ "_response_id": "759dbcd1-8691-48b9-ae72-ccafc1d3a42f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.467854,\"gas_eth\":0.00968,\"profit_after_gas\":0.458174,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use the same actor contract and BOND/USDC pool; the victim's BOND buy is between them. Net WETH across the two legs is +0.467854 ETH, and after front/back gas the result is positive with no residual BOND.\"}",
+ "case_id": "pack_016",
+ "_time": "2026-10-19T19:05:41+0800"
+}

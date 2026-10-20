@@ -1,0 +1,32 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 0.2,
+ "gas_eth": 0.023848,
+ "profit_after_gas": 0.176152,
+ "residual": "-0.004607 OTEN",
+ "confidence": 4,
+ "note": "All three legs sell OTEN for 0.1 ETH on the same pool; front and back do not open and close a token position (both sell), so Q1 is no. The actor receives +0.2 ETH before gas but gives up 0.004607 OTEN with no observable cost basis, so Q2 sign cannot be determined.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3057,
+  "output_tokens": 13949,
+  "thinking_tokens": 13759
+ },
+ "_request_id": "c0a128c3358a229aa1f0c16c91749962",
+ "_response_id": "d42e0c8a-e174-4452-a3c1-17dd27c76b67",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe104053d23918cf2787883508834661c138c9f61\",\"pool\":\"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":0.2,\"gas_eth\":0.023848,\"profit_after_gas\":0.176152,\"residual\":\"-0.004607 OTEN\",\"confidence\":4,\"note\":\"All three legs sell OTEN for 0.1 ETH on the same pool; front and back do not open and close a token position (both sell), so Q1 is no. The actor receives +0.2 ETH before gas but gives up 0.004607 OTEN with no observable cost basis, so Q2 sign cannot be determined.\"}",
+ "case_id": "pack_072",
+ "_time": "2026-10-19T19:13:35+0800"
+}

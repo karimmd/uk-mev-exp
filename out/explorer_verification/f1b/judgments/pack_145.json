@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0xe9bd6ddc2b13f46715382f74534950e004399d10",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -0.000614,
+ "gas_eth": 0.006912,
+ "residual": "about 18.03 DOGIRA (9.015643 from each of the front and back legs), never sold",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender (0x68e8\u20262cc4), and each one is an ETH-to-DOGIRA buy of 9.015643 DOGIRA through the router on the same pool. The sender never sells DOGIRA, so no position is closed in the back leg. The 'victim' is the same address as the front and back legs, so this isn't a sandwich. The front and back legs cost 0.000614 ETH net of the 0.000002 ETH refunds, plus 0.006912 ETH gas. The DOGIRA left over means the sign of the position can't be set.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0288532,
+ "_session": "87167ccd-41c1-429a-b035-55ab86c31022",
+ "_raw": "{\"actor\": null, \"pool\": \"0xe9bd6ddc2b13f46715382f74534950e004399d10\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -0.000614, \"gas_eth\": 0.006912, \"residual\": \"about 18.03 DOGIRA (9.015643 from each of the front and back legs), never sold\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender (0x68e8\u20262cc4), and each one is an ETH-to-DOGIRA buy of 9.015643 DOGIRA through the router on the same pool. The sender never sells DOGIRA, so no position is closed in the back leg. The 'victim' is the same address as the front and back legs, so this isn't a sandwich. The front and back legs cost 0.000614 ETH net of the 0.000002 ETH refunds, plus 0.006912 ETH gas. The DOGIRA left over means the sign of the position can't be set.\"}",
+ "case_id": "pack_145",
+ "_time": "2026-10-13T20:32:45+0800"
+}

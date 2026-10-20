@@ -1,0 +1,38 @@
+{
+ "actor": "0x0000000000438f975cbde76d5fdd1aa76be46577",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth": 0.113016,
+ "gas_eth": 0.191713,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor sends WETH to the first pool and receives more WETH from the third pool after a three-pool WETH->YLD->RFI->WETH route. Gross WETH profit is 0.113016, but the 0.191713 gas fee makes the net position negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2188,
+  "output_tokens": 8042,
+  "thinking_tokens": 7784
+ },
+ "_request_id": "7afb21b647c461765fc2fa7480500fbf",
+ "_response_id": "d12550c7-9ac8-43cc-8369-8759089f71b4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x0000000000438f975cbde76d5fdd1aa76be46577\", \"pools\": [\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\", \"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\", \"0x4c8341379e95f70c08defb76c4f9c036525edc30\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"no\", \"net_eth\": 0.113016, \"gas_eth\": 0.191713, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Actor sends WETH to the first pool and receives more WETH from the third pool after a three-pool WETH->YLD->RFI->WETH route. Gross WETH profit is 0.113016, but the 0.191713 gas fee makes the net position negative.\"}",
+ "case_id": "arb106_037",
+ "_time": "2026-10-19T19:14:00+0800"
+}

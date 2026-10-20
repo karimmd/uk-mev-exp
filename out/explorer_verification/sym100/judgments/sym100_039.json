@@ -1,0 +1,17 @@
+{
+ "actor": "0xb8db34f834e9df42f2002ceb7b829dad89d08e14",
+ "pool": "0xcb4f983e705caeb7217c5c3785001cb138115f0b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.031537,
+ "gas_eth": 0.011175,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Each leg is a closed WETH->USDT->YFV->WETH arbitrage cycle through the same contract (0xb8db). Each cycle ends in WETH, so no non-WETH position is opened and then closed. On the shared WETH/YFV pool the front leg sells YFV and the back leg buys it. The victim buys YFV in between, so the front leg moves the price in the victim's favour, the opposite of a sandwich. The actor's WETH gain is +0.009456 in the front leg and +0.022081 in the back leg, so +0.031537 before gas and about +0.0204 after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0365512,
+ "_session": "82fcac23-16bb-4166-8801-cfa6b85afbeb",
+ "_raw": "{\"actor\":\"0xb8db34f834e9df42f2002ceb7b829dad89d08e14\",\"pool\":\"0xcb4f983e705caeb7217c5c3785001cb138115f0b\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.031537,\"gas_eth\":0.011175,\"residual\":\"none\",\"confidence\":4,\"note\":\"Each leg is a closed WETH->USDT->YFV->WETH arbitrage cycle through the same contract (0xb8db). Each cycle ends in WETH, so no non-WETH position is opened and then closed. On the shared WETH/YFV pool the front leg sells YFV and the back leg buys it. The victim buys YFV in between, so the front leg moves the price in the victim's favour, the opposite of a sandwich. The actor's WETH gain is +0.009456 in the front leg and +0.022081 in the back leg, so +0.031537 before gas and about +0.0204 after gas.\"}",
+ "case_id": "sym100_039",
+ "_time": "2026-10-13T21:31:16+0800"
+}

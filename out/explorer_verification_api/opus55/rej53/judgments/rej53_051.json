@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.006564,
+ "gas_eth": 0.017411,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x...3b3cc2 swaps WETH to USDC on the V3 pool and USDC to 3514.90 PROS on V2 pool 0x3155 in the front leg, the victim buys PROS with USDC on 0x3155, and the back leg sells the same 3514.90 PROS back through both pools. WETH net is +0.043181; subtracting the 0.019206 ETH payment forwarded to 0x7f10 (likely a builder or coinbase tip) and 0.017411 gas leaves about +0.006564 ETH, with no PROS or USDC left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3197,
+  "output_tokens": 743,
+  "thinking_tokens": 418
+ },
+ "_request_id": "req_011CgBSwTv47KdseWYUsY3VN",
+ "_response_id": "msg_011CgBSwUNqXudAUY1wAnXKa",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x3155acd9f75915fcc21d34035f440da7040bd3ba\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.006564, \"gas_eth\": 0.017411, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x...3b3cc2 swaps WETH to USDC on the V3 pool and USDC to 3514.90 PROS on V2 pool 0x3155 in the front leg, the victim buys PROS with USDC on 0x3155, and the back leg sells the same 3514.90 PROS back through both pools. WETH net is +0.043181; subtracting the 0.019206 ETH payment forwarded to 0x7f10 (likely a builder or coinbase tip) and 0.017411 gas leaves about +0.006564 ETH, with no PROS or USDC left over.\"}",
+ "case_id": "rej53_051",
+ "_time": "2026-10-19T18:36:07+0800"
+}

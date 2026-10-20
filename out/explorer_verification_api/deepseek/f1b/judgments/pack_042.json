@@ -1,0 +1,31 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.176152,
+ "gas_eth": 0.023848,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both sell OTEN for ETH on the same Uniswap V2 pool, so no non-WETH position is opened in front and closed in back; this is not a sandwich bracket. The repeating sender receives 0.1 ETH in each leg, netting +0.176152 ETH after front/back gas costs.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2995,
+  "output_tokens": 9248,
+  "thinking_tokens": 9082
+ },
+ "_request_id": "b3e98d54ad64449c73c9b4176b77b37a",
+ "_response_id": "ff091d4e-4b1c-4220-b54f-d887a4811bbc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe104053d23918cf2787883508834661c138c9f61\",\"pool\":\"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.176152,\"gas_eth\":0.023848,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both sell OTEN for ETH on the same Uniswap V2 pool, so no non-WETH position is opened in front and closed in back; this is not a sandwich bracket. The repeating sender receives 0.1 ETH in each leg, netting +0.176152 ETH after front/back gas costs.\"}",
+ "case_id": "pack_042",
+ "_time": "2026-10-19T18:10:22+0800"
+}

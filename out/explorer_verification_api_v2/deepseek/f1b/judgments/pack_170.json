@@ -1,0 +1,32 @@
+{
+ "actor": "0x3f2a2b2729f624bd23f252f46bae42628d822a6e",
+ "pool": "0xbc6b3dc17e86c8cacf0f384f2e19468c36154a22",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 2.701799,
+ "gas_eth": 0.007557985,
+ "profit_after_gas": 2.694241015,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract received 189.368585 CP3R in the front leg and sent the same amount back in the back leg on UniswapV2 pool 0xbc6b..., with the victim trading that pool between them. It spent 28.893796 WETH and received 31.595595 WETH, leaving a positive net before gas and no residual CP3R.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2401,
+  "output_tokens": 1962,
+  "thinking_tokens": 1760
+ },
+ "_request_id": "a234fd9c719e64b6a63ad58baaa7d5d9",
+ "_response_id": "ddcc6c2e-3be9-40d9-ae2a-44bfd7b42005",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3f2a2b2729f624bd23f252f46bae42628d822a6e\",\"pool\":\"0xbc6b3dc17e86c8cacf0f384f2e19468c36154a22\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":2.701799,\"gas_eth\":0.007557985,\"profit_after_gas\":2.694241015,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract received 189.368585 CP3R in the front leg and sent the same amount back in the back leg on UniswapV2 pool 0xbc6b..., with the victim trading that pool between them. It spent 28.893796 WETH and received 31.595595 WETH, leaving a positive net before gas and no residual CP3R.\"}",
+ "case_id": "pack_170",
+ "_time": "2026-10-19T19:24:17+0800"
+}

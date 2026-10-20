@@ -1,0 +1,39 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4",
+  "0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27",
+  "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.189004,
+ "gas_eth": 0.181444,
+ "profit_after_gas": 0.00756,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 12.25 WETH to the WETH/MIM V2 pair. The MIM goes straight to the MIM/USDC V3 pool, whose USDC goes straight to the USDC/WETH V2 pair, which returns 12.439004 WETH to the actor. That is a three-pool triangular cycle that starts and ends in WETH, with net +0.189004 WETH before gas and about +0.00756 ETH after the 0.181444 ETH fee. The actor holds no other token at the end.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2133,
+  "output_tokens": 947,
+  "thinking_tokens": 537
+ },
+ "_request_id": "req_011CgBXcPoJWTpMzRdqjq9hG",
+ "_response_id": "msg_011CgBXcQFLn499HZmUkSnUr",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x9762b1d716bb97735905996e013d61c140722249\",\"pools\":[\"0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4\",\"0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27\",\"0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.189004,\"gas_eth\":0.181444,\"profit_after_gas\":0.00756,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 12.25 WETH to the WETH/MIM V2 pair. The MIM goes straight to the MIM/USDC V3 pool, whose USDC goes straight to the USDC/WETH V2 pair, which returns 12.439004 WETH to the actor. That is a three-pool triangular cycle that starts and ends in WETH, with net +0.189004 WETH before gas and about +0.00756 ETH after the 0.181444 ETH fee. The actor holds no other token at the end.\"}",
+ "case_id": "arb106_104",
+ "_time": "2026-10-19T19:37:21+0800"
+}

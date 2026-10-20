@@ -1,0 +1,39 @@
+{
+ "actor": "0xff26d7d5710b916b62c8317c9228c06a38446203",
+ "pools": [
+  "0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222",
+  "0x5069c5fbed5757642023e55458ae363b1cbf0616",
+  "0xa7ad4ce6c21d9e875f1067cd377256326b483002"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.009136,
+ "gas_eth": 0.001615,
+ "profit_after_gas": 0.007521,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract received 0.759517 WETH from third pool after sending 0.750381 WETH to first pool, with intermediate MFUND and SANSHU routed directly between pools. Net profit 0.009136 ETH before gas, positive after 0.001615 ETH fee.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2019,
+  "output_tokens": 10372,
+  "thinking_tokens": 10100
+ },
+ "_request_id": "5279560d78435588d5950e6b709d69f1",
+ "_response_id": "cdcc9b07-1391-4b4a-9fe6-4024b9d8008f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xff26d7d5710b916b62c8317c9228c06a38446203\", \"pools\": [\"0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222\", \"0x5069c5fbed5757642023e55458ae363b1cbf0616\", \"0xa7ad4ce6c21d9e875f1067cd377256326b483002\"], \"cycle_token\": \"WETH\", \"profit_token\": \"ETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.009136, \"gas_eth\": 0.001615, \"profit_after_gas\": 0.007521, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Actor contract received 0.759517 WETH from third pool after sending 0.750381 WETH to first pool, with intermediate MFUND and SANSHU routed directly between pools. Net profit 0.009136 ETH before gas, positive after 0.001615 ETH fee.\"}",
+ "case_id": "arb106_016",
+ "_time": "2026-10-19T19:51:06+0800"
+}

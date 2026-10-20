@@ -1,0 +1,32 @@
+{
+ "actor": "0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567",
+ "pool": "0xb9f7046f985a906ee3f48f738a44bbcd22bee727",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.088251,
+ "gas_eth": 0.021903,
+ "profit_after_gas": 0.066348,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought 83959.177451 MNET for 1.579578 WETH in the front leg and sold the same MNET for 1.667829 WETH in the back leg on pool 0xb9f7046f985a906ee3f48f738a44bbcd22bee727. The victim traded on the same pool between the two legs. Net WETH before gas is 0.088251, and after subtracting 0.015485 + 0.006418 gas it is 0.066348.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2659,
+  "output_tokens": 2009,
+  "thinking_tokens": 1781
+ },
+ "_request_id": "46fb116e65739f19d9ddb158c803d58d",
+ "_response_id": "77d02ee0-f0db-4f60-b1cc-a99289567634",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567\",\"pool\":\"0xb9f7046f985a906ee3f48f738a44bbcd22bee727\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.088251,\"gas_eth\":0.021903,\"profit_after_gas\":0.066348,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract bought 83959.177451 MNET for 1.579578 WETH in the front leg and sold the same MNET for 1.667829 WETH in the back leg on pool 0xb9f7046f985a906ee3f48f738a44bbcd22bee727. The victim traded on the same pool between the two legs. Net WETH before gas is 0.088251, and after subtracting 0.015485 + 0.006418 gas it is 0.066348.\"}",
+ "case_id": "pack_136",
+ "_time": "2026-10-19T19:20:53+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.07991,
+ "gas_eth": 0.044567,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract bought 2275434.48 PEOPLE for 20.553 WETH in the front leg, the victim bought PEOPLE on the same V3 pool, and the contract sold the identical PEOPLE amount for 20.678 WETH in the back leg. The gross gain of 0.12448 ETH less 0.044567 ETH gas leaves about 0.0799 ETH, with no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2743,
+  "output_tokens": 689,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRHMZdX9QkU8x2TmDPM",
+ "_response_id": "msg_011CgBRHSX3LcjcAe6397vgu",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0x83abecf7204d5afc1bea5df734f085f2535a9976, a Uniswap V3 PEOPLE/WETH pool.\n\nActor: the contract 0x00000000726422a6fecb4759b44d47e48cf746aa. It receives 2275434.480165 PEOPLE in the front leg and sends the same amount back in the back leg.\n\nQ1: The same actor opens and closes the position, and the victim swaps on the same pool between the two legs. This is a sandwich bracket, so yes.\n\nQ2 arithmetic:\n- WETH out in the front leg: 20.553438.\n- WETH in during the back leg: 20.677918.\n- Gross profit: 20.677918 \u2212 20.553438 = 0.124480 ETH.\n- Gas for the front leg: 0.010633 ETH. Gas for the back leg: 0.033934 ETH. Total gas: 0.044567 ETH.\n- Net after gas: 0.124480 \u2212 0.044567 = 0.079913 ETH, which is positive.\n\nThe PEOPLE amounts match exactly, so no residual token remains. The position is positive.\n\nPosition numbers: the front leg is at position 0, the victim at position 3, and the back leg at position 5. Other transactions sit in between, but the bracket still holds.\n\n```json\n{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.07991,\"gas_eth\":0.044567,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract bought 2275434.48 PEOPLE for 20.553 WETH in the front leg, the victim bought PEOPLE on the same V3 pool, and the contract sold the identical PEOPLE amount for 20.678 WETH in the back leg. The gross gain of 0.12448 ETH less 0.044567 ETH gas leaves about 0.0799 ETH, with no residual token.\"}\n```",
+ "case_id": "pack_111",
+ "_time": "2026-10-19T18:14:22+0800"
+}

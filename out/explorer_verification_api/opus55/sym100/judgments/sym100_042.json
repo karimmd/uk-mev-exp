@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f3636f45ee8b3bebd3244a106380319d07711f2",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.048787,
+ "gas_eth": 0.022414,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x3f36 (called by 0xcf54 in both legs) sells 50.1663 MPH for 9.273569 WETH on pool 0x4d96. The victim then sells 138.19 MPH on the same pool. The back leg buys the identical 50.1663 MPH back for 9.202368 WETH, a sell-side bracket with no MPH residual: gross +0.071201 WETH, less 0.022414 ETH gas, nets about +0.0488 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3002,
+  "output_tokens": 679,
+  "thinking_tokens": 386
+ },
+ "_request_id": "req_011CgBSGjnTAXnQb6rRC88jN",
+ "_response_id": "msg_011CgBSGkAXG6GoC1WfyfrRP",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3f3636f45ee8b3bebd3244a106380319d07711f2\", \"pool\": \"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.048787, \"gas_eth\": 0.022414, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x3f36 (called by 0xcf54 in both legs) sells 50.1663 MPH for 9.273569 WETH on pool 0x4d96. The victim then sells 138.19 MPH on the same pool. The back leg buys the identical 50.1663 MPH back for 9.202368 WETH, a sell-side bracket with no MPH residual: gross +0.071201 WETH, less 0.022414 ETH gas, nets about +0.0488 ETH.\"}",
+ "case_id": "sym100_042",
+ "_time": "2026-10-19T18:27:21+0800"
+}

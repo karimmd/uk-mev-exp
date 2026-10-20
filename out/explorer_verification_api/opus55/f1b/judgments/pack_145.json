@@ -1,0 +1,31 @@
+{
+ "actor": "0x68e8924bbfc74c479bccd4107d0f80209c6c2cc4",
+ "pool": "0xe9bd6ddc2b13f46715382f74534950e004399d10",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -0.000614,
+ "gas_eth": 0.006912,
+ "residual": "18.031286 DOGIRA (front + back buys)",
+ "confidence": 4,
+ "note": "All three legs come from the same sender and are identical ETH-to-DOGIRA buys through the router on pool 0xe9bd. The back leg buys again instead of selling, so no position is closed and the 'victim' is the same address. Net ETH across front and back is about -0.000614 before gas (-0.007526 after), and the leftover 18.03 DOGIRA cost only about 0.000614 ETH, so it cannot plausibly cover the 0.0069 ETH of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3761,
+  "output_tokens": 753,
+  "thinking_tokens": 447
+ },
+ "_request_id": "req_011CgBRgjYcRqRCmLKQzUK12",
+ "_response_id": "msg_011CgBRgnFLcQV5WYurZKEKr",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x68e8924bbfc74c479bccd4107d0f80209c6c2cc4\", \"pool\": \"0xe9bd6ddc2b13f46715382f74534950e004399d10\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": -0.000614, \"gas_eth\": 0.006912, \"residual\": \"18.031286 DOGIRA (front + back buys)\", \"confidence\": 4, \"note\": \"All three legs come from the same sender and are identical ETH-to-DOGIRA buys through the router on pool 0xe9bd. The back leg buys again instead of selling, so no position is closed and the 'victim' is the same address. Net ETH across front and back is about -0.000614 before gas (-0.007526 after), and the leftover 18.03 DOGIRA cost only about 0.000614 ETH, so it cannot plausibly cover the 0.0069 ETH of gas.\"}",
+ "case_id": "pack_145",
+ "_time": "2026-10-19T18:19:41+0800"
+}

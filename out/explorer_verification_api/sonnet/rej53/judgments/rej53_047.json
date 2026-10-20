@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.024838,
+ "gas_eth": 0.199053,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 88.248554 STRONG on the V3 pool in the front leg, the victim buys STRONG on the same pool in between, and the actor sells exactly 88.248554 STRONG back in the back leg. WETH netted +0.054528 (18.328055 received minus 18.273527 paid), less the 0.02969 ETH forwarded to 0xb7e3\u2026 (likely a miner tip), gives +0.024838. Gas of 0.199053 ETH (0.092479 + 0.106574) outweighs that, so the position is about -0.1742 ETH after cost.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2857,
+  "output_tokens": 715,
+  "thinking_tokens": 396
+ },
+ "_request_id": "req_011CgBSkN2Hvi5cbDieX9fa9",
+ "_response_id": "msg_011CgBSkNQ6iKNo65LjdQZr2",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.024838,\"gas_eth\":0.199053,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 88.248554 STRONG on the V3 pool in the front leg, the victim buys STRONG on the same pool in between, and the actor sells exactly 88.248554 STRONG back in the back leg. WETH netted +0.054528 (18.328055 received minus 18.273527 paid), less the 0.02969 ETH forwarded to 0xb7e3\u2026 (likely a miner tip), gives +0.024838. Gas of 0.199053 ETH (0.092479 + 0.106574) outweighs that, so the position is about -0.1742 ETH after cost.\"}",
+ "case_id": "rej53_047",
+ "_time": "2026-10-19T18:33:34+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00bf034cec51975faece51b285724301436b21c4",
+ "pool": "0x86fef14c27c78deaeb4349fd959caa11fc5b5d75",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.068087,
+ "gas_eth": 0.005842,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x00bf\u2026 buys 739.094753 RARI for 3.24 WETH in the front leg, and the victim then buys RARI on the same pool. The contract sells the same 739.094753 RARI back for 3.308087 WETH, so WETH net is +0.068087. After front and back gas of 0.005842 ETH the result is about +0.0622 ETH. The front and back transactions come from different sender EOAs, but both call the same contract, which is the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2962,
+  "output_tokens": 569,
+  "thinking_tokens": 295
+ },
+ "_request_id": "req_011CgBRSUysHoSpWe37BovmF",
+ "_response_id": "msg_011CgBRSZvnVFQBe5tDa9vDw",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00bf034cec51975faece51b285724301436b21c4\",\"pool\":\"0x86fef14c27c78deaeb4349fd959caa11fc5b5d75\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.068087,\"gas_eth\":0.005842,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x00bf\u2026 buys 739.094753 RARI for 3.24 WETH in the front leg, and the victim then buys RARI on the same pool. The contract sells the same 739.094753 RARI back for 3.308087 WETH, so WETH net is +0.068087. After front and back gas of 0.005842 ETH the result is about +0.0622 ETH. The front and back transactions come from different sender EOAs, but both call the same contract, which is the actor.\"}",
+ "case_id": "pack_129",
+ "_time": "2026-10-19T18:16:24+0800"
+}

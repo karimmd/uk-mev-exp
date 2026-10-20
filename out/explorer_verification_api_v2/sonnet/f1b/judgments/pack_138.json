@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none for a common actor; the front sender 0xf1f3...a1e0 keeps 193.826 PRIA that is never sold",
+ "confidence": 4,
+ "note": "All three legs buy PRIA with ETH on the same pool. The front sender (0xf1f3...) and back sender (0x1a87...) are different addresses. The back leg is another buy, with PRIA going from the pool to 0x1a87..., so no position is closed by one actor. There is no bracket, and so no profit to net.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4252,
+  "output_tokens": 784,
+  "thinking_tokens": 531
+ },
+ "_request_id": "req_011CgBVqYuNGajRJrk1KoQnt",
+ "_response_id": "msg_011CgBVqaFEE7M4rkWaRoStK",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xac350eefccdae050614070e5040e17759cebb3e9\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none for a common actor; the front sender 0xf1f3...a1e0 keeps 193.826 PRIA that is never sold\", \"confidence\": 4, \"note\": \"All three legs buy PRIA with ETH on the same pool. The front sender (0xf1f3...) and back sender (0x1a87...) are different addresses. The back leg is another buy, with PRIA going from the pool to 0x1a87..., so no position is closed by one actor. There is no bracket, and so no profit to net.\"}",
+ "case_id": "pack_138",
+ "_time": "2026-10-19T19:14:06+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00bf034cec51975faece51b285724301436b21c4",
+ "pool": "0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.232048,
+ "gas_eth": 0.050839,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (0x00bf...) is called by different senders in the front and back legs. It buys 14944.146367 ORO for 20 WETH at position 0, sells exactly that amount back for 20.232048 WETH at position 15, and the victim's 8 ETH buy on the same pool sits between them at position 14. Gross gain is +0.232048 WETH, and after the combined 0.050839 ETH gas fee of the two legs the net is about +0.181 ETH, with no residual ORO.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0204447,
+ "_session": "3dd3de68-ca0c-4c7f-a2cc-a2fe77c8dd0b",
+ "_raw": "{\"actor\": \"0x00bf034cec51975faece51b285724301436b21c4\", \"pool\": \"0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.232048, \"gas_eth\": 0.050839, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract (0x00bf...) is called by different senders in the front and back legs. It buys 14944.146367 ORO for 20 WETH at position 0, sells exactly that amount back for 20.232048 WETH at position 15, and the victim's 8 ETH buy on the same pool sits between them at position 14. Gross gain is +0.232048 WETH, and after the combined 0.050839 ETH gas fee of the two legs the net is about +0.181 ETH, with no residual ORO.\"}",
+ "case_id": "pack_199",
+ "_time": "2026-10-13T20:43:42+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x874376be8231dad99aabf9ef0767b3cc054c60ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.040489,
+ "gas_eth": 0.009118,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both trade LEASH/WETH on the same UniswapV2 pool, with the same contract as the economic actor; the actor sells LEASH before the victim's LEASH sell and buys the same amount back after. Net WETH is +0.049607 before gas, leaving a positive ETH/WETH result after 0.009118 gas, with no residual LEASH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2222,
+  "output_tokens": 8370,
+  "thinking_tokens": 8194
+ },
+ "_request_id": "0ad505c76d6b221407b6cdd2893fca50",
+ "_response_id": "068270fd-63f7-43b9-8fc6-46222c0f49b0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x874376be8231dad99aabf9ef0767b3cc054c60ee\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.040489,\"gas_eth\":0.009118,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both trade LEASH/WETH on the same UniswapV2 pool, with the same contract as the economic actor; the actor sells LEASH before the victim's LEASH sell and buys the same amount back after. Net WETH is +0.049607 before gas, leaving a positive ETH/WETH result after 0.009118 gas, with no residual LEASH.\"}",
+ "case_id": "sym100_029",
+ "_time": "2026-10-19T18:43:28+0800"
+}

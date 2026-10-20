@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xe6f51e892046cb5b437e0033d990b527ea4367c8",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.441409,
+ "gas_eth": 0.034235,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor sells 930.70 B20 into the pool for 14.84 WETH in the front leg, then buys exactly 930.70 B20 back for 14.40 WETH in the back leg. That is sell-then-buy, the reverse of a sandwich bracket: it never holds a B20 position, and the victim buys B20 on the same pool in the same direction as the back leg, so the front leg does not move the price against the victim. Net WETH is +0.441409, or about +0.4072 ETH after 0.034235 ETH of gas, with no B20 left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3873,
+  "output_tokens": 1506,
+  "thinking_tokens": 1207
+ },
+ "_request_id": "req_011CgBQs77oLHNxxH7QvX6ZC",
+ "_response_id": "msg_011CgBQsDmeaB8WWT3fMjYpq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xe6f51e892046cb5b437e0033d990b527ea4367c8\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.441409,\"gas_eth\":0.034235,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor sells 930.70 B20 into the pool for 14.84 WETH in the front leg, then buys exactly 930.70 B20 back for 14.40 WETH in the back leg. That is sell-then-buy, the reverse of a sandwich bracket: it never holds a B20 position, and the victim buys B20 on the same pool in the same direction as the back leg, so the front leg does not move the price against the victim. Net WETH is +0.441409, or about +0.4072 ETH after 0.034235 ETH of gas, with no B20 left over.\"}",
+ "case_id": "pack_074",
+ "_time": "2026-10-19T18:09:01+0800"
+}

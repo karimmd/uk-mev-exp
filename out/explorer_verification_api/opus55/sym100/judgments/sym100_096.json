@@ -1,0 +1,31 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.185903,
+ "gas_eth": 0.027306,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x09dd\u2026, called by the same sender, sells 12160.41 CVR into pool 0xbf70 for 5.921007 WETH. The victim then sells CVR on the same pool, and 0x09dd buys back exactly 12160.41 CVR for 5.707798 WETH. That nets +0.213209 WETH before 0.027306 ETH gas; this is a sell-side sandwich where the CVR position is reduced and then restored rather than bought and sold.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3458,
+  "output_tokens": 633,
+  "thinking_tokens": 341
+ },
+ "_request_id": "req_011CgBSc6iZbYwebk1JWdn9j",
+ "_response_id": "msg_011CgBSc759JqvbbQM92YX7y",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x09ddb304758caf024706dee2e92b569ca4823aa1\", \"pool\": \"0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.185903, \"gas_eth\": 0.027306, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x09dd\u2026, called by the same sender, sells 12160.41 CVR into pool 0xbf70 for 5.921007 WETH. The victim then sells CVR on the same pool, and 0x09dd buys back exactly 12160.41 CVR for 5.707798 WETH. That nets +0.213209 WETH before 0.027306 ETH gas; this is a sell-side sandwich where the CVR position is reduced and then restored rather than bought and sold.\"}",
+ "case_id": "sym100_096",
+ "_time": "2026-10-19T18:31:43+0800"
+}

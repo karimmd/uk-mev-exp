@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xb2c29e311916a346304f83aa44527092d5bd4f0f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.005909,
+ "gas_eth": 0.027527,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x...6b40, called by 0x5b50, sells MPH into pool 0xb2c2 in the front leg. It sources the MPH from pool 0x4d96, so it never holds MPH itself. The victim then sells 348.5 MPH into 0xb2c2, and the back leg buys MPH back on 0xb2c2 and returns it to 0x4d96. Netting WETH gives -0.168559 in the front and +0.214265 in the back; subtracting the 0.012270 ETH forwarded to 0x7f10 (likely a builder or miner payment) and 0.027527 ETH of gas leaves about +0.0059 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3383,
+  "output_tokens": 1156,
+  "thinking_tokens": 807
+ },
+ "_request_id": "req_011CgBQ7xD58yiRXHKNniJWf",
+ "_response_id": "msg_011CgBQ84wt7YCfk8pCPjFB8",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xb2c29e311916a346304f83aa44527092d5bd4f0f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.005909, \"gas_eth\": 0.027527, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x...6b40, called by 0x5b50, sells MPH into pool 0xb2c2 in the front leg. It sources the MPH from pool 0x4d96, so it never holds MPH itself. The victim then sells 348.5 MPH into 0xb2c2, and the back leg buys MPH back on 0xb2c2 and returns it to 0x4d96. Netting WETH gives -0.168559 in the front and +0.214265 in the back; subtracting the 0.012270 ETH forwarded to 0x7f10 (likely a builder or miner payment) and 0.027527 ETH of gas leaves about +0.0059 ETH.\"}",
+ "case_id": "pack_009",
+ "_time": "2026-10-19T17:59:14+0800"
+}

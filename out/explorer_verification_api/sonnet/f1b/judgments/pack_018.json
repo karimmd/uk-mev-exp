@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x87898263b6c5babe34b4ec53f22d98430b91e371",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.105493,
+ "gas_eth": 0.074287,
+ "residual": "about 0.000001 BEAN dust, negligible",
+ "confidence": 5,
+ "note": "The actor contract buys 18562.71166 BEAN for 4.474893 WETH in the front leg. The victim then buys 101926 BEAN with 25 ETH on the same pool. The actor sells the BEAN back for 4.580386 WETH, a gross gain of 0.105493 WETH. After 0.074287 ETH of combined gas the net is about +0.0312 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3077,
+  "output_tokens": 494,
+  "thinking_tokens": 232
+ },
+ "_request_id": "req_011CgBQE4CATYFsWBvq3ocZA",
+ "_response_id": "msg_011CgBQEATCLQriz1r1djiaE",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x87898263b6c5babe34b4ec53f22d98430b91e371\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.105493,\"gas_eth\":0.074287,\"residual\":\"about 0.000001 BEAN dust, negligible\",\"confidence\":5,\"note\":\"The actor contract buys 18562.71166 BEAN for 4.474893 WETH in the front leg. The victim then buys 101926 BEAN with 25 ETH on the same pool. The actor sells the BEAN back for 4.580386 WETH, a gross gain of 0.105493 WETH. After 0.074287 ETH of combined gas the net is about +0.0312 ETH.\"}",
+ "case_id": "pack_018",
+ "_time": "2026-10-19T18:00:30+0800"
+}

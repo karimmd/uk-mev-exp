@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01131,
+ "gas_eth": 0.011221,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 7987.463059 SYN into the SYN/WETH pool for 4.764050 WETH in the front leg. The victim then sells 30000 SYN into the same pool. The actor buys back exactly 7987.463059 SYN for 4.752740 WETH in the back leg, so the SYN position is flat. The WETH gain is 0.011310 and stated gas for both legs is 0.011221, leaving about +0.00009 ETH. That margin is thin and sensitive to gas rounding.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3074,
+  "output_tokens": 1051,
+  "thinking_tokens": 755
+ },
+ "_request_id": "req_011CgBSMRV1CrZ8KmBxvvMSW",
+ "_response_id": "msg_011CgBSMRrpUPXZFkANfDVV2",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.01131,\"gas_eth\":0.011221,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells 7987.463059 SYN into the SYN/WETH pool for 4.764050 WETH in the front leg. The victim then sells 30000 SYN into the same pool. The actor buys back exactly 7987.463059 SYN for 4.752740 WETH in the back leg, so the SYN position is flat. The WETH gain is 0.011310 and stated gas for both legs is 0.011221, leaving about +0.00009 ETH. That margin is thin and sensitive to gas rounding.\"}",
+ "case_id": "sym100_076",
+ "_time": "2026-10-19T18:28:26+0800"
+}

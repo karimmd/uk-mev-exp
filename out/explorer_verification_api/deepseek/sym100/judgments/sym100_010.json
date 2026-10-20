@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.112351132,
+ "gas_eth": 0.010256868,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both route through 0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de on pool 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e, and the victim trades the same pool between them. The actor sells 13,442,189.245015 SPELL in front and reacquires exactly that amount in back, netting +0.122608 WETH before gas and leaving no residual SPELL.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2380,
+  "output_tokens": 5116,
+  "thinking_tokens": 4895
+ },
+ "_request_id": "e832897c3c537a4b4fd5757351e92a0e",
+ "_response_id": "66e2b109-d18e-49b6-87ca-c32381c97c74",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xb5de0c3753b6e1b4dba616db82767f17513e6d4e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.112351132,\"gas_eth\":0.010256868,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both route through 0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de on pool 0xb5de0c3753b6e1b4dba616db82767f17513e6d4e, and the victim trades the same pool between them. The actor sells 13,442,189.245015 SPELL in front and reacquires exactly that amount in back, netting +0.122608 WETH before gas and leaving no residual SPELL.\"}",
+ "case_id": "sym100_010",
+ "_time": "2026-10-19T18:39:25+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.050269,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x1be0 routes WETH through the WETH/USDT pool 0x06da into the USDT/JINDOGE pool 0x6fc2, which the victim also buys on. It holds exactly 554264372419.139282 JINDOGE after the front leg and returns exactly that amount in the back leg. WETH net is +0.284515 (11.158956 - 10.874441); the 0.234246 ETH call out of the back leg (likely a miner or builder payment) leaves +0.050269, and both legs show 0 gas fee, so the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0265867,
+ "_session": "4667131d-be52-4833-a887-b8849e4dec0d",
+ "_raw": "{\"actor\": \"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\", \"pool\": \"0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.050269, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract 0x1be0 routes WETH through the WETH/USDT pool 0x06da into the USDT/JINDOGE pool 0x6fc2, which the victim also buys on. It holds exactly 554264372419.139282 JINDOGE after the front leg and returns exactly that amount in the back leg. WETH net is +0.284515 (11.158956 - 10.874441); the 0.234246 ETH call out of the back leg (likely a miner or builder payment) leaves +0.050269, and both legs show 0 gas fee, so the sign is positive.\"}",
+ "case_id": "rej53_024",
+ "_time": "2026-10-13T21:58:06+0800"
+}

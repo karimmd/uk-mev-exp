@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xc9993ec8646f50cd5e239e845e525d2abb2a6809",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.078914,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.078914,
+ "residual": "583809788.238298 CyberE",
+ "confidence": 5,
+ "note": "Same actor 0x1d6e8bac... buys CyberE in front and sells CyberE in back on pool 0xc999..., with the victim's second hop trading on the same pool between them. Net WETH is +0.078914 and gas fees are zero; a positive CyberE residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2407,
+  "output_tokens": 7240,
+  "thinking_tokens": 7053
+ },
+ "_request_id": "3e80ebab616357a44b36955927b7d135",
+ "_response_id": "e9908f1c-2b19-4e18-9e0c-6d30e52fbb57",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xc9993ec8646f50cd5e239e845e525d2abb2a6809\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.078914,\"gas_eth\":0.0,\"profit_after_gas\":0.078914,\"residual\":\"583809788.238298 CyberE\",\"confidence\":5,\"note\":\"Same actor 0x1d6e8bac... buys CyberE in front and sells CyberE in back on pool 0xc999..., with the victim's second hop trading on the same pool between them. Net WETH is +0.078914 and gas fees are zero; a positive CyberE residual remains.\"}",
+ "case_id": "pack_046",
+ "_time": "2026-10-19T19:08:50+0800"
+}

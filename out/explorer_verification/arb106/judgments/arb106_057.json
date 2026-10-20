@@ -1,0 +1,24 @@
+{
+ "actor": "0xa1006d0051a35b0000f961a8000000009ea8d2db",
+ "pools": [
+  "0x20e95253e54490d8d30ea41574b24f741ee70201",
+  "0x6c6bc977e13df9b0de53b251522280bb72383700",
+  "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002764,
+ "gas_eth": 0.052531,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 13.699350 WETH into the USDC/WETH V2 pool. The USDC goes pool to pool through the V3 pool, then the DAI goes on to the DAI/WETH V2 pool, which returns 13.754645 WETH. Gross gain is 0.055295 WETH, and after the 0.052531 ETH fee the net is about +0.002764 ETH. The actor holds no intermediate USDC or DAI and nothing is minted. The sender, not the actor contract, pays the gas, so I assumed they are the same operator.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0200627,
+ "_session": "3ffb9d0d-7239-492f-8430-6d76ee5b3349",
+ "_raw": "{\"actor\": \"0xa1006d0051a35b0000f961a8000000009ea8d2db\", \"pools\": [\"0x20e95253e54490d8d30ea41574b24f741ee70201\", \"0x6c6bc977e13df9b0de53b251522280bb72383700\", \"0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.002764, \"gas_eth\": 0.052531, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 13.699350 WETH into the USDC/WETH V2 pool. The USDC goes pool to pool through the V3 pool, then the DAI goes on to the DAI/WETH V2 pool, which returns 13.754645 WETH. Gross gain is 0.055295 WETH, and after the 0.052531 ETH fee the net is about +0.002764 ETH. The actor holds no intermediate USDC or DAI and nothing is minted. The sender, not the actor contract, pays the gas, so I assumed they are the same operator.\"}",
+ "case_id": "arb106_057",
+ "_time": "2026-10-13T22:23:39+0800"
+}

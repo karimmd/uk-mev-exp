@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.458174,
+ "gas_eth": 0.00968,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives BOND from the UniswapV2 BOND/USDC pool in the front leg and sends the same BOND back in the back leg; the victim trades on that same pool. Gross WETH net is +0.467854 ETH/WETH; after front/back gas the net is +0.458174 ETH, with no residual non-WETH holding left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2564,
+  "output_tokens": 9206,
+  "thinking_tokens": 9027
+ },
+ "_request_id": "9b2068ebe9a9248ac0e455efd8668b64",
+ "_response_id": "3ef93658-47fe-49e2-9c2a-ee2f7a668951",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.458174,\"gas_eth\":0.00968,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives BOND from the UniswapV2 BOND/USDC pool in the front leg and sends the same BOND back in the back leg; the victim trades on that same pool. Gross WETH net is +0.467854 ETH/WETH; after front/back gas the net is +0.458174 ETH, with no residual non-WETH holding left.\"}",
+ "case_id": "pack_016",
+ "_time": "2026-10-19T18:02:07+0800"
+}

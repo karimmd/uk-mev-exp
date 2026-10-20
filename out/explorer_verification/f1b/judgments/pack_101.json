@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x063271fdac84b94e9283557f748594dc84092bf3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.435421,
+ "gas_eth": 0.024007,
+ "residual": "about 86.63 PROPHET (2917.690446 bought minus 2831.058526 sold)",
+ "confidence": 3,
+ "note": "The same contract buys PROPHET with 6.990214 WETH in the front leg and sells 2831.06 PROPHET for 8.425635 WETH in the back leg, on the PROPHET/WETH pool the victim also trades in between. Net is +1.435421 WETH before gas and about +1.4114 after, and the leftover PROPHET can only add to that. Confidence is reduced because the victim's route (WETH to DAI to PROPHET to WETH) sells PROPHET into the pool, the same direction as the actor's back leg, so it is not a classic victim-harming sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028200700000000002,
+ "_session": "d9db1541-eed5-4299-ba8a-d4664f63ee12",
+ "_raw": "{\"actor\": \"0x000000000000084e91743124a982076c59f10084\", \"pool\": \"0x063271fdac84b94e9283557f748594dc84092bf3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.435421, \"gas_eth\": 0.024007, \"residual\": \"about 86.63 PROPHET (2917.690446 bought minus 2831.058526 sold)\", \"confidence\": 3, \"note\": \"The same contract buys PROPHET with 6.990214 WETH in the front leg and sells 2831.06 PROPHET for 8.425635 WETH in the back leg, on the PROPHET/WETH pool the victim also trades in between. Net is +1.435421 WETH before gas and about +1.4114 after, and the leftover PROPHET can only add to that. Confidence is reduced because the victim's route (WETH to DAI to PROPHET to WETH) sells PROPHET into the pool, the same direction as the actor's back leg, so it is not a classic victim-harming sandwich.\"}",
+ "case_id": "pack_101",
+ "_time": "2026-10-13T20:24:21+0800"
+}

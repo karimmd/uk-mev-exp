@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs trade MXS/WETH on pool 0x13bb5add..., but the senders differ: front 0xbcdec0b5..., back 0x7612f25f.... Both the front and back legs buy MXS with ETH through the router, so neither sells. No single actor opens and then closes a position, and the back leg is another buyer, not a close. The victim also buys MXS, and its path runs through the SHIB/WETH pool. This fails the sandwich pattern, so there is no actor and no meaningful net figure.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3787,
+  "output_tokens": 268,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRsXKi7LeZWvhWjs1kq",
+ "_response_id": "msg_011CgBRsXjmTCEthR7z8Eqnz",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs trade MXS/WETH on pool 0x13bb5add..., but the senders differ: front 0xbcdec0b5..., back 0x7612f25f.... Both the front and back legs buy MXS with ETH through the router, so neither sells. No single actor opens and then closes a position, and the back leg is another buyer, not a close. The victim also buys MXS, and its path runs through the SHIB/WETH pool. This fails the sandwich pattern, so there is no actor and no meaningful net figure.\"}",
+ "case_id": "pack_194",
+ "_time": "2026-10-19T18:22:02+0800"
+}

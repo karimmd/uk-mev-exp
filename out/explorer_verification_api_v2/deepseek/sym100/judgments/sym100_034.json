@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x30296ea311779740ec158ff8c9e3a8c0217f8113",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.175235,
+ "gas_eth": 0.084765,
+ "profit_after_gas": 0.09047,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor sold BFLY for WETH in the front leg and bought the same BFLY amount back in the back leg on the same UniswapV2 pool the victim used. Net WETH is positive and remains positive after both gas fees; there is no residual BFLY.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2509,
+  "output_tokens": 2145,
+  "thinking_tokens": 1971
+ },
+ "_request_id": "1ebbeb6108f8afb6a2b42e2b96319791",
+ "_response_id": "04c13c9b-96c0-4963-8e8f-06d7609ed8b7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x30296ea311779740ec158ff8c9e3a8c0217f8113\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.175235,\"gas_eth\":0.084765,\"profit_after_gas\":0.09047,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor sold BFLY for WETH in the front leg and bought the same BFLY amount back in the back leg on the same UniswapV2 pool the victim used. Net WETH is positive and remains positive after both gas fees; there is no residual BFLY.\"}",
+ "case_id": "sym100_034",
+ "_time": "2026-10-19T19:31:32+0800"
+}

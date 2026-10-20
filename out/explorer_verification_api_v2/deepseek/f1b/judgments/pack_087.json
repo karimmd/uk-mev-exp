@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0,
+ "gas_eth": 0.015612,
+ "profit_after_gas": -0.015612,
+ "residual": "519.441522 TRU short",
+ "confidence": 4,
+ "note": "Actor contract 0x3dad sold 61603.191854 TRU for 13.726 WETH in front and bought back 61083.750332 TRU for the same 13.726 WETH in back on pool 0x80b4..., with the victim trading on the same pool in between. Net WETH is zero, gas makes it negative, and the actor is short 519.441522 TRU, so the position after observable cost is not positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2514,
+  "output_tokens": 16376,
+  "thinking_tokens": 16152
+ },
+ "_request_id": "d76141256b2257e17f69d296c0930f01",
+ "_response_id": "096c25f7-642a-4337-985e-a3039380421d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0,\"gas_eth\":0.015612,\"profit_after_gas\":-0.015612,\"residual\":\"519.441522 TRU short\",\"confidence\":4,\"note\":\"Actor contract 0x3dad sold 61603.191854 TRU for 13.726 WETH in front and bought back 61083.750332 TRU for the same 13.726 WETH in back on pool 0x80b4..., with the victim trading on the same pool in between. Net WETH is zero, gas makes it negative, and the actor is short 519.441522 TRU, so the position after observable cost is not positive.\"}",
+ "case_id": "pack_087",
+ "_time": "2026-10-19T19:16:13+0800"
+}

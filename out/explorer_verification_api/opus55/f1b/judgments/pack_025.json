@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xb143bbeb287dcd1034da6e7186ec695316fff78f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.35962,
+ "gas_eth": 2.564217,
+ "residual": "about 0.022913 XMT (dust, kept by the actor)",
+ "confidence": 5,
+ "note": "In the front leg, contract 0x...6b40 routes 338.12 WETH through the WETH/USDT pool into the XMT/USDT pool 0xb143 and buys 5.17M XMT. The victim then buys XMT with USDT on the same pool, and the back leg sells nearly the same XMT back for 341.05 WETH. The WETH gain of 2.9238 minus 2.5642 ETH of gas (mostly the 10578 gwei back leg) leaves about +0.3596 ETH, and the leftover XMT dust has no negative value, so the sign is not affected.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2842,
+  "output_tokens": 614,
+  "thinking_tokens": 270
+ },
+ "_request_id": "req_011CgBQKazi469144DPQh5Kc",
+ "_response_id": "msg_011CgBQKh7onsxEmmuSP7z5N",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xb143bbeb287dcd1034da6e7186ec695316fff78f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.35962, \"gas_eth\": 2.564217, \"residual\": \"about 0.022913 XMT (dust, kept by the actor)\", \"confidence\": 5, \"note\": \"In the front leg, contract 0x...6b40 routes 338.12 WETH through the WETH/USDT pool into the XMT/USDT pool 0xb143 and buys 5.17M XMT. The victim then buys XMT with USDT on the same pool, and the back leg sells nearly the same XMT back for 341.05 WETH. The WETH gain of 2.9238 minus 2.5642 ETH of gas (mostly the 10578 gwei back leg) leaves about +0.3596 ETH, and the leftover XMT dust has no negative value, so the sign is not affected.\"}",
+ "case_id": "pack_025",
+ "_time": "2026-10-19T18:01:46+0800"
+}

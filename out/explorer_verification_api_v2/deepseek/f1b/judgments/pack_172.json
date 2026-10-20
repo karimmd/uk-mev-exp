@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd234e8493d6690d6a7820d3f6e4f1f13579efe3a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.079697,
+ "gas_eth": 0,
+ "profit_after_gas": 0.079697,
+ "residual": "41242.073720 CHOW",
+ "confidence": 5,
+ "note": "The front and back legs buy and sell CHOW on the same UniswapV2 pool, with the victim trading on that pool in between. The actor nets +0.079697 WETH before gas, and gas fees are zero; it also retains about 41,242.07372 CHOW.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2749,
+  "output_tokens": 8577,
+  "thinking_tokens": 8392
+ },
+ "_request_id": "da3e01d1997f96880cdfb814d83aa50a",
+ "_response_id": "eb74d192-5171-48f7-bae9-712efe7d3988",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xd234e8493d6690d6a7820d3f6e4f1f13579efe3a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.079697,\"gas_eth\":0,\"profit_after_gas\":0.079697,\"residual\":\"41242.073720 CHOW\",\"confidence\":5,\"note\":\"The front and back legs buy and sell CHOW on the same UniswapV2 pool, with the victim trading on that pool in between. The actor nets +0.079697 WETH before gas, and gas fees are zero; it also retains about 41,242.07372 CHOW.\"}",
+ "case_id": "pack_172",
+ "_time": "2026-10-19T19:24:55+0800"
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.012,
+ "gas_eth": 0,
+ "profit_after_gas": 0.012,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 8.848543 WETH into the TRIBE/WETH V3 pool. The swap then runs TRIBE to FEI on the V2 pair, FEI to USDC on the V3 pool, and USDC to WETH on the 0x88e6 pool, which pays the actor 8.874758 WETH. That is +0.026215 WETH, and the actor then sends 0.014215 ETH out through an internal call, probably a miner tip, leaving +0.012. The explorer shows a gas price of 0 and a fee of 0, so no gas is subtracted. The self-destruct entries carry zero value.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3145,
+  "output_tokens": 1282,
+  "thinking_tokens": 809
+ },
+ "_request_id": "req_011CgBXRxrqkjkHXnGkNi8iY",
+ "_response_id": "msg_011CgBXRyRaCTeN8P72CuqWf",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.012,\"gas_eth\":0,\"profit_after_gas\":0.012,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 8.848543 WETH into the TRIBE/WETH V3 pool. The swap then runs TRIBE to FEI on the V2 pair, FEI to USDC on the V3 pool, and USDC to WETH on the 0x88e6 pool, which pays the actor 8.874758 WETH. That is +0.026215 WETH, and the actor then sends 0.014215 ETH out through an internal call, probably a miner tip, leaving +0.012. The explorer shows a gas price of 0 and a fee of 0, so no gas is subtracted. The self-destruct entries carry zero value.\"}",
+ "case_id": "arb106_076",
+ "_time": "2026-10-19T19:35:02+0800"
+}

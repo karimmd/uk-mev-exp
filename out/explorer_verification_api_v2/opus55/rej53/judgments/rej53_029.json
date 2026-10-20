@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a closed arbitrage by 0x0aa3e7a6: it buys GLM on pool b5f790 with 5.075036 WETH and sells it on 0x78740436 for 5.370238 WETH in the same transaction (+0.295 before gas). The back leg is a separate closed arbitrage by a different contract, 0x...5117dd3a (+0.073 before gas). The two legs have different actors and neither carries a GLM position across the victim, so there is no bracket and no single actor whose cross-leg net can be computed.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4542,
+  "output_tokens": 771,
+  "thinking_tokens": 478
+ },
+ "_request_id": "req_011CgBWstxJVkNtuozcV5iFV",
+ "_response_id": "msg_011CgBWsuHsqVC7nZzai9tfN",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0xb5f790a03b7559312d9e738df5056a4b4c8459f4\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a closed arbitrage by 0x0aa3e7a6: it buys GLM on pool b5f790 with 5.075036 WETH and sells it on 0x78740436 for 5.370238 WETH in the same transaction (+0.295 before gas). The back leg is a separate closed arbitrage by a different contract, 0x...5117dd3a (+0.073 before gas). The two legs have different actors and neither carries a GLM position across the victim, so there is no bracket and no single actor whose cross-leg net can be computed.\"}",
+ "case_id": "rej53_029",
+ "_time": "2026-10-19T19:27:46+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x575c3a99429352eda66661fc3857b9f83f58a73f",
+ "pool": "0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.074817,
+ "gas_eth": 0,
+ "residual": "none visible; the 0xcdebf323 token legs are not decoded but appear to be bought in the front leg and returned to the pool in the back leg",
+ "confidence": 4,
+ "note": "The actor contract sends 2.432921 WETH into pool 0xc532 in the front leg. The victim then buys the same token through that pool, and the actor receives 2.681661 WETH back from it in the back leg. That is +0.24874 WETH, less a 0.173923 ETH payment to 0x99c8\u2026 (probably a builder bribe), leaving about +0.0748 ETH. Gas fees are 0 at 0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2945,
+  "output_tokens": 897,
+  "thinking_tokens": 585
+ },
+ "_request_id": "req_011CgBRmgL2XgGwXSzvWskf5",
+ "_response_id": "msg_011CgBRmii9L6U4vxP65VuEX",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x575c3a99429352eda66661fc3857b9f83f58a73f\",\"pool\":\"0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.074817,\"gas_eth\":0,\"residual\":\"none visible; the 0xcdebf323 token legs are not decoded but appear to be bought in the front leg and returned to the pool in the back leg\",\"confidence\":4,\"note\":\"The actor contract sends 2.432921 WETH into pool 0xc532 in the front leg. The victim then buys the same token through that pool, and the actor receives 2.681661 WETH back from it in the back leg. That is +0.24874 WETH, less a 0.173923 ETH payment to 0x99c8\u2026 (probably a builder bribe), leaving about +0.0748 ETH. Gas fees are 0 at 0 gwei.\"}",
+ "case_id": "pack_173",
+ "_time": "2026-10-19T18:20:47+0800"
+}

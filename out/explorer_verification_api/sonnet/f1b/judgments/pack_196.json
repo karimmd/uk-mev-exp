@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is bought by 0x09c950e4... and the back leg is also a buy (ETH to MXS) by a different address, 0x5e487271.... Neither leg sells MXS back, so no single actor opens and closes a position and the victim's trade is on the same pool but it is not bracketed. The back leg also pays 0.0525 ETH in rather than receiving ETH, so it is not a close, and Q2 is no because no position is closed.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3818,
+  "output_tokens": 244,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRsrC2TSZC99hyTZ9tc",
+ "_response_id": "msg_011CgBRsrWsGQBWx33btjWAL",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is bought by 0x09c950e4... and the back leg is also a buy (ETH to MXS) by a different address, 0x5e487271.... Neither leg sells MXS back, so no single actor opens and closes a position and the victim's trade is on the same pool but it is not bracketed. The back leg also pays 0.0525 ETH in rather than receiving ETH, so it is not a close, and Q2 is no because no position is closed.\"}",
+ "case_id": "pack_196",
+ "_time": "2026-10-19T18:22:06+0800"
+}

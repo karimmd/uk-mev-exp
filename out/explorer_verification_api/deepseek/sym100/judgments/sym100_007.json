@@ -1,0 +1,31 @@
+{
+ "actor": "0x858dce0aa7250fbc24e37a684858fdb08f9681b9",
+ "pool": "0xe6f19dab7d43317344282f803f8e8d240708174a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0350863073,
+ "gas_eth": 0.0120006927,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are the same actor, both trading KEEP/WETH on UniswapV2 pool 0xe6f19dab7d43317344282f803f8e8d240708174a, with the victim selling KEEP on that same pool between them. The actor sells 20,000 KEEP for 4.056288 WETH then buys back 20,000 KEEP for 4.009201 WETH, netting +0.047087 WETH before gas and +0.0350863073 after gas, with no KEEP residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2416,
+  "output_tokens": 7176,
+  "thinking_tokens": 6952
+ },
+ "_request_id": "d5344b24622fc1aabea1d6be16c9b4f8",
+ "_response_id": "ca72e682-4c74-4d0b-bb69-746f179e7ae4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x858dce0aa7250fbc24e37a684858fdb08f9681b9\",\"pool\":\"0xe6f19dab7d43317344282f803f8e8d240708174a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.0350863073,\"gas_eth\":0.0120006927,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are the same actor, both trading KEEP/WETH on UniswapV2 pool 0xe6f19dab7d43317344282f803f8e8d240708174a, with the victim selling KEEP on that same pool between them. The actor sells 20,000 KEEP for 4.056288 WETH then buys back 20,000 KEEP for 4.009201 WETH, netting +0.047087 WETH before gas and +0.0350863073 after gas, with no KEEP residual.\"}",
+ "case_id": "sym100_007",
+ "_time": "2026-10-19T18:38:58+0800"
+}

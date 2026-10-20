@@ -1,0 +1,62 @@
+{
+  "defect_corrected": "set iteration over stratum keys made the seeded permutation stream order-dependent across processes; and the resolved-undecidable endpoint was compared against the original indicator's null",
+  "determinism": {
+    "note": "with the sort in place the result no longer depends on PYTHONHASHSEED; the run is repeated under two explicit values as the proof",
+    "pythonhashseed_env": "999",
+    "stratum_keys_sorted_before_every_accumulation_and_draw": true
+  },
+  "environment": {
+    "implementation": "CPython",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+    "python": "3.13.9"
+  },
+  "inputs": {
+    "case_group_map.csv": "10bb083786a2184b00e78c3ba773db0885c07d98fc73913f42a9a168be4ca1bf",
+    "task07_outcomes.jsonl": "298bd9477bdad6f727261e713af4a0e60acb5fcc2f63bf0aefcf6441a28c4fbd",
+    "this_script": "4b592409e13d15db14e997ca8172483853c35e3b4cc9d5a55c6bcfd529166290"
+  },
+  "min_cell": 20,
+  "n_all_rows": 17637,
+  "n_contrasted": 10557,
+  "n_missed": 258,
+  "n_recorded": 10299,
+  "permutations": 20000,
+  "produced_utc": "2026-09-20T17:01:30Z",
+  "purpose": "R2-08 C2 -- deterministic, bound-specific permutation nulls",
+  "results": {
+    "support": {
+      "cells_contributing": 21,
+      "null_95_band_pp": [
+        -8.1233,
+        7.5226
+      ],
+      "null_sd_pp": 4.0058,
+      "observed_standardized_diff_pp": -23.4493,
+      "outside_own_band": true,
+      "permutation_p_as_fraction": "1/20001",
+      "permutation_p_two_sided": 4.999750012499375e-05,
+      "permutations": 20000,
+      "point_estimate_abs_difference_pp": 0.0,
+      "published_point_estimate_pp": -23.4493,
+      "reproduces_published_point_estimate": true
+    },
+    "undecidable_to_support": {
+      "cells_contributing": 21,
+      "null_95_band_pp": [
+        -4.8422,
+        3.6739
+      ],
+      "null_sd_pp": 2.1933,
+      "observed_standardized_diff_pp": -11.0894,
+      "outside_own_band": true,
+      "permutation_p_as_fraction": "1/20001",
+      "permutation_p_two_sided": 4.999750012499375e-05,
+      "permutations": 20000,
+      "point_estimate_abs_difference_pp": 0.0,
+      "published_point_estimate_pp": -11.0894,
+      "reproduces_published_point_estimate": true
+    }
+  },
+  "seed": 20260920,
+  "strata_included": 21
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x4b3d09151ad295623ac9e50967739fd437b0d892",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047129,
+ "gas_eth": 0.033848,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract trades NCR in both legs, routing between the V2 pool 0x06bf and the V3 pool 0x4b3d that the victim also sells NCR into. Front sells NCR into V3 and back buys it out, with no NCR held after either leg. WETH nets -0.390566 in front and +0.452447 in back, which is +0.061881; subtracting the 0.014752 ETH sent onward gives 0.047129, and subtracting 0.033848 gas leaves about +0.0133 ETH. Confidence is limited because the legs are atomic V2/V3 round trips rather than a plainly held position.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0346467,
+ "_session": "fab2ab4a-d8b4-457c-af9a-0dde10144917",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0x4b3d09151ad295623ac9e50967739fd437b0d892\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.047129, \"gas_eth\": 0.033848, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract trades NCR in both legs, routing between the V2 pool 0x06bf and the V3 pool 0x4b3d that the victim also sells NCR into. Front sells NCR into V3 and back buys it out, with no NCR held after either leg. WETH nets -0.390566 in front and +0.452447 in back, which is +0.061881; subtracting the 0.014752 ETH sent onward gives 0.047129, and subtracting 0.033848 gas leaves about +0.0133 ETH. Confidence is limited because the legs are atomic V2/V3 round trips rather than a plainly held position.\"}",
+ "case_id": "pack_065",
+ "_time": "2026-10-13T20:16:44+0800"
+}

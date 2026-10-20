@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xb43542e6b7c209f7da4b579792f67a1844546ce8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.004612,
+ "gas_eth": 0.030475,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x...594e routes WETH through pool 9553 into TIDAL, then sells that TIDAL on pool b435 for 4266.374147 USDC. The victim then sells TIDAL into the same pool b435 for USDC, and the back leg returns exactly the same USDC to recover 1.958710 WETH. The WETH gain is 0.053566, less the 0.018479 ETH internal payment to 0x8595 and 0.030475 gas, leaving about +0.0046 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3561,
+  "output_tokens": 695,
+  "thinking_tokens": 402
+ },
+ "_request_id": "req_011CgBQGpHqQ1xrc9QMXU2KA",
+ "_response_id": "msg_011CgBQGpg99oE5RVrAbWpYH",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0xb43542e6b7c209f7da4b579792f67a1844546ce8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.004612, \"gas_eth\": 0.030475, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x...594e routes WETH through pool 9553 into TIDAL, then sells that TIDAL on pool b435 for 4266.374147 USDC. The victim then sells TIDAL into the same pool b435 for USDC, and the back leg returns exactly the same USDC to recover 1.958710 WETH. The WETH gain is 0.053566, less the 0.018479 ETH internal payment to 0x8595 and 0.030475 gas, leaving about +0.0046 ETH.\"}",
+ "case_id": "pack_022",
+ "_time": "2026-10-19T18:01:10+0800"
+}

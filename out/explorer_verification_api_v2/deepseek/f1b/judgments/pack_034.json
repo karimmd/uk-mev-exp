@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x23a9292830fc80db7f563edb28d2fe6fb47f8624",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.111993,
+ "gas_eth": 0.0836085564,
+ "profit_after_gas": 0.0283844436,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives 38.437980 SFI in the front leg and sends the same amount in the back leg, both on the shared UniswapV2-like SFI/WETH pool. Net WETH increases by 0.111993 before gas, and after front/back gas the result remains positive with no residual SFI.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2774,
+  "output_tokens": 3366,
+  "thinking_tokens": 3183
+ },
+ "_request_id": "20ee73b36876eef5288ffdc76ce3966c",
+ "_response_id": "03dd7a4a-e3f4-4a06-bb85-f3e982a0a3b9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x23a9292830fc80db7f563edb28d2fe6fb47f8624\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.111993,\"gas_eth\":0.0836085564,\"profit_after_gas\":0.0283844436,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives 38.437980 SFI in the front leg and sends the same amount in the back leg, both on the shared UniswapV2-like SFI/WETH pool. Net WETH increases by 0.111993 before gas, and after front/back gas the result remains positive with no residual SFI.\"}",
+ "case_id": "pack_034",
+ "_time": "2026-10-19T19:07:17+0800"
+}

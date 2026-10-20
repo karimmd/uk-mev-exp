@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "Front sender 0xf1f3...a1e0 holds 193.826 PRIA bought for 0.114018 ETH and never sold it. The back sender 0x1a87...a598 holds 189.93 PRIA bought for 0.121443 ETH.",
+ "confidence": 5,
+ "note": "All three legs are ETH-to-PRIA buys on the same pool (swapExactETHForTokens, with an ETH refund and PRIA received by each sender). The back leg is a second buy by a different address, not a sale of the front position, so there is no open-and-close bracket. With no close, no actor has a net ETH figure, so the sign is undetermined (gas for front plus back is 0.103683 ETH).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0270007,
+ "_session": "57d046c4-2453-42cd-b405-d404e3609fed",
+ "_raw": "{\"actor\": null, \"pool\": \"0xac350eefccdae050614070e5040e17759cebb3e9\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"Front sender 0xf1f3...a1e0 holds 193.826 PRIA bought for 0.114018 ETH and never sold it. The back sender 0x1a87...a598 holds 189.93 PRIA bought for 0.121443 ETH.\", \"confidence\": 5, \"note\": \"All three legs are ETH-to-PRIA buys on the same pool (swapExactETHForTokens, with an ETH refund and PRIA received by each sender). The back leg is a second buy by a different address, not a sale of the front position, so there is no open-and-close bracket. With no close, no actor has a net ETH figure, so the sign is undetermined (gas for front plus back is 0.103683 ETH).\"}",
+ "case_id": "pack_138",
+ "_time": "2026-10-13T20:31:13+0800"
+}

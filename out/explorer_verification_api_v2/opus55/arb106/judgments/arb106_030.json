@@ -1,0 +1,41 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d",
+  "0xd876bea7f5121a8e21459224e58aec6c933a16e9",
+  "0x3a5dbafbac514a0b40dcdf3bc3ff7763da9d2d37",
+  "0x132eeb05d5cb6829bd34f552cde0b6b708ef5014"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.028098,
+ "gas_eth": 0.027963,
+ "profit_after_gas": 0.000135,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The transaction runs two WETH cycles. The first goes WETH->DIA->USDC->WETH through pools 4dc0, d876 and 88e6 and nets +0.015392 WETH. The second goes WETH->VSP->WETH through pools 132e and 3a5d and nets +0.012706 WETH. Intermediate tokens pass pool to pool, the actor holds nothing else at the end, and the WETH gain exceeds the 0.027963 ETH gas fee by only about 0.000135 ETH, a thin but positive margin with no visible builder payment.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2675,
+  "output_tokens": 1010,
+  "thinking_tokens": 494
+ },
+ "_request_id": "req_011CgBXEpRXUaHP1HzrVfKyC",
+ "_response_id": "msg_011CgBXEpn7PidLaYCk3fwjk",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\", \"pools\": [\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d\", \"0xd876bea7f5121a8e21459224e58aec6c933a16e9\", \"0x3a5dbafbac514a0b40dcdf3bc3ff7763da9d2d37\", \"0x132eeb05d5cb6829bd34f552cde0b6b708ef5014\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.028098, \"gas_eth\": 0.027963, \"profit_after_gas\": 0.000135, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The transaction runs two WETH cycles. The first goes WETH->DIA->USDC->WETH through pools 4dc0, d876 and 88e6 and nets +0.015392 WETH. The second goes WETH->VSP->WETH through pools 132e and 3a5d and nets +0.012706 WETH. Intermediate tokens pass pool to pool, the actor holds nothing else at the end, and the WETH gain exceeds the 0.027963 ETH gas fee by only about 0.000135 ETH, a thin but positive margin with no visible builder payment.\"}",
+ "case_id": "arb106_030",
+ "_time": "2026-10-19T19:32:31+0800"
+}

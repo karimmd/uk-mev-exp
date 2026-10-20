@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000cb53d776774284822b1298ade47f",
+ "pool": "0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.050223,
+ "gas_eth": 0.0,
+ "residual": "481026501859.613281 KEANU",
+ "confidence": 5,
+ "note": "Front and back both use contract 0x000...cb53 on the KEANU/WETH Uniswap V2 pool 0xfee..., and the victim also trades that pool in between. Net WETH gain is 0.050223 ETH with zero gas, while 481026501859.613281 KEANU remains as residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2671,
+  "output_tokens": 6091,
+  "thinking_tokens": 5920
+ },
+ "_request_id": "c09099ab09f7ab023951ad25b8944764",
+ "_response_id": "013c47ad-582b-4270-b4bc-1edfc63dedc3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000cb53d776774284822b1298ade47f\",\"pool\":\"0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.050223,\"gas_eth\":0.0,\"residual\":\"481026501859.613281 KEANU\",\"confidence\":5,\"note\":\"Front and back both use contract 0x000...cb53 on the KEANU/WETH Uniswap V2 pool 0xfee..., and the victim also trades that pool in between. Net WETH gain is 0.050223 ETH with zero gas, while 481026501859.613281 KEANU remains as residual.\"}",
+ "case_id": "pack_185",
+ "_time": "2026-10-19T18:34:54+0800"
+}

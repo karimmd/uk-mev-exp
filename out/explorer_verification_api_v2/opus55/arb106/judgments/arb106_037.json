@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000000000438f975cbde76d5fdd1aa76be46577",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth_before_gas": 0.113016,
+ "gas_eth": 0.191713,
+ "profit_after_gas": -0.078697,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 5.818196 WETH into a closed cycle through three UniswapV2 pools (WETH to YLD, YLD to RFI, RFI to WETH) and receives 5.931212 WETH back, a gross gain of 0.113016 WETH. The 0.191713 ETH fee at 467.9 gwei exceeds that gain, and no compensating ETH inflow is shown, so the result after gas is negative. The fee is paid by the sender EOA, and the self-destructs of gas-token contracts (GST2-style) suggest the gas already reflects refunds.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2873,
+  "output_tokens": 864,
+  "thinking_tokens": 421
+ },
+ "_request_id": "req_011CgBXHtdNBd3j4T3CV3eXi",
+ "_response_id": "msg_011CgBXHu1SYrJEXKxLs72Nf",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000000438f975cbde76d5fdd1aa76be46577\", \"pools\": [\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\", \"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\", \"0x4c8341379e95f70c08defb76c4f9c036525edc30\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"no\", \"net_eth_before_gas\": 0.113016, \"gas_eth\": 0.191713, \"profit_after_gas\": -0.078697, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 5.818196 WETH into a closed cycle through three UniswapV2 pools (WETH to YLD, YLD to RFI, RFI to WETH) and receives 5.931212 WETH back, a gross gain of 0.113016 WETH. The 0.191713 ETH fee at 467.9 gwei exceeds that gain, and no compensating ETH inflow is shown, so the result after gas is negative. The fee is paid by the sender EOA, and the self-destructs of gas-token contracts (GST2-style) suggest the gas already reflects refunds.\"}",
+ "case_id": "arb106_037",
+ "_time": "2026-10-19T19:33:12+0800"
+}

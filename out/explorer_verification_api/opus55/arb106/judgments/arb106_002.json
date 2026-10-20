@@ -1,0 +1,40 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0xce7e98d4da6ebda6af474ea618c6b175729cd366",
+  "0xa5c475167f03b1556c054e0da78192cd2779087f",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.015069,
+ "gas_eth": 0.052853,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 5.667178 WETH into a five-pool chain (WETH->FODL->USDC->FRAX->0x3432 [likely FXS, mislabeled FRAX]->WETH). The intermediate tokens pass directly from pool to pool, and the last pool returns 5.735764 WETH to the actor, so the actor holds only WETH at the end. Net is +0.068586 WETH minus a 0.000664 ETH internal payment (likely a miner tip) minus 0.052853 ETH gas, about +0.015069 ETH after cost (net_eth is shown after gas).",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2538,
+  "output_tokens": 1207,
+  "thinking_tokens": 721
+ },
+ "_request_id": "req_011CgBSxnzo9L7EhQmBcZvSe",
+ "_response_id": "msg_011CgBSxpte44zS6x5qXLaLn",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0xce7e98d4da6ebda6af474ea618c6b175729cd366\", \"0xa5c475167f03b1556c054e0da78192cd2779087f\", \"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\", \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\", \"0xcd8286b48936cdac20518247dbd310ab681a9fbf\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.015069, \"gas_eth\": 0.052853, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 5.667178 WETH into a five-pool chain (WETH->FODL->USDC->FRAX->0x3432 [likely FXS, mislabeled FRAX]->WETH). The intermediate tokens pass directly from pool to pool, and the last pool returns 5.735764 WETH to the actor, so the actor holds only WETH at the end. Net is +0.068586 WETH minus a 0.000664 ETH internal payment (likely a miner tip) minus 0.052853 ETH gas, about +0.015069 ETH after cost (net_eth is shown after gas).\"}",
+ "case_id": "arb106_002",
+ "_time": "2026-10-19T18:36:30+0800"
+}

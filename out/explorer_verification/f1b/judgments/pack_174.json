@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x360bb0c0c8451095f65568e77d04b4ee970c6ec1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.010172,
+ "gas_eth": 0.0,
+ "residual": "about 503529307956 BUGG (25196703991548.85 bought, 24693174683592.36 sold)",
+ "confidence": 4,
+ "note": "The same contract buys BUGG with 0.501452 WETH in the front leg and sells BUGG for 0.563097 WETH in the back leg, on the pool where the victim also buys BUGG in between. The WETH gain of 0.061645 less the 0.051473 ETH paid out to 0x99c85b... in the back leg leaves +0.010172 ETH, with gas at 0 gwei. The small leftover BUGG can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0251027,
+ "_session": "ab93da1b-77c4-4b27-8978-f49793a1a830",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x360bb0c0c8451095f65568e77d04b4ee970c6ec1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.010172, \"gas_eth\": 0.0, \"residual\": \"about 503529307956 BUGG (25196703991548.85 bought, 24693174683592.36 sold)\", \"confidence\": 4, \"note\": \"The same contract buys BUGG with 0.501452 WETH in the front leg and sells BUGG for 0.563097 WETH in the back leg, on the pool where the victim also buys BUGG in between. The WETH gain of 0.061645 less the 0.051473 ETH paid out to 0x99c85b... in the back leg leaves +0.010172 ETH, with gas at 0 gwei. The small leftover BUGG can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_174",
+ "_time": "2026-10-13T20:38:45+0800"
+}

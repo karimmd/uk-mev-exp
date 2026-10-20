@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xae06088ecb0e668db494ee64ae78af5e5b510797",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02417,
+ "gas_eth": 0.019665,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract buys DUCK from pool 0x69aa and sells it into pool 0xae06 in the front leg. The victim then sells DUCK into 0xae06, and in the back leg the actor buys DUCK from 0xae06 and sells it into 0x69aa. WETH net is -0.071787 + 0.095957 = +0.024170, and after 0.019665 ETH gas about +0.0045 ETH remains, with no DUCK held. The structure is a two-pool bracket around the victim, not a single-pool buy-then-sell, so Q1 is slightly less certain.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3448,
+  "output_tokens": 1097,
+  "thinking_tokens": 777
+ },
+ "_request_id": "req_011CgBSLs9KumPkqMxoSxeuK",
+ "_response_id": "msg_011CgBSLsXPWzQnQdGKxV78A",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xae06088ecb0e668db494ee64ae78af5e5b510797\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.02417,\"gas_eth\":0.019665,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract buys DUCK from pool 0x69aa and sells it into pool 0xae06 in the front leg. The victim then sells DUCK into 0xae06, and in the back leg the actor buys DUCK from 0xae06 and sells it into 0x69aa. WETH net is -0.071787 + 0.095957 = +0.024170, and after 0.019665 ETH gas about +0.0045 ETH remains, with no DUCK held. The structure is a two-pool bracket around the victim, not a single-pool buy-then-sell, so Q1 is slightly less certain.\"}",
+ "case_id": "sym100_075",
+ "_time": "2026-10-19T18:28:18+0800"
+}

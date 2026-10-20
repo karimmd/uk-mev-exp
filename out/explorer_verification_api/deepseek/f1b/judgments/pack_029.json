@@ -1,0 +1,31 @@
+{
+ "actor": "0x50004cb09702ced04e59dcdaff9df58b6cc97983",
+ "pool": "0x18d98d452072ac2eb7b74ce3db723374360539f1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.230902,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract opens an ibBTC position via the WBTC/ibBTC pool in the front leg, the victim trades on the same pool, and the actor closes the exact ibBTC amount in the back leg. Net WETH/ETH is positive after including the back-leg internal ETH transfer and zero front/back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3206,
+  "output_tokens": 4472,
+  "thinking_tokens": 4314
+ },
+ "_request_id": "6138479b6421aee7df47482e2afbe6fc",
+ "_response_id": "9ec652eb-0629-4310-be2d-71b9f765cc05",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x50004cb09702ced04e59dcdaff9df58b6cc97983\",\"pool\":\"0x18d98d452072ac2eb7b74ce3db723374360539f1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.230902,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract opens an ibBTC position via the WBTC/ibBTC pool in the front leg, the victim trades on the same pool, and the actor closes the exact ibBTC amount in the back leg. Net WETH/ETH is positive after including the back-leg internal ETH transfer and zero front/back gas fees.\"}",
+ "case_id": "pack_029",
+ "_time": "2026-10-19T18:07:05+0800"
+}

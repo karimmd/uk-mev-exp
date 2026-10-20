@@ -1,0 +1,31 @@
+{
+ "actor": "0xd270417bd419dc3f4d3cd53f65bfb719f498bac8",
+ "pool": "0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -20.004368,
+ "gas_eth": 0.004368,
+ "residual": "12814.694008 ORO (0xc3eb2622190c57429aac3901808994443b64b466)",
+ "confidence": 5,
+ "note": "Both front and back legs send ETH to the router and receive ORO from the same pool, so the back leg does not close the front position; the victim also trades the same pool. Net ETH/WETH is negative after gas, but the actor retains a large ORO balance, so the overall sign is not determinable without valuing that residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2672,
+  "output_tokens": 5761,
+  "thinking_tokens": 5563
+ },
+ "_request_id": "8630aa6551f88f0406d560362d38b3eb",
+ "_response_id": "085aaeb1-6946-4fc0-a6b9-626ec2d255c2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xd270417bd419dc3f4d3cd53f65bfb719f498bac8\",\"pool\":\"0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":-20.004368,\"gas_eth\":0.004368,\"residual\":\"12814.694008 ORO (0xc3eb2622190c57429aac3901808994443b64b466)\",\"confidence\":5,\"note\":\"Both front and back legs send ETH to the router and receive ORO from the same pool, so the back leg does not close the front position; the victim also trades the same pool. Net ETH/WETH is negative after gas, but the actor retains a large ORO balance, so the overall sign is not determinable without valuing that residual.\"}",
+ "case_id": "pack_115",
+ "_time": "2026-10-19T18:22:32+0800"
+}

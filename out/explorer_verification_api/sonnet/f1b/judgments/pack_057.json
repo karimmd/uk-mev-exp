@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions are sells of ETH2X-FLI into the same pool (0xf91c...), with the token going from 0x5617... to the pool and WETH coming back. Nothing is bought and then sold, so no position is opened and closed. The three senders are different and all call the same router (0xa57b...), so the front and back legs are not one actor. The pattern looks like three independent same-direction trades, not a sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2852,
+  "output_tokens": 231,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQgyrDSVU9irTTyRvbs",
+ "_response_id": "msg_011CgBQh6oBi163KUS1ZDGZY",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions are sells of ETH2X-FLI into the same pool (0xf91c...), with the token going from 0x5617... to the pool and WETH coming back. Nothing is bought and then sold, so no position is opened and closed. The three senders are different and all call the same router (0xa57b...), so the front and back legs are not one actor. The pattern looks like three independent same-direction trades, not a sandwich.\"}",
+ "case_id": "pack_057",
+ "_time": "2026-10-19T18:06:33+0800"
+}

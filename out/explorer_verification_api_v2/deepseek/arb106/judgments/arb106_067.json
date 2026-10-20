@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x7f517657496c09c43cc28d0ca131e35dcd557e02",
+  "0x0730abfb26cf04f7a31b20d42e88cd606a8441ea",
+  "0x60594a405d53811d3bc4766596efd80fd545a270"
+ ],
+ "cycle_token": "DAI",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.001156,
+ "gas_eth": 0,
+ "profit_after_gas": 0.001156,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x18c09... executed a flash-swap style arbitrage across three pools: 447.801405 DAI from V2 pair 0x7f... was used to buy RAIL on V3 pool 0x0730... to repay, and 25.701405 DAI was used to buy WETH on V3 pool 0x6059.... After unwrapping WETH and sending 0.010408 ETH to 0x5a0b..., the actor netted 0.001156 ETH; gas fee was zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1942,
+  "output_tokens": 11826,
+  "thinking_tokens": 11523
+ },
+ "_request_id": "3d0bda9e7ecc1f2f6099d3f3ffc5b212",
+ "_response_id": "6b48f26a-d6d6-427b-95e6-81301049a6f5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x7f517657496c09c43cc28d0ca131e35dcd557e02\",\"0x0730abfb26cf04f7a31b20d42e88cd606a8441ea\",\"0x60594a405d53811d3bc4766596efd80fd545a270\"],\"cycle_token\":\"DAI\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.001156,\"gas_eth\":0,\"profit_after_gas\":0.001156,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x18c09... executed a flash-swap style arbitrage across three pools: 447.801405 DAI from V2 pair 0x7f... was used to buy RAIL on V3 pool 0x0730... to repay, and 25.701405 DAI was used to buy WETH on V3 pool 0x6059.... After unwrapping WETH and sending 0.010408 ETH to 0x5a0b..., the actor netted 0.001156 ETH; gas fee was zero.\"}",
+ "case_id": "arb106_067",
+ "_time": "2026-10-19T20:02:10+0800"
+}

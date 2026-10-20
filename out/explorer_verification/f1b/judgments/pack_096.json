@@ -1,0 +1,17 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.556872,
+ "gas_eth": 0.082625,
+ "residual": "about 632.63 MINT (19974.459044 bought minus 19341.831531 sold)",
+ "confidence": 4,
+ "note": "The contract 0x7f94\u2026 bought MINT with 20.907221 WETH in the front leg and sold 19341.83 MINT for 21.464093 WETH in the back leg. Both legs are on the MINT/WETH pool 0x092e\u2026, which the victim also swapped on (USDC\u2192WETH\u2192MINT) between them. The WETH gain is +0.556872 and gas for the two legs is 0.082625, leaving about +0.4742 ETH. The unsold MINT residual is a positive holding, so it cannot flip the sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026506799999999997,
+ "_session": "61db19b0-c188-459d-8dc0-ee2358a66cdd",
+ "_raw": "{\"actor\": \"0x7f941cdae3c01906e42f8325af0693a848f81072\", \"pool\": \"0x092e793afe54366601eb7ef7e63b6abb93edb485\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.556872, \"gas_eth\": 0.082625, \"residual\": \"about 632.63 MINT (19974.459044 bought minus 19341.831531 sold)\", \"confidence\": 4, \"note\": \"The contract 0x7f94\u2026 bought MINT with 20.907221 WETH in the front leg and sold 19341.83 MINT for 21.464093 WETH in the back leg. Both legs are on the MINT/WETH pool 0x092e\u2026, which the victim also swapped on (USDC\u2192WETH\u2192MINT) between them. The WETH gain is +0.556872 and gas for the two legs is 0.082625, leaving about +0.4742 ETH. The unsold MINT residual is a positive holding, so it cannot flip the sign.\"}",
+ "case_id": "pack_096",
+ "_time": "2026-10-13T20:23:23+0800"
+}

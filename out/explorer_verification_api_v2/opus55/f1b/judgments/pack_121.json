@@ -1,0 +1,32 @@
+{
+ "actor": "0x7b78eb388fe213037b0f558a4a5935fe27b1e481",
+ "pool": "0xd583d0824ed78767e0e35b9bf7a636c81c665aa8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.107903,
+ "gas_eth": 0.056554,
+ "profit_after_gas": 0.051349,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x7b78 wraps 3.76 ETH and buys 1943.610652 LYXE on pool 0xd583. The victim then buys LYXE on the same pool, and 0x7b78 sells exactly 1943.610652 LYXE back for 3.867903 WETH, which it unwraps. That leaves +0.107903 ETH before 0.056554 ETH of gas, with no residual LYXE.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3524,
+  "output_tokens": 600,
+  "thinking_tokens": 306
+ },
+ "_request_id": "req_011CgBVmLHEjAEXBRNkNcang",
+ "_response_id": "msg_011CgBVmLd5aSE1yDvmdUeRC",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7b78eb388fe213037b0f558a4a5935fe27b1e481\", \"pool\": \"0xd583d0824ed78767e0e35b9bf7a636c81c665aa8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.107903, \"gas_eth\": 0.056554, \"profit_after_gas\": 0.051349, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x7b78 wraps 3.76 ETH and buys 1943.610652 LYXE on pool 0xd583. The victim then buys LYXE on the same pool, and 0x7b78 sells exactly 1943.610652 LYXE back for 3.867903 WETH, which it unwraps. That leaves +0.107903 ETH before 0.056554 ETH of gas, with no residual LYXE.\"}",
+ "case_id": "pack_121",
+ "_time": "2026-10-19T19:13:09+0800"
+}

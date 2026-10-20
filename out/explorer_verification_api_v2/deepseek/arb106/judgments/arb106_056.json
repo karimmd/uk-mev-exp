@@ -1,0 +1,39 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.020003,
+ "gas_eth": 0.018603,
+ "profit_after_gas": 0.0014,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x9762 received 4.330003 WETH from pool 0xf1b6 and sent 4.31 WETH to pool 0xc2e9, netting 0.020003 WETH. DAI and OHM were routed directly between pools to complete a WETH->DAI->OHM->WETH cycle. After 0.018603 ETH gas, profit is 0.0014 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1565,
+  "output_tokens": 5487,
+  "thinking_tokens": 5203
+ },
+ "_request_id": "45b814e22e5d6a463ec3b199d04fe98d",
+ "_response_id": "a78d7b16-c0f7-49da-9311-1e971e4ddd94",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x9762b1d716bb97735905996e013d61c140722249\",\"pools\":[\"0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.020003,\"gas_eth\":0.018603,\"profit_after_gas\":0.0014,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x9762 received 4.330003 WETH from pool 0xf1b6 and sent 4.31 WETH to pool 0xc2e9, netting 0.020003 WETH. DAI and OHM were routed directly between pools to complete a WETH->DAI->OHM->WETH cycle. After 0.018603 ETH gas, profit is 0.0014 ETH.\"}",
+ "case_id": "arb106_056",
+ "_time": "2026-10-19T20:00:09+0800"
+}

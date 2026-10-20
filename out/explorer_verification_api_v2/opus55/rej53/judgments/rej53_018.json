@@ -1,0 +1,32 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd4981ed8892cacc135192385de05b19684231e74",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.054149,
+ "gas_eth": 0.032678,
+ "profit_after_gas": 0.021471,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg, contract 0x7cf0 routed WETH through the WETH/SST pool and sold the SST into the SST/USDT pool 0xd498, ending with 605.539644 USDT. The victim then sold SST into the same 0xd498 pool, and in the back leg the same 605.539644 USDT went back through 0xd498 and the WETH/SST pool, returning 0.635734 WETH against 0.581585 WETH sent. That leaves about 0.054 ETH before gas, about 0.021 ETH after gas, with no leftover tokens.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3909,
+  "output_tokens": 695,
+  "thinking_tokens": 357
+ },
+ "_request_id": "req_011CgBWpDNDMdUi86iU2e7Gg",
+ "_response_id": "msg_011CgBWpDhJSW5EgXd62KMYA",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xd4981ed8892cacc135192385de05b19684231e74\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.054149, \"gas_eth\": 0.032678, \"profit_after_gas\": 0.021471, \"residual\": \"none\", \"confidence\": 4, \"note\": \"In the front leg, contract 0x7cf0 routed WETH through the WETH/SST pool and sold the SST into the SST/USDT pool 0xd498, ending with 605.539644 USDT. The victim then sold SST into the same 0xd498 pool, and in the back leg the same 605.539644 USDT went back through 0xd498 and the WETH/SST pool, returning 0.635734 WETH against 0.581585 WETH sent. That leaves about 0.054 ETH before gas, about 0.021 ETH after gas, with no leftover tokens.\"}",
+ "case_id": "rej53_018",
+ "_time": "2026-10-19T19:26:56+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x635b58600509acfe70e0bd4c4935c08182774e58",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.087624,
+ "gas_eth": 0.086705,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 79355.203674 STACK with 3.475330 WETH in the front leg, then sells exactly that amount back for 3.562954 WETH in the back leg. Both legs use the STACK/WETH pool, which the victim also trades in between. The WETH gain is +0.087624, and after gas of 0.002134 + 0.084571 ETH the profit is about +0.000919 ETH, so the position is positive but thin.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2840,
+  "output_tokens": 547,
+  "thinking_tokens": 282
+ },
+ "_request_id": "req_011CgBRt9QcovbfnkY7nBLpr",
+ "_response_id": "msg_011CgBRt9oS3DfQShQ1YCxQC",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x01ff6318440f7d5553a82294d78262d5f5084eff\",\"pool\":\"0x635b58600509acfe70e0bd4c4935c08182774e58\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.087624,\"gas_eth\":0.086705,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 79355.203674 STACK with 3.475330 WETH in the front leg, then sells exactly that amount back for 3.562954 WETH in the back leg. Both legs use the STACK/WETH pool, which the victim also trades in between. The WETH gain is +0.087624, and after gas of 0.002134 + 0.084571 ETH the profit is about +0.000919 ETH, so the position is positive but thin.\"}",
+ "case_id": "pack_198",
+ "_time": "2026-10-19T18:22:12+0800"
+}

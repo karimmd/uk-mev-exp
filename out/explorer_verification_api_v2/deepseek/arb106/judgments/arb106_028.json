@@ -1,0 +1,38 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "SAITAMA",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008952,
+ "gas_eth": 0.006204,
+ "profit_after_gas": 0.002748,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor sends WETH to the first pool and receives more WETH from the second, while SAITAMA is routed directly between the two pools. Net WETH profit is about 0.008952 ETH before gas and remains positive after the 0.006204 ETH gas fee.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1468,
+  "output_tokens": 13749,
+  "thinking_tokens": 13528
+ },
+ "_request_id": "fe858fd2f448cb47afc21a1e34784194",
+ "_response_id": "73a30eb6-eea8-4d8b-bc82-6da95de7f8bb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdfee68a9adb981cd08699891a11cabe10f25ec44\",\"pools\":[\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\",\"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"],\"cycle_token\":\"SAITAMA\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.008952,\"gas_eth\":0.006204,\"profit_after_gas\":0.002748,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor sends WETH to the first pool and receives more WETH from the second, while SAITAMA is routed directly between the two pools. Net WETH profit is about 0.008952 ETH before gas and remains positive after the 0.006204 ETH gas fee.\"}",
+ "case_id": "arb106_028",
+ "_time": "2026-10-19T19:53:36+0800"
+}

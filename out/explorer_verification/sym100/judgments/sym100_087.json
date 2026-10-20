@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x7d9c8d888d03df89461c645bd1108ae138b63a2a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.339749,
+ "gas_eth": 0.032541,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (called by the same sender in both legs) sells 807641.186241 GLQ into the pool for 9.829 WETH in the front leg. The victim then sells 700000 GLQ into that pool. The back leg buys back exactly 807641.186241 GLQ for 9.489251 WETH. The WETH net is +0.339749, and after 0.032541 ETH of gas it is about +0.30721 ETH. This is a sell-side sandwich, so the actor needed GLQ inventory beforehand. The GLQ position nets to zero.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0265192,
+ "_session": "81d1fda9-20f0-4ec5-9f59-28c3a066b6d3",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x7d9c8d888d03df89461c645bd1108ae138b63a2a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.339749, \"gas_eth\": 0.032541, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract (called by the same sender in both legs) sells 807641.186241 GLQ into the pool for 9.829 WETH in the front leg. The victim then sells 700000 GLQ into that pool. The back leg buys back exactly 807641.186241 GLQ for 9.489251 WETH. The WETH net is +0.339749, and after 0.032541 ETH of gas it is about +0.30721 ETH. This is a sell-side sandwich, so the actor needed GLQ inventory beforehand. The GLQ position nets to zero.\"}",
+ "case_id": "sym100_087",
+ "_time": "2026-10-13T21:42:20+0800"
+}

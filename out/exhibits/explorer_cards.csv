@@ -1,0 +1,354 @@
+sample,card,arm,pattern,n2_outcome,trajectory_state,value_flow_state,w2_outcome,reader,Q1,Q2,confidence,actor_match,in_M
+f1b,pack_001,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_002,absent_258,buy_first,rejected,negative,negative,rejected,rejected,yes,no,3,True,
+f1b,pack_003,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_004,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_005,absent_258,buy_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_006,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_007,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_008,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_009,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_010,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_011,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_012,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_013,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_014,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_015,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_016,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_017,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_018,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_019,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_020,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_021,recorded,buy_first,rejected,positive,undecidable,rejected,rejected,yes,no,4,True,
+f1b,pack_022,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_023,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_024,absent_new,sell_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_025,absent_258,buy_first,undecidable,undecidable,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_026,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_027,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_028,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_029,absent_258,buy_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_030,absent_258,buy_first,rejected,positive,undecidable,rejected,undecidable,yes,cannot tell,3,True,
+f1b,pack_031,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_032,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_033,absent_258,buy_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_034,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_035,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_036,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_037,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_038,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_039,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,True,
+f1b,pack_040,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_041,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_042,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,True,
+f1b,pack_043,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_044,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_045,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_046,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,undecidable,yes,cannot tell,3,True,
+f1b,pack_047,recorded,buy_first,undecidable,positive,undecidable,undecidable,rejected,yes,no,4,True,
+f1b,pack_048,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_049,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,yes,4,False,
+f1b,pack_050,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,no,5,False,
+f1b,pack_051,absent_258,buy_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,3,True,
+f1b,pack_052,recorded,buy_first,undecidable,undecidable,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_053,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_054,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_055,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,undecidable,yes,cannot tell,4,True,
+f1b,pack_056,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_057,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,True,
+f1b,pack_058,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_059,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_060,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_061,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_062,absent_258,buy_first,undecidable,undecidable,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_063,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_064,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_065,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_066,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_067,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_068,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,no,4,False,
+f1b,pack_069,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,undecidable,yes,cannot tell,3,True,
+f1b,pack_070,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_071,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_072,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,True,
+f1b,pack_073,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,yes,4,False,
+f1b,pack_074,absent_new,sell_first,rejected,negative,positive,rejected,structurally_supported,yes,yes,2,True,
+f1b,pack_075,absent_258,buy_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_076,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_077,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_078,comparison,same_direction_or_other,undecidable,positive,undecidable,undecidable,rejected,no,cannot tell,4,False,
+f1b,pack_079,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_080,absent_258,buy_first,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_081,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_082,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_083,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_084,comparison,sell_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_085,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,3,False,
+f1b,pack_086,absent_258,buy_first,undecidable,undecidable,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_087,comparison,sell_first,rejected,positive,undecidable,rejected,rejected,yes,no,3,True,
+f1b,pack_088,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_089,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_090,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_091,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_092,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_093,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_094,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_095,absent_258,buy_first,undecidable,undecidable,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_096,absent_258,buy_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_097,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_098,recorded,buy_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_099,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_100,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_101,absent_258,buy_first,rejected,negative,undecidable,rejected,structurally_supported,yes,yes,3,True,
+f1b,pack_102,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_103,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_104,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_105,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_106,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_107,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_108,comparison,same_direction_or_other,undecidable,undecidable,undecidable,undecidable,rejected,no,cannot tell,4,False,
+f1b,pack_109,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_110,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_111,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_112,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_113,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_114,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_115,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,True,
+f1b,pack_116,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_117,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_118,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_119,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_120,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,True,
+f1b,pack_121,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_122,absent_258,buy_first,rejected,negative,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_123,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_124,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_125,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_126,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_127,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,True,
+f1b,pack_128,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_129,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_130,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_131,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_132,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_133,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_134,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_135,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_136,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_137,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_138,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,5,False,
+f1b,pack_139,comparison,sell_first,rejected,positive,negative,rejected,rejected,yes,no,3,True,
+f1b,pack_140,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_141,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_142,absent_258,buy_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,
+f1b,pack_143,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,yes,4,False,
+f1b,pack_144,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_145,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_146,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_147,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,5,False,
+f1b,pack_148,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_149,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_150,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_151,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_152,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_153,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_154,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_155,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_156,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_157,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,4,True,
+f1b,pack_158,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_159,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_160,absent_258,buy_first,rejected,positive,negative,rejected,rejected,yes,no,4,True,
+f1b,pack_161,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_162,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_163,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_164,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_165,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_166,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_167,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_168,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_169,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_170,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_171,absent_258,buy_first,undecidable,positive,undecidable,undecidable,rejected,no,no,4,False,
+f1b,pack_172,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,3,True,
+f1b,pack_173,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_174,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_175,recorded,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_176,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_177,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_178,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_179,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_180,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_181,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_182,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_183,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_184,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_185,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_186,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,undecidable,yes,cannot tell,3,True,
+f1b,pack_187,absent_258,buy_first,structurally_supported,positive,undecidable,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_188,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_189,absent_258,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+f1b,pack_190,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,5,True,
+f1b,pack_191,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,no,4,True,
+f1b,pack_192,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_193,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_194,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_195,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,
+f1b,pack_196,comparison,same_direction_or_other,rejected,negative,undecidable,rejected,rejected,no,no,4,False,
+f1b,pack_197,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_198,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_199,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,
+f1b,pack_200,recorded,buy_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,5,True,
+sym100,sym100_001,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_002,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_003,absent_new,sell_first,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,False,False
+sym100,sym100_004,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_005,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_006,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_007,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_008,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_009,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_010,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_011,absent_new,sell_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,True
+sym100,sym100_012,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_013,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_014,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_015,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_016,absent_new,sell_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_017,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_018,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_019,absent_new,sell_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,True
+sym100,sym100_020,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_021,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_022,absent_new,sell_first,rejected,negative,positive,rejected,rejected,no,yes,3,True,True
+sym100,sym100_023,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_024,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_025,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_026,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_027,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_028,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_029,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_030,absent_new,sell_first,rejected,negative,positive,rejected,structurally_supported,yes,yes,4,True,True
+sym100,sym100_031,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_032,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_033,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_034,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_035,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_036,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_037,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_038,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_039,absent_new,weth_only,rejected,negative,positive,rejected,rejected,no,yes,4,True,True
+sym100,sym100_040,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_041,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_042,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_043,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_044,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_045,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_046,absent_new,sell_first,rejected,negative,positive,rejected,rejected,no,yes,3,True,True
+sym100,sym100_047,absent_new,weth_only,undecidable,undecidable,positive,undecidable,structurally_supported,yes,yes,3,True,False
+sym100,sym100_048,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_049,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_050,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_051,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_052,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_053,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,3,True,True
+sym100,sym100_054,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_055,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_056,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,3,True,False
+sym100,sym100_057,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_058,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_059,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_060,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_061,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_062,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_063,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_064,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_065,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_066,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_067,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_068,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_069,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_070,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_071,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_072,absent_new,sell_first,rejected,negative,positive,rejected,rejected,no,yes,3,True,True
+sym100,sym100_073,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_074,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,rejected,no,no,3,True,False
+sym100,sym100_075,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_076,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_077,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,rejected,yes,no,3,True,True
+sym100,sym100_078,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_079,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_080,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_081,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_082,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_083,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_084,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_085,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_086,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_087,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_088,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_089,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_090,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_091,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_092,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,True
+sym100,sym100_093,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+sym100,sym100_094,absent_new,sell_first,rejected,negative,positive,rejected,structurally_supported,yes,yes,4,True,True
+sym100,sym100_095,absent_new,sell_first,rejected,negative,positive,rejected,rejected,no,yes,3,True,True
+sym100,sym100_096,absent_new,sell_first,undecidable,positive,undecidable,undecidable,structurally_supported,yes,yes,4,True,True
+sym100,sym100_097,absent_new,sell_first,rejected,negative,undecidable,rejected,structurally_supported,yes,yes,3,True,True
+sym100,sym100_098,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,False
+sym100,sym100_099,absent_new,weth_only,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,3,True,False
+sym100,sym100_100,absent_new,sell_first,structurally_supported,positive,positive,structurally_supported,structurally_supported,yes,yes,4,True,True
+rej53,rej53_001,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,5,,
+rej53,rej53_002,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_003,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_004,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_005,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_006,absent_258,buy_first,rejected,negative,undecidable,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_007,absent_258,buy_first,rejected,negative,positive,structurally_supported,rejected,yes,no,4,,
+rej53,rej53_008,absent_258,buy_first,rejected,negative,negative,rejected,rejected,yes,no,3,,
+rej53,rej53_009,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,5,,
+rej53,rej53_010,absent_258,buy_first,rejected,negative,undecidable,undecidable,structurally_supported,yes,yes,4,,
+rej53,rej53_011,absent_258,buy_first,rejected,negative,undecidable,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_012,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_013,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_014,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_015,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_016,absent_258,buy_first,rejected,negative,undecidable,undecidable,structurally_supported,yes,yes,4,,
+rej53,rej53_017,absent_258,buy_first,rejected,negative,undecidable,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_018,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_019,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,5,,
+rej53,rej53_020,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_021,absent_258,buy_first,rejected,negative,undecidable,rejected,structurally_supported,yes,yes,3,,
+rej53,rej53_022,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_023,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_024,absent_258,buy_first,rejected,negative,undecidable,undecidable,structurally_supported,yes,yes,4,,
+rej53,rej53_025,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_026,absent_258,buy_first,rejected,negative,undecidable,rejected,rejected,no,cannot tell,3,,
+rej53,rej53_027,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_028,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,3,,
+rej53,rej53_029,absent_258,buy_first,rejected,negative,undecidable,rejected,rejected,no,cannot tell,4,,
+rej53,rej53_030,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_031,absent_258,buy_first,rejected,negative,positive,rejected,structurally_supported,yes,yes,3,,
+rej53,rej53_032,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_033,absent_258,buy_first,rejected,negative,undecidable,rejected,undecidable,yes,cannot tell,3,,
+rej53,rej53_034,absent_258,buy_first,rejected,positive,undecidable,rejected,undecidable,yes,cannot tell,3,,
+rej53,rej53_035,absent_258,buy_first,rejected,negative,undecidable,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_036,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_037,absent_258,buy_first,rejected,negative,undecidable,undecidable,structurally_supported,yes,yes,4,,
+rej53,rej53_038,absent_258,buy_first,rejected,negative,undecidable,rejected,structurally_supported,yes,yes,4,,
+rej53,rej53_039,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_040,absent_258,buy_first,rejected,negative,undecidable,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_041,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_042,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_043,absent_258,buy_first,rejected,negative,undecidable,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_044,absent_258,buy_first,rejected,negative,undecidable,rejected,structurally_supported,yes,yes,3,,
+rej53,rej53_045,absent_258,buy_first,rejected,negative,negative,rejected,rejected,yes,no,4,,
+rej53,rej53_046,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_047,absent_258,buy_first,rejected,negative,positive,rejected,rejected,yes,no,4,,
+rej53,rej53_048,absent_258,buy_first,rejected,negative,undecidable,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_049,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_050,absent_258,buy_first,rejected,positive,negative,rejected,rejected,yes,no,4,,
+rej53,rej53_051,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_052,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,
+rej53,rej53_053,absent_258,buy_first,rejected,negative,positive,structurally_supported,structurally_supported,yes,yes,4,,

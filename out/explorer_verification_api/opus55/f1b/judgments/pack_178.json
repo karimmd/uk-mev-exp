@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x377931b4f6adceccfc1a080f7a88b4af9d060336",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.210797,
+ "gas_eth": 0.028011,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x499dd9 bought 508890.137675 TWO for 2.093795 WETH on UniswapV3 pool 0x3779 and sold the same amount back for 2.992646 WETH, with the victim's TWO buy on that pool between them. The back leg's 0.660043 ETH value went from the sender to the contract and on to 0x829bd8 (likely a builder or coinbase payment), so I treated it as a cost. net_eth is after gas: 2.992646 - 2.093795 - 0.660043 - 0.028011 = 0.210797.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3188,
+  "output_tokens": 735,
+  "thinking_tokens": 417
+ },
+ "_request_id": "req_011CgBRshi35bFvPgiWSnphv",
+ "_response_id": "msg_011CgBRsi3NnHP3SnUSfvvKr",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x377931b4f6adceccfc1a080f7a88b4af9d060336\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.210797, \"gas_eth\": 0.028011, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x499dd9 bought 508890.137675 TWO for 2.093795 WETH on UniswapV3 pool 0x3779 and sold the same amount back for 2.992646 WETH, with the victim's TWO buy on that pool between them. The back leg's 0.660043 ETH value went from the sender to the contract and on to 0x829bd8 (likely a builder or coinbase payment), so I treated it as a cost. net_eth is after gas: 2.992646 - 2.093795 - 0.660043 - 0.028011 = 0.210797.\"}",
+ "case_id": "pack_178",
+ "_time": "2026-10-19T18:22:09+0800"
+}

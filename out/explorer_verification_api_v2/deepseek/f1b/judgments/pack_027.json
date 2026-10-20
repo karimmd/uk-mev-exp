@@ -1,0 +1,32 @@
+{
+ "actor": "0xa1fac94eabbc27715a022a96009babfb4a49fb5d",
+ "pool": "0xfac2c7bc156c2c764ea21def2262ec2131100ab1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.16272,
+ "gas_eth": 0.03014568,
+ "profit_after_gas": 0.13257432,
+ "residual": "170704890.518497 RAKUC",
+ "confidence": 5,
+ "note": "Front buys RAKUC with WETH on the RAKUC/WETH pool, victim swaps through the same pool, and back sells RAKUC on the same pool. Net WETH is positive before gas and remains positive after gas, with a residual RAKUC holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3004,
+  "output_tokens": 8618,
+  "thinking_tokens": 8443
+ },
+ "_request_id": "2c16b8ff04e0782bb3a229a225cef52c",
+ "_response_id": "f3ab4478-c0df-45f0-abde-93b9ee80941a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa1fac94eabbc27715a022a96009babfb4a49fb5d\",\"pool\":\"0xfac2c7bc156c2c764ea21def2262ec2131100ab1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.16272,\"gas_eth\":0.03014568,\"profit_after_gas\":0.13257432,\"residual\":\"170704890.518497 RAKUC\",\"confidence\":5,\"note\":\"Front buys RAKUC with WETH on the RAKUC/WETH pool, victim swaps through the same pool, and back sells RAKUC on the same pool. Net WETH is positive before gas and remains positive after gas, with a residual RAKUC holding.\"}",
+ "case_id": "pack_027",
+ "_time": "2026-10-19T19:06:52+0800"
+}

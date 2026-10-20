@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x063271fdac84b94e9283557f748594dc84092bf3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.435421,
+ "gas_eth": 0.024007,
+ "residual": "about 86.63 PROPHET (2917.690446 received in front minus 2831.058526 sent in back)",
+ "confidence": 3,
+ "note": "The same contract buys PROPHET with 6.990214 WETH in the front leg and sells 2831.06 PROPHET for 8.425635 WETH in the back leg. Both legs use pool 0x0632\u2026, and the victim swaps on that pool in between. WETH net is +1.435421 and gas is 0.024007 ETH, so about +1.411 ETH after gas. The leftover PROPHET is a positive holding, so it cannot flip the sign. The victim sells PROPHET into the pool, so the fit is structural rather than a clear price-impact sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3769,
+  "output_tokens": 990,
+  "thinking_tokens": 656
+ },
+ "_request_id": "req_011CgBSc2Evo3ZwZiV16VHXw",
+ "_response_id": "msg_011CgBSc2b2QrqDZsZnoNzWW",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000000084e91743124a982076c59f10084\",\"pool\":\"0x063271fdac84b94e9283557f748594dc84092bf3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.435421,\"gas_eth\":0.024007,\"residual\":\"about 86.63 PROPHET (2917.690446 received in front minus 2831.058526 sent in back)\",\"confidence\":3,\"note\":\"The same contract buys PROPHET with 6.990214 WETH in the front leg and sells 2831.06 PROPHET for 8.425635 WETH in the back leg. Both legs use pool 0x0632\u2026, and the victim swaps on that pool in between. WETH net is +1.435421 and gas is 0.024007 ETH, so about +1.411 ETH after gas. The leftover PROPHET is a positive holding, so it cannot flip the sign. The victim sells PROPHET into the pool, so the fit is structural rather than a clear price-impact sandwich.\"}",
+ "case_id": "rej53_021",
+ "_time": "2026-10-19T18:31:43+0800"
+}

@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0xb52c5f5b96a428ff13cc5e60247b73cb4e13b2d9"
+ ],
+ "cycle_token": "FNK",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.003062,
+ "gas_eth": 0,
+ "profit_after_gas": 0.003062,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives and sends FNK across three pools, with FNK netting to zero. It receives WETH from a pool, withdraws it to ETH, sends 0.027552 ETH internally, and retains 0.003062 ETH profit; gas is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1994,
+  "output_tokens": 7425,
+  "thinking_tokens": 7175
+ },
+ "_request_id": "281f456d0aef4ca20ebf2214e0e11222",
+ "_response_id": "32c8cd91-f8bf-424e-a6c3-c386d25fadfb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0xb52c5f5b96a428ff13cc5e60247b73cb4e13b2d9\"],\"cycle_token\":\"FNK\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.003062,\"gas_eth\":0,\"profit_after_gas\":0.003062,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives and sends FNK across three pools, with FNK netting to zero. It receives WETH from a pool, withdraws it to ETH, sends 0.027552 ETH internally, and retains 0.003062 ETH profit; gas is zero.\"}",
+ "case_id": "arb106_062",
+ "_time": "2026-10-19T20:01:20+0800"
+}

@@ -1,0 +1,27 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xd03dffd02db4b076e3eed9272a6a243a23de16e3",
+  "0x1c98562a2fab5af19d8fb3291a36ac3c618835d9",
+  "0xca3d6a94759cb675f0ac10a76fc0da6ee6bf6e7b",
+  "0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8",
+  "0x5cf235c56418109fb7f0aacca1b75a0a38047ca9",
+  "0x04dd76803f247b611d4f470fc6cd206a9d02f869"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.073452,
+ "gas_eth": 0.065414,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs three V2/V3 pool pairs (METIS, LINK, EFI), each paying WETH into the V2 pool and receiving more WETH from the V3 pool. The token legs move pool to pool, so the actor never holds them. The WETH gains are 0.02524, 0.02448 and 0.023732, totalling 0.073452. After the 0.065414 ETH gas fee the net is about +0.008038 ETH, with no residual holding and no mint.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0248787,
+ "_session": "c09abd10-2278-498b-9a58-8f499efe91f7",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0xd03dffd02db4b076e3eed9272a6a243a23de16e3\", \"0x1c98562a2fab5af19d8fb3291a36ac3c618835d9\", \"0xca3d6a94759cb675f0ac10a76fc0da6ee6bf6e7b\", \"0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8\", \"0x5cf235c56418109fb7f0aacca1b75a0a38047ca9\", \"0x04dd76803f247b611d4f470fc6cd206a9d02f869\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.073452, \"gas_eth\": 0.065414, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs three V2/V3 pool pairs (METIS, LINK, EFI), each paying WETH into the V2 pool and receiving more WETH from the V3 pool. The token legs move pool to pool, so the actor never holds them. The WETH gains are 0.02524, 0.02448 and 0.023732, totalling 0.073452. After the 0.065414 ETH gas fee the net is about +0.008038 ETH, with no residual holding and no mint.\"}",
+ "case_id": "arb106_025",
+ "_time": "2026-10-13T22:16:00+0800"
+}

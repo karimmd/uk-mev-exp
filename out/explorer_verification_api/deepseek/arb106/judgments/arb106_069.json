@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
+  "0xbb2b8038a1640196fbe3e38816f3e67cba72d940",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+  "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.004861,
+ "gas_eth": 0.042814,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract b2bbfd... receives WETH from two V3 pools and sends WETH to two V2/V3 pools, with intermediate tokens routed directly between pools. Net WETH profit is 0.047675, leaving +0.004861 after the 0.042814 ETH gas fee.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1982,
+  "output_tokens": 11087,
+  "thinking_tokens": 10794
+ },
+ "_request_id": "853b6f8269c483eea0868ab29eadbdf0",
+ "_response_id": "ad9243d8-271c-4690-aed5-97e38562a28c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\",\"0xbb2b8038a1640196fbe3e38816f3e67cba72d940\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\",\"0x55d5c232d921b9eaa6b37b5845e439acd04b4dba\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.004861,\"gas_eth\":0.042814,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract b2bbfd... receives WETH from two V3 pools and sends WETH to two V2/V3 pools, with intermediate tokens routed directly between pools. Net WETH profit is 0.047675, leaving +0.004861 after the 0.042814 ETH gas fee.\"}",
+ "case_id": "arb106_069",
+ "_time": "2026-10-19T19:27:24+0800"
+}

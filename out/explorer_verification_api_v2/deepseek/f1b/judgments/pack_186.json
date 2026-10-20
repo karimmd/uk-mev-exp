@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0xaa736ca527252cf9f65abed23c21f5ac46af27e3",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 1.958944,
+ "gas_eth": 0.02274449,
+ "profit_after_gas": 1.93619951,
+ "residual": "16825.804927 $GOLD short",
+ "confidence": 5,
+ "note": "Front and back use the same UniswapV2 pool and the same actor contract holds then sells GOLD, with the victim trading on that pool between them. The WETH/ETH net before gas is +1.958944, but the actor sells 36674.453999 GOLD versus only 19848.649072 bought in front, leaving a 16825.804927 GOLD short/residual that prevents determining the overall sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2348,
+  "output_tokens": 9865,
+  "thinking_tokens": 9650
+ },
+ "_request_id": "9861d71e6cc7a1943d3ce47a61c1d5b0",
+ "_response_id": "3d9ad947-fcf2-475c-b9db-a8f8751b7926",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000c9fdd743c60055c0e4ea30d266272c1f\",\"pool\":\"0xaa736ca527252cf9f65abed23c21f5ac46af27e3\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":1.958944,\"gas_eth\":0.02274449,\"profit_after_gas\":1.93619951,\"residual\":\"16825.804927 $GOLD short\",\"confidence\":5,\"note\":\"Front and back use the same UniswapV2 pool and the same actor contract holds then sells GOLD, with the victim trading on that pool between them. The WETH/ETH net before gas is +1.958944, but the actor sells 36674.453999 GOLD versus only 19848.649072 bought in front, leaving a 16825.804927 GOLD short/residual that prevents determining the overall sign.\"}",
+ "case_id": "pack_186",
+ "_time": "2026-10-19T19:26:50+0800"
+}

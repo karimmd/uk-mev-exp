@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000951,
+ "gas_eth": 0.02199,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the contract routed WETH to LON to USDT, selling LON into the LON/USDT pool 0x55d3 just before the victim's own LON-to-USDT sale on that pool. The back leg reversed the exact 62451.878937 USDT. WETH net is +0.022941 against 0.02199 gas, which leaves a thin positive margin of about 0.00095 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3460,
+  "output_tokens": 674,
+  "thinking_tokens": 410
+ },
+ "_request_id": "req_011CgBSfhrW1rzycGhtStgsw",
+ "_response_id": "msg_011CgBSfiCLgxcnRak7gsj7W",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000951, \"gas_eth\": 0.02199, \"residual\": \"none\", \"confidence\": 4, \"note\": \"In the front leg the contract routed WETH to LON to USDT, selling LON into the LON/USDT pool 0x55d3 just before the victim's own LON-to-USDT sale on that pool. The back leg reversed the exact 62451.878937 USDT. WETH net is +0.022941 against 0.02199 gas, which leaves a thin positive margin of about 0.00095 ETH.\"}",
+ "case_id": "rej53_005",
+ "_time": "2026-10-19T18:32:32+0800"
+}

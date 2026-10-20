@@ -1,0 +1,41 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pools": [
+  "0x4e0924d3a751be199c426d52fb1f2337fa96f736",
+  "0x5777d92f208679db4b9778590fa3cab3ac9e2168",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0xfdf12d1f85b5082877a6e070524f50f6c84faa6b",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "USDC",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.993306,
+ "gas_eth": 0.875409,
+ "profit_after_gas": 0.117897,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x7cf nets zero USDC across the pools and ends with +0.993306 WETH; after the 0.875409 ETH gas fee the observable profit is +0.117897 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2022,
+  "output_tokens": 8027,
+  "thinking_tokens": 7733
+ },
+ "_request_id": "45babd0d45ef4d005ebcc2f221556e33",
+ "_response_id": "66a3965f-bb71-4514-968d-16623d4922e1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pools\":[\"0x4e0924d3a751be199c426d52fb1f2337fa96f736\",\"0x5777d92f208679db4b9778590fa3cab3ac9e2168\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0xfdf12d1f85b5082877a6e070524f50f6c84faa6b\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"USDC\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.993306,\"gas_eth\":0.875409,\"profit_after_gas\":0.117897,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x7cf nets zero USDC across the pools and ends with +0.993306 WETH; after the 0.875409 ETH gas fee the observable profit is +0.117897 ETH.\"}",
+ "case_id": "arb106_100",
+ "_time": "2026-10-19T20:09:12+0800"
+}

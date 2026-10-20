@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xc03ac1e9c6946fed9e36732cebbcd73b0c7a0637",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000444,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x36c1 buys 723485138.9 TT for 0.428852 WETH on pool 0xc03a, the victim then buys TT on the same pool, and the contract sells the identical TT amount back for 0.446596 WETH. That is +0.017744 WETH, offset by the 0.0173 ETH tx value forwarded to 0xbcc8 (likely a builder or miner payment), leaving about +0.000444 ETH. Both legs show zero gas fees.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3092,
+  "output_tokens": 650,
+  "thinking_tokens": 351
+ },
+ "_request_id": "req_011CgBRtBFk7QsczzLxjGM14",
+ "_response_id": "msg_011CgBRtBbLVCvpN4q2xDw29",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\", \"pool\": \"0xc03ac1e9c6946fed9e36732cebbcd73b0c7a0637\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000444, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x36c1 buys 723485138.9 TT for 0.428852 WETH on pool 0xc03a, the victim then buys TT on the same pool, and the contract sells the identical TT amount back for 0.446596 WETH. That is +0.017744 WETH, offset by the 0.0173 ETH tx value forwarded to 0xbcc8 (likely a builder or miner payment), leaving about +0.000444 ETH. Both legs show zero gas fees.\"}",
+ "case_id": "pack_179",
+ "_time": "2026-10-19T18:22:16+0800"
+}

@@ -1,0 +1,41 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x4bec87cb126de6c1f8b410e32d1f4ae472fdd83b",
+  "0x07f3d316630719f4fc69c152f397c150f0831071",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x966ea83cf3170a309184bb742398c925249e407e",
+  "0xd966da62dec253128dbd16a4034de6e051e1d2d7"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.039983,
+ "gas_eth": 0.037422,
+ "profit_after_gas": 0.002561,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor takes WETH from the WETH/EURT pool and pays WETH into the USDT/WETH pool, with the EURT/USDT pool between them. It also runs a two-pool WETH loop through the LPL V3 and V2 pools. The actor receives and sends only WETH, always with pools, and nets +0.039983 WETH before gas, so about +0.002561 ETH after the 0.037422 ETH fee. The sender, not the actor contract, pays the gas, and the WETH cycles net to a profit rather than to about zero.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2473,
+  "output_tokens": 1319,
+  "thinking_tokens": 855
+ },
+ "_request_id": "req_011CgBXTHhgndqdJeQNpsZWG",
+ "_response_id": "msg_011CgBXTJ8EYHVXccnekrDvg",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x4bec87cb126de6c1f8b410e32d1f4ae472fdd83b\",\"0x07f3d316630719f4fc69c152f397c150f0831071\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0x966ea83cf3170a309184bb742398c925249e407e\",\"0xd966da62dec253128dbd16a4034de6e051e1d2d7\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.039983,\"gas_eth\":0.037422,\"profit_after_gas\":0.002561,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor takes WETH from the WETH/EURT pool and pays WETH into the USDT/WETH pool, with the EURT/USDT pool between them. It also runs a two-pool WETH loop through the LPL V3 and V2 pools. The actor receives and sends only WETH, always with pools, and nets +0.039983 WETH before gas, so about +0.002561 ETH after the 0.037422 ETH fee. The sender, not the actor contract, pays the gas, and the WETH cycles net to a profit rather than to about zero.\"}",
+ "case_id": "arb106_079",
+ "_time": "2026-10-19T19:35:21+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.2784456924,
+ "gas_eth": 0.0114013076,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back act on the same QNT/WETH pool, but the actor sells QNT in front and buys it back in back, so it does not open then close a long non-WETH position. Gross WETH gain is 0.289847; after gas (0.0114013) the actor is still positive and has no QNT residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2258,
+  "output_tokens": 8724,
+  "thinking_tokens": 8548
+ },
+ "_request_id": "8996aea9ac26d349da2691b5326027ad",
+ "_response_id": "568f0176-f2be-4e32-8ec4-8aac2bfedd57",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\",\"pool\":\"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.2784456924,\"gas_eth\":0.0114013076,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back act on the same QNT/WETH pool, but the actor sells QNT in front and buys it back in back, so it does not open then close a long non-WETH position. Gross WETH gain is 0.289847; after gas (0.0114013) the actor is still positive and has no QNT residual.\"}",
+ "case_id": "sym100_001",
+ "_time": "2026-10-19T18:38:24+0800"
+}

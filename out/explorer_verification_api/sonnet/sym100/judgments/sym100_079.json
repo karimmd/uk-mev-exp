@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.215151,
+ "gas_eth": 0.056616,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sends 195.337011 PMON to the PMON/WETH pool in the front leg for 3.052328 WETH. In the back leg it returns 2.837177 WETH for exactly 195.337011 PMON, so the PMON position is flat. The victim also sells PMON into the same pool between the two legs. Net WETH is +0.215151, and after 0.056616 ETH of front and back gas it is about +0.1585 ETH. The bracket runs short-first (sell, then buy back), so it likely draws on PMON inventory the actor already held; that is why confidence is not higher.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3031,
+  "output_tokens": 849,
+  "thinking_tokens": 535
+ },
+ "_request_id": "req_011CgBSN9YKv645hipGLbQXc",
+ "_response_id": "msg_011CgBSN9sfwxct7WT7hgjam",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.215151,\"gas_eth\":0.056616,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sends 195.337011 PMON to the PMON/WETH pool in the front leg for 3.052328 WETH. In the back leg it returns 2.837177 WETH for exactly 195.337011 PMON, so the PMON position is flat. The victim also sells PMON into the same pool between the two legs. Net WETH is +0.215151, and after 0.056616 ETH of front and back gas it is about +0.1585 ETH. The bracket runs short-first (sell, then buy back), so it likely draws on PMON inventory the actor already held; that is why confidence is not higher.\"}",
+ "case_id": "sym100_079",
+ "_time": "2026-10-19T18:28:34+0800"
+}

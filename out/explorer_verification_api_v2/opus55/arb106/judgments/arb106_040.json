@@ -1,0 +1,39 @@
+{
+ "actor": "0xf664c3bd856de78d2fa314900f2fe0aa5e39a3da",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02925,
+ "gas_eth": 0.014921,
+ "profit_after_gas": 0.014329,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender EOA called the Uniswap V2 Router with a cyclic path WETH->YLD->RFI->WETH across three distinct pools, each emitting Sync and Swap. YLD and RFI pass pool to pool and never touch the actor, so the only actor flows are 4.989201 WETH out and 5.018451 WETH back. That nets +0.02925 WETH, which exceeds the 0.014921 ETH gas fee.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2169,
+  "output_tokens": 617,
+  "thinking_tokens": 214
+ },
+ "_request_id": "req_011CgBXJjjNELNZ5poUMe4wT",
+ "_response_id": "msg_011CgBXJk6h9WaY1afimCJYm",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf664c3bd856de78d2fa314900f2fe0aa5e39a3da\", \"pools\": [\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\", \"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\", \"0x4c8341379e95f70c08defb76c4f9c036525edc30\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.02925, \"gas_eth\": 0.014921, \"profit_after_gas\": 0.014329, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The sender EOA called the Uniswap V2 Router with a cyclic path WETH->YLD->RFI->WETH across three distinct pools, each emitting Sync and Swap. YLD and RFI pass pool to pool and never touch the actor, so the only actor flows are 4.989201 WETH out and 5.018451 WETH back. That nets +0.02925 WETH, which exceeds the 0.014921 ETH gas fee.\"}",
+ "case_id": "arb106_040",
+ "_time": "2026-10-19T19:33:21+0800"
+}

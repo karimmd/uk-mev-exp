@@ -1,0 +1,17 @@
+{
+ "actor": "0x575c3a99429352eda66661fc3857b9f83f58a73f",
+ "pool": "0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.074817,
+ "gas_eth": 0.0,
+ "residual": "none visible; the 0xcdebf323 token Transfer events appear in the front and back receipts but are not decoded, though the same pool shows opposite-direction swaps",
+ "confidence": 4,
+ "note": "The actor contract 0x575c sends 2.432921 WETH into pool 0xc532 in the front leg. The victim also swaps WETH into the same pool (via LEASH->WETH on 0x8743, then WETH->0xcdebf3 on 0xc532), and the back leg pulls 2.681661 WETH out. Gross gain is 0.24874 WETH; 0.173923 ETH is then forwarded to 0x99c8 (likely a miner tip), leaving about +0.0748 ETH, with explorer gas fees shown as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.022908699999999997,
+ "_session": "2e5a2bb4-e3e1-40c8-9055-8541101212be",
+ "_raw": "{\"actor\": \"0x575c3a99429352eda66661fc3857b9f83f58a73f\", \"pool\": \"0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.074817, \"gas_eth\": 0.0, \"residual\": \"none visible; the 0xcdebf323 token Transfer events appear in the front and back receipts but are not decoded, though the same pool shows opposite-direction swaps\", \"confidence\": 4, \"note\": \"The actor contract 0x575c sends 2.432921 WETH into pool 0xc532 in the front leg. The victim also swaps WETH into the same pool (via LEASH->WETH on 0x8743, then WETH->0xcdebf3 on 0xc532), and the back leg pulls 2.681661 WETH out. Gross gain is 0.24874 WETH; 0.173923 ETH is then forwarded to 0x99c8 (likely a miner tip), leaving about +0.0748 ETH, with explorer gas fees shown as 0.\"}",
+ "case_id": "pack_173",
+ "_time": "2026-10-13T20:38:31+0800"
+}

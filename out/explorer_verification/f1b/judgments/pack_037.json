@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x290850efa2d7e130e55bbc1db2b48bc5c03097f5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.164618,
+ "gas_eth": 0.160356,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the actor spends 1.419239 WETH to buy MFT on the V2 pool, then sells that MFT into the V3 USDC/MFT pool for 2583.408 USDC, the same pool and direction the victim sells on next. In the back leg it returns exactly 2583.408 USDC to the V3 pool and receives 1.583857 WETH from the V2 pool. WETH net is +0.164618 against 0.160356 gas, about +0.00426 ETH after costs, with no MFT or USDC left over. The route is a cross-pool arbitrage-style loop, so the bracket is only on the V3 pool, which is why confidence is not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0310367,
+ "_session": "0e05e7fe-cd07-472d-94c6-4cb3053211e5",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x290850efa2d7e130e55bbc1db2b48bc5c03097f5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.164618, \"gas_eth\": 0.160356, \"residual\": \"none\", \"confidence\": 4, \"note\": \"In the front leg the actor spends 1.419239 WETH to buy MFT on the V2 pool, then sells that MFT into the V3 USDC/MFT pool for 2583.408 USDC, the same pool and direction the victim sells on next. In the back leg it returns exactly 2583.408 USDC to the V3 pool and receives 1.583857 WETH from the V2 pool. WETH net is +0.164618 against 0.160356 gas, about +0.00426 ETH after costs, with no MFT or USDC left over. The route is a cross-pool arbitrage-style loop, so the bracket is only on the V3 pool, which is why confidence is not 5.\"}",
+ "case_id": "pack_037",
+ "_time": "2026-10-13T20:11:19+0800"
+}

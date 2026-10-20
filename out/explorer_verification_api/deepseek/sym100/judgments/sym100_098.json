@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xcbbc981bd5b358d09a9346726115d3ac8822d00b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071953,
+ "gas_eth": 0.0889536193,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are both sent by 0x52b8... to 0x000...3b3c..., which is the economic actor. Both legs use the VXV/WETH V3 pool 0xcbbc..., and the victim trades that same pool between them. Net WETH after gas is positive, with no residual VXV left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2530,
+  "output_tokens": 11751,
+  "thinking_tokens": 11582
+ },
+ "_request_id": "e403381cdcda6729b81f53f738a5240e",
+ "_response_id": "6c93cf5f-16cf-497c-a8e6-cdbc35525437",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xcbbc981bd5b358d09a9346726115d3ac8822d00b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.071953,\"gas_eth\":0.0889536193,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are both sent by 0x52b8... to 0x000...3b3c..., which is the economic actor. Both legs use the VXV/WETH V3 pool 0xcbbc..., and the victim trades that same pool between them. Net WETH after gas is positive, with no residual VXV left.\"}",
+ "case_id": "sym100_098",
+ "_time": "2026-10-19T18:56:57+0800"
+}

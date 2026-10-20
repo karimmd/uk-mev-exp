@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xc47047e59bbc58cf223eaf2de10bc722cd46f325",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.106065,
+ "gas_eth": 0.040785,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor buys 111713.46 ASM on the ASM/USDC V3 pool (via WETH->USDC on a V2 pool) in the front leg, the victim buys ASM on the same pool, and the actor sells the exact same ASM amount back in the back leg. The WETH round trip is +0.684408 (3.443655 in, 2.759247 out); subtracting the 0.578343 ETH forwarded to 0x829b... leaves 0.106065, and after 0.040785 gas the result is about +0.0653 ETH, positive either way.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0265047,
+ "_session": "507cf010-7487-412e-beda-5fc1852af2ab",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xc47047e59bbc58cf223eaf2de10bc722cd46f325\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.106065, \"gas_eth\": 0.040785, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor buys 111713.46 ASM on the ASM/USDC V3 pool (via WETH->USDC on a V2 pool) in the front leg, the victim buys ASM on the same pool, and the actor sells the exact same ASM amount back in the back leg. The WETH round trip is +0.684408 (3.443655 in, 2.759247 out); subtracting the 0.578343 ETH forwarded to 0x829b... leaves 0.106065, and after 0.040785 gas the result is about +0.0653 ETH, positive either way.\"}",
+ "case_id": "pack_095",
+ "_time": "2026-10-13T20:23:10+0800"
+}

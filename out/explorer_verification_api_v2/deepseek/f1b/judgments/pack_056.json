@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.043181,
+ "gas_eth": 0.017411,
+ "profit_after_gas": 0.02577,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg bought PROS on the Uniswap V2 pool 0x3155..., and the back leg sold the same amount on the same pool, with the victim buying PROS in between. Net WETH gain before gas is 0.043181 ETH; subtracting front and back gas leaves a positive profit. No residual PROS or USDC remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2604,
+  "output_tokens": 5869,
+  "thinking_tokens": 5684
+ },
+ "_request_id": "b9be9c3507e2cdd71b691b717f9d8b60",
+ "_response_id": "a785e315-2ee8-4dd2-997b-fad9058f3afd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.043181,\"gas_eth\":0.017411,\"profit_after_gas\":0.02577,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leg bought PROS on the Uniswap V2 pool 0x3155..., and the back leg sold the same amount on the same pool, with the victim buying PROS in between. Net WETH gain before gas is 0.043181 ETH; subtracting front and back gas leaves a positive profit. No residual PROS or USDC remains.\"}",
+ "case_id": "pack_056",
+ "_time": "2026-10-19T19:10:13+0800"
+}

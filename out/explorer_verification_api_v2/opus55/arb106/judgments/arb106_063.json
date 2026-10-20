@@ -1,0 +1,38 @@
+{
+ "actor": "0x68a7ca3d4ee5f1711776b4bd75c1dfa8b8e96083",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.019719,
+ "gas_eth": 0.017417,
+ "profit_after_gas": 0.002302,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 1.11 WETH to UniswapV2 pool 0x9cbf. That pool routes the SAITAMA it releases straight to a second pool, 0xd0dc, which returns 1.129719 WETH to the actor, closing a WETH to SAITAMA to WETH cycle across two pools. The actor's net is +0.019719 WETH before gas and about +0.0023 ETH after the 0.017417 ETH fee, with no residual SAITAMA because it moves only between the pools.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 1997,
+  "output_tokens": 655,
+  "thinking_tokens": 252
+ },
+ "_request_id": "req_011CgBXTrp1odns1oSqxRkdP",
+ "_response_id": "msg_011CgBXTs9MAKtSUZbM4qCi4",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x68a7ca3d4ee5f1711776b4bd75c1dfa8b8e96083\", \"pools\": [\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\", \"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.019719, \"gas_eth\": 0.017417, \"profit_after_gas\": 0.002302, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 1.11 WETH to UniswapV2 pool 0x9cbf. That pool routes the SAITAMA it releases straight to a second pool, 0xd0dc, which returns 1.129719 WETH to the actor, closing a WETH to SAITAMA to WETH cycle across two pools. The actor's net is +0.019719 WETH before gas and about +0.0023 ETH after the 0.017417 ETH fee, with no residual SAITAMA because it moves only between the pools.\"}",
+ "case_id": "arb106_063",
+ "_time": "2026-10-19T19:35:25+0800"
+}

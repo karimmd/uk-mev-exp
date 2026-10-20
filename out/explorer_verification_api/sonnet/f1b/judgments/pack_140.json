@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x18a797c7c70c1bf22fdee1c09062aba709cacf04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.023123,
+ "gas_eth": 0.014524,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 6976.18 RGT with 47.660716 WETH in the front leg at position 0. The victim then buys RGT with WETH on the same RGT/WETH pool at position 2, and the actor sells all 6976.18 RGT back in the back leg at position 3 for 47.683839 WETH. The WETH gain of 0.023123 less 0.014524 ETH in gas leaves about +0.0086 ETH and no residual RGT. A transaction at position 1 is not shown, but the victim still sits between the two legs.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2970,
+  "output_tokens": 621,
+  "thinking_tokens": 320
+ },
+ "_request_id": "req_011CgBRYZ6LRxKWgKsKXBqG4",
+ "_response_id": "msg_011CgBRYcq5BX3AvoNNh6a82",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0x18a797c7c70c1bf22fdee1c09062aba709cacf04\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.023123,\"gas_eth\":0.014524,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 6976.18 RGT with 47.660716 WETH in the front leg at position 0. The victim then buys RGT with WETH on the same RGT/WETH pool at position 2, and the actor sells all 6976.18 RGT back in the back leg at position 3 for 47.683839 WETH. The WETH gain of 0.023123 less 0.014524 ETH in gas leaves about +0.0086 ETH and no residual RGT. A transaction at position 1 is not shown, but the victim still sits between the two legs.\"}",
+ "case_id": "pack_140",
+ "_time": "2026-10-19T18:17:48+0800"
+}

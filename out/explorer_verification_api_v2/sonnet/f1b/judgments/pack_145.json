@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xe9bd6ddc2b13f46715382f74534950e004399d10",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender (0x68e8...) and each one buys DOGIRA with ETH on the same pool. The back leg is another buy, not a sale, so no position is closed. The victim is the same address as the front and back, so there is no independent victim. This looks like a repeated buy pattern, not a sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3850,
+  "output_tokens": 214,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVstp17b29kA2z6i162",
+ "_response_id": "msg_011CgBVsu9LAP5BdbNBPA1qM",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xe9bd6ddc2b13f46715382f74534950e004399d10\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender (0x68e8...) and each one buys DOGIRA with ETH on the same pool. The back leg is another buy, not a sale, so no position is closed. The victim is the same address as the front and back, so there is no independent victim. This looks like a repeated buy pattern, not a sandwich.\"}",
+ "case_id": "pack_145",
+ "_time": "2026-10-19T19:14:33+0800"
+}

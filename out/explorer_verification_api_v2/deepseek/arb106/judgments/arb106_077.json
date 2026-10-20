@@ -1,0 +1,39 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+  "0x9e0905249ceefffb9605e034b534544684a58be6"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.011215,
+ "gas_eth": 0.01012,
+ "profit_after_gas": 0.001095,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x9116 receives WETH from the 0x9e09 UniswapV3 pool and sends WETH to the 0x88e6 UniswapV3 pool, while USDC and HEX route between the three pools to complete a triangular cycle. Net WETH after the internal ETH payment is 0.011215, leaving a positive profit after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1612,
+  "output_tokens": 12345,
+  "thinking_tokens": 12051
+ },
+ "_request_id": "44c6112f017375eb91b7ad6a28008602",
+ "_response_id": "a1a525b2-a999-4017-90e5-5f071f8c4e50",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\", \"0x9e0905249ceefffb9605e034b534544684a58be6\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.011215, \"gas_eth\": 0.010120, \"profit_after_gas\": 0.001095, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract 0x9116 receives WETH from the 0x9e09 UniswapV3 pool and sends WETH to the 0x88e6 UniswapV3 pool, while USDC and HEX route between the three pools to complete a triangular cycle. Net WETH after the internal ETH payment is 0.011215, leaving a positive profit after gas.\"}",
+ "case_id": "arb106_077",
+ "_time": "2026-10-19T20:04:20+0800"
+}

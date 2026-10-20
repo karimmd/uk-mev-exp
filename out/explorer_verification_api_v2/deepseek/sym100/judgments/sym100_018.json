@@ -1,0 +1,32 @@
+{
+ "actor": "0x292499bbec93aa92e0556e5dd89b5e7e172228a6",
+ "pool": "0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.058577,
+ "gas_eth": 0.025716,
+ "profit_after_gas": 0.032861,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract sold 758.718651 SPI for 27.418 WETH in front and bought back the same SPI for 27.359423 WETH in back on the same UniswapV2 pool; the victim traded that pool between. Net WETH before gas is 0.058577 and remains positive after front/back gas, with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2457,
+  "output_tokens": 4534,
+  "thinking_tokens": 4340
+ },
+ "_request_id": "9bc60149072b557a070dcfb88cd199b2",
+ "_response_id": "7c860d3b-7812-4356-a4bf-824c25f9b21f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x292499bbec93aa92e0556e5dd89b5e7e172228a6\",\"pool\":\"0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.058577,\"gas_eth\":0.025716,\"profit_after_gas\":0.032861,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract sold 758.718651 SPI for 27.418 WETH in front and bought back the same SPI for 27.359423 WETH in back on the same UniswapV2 pool; the victim traded that pool between. Net WETH before gas is 0.058577 and remains positive after front/back gas, with no residual non-WETH holding.\"}",
+ "case_id": "sym100_018",
+ "_time": "2026-10-19T19:30:25+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs buy MXS with ETH on the same pool (0x13bb...) through the Uniswap router. The front sender (0x3cf2...) and the back sender (0xeda6...) are different addresses, and the back leg is a second ETH-to-MXS buy, not a sell. No actor opens a position and then closes it, so there is no sandwich bracket and no actor P&L to compute.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3743,
+  "output_tokens": 227,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRomQBdBjLhWA8s6siT",
+ "_response_id": "msg_011CgBRomimg9kN3XgB9xZrq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs buy MXS with ETH on the same pool (0x13bb...) through the Uniswap router. The front sender (0x3cf2...) and the back sender (0xeda6...) are different addresses, and the back leg is a second ETH-to-MXS buy, not a sell. No actor opens a position and then closes it, so there is no sandwich bracket and no actor P&L to compute.\"}",
+ "case_id": "pack_180",
+ "_time": "2026-10-19T18:21:10+0800"
+}

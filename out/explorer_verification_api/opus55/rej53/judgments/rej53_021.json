@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x063271fdac84b94e9283557f748594dc84092bf3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.411414,
+ "gas_eth": 0.024007,
+ "residual": "up to ~86.63 PROPHET (2917.69 in vs 2831.06 out), likely lost to PROPHET's ~3% transfer fee",
+ "confidence": 3,
+ "note": "Contract 0x0000\u20260084 bought 2917.69 PROPHET for 6.99 WETH on the PROPHET/WETH pool 0x0632\u2026. It sold 2831.06 PROPHET for 8.43 WETH on the same pool, and the victim traded that pool in between. The victim sold PROPHET in the same direction as the back leg, which is unusual for a classic sandwich, so other transactions between positions 71 and 106 likely moved the price. That lowers my confidence, but the bracket criteria are met and the WETH net (+1.435 minus 0.024 gas) is positive regardless of the residual.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3769,
+  "output_tokens": 1149,
+  "thinking_tokens": 775
+ },
+ "_request_id": "req_011CgBSkdEL9Hjy63uXqVEAQ",
+ "_response_id": "msg_011CgBSkdbf54h3s3n92B7io",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000000084e91743124a982076c59f10084\", \"pool\": \"0x063271fdac84b94e9283557f748594dc84092bf3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.411414, \"gas_eth\": 0.024007, \"residual\": \"up to ~86.63 PROPHET (2917.69 in vs 2831.06 out), likely lost to PROPHET's ~3% transfer fee\", \"confidence\": 3, \"note\": \"Contract 0x0000\u20260084 bought 2917.69 PROPHET for 6.99 WETH on the PROPHET/WETH pool 0x0632\u2026. It sold 2831.06 PROPHET for 8.43 WETH on the same pool, and the victim traded that pool in between. The victim sold PROPHET in the same direction as the back leg, which is unusual for a classic sandwich, so other transactions between positions 71 and 106 likely moved the price. That lowers my confidence, but the bracket criteria are met and the WETH net (+1.435 minus 0.024 gas) is positive regardless of the residual.\"}",
+ "case_id": "rej53_021",
+ "_time": "2026-10-19T18:33:44+0800"
+}

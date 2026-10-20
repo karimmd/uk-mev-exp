@@ -1,0 +1,17 @@
+{
+ "actor": "0x9edd647d7d6eceae6bb61d7785ef66c5055a9bee",
+ "pool": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.254749,
+ "gas_eth": 0.031574,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 8515787148.948834 AKITA for 3.104425 WETH in the front leg, ahead of the victim's AKITA sale on the same pool. It then buys back exactly the same AKITA for 2.849676 WETH in the back leg, directly after the victim. The WETH gain is 0.254749, or about 0.223175 after 0.031574 ETH of front and back gas, with no AKITA left over. The bracket is inventory-based (sell first, rebuy after) rather than buy-then-sell, which is why confidence is 4 rather than 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0237787,
+ "_session": "0fe723c8-d14a-47f9-9daf-434ad2ede566",
+ "_raw": "{\"actor\": \"0x9edd647d7d6eceae6bb61d7785ef66c5055a9bee\", \"pool\": \"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.254749, \"gas_eth\": 0.031574, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 8515787148.948834 AKITA for 3.104425 WETH in the front leg, ahead of the victim's AKITA sale on the same pool. It then buys back exactly the same AKITA for 2.849676 WETH in the back leg, directly after the victim. The WETH gain is 0.254749, or about 0.223175 after 0.031574 ETH of front and back gas, with no AKITA left over. The bracket is inventory-based (sell first, rebuy after) rather than buy-then-sell, which is why confidence is 4 rather than 5.\"}",
+ "case_id": "pack_079",
+ "_time": "2026-10-13T20:19:38+0800"
+}

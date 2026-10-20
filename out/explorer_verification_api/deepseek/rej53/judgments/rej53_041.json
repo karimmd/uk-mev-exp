@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x553db97b11642e0f9471d511296577421518de1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049823784,
+ "gas_eth": 0.000196216,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back use the same actor and the same Uniswap V2 MAK/WETH pool that the victim trades on. The actor receives and then returns the same MAK amount, while netting +0.050020 WETH before gas, leaving a positive net after front/back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2255,
+  "output_tokens": 2360,
+  "thinking_tokens": 2189
+ },
+ "_request_id": "5998604011343f81668abfcafec3fe9a",
+ "_response_id": "8a062de5-ff0c-44e3-9fe9-1cacc92ae21f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x553db97b11642e0f9471d511296577421518de1a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.049823784, \"gas_eth\": 0.000196216, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back use the same actor and the same Uniswap V2 MAK/WETH pool that the victim trades on. The actor receives and then returns the same MAK amount, while netting +0.050020 WETH before gas, leaving a positive net after front/back gas.\"}",
+ "case_id": "rej53_041",
+ "_time": "2026-10-19T19:02:08+0800"
+}

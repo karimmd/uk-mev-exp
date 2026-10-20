@@ -1,0 +1,32 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.112412,
+ "gas_eth": 0.101725,
+ "profit_after_gas": 0.010687,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells 30590.962709 NCT for 1.509 WETH on the shared pool; the victim trades the same pool in between; back rebuys the same NCT for 1.396588 WETH. NCT nets to zero and the ETH/WETH gain minus front/back gas remains positive; 4 CHI gas-token burns are noted but not part of the residual holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3330,
+  "output_tokens": 27638,
+  "thinking_tokens": 27446
+ },
+ "_request_id": "3d1cd652c4344922ca4ce5ab6864694d",
+ "_response_id": "88c29e8c-8831-4b68-ba6c-4a9d99cb2db3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdac775cd972ac612907682ff757af66f75eecece\",\"pool\":\"0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.112412,\"gas_eth\":0.101725,\"profit_after_gas\":0.010687,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells 30590.962709 NCT for 1.509 WETH on the shared pool; the victim trades the same pool in between; back rebuys the same NCT for 1.396588 WETH. NCT nets to zero and the ETH/WETH gain minus front/back gas remains positive; 4 CHI gas-token burns are noted but not part of the residual holding.\"}",
+ "case_id": "sym100_097",
+ "_time": "2026-10-19T19:39:49+0800"
+}

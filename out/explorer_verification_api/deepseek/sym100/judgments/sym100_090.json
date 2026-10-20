@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.113749,
+ "gas_eth": 0.021091,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back use the same contract actor and the same Uniswap V2 pool, but the front leg sells SHOPX for WETH and the back buys SHOPX back, so no non-WETH position is opened in front and closed in back per Q1. Gross WETH net is +0.113749, gas is 0.021091, leaving +0.092658 after gas, with SHOPX net zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2340,
+  "output_tokens": 7100,
+  "thinking_tokens": 6899
+ },
+ "_request_id": "7b0e9009f2d04420d993ddbf7679e336",
+ "_response_id": "97250f1b-c40e-4ff0-b216-55628f7c5a67",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.113749, \"gas_eth\": 0.021091, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back use the same contract actor and the same Uniswap V2 pool, but the front leg sells SHOPX for WETH and the back buys SHOPX back, so no non-WETH position is opened in front and closed in back per Q1. Gross WETH net is +0.113749, gas is 0.021091, leaving +0.092658 after gas, with SHOPX net zero.\"}",
+ "case_id": "sym100_090",
+ "_time": "2026-10-19T18:54:53+0800"
+}

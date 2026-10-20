@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x7d9c8d888d03df89461c645bd1108ae138b63a2a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.339749,
+ "gas_eth": 0.032541,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 807641.186241 GLQ to the pool for 9.829 WETH in the front leg. The victim then sells 700000 GLQ on the same pool, and the back leg buys back exactly 807641.186241 GLQ for 9.489251 WETH. That nets +0.339749 WETH and leaves no GLQ residual. After 0.032541 ETH of front and back gas, the position is about +0.3072 ETH. The bracket runs in the sell-first direction, so the actor was working from GLQ inventory it already held.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3045,
+  "output_tokens": 754,
+  "thinking_tokens": 451
+ },
+ "_request_id": "req_011CgBSRJko7xeR3LGikzqwH",
+ "_response_id": "msg_011CgBSRK6tEiaL1sfgBVPUc",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x7d9c8d888d03df89461c645bd1108ae138b63a2a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.339749,\"gas_eth\":0.032541,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 807641.186241 GLQ to the pool for 9.829 WETH in the front leg. The victim then sells 700000 GLQ on the same pool, and the back leg buys back exactly 807641.186241 GLQ for 9.489251 WETH. That nets +0.339749 WETH and leaves no GLQ residual. After 0.032541 ETH of front and back gas, the position is about +0.3072 ETH. The bracket runs in the sell-first direction, so the actor was working from GLQ inventory it already held.\"}",
+ "case_id": "sym100_087",
+ "_time": "2026-10-19T18:29:16+0800"
+}

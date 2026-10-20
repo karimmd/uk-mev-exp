@@ -1,0 +1,31 @@
+{
+ "actor": "0x575c3a99429352eda66661fc3857b9f83f58a73f",
+ "pool": "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.099535,
+ "gas_eth": 0.0,
+ "residual": "395422486345.136718 SANSHU",
+ "confidence": 5,
+ "note": "Front and back both use the Uniswap V2 WETH/SANSHU pool 0xa7ad, and the victim also trades that pool between them. Actor 0x575c holds SANSHU after the front leg and sells it in the back leg; netting WETH/ETH transfers and zero gas gives +0.099535 ETH/WETH, with residual SANSHU left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2480,
+  "output_tokens": 8337,
+  "thinking_tokens": 8151
+ },
+ "_request_id": "a47b8a13ce4d35c9f33892c3dd490c5e",
+ "_response_id": "fd6e9b52-28aa-4307-8064-690f35b21741",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x575c3a99429352eda66661fc3857b9f83f58a73f\",\"pool\":\"0xa7ad4ce6c21d9e875f1067cd377256326b483002\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.099535,\"gas_eth\":0.0,\"residual\":\"395422486345.136718 SANSHU\",\"confidence\":5,\"note\":\"Front and back both use the Uniswap V2 WETH/SANSHU pool 0xa7ad, and the victim also trades that pool between them. Actor 0x575c holds SANSHU after the front leg and sells it in the back leg; netting WETH/ETH transfers and zero gas gives +0.099535 ETH/WETH, with residual SANSHU left.\"}",
+ "case_id": "pack_040",
+ "_time": "2026-10-19T18:09:54+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xb767c20d9773adce84d0f0a5bc64e2f114ad3076",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.06658,
+ "gas_eth": 0.047755,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sold 852329.70 wOMI into the wOMI/WETH pool for 4.474 WETH in the front leg. The victim then sold 2,000,000 wOMI into the same pool. In the back leg the actor bought back exactly 852329.70 wOMI for 4.40742 WETH, so the wOMI position nets to zero. The gross gain is 0.06658 ETH and gas is 0.047755 ETH, leaving about +0.0188 ETH. The bracket runs sell-first then buy-back, so it is a short-style round trip rather than buy-then-sell. The front leg does not show the actor's earlier wOMI inventory, which is why confidence is 3.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0267772,
+ "_session": "164283a6-febc-49c4-884e-09efcde9ce44",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0xb767c20d9773adce84d0f0a5bc64e2f114ad3076\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.06658, \"gas_eth\": 0.047755, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sold 852329.70 wOMI into the wOMI/WETH pool for 4.474 WETH in the front leg. The victim then sold 2,000,000 wOMI into the same pool. In the back leg the actor bought back exactly 852329.70 wOMI for 4.40742 WETH, so the wOMI position nets to zero. The gross gain is 0.06658 ETH and gas is 0.047755 ETH, leaving about +0.0188 ETH. The bracket runs sell-first then buy-back, so it is a short-style round trip rather than buy-then-sell. The front leg does not show the actor's earlier wOMI inventory, which is why confidence is 3.\"}",
+ "case_id": "sym100_073",
+ "_time": "2026-10-13T21:39:12+0800"
+}

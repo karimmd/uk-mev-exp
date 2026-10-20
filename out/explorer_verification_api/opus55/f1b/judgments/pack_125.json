@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x377931b4f6adceccfc1a080f7a88b4af9d060336",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.210797,
+ "gas_eth": 0.028011,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x499dd9\u2026 bought 508890.137675 TWO for 2.093795 WETH on the V3 pool 0x377931\u2026, the victim bought TWO on the same pool, and the contract then sold the identical TWO amount for 2.992646 WETH. That is a gross gain of 0.898851. Subtracting the 0.660043 ETH the sender sent with the back leg, which was forwarded to 0x829bd8\u2026 (likely a builder or coinbase payment), and 0.028011 ETH gas leaves about +0.2108 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2824,
+  "output_tokens": 680,
+  "thinking_tokens": 367
+ },
+ "_request_id": "req_011CgBRW5mjTHwZwnHgiCQmN",
+ "_response_id": "msg_011CgBRW69YTJCAzJoe949Xm",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x377931b4f6adceccfc1a080f7a88b4af9d060336\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.210797, \"gas_eth\": 0.028011, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x499dd9\u2026 bought 508890.137675 TWO for 2.093795 WETH on the V3 pool 0x377931\u2026, the victim bought TWO on the same pool, and the contract then sold the identical TWO amount for 2.992646 WETH. That is a gross gain of 0.898851. Subtracting the 0.660043 ETH the sender sent with the back leg, which was forwarded to 0x829bd8\u2026 (likely a builder or coinbase payment), and 0.028011 ETH gas leaves about +0.2108 ETH.\"}",
+ "case_id": "pack_125",
+ "_time": "2026-10-19T18:17:16+0800"
+}

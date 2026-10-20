@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.005145,
+ "gas_eth": 0.013303,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x000000000035b5e5ad9019092c665357240f594e receives USDC on pool 0x684b in the front leg and spends the same USDC on that pool in the back, bracketing the victim's EXRD->USDC swap. Gross ETH/WETH net is +0.018448 (including the 0.020591 ETH internal outflow); after 0.013303 gas it is +0.005145, with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2510,
+  "output_tokens": 8058,
+  "thinking_tokens": 7855
+ },
+ "_request_id": "8aab0470ad4a784b9fb6205e87abd4cc",
+ "_response_id": "311285f6-af32-4daa-8057-a775d1236512",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.005145,\"gas_eth\":0.013303,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0x000000000035b5e5ad9019092c665357240f594e receives USDC on pool 0x684b in the front leg and spends the same USDC on that pool in the back, bracketing the victim's EXRD->USDC swap. Gross ETH/WETH net is +0.018448 (including the 0.020591 ETH internal outflow); after 0.013303 gas it is +0.005145, with no residual non-WETH holding.\"}",
+ "case_id": "rej53_013",
+ "_time": "2026-10-19T18:58:37+0800"
+}

@@ -1,0 +1,26 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xfebf38b1d34818d4827034f97b7d6d77c79d4997",
+  "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+  "0xa9e98dc206f21fa0992ec640ba37ab4f62b223e9",
+  "0x8dc082087ee75b528dfd4e68fa28966666de1a60",
+  "0x75f89ffbe5c25161cbc7e97c988c9f391eaefaf9"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.018171,
+ "gas_eth": 0.016242,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH cycles. First it sends 4.876210 WETH to the V3 SPELL pool, which pays SPELL straight to the V2 SPELL/WETH pool, and it receives 4.884438 WETH back from that pool (+0.008228). Second it runs WETH -> YFU -> WPE -> WETH across three V2 pools (-0.075365 out, +0.085308 in, +0.009943). The gross WETH gain is 0.018171, and after the 0.016242 gas fee about 0.001929 ETH remains, with no residual tokens, no mints and no internal ETH transfers.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025470700000000002,
+ "_session": "50422194-c966-4817-ab45-4615a25c6c52",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0xfebf38b1d34818d4827034f97b7d6d77c79d4997\", \"0xb5de0c3753b6e1b4dba616db82767f17513e6d4e\", \"0xa9e98dc206f21fa0992ec640ba37ab4f62b223e9\", \"0x8dc082087ee75b528dfd4e68fa28966666de1a60\", \"0x75f89ffbe5c25161cbc7e97c988c9f391eaefaf9\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.018171, \"gas_eth\": 0.016242, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two WETH cycles. First it sends 4.876210 WETH to the V3 SPELL pool, which pays SPELL straight to the V2 SPELL/WETH pool, and it receives 4.884438 WETH back from that pool (+0.008228). Second it runs WETH -> YFU -> WPE -> WETH across three V2 pools (-0.075365 out, +0.085308 in, +0.009943). The gross WETH gain is 0.018171, and after the 0.016242 gas fee about 0.001929 ETH remains, with no residual tokens, no mints and no internal ETH transfers.\"}",
+ "case_id": "arb106_080",
+ "_time": "2026-10-13T22:28:37+0800"
+}

@@ -1,0 +1,38 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4",
+  "0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27",
+  "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.189004,
+ "gas_eth": 0.181444,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 12.25 WETH to the WETH/MIM V2 pool. The MIM goes to the USDC/MIM V3 pool, and the USDC goes on to the USDC/WETH V2 pool, which pays 12.439004 WETH back to the actor. That is a three-pool WETH cycle with a gross gain of 0.189004 WETH, and about 0.00756 ETH remains after the 0.181444 ETH gas fee. The actor holds no other tokens at the end.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2067,
+  "output_tokens": 1030,
+  "thinking_tokens": 643
+ },
+ "_request_id": "req_011CgBTQhiGkeXudK8aoSerF",
+ "_response_id": "msg_011CgBTQi46qJEvyq9gtp9Nn",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x9762b1d716bb97735905996e013d61c140722249\",\"pools\":[\"0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4\",\"0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27\",\"0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.189004,\"gas_eth\":0.181444,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 12.25 WETH to the WETH/MIM V2 pool. The MIM goes to the USDC/MIM V3 pool, and the USDC goes on to the USDC/WETH V2 pool, which pays 12.439004 WETH back to the actor. That is a three-pool WETH cycle with a gross gain of 0.189004 WETH, and about 0.00756 ETH remains after the 0.181444 ETH gas fee. The actor holds no other tokens at the end.\"}",
+ "case_id": "arb106_104",
+ "_time": "2026-10-19T18:42:16+0800"
+}

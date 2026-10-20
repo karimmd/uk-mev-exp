@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x376079a32d73b3942639486da4841ca31afa9960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.145744,
+ "gas_eth": 0.002884,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 2362884269.495092 EPAY into the pool for 9.292415 WETH in the front leg. The victim sells EPAY on the same pool in between. The back leg buys back exactly the same EPAY amount for 9.146671 WETH, so the EPAY position nets to zero. Net WETH is +0.145744, and about +0.14286 after 0.002884 ETH of gas. The front leg sells EPAY first instead of buying it, so it opens the position as a sale, but the bracket is otherwise complete.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0256632,
+ "_session": "55f34bd9-9c92-4f9c-9b15-9a582de64c35",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0x376079a32d73b3942639486da4841ca31afa9960\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.145744, \"gas_eth\": 0.002884, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 2362884269.495092 EPAY into the pool for 9.292415 WETH in the front leg. The victim sells EPAY on the same pool in between. The back leg buys back exactly the same EPAY amount for 9.146671 WETH, so the EPAY position nets to zero. Net WETH is +0.145744, and about +0.14286 after 0.002884 ETH of gas. The front leg sells EPAY first instead of buying it, so it opens the position as a sale, but the bracket is otherwise complete.\"}",
+ "case_id": "sym100_026",
+ "_time": "2026-10-13T21:28:20+0800"
+}

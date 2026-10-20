@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000e8b06d9bf77ba40fc89e4eaa4f225e5c",
+ "pool": "0x7ba9b94127d434182287de708643932ec036d365",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 0.000424,
+ "gas_eth": 0.049544022,
+ "residual": "unknown prior eRSDL; actor sent 348.057925 eRSDL more than acquired",
+ "confidence": 4,
+ "note": "Front and back are the same caller-target contract, and both swap on the same Uniswap V2 pool as the victim. WETH nets +0.049968 before gas, leaving +0.000424 after front/back gas, but the back leg disposes of 348.057925 more eRSDL than the front acquired, so prior token inventory/cost is missing.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2524,
+  "output_tokens": 10443,
+  "thinking_tokens": 10249
+ },
+ "_request_id": "5026432266b4981158b238a7b1b8a2fc",
+ "_response_id": "1e99c1da-b342-4669-916e-807cc7e2f3a9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000e8b06d9bf77ba40fc89e4eaa4f225e5c\",\"pool\":\"0x7ba9b94127d434182287de708643932ec036d365\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth\":0.000424,\"gas_eth\":0.049544022,\"residual\":\"unknown prior eRSDL; actor sent 348.057925 eRSDL more than acquired\",\"confidence\":4,\"note\":\"Front and back are the same caller-target contract, and both swap on the same Uniswap V2 pool as the victim. WETH nets +0.049968 before gas, leaving +0.000424 after front/back gas, but the back leg disposes of 348.057925 more eRSDL than the front acquired, so prior token inventory/cost is missing.\"}",
+ "case_id": "rej53_033",
+ "_time": "2026-10-19T19:01:14+0800"
+}

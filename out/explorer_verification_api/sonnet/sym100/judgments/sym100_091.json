@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x570febdf89c07f256c75686caca215289bb11cfc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.380099,
+ "gas_eth": 0.024277,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (called by the same sender) sells 1441.165691 ERN into the ERN/WETH pool in the front leg and receives exactly 1441.165691 ERN back in the back leg. The victim sells ERN on the same pool between the two legs. WETH flows are +17.702044 in the front and -17.321945 in the back, so +0.380099 WETH before gas, or about +0.355822 ETH after the 0.024277 ETH of gas. No ERN is left over. The bracket is a sell-first sandwich, with ERN inventory held before the front leg.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2940,
+  "output_tokens": 951,
+  "thinking_tokens": 650
+ },
+ "_request_id": "req_011CgBSSRqUQRmFcxwAS2vSZ",
+ "_response_id": "msg_011CgBSSSA5R3dAD8wRkqAKD",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x570febdf89c07f256c75686caca215289bb11cfc\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.380099,\"gas_eth\":0.024277,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract (called by the same sender) sells 1441.165691 ERN into the ERN/WETH pool in the front leg and receives exactly 1441.165691 ERN back in the back leg. The victim sells ERN on the same pool between the two legs. WETH flows are +17.702044 in the front and -17.321945 in the back, so +0.380099 WETH before gas, or about +0.355822 ETH after the 0.024277 ETH of gas. No ERN is left over. The bracket is a sell-first sandwich, with ERN inventory held before the front leg.\"}",
+ "case_id": "sym100_091",
+ "_time": "2026-10-19T18:29:33+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.20551,
+ "gas_eth": 0.009937,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract, called by the same sender in both legs, sells 261577.898309 RVP into the RVP/WETH pool in front for 9.707 WETH. It buys back exactly the same RVP in back for 9.50149 WETH. The victim sells 150000 RVP into that pool in between. The actor's RVP position is flat, and WETH nets +0.20551, or about +0.1956 after 0.009937 ETH of gas. The order is sell first and buy back second, not buy first, which is a less typical sandwich shape, so confidence is moderate.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026827200000000002,
+ "_session": "07a712a3-9c1e-42eb-944d-6719dae614da",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.20551,\"gas_eth\":0.009937,\"residual\":\"none\",\"confidence\":3,\"note\":\"The same contract, called by the same sender in both legs, sells 261577.898309 RVP into the RVP/WETH pool in front for 9.707 WETH. It buys back exactly the same RVP in back for 9.50149 WETH. The victim sells 150000 RVP into that pool in between. The actor's RVP position is flat, and WETH nets +0.20551, or about +0.1956 after 0.009937 ETH of gas. The order is sell first and buy back second, not buy first, which is a less typical sandwich shape, so confidence is moderate.\"}",
+ "case_id": "pack_035",
+ "_time": "2026-10-13T20:10:58+0800"
+}

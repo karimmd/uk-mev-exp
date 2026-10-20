@@ -1,0 +1,27 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x008d9d457ad0a75c83d9a5e2b8e4ce89232b5083",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0xd340b57aacdd10f96fc1cf10e15921936f41e29c",
+  "0xc5578194d457dcce3f272538d1ad52c68d1ce849",
+  "0x5777d92f208679db4b9778590fa3cab3ac9e2168",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.017677,
+ "gas_eth": 0.017051,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH-in/WETH-out cycles. The first is WETH/USDT between V3 pool 0x11b8 and V2 pool 0x008d, for +0.006626 WETH. The second is WETH to USDC to DAI to wstETH and back to WETH through four pools, for +0.011051 WETH. Intermediate tokens move pool to pool, and the actor ends holding only WETH. Net is 0.017677 WETH minus 0.017051 ETH gas, about +0.000626 ETH, a thin margin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0299932,
+ "_session": "ea0eafbf-2868-43c0-b148-68c383b7f91d",
+ "_raw": "{\"actor\": \"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\", \"pools\": [\"0x008d9d457ad0a75c83d9a5e2b8e4ce89232b5083\", \"0x11b815efb8f581194ae79006d24e0d814b7697f6\", \"0xd340b57aacdd10f96fc1cf10e15921936f41e29c\", \"0xc5578194d457dcce3f272538d1ad52c68d1ce849\", \"0x5777d92f208679db4b9778590fa3cab3ac9e2168\", \"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.017677, \"gas_eth\": 0.017051, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two WETH-in/WETH-out cycles. The first is WETH/USDT between V3 pool 0x11b8 and V2 pool 0x008d, for +0.006626 WETH. The second is WETH to USDC to DAI to wstETH and back to WETH through four pools, for +0.011051 WETH. Intermediate tokens move pool to pool, and the actor ends holding only WETH. Net is 0.017677 WETH minus 0.017051 ETH gas, about +0.000626 ETH, a thin margin.\"}",
+ "case_id": "arb106_051",
+ "_time": "2026-10-13T22:22:12+0800"
+}

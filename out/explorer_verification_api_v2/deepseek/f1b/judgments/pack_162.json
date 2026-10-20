@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.045378,
+ "gas_eth": 0.020665,
+ "profit_after_gas": 0.024713,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor bought 8864.669729 GLCH for 1.573666 WETH in front and sold the exact amount back for 1.619044 WETH on the same Uniswap V2 pool used by the victim. Net before gas is +0.045378 WETH, and after front/back gas it is +0.024713 ETH with no residual GLCH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2802,
+  "output_tokens": 2507,
+  "thinking_tokens": 2307
+ },
+ "_request_id": "21c76151bfaf8b5df4a49d4e42ea7e2d",
+ "_response_id": "e7482146-9377-43df-952a-d0433d39271e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.045378,\"gas_eth\":0.020665,\"profit_after_gas\":0.024713,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor bought 8864.669729 GLCH for 1.573666 WETH in front and sold the exact amount back for 1.619044 WETH on the same Uniswap V2 pool used by the victim. Net before gas is +0.045378 WETH, and after front/back gas it is +0.024713 ETH with no residual GLCH.\"}",
+ "case_id": "pack_162",
+ "_time": "2026-10-19T19:23:34+0800"
+}

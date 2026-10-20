@@ -1,0 +1,31 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x1ab24a692eff49b9712ceacdef853152d78b9050",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.061366,
+ "gas_eth": 0.025594,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 5031.325137 XPb into the XPb/WETH pool for 3.475 WETH before the victim's XPb sale on the same pool. It then bought back exactly 5031.325137 XPb for 3.413634 WETH after the victim, so the XPb position nets to zero. Gross gain is 0.061366 WETH; subtracting front and back gas of 0.025594 ETH leaves about +0.035772 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2876,
+  "output_tokens": 783,
+  "thinking_tokens": 517
+ },
+ "_request_id": "req_011CgBRuLKUAkwZzMBXkH6tV",
+ "_response_id": "msg_011CgBRuLf5DfbM7JuK4YN5W",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xdac775cd972ac612907682ff757af66f75eecece\",\"pool\":\"0x1ab24a692eff49b9712ceacdef853152d78b9050\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.061366,\"gas_eth\":0.025594,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 5031.325137 XPb into the XPb/WETH pool for 3.475 WETH before the victim's XPb sale on the same pool. It then bought back exactly 5031.325137 XPb for 3.413634 WETH after the victim, so the XPb position nets to zero. Gross gain is 0.061366 WETH; subtracting front and back gas of 0.025594 ETH leaves about +0.035772 ETH.\"}",
+ "case_id": "sym100_002",
+ "_time": "2026-10-19T18:22:30+0800"
+}

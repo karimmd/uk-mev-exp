@@ -1,0 +1,32 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xf7d31825946e7fd99ef07212d34b9dad84c396b7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.020853,
+ "gas_eth": 0.010662,
+ "profit_after_gas": 0.010191,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH through pool 0xefb47f (buying BONE) into pool 0xf7d318 (selling BONE) in the front leg. The victim sells BONE into 0xf7d318, and the back leg reverses the route, buying BONE from 0xf7d318 and selling it into 0xefb47f. The actor ends with no BONE, and its WETH change is -0.018767 in the front leg and +0.039620 in the back leg. After 0.010662 ETH gas this leaves +0.010191. The structure is a cross-pool variant, so I'm slightly short of certain.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3217,
+  "output_tokens": 1162,
+  "thinking_tokens": 825
+ },
+ "_request_id": "req_011CgBWLQr13aMELV7YJSd1A",
+ "_response_id": "msg_011CgBWLRDp1yU2aFFvcBFZt",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000d41c96294ccdac8612bdfe29c641af\",\"pool\":\"0xf7d31825946e7fd99ef07212d34b9dad84c396b7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.020853,\"gas_eth\":0.010662,\"profit_after_gas\":0.010191,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract routes WETH through pool 0xefb47f (buying BONE) into pool 0xf7d318 (selling BONE) in the front leg. The victim sells BONE into 0xf7d318, and the back leg reverses the route, buying BONE from 0xf7d318 and selling it into 0xefb47f. The actor ends with no BONE, and its WETH change is -0.018767 in the front leg and +0.039620 in the back leg. After 0.010662 ETH gas this leaves +0.010191. The structure is a cross-pool variant, so I'm slightly short of certain.\"}",
+ "case_id": "sym100_038",
+ "_time": "2026-10-19T19:20:40+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xfad95b6089c53a0d1d861eabfaadd8901b0f8533",
+ "pool": "0x03a6947837d25c4d060fc6b78c0277b67a6adc40",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.139715,
+ "gas_eth": 0.029741,
+ "residual": "about 371752340.2 SCOOINU (19252978868.60 received in front minus 18881226528.39 sold in back)",
+ "confidence": 4,
+ "note": "Contract 0xfad9 wraps 0.74 ETH and buys SCOOINU on pool 0x03a6 before the victim, who buys SCOOINU on the same pool. It then sells SCOOINU there for 0.909456 WETH and unwraps it, a gross gain of 0.169456 ETH, or 0.139715 ETH after 0.029741 ETH of gas. The leftover SCOOINU can only add value, so the sign is positive whatever it is worth.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3376,
+  "output_tokens": 750,
+  "thinking_tokens": 418
+ },
+ "_request_id": "req_011CgBQZcthn7nNi3Je9uCEe",
+ "_response_id": "msg_011CgBQZkC14fGtT78H3gGHz",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xfad95b6089c53a0d1d861eabfaadd8901b0f8533\", \"pool\": \"0x03a6947837d25c4d060fc6b78c0277b67a6adc40\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.139715, \"gas_eth\": 0.029741, \"residual\": \"about 371752340.2 SCOOINU (19252978868.60 received in front minus 18881226528.39 sold in back)\", \"confidence\": 4, \"note\": \"Contract 0xfad9 wraps 0.74 ETH and buys SCOOINU on pool 0x03a6 before the victim, who buys SCOOINU on the same pool. It then sells SCOOINU there for 0.909456 WETH and unwraps it, a gross gain of 0.169456 ETH, or 0.139715 ETH after 0.029741 ETH of gas. The leftover SCOOINU can only add value, so the sign is positive whatever it is worth.\"}",
+ "case_id": "pack_044",
+ "_time": "2026-10-19T18:04:58+0800"
+}

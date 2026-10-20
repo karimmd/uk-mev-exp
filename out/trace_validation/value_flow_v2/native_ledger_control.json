@@ -1,0 +1,282 @@
+{
+ "addresses_compared": 126,
+ "cases": [
+  {
+   "addresses_compared": 4,
+   "block": 12350996,
+   "internal_rows": 4,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xd49d8dbb1891633770552a15640150a0c47d2d5290ada9a4e9197cc602aa6a68"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 11071438,
+   "internal_rows": 1,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x27ec725ba9d8000",
+   "tx": "0x70ed4d5533c5b5ca3205237120aecf52cdebae9611b094e246796dbb36a6fb88"
+  },
+  {
+   "addresses_compared": 6,
+   "block": 13797790,
+   "internal_rows": 6,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x594c02242bb506a763735ed3a7d603dd7cd8fc8d14c1429d05ef2c2fff03f400"
+  },
+  {
+   "addresses_compared": 4,
+   "block": 13439170,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0xd02ab486cedc0000",
+   "tx": "0x987f3098cb7ffb23862677c82e8a79f917053774315a61a9998917f9b7e5ac7d"
+  },
+  {
+   "addresses_compared": 5,
+   "block": 12907760,
+   "internal_rows": 19,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xa99524b9783b986f763aaa59597dd95de8170fa00cae718c4ca5943f5e691483"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 12023769,
+   "internal_rows": 1,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x429d069189e0000",
+   "tx": "0xaa4486d26e3842eafb0f358fa0c7a361d4ad2697fcfd7a04f75902557c374f99"
+  },
+  {
+   "addresses_compared": 5,
+   "block": 13675554,
+   "internal_rows": 5,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x36d3680e1dc7e7c239bf6795bb9afd5ebcac4db5ad3bb54c8f7a61b1885a06e4"
+  },
+  {
+   "addresses_compared": 5,
+   "block": 12909747,
+   "internal_rows": 6,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x0a55932f5fb44553eb52df234124697419a8e0a41014f6b4f66572b11cb637dd"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 10177402,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xdd1bc702b3daaa10b4b39b6a9fa75f9b2c3c74682cafa0a2f90af2cf5afbb8ff"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 11060995,
+   "internal_rows": 10,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x7961adcbcf1244f501f837697c9557da4fc8980a84705974f8a1c23d49f2960f"
+  },
+  {
+   "addresses_compared": 1,
+   "block": 12453045,
+   "internal_rows": 0,
+   "internal_state": "empty",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x7e704573ced43fd013aa3aed93d8ef4c670672c03f1c6d93525938bb14856ed0"
+  },
+  {
+   "addresses_compared": 7,
+   "block": 14286221,
+   "internal_rows": 9,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xae5f30e0f1b51a2bff189b5da905c4c9635f49d41ba47ba545cc7d4f4551393e"
+  },
+  {
+   "addresses_compared": 5,
+   "block": 13946559,
+   "internal_rows": 3,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x1075eab07540e2a",
+   "tx": "0x6fe812581668e63894b2c93f6a973b88a30ba04c2aec4a66e5a73d49560a3214"
+  },
+  {
+   "addresses_compared": 5,
+   "block": 13301307,
+   "internal_rows": 3,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x43eaa181b02af6cdda2f9e3df4240a66c564b03a57c1aab19c36b7c83e55a37a"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 11043642,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x46765101400b4d0d9c0b8266f82b0ae781c795d57a265669ee67943f311475ac"
+  },
+  {
+   "addresses_compared": 7,
+   "block": 10575769,
+   "internal_rows": 7,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xdcd7dee72d88b5674245c883c4095216bdbe8ded4d2c5f706225ca2212713e7e"
+  },
+  {
+   "addresses_compared": 4,
+   "block": 11573833,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x6f05b59d3b200000",
+   "tx": "0xb50100ac1b445ca22c2b925660644adc4eae4ecd49018cfe961a1cec22ca9b2b"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 12107161,
+   "internal_rows": 3,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x126bd2a1fd2963000",
+   "tx": "0x83868290f137af975088c617ee3aa897d0428330922f03f55490dc9acd703463"
+  },
+  {
+   "addresses_compared": 6,
+   "block": 13601920,
+   "internal_rows": 4,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0xde0b6b3a7640000",
+   "tx": "0x844262450b7c305eebdba889d67c08bb0c93dd36f92d5ca970702ac21e73e194"
+  },
+  {
+   "addresses_compared": 8,
+   "block": 11552125,
+   "internal_rows": 7,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x1aeac89369f792000",
+   "tx": "0xb348946885c08445850e864d83ca53407b9b772f7cb7a3e6b3bd6188850cb76a"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 13173944,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x28ca2391428ecfceb4ab02748351f689b924698688df394ed087f8f6881143b6"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 14137697,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x1b44cae51ab2290ccc9eda66d2f62d02eb65fcb25bf4d0c8e9612b538147b0ce"
+  },
+  {
+   "addresses_compared": 4,
+   "block": 14007851,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0xb1a2bc2ec500000",
+   "tx": "0x4dbb7e7dcdb2c1c71bf347bc35242757d22efd5e9115f824812e495b500f83a6"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 11847214,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xbfdfab36755972dae9409e6cfe465faef342caff4fc4500ef2d2ef4b4dfb16b8"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 12709502,
+   "internal_rows": 3,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xb2a264788e8d9383107fd10f499277db9e1c8f2f39dacd4410de301d8d8012cb"
+  },
+  {
+   "addresses_compared": 6,
+   "block": 14388789,
+   "internal_rows": 8,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x81ee76fa6becd8adf8f4cd45457c4272a565f5d4db7889ae74a026795ab24946"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 14193311,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xb802b74a38a5453301a2c6aef45f86ef3c67234256f4b65558235033ccb3b1fe"
+  },
+  {
+   "addresses_compared": 4,
+   "block": 12985816,
+   "internal_rows": 2,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xd138c7f8b7771a35a2aeeffcae0037c36a2e411dd1337b5a04645041dccca91f"
+  },
+  {
+   "addresses_compared": 4,
+   "block": 13915920,
+   "internal_rows": 7,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0xddede9c19c1176bbd7f21ad06c26fb5abf81a607dab09bfd53a2e1eb8c7d0399"
+  },
+  {
+   "addresses_compared": 3,
+   "block": 11915511,
+   "internal_rows": 9,
+   "internal_state": "success",
+   "mismatches": [],
+   "top_level_value": "0x0",
+   "tx": "0x3355d34b55f5219e774ef51b923a4b94d4a8968fd6349cb44f7a109a46ab3860"
+  }
+ ],
+ "exact_matches": 126,
+ "excluded_from_comparison": "block fee recipient; balance unchanged in diffMode",
+ "generated_at": "2026-09-20 20:02:46 CST",
+ "mismatched_addresses": 0,
+ "seed": 20260920,
+ "tolerance": "exact integer wei, zero slack",
+ "transactions": 30
+}

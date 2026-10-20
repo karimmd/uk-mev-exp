@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.307401,
+ "gas_eth": 0.0,
+ "residual": "5375712424.321686 CHINU",
+ "confidence": 5,
+ "note": "The front and back legs use the same actor contract, which receives CHINU in the front and sends CHINU to the same e3c7 pool in the back, while the victim also trades on that pool. WETH flows are -2.929267 front and +3.236668 back; gas fees are zero, and a positive CHINU residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4468,
+  "output_tokens": 11042,
+  "thinking_tokens": 10858
+ },
+ "_request_id": "ead03185daf5ff7d0c01db7308c31031",
+ "_response_id": "5540117c-1069-4435-a14d-8f594f278382",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.307401,\"gas_eth\":0.0,\"residual\":\"5375712424.321686 CHINU\",\"confidence\":5,\"note\":\"The front and back legs use the same actor contract, which receives CHINU in the front and sends CHINU to the same e3c7 pool in the back, while the victim also trades on that pool. WETH flows are -2.929267 front and +3.236668 back; gas fees are zero, and a positive CHINU residual remains.\"}",
+ "case_id": "pack_071",
+ "_time": "2026-10-19T18:14:30+0800"
+}

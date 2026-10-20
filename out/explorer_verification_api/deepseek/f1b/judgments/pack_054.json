@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x78ab16803d92f6db77ef6d4e92fe139affab78cf",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.090713,
+ "gas_eth": 0.103107,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same bot contract to buy and then sell the same FREE amount on the same Uniswap V3 pool, with the victim swapping on that pool in between. WETH inflow minus WETH outflow and both gas fees is positive, and no FREE residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2142,
+  "output_tokens": 1835,
+  "thinking_tokens": 1681
+ },
+ "_request_id": "b5c5f1eff867df3294ec5fb0dac38f68",
+ "_response_id": "e79ccd3e-0d5b-48c0-a003-2b91e2dbe71d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0x78ab16803d92f6db77ef6d4e92fe139affab78cf\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.090713,\"gas_eth\":0.103107,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs use the same bot contract to buy and then sell the same FREE amount on the same Uniswap V3 pool, with the victim swapping on that pool in between. WETH inflow minus WETH outflow and both gas fees is positive, and no FREE residual remains.\"}",
+ "case_id": "pack_054",
+ "_time": "2026-10-19T18:11:21+0800"
+}

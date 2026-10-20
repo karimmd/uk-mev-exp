@@ -1,0 +1,32 @@
+{
+ "actor": "0x59903993ae67bf48f10832e9be28935fee04d6f6",
+ "pool": "0xd65e975c7d0d5871eff8b079120e43c9f377ada1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.0035,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.0035,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor bought 4441.946284 YOP in the front leg and sold the same amount in the back leg on the shared YOP/WETH pool. WETH netted to a small positive 0.0035 ETH-equivalent before zero front/back gas, with no remaining non-WETH position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2935,
+  "output_tokens": 3150,
+  "thinking_tokens": 2976
+ },
+ "_request_id": "9ef1d7fe3fc6841ed011c1658bc18094",
+ "_response_id": "8b5763c5-1bd2-42fd-b7d2-8c2bef20d38d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x59903993ae67bf48f10832e9be28935fee04d6f6\",\"pool\":\"0xd65e975c7d0d5871eff8b079120e43c9f377ada1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.0035,\"gas_eth\":0.0,\"profit_after_gas\":0.0035,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor bought 4441.946284 YOP in the front leg and sold the same amount in the back leg on the shared YOP/WETH pool. WETH netted to a small positive 0.0035 ETH-equivalent before zero front/back gas, with no remaining non-WETH position.\"}",
+ "case_id": "pack_107",
+ "_time": "2026-10-19T19:17:54+0800"
+}

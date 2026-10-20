@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x23a9292830fc80db7f563edb28d2fe6fb47f8624",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028383,
+ "gas_eth": 0.08361,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x000...35b5 received 38.437980 SFI in the front leg and sent the same amount back to the same Uniswap V2 pool in the back leg. Gross WETH change was +6.078279 - 5.966286 = 0.111993 ETH; subtracting front/back fees 0.004763 + 0.078847 leaves +0.028383 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2706,
+  "output_tokens": 6322,
+  "thinking_tokens": 6137
+ },
+ "_request_id": "3a16faf261c5daa578a1cb9704a8bff2",
+ "_response_id": "82b32bf1-e832-4559-b179-7e5eaf858d5a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x23a9292830fc80db7f563edb28d2fe6fb47f8624\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.028383,\"gas_eth\":0.08361,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x000...35b5 received 38.437980 SFI in the front leg and sent the same amount back to the same Uniswap V2 pool in the back leg. Gross WETH change was +6.078279 - 5.966286 = 0.111993 ETH; subtracting front/back fees 0.004763 + 0.078847 leaves +0.028383 ETH.\"}",
+ "case_id": "pack_034",
+ "_time": "2026-10-19T18:09:08+0800"
+}

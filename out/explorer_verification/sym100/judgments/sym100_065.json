@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.042569,
+ "gas_eth": 0.020518,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 9687.003162 COOK into the COOK/WETH pool in the front leg and buys back exactly 9687.003162 COOK in the back leg. The victim also sells COOK into that pool between the two legs. The actor receives 0.812639 WETH and pays 0.770070 WETH, a gain of 0.042569. After 0.020518 ETH of gas, the net is about +0.022051 ETH and no COOK is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0257592,
+ "_session": "1b513a74-9b50-4912-b86f-b5fb177b1f49",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.042569, \"gas_eth\": 0.020518, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sells 9687.003162 COOK into the COOK/WETH pool in the front leg and buys back exactly 9687.003162 COOK in the back leg. The victim also sells COOK into that pool between the two legs. The actor receives 0.812639 WETH and pays 0.770070 WETH, a gain of 0.042569. After 0.020518 ETH of gas, the net is about +0.022051 ETH and no COOK is left over.\"}",
+ "case_id": "sym100_065",
+ "_time": "2026-10-13T21:37:18+0800"
+}

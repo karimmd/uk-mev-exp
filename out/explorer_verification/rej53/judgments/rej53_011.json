@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x4085cafb2c519e6bf69ad410d91dbb6139948366",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.227999,
+ "gas_eth": 0.211921,
+ "residual": "0.014981 VR (dust)",
+ "confidence": 4,
+ "note": "The same contract, called by the same sender in both legs, buys VR through the WETH/USDT pool and the VR/USDT pool in the front leg. The victim buys VR on the VR/USDT pool in between. The contract then sells the VR back through the same two pools. WETH goes from -3.666028 to +3.894027, a gain of 0.227999. After 0.211921 ETH of gas, mostly from the 1397 gwei back leg, the actor is left with about +0.016 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025093200000000003,
+ "_session": "3e3a86f8-da76-46ad-827d-fd3bc2488b00",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x4085cafb2c519e6bf69ad410d91dbb6139948366\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.227999, \"gas_eth\": 0.211921, \"residual\": \"0.014981 VR (dust)\", \"confidence\": 4, \"note\": \"The same contract, called by the same sender in both legs, buys VR through the WETH/USDT pool and the VR/USDT pool in the front leg. The victim buys VR on the VR/USDT pool in between. The contract then sells the VR back through the same two pools. WETH goes from -3.666028 to +3.894027, a gain of 0.227999. After 0.211921 ETH of gas, mostly from the 1397 gwei back leg, the actor is left with about +0.016 ETH.\"}",
+ "case_id": "rej53_011",
+ "_time": "2026-10-13T21:55:32+0800"
+}

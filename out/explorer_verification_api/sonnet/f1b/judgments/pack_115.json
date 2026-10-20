@@ -1,0 +1,31 @@
+{
+ "actor": "0xd270417bd419dc3f4d3cd53f65bfb719f498bac8",
+ "pool": "0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -20.0,
+ "gas_eth": 0.004368,
+ "residual": "12814.694008 ORO",
+ "confidence": 4,
+ "note": "Both the front and back legs buy ORO with 10 ETH each through the router. Neither sells ORO, so the position is never closed and the back leg adds to it, so this is not a sandwich bracket. The actor spent 20 ETH, holds about 12814.69 ORO, and the net ETH is negative after gas of 0.004368 ETH, so Q2 is no.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3423,
+  "output_tokens": 265,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRKX1xQnC1LPVUuKnXL",
+ "_response_id": "msg_011CgBRKbkxg5KwPVkND8nT8",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0xd270417bd419dc3f4d3cd53f65bfb719f498bac8\", \"pool\": \"0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": -20.0, \"gas_eth\": 0.004368, \"residual\": \"12814.694008 ORO\", \"confidence\": 4, \"note\": \"Both the front and back legs buy ORO with 10 ETH each through the router. Neither sells ORO, so the position is never closed and the back leg adds to it, so this is not a sandwich bracket. The actor spent 20 ETH, holds about 12814.69 ORO, and the net ETH is negative after gas of 0.004368 ETH, so Q2 is no.\"}",
+ "case_id": "pack_115",
+ "_time": "2026-10-19T18:14:48+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x7a08ed5862ba4c2887ef169a17637eadb27beecf",
+ "pool": "0xaadb00551312a3c2a8b46597a39ef1105afb2c08",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016107,
+ "gas_eth": 0.033614,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x7a08 wraps 7.44 ETH and buys 39,651,792 AXN on the AXN/WETH pair 0xaadb. The victim then buys AXN on the same pair via USDT->WETH. In the back leg 0x7a08 sells exactly the same AXN for 7.489721 WETH and unwraps it, a gross of +0.049721 ETH, less 0.033614 ETH gas paid by its sender 0x9796, giving +0.016107 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3371,
+  "output_tokens": 631,
+  "thinking_tokens": 333
+ },
+ "_request_id": "req_011CgBRyYDweHYq9zTiNJket",
+ "_response_id": "msg_011CgBRyYa2oTeKCmc8AsTep",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7a08ed5862ba4c2887ef169a17637eadb27beecf\", \"pool\": \"0xaadb00551312a3c2a8b46597a39ef1105afb2c08\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.016107, \"gas_eth\": 0.033614, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x7a08 wraps 7.44 ETH and buys 39,651,792 AXN on the AXN/WETH pair 0xaadb. The victim then buys AXN on the same pair via USDT->WETH. In the back leg 0x7a08 sells exactly the same AXN for 7.489721 WETH and unwraps it, a gross of +0.049721 ETH, less 0.033614 ETH gas paid by its sender 0x9796, giving +0.016107 ETH.\"}",
+ "case_id": "pack_193",
+ "_time": "2026-10-19T18:23:26+0800"
+}

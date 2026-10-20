@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.100962,
+ "gas_eth": 0,
+ "residual": "5271037273404.3125 MOONPUG",
+ "confidence": 5,
+ "note": "The front and back legs both trade MOONPUG/WETH on the same Uniswap V2 pair, with the actor contract receiving MOONPUG in front and selling most of it back after the victim trades on that pair. Net WETH is +0.100962 after the pass-through ETH and zero gas, leaving a positive MOONPUG residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2508,
+  "output_tokens": 5899,
+  "thinking_tokens": 5714
+ },
+ "_request_id": "2dc10445fc3cf58210ecb0238bf4c8c8",
+ "_response_id": "88e3bb22-c20d-4d98-932c-79805ce1dee7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.100962,\"gas_eth\":0,\"residual\":\"5271037273404.3125 MOONPUG\",\"confidence\":5,\"note\":\"The front and back legs both trade MOONPUG/WETH on the same Uniswap V2 pair, with the actor contract receiving MOONPUG in front and selling most of it back after the victim trades on that pair. Net WETH is +0.100962 after the pass-through ETH and zero gas, leaving a positive MOONPUG residual.\"}",
+ "case_id": "pack_017",
+ "_time": "2026-10-19T18:02:34+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x329cc2740670a039efca7663bddbefa03d19522d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.096999,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x1be0 buys ARES with USDC on the ARES/USDC pool in the front leg, after routing WETH through the WETH/USDC pool. The victim buys ARES on the same pool in between, and the contract sells all 283010.994421 ARES back in the back leg. Net WETH is 14.272490 - 14.103186 = +0.169304. A 0.072305 ETH internal transfer to 0x99c8 (likely a builder tip) leaves +0.096999 ETH. Both legs show a 0 gwei gas price, so the gas fee is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0299832,
+ "_session": "7b255898-d4ce-4820-b7e0-94e49130f6fa",
+ "_raw": "{\"actor\": \"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\", \"pool\": \"0x329cc2740670a039efca7663bddbefa03d19522d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.096999, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x1be0 buys ARES with USDC on the ARES/USDC pool in the front leg, after routing WETH through the WETH/USDC pool. The victim buys ARES on the same pool in between, and the contract sells all 283010.994421 ARES back in the back leg. Net WETH is 14.272490 - 14.103186 = +0.169304. A 0.072305 ETH internal transfer to 0x99c8 (likely a builder tip) leaves +0.096999 ETH. Both legs show a 0 gwei gas price, so the gas fee is 0.\"}",
+ "case_id": "rej53_016",
+ "_time": "2026-10-13T21:56:28+0800"
+}

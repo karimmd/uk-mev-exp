@@ -1,0 +1,25 @@
+{
+ "actor": "0xa10fca31a2cb432c9ac976779dc947cfdb003ef0",
+ "pools": [
+  "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+  "0x157dfa656fdf0d18e1ba94075a53600d81cb3a97",
+  "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
+  "0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.071018,
+ "gas_eth": 0.036862,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 7.489325 WETH into the UMA/WETH V3 pool. The tokens then move pool to pool (UMA to FEI to DAI), and the DAI/WETH V2 pool returns 7.560343 WETH. That is a four-pool cycle with a net gain of 0.071018 WETH, or about 0.034156 ETH after the 0.036862 ETH gas fee, which the sender paid. The actor holds nothing else afterward.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0201687,
+ "_session": "11739423-3574-4c5c-a2f9-9413a71895e2",
+ "_raw": "{\"actor\": \"0xa10fca31a2cb432c9ac976779dc947cfdb003ef0\", \"pools\": [\"0xa478c2975ab1ea89e8196811f51a7b7ade33eb11\", \"0x157dfa656fdf0d18e1ba94075a53600d81cb3a97\", \"0x0f024314588466416c8fc66013ba4d3ab2e4efe5\", \"0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.071018, \"gas_eth\": 0.036862, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 7.489325 WETH into the UMA/WETH V3 pool. The tokens then move pool to pool (UMA to FEI to DAI), and the DAI/WETH V2 pool returns 7.560343 WETH. That is a four-pool cycle with a net gain of 0.071018 WETH, or about 0.034156 ETH after the 0.036862 ETH gas fee, which the sender paid. The actor holds nothing else afterward.\"}",
+ "case_id": "arb106_032",
+ "_time": "2026-10-13T22:17:38+0800"
+}

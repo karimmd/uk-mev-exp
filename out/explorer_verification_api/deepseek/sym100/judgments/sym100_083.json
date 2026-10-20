@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x0612f7b15779ca6ddbe927f92d6c4144fbae1485",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.01566311,
+ "gas_eth": 0.02933989,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back use the same pool and same actor contract: the front sells 2500.901129 REALM for 0.353977 WETH, and the back buys back the same REALM for 0.308974 WETH. The net is +0.045003 WETH before gas and +0.01566311 ETH/WETH after 0.02933989 ETH gas, with no residual REALM. However, the front leg sells the non-WETH token rather than opening a non-WETH position, so it fails the stated Q1 bracket definition.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2382,
+  "output_tokens": 5407,
+  "thinking_tokens": 5173
+ },
+ "_request_id": "86a4740a60c04380f9d4a4d60333a85b",
+ "_response_id": "3ea82f5c-a4d7-4264-9383-448ec9de8178",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x0612f7b15779ca6ddbe927f92d6c4144fbae1485\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.01566311, \"gas_eth\": 0.02933989, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Front and back use the same pool and same actor contract: the front sells 2500.901129 REALM for 0.353977 WETH, and the back buys back the same REALM for 0.308974 WETH. The net is +0.045003 WETH before gas and +0.01566311 ETH/WETH after 0.02933989 ETH gas, with no residual REALM. However, the front leg sells the non-WETH token rather than opening a non-WETH position, so it fails the stated Q1 bracket definition.\"}",
+ "case_id": "sym100_083",
+ "_time": "2026-10-19T18:53:53+0800"
+}

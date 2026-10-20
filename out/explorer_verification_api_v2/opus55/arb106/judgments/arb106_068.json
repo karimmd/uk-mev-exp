@@ -1,0 +1,41 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x7b504a15ef05f4eed1c07208c5815c49022a0c19",
+  "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0xc40d16476380e4037e6b1a2594caf6a6cc8da967",
+  "0xac5a2c404ebba22a869998089ac7893ff4e1f0a7"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.023495,
+ "gas_eth": 0.020988,
+ "profit_after_gas": 0.002507,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH cycles. The first goes WETH->GRT->WETH across a V3 and a V2 pool and nets +0.008803 WETH. The second goes WETH->LINK->USDT->WETH across three pools and nets +0.014692 WETH. Intermediate tokens pass pool to pool without touching the actor, so the actor only ever holds WETH; the combined +0.023495 WETH beats the 0.020988 ETH gas by a thin margin.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2550,
+  "output_tokens": 951,
+  "thinking_tokens": 480
+ },
+ "_request_id": "req_011CgBXWFPd4AHpGzfPGify3",
+ "_response_id": "msg_011CgBXWFiy38RGweRD82yVQ",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0x7b504a15ef05f4eed1c07208c5815c49022a0c19\", \"0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed\", \"0x11b815efb8f581194ae79006d24e0d814b7697f6\", \"0xc40d16476380e4037e6b1a2594caf6a6cc8da967\", \"0xac5a2c404ebba22a869998089ac7893ff4e1f0a7\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.023495, \"gas_eth\": 0.020988, \"profit_after_gas\": 0.002507, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two WETH cycles. The first goes WETH->GRT->WETH across a V3 and a V2 pool and nets +0.008803 WETH. The second goes WETH->LINK->USDT->WETH across three pools and nets +0.014692 WETH. Intermediate tokens pass pool to pool without touching the actor, so the actor only ever holds WETH; the combined +0.023495 WETH beats the 0.020988 ETH gas by a thin margin.\"}",
+ "case_id": "arb106_068",
+ "_time": "2026-10-19T19:35:59+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd03dffd02db4b076e3eed9272a6a243a23de16e3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.310203,
+ "gas_eth": 0.290373,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells METIS into the V2 pool (V3 is the counter-leg) before the victim's V2 sell, then buys METIS back from V2 after the victim. WETH nets -0.188134 in the front leg and +0.498337 in the back leg, so +0.310203 before gas and about +0.0198 after 0.290373 ETH of gas. Each leg is a V2/V3 round trip that leaves no METIS, so the 'position' is only a V2 short, which is why Q1 is not certain.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3106,
+  "output_tokens": 1599,
+  "thinking_tokens": 1303
+ },
+ "_request_id": "req_011CgBS1J6CZ4swXb3REsk3N",
+ "_response_id": "msg_011CgBS1JT2xKPF6WCzmh9No",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xd03dffd02db4b076e3eed9272a6a243a23de16e3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.310203,\"gas_eth\":0.290373,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells METIS into the V2 pool (V3 is the counter-leg) before the victim's V2 sell, then buys METIS back from V2 after the victim. WETH nets -0.188134 in the front leg and +0.498337 in the back leg, so +0.310203 before gas and about +0.0198 after 0.290373 ETH of gas. Each leg is a V2/V3 round trip that leaves no METIS, so the 'position' is only a V2 short, which is why Q1 is not certain.\"}",
+ "case_id": "sym100_021",
+ "_time": "2026-10-19T18:23:57+0800"
+}

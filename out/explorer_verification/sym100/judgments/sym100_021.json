@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd03dffd02db4b076e3eed9272a6a243a23de16e3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.310203,
+ "gas_eth": 0.290373,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract is the same in both legs. In the front leg it routes WETH through the V3 pool into the V2 METIS/WETH pool, selling METIS into V2 ahead of the victim, who also sells METIS there. In the back leg it buys METIS back from V2 and sends it to V3. Each leg is a V3/V2 round trip, so the actor never holds METIS, which makes the bracket call less clear-cut. The WETH net is -0.188134 in the front leg and +0.498337 in the back leg, so +0.310203 before gas and about +0.0198 after gas (0.290373, mostly from the 2127 gwei back leg).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0296127,
+ "_session": "27ffb9bb-f053-40f5-8ae9-47373a1fd159",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xd03dffd02db4b076e3eed9272a6a243a23de16e3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.310203, \"gas_eth\": 0.290373, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract is the same in both legs. In the front leg it routes WETH through the V3 pool into the V2 METIS/WETH pool, selling METIS into V2 ahead of the victim, who also sells METIS there. In the back leg it buys METIS back from V2 and sends it to V3. Each leg is a V3/V2 round trip, so the actor never holds METIS, which makes the bracket call less clear-cut. The WETH net is -0.188134 in the front leg and +0.498337 in the back leg, so +0.310203 before gas and about +0.0198 after gas (0.290373, mostly from the 2127 gwei back leg).\"}",
+ "case_id": "sym100_021",
+ "_time": "2026-10-13T21:27:06+0800"
+}

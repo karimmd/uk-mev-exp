@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.187025,
+ "gas_eth": 0.157241,
+ "profit_after_gas": 0.029784,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg swaps 19.216836 WETH for 3,020,068.012421 PEOPLE on the same Uniswap V3 pool the victim trades on; back leg swaps the identical PEOPLE amount back for 19.403861 WETH. The back leg's 0.121771 ETH value and internal transfer cancel, leaving +0.187025 ETH/WETH before gas; after 0.074086 + 0.083155 ETH gas the actor is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2277,
+  "output_tokens": 11011,
+  "thinking_tokens": 10801
+ },
+ "_request_id": "96dcd44bb38142cfa0ef86eae6424b3c",
+ "_response_id": "64958368-1569-49dd-805f-a064fe454808",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.187025,\"gas_eth\":0.157241,\"profit_after_gas\":0.029784,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leg swaps 19.216836 WETH for 3,020,068.012421 PEOPLE on the same Uniswap V3 pool the victim trades on; back leg swaps the identical PEOPLE amount back for 19.403861 WETH. The back leg's 0.121771 ETH value and internal transfer cancel, leaving +0.187025 ETH/WETH before gas; after 0.074086 + 0.083155 ETH gas the actor is positive.\"}",
+ "case_id": "pack_048",
+ "_time": "2026-10-19T19:09:34+0800"
+}

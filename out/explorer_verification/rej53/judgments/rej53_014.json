@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.015568,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 93112565531.761871 JEJUDOGE with 3.859384 WETH in the front leg and sells exactly that amount back for 3.933715 WETH in the back leg. The victim buys JEJUDOGE on the same pool in between. The WETH gain is 0.074331, and the 0.058763 ETH sent with the back transaction is forwarded to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c, so I counted it as a cost. That leaves 0.015568 ETH, and both legs show gas fees of 0.000000 ETH at 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025666800000000004,
+ "_session": "543626a2-b90c-483f-a370-e72c4ba560a5",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.015568, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 93112565531.761871 JEJUDOGE with 3.859384 WETH in the front leg and sells exactly that amount back for 3.933715 WETH in the back leg. The victim buys JEJUDOGE on the same pool in between. The WETH gain is 0.074331, and the 0.058763 ETH sent with the back transaction is forwarded to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c, so I counted it as a cost. That leaves 0.015568 ETH, and both legs show gas fees of 0.000000 ETH at 0.0 gwei.\"}",
+ "case_id": "rej53_014",
+ "_time": "2026-10-13T21:56:05+0800"
+}

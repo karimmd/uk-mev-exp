@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xc352e35a7e5364e53073b4670d5f622438774a41",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001593,
+ "gas_eth": 0.038117,
+ "residual": "about 2.31e12 FIRU (116252572492237.48 bought minus 113938882152028.33 sold), roughly 2% of the position",
+ "confidence": 4,
+ "note": "The contract 0x00000000003b\u2026 buys FIRU with 0.290722 WETH in the front leg. The victim buys FIRU on the same pool (0xc352\u2026) in between. The contract then sells FIRU back for 0.330432 WETH. The WETH gain is 0.039710, and net_eth is that gain after 0.038117 ETH gas, so about +0.001593. The leftover FIRU has non-negative value, so it cannot turn the sign negative.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2896,
+  "output_tokens": 906,
+  "thinking_tokens": 589
+ },
+ "_request_id": "req_011CgBRkLkmPnC4nM54B8aXF",
+ "_response_id": "msg_011CgBRkM6re4SWwutnnxg8E",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xc352e35a7e5364e53073b4670d5f622438774a41\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.001593,\"gas_eth\":0.038117,\"residual\":\"about 2.31e12 FIRU (116252572492237.48 bought minus 113938882152028.33 sold), roughly 2% of the position\",\"confidence\":4,\"note\":\"The contract 0x00000000003b\u2026 buys FIRU with 0.290722 WETH in the front leg. The victim buys FIRU on the same pool (0xc352\u2026) in between. The contract then sells FIRU back for 0.330432 WETH. The WETH gain is 0.039710, and net_eth is that gain after 0.038117 ETH gas, so about +0.001593. The leftover FIRU has non-negative value, so it cannot turn the sign negative.\"}",
+ "case_id": "pack_168",
+ "_time": "2026-10-19T18:20:28+0800"
+}

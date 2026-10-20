@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.945248,
+ "gas_eth": 0.92832,
+ "profit_after_gas": 0.016928,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract executed both legs, selling LOOKS on the V2 pool before the victim's LOOKS sale and buying it back after, while using the V3 pool as a hedge/route. Netting WETH across both legs gives a positive result after front and back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3298,
+  "output_tokens": 25882,
+  "thinking_tokens": 25710
+ },
+ "_request_id": "0630b7911d5b350b15af352b1d3c6b32",
+ "_response_id": "8c8e28ff-63d0-4bfc-b260-d8e266dd8454",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.945248,\"gas_eth\":0.928320,\"profit_after_gas\":0.016928,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract executed both legs, selling LOOKS on the V2 pool before the victim's LOOKS sale and buying it back after, while using the V3 pool as a hedge/route. Netting WETH across both legs gives a positive result after front and back gas.\"}",
+ "case_id": "sym100_047",
+ "_time": "2026-10-19T19:34:39+0800"
+}

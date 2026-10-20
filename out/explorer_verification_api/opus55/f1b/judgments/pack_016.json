@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.21489,
+ "gas_eth": 0.00968,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x...6b40 sends 99.994507 WETH through the V3 USDC/WETH pool and the BOND/USDC V2 pool 0x6591 to receive 11445.287856 BOND. The victim then buys BOND on 0x6591, and the back leg sells the same BOND back through both pools for 100.462361 WETH. WETH gain of 0.467854, minus the 0.243284 ETH payment the sender passed through to 0x5a0b and 0.00968 ETH gas, leaves about +0.2149 ETH with USDC and BOND fully closed.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3226,
+  "output_tokens": 861,
+  "thinking_tokens": 534
+ },
+ "_request_id": "req_011CgBQCo1Zq9mzQLTJsGuGx",
+ "_response_id": "msg_011CgBQCum8Mf7PbzNWnXep4",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.21489, \"gas_eth\": 0.00968, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x...6b40 sends 99.994507 WETH through the V3 USDC/WETH pool and the BOND/USDC V2 pool 0x6591 to receive 11445.287856 BOND. The victim then buys BOND on 0x6591, and the back leg sells the same BOND back through both pools for 100.462361 WETH. WETH gain of 0.467854, minus the 0.243284 ETH payment the sender passed through to 0x5a0b and 0.00968 ETH gas, leaves about +0.2149 ETH with USDC and BOND fully closed.\"}",
+ "case_id": "pack_016",
+ "_time": "2026-10-19T18:00:16+0800"
+}

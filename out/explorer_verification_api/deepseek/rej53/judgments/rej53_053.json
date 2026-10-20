@@ -1,0 +1,31 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.025172,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract receives 4364.807017 USDC in the front leg and spends the same amount in the back leg on pool 0x684b, where the victim trades between them. Net WETH/ETH is +2.728533 - 2.675540 - 0.027821 = +0.025172, with zero gas cost and no residual non-WETH token.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2974,
+  "output_tokens": 4520,
+  "thinking_tokens": 4341
+ },
+ "_request_id": "83c9928688f3d73daf88cce27306707e",
+ "_response_id": "236b7da6-7a51-47a5-966d-783b07d2b067",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.025172,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract receives 4364.807017 USDC in the front leg and spends the same amount in the back leg on pool 0x684b, where the victim trades between them. Net WETH/ETH is +2.728533 - 2.675540 - 0.027821 = +0.025172, with zero gas cost and no residual non-WETH token.\"}",
+ "case_id": "rej53_053",
+ "_time": "2026-10-19T19:03:50+0800"
+}

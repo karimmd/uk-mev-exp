@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.19807,
+ "gas_eth": 0.0148,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 51071915653.522133 AKITA to the AKITA/WETH pool for 3.035358 WETH in the front leg. It buys back exactly the same AKITA for 2.837288 WETH in the back leg, so the AKITA position nets to zero. The victim also sells AKITA into this pool between the two legs. The WETH gain before gas is 0.19807, and after 0.0148 ETH of gas it is about +0.18327 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3019,
+  "output_tokens": 752,
+  "thinking_tokens": 477
+ },
+ "_request_id": "req_011CgBRbbKNGPJy2RmgbENEL",
+ "_response_id": "msg_011CgBRbexPyQwKxEAraBd8G",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.19807,\"gas_eth\":0.0148,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 51071915653.522133 AKITA to the AKITA/WETH pool for 3.035358 WETH in the front leg. It buys back exactly the same AKITA for 2.837288 WETH in the back leg, so the AKITA position nets to zero. The victim also sells AKITA into this pool between the two legs. The WETH gain before gas is 0.19807, and after 0.0148 ETH of gas it is about +0.18327 ETH.\"}",
+ "case_id": "pack_146",
+ "_time": "2026-10-19T18:18:30+0800"
+}

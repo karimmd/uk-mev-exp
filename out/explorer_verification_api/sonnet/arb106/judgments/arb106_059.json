@@ -1,0 +1,38 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0x3a8027b37cd119cde72c1086ab5d7de912f61b61",
+  "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.009999,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 2.9871 WETH from the RAD/WETH V3 pool and pays 2.961143 WETH to the USDC/WETH V3 pool. RAD and USDC only move between the pools, in a triangular route through the V2 USDC/RAD pair. The WETH gain of 0.025957 less the 0.015958 ETH sent to 0x5a0b... leaves about 0.009999 ETH. The explorer shows gas fee 0 (gas price 0.0 gwei), so no further cost is deducted.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2653,
+  "output_tokens": 1143,
+  "thinking_tokens": 746
+ },
+ "_request_id": "req_011CgBT8mubJiCotbYQXbgWL",
+ "_response_id": "msg_011CgBT8nJuGxTeFQjJ4uCXR",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0x3a8027b37cd119cde72c1086ab5d7de912f61b61\",\"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.009999,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 2.9871 WETH from the RAD/WETH V3 pool and pays 2.961143 WETH to the USDC/WETH V3 pool. RAD and USDC only move between the pools, in a triangular route through the V2 USDC/RAD pair. The WETH gain of 0.025957 less the 0.015958 ETH sent to 0x5a0b... leaves about 0.009999 ETH. The explorer shows gas fee 0 (gas price 0.0 gwei), so no further cost is deducted.\"}",
+ "case_id": "arb106_059",
+ "_time": "2026-10-19T18:38:41+0800"
+}

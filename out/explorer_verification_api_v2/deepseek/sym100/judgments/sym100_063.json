@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xc60c479f3cc66f1654a4113f4949c98ce77a9995",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.049285,
+ "gas_eth": 0.01681,
+ "profit_after_gas": 0.032475,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells 12340.913099 KYL for 6.859451 WETH; back buys the same KYL for 6.810166 WETH, so net before gas is +0.049285 WETH. The victim trades the same KYL/WETH pool between the two legs, and the actor remains positive after front/back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2341,
+  "output_tokens": 3262,
+  "thinking_tokens": 3079
+ },
+ "_request_id": "edf2177eb04764ba4a08c807f656adae",
+ "_response_id": "44105257-ec4f-40bc-9223-c2d7483137e7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xc60c479f3cc66f1654a4113f4949c98ce77a9995\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.049285,\"gas_eth\":0.01681,\"profit_after_gas\":0.032475,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells 12340.913099 KYL for 6.859451 WETH; back buys the same KYL for 6.810166 WETH, so net before gas is +0.049285 WETH. The victim trades the same KYL/WETH pool between the two legs, and the actor remains positive after front/back gas fees.\"}",
+ "case_id": "sym100_063",
+ "_time": "2026-10-19T19:35:09+0800"
+}

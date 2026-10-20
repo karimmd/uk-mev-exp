@@ -1,0 +1,41 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x083178e6adcadbda37c02c47b1101aa19878d404",
+  "0xda827fe99adb2643d80fd30f750b8b96321d7726"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.002512,
+ "gas_eth": 0,
+ "profit_after_gas": 0.002512,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract sends WETH into a five-pool route and receives back more WETH; after the 0.007703 ETH internal payment and zero gas, it remains net positive about 0.002512 ETH/WETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1882,
+  "output_tokens": 10323,
+  "thinking_tokens": 10044
+ },
+ "_request_id": "b8409b1f8af6e72474cbd06e945d5eb2",
+ "_response_id": "8cb58672-d128-4fa1-a668-9713b6bb69d6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0x083178e6adcadbda37c02c47b1101aa19878d404\",\"0xda827fe99adb2643d80fd30f750b8b96321d7726\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.002512,\"gas_eth\":0,\"profit_after_gas\":0.002512,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract sends WETH into a five-pool route and receives back more WETH; after the 0.007703 ETH internal payment and zero gas, it remains net positive about 0.002512 ETH/WETH.\"}",
+ "case_id": "arb106_003",
+ "_time": "2026-10-19T19:47:41+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34b8487fc2912c486b04d1436b07f19f7730cd43",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.051101,
+ "gas_eth": 0.028687,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells POLK into the V3 pool in the front leg, the same direction as the victim. The POLK is sourced from the V2 pool 0x05f0. In the back leg it buys POLK back from the V3 pool and sells it on V2. WETH nets -0.117686 in the front and +0.168787 in the back, so +0.051101 before gas and about +0.0224 after 0.028687 ETH of gas. No POLK is left over. The structure is a V2/V3 arbitrage-style bracket around the victim's V3 trade, which is why confidence is not higher.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0286528,
+ "_session": "c40435af-0631-495d-9683-723095da6026",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x34b8487fc2912c486b04d1436b07f19f7730cd43\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.051101, \"gas_eth\": 0.028687, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sells POLK into the V3 pool in the front leg, the same direction as the victim. The POLK is sourced from the V2 pool 0x05f0. In the back leg it buys POLK back from the V3 pool and sells it on V2. WETH nets -0.117686 in the front and +0.168787 in the back, so +0.051101 before gas and about +0.0224 after 0.028687 ETH of gas. No POLK is left over. The structure is a V2/V3 arbitrage-style bracket around the victim's V3 trade, which is why confidence is not higher.\"}",
+ "case_id": "sym100_099",
+ "_time": "2026-10-13T21:45:04+0800"
+}

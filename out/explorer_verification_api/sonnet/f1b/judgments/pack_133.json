@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x7270233ccae676e776a659affc35219e6fcfbb10",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.027261,
+ "gas_eth": 0.024422,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the actor buys CFG with WETH on the 0x6127 pool, then sells it for USDC on the 0x7270 pool, where the victim also sells CFG. In the back leg it buys CFG back on 0x7270 with exactly the same USDC and sells it for WETH on 0x6127. USDC and CFG net to zero, WETH nets +0.027261 (2.448867 \u2212 2.421606), and after 0.024422 ETH of gas the position is about +0.00284 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3079,
+  "output_tokens": 718,
+  "thinking_tokens": 432
+ },
+ "_request_id": "req_011CgBRUcpiFQkgXePz5DkVn",
+ "_response_id": "msg_011CgBRUdGVucchZpr22YwQq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x7270233ccae676e776a659affc35219e6fcfbb10\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.027261,\"gas_eth\":0.024422,\"residual\":\"none\",\"confidence\":4,\"note\":\"In the front leg the actor buys CFG with WETH on the 0x6127 pool, then sells it for USDC on the 0x7270 pool, where the victim also sells CFG. In the back leg it buys CFG back on 0x7270 with exactly the same USDC and sells it for WETH on 0x6127. USDC and CFG net to zero, WETH nets +0.027261 (2.448867 \u2212 2.421606), and after 0.024422 ETH of gas the position is about +0.00284 ETH.\"}",
+ "case_id": "pack_133",
+ "_time": "2026-10-19T18:16:53+0800"
+}

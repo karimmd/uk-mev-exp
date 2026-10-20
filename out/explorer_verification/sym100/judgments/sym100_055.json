@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd65e975c7d0d5871eff8b079120e43c9f377ada1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013096,
+ "gas_eth": 0.01047,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Each leg is a two-pool round trip through the actor contract (pool 0xe4275e18... and victim pool 0xd65e975c...), so no YOP is held between legs. Economically the front sells YOP into the victim's pool before the victim's YOP sale and the back buys it back after, with pool 0xe4275e18... as the counter-leg. WETH net is -0.072112 on the front and +0.085208 on the back, so +0.013096 before gas and about +0.002626 after the 0.01047 ETH of gas. The Q1 'yes' is uncertain because no token position is held across the victim.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0282987,
+ "_session": "cfbd1d9d-549e-4b20-a8e2-4231acce7f9e",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xd65e975c7d0d5871eff8b079120e43c9f377ada1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.013096, \"gas_eth\": 0.01047, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Each leg is a two-pool round trip through the actor contract (pool 0xe4275e18... and victim pool 0xd65e975c...), so no YOP is held between legs. Economically the front sells YOP into the victim's pool before the victim's YOP sale and the back buys it back after, with pool 0xe4275e18... as the counter-leg. WETH net is -0.072112 on the front and +0.085208 on the back, so +0.013096 before gas and about +0.002626 after the 0.01047 ETH of gas. The Q1 'yes' is uncertain because no token position is held across the victim.\"}",
+ "case_id": "sym100_055",
+ "_time": "2026-10-13T21:35:07+0800"
+}

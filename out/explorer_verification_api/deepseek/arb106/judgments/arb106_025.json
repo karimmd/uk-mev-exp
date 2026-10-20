@@ -1,0 +1,41 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xd03dffd02db4b076e3eed9272a6a243a23de16e3",
+  "0x1c98562a2fab5af19d8fb3291a36ac3c618835d9",
+  "0xca3d6a94759cb675f0ac10a76fc0da6ee6bf6e7b",
+  "0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8",
+  "0x5cf235c56418109fb7f0aacca1b75a0a38047ca9",
+  "0x04dd76803f247b611d4f470fc6cd206a9d02f869"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.008038,
+ "gas_eth": 0.065414,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor recycles WETH across six pools and ends with gross WETH profit 0.073452; subtracting the 0.065414 gas fee leaves about 0.008038 ETH/WETH. No non-WETH residual or zero-address mint is visible.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2196,
+  "output_tokens": 11535,
+  "thinking_tokens": 11227
+ },
+ "_request_id": "955d6376eb65d185562a43d0bc3c0a42",
+ "_response_id": "9d6f7b60-ab84-4f19-a92d-563e8223a782",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0xd03dffd02db4b076e3eed9272a6a243a23de16e3\",\"0x1c98562a2fab5af19d8fb3291a36ac3c618835d9\",\"0xca3d6a94759cb675f0ac10a76fc0da6ee6bf6e7b\",\"0xa6cc3c2531fdaa6ae1a3ca84c2855806728693e8\",\"0x5cf235c56418109fb7f0aacca1b75a0a38047ca9\",\"0x04dd76803f247b611d4f470fc6cd206a9d02f869\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.008038,\"gas_eth\":0.065414,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor recycles WETH across six pools and ends with gross WETH profit 0.073452; subtracting the 0.065414 gas fee leaves about 0.008038 ETH/WETH. No non-WETH residual or zero-address mint is visible.\"}",
+ "case_id": "arb106_025",
+ "_time": "2026-10-19T19:10:25+0800"
+}

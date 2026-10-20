@@ -1,0 +1,17 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01131,
+ "gas_eth": 0.011221,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 7987.463059 SYN into the pool in the front leg, the victim sells 30000 SYN on the same pool, and the actor buys back exactly 7987.463059 SYN in the back leg, so SYN nets to zero. This is the sell-side direction, where the actor starts with SYN inventory instead of buying first. WETH nets +0.011310 (4.764050 received, 4.752740 paid), and after 0.011221 ETH of gas for the two legs the margin is about +0.000089 ETH, positive but very thin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0245347,
+ "_session": "e46408de-d485-4cc8-9f26-6c0e5d75dbc4",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.01131, \"gas_eth\": 0.011221, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sells 7987.463059 SYN into the pool in the front leg, the victim sells 30000 SYN on the same pool, and the actor buys back exactly 7987.463059 SYN in the back leg, so SYN nets to zero. This is the sell-side direction, where the actor starts with SYN inventory instead of buying first. WETH nets +0.011310 (4.764050 received, 4.752740 paid), and after 0.011221 ETH of gas for the two legs the margin is about +0.000089 ETH, positive but very thin.\"}",
+ "case_id": "sym100_076",
+ "_time": "2026-10-13T21:40:02+0800"
+}

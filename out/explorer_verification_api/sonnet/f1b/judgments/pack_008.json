@@ -1,0 +1,31 @@
+{
+ "actor": "0x8be4db5926232bc5b02b841dbede8161924495c4",
+ "pool": "0x414fbf662fc98415dbee27c72013a6f3a937ed66",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.34452,
+ "gas_eth": 0.164688,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x8be4\u2026 buys 12644.731114 OWL for 25.82 WETH in the front leg. The victim then buys OWL with 17 ETH on the same pool. The back leg sells exactly the same OWL for 26.16452 WETH, so the WETH gain is 0.34452. After gas of 0.164688 ETH (front 0.156445 plus back 0.008243) the net is about +0.1798 ETH. The front and back transactions have different senders but call the same contract, which is the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3032,
+  "output_tokens": 600,
+  "thinking_tokens": 312
+ },
+ "_request_id": "req_011CgBQ5gxFYZQmQej8AtUKd",
+ "_response_id": "msg_011CgBQ5oZd9dG6vD6jffhpw",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x8be4db5926232bc5b02b841dbede8161924495c4\",\"pool\":\"0x414fbf662fc98415dbee27c72013a6f3a937ed66\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.34452,\"gas_eth\":0.164688,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x8be4\u2026 buys 12644.731114 OWL for 25.82 WETH in the front leg. The victim then buys OWL with 17 ETH on the same pool. The back leg sells exactly the same OWL for 26.16452 WETH, so the WETH gain is 0.34452. After gas of 0.164688 ETH (front 0.156445 plus back 0.008243) the net is about +0.1798 ETH. The front and back transactions have different senders but call the same contract, which is the actor.\"}",
+ "case_id": "pack_008",
+ "_time": "2026-10-19T17:58:36+0800"
+}

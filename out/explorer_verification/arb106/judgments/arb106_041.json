@@ -1,0 +1,25 @@
+{
+ "actor": "0x0000000000fbcaf22009ef39f5316bc58d9728aa",
+ "pools": [
+  "0xba3f54d4ed114a359b3ab81ed11834a2b54addc1",
+  "0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983",
+  "0x44c21f5dcb285d92320ae345c92e8b6204be8cdf",
+  "0xa44002e8062c90a8f8b3cfce6ec70990bba28ae5"
+ ],
+ "cycle_token": "$DG and ROOK",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.007218,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 48 $DG from a V3 pool and sends the same 48 to a V2 pool. It also sends ROOK to a V3 pool in the same amount (5.897464) that it received from a V2 pool, so both token cycles close. WETH out is 3.086248 and WETH in is 3.115120, a gain of +0.028872. The 0.021654 ETH call to 0x5a0b (likely a builder tip) leaves a net of about +0.007218, and gas shows as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028276000000000003,
+ "_session": "61bc8e22-aa23-45e7-8211-448719b36903",
+ "_raw": "{\"actor\":\"0x0000000000fbcaf22009ef39f5316bc58d9728aa\",\"pools\":[\"0xba3f54d4ed114a359b3ab81ed11834a2b54addc1\",\"0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983\",\"0x44c21f5dcb285d92320ae345c92e8b6204be8cdf\",\"0xa44002e8062c90a8f8b3cfce6ec70990bba28ae5\"],\"cycle_token\":\"$DG and ROOK\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.007218,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 48 $DG from a V3 pool and sends the same 48 to a V2 pool. It also sends ROOK to a V3 pool in the same amount (5.897464) that it received from a V2 pool, so both token cycles close. WETH out is 3.086248 and WETH in is 3.115120, a gain of +0.028872. The 0.021654 ETH call to 0x5a0b (likely a builder tip) leaves a net of about +0.007218, and gas shows as 0.\"}",
+ "case_id": "arb106_041",
+ "_time": "2026-10-13T22:19:59+0800"
+}

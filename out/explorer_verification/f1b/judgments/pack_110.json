@@ -1,0 +1,17 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.250298,
+ "gas_eth": 0.159357,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract pays 6.720188 WETH into the RACA/WETH pool and routes the RACA through the RACA/USDT pool to end up with 31120.111039 USDT. The victim sells RACA for USDT on the RACA/USDT pool, and the back leg returns exactly that USDT and collects 6.970486 WETH. Gross gain is 0.250298 WETH against 0.159357 ETH of gas, leaving about +0.0909 ETH with no residual holding. The back leg's very high gas price (1649.6 gwei) lowers confidence slightly, but the sign holds.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0219067,
+ "_session": "e4bae9b5-4e20-49bc-9af2-d49c108245a9",
+ "_raw": "{\"actor\": \"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\", \"pool\": \"0x700fc86c46299cf2a8fd86edadae3f57014351b0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.250298, \"gas_eth\": 0.159357, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract pays 6.720188 WETH into the RACA/WETH pool and routes the RACA through the RACA/USDT pool to end up with 31120.111039 USDT. The victim sells RACA for USDT on the RACA/USDT pool, and the back leg returns exactly that USDT and collects 6.970486 WETH. Gross gain is 0.250298 WETH against 0.159357 ETH of gas, leaving about +0.0909 ETH with no residual holding. The back leg's very high gas price (1649.6 gwei) lowers confidence slightly, but the sign holds.\"}",
+ "case_id": "pack_110",
+ "_time": "2026-10-13T20:26:07+0800"
+}

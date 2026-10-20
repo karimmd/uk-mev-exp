@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.015568,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.015568,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 93.11B JEJUDOGE for 3.859384 WETH in the front leg, the victim bought on the same pool, and the actor sold the full amount back for 3.933715 WETH. That is +0.074331 WETH, less the 0.058763 ETH passed in the back leg's value to 0x5a0b\u2026 (likely a builder payment), which leaves +0.015568. Gas is shown as 0.0 gwei, so I took it as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3459,
+  "output_tokens": 841,
+  "thinking_tokens": 546
+ },
+ "_request_id": "req_011CgBWkkDV3EWFSD4BZ9nLz",
+ "_response_id": "msg_011CgBWknWA3vmYpiesLGauJ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.015568,\"gas_eth\":0.0,\"profit_after_gas\":0.015568,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 93.11B JEJUDOGE for 3.859384 WETH in the front leg, the victim bought on the same pool, and the actor sold the full amount back for 3.933715 WETH. That is +0.074331 WETH, less the 0.058763 ETH passed in the back leg's value to 0x5a0b\u2026 (likely a builder payment), which leaves +0.015568. Gas is shown as 0.0 gwei, so I took it as 0.\"}",
+ "case_id": "rej53_019",
+ "_time": "2026-10-19T19:26:08+0800"
+}

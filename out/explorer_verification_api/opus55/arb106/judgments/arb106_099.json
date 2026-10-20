@@ -1,0 +1,38 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x6a0c7b96bdac7190baf318c133d4bf026423ec31",
+  "0x63c1a7269bf3df0731446cb55cf0e3acccedb0f8",
+  "0xa20ad630cee74bc834aa9b8fcb432c5c02710479"
+ ],
+ "cycle_token": "LMT",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.00189,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor bought LMT on one V2 pool and sold it on the other for 371.58 more REVV, then sold that REVV on the V3 pool for 0.027002 WETH and unwrapped it. LMT and REVV both net to zero. Gas price was 0 at position 1, and 0.025112 ETH went to 0x5a0b..., which looks like a miner or builder tip, leaving about +0.00189 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2637,
+  "output_tokens": 943,
+  "thinking_tokens": 566
+ },
+ "_request_id": "req_011CgBTdm1Kko8mqP6LQXosq",
+ "_response_id": "msg_011CgBTdmMfGAPF9uNFQrVoB",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\", \"pools\": [\"0x6a0c7b96bdac7190baf318c133d4bf026423ec31\", \"0x63c1a7269bf3df0731446cb55cf0e3acccedb0f8\", \"0xa20ad630cee74bc834aa9b8fcb432c5c02710479\"], \"cycle_token\": \"LMT\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.00189, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor bought LMT on one V2 pool and sold it on the other for 371.58 more REVV, then sold that REVV on the V3 pool for 0.027002 WETH and unwrapped it. LMT and REVV both net to zero. Gas price was 0 at position 1, and 0.025112 ETH went to 0x5a0b..., which looks like a miner or builder tip, leaving about +0.00189 ETH.\"}",
+ "case_id": "arb106_099",
+ "_time": "2026-10-19T18:45:16+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0xc433e27c2b7a77e4021524a90354b9922c825335",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.029123,
+ "gas_eth": 0.035433,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back both use 0xc1df..., which sells RDT for WETH in front and buys RDT with WETH in back on the same pool as the victim. Net WETH gain is 0.064556 minus 0.035433 gas, positive, with zero net RDT leftover. Q1 is no under the strict definition because the front leg reduces rather than opens a non-WETH position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2353,
+  "output_tokens": 8066,
+  "thinking_tokens": 7884
+ },
+ "_request_id": "ba77cf980d4bfb8a440a57157ad113ce",
+ "_response_id": "e1c19927-8484-4c04-8a02-38b06989412a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0xc433e27c2b7a77e4021524a90354b9922c825335\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.029123,\"gas_eth\":0.035433,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back both use 0xc1df..., which sells RDT for WETH in front and buys RDT with WETH in back on the same pool as the victim. Net WETH gain is 0.064556 minus 0.035433 gas, positive, with zero net RDT leftover. Q1 is no under the strict definition because the front leg reduces rather than opens a non-WETH position.\"}",
+ "case_id": "sym100_088",
+ "_time": "2026-10-19T18:54:49+0800"
+}

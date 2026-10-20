@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0x35a1f588dbd86446a4eb8133ccc96e3db0e65be4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011599,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract actor receives 323.553093 USDT in the front leg and sends the same USDT amount in the back leg on the DOGZ/USDT pool, which the victim also trades. Net WETH is +0.016570 ETH, and the back leg also sends out 0.004971 ETH internally, leaving +0.011599 ETH before zero front/back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2861,
+  "output_tokens": 4509,
+  "thinking_tokens": 4321
+ },
+ "_request_id": "e744e700abe3452bbc34c08bb72e54a6",
+ "_response_id": "d3e116f2-7043-4e34-b4dd-89e44c1db2e4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0x35a1f588dbd86446a4eb8133ccc96e3db0e65be4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.011599, \"gas_eth\": 0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract actor receives 323.553093 USDT in the front leg and sends the same USDT amount in the back leg on the DOGZ/USDT pool, which the victim also trades. Net WETH is +0.016570 ETH, and the back leg also sends out 0.004971 ETH internally, leaving +0.011599 ETH before zero front/back gas fees.\"}",
+ "case_id": "rej53_032",
+ "_time": "2026-10-19T19:00:40+0800"
+}

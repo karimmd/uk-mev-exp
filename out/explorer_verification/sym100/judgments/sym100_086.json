@@ -1,0 +1,17 @@
+{
+ "actor": "0x0000000005704c6049f869409f38a2bc239efd4b",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.078634,
+ "gas_eth": 0.010512,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 82.510754 MPH into the MPH/WETH pool for 8.449176 WETH in the front leg. The victim then sells 156.26 MPH into the same pool. The actor buys back exactly 82.510754 MPH for 8.370542 WETH in the back leg. The WETH gain is 0.078634, and after 0.010512 ETH of front and back gas it is about +0.068122 ETH. The MPH round trip nets to zero. The order is sell first, then buy back, rather than buy first. The victim's trade goes the same direction as the front leg, so the pattern still fits a sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0264252,
+ "_session": "5fb300e3-ec63-45c1-8a78-ff9e00c7047b",
+ "_raw": "{\"actor\": \"0x0000000005704c6049f869409f38a2bc239efd4b\", \"pool\": \"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.078634, \"gas_eth\": 0.010512, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 82.510754 MPH into the MPH/WETH pool for 8.449176 WETH in the front leg. The victim then sells 156.26 MPH into the same pool. The actor buys back exactly 82.510754 MPH for 8.370542 WETH in the back leg. The WETH gain is 0.078634, and after 0.010512 ETH of front and back gas it is about +0.068122 ETH. The MPH round trip nets to zero. The order is sell first, then buy back, rather than buy first. The victim's trade goes the same direction as the front leg, so the pattern still fits a sandwich.\"}",
+ "case_id": "sym100_086",
+ "_time": "2026-10-13T21:42:09+0800"
+}

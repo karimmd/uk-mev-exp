@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0228,
+ "gas_eth": 0.002953,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor 0x3dad sends 2223.760412 CVX to the CVX/WETH pool for 11.342 WETH in the front leg. The victim sells CVX into the same pool next. In the back leg the actor pays 11.3192 WETH and gets exactly the same 2223.760412 CVX back, so the position is flat. Net is +0.0228 WETH, or about +0.0198 ETH after 0.002953 ETH gas. The sandwich runs in the sell direction, so the actor starts with CVX inventory rather than WETH, which is the main reason confidence is not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0239867,
+ "_session": "53e4417c-a441-4599-8ea9-437309e54572",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x05767d9ef41dc40689678ffca0608878fb3de906\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.0228, \"gas_eth\": 0.002953, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor 0x3dad sends 2223.760412 CVX to the CVX/WETH pool for 11.342 WETH in the front leg. The victim sells CVX into the same pool next. In the back leg the actor pays 11.3192 WETH and gets exactly the same 2223.760412 CVX back, so the position is flat. Net is +0.0228 WETH, or about +0.0198 ETH after 0.002953 ETH gas. The sandwich runs in the sell direction, so the actor starts with CVX inventory rather than WETH, which is the main reason confidence is not 5.\"}",
+ "case_id": "sym100_060",
+ "_time": "2026-10-13T21:36:14+0800"
+}

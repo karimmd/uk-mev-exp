@@ -1,0 +1,39 @@
+{
+ "actor": "0x000000799cd54a82b54e8597f099b0183b301584",
+ "pools": [
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.043208,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor receives WETH from the TRIBE/WETH pool and sends WETH to the WETH/USDC pool while intermediate FEI, TRIBE, and USDC transfers route through three other pools, closing a WETH cycle. After withdrawing 0.154604 WETH and sending 0.111396 ETH internally, the actor retains +0.043208 ETH; gas fee is zero and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2507,
+  "output_tokens": 9199,
+  "thinking_tokens": 8922
+ },
+ "_request_id": "82321dcf8e81d72989b5cce79a940369",
+ "_response_id": "7a92a8af-142f-4015-ab50-8793830d37e4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000799cd54a82b54e8597f099b0183b301584\",\"pools\":[\"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\",\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364\"],\"cycle_token\":\"WETH\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.043208,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor receives WETH from the TRIBE/WETH pool and sends WETH to the WETH/USDC pool while intermediate FEI, TRIBE, and USDC transfers route through three other pools, closing a WETH cycle. After withdrawing 0.154604 WETH and sending 0.111396 ETH internally, the actor retains +0.043208 ETH; gas fee is zero and no non-WETH residual remains.\"}",
+ "case_id": "arb106_010",
+ "_time": "2026-10-19T19:05:51+0800"
+}

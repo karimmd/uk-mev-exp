@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x23a9292830fc80db7f563edb28d2fe6fb47f8624",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028383,
+ "gas_eth": 0.08361,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x0000\u2026594e paid 5.966286 WETH for 38.437980 SFI on the SFI/WETH UniswapV2 pool 0x23a9\u20268624. The victim's 1inch route then bought SFI on that same pool. The contract sold the identical 38.437980 SFI back for 6.078279 WETH, a gross gain of 0.111993 WETH, and after 0.08361 ETH of gas (the back leg at 1347.6 gwei) about 0.028383 ETH remains.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3402,
+  "output_tokens": 452,
+  "thinking_tokens": 155
+ },
+ "_request_id": "req_011CgBQSbuiWmTCeC6n9yyTx",
+ "_response_id": "msg_011CgBQSggTxfUYm8RKjR9Li",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x23a9292830fc80db7f563edb28d2fe6fb47f8624\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.028383, \"gas_eth\": 0.08361, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x0000\u2026594e paid 5.966286 WETH for 38.437980 SFI on the SFI/WETH UniswapV2 pool 0x23a9\u20268624. The victim's 1inch route then bought SFI on that same pool. The contract sold the identical 38.437980 SFI back for 6.078279 WETH, a gross gain of 0.111993 WETH, and after 0.08361 ETH of gas (the back leg at 1347.6 gwei) about 0.028383 ETH remains.\"}",
+ "case_id": "pack_034",
+ "_time": "2026-10-19T18:03:19+0800"
+}

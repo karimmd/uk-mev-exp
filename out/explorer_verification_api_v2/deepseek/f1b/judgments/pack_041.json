@@ -1,0 +1,32 @@
+{
+ "actor": "0x0000000071e801062eb0544403f66176bba42dc0",
+ "pool": "0x4a39d635581dd0fb39fe0e211c4b03590e44aa35",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 1.540308,
+ "gas_eth": 0.03512,
+ "profit_after_gas": 1.505188,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract receives YUI in the front leg and sends the exact YUI amount back in the back leg on the same Uniswap V2 pool the victim trades on. WETH net across the front and back legs is positive after gas, and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2501,
+  "output_tokens": 3099,
+  "thinking_tokens": 2933
+ },
+ "_request_id": "37c672a391e0b6835b67f7bb9ff4698a",
+ "_response_id": "b48d5abc-356a-4bd1-b412-29eb1f3002a5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000071e801062eb0544403f66176bba42dc0\",\"pool\":\"0x4a39d635581dd0fb39fe0e211c4b03590e44aa35\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":1.540308,\"gas_eth\":0.03512,\"profit_after_gas\":1.505188,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract receives YUI in the front leg and sends the exact YUI amount back in the back leg on the same Uniswap V2 pool the victim trades on. WETH net across the front and back legs is positive after gas, and no non-WETH residual remains.\"}",
+ "case_id": "pack_041",
+ "_time": "2026-10-19T19:08:07+0800"
+}

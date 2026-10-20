@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x8d82b68f2346483d6b210383edbe27e7f5ef2365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.135393,
+ "gas_eth": 0.032375,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract sells 1669.880824 CTASK into the pool for 2.427789 WETH in the front leg, the victim sells 6000 CTASK on that pool in between, and the contract buys back exactly 1669.880824 CTASK for 2.292396 WETH in the back leg. Net WETH is +0.135393, and subtracting 0.032375 ETH of front and back gas leaves about +0.103 ETH with no CTASK left over. The round trip runs sell-first then buy-back rather than buy-first, which is the only reason confidence is not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0205347,
+ "_session": "577948fb-8a8a-4630-88f7-2f730ca06437",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x8d82b68f2346483d6b210383edbe27e7f5ef2365\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.135393, \"gas_eth\": 0.032375, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract sells 1669.880824 CTASK into the pool for 2.427789 WETH in the front leg, the victim sells 6000 CTASK on that pool in between, and the contract buys back exactly 1669.880824 CTASK for 2.292396 WETH in the back leg. Net WETH is +0.135393, and subtracting 0.032375 ETH of front and back gas leaves about +0.103 ETH with no CTASK left over. The round trip runs sell-first then buy-back rather than buy-first, which is the only reason confidence is not 5.\"}",
+ "case_id": "sym100_012",
+ "_time": "2026-10-13T21:25:14+0800"
+}

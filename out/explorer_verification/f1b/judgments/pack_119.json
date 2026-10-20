@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xe46935ae80e05cdebd4a4008b6ccaa36d2845370",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.114444,
+ "gas_eth": 0.063288,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x1d6e8b bought 47685.928389 OM for 4.25 WETH in the front leg (position 3) and sold the identical OM amount for 4.364444 WETH in the back leg (position 9). The victim bought OM on the same pool at position 7. The two legs were sent by different EOAs but both called the same contract. The WETH gain of 0.114444 less 0.063288 ETH gas leaves about +0.051156 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.020046699999999997,
+ "_session": "722ee747-32c9-4ddf-b6b5-8a093b7560c8",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0xe46935ae80e05cdebd4a4008b6ccaa36d2845370\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.114444, \"gas_eth\": 0.063288, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x1d6e8b bought 47685.928389 OM for 4.25 WETH in the front leg (position 3) and sold the identical OM amount for 4.364444 WETH in the back leg (position 9). The victim bought OM on the same pool at position 7. The two legs were sent by different EOAs but both called the same contract. The WETH gain of 0.114444 less 0.063288 ETH gas leaves about +0.051156 ETH.\"}",
+ "case_id": "pack_119",
+ "_time": "2026-10-13T20:27:26+0800"
+}

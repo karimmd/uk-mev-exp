@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x860425be6ad1345dc7a3e287facbf32b18bc4fae",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.005051,
+ "gas_eth": 0.078148,
+ "residual": "0.000290 mSLV (0x9d1555d8cb3c846bb4f7d5b1b1080872c3166676)",
+ "confidence": 5,
+ "note": "Actor 0x000...3b3 received mSLV in the front leg and sent it back in the back leg on shared pool 0x8604..., while the victim traded the same pool in between. WETH net is +0.073097 before gas, minus 0.078148 gas gives -0.005051 ETH; the tiny residual mSLV does not flip the sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2478,
+  "output_tokens": 3330,
+  "thinking_tokens": 3114
+ },
+ "_request_id": "fb52bfa3c583252f4ff67103b81fb716",
+ "_response_id": "a939fd65-a252-4846-9d95-919b08f7a02a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x860425be6ad1345dc7a3e287facbf32b18bc4fae\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.005051,\"gas_eth\":0.078148,\"residual\":\"0.000290 mSLV (0x9d1555d8cb3c846bb4f7d5b1b1080872c3166676)\",\"confidence\":5,\"note\":\"Actor 0x000...3b3 received mSLV in the front leg and sent it back in the back leg on shared pool 0x8604..., while the victim traded the same pool in between. WETH net is +0.073097 before gas, minus 0.078148 gas gives -0.005051 ETH; the tiny residual mSLV does not flip the sign.\"}",
+ "case_id": "pack_082",
+ "_time": "2026-10-19T18:16:12+0800"
+}

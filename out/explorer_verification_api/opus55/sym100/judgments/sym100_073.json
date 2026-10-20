@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xb767c20d9773adce84d0f0a5bc64e2f114ad3076",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01882,
+ "gas_eth": 0.047755,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xb5917a sells 852329.70 wOMI for 4.474 WETH on pool 0xb767c2. The victim then sells 2,000,000 wOMI into the same pool, and the contract buys back exactly 852329.70 wOMI for 4.40742 WETH, so this is a sell-first sandwich with no wOMI left over. The WETH gain of 0.06658 minus 0.047755 ETH of front and back gas leaves about +0.0188 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2922,
+  "output_tokens": 711,
+  "thinking_tokens": 416
+ },
+ "_request_id": "req_011CgBSTp1k9NK2FNQyAKSAE",
+ "_response_id": "msg_011CgBSTpLbtXNJCY61zDSWy",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0xb767c20d9773adce84d0f0a5bc64e2f114ad3076\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.01882, \"gas_eth\": 0.047755, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xb5917a sells 852329.70 wOMI for 4.474 WETH on pool 0xb767c2. The victim then sells 2,000,000 wOMI into the same pool, and the contract buys back exactly 852329.70 wOMI for 4.40742 WETH, so this is a sell-first sandwich with no wOMI left over. The WETH gain of 0.06658 minus 0.047755 ETH of front and back gas leaves about +0.0188 ETH.\"}",
+ "case_id": "sym100_073",
+ "_time": "2026-10-19T18:29:50+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.054201,
+ "gas_eth": 0.249344,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 5438.946266 POW in the front leg and sells exactly that amount in the back leg on the Uniswap V3 pool the victim also bought POW from. The WETH gain is 3.746107 \u2212 3.580897 = 0.165210. The back leg also sends 0.111009 ETH to 0x45a3\u2026, which looks like a payment to the block builder, leaving 0.054201 before gas. Gas of 0.249344 ETH across both legs makes the position negative, about \u22120.195 ETH, and it is still negative (about \u22120.084 ETH) if the 0.111009 ETH payment is ignored.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0268252,
+ "_session": "08c4ab51-0e38-4159-ace6-bec5ddbfc7b1",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.054201, \"gas_eth\": 0.249344, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 5438.946266 POW in the front leg and sells exactly that amount in the back leg on the Uniswap V3 pool the victim also bought POW from. The WETH gain is 3.746107 \u2212 3.580897 = 0.165210. The back leg also sends 0.111009 ETH to 0x45a3\u2026, which looks like a payment to the block builder, leaving 0.054201 before gas. Gas of 0.249344 ETH across both legs makes the position negative, about \u22120.195 ETH, and it is still negative (about \u22120.084 ETH) if the 0.111009 ETH payment is ignored.\"}",
+ "case_id": "pack_066",
+ "_time": "2026-10-13T20:16:58+0800"
+}

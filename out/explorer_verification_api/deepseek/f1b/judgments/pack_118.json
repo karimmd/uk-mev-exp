@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f499fe484a61af03b01ea5c81eab14f67c11a5a",
+ "pool": "0xba65016890709dbc9491ca7bf5de395b8441dc8b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.299473,
+ "gas_eth": 0.017399,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys 305222.891823 RSR for 15.8505 WETH in front and later sells the same RSR for 16.167372 WETH on the same UniswapV2 pool, with the victim trading that pool in between. Net WETH gain 0.316872 minus 0.017399 gas is positive, and no RSR remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2269,
+  "output_tokens": 3291,
+  "thinking_tokens": 3113
+ },
+ "_request_id": "c2dc5681c51f90946d90d80b6bc1a608",
+ "_response_id": "fa71a549-19f8-49cc-bb0e-98794f0f4682",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3f499fe484a61af03b01ea5c81eab14f67c11a5a\",\"pool\":\"0xba65016890709dbc9491ca7bf5de395b8441dc8b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.299473,\"gas_eth\":0.017399,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract buys 305222.891823 RSR for 15.8505 WETH in front and later sells the same RSR for 16.167372 WETH on the same UniswapV2 pool, with the victim trading that pool in between. Net WETH gain 0.316872 minus 0.017399 gas is positive, and no RSR remains.\"}",
+ "case_id": "pack_118",
+ "_time": "2026-10-19T18:22:59+0800"
+}

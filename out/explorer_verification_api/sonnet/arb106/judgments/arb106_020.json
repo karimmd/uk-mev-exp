@@ -1,0 +1,40 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x3545d371334f4374872e915caf5ec36c0d83b93e",
+  "0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17",
+  "0x122e55503a0b2e5cd528effa44d0b2fea300f24b",
+  "0xbbc95e1eb6ee476e9cbb8112435e14b372563038",
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001165,
+ "gas_eth": 0.008856,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH round trips. In the first, the CGG V3 pool sends CGG to a V2 pair, the pair pays 0.453877 WETH to the actor, and the actor pays 0.449685 WETH to the V3 pool. In the second, the WOO V3 pool sends WOO to a V2 pair, which routes USDC to a second pair that pays the actor 0.577554 WETH, and the actor pays 0.571725 WETH to the WOO pool. The WETH gain is 0.010021, and after the 0.008856 ETH gas fee about 0.001165 ETH remains. The actor holds no other token. The gas is paid by the sender, which I assumed is the same operator. The cycle is not strictly net zero because WETH is both the cycle token and the profit token, so I read 'closed cycle' loosely, which is why confidence is 4 rather than 5. The pool list covers five of the six contracts that emit Swap or Sync events; I left out 0x397f's pair partner only if it is not a separate pool, so check that list against the receipt.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2570,
+  "output_tokens": 1341,
+  "thinking_tokens": 710
+ },
+ "_request_id": "req_011CgBSuW5EH4ujcKpeczPRN",
+ "_response_id": "msg_011CgBSuWSoUW4hxCzeZhCAv",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x3545d371334f4374872e915caf5ec36c0d83b93e\",\"0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17\",\"0x122e55503a0b2e5cd528effa44d0b2fea300f24b\",\"0xbbc95e1eb6ee476e9cbb8112435e14b372563038\",\"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001165,\"gas_eth\":0.008856,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor runs two WETH round trips. In the first, the CGG V3 pool sends CGG to a V2 pair, the pair pays 0.453877 WETH to the actor, and the actor pays 0.449685 WETH to the V3 pool. In the second, the WOO V3 pool sends WOO to a V2 pair, which routes USDC to a second pair that pays the actor 0.577554 WETH, and the actor pays 0.571725 WETH to the WOO pool. The WETH gain is 0.010021, and after the 0.008856 ETH gas fee about 0.001165 ETH remains. The actor holds no other token. The gas is paid by the sender, which I assumed is the same operator. The cycle is not strictly net zero because WETH is both the cycle token and the profit token, so I read 'closed cycle' loosely, which is why confidence is 4 rather than 5. The pool list covers five of the six contracts that emit Swap or Sync events; I left out 0x397f's pair partner only if it is not a separate pool, so check that list against the receipt.\"}",
+ "case_id": "arb106_020",
+ "_time": "2026-10-19T18:35:43+0800"
+}

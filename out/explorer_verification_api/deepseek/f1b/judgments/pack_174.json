@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x360bb0c0c8451095f65568e77d04b4ee970c6ec1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.061645,
+ "gas_eth": 0.0,
+ "residual": "503529307956.488281 BUGG",
+ "confidence": 5,
+ "note": "The same contract 0x000...3b3cc buys BUGG in front and sells it in back on Uniswap pool 0x360bb..., which the victim also uses in the second hop of a USDC->WETH->BUGG swap. Net WETH gain is 0.061645 minus zero gas, plus residual BUGG, so the position is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2764,
+  "output_tokens": 5611,
+  "thinking_tokens": 5424
+ },
+ "_request_id": "6932acc76d3daeb64fdb2de67c5a4d2e",
+ "_response_id": "614aa87b-dd57-4861-aee1-62d29843500b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x360bb0c0c8451095f65568e77d04b4ee970c6ec1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.061645,\"gas_eth\":0.0,\"residual\":\"503529307956.488281 BUGG\",\"confidence\":5,\"note\":\"The same contract 0x000...3b3cc buys BUGG in front and sells it in back on Uniswap pool 0x360bb..., which the victim also uses in the second hop of a USDC->WETH->BUGG swap. Net WETH gain is 0.061645 minus zero gas, plus residual BUGG, so the position is positive.\"}",
+ "case_id": "pack_174",
+ "_time": "2026-10-19T18:33:26+0800"
+}

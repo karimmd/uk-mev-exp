@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.008868199,
+ "residual": "MXS held by separate front/back senders (21095.574 and 7064.249616)",
+ "confidence": 5,
+ "note": "Both front and back legs are ETH->MXS buys on the same 0x13bb... pair, but the front recipient 0xbcdec... and back recipient 0x7612... are different and neither closes a position. The victim also trades on that pair, but there is no single actor opening and closing across the legs; residual MXS prevents a clean profit sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3065,
+  "output_tokens": 7264,
+  "thinking_tokens": 7086
+ },
+ "_request_id": "b80f94c4003977b412bdf74e23038f07",
+ "_response_id": "72d7377c-5498-4e0b-beb1-ff043bbf136f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":0.008868199,\"residual\":\"MXS held by separate front/back senders (21095.574 and 7064.249616)\",\"confidence\":5,\"note\":\"Both front and back legs are ETH->MXS buys on the same 0x13bb... pair, but the front recipient 0xbcdec... and back recipient 0x7612... are different and neither closes a position. The victim also trades on that pair, but there is no single actor opening and closing across the legs; residual MXS prevents a clean profit sign.\"}",
+ "case_id": "pack_194",
+ "_time": "2026-10-19T18:36:26+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x3867877d568b1699a7fd7d6190d0926aa88c4b86",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.080054,
+ "gas_eth": 0.018136,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 0.427882 PRCY in the front leg and sells exactly that amount in the back leg on the pool where the victim buys PRCY in between. WETH netted +0.139668 - 0.000089 = +0.139579, less the 0.059525 ETH sent in the back leg and forwarded to 0x1ad9... (looks like a builder payment) gives 0.080054, and about 0.061918 after 0.018136 gas, so positive. The front-leg cost of 0.000089 WETH for 0.427882 PRCY looks small against the victim's pricing, but the explorer figures as shown still give a positive result.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0252967,
+ "_session": "c6c3e18b-737f-46f4-af6e-1972913298fa",
+ "_raw": "{\"actor\": \"0x00000000500e2fece27a7600435d0c48d64e0c00\", \"pool\": \"0x3867877d568b1699a7fd7d6190d0926aa88c4b86\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.080054, \"gas_eth\": 0.018136, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 0.427882 PRCY in the front leg and sells exactly that amount in the back leg on the pool where the victim buys PRCY in between. WETH netted +0.139668 - 0.000089 = +0.139579, less the 0.059525 ETH sent in the back leg and forwarded to 0x1ad9... (looks like a builder payment) gives 0.080054, and about 0.061918 after 0.018136 gas, so positive. The front-leg cost of 0.000089 WETH for 0.427882 PRCY looks small against the victim's pricing, but the explorer figures as shown still give a positive result.\"}",
+ "case_id": "rej53_038",
+ "_time": "2026-10-13T22:01:09+0800"
+}

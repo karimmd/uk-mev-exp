@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xdc3e94ddf605864b79fce18c7cf974e579001e7b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.152771,
+ "gas_eth": 0.013946,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back share the QUICK/WETH pool and net +0.166717 WETH before gas, but the front leg sells QUICK for WETH rather than opening a non-WETH position; back buys it back. After 0.013946 ETH gas, net is +0.152771 ETH/WETH with no residual QUICK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2354,
+  "output_tokens": 7304,
+  "thinking_tokens": 7119
+ },
+ "_request_id": "12485c4830a853efba81c421eee051a5",
+ "_response_id": "81acb45d-6392-44d9-8a16-d7ca5d29261d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0xdc3e94ddf605864b79fce18c7cf974e579001e7b\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.152771, \"gas_eth\": 0.013946, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back share the QUICK/WETH pool and net +0.166717 WETH before gas, but the front leg sells QUICK for WETH rather than opening a non-WETH position; back buys it back. After 0.013946 ETH gas, net is +0.152771 ETH/WETH with no residual QUICK.\"}",
+ "case_id": "sym100_078",
+ "_time": "2026-10-19T18:53:07+0800"
+}

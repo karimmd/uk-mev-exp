@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xc17b5116ab39c8f747f045e107ea47a917532cdc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.029215,
+ "gas_eth": 0.003889,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract sells NIIFI in the front and buys the identical amount back in the back on the shared NIIFI/WETH pool, with the victim selling on that pool between them. Gross WETH gain is 0.033104; after 0.003889 gas the net is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2287,
+  "output_tokens": 7806,
+  "thinking_tokens": 7647
+ },
+ "_request_id": "f22ed77bdaa9e204a94aaa9cf8b2595f",
+ "_response_id": "8a51168e-b8c1-47a2-b7c9-bed70b13583d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xc17b5116ab39c8f747f045e107ea47a917532cdc\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.029215,\"gas_eth\":0.003889,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract sells NIIFI in the front and buys the identical amount back in the back on the shared NIIFI/WETH pool, with the victim selling on that pool between them. Gross WETH gain is 0.033104; after 0.003889 gas the net is positive.\"}",
+ "case_id": "sym100_025",
+ "_time": "2026-10-19T18:42:22+0800"
+}

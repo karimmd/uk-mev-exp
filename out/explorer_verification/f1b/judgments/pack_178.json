@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x377931b4f6adceccfc1a080f7a88b4af9d060336",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.238808,
+ "gas_eth": 0.028011,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 508890.137675 TWO for 2.093795 WETH in the front leg. The victim then buys TWO on the same UniswapV3 pool, and the actor sells the identical TWO amount for 2.992646 WETH in the back leg. The WETH gain is 0.898851, less the 0.660043 ETH passed on to 0x829b (likely a builder payment), which gives net_eth 0.238808 before gas. After 0.028011 ETH of front and back gas the figure is still positive, at about 0.2108 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0245507,
+ "_session": "999f499b-2bfd-41d9-adfa-76da59373cfe",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x377931b4f6adceccfc1a080f7a88b4af9d060336\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.238808, \"gas_eth\": 0.028011, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 508890.137675 TWO for 2.093795 WETH in the front leg. The victim then buys TWO on the same UniswapV3 pool, and the actor sells the identical TWO amount for 2.992646 WETH in the back leg. The WETH gain is 0.898851, less the 0.660043 ETH passed on to 0x829b (likely a builder payment), which gives net_eth 0.238808 before gas. After 0.028011 ETH of front and back gas the figure is still positive, at about 0.2108 ETH.\"}",
+ "case_id": "pack_178",
+ "_time": "2026-10-13T20:39:31+0800"
+}

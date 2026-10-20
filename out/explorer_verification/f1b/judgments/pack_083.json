@@ -1,0 +1,17 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x1f3d61248ec81542889535595903078109707941",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.084911,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys KBTC through WETH->WBTC->KBTC in the front leg. The victim then buys KBTC on the same WBTC/KBTC pool (0x1f3d...). The back leg sells exactly 0.313561 KBTC back to WETH, so no residual remains. WETH goes from 7.659549 out to 7.827973 in, a gain of 0.168424. After the 0.083513 ETH internal transfer to 0x99c8... (likely a builder payment), the net is about +0.084911 ETH. Both legs show a 0 gwei gas price, so their fees are 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0257712,
+ "_session": "bde58e70-b603-41d8-8613-50de574ea229",
+ "_raw": "{\"actor\": \"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\", \"pool\": \"0x1f3d61248ec81542889535595903078109707941\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.084911, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys KBTC through WETH->WBTC->KBTC in the front leg. The victim then buys KBTC on the same WBTC/KBTC pool (0x1f3d...). The back leg sells exactly 0.313561 KBTC back to WETH, so no residual remains. WETH goes from 7.659549 out to 7.827973 in, a gain of 0.168424. After the 0.083513 ETH internal transfer to 0x99c8... (likely a builder payment), the net is about +0.084911 ETH. Both legs show a 0 gwei gas price, so their fees are 0.\"}",
+ "case_id": "pack_083",
+ "_time": "2026-10-13T20:20:30+0800"
+}

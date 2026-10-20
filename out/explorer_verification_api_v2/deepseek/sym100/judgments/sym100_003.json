@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x8979a3ef9d540480342ac0f56e9d4c88807b1cba",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.09404,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are separate self-contained arbitrages using different contracts/actors (0xeb5d... and 0x4f92...), so no single economic actor opens and closes a position across the two legs. The shared pool with the victim is 0x8979..., but the sandwich bracket condition fails due to different actors and no cross-leg position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4672,
+  "output_tokens": 10299,
+  "thinking_tokens": 10123
+ },
+ "_request_id": "74210257843353b8838e8c73aaa673c4",
+ "_response_id": "be182386-3411-47a3-8442-7a7a7c98bb26",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x8979a3ef9d540480342ac0f56e9d4c88807b1cba\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": 0.09404, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back are separate self-contained arbitrages using different contracts/actors (0xeb5d... and 0x4f92...), so no single economic actor opens and closes a position across the two legs. The shared pool with the victim is 0x8979..., but the sandwich bracket condition fails due to different actors and no cross-leg position.\"}",
+ "case_id": "sym100_003",
+ "_time": "2026-10-19T19:29:36+0800"
+}

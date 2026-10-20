@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000071e801062eb0544403f66176bba42dc0",
+ "pool": "0x4a39d635581dd0fb39fe0e211c4b03590e44aa35",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.540308,
+ "gas_eth": 0.03512,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x0000000071e8\u2026 is called by two different sender EOAs. It buys 214.508315 YUI for 38.055664 WETH in the front leg, the victim buys YUI on the same pool in between, and the contract sells exactly 214.508315 YUI back for 39.595972 WETH. The WETH gain of 1.540308 exceeds the combined gas of 0.03512 ETH (front 0.030135, back 0.004985), leaving about +1.505 ETH and no residual YUI.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3101,
+  "output_tokens": 642,
+  "thinking_tokens": 354
+ },
+ "_request_id": "req_011CgBQYHrgfuTLYHKuFPfza",
+ "_response_id": "msg_011CgBQYQcz2fv4W4gTwXj4n",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000071e801062eb0544403f66176bba42dc0\",\"pool\":\"0x4a39d635581dd0fb39fe0e211c4b03590e44aa35\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.540308,\"gas_eth\":0.03512,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x0000000071e8\u2026 is called by two different sender EOAs. It buys 214.508315 YUI for 38.055664 WETH in the front leg, the victim buys YUI on the same pool in between, and the contract sells exactly 214.508315 YUI back for 39.595972 WETH. The WETH gain of 1.540308 exceeds the combined gas of 0.03512 ETH (front 0.030135, back 0.004985), leaving about +1.505 ETH and no residual YUI.\"}",
+ "case_id": "pack_041",
+ "_time": "2026-10-19T18:04:38+0800"
+}

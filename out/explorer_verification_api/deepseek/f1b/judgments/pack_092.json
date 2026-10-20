@@ -1,0 +1,31 @@
+{
+ "actor": "0x86a53c9e32abd3677e38bd0b390f24dd080e6426",
+ "pool": "0x8867f20c1c63baccec7617626254a060eeb0e61e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.024663,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x86a5... buys 18653.127364 PHA for 10.570436 WETH, then later sells the same PHA for 10.715240 WETH on pool 0x8867..., which the victim also uses. After accounting for the 0.120141 WETH withdrawal/ETH forwarding and zero gas fees, the combined ETH/WETH net is positive and there is no PHA residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2894,
+  "output_tokens": 4119,
+  "thinking_tokens": 3931
+ },
+ "_request_id": "ff4c4a9de5ebac262a4799525b0e7f31",
+ "_response_id": "961291c4-9d8e-4fa0-b7df-e2db324e443e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x86a53c9e32abd3677e38bd0b390f24dd080e6426\",\"pool\":\"0x8867f20c1c63baccec7617626254a060eeb0e61e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.024663,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x86a5... buys 18653.127364 PHA for 10.570436 WETH, then later sells the same PHA for 10.715240 WETH on pool 0x8867..., which the victim also uses. After accounting for the 0.120141 WETH withdrawal/ETH forwarding and zero gas fees, the combined ETH/WETH net is positive and there is no PHA residual.\"}",
+ "case_id": "pack_092",
+ "_time": "2026-10-19T18:18:02+0800"
+}

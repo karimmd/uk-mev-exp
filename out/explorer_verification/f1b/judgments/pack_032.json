@@ -1,0 +1,17 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x87c6c475f40299e5ce3cba736f613f97e820f101",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.039376,
+ "gas_eth": 0.039298,
+ "residual": "none observed (token 0xfb40e79e... transfer amounts not decoded, but it moves in all three legs on the same pool)",
+ "confidence": 3,
+ "note": "Contract 0x01ff spends 0.515420 WETH into pool 0x87c6 in the front leg and takes 0.554796 WETH out in the back leg, with the victim buying the same pool in between. The gross gain of 0.039376 WETH exceeds the combined fees of 0.039298 ETH by only about 0.000078 ETH, so the sign is positive but thin. Gas-price rounding and the undecoded token amounts leave some uncertainty.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0223907,
+ "_session": "afbfd259-81cc-439c-bd89-2af58e63c2a7",
+ "_raw": "{\"actor\": \"0x01ff6318440f7d5553a82294d78262d5f5084eff\", \"pool\": \"0x87c6c475f40299e5ce3cba736f613f97e820f101\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.039376, \"gas_eth\": 0.039298, \"residual\": \"none observed (token 0xfb40e79e... transfer amounts not decoded, but it moves in all three legs on the same pool)\", \"confidence\": 3, \"note\": \"Contract 0x01ff spends 0.515420 WETH into pool 0x87c6 in the front leg and takes 0.554796 WETH out in the back leg, with the victim buying the same pool in between. The gross gain of 0.039376 WETH exceeds the combined fees of 0.039298 ETH by only about 0.000078 ETH, so the sign is positive but thin. Gas-price rounding and the undecoded token amounts leave some uncertainty.\"}",
+ "case_id": "pack_032",
+ "_time": "2026-10-13T20:10:29+0800"
+}

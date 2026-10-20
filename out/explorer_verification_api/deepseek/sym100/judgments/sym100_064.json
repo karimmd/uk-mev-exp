@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x23201344493fae9e9daf3279e930bdb0d4e5d5ec",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.078202,
+ "gas_eth": 0.030463,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract sells 34383.028561 UM for WETH in the front leg and later buys back the same UM amount in the back leg on the same pool the victim uses, bracketing the victim's swap. Net WETH is +0.108665 before gas; after 0.030463 gas, the actor is +0.078202 ETH-equivalent with no residual UM.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2128,
+  "output_tokens": 3893,
+  "thinking_tokens": 3712
+ },
+ "_request_id": "0b0dd9c2fee43ea1479ce32464b98d5d",
+ "_response_id": "25d01bd2-5c43-407a-ac2e-148859230215",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x23201344493fae9e9daf3279e930bdb0d4e5d5ec\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.078202,\"gas_eth\":0.030463,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract sells 34383.028561 UM for WETH in the front leg and later buys back the same UM amount in the back leg on the same pool the victim uses, bracketing the victim's swap. Net WETH is +0.108665 before gas; after 0.030463 gas, the actor is +0.078202 ETH-equivalent with no residual UM.\"}",
+ "case_id": "sym100_064",
+ "_time": "2026-10-19T18:50:30+0800"
+}

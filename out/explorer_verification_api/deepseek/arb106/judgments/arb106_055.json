@@ -1,0 +1,38 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
+  "0xd6c2542362f4c63dcd6fbfca6849690308258b3c",
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000935,
+ "gas_eth": 0.010764,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor sent 0.868318 WETH to a Uniswap V3 pool and received 0.880017 WETH from a Uniswap V2 pool after routing through SHIB and SAITAMA pools, netting +0.011699 WETH before gas; after the 0.010764 ETH gas fee, net is +0.000935 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1635,
+  "output_tokens": 9012,
+  "thinking_tokens": 8758
+ },
+ "_request_id": "e886444deaaa1621da769961300fae8a",
+ "_response_id": "1417c930-21bb-414f-870b-3f13e44c623d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdfee68a9adb981cd08699891a11cabe10f25ec44\",\"pools\":[\"0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec\",\"0xd6c2542362f4c63dcd6fbfca6849690308258b3c\",\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000935,\"gas_eth\":0.010764,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor sent 0.868318 WETH to a Uniswap V3 pool and received 0.880017 WETH from a Uniswap V2 pool after routing through SHIB and SAITAMA pools, netting +0.011699 WETH before gas; after the 0.010764 ETH gas fee, net is +0.000935 ETH.\"}",
+ "case_id": "arb106_055",
+ "_time": "2026-10-19T19:20:13+0800"
+}

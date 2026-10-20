@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x6f9e023c0881ec3d8f56630a6c4fd137c025419e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01367,
+ "gas_eth": 0.050902,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xc1df\u2026 sold 107285.569164 YLDY for 0.429162 WETH on pair 0x6f9e\u2026 just before the victim sold YLDY on the same pair. It then bought back exactly 107285.569164 YLDY for 0.364590 WETH, a sell-first sandwich that leaves no residual. The WETH gain of 0.064572 minus 0.050902 gas leaves about +0.01367 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3056,
+  "output_tokens": 610,
+  "thinking_tokens": 330
+ },
+ "_request_id": "req_011CgBSZyYto3wdz7NDCQaVM",
+ "_response_id": "msg_011CgBSZyvUkVzN3mWeo4kmz",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x6f9e023c0881ec3d8f56630a6c4fd137c025419e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.01367, \"gas_eth\": 0.050902, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xc1df\u2026 sold 107285.569164 YLDY for 0.429162 WETH on pair 0x6f9e\u2026 just before the victim sold YLDY on the same pair. It then bought back exactly 107285.569164 YLDY for 0.364590 WETH, a sell-first sandwich that leaves no residual. The WETH gain of 0.064572 minus 0.050902 gas leaves about +0.01367 ETH.\"}",
+ "case_id": "sym100_089",
+ "_time": "2026-10-19T18:31:14+0800"
+}

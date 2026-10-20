@@ -1,0 +1,41 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x919fa96e88d67499339577fa202345436bcdaf79",
+  "0x58dc5a51fe44589beb22e8ce67720b5bc5378009",
+  "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+  "0x30e7e1989cf774726dd9f4780cab42d5558003e6",
+  "0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.038186,
+ "gas_eth": 0.035807,
+ "profit_after_gas": 0.002379,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor 0x169c executes multiple WETH-crossing swaps across Uniswap V3/V2 pools, netting +0.038186 WETH before gas. After the 0.035807 ETH gas fee, the observable net is +0.002379 ETH, with no non-WETH residual or minted token.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2030,
+  "output_tokens": 11329,
+  "thinking_tokens": 11022
+ },
+ "_request_id": "054b7f31fb56b038b22f4468e8e6d7f8",
+ "_response_id": "a87b8f21-f549-49c8-a6d6-b9e983b59fd6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x919fa96e88d67499339577fa202345436bcdaf79\",\"0x58dc5a51fe44589beb22e8ce67720b5bc5378009\",\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"0x30e7e1989cf774726dd9f4780cab42d5558003e6\",\"0x3dd49f67e9d5bc4c5e6634b3f70bfd9dc1b6bd74\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.038186,\"gas_eth\":0.035807,\"profit_after_gas\":0.002379,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor 0x169c executes multiple WETH-crossing swaps across Uniswap V3/V2 pools, netting +0.038186 WETH before gas. After the 0.035807 ETH gas fee, the observable net is +0.002379 ETH, with no non-WETH residual or minted token.\"}",
+ "case_id": "arb106_033",
+ "_time": "2026-10-19T19:54:52+0800"
+}

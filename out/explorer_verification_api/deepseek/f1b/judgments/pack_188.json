@@ -1,0 +1,31 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.017259,
+ "gas_eth": 0.010018,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back share the same actor contract and WETH/UNIUSD UniswapV2 pool, with the victim trading that pool between them. Gross ETH/WETH gain is about 0.017259; subtracting 0.010018 gas leaves about 0.007241 positive, and the UNIUSD position nets exactly to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3547,
+  "output_tokens": 9633,
+  "thinking_tokens": 9462
+ },
+ "_request_id": "50c05d65544ce93665d871b79aa26551",
+ "_response_id": "cecd7d47-00e2-4146-8d05-32cbabe82cad",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\",\"pool\":\"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.017259,\"gas_eth\":0.010018,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back share the same actor contract and WETH/UNIUSD UniswapV2 pool, with the victim trading that pool between them. Gross ETH/WETH gain is about 0.017259; subtracting 0.010018 gas leaves about 0.007241 positive, and the UNIUSD position nets exactly to zero.\"}",
+ "case_id": "pack_188",
+ "_time": "2026-10-19T18:35:38+0800"
+}

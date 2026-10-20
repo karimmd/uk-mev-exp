@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd2e19525ca8dd5e2787e8553aa50f7d5039a0b44",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.019151,
+ "gas_eth": 0.0,
+ "residual": "about 57,508,700,998 HATT (front received 2,889,577,707,006.02, back sold 2,832,069,006,008.09); this may be a transfer tax rather than a real holding",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026932d bought HATT for 2.11 WETH on the HATT/WETH pool 0xd2e1\u20260b44. The victim then bought HATT on the same pool, and the contract sold HATT back for 2.252916 WETH, a gain of +0.142916. The back leg's 0.123765 ETH value was forwarded to 0x5a0b\u20269c4c, likely a miner payment, and both legs paid zero gas, so the net is about +0.019151 ETH; the leftover HATT can only add to that, so the sign stays positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3337,
+  "output_tokens": 914,
+  "thinking_tokens": 529
+ },
+ "_request_id": "req_011CgBRom1sATQSTs9rttYeH",
+ "_response_id": "msg_011CgBRomLxha3RpPb1V3ybi",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0xd2e19525ca8dd5e2787e8553aa50f7d5039a0b44\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.019151, \"gas_eth\": 0.0, \"residual\": \"about 57,508,700,998 HATT (front received 2,889,577,707,006.02, back sold 2,832,069,006,008.09); this may be a transfer tax rather than a real holding\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026932d bought HATT for 2.11 WETH on the HATT/WETH pool 0xd2e1\u20260b44. The victim then bought HATT on the same pool, and the contract sold HATT back for 2.252916 WETH, a gain of +0.142916. The back leg's 0.123765 ETH value was forwarded to 0x5a0b\u20269c4c, likely a miner payment, and both legs paid zero gas, so the net is about +0.019151 ETH; the leftover HATT can only add to that, so the sign stays positive.\"}",
+ "case_id": "pack_166",
+ "_time": "2026-10-19T18:21:18+0800"
+}

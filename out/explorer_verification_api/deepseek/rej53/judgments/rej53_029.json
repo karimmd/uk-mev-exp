@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.10399,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front leg buys GLM on the Uniswap pool and immediately sells it on 0x7874, while the back leg is a different contract acquiring GLM from 0x7874 and selling it on the Uniswap pool. No single non-pool actor opens a GLM position in the front leg and closes it in the back leg around the victim.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3622,
+  "output_tokens": 8837,
+  "thinking_tokens": 8687
+ },
+ "_request_id": "3b4f53b8be93fad05c1aa09b32fc4a16",
+ "_response_id": "a158de4c-536e-4ff1-aa69-1a8ed3d1f224",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xb5f790a03b7559312d9e738df5056a4b4c8459f4\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":0.10399,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front leg buys GLM on the Uniswap pool and immediately sells it on 0x7874, while the back leg is a different contract acquiring GLM from 0x7874 and selling it on the Uniswap pool. No single non-pool actor opens a GLM position in the front leg and closes it in the back leg around the victim.\"}",
+ "case_id": "rej53_029",
+ "_time": "2026-10-19T19:01:22+0800"
+}

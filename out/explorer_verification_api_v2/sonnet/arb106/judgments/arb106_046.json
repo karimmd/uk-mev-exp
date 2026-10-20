@@ -1,0 +1,39 @@
+{
+ "actor": "0x00000000000e1d0dabf7b7c7b68866fc940d0db8",
+ "pools": [
+  "0xbd1f921786e12a80f2184e4d6a5cacb25dc673c9",
+  "0x5ba61c0a8c4dcccc200cd0ccc40a5725a426d002",
+  "0xecfbe9b182f6477a93065c1c11271232147838e5"
+ ],
+ "cycle_token": "DOLA",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008108,
+ "gas_eth": 0.007591,
+ "profit_after_gas": 0.000517,
+ "residual": "none",
+ "confidence": 4,
+ "note": "DOLA (1943.433124 in and out) and INV (5.962229 in and out) both net to zero across three pools: a V3 pool and two V2 pools. The only positive leg is 0.008108 WETH from the DOLA/WETH pool, which is unwrapped and forwarded to the sender EOA. The actor contract keeps nothing itself, so the profit is counted at the sender level, where it exceeds the gas fee by about 0.000517 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2652,
+  "output_tokens": 1178,
+  "thinking_tokens": 784
+ },
+ "_request_id": "req_011CgBXELGcgWcUcg7VV5zjJ",
+ "_response_id": "msg_011CgBXELk8SQ5C7vGdN8ScU",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000e1d0dabf7b7c7b68866fc940d0db8\",\"pools\":[\"0xbd1f921786e12a80f2184e4d6a5cacb25dc673c9\",\"0x5ba61c0a8c4dcccc200cd0ccc40a5725a426d002\",\"0xecfbe9b182f6477a93065c1c11271232147838e5\"],\"cycle_token\":\"DOLA\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.008108,\"gas_eth\":0.007591,\"profit_after_gas\":0.000517,\"residual\":\"none\",\"confidence\":4,\"note\":\"DOLA (1943.433124 in and out) and INV (5.962229 in and out) both net to zero across three pools: a V3 pool and two V2 pools. The only positive leg is 0.008108 WETH from the DOLA/WETH pool, which is unwrapped and forwarded to the sender EOA. The actor contract keeps nothing itself, so the profit is counted at the sender level, where it exceeds the gas fee by about 0.000517 ETH.\"}",
+ "case_id": "arb106_046",
+ "_time": "2026-10-19T19:32:25+0800"
+}

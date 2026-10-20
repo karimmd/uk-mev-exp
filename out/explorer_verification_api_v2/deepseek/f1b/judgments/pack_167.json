@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xc491405d542a393d8d202a72f0fb076447e61891",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.031114,
+ "gas_eth": 0,
+ "profit_after_gas": 0.031114,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front bought WHACKD for 0.4071 WETH on 0xc491, back sold it for 0.438214 WETH on the same pool, with the victim also trading that pool in between. The actor's WHACKD balance nets to zero, and after zero gas the WETH/ETH profit is 0.031114.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2956,
+  "output_tokens": 5684,
+  "thinking_tokens": 5501
+ },
+ "_request_id": "5b7d1fc0b3f19c6b70f68f8fd8c3fff1",
+ "_response_id": "d0e42dab-6d5d-4eab-bba8-ef92a5011ae6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xc491405d542a393d8d202a72f0fb076447e61891\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.031114,\"gas_eth\":0,\"profit_after_gas\":0.031114,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front bought WHACKD for 0.4071 WETH on 0xc491, back sold it for 0.438214 WETH on the same pool, with the victim also trading that pool in between. The actor's WHACKD balance nets to zero, and after zero gas the WETH/ETH profit is 0.031114.\"}",
+ "case_id": "pack_167",
+ "_time": "2026-10-19T19:24:08+0800"
+}

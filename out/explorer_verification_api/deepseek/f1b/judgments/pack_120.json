@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.02384759,
+ "residual": "none",
+ "confidence": 5,
+ "note": "All three ordered legs sell OTEN into the same Uniswap V2 pair for 0.100000 ETH; the front leg does not open a non-WETH token position that the back leg closes. No address satisfies the defined economic actor role, so Q2 cannot be signed.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2981,
+  "output_tokens": 11129,
+  "thinking_tokens": 10979
+ },
+ "_request_id": "c2befb7b0af48a078480b44ecb9242e9",
+ "_response_id": "2e6f91b9-3672-4e6e-9938-55d71160c90b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.02384759, \"residual\": \"none\", \"confidence\": 5, \"note\": \"All three ordered legs sell OTEN into the same Uniswap V2 pair for 0.100000 ETH; the front leg does not open a non-WETH token position that the back leg closes. No address satisfies the defined economic actor role, so Q2 cannot be signed.\"}",
+ "case_id": "pack_120",
+ "_time": "2026-10-19T18:23:54+0800"
+}

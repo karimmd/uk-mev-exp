@@ -1,0 +1,31 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x7ba9b94127d434182287de708643932ec036d365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.618118,
+ "gas_eth": 0.018576,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg, contract 0x51ac wraps 17.43 ETH and buys 132246.6589 eRSDL on UniV2 pool 0x7ba9. The victim then buys eRSDL with 72.2 ETH on the same pool. In the back leg, 0x51ac sells exactly 132246.6589 eRSDL for 18.066694 WETH and unwraps it, a gross gain of 0.636694 ETH, minus 0.018576 ETH gas paid by the same sender EOA.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3311,
+  "output_tokens": 482,
+  "thinking_tokens": 187
+ },
+ "_request_id": "req_011CgBQEzVSVzesyBYVNnoFw",
+ "_response_id": "msg_011CgBQF6iF9Q67JLGDgC7y3",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x51acf0af77adcb20de482e1cd678f620baf07e0c\", \"pool\": \"0x7ba9b94127d434182287de708643932ec036d365\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.618118, \"gas_eth\": 0.018576, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg, contract 0x51ac wraps 17.43 ETH and buys 132246.6589 eRSDL on UniV2 pool 0x7ba9. The victim then buys eRSDL with 72.2 ETH on the same pool. In the back leg, 0x51ac sells exactly 132246.6589 eRSDL for 18.066694 WETH and unwraps it, a gross gain of 0.636694 ETH, minus 0.018576 ETH gas paid by the same sender EOA.\"}",
+ "case_id": "pack_019",
+ "_time": "2026-10-19T18:00:43+0800"
+}

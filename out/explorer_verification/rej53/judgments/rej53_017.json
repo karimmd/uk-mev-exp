@@ -1,0 +1,17 @@
+{
+ "actor": "0x78cce34b82f8cef05eb658ddcf10f9a154298ed4",
+ "pool": "0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.112895,
+ "gas_eth": 0.018019,
+ "residual": "about 74,275,031,939 eMax (3,723,871,620,996.77 bought minus 3,649,596,589,057.61 sold)",
+ "confidence": 4,
+ "note": "The same contract (0x78cc\u2026) buys eMax with 5.58 ETH on pool 0xb143 in the front leg. The victim then buys eMax on that pool. The contract sells most of the eMax back in the back leg for 5.692895 ETH. ETH/WETH net is +0.112895, or about +0.0949 after 0.018019 gas. The leftover eMax is a positive holding, so it does not change the sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028943200000000002,
+ "_session": "5dd83e51-5471-495c-bc32-c035a55ece22",
+ "_raw": "{\"actor\": \"0x78cce34b82f8cef05eb658ddcf10f9a154298ed4\", \"pool\": \"0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.112895, \"gas_eth\": 0.018019, \"residual\": \"about 74,275,031,939 eMax (3,723,871,620,996.77 bought minus 3,649,596,589,057.61 sold)\", \"confidence\": 4, \"note\": \"The same contract (0x78cc\u2026) buys eMax with 5.58 ETH on pool 0xb143 in the front leg. The victim then buys eMax on that pool. The contract sells most of the eMax back in the back leg for 5.692895 ETH. ETH/WETH net is +0.112895, or about +0.0949 after 0.018019 gas. The leftover eMax is a positive holding, so it does not change the sign.\"}",
+ "case_id": "rej53_017",
+ "_time": "2026-10-13T21:56:41+0800"
+}

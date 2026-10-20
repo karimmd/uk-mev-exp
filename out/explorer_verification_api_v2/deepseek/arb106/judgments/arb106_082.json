@@ -1,0 +1,39 @@
+{
+ "actor": "0xe0a9efe32985cc306255b395a1bd06d21ccead42",
+ "pools": [
+  "0x88051b0eea095007d3bef21ab287be961f3d8598",
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0x055475920a8c93cffb64d039a8205f7acc7722d3"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth_before_gas": 0.008064,
+ "gas_eth": 0.010578,
+ "profit_after_gas": -0.002514,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Three-pool cyclic arbitrage via WETH/DAI/OHM flash swap; gross WETH profit 0.014769 ETH, minus 0.006705 ETH bribe and 0.010578 ETH gas yields negative net.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1590,
+  "output_tokens": 20725,
+  "thinking_tokens": 20492
+ },
+ "_request_id": "0a418b498a7aed670ba1aaf27e422642",
+ "_response_id": "98890c2d-1b52-4353-a238-196da8f1a026",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe0a9efe32985cc306255b395a1bd06d21ccead42\",\"pools\":[\"0x88051b0eea095007d3bef21ab287be961f3d8598\",\"0x60594a405d53811d3bc4766596efd80fd545a270\",\"0x055475920a8c93cffb64d039a8205f7acc7722d3\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"no\",\"net_eth_before_gas\":0.008064,\"gas_eth\":0.010578,\"profit_after_gas\":-0.002514,\"residual\":\"none\",\"confidence\":4,\"note\":\"Three-pool cyclic arbitrage via WETH/DAI/OHM flash swap; gross WETH profit 0.014769 ETH, minus 0.006705 ETH bribe and 0.010578 ETH gas yields negative net.\"}",
+ "case_id": "arb106_082",
+ "_time": "2026-10-19T20:05:49+0800"
+}

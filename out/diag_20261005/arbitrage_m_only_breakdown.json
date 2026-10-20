@@ -1,0 +1,17 @@
+{
+ "M_only": 18735,
+ "in_store": 18108,
+ "verdicts": {
+  "fail:multi_venue,cyclic": 4868,
+  "fail:single_profit_asset": 1218,
+  "fail:cyclic": 10681,
+  "fail:multi_venue,single_profit_asset": 667,
+  "fail:multi_venue": 66,
+  "fail:multi_venue,cyclic,single_profit_asset": 8,
+  "fail:cyclic,single_profit_asset": 600
+ },
+ "loose_tolerance": {
+  "still not cyclic at 10%": 9727,
+  "cyclic at 10%": 6430
+ }
+}

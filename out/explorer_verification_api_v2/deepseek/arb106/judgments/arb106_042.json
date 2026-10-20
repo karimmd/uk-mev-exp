@@ -1,0 +1,42 @@
+{
+ "actor": "0x452c3f8858ca651f388ebc439b2719d1006354bc",
+ "pools": [
+  "0x61247d8aca1c485a50728e1336d9b26c8339e701",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x93f267fd92b432bebf4da4e13b8615bb8eb2095c",
+  "0x3cc5519fb7f811159f30ba21dc2258341872dd67",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x04dd76803f247b611d4f470fc6cd206a9d02f869"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.053874,
+ "gas_eth": 0.049404,
+ "profit_after_gas": 0.00447,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor 0x452c3f... nets +0.053874 WETH across multiple pools, with WETH both sent to and received from pools. After the 0.049404 ETH gas fee, the position remains positive by about 0.004470 ETH, and no non-WETH residual or mint is shown.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2098,
+  "output_tokens": 6748,
+  "thinking_tokens": 6388
+ },
+ "_request_id": "4524d310f52aa92b5de721afb4b1f8c3",
+ "_response_id": "7a75b213-0123-446b-8ab8-605b85d3c559",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x452c3f8858ca651f388ebc439b2719d1006354bc\", \"pools\": [\"0x61247d8aca1c485a50728e1336d9b26c8339e701\", \"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0x93f267fd92b432bebf4da4e13b8615bb8eb2095c\", \"0x3cc5519fb7f811159f30ba21dc2258341872dd67\", \"0x11b815efb8f581194ae79006d24e0d814b7697f6\", \"0x04dd76803f247b611d4f470fc6cd206a9d02f869\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.053874, \"gas_eth\": 0.049404, \"profit_after_gas\": 0.00447, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor 0x452c3f... nets +0.053874 WETH across multiple pools, with WETH both sent to and received from pools. After the 0.049404 ETH gas fee, the position remains positive by about 0.004470 ETH, and no non-WETH residual or mint is shown.\"}",
+ "case_id": "arb106_042",
+ "_time": "2026-10-19T19:56:34+0800"
+}

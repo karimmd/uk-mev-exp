@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045727,
+ "gas_eth": 0.009554,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor contract receives and then spends the same USDT amount on the shared ALBT/USDT pool 1cd9, with the victim between. Net WETH gain is 0.055281 ETH; after front and back gas it remains positive, and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2549,
+  "output_tokens": 11074,
+  "thinking_tokens": 10920
+ },
+ "_request_id": "8e1ac188312b445ef42d20614e0bd07a",
+ "_response_id": "23589744-7c45-4805-91a3-75919e3d6197",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.045727,\"gas_eth\":0.009554,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor contract receives and then spends the same USDT amount on the shared ALBT/USDT pool 1cd9, with the victim between. Net WETH gain is 0.055281 ETH; after front and back gas it remains positive, and no non-WETH residual remains.\"}",
+ "case_id": "pack_123",
+ "_time": "2026-10-19T18:24:45+0800"
+}

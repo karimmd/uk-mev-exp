@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x742c15d71ea7444964bc39b0ed729b3729adc361",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.080145,
+ "gas_eth": 0.043282,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg, contract 0x...6b40 routes WETH to pool 0x48e3, which sends OMG to pool 0x742c, so OMG is sold into 0x742c just ahead of the victim's 1500 OMG sale on that pool; the back leg reverses the route on both pools. The actor never holds OMG itself, because the OMG passes pool to pool, but it opens and closes the bracket on the shared pool 0x742c. WETH nets +0.080145 (front -0.280359, back +0.360504), and after 0.043282 ETH of gas that leaves about +0.036863 ETH with no residual token.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3587,
+  "output_tokens": 1081,
+  "thinking_tokens": 747
+ },
+ "_request_id": "req_011CgBSYhZCQbTSJaYWdxxo8",
+ "_response_id": "msg_011CgBSYhyFtxH8yKQCMekzM",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x742c15d71ea7444964bc39b0ed729b3729adc361\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.080145, \"gas_eth\": 0.043282, \"residual\": \"none\", \"confidence\": 4, \"note\": \"In the front leg, contract 0x...6b40 routes WETH to pool 0x48e3, which sends OMG to pool 0x742c, so OMG is sold into 0x742c just ahead of the victim's 1500 OMG sale on that pool; the back leg reverses the route on both pools. The actor never holds OMG itself, because the OMG passes pool to pool, but it opens and closes the bracket on the shared pool 0x742c. WETH nets +0.080145 (front -0.280359, back +0.360504), and after 0.043282 ETH of gas that leaves about +0.036863 ETH with no residual token.\"}",
+ "case_id": "sym100_085",
+ "_time": "2026-10-19T18:31:01+0800"
+}

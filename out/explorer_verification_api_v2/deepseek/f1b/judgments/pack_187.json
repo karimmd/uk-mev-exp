@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd2f1fd188f127cde9d0feef58c3eb457cc0bcb9c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 2.046627,
+ "gas_eth": 0,
+ "profit_after_gas": 2.046627,
+ "residual": "91849938.661921 SHIBAL",
+ "confidence": 5,
+ "note": "Actor 0x1d6e... bought SHIBAL with WETH on pool 0xd2f1... in the front leg, the victim traded that same pool in between, and the actor sold SHIBAL back on it in the back leg. Net WETH is +2.046627 before gas, gas fees are zero, and a SHIBAL residual of 91,849,938.661921 remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2726,
+  "output_tokens": 8686,
+  "thinking_tokens": 8474
+ },
+ "_request_id": "565455350e181298d4afd4db6a7470bb",
+ "_response_id": "5e82d951-b2a7-459e-80bd-32b74f7a856e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xd2f1fd188f127cde9d0feef58c3eb457cc0bcb9c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":2.046627,\"gas_eth\":0,\"profit_after_gas\":2.046627,\"residual\":\"91849938.661921 SHIBAL\",\"confidence\":5,\"note\":\"Actor 0x1d6e... bought SHIBAL with WETH on pool 0xd2f1... in the front leg, the victim traded that same pool in between, and the actor sold SHIBAL back on it in the back leg. Net WETH is +2.046627 before gas, gas fees are zero, and a SHIBAL residual of 91,849,938.661921 remains.\"}",
+ "case_id": "pack_187",
+ "_time": "2026-10-19T19:26:47+0800"
+}

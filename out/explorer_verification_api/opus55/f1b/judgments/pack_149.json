@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011095,
+ "gas_eth": 0.0,
+ "residual": "about 266897856280.73 KISHU apparent gap (exactly 2% of the amount received, most likely KISHU's transfer tax rather than a held position)",
+ "confidence": 4,
+ "note": "Contract 0x0000\u20266b40 buys KISHU with 11.096637 WETH on the KISHU/WETH pair 0xf82d\u20269f88. The victim then buys KISHU on that same pair. The contract sells the KISHU back on that pair for 11.233617 WETH, a gross gain of +0.13698. Net is after the 0.125885 ETH that the sender put in as value and the contract forwarded to 0x1ad9\u20265836 (likely a miner payment); both legs show zero gas fees.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3707,
+  "output_tokens": 997,
+  "thinking_tokens": 646
+ },
+ "_request_id": "req_011CgBRi47qcnPNjRFUBuQAX",
+ "_response_id": "msg_011CgBRi5DpZR8G4H1x7PLEL",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.011095, \"gas_eth\": 0.0, \"residual\": \"about 266897856280.73 KISHU apparent gap (exactly 2% of the amount received, most likely KISHU's transfer tax rather than a held position)\", \"confidence\": 4, \"note\": \"Contract 0x0000\u20266b40 buys KISHU with 11.096637 WETH on the KISHU/WETH pair 0xf82d\u20269f88. The victim then buys KISHU on that same pair. The contract sells the KISHU back on that pair for 11.233617 WETH, a gross gain of +0.13698. Net is after the 0.125885 ETH that the sender put in as value and the contract forwarded to 0x1ad9\u20265836 (likely a miner payment); both legs show zero gas fees.\"}",
+ "case_id": "pack_149",
+ "_time": "2026-10-19T18:20:02+0800"
+}

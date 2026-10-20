@@ -1,0 +1,31 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x43747d31fc178d626047c5b4346a251418167a1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.479943,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor contract buys 712300.69 NBNG via WETH->USDT->NBNG in the front leg, the victim buys NBNG on the same USDT/NBNG pool, and the actor sells all of it back in the back leg. WETH net is +0.959887, minus a 0.479944 ETH payment to 0x5a0b54 (likely a builder tip), leaving about +0.479943. Gas is shown as 0 at 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3101,
+  "output_tokens": 693,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRpfYE9W5uBkUF7TkyN",
+ "_response_id": "msg_011CgBRpfspvKfMa7K7C3RDS",
+ "_reader": "sonnet",
+ "_raw": "Pools: the WETH/USDT pool 0x06da0f\u2026 and the USDT/NBNG pool 0x43747d\u2026. The victim trades on the USDT/NBNG pool, which is the shared pool.\n\nActor: the contract 0xf73d5d\u2026, called by the sender 0xb38a9f\u2026. In the front leg it pays 99.999966 WETH and receives 712300.69 NBNG. In the back leg it returns the same 712300.69 NBNG and receives 100.959853 WETH.\n\nQ1: Yes. The actor opens an NBNG position in the front leg and closes it in the back leg, on a pool the victim also trades, with the victim in between.\n\nQ2: Net WETH is 100.959853 \u2212 99.999966 = 0.959887. The back leg also shows an internal transfer of 0.479944 ETH from the actor contract to 0x5a0b54\u2026, which looks like a coinbase or builder payment. Subtracting it gives 0.479943. Both legs show gas at 0.0 gwei, so their fees are 0, which means the sender pays no gas fee. The position is positive after the 0.479944 payment, and no residual token is held because NBNG nets to zero.\n\nNet ETH after the payment is about 0.479943 and the gas fee is 0.\n\n```json\n{\"actor\":\"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\",\"pool\":\"0x43747d31fc178d626047c5b4346a251418167a1a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.479943,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor contract buys 712300.69 NBNG via WETH->USDT->NBNG in the front leg, the victim buys NBNG on the same USDT/NBNG pool, and the actor sells all of it back in the back leg. WETH net is +0.959887, minus a 0.479944 ETH payment to 0x5a0b54 (likely a builder tip), leaving about +0.479943. Gas is shown as 0 at 0.0 gwei.\"}\n```",
+ "case_id": "pack_183",
+ "_time": "2026-10-19T18:21:25+0800"
+}

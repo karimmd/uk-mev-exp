@@ -1,0 +1,31 @@
+{
+ "actor": "0xfad95b6089c53a0d1d861eabfaadd8901b0f8533",
+ "pool": "0x03a6947837d25c4d060fc6b78c0277b67a6adc40",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.139714944,
+ "gas_eth": 0.029741056,
+ "residual": "371,752,340.203106 SCOOINU",
+ "confidence": 5,
+ "note": "The same contract 0xfad95... received SCOOINU after paying 0.740 WETH in the front leg, then sent SCOOINU back to the same pool and received 0.909456 ETH in the back leg. The victim also trades on that SCOOINU/WETH pool between them, and the gross ETH/WETH gain is 0.169456 before subtracting 0.029741056 gas, leaving a positive net and a small SCOOINU residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2682,
+  "output_tokens": 4849,
+  "thinking_tokens": 4632
+ },
+ "_request_id": "713282ace5ae763872986772f51eb981",
+ "_response_id": "abaa9927-91c4-45c7-81b3-f5aa65b389a0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xfad95b6089c53a0d1d861eabfaadd8901b0f8533\",\"pool\":\"0x03a6947837d25c4d060fc6b78c0277b67a6adc40\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.139714944,\"gas_eth\":0.029741056,\"residual\":\"371,752,340.203106 SCOOINU\",\"confidence\":5,\"note\":\"The same contract 0xfad95... received SCOOINU after paying 0.740 WETH in the front leg, then sent SCOOINU back to the same pool and received 0.909456 ETH in the back leg. The victim also trades on that SCOOINU/WETH pool between them, and the gross ETH/WETH gain is 0.169456 before subtracting 0.029741056 gas, leaving a positive net and a small SCOOINU residual.\"}",
+ "case_id": "pack_044",
+ "_time": "2026-10-19T18:10:15+0800"
+}

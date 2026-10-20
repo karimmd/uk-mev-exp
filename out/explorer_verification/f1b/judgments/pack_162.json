@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045378,
+ "gas_eth": 0.020665,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x1d6e spends 1.573666 WETH for 8864.669729 GLCH in the front leg, then sells exactly that GLCH back for 1.619044 WETH in the back leg. Both legs and the victim's V2 leg (4.644 WETH in, 25561.64 GLCH out) hit pool 0x1037. The gross gain of 0.045378 WETH exceeds the combined gas of 0.020665 ETH, so the position nets about +0.0247 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.021972699999999998,
+ "_session": "22160e4f-64a3-4418-80c3-0ac8c0a55d0f",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.045378, \"gas_eth\": 0.020665, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract 0x1d6e spends 1.573666 WETH for 8864.669729 GLCH in the front leg, then sells exactly that GLCH back for 1.619044 WETH in the back leg. Both legs and the victim's V2 leg (4.644 WETH in, 25561.64 GLCH out) hit pool 0x1037. The gross gain of 0.045378 WETH exceeds the combined gas of 0.020665 ETH, so the position nets about +0.0247 ETH.\"}",
+ "case_id": "pack_162",
+ "_time": "2026-10-13T20:36:08+0800"
+}

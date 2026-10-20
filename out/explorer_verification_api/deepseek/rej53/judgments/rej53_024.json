@@ -1,0 +1,31 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.050269,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x1be0 acquired then returned the same JINDOGE amount via the USDT/JINDOGE pool 0x6fc2, which the victim also used. WETH net is +0.284515 minus 0.234246 internal ETH, giving +0.050269 ETH before zero front/back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3301,
+  "output_tokens": 7195,
+  "thinking_tokens": 7022
+ },
+ "_request_id": "1cd0a61ff4660f9ecf07140f29dfbe49",
+ "_response_id": "72c66a28-7f80-4a5c-a118-df11b83c0a32",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\",\"pool\":\"0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.050269,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x1be0 acquired then returned the same JINDOGE amount via the USDT/JINDOGE pool 0x6fc2, which the victim also used. WETH net is +0.284515 minus 0.234246 internal ETH, giving +0.050269 ETH before zero front/back gas.\"}",
+ "case_id": "rej53_024",
+ "_time": "2026-10-19T18:59:39+0800"
+}

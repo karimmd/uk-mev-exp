@@ -1,0 +1,17 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.094453,
+ "gas_eth": 0.013277,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 8902.104262 INFI into the pool in the front leg for 4.646677 WETH. The victim then sells INFI on the same pool, and the back leg buys back exactly 8902.104262 INFI for 4.552224 WETH. The actor's INFI balance is unchanged, so the round trip nets +0.094453 WETH, or about +0.0812 ETH after 0.013277 ETH gas. The front leg is a sale of INFI inventory rather than a purchase, but it moves the price in the victim's direction and is closed in the back leg, so I read it as a sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0228907,
+ "_session": "b0cca778-2a61-489d-bea5-b556faeabf13",
+ "_raw": "{\"actor\": \"0x09ddb304758caf024706dee2e92b569ca4823aa1\", \"pool\": \"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.094453, \"gas_eth\": 0.013277, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 8902.104262 INFI into the pool in the front leg for 4.646677 WETH. The victim then sells INFI on the same pool, and the back leg buys back exactly 8902.104262 INFI for 4.552224 WETH. The actor's INFI balance is unchanged, so the round trip nets +0.094453 WETH, or about +0.0812 ETH after 0.013277 ETH gas. The front leg is a sale of INFI inventory rather than a purchase, but it moves the price in the victim's direction and is closed in the back leg, so I read it as a sandwich.\"}",
+ "case_id": "sym100_024",
+ "_time": "2026-10-13T21:27:58+0800"
+}

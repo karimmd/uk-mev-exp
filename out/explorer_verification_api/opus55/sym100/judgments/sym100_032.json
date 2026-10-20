@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.220835,
+ "gas_eth": 0.010935,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a sell-side sandwich on the DFYN/WETH pool 0xcab3. Contract 0x...3fabf1 sells 2661.115396 DFYN for 3.869502 WETH before the victim's DFYN sale, then buys back exactly 2661.115396 DFYN for 3.637732 WETH. That leaves a WETH gain of 0.231770, minus 0.010935 in gas, with no DFYN residual. The actor's position is a short in DFYN rather than a long holding, which is the only reason confidence is not 5.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2997,
+  "output_tokens": 663,
+  "thinking_tokens": 352
+ },
+ "_request_id": "req_011CgBSCv9fzdDSk8q1rpwFA",
+ "_response_id": "msg_011CgBSCvaiu5QyMLC4uhoAG",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0xcab335e1964363e48a790da303b74ec02d3f8fb2\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.220835, \"gas_eth\": 0.010935, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a sell-side sandwich on the DFYN/WETH pool 0xcab3. Contract 0x...3fabf1 sells 2661.115396 DFYN for 3.869502 WETH before the victim's DFYN sale, then buys back exactly 2661.115396 DFYN for 3.637732 WETH. That leaves a WETH gain of 0.231770, minus 0.010935 in gas, with no DFYN residual. The actor's position is a short in DFYN rather than a long holding, which is the only reason confidence is not 5.\"}",
+ "case_id": "sym100_032",
+ "_time": "2026-10-19T18:26:28+0800"
+}

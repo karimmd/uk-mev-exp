@@ -1,0 +1,17 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.006816,
+ "gas_eth": 5e-06,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract is called by the same sender in both legs. In the front leg it sells RUNE into pool 0x8d2a (the victim's pool), funded by a buy from pool 0xcc39. In the back leg it buys RUNE back from 0x8d2a and sells it into 0xcc39. WETH nets -0.026517 in the front leg and +0.064640 in the back leg, and a 0.031307 ETH payment to 0x5a0b goes out in the back leg. The result is +0.006816 before gas and about +0.006811 after gas, with no RUNE left over. The RUNE only passes through the actor within each leg, so the 'position' is a short on pool 0x8d2a funded from a second pool. That is why Q1 is not higher confidence.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0365312,
+ "_session": "1c02b9e5-012f-4e0d-b1b2-5ec67ed9c1aa",
+ "_raw": "{\"actor\": \"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\", \"pool\": \"0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.006816, \"gas_eth\": 0.000005, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract is called by the same sender in both legs. In the front leg it sells RUNE into pool 0x8d2a (the victim's pool), funded by a buy from pool 0xcc39. In the back leg it buys RUNE back from 0x8d2a and sells it into 0xcc39. WETH nets -0.026517 in the front leg and +0.064640 in the back leg, and a 0.031307 ETH payment to 0x5a0b goes out in the back leg. The result is +0.006816 before gas and about +0.006811 after gas, with no RUNE left over. The RUNE only passes through the actor within each leg, so the 'position' is a short on pool 0x8d2a funded from a second pool. That is why Q1 is not higher confidence.\"}",
+ "case_id": "sym100_062",
+ "_time": "2026-10-13T21:36:43+0800"
+}

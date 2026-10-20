@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x70885952f174fb5396deebb66ce3b4b2adfcef8a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.053794,
+ "gas_eth": 0.046463,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract takes USDT out of the USDT/STOS V3 pool in the front leg, funded by WETH going into the WETH/STOS V2 pool. It returns the same 8255.821796 USDT in the back leg, so USDT nets to zero. The victim sells STOS into the same V3 pool between the two legs. WETH goes from 2.620977 out to 2.674771 in, a gain of 0.053794, which is 0.007331 ETH after 0.046463 ETH gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3020,
+  "output_tokens": 871,
+  "thinking_tokens": 580
+ },
+ "_request_id": "req_011CgBR1GSc5zpyFZG7EWbBG",
+ "_response_id": "msg_011CgBR1NkNNvdJNoJtxbsay",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0x70885952f174fb5396deebb66ce3b4b2adfcef8a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.053794,\"gas_eth\":0.046463,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract takes USDT out of the USDT/STOS V3 pool in the front leg, funded by WETH going into the WETH/STOS V2 pool. It returns the same 8255.821796 USDT in the back leg, so USDT nets to zero. The victim sells STOS into the same V3 pool between the two legs. WETH goes from 2.620977 out to 2.674771 in, a gain of 0.053794, which is 0.007331 ETH after 0.046463 ETH gas.\"}",
+ "case_id": "pack_086",
+ "_time": "2026-10-19T18:10:45+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xd270417bd419dc3f4d3cd53f65bfb719f498bac8",
+ "pool": "0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -20.0,
+ "gas_eth": 0.004368,
+ "residual": "about 12814.69 ORO (6485.75 + 6328.94) held by the actor",
+ "confidence": 4,
+ "note": "Both the front and back legs send 10 ETH of WETH into the pool and receive ORO from it (6485.75, then 6328.94). The back leg is a second buy, not a sale, so no position is closed. The actor spends 20 ETH and keeps the ORO, so the sign of the result can't be set without pricing that ORO. The victim sits between the legs on the same pool, but the missing close means this is not a sandwich bracket.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0258412,
+ "_session": "59d8b689-b7e8-4f97-adcb-ee749fb14f01",
+ "_raw": "{\"actor\": \"0xd270417bd419dc3f4d3cd53f65bfb719f498bac8\", \"pool\": \"0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -20.0, \"gas_eth\": 0.004368, \"residual\": \"about 12814.69 ORO (6485.75 + 6328.94) held by the actor\", \"confidence\": 4, \"note\": \"Both the front and back legs send 10 ETH of WETH into the pool and receive ORO from it (6485.75, then 6328.94). The back leg is a second buy, not a sale, so no position is closed. The actor spends 20 ETH and keeps the ORO, so the sign of the result can't be set without pricing that ORO. The victim sits between the legs on the same pool, but the missing close means this is not a sandwich bracket.\"}",
+ "case_id": "pack_115",
+ "_time": "2026-10-13T20:26:52+0800"
+}

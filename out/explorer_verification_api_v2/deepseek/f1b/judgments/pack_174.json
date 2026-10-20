@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x360bb0c0c8451095f65568e77d04b4ee970c6ec1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.061645,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.061645,
+ "residual": "503529307956.488281 BUGG",
+ "confidence": 5,
+ "note": "Front and back both use the same Uniswap V2 pair 0x360b..., with the actor contract 0x000...3b receiving BUGG in front and selling most of it in back. Net WETH gain is 0.061645 ETH, gas is zero, and a small BUGG residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2832,
+  "output_tokens": 6990,
+  "thinking_tokens": 6800
+ },
+ "_request_id": "784c0bca6695984725ea74bfbb1fb51a",
+ "_response_id": "38f06b86-44af-4173-a6b7-fc427f3ecaec",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x360bb0c0c8451095f65568e77d04b4ee970c6ec1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.061645,\"gas_eth\":0.0,\"profit_after_gas\":0.061645,\"residual\":\"503529307956.488281 BUGG\",\"confidence\":5,\"note\":\"Front and back both use the same Uniswap V2 pair 0x360b..., with the actor contract 0x000...3b receiving BUGG in front and selling most of it in back. Net WETH gain is 0.061645 ETH, gas is zero, and a small BUGG residual remains.\"}",
+ "case_id": "pack_174",
+ "_time": "2026-10-19T19:24:48+0800"
+}

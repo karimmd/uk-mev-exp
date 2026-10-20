@@ -1,0 +1,38 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
+  "0xd6c2542362f4c63dcd6fbfca6849690308258b3c",
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.011699,
+ "gas_eth": 0.010764,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Triangular route: the actor sends 0.868318 WETH to the V3 SHIB/WETH pool. That pool's SHIB goes straight to the V2 SHIB/SAITAMA pool, whose SAITAMA goes straight to the V2 SAITAMA/WETH pool. The actor gets back 0.880017 WETH, a gross gain of 0.011699 WETH, which exceeds the 0.010764 ETH gas fee. A 0.000047 ETH tip from the called contract still leaves a small positive net of about 0.00089 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2151,
+  "output_tokens": 1307,
+  "thinking_tokens": 894
+ },
+ "_request_id": "req_011CgBT7MwAWzor3HDa4wyAM",
+ "_response_id": "msg_011CgBT7NJV3YR3EtMxUcif6",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xdfee68a9adb981cd08699891a11cabe10f25ec44\",\"pools\":[\"0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec\",\"0xd6c2542362f4c63dcd6fbfca6849690308258b3c\",\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.011699,\"gas_eth\":0.010764,\"residual\":\"none\",\"confidence\":4,\"note\":\"Triangular route: the actor sends 0.868318 WETH to the V3 SHIB/WETH pool. That pool's SHIB goes straight to the V2 SHIB/SAITAMA pool, whose SAITAMA goes straight to the V2 SAITAMA/WETH pool. The actor gets back 0.880017 WETH, a gross gain of 0.011699 WETH, which exceeds the 0.010764 ETH gas fee. A 0.000047 ETH tip from the called contract still leaves a small positive net of about 0.00089 ETH.\"}",
+ "case_id": "arb106_055",
+ "_time": "2026-10-19T18:38:22+0800"
+}

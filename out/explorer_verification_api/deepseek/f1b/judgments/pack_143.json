@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs use different actor contracts (0x...7f15 vs 0x...6f65) and each leg is a self-contained arbitrage on pool 0x4dd264, leaving no cross-leg non-WETH position. Because there is no single actor across both legs, Q2 cannot be netted.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3888,
+  "output_tokens": 10710,
+  "thinking_tokens": 10559
+ },
+ "_request_id": "befb52d7057e23c99151423700f6863a",
+ "_response_id": "38ea7ea6-61f3-4c16-807e-98a1d398eeb9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back legs use different actor contracts (0x...7f15 vs 0x...6f65) and each leg is a self-contained arbitrage on pool 0x4dd264, leaving no cross-leg non-WETH position. Because there is no single actor across both legs, Q2 cannot be netted.\"}",
+ "case_id": "pack_143",
+ "_time": "2026-10-19T18:29:10+0800"
+}

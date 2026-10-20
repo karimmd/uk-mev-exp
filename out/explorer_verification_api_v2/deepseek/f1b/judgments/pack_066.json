@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.16521,
+ "gas_eth": 0.249344,
+ "profit_after_gas": -0.084134,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x499... bought POW with WETH on pool 0xc079..., victim bought on the same pool, and actor sold the same POW back for 3.746107 WETH. Gross WETH gain 0.16521 ETH minus front/back gas 0.249344 ETH is negative; no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2291,
+  "output_tokens": 9695,
+  "thinking_tokens": 9509
+ },
+ "_request_id": "c3350d3958455ce9c58d297d768f2f4a",
+ "_response_id": "01aff6d0-8b14-4c3a-ab00-d96329df07ab",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xc0793782d11dd9bf7b3a7a5a74614f1debe1da2e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.16521,\"gas_eth\":0.249344,\"profit_after_gas\":-0.084134,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x499... bought POW with WETH on pool 0xc079..., victim bought on the same pool, and actor sold the same POW back for 3.746107 WETH. Gross WETH gain 0.16521 ETH minus front/back gas 0.249344 ETH is negative; no non-WETH residual remains.\"}",
+ "case_id": "pack_066",
+ "_time": "2026-10-19T19:11:53+0800"
+}

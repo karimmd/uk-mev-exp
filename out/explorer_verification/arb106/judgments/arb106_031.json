@@ -1,0 +1,25 @@
+{
+ "actor": "0x3765521db364ee269e9540970fd21e5a3e825699",
+ "pools": [
+  "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+  "0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615",
+  "0x3125e45d5665e98a08388a7df051a728b647eaae",
+  "0x724d5c9c618a2152e99a45649a3b8cf198321f46"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001647,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 0.579783 WETH into the V2 MANA/WETH pool. The trade then runs MANA to the V3 MANA/USDC pool, USDC to the V3 REVV/USDC pool, and REVV to the V2 REVV/WETH pool, which returns 0.588453 WETH. That is +0.008670 WETH, less a 0.007023 ETH internal transfer to 0x01ca8a (likely a builder tip). Net is about +0.001647 ETH, and the explorer shows a zero gas fee at 0 gwei. The actor holds no other tokens, so the intermediate tokens only pass between pools.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0246648,
+ "_session": "9a47ff56-9500-4c7d-bcfb-7967c81765dc",
+ "_raw": "{\"actor\":\"0x3765521db364ee269e9540970fd21e5a3e825699\",\"pools\":[\"0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3\",\"0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615\",\"0x3125e45d5665e98a08388a7df051a728b647eaae\",\"0x724d5c9c618a2152e99a45649a3b8cf198321f46\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001647,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 0.579783 WETH into the V2 MANA/WETH pool. The trade then runs MANA to the V3 MANA/USDC pool, USDC to the V3 REVV/USDC pool, and REVV to the V2 REVV/WETH pool, which returns 0.588453 WETH. That is +0.008670 WETH, less a 0.007023 ETH internal transfer to 0x01ca8a (likely a builder tip). Net is about +0.001647 ETH, and the explorer shows a zero gas fee at 0 gwei. The actor holds no other tokens, so the intermediate tokens only pass between pools.\"}",
+ "case_id": "arb106_031",
+ "_time": "2026-10-13T22:17:24+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x0898f84acaa1d6229e78a73ee71d8fbbe4ac4bc6",
+ "pool": "0xae95aebf655e9b40c7e0d262198b970cd25f28af",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.052391,
+ "gas_eth": 0.0130724,
+ "profit_after_gas": 0.0393186,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same actor and pool: the actor sells rHEGIC for WETH in front and buys the same rHEGIC amount back with WETH after the victim's rHEGIC sale. WETH net before gas is +0.052391 ETH, leaving positive profit after gas and no rHEGIC residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2547,
+  "output_tokens": 3536,
+  "thinking_tokens": 3345
+ },
+ "_request_id": "ac81b769f3103ffc3ebee56df754e252",
+ "_response_id": "18ec2ab7-5f51-4d76-8135-57a6743a2120",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0898f84acaa1d6229e78a73ee71d8fbbe4ac4bc6\",\"pool\":\"0xae95aebf655e9b40c7e0d262198b970cd25f28af\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.052391,\"gas_eth\":0.0130724,\"profit_after_gas\":0.0393186,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs use the same actor and pool: the actor sells rHEGIC for WETH in front and buys the same rHEGIC amount back with WETH after the victim's rHEGIC sale. WETH net before gas is +0.052391 ETH, leaving positive profit after gas and no rHEGIC residual.\"}",
+ "case_id": "sym100_061",
+ "_time": "2026-10-19T19:34:54+0800"
+}

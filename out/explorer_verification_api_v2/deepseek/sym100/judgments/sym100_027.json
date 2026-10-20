@@ -1,0 +1,32 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x4214290310264a27b0ba8cff02b4c592d0234aa1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.00723,
+ "gas_eth": 6e-06,
+ "profit_after_gas": 0.007224,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract 0xcc1d sold RFOX on the victim's pool 0x4214 in front and bought it back in back, using pool 0xc448 to source and unwind the intermediate RFOX. After the internal ETH payment and gas, the actor nets a small positive WETH/ETH profit and retains no RFOX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2904,
+  "output_tokens": 20771,
+  "thinking_tokens": 20584
+ },
+ "_request_id": "ea89f68548bf7c49b94bbc7beb5ce611",
+ "_response_id": "d85a5171-c66c-4bd4-898e-e746fc8e061e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\",\"pool\":\"0x4214290310264a27b0ba8cff02b4c592d0234aa1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.00723,\"gas_eth\":0.000006,\"profit_after_gas\":0.007224,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract 0xcc1d sold RFOX on the victim's pool 0x4214 in front and bought it back in back, using pool 0xc448 to source and unwind the intermediate RFOX. After the internal ETH payment and gas, the actor nets a small positive WETH/ETH profit and retains no RFOX.\"}",
+ "case_id": "sym100_027",
+ "_time": "2026-10-19T19:32:28+0800"
+}

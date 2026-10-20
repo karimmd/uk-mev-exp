@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 14.748053,
+ "gas_eth": 0.017477,
+ "profit_after_gas": 14.730576,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front buys 42.944214 WBTC for 524.854919 WETH on the UniswapV3 pool, and back sells the same WBTC for 539.602972 WETH on the same pool. The victim also trades that pool between them. The ETH tx value and internal ETH transfer cancel, and no WBTC remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4130,
+  "output_tokens": 5919,
+  "thinking_tokens": 5738
+ },
+ "_request_id": "d02f286c301de6ad748ef54c16b0b0da",
+ "_response_id": "3def7e90-ee41-42aa-96c1-0c75dacd17a1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xcbcdf9626bc03e24f779434178a73a0b4bad62ed\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":14.748053,\"gas_eth\":0.017477,\"profit_after_gas\":14.730576,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front buys 42.944214 WBTC for 524.854919 WETH on the UniswapV3 pool, and back sells the same WBTC for 539.602972 WETH on the same pool. The victim also trades that pool between them. The ETH tx value and internal ETH transfer cancel, and no WBTC remains.\"}",
+ "case_id": "pack_184",
+ "_time": "2026-10-19T19:26:23+0800"
+}

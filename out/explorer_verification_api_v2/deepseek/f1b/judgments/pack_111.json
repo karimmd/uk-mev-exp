@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.12448,
+ "gas_eth": 0.044567,
+ "profit_after_gas": 0.079913,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back share the same Uniswap V3 PEOPLE/WETH pool, with the same actor contract receiving PEOPLE in front and returning the same amount in back while netting WETH. The victim also trades PEOPLE on that pool between the two legs. Net WETH gain is 0.124480 before gas, positive after 0.044567 ETH gas costs.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2235,
+  "output_tokens": 1416,
+  "thinking_tokens": 1229
+ },
+ "_request_id": "bad18300dcfa4aab933338355226ad53",
+ "_response_id": "e24d7905-c2ef-4a9f-a85e-0a83bb0d28dc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.12448,\"gas_eth\":0.044567,\"profit_after_gas\":0.079913,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back share the same Uniswap V3 PEOPLE/WETH pool, with the same actor contract receiving PEOPLE in front and returning the same amount in back while netting WETH. The victim also trades PEOPLE on that pool between the two legs. Net WETH gain is 0.124480 before gas, positive after 0.044567 ETH gas costs.\"}",
+ "case_id": "pack_111",
+ "_time": "2026-10-19T19:18:21+0800"
+}

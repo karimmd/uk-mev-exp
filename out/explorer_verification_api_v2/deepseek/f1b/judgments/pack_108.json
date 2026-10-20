@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x39b71cb975280df8f1390c95c4dc861d2c2e7a2b",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.688916,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both buy SIN and send it to different addresses (0x75b0... and 0x2ad4dc...), so no single actor opens and closes a position. The back leg is another buy, not a sell, so it cannot be a sandwich.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3974,
+  "output_tokens": 9506,
+  "thinking_tokens": 9346
+ },
+ "_request_id": "80cd951e8ba25cd91731b3aa0f3202e1",
+ "_response_id": "328f93f1-2c1e-4b59-9ecc-1a06ff4e6ea1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x39b71cb975280df8f1390c95c4dc861d2c2e7a2b\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": 0.688916, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back both buy SIN and send it to different addresses (0x75b0... and 0x2ad4dc...), so no single actor opens and closes a position. The back leg is another buy, not a sell, so it cannot be a sandwich.\"}",
+ "case_id": "pack_108",
+ "_time": "2026-10-19T19:18:31+0800"
+}

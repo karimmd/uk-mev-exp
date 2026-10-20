@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9c6c852a56de59a59f7a4527724a2a0a87f7d223",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.236228,
+ "gas_eth": 0.104134,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x1d6e8b buys 1,039,067.564282 FERA for 16.8 WETH in the front leg, the victim buys FERA on the same pool (0x9c6c) in between, and the contract sells the identical FERA amount for 17.036228 WETH in the back leg. Gross gain is 0.236228 ETH against 0.104134 ETH of combined front and back gas, leaving about +0.132 ETH. The front and back senders differ, but both call the same actor contract.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0194667,
+ "_session": "f4fb7417-a9ec-4e22-ad7d-b061f8d242b3",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x9c6c852a56de59a59f7a4527724a2a0a87f7d223\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.236228, \"gas_eth\": 0.104134, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x1d6e8b buys 1,039,067.564282 FERA for 16.8 WETH in the front leg, the victim buys FERA on the same pool (0x9c6c) in between, and the contract sells the identical FERA amount for 17.036228 WETH in the back leg. Gross gain is 0.236228 ETH against 0.104134 ETH of combined front and back gas, leaving about +0.132 ETH. The front and back senders differ, but both call the same actor contract.\"}",
+ "case_id": "pack_114",
+ "_time": "2026-10-13T20:26:44+0800"
+}

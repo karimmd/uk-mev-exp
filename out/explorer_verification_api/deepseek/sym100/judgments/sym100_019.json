@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfe903a12359496b932e24c5e9b78f1b9060a6342",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.260743,
+ "gas_eth": 0.392697,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Same actor and Uniswap V2 pool are used, with the victim between front and back. But the front leg sells PKF for WETH and the back leg buys PKF back, so the non-WETH position is closed then reopened rather than opened in front and closed in back. Net WETH profit after gas is positive; PKF nets to zero and 2 CHI is burned.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2627,
+  "output_tokens": 8558,
+  "thinking_tokens": 8378
+ },
+ "_request_id": "c5eafcb141582a9c7a30acb430ffbc87",
+ "_response_id": "ce861d0e-d954-446f-9f13-e2d1e6a3c76d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xfe903a12359496b932e24c5e9b78f1b9060a6342\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.260743,\"gas_eth\":0.392697,\"residual\":\"none\",\"confidence\":4,\"note\":\"Same actor and Uniswap V2 pool are used, with the victim between front and back. But the front leg sells PKF for WETH and the back leg buys PKF back, so the non-WETH position is closed then reopened rather than opened in front and closed in back. Net WETH profit after gas is positive; PKF nets to zero and 2 CHI is burned.\"}",
+ "case_id": "sym100_019",
+ "_time": "2026-10-19T18:41:00+0800"
+}

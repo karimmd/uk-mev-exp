@@ -1,0 +1,31 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 0.176152,
+ "gas_eth": 0.023848,
+ "residual": "-0.004727 OTEN (OTEN sold in front and back, never bought back)",
+ "confidence": 5,
+ "note": "All three transactions come from the same EOA through the Uniswap V2 router, and each sells OTEN for exactly 0.1 ETH on pool 0x93670a\u2026. Nothing is bought in the front leg and sold in the back, and the 'victim' is the same address, so this is repeated same-direction selling rather than a sandwich. ETH nets +0.2 minus 0.023848 gas, but that ETH was paid for with OTEN of unknown ETH value, so the sign of profit cannot be settled.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3700,
+  "output_tokens": 604,
+  "thinking_tokens": 280
+ },
+ "_request_id": "req_011CgBRBVDbEbHiEudeaLJsb",
+ "_response_id": "msg_011CgBRBb1bt4W4kk6mTsdax",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xe104053d23918cf2787883508834661c138c9f61\", \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 0.176152, \"gas_eth\": 0.023848, \"residual\": \"-0.004727 OTEN (OTEN sold in front and back, never bought back)\", \"confidence\": 5, \"note\": \"All three transactions come from the same EOA through the Uniswap V2 router, and each sells OTEN for exactly 0.1 ETH on pool 0x93670a\u2026. Nothing is bought in the front leg and sold in the back, and the 'victim' is the same address, so this is repeated same-direction selling rather than a sandwich. ETH nets +0.2 minus 0.023848 gas, but that ETH was paid for with OTEN of unknown ETH value, so the sign of profit cannot be settled.\"}",
+ "case_id": "pack_093",
+ "_time": "2026-10-19T18:13:04+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.030701,
+ "gas_eth": 0.028703,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 166.047434 UNQT for 0.2468 WETH in the front leg. The victim buys UNQT on the same WETH/UNQT pool, routed USDT->WETH->UNQT. The back leg sells the exact same 166.047434 UNQT for 0.277501 WETH, so the actor's WETH gain is +0.030701. Front and back gas total about 0.028703 ETH, mostly the 591 gwei back leg, which leaves about +0.002 ETH, a thin but positive margin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.02556,
+ "_session": "d1707d35-0285-407c-be33-b27b4c0a0470",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x020e6d0e80d08567ecb14f942fa326748407a845\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.030701, \"gas_eth\": 0.028703, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 166.047434 UNQT for 0.2468 WETH in the front leg. The victim buys UNQT on the same WETH/UNQT pool, routed USDT->WETH->UNQT. The back leg sells the exact same 166.047434 UNQT for 0.277501 WETH, so the actor's WETH gain is +0.030701. Front and back gas total about 0.028703 ETH, mostly the 591 gwei back leg, which leaves about +0.002 ETH, a thin but positive margin.\"}",
+ "case_id": "pack_163",
+ "_time": "2026-10-13T20:36:17+0800"
+}

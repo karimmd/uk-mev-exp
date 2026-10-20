@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2a4a220beb6a0fd217a129125d0034e2db0dee46",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.159475,
+ "gas_eth": 0.275526,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back both use the same actor contract 0x499dd... to acquire and then sell the same HARAMBE amount on Uniswap V3 pool 0x2a4..., which the victim also trades on between them. Gross WETH gain is 0.116051 ETH, but front/back gas totals 0.275526 ETH, so net is negative; no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2266,
+  "output_tokens": 6182,
+  "thinking_tokens": 5997
+ },
+ "_request_id": "16a64cd9d364cd27792e9a8b9704e262",
+ "_response_id": "433a2b2b-03b2-4c11-a7eb-bb43ff077574",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x2a4a220beb6a0fd217a129125d0034e2db0dee46\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.159475,\"gas_eth\":0.275526,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back both use the same actor contract 0x499dd... to acquire and then sell the same HARAMBE amount on Uniswap V3 pool 0x2a4..., which the victim also trades on between them. Gross WETH gain is 0.116051 ETH, but front/back gas totals 0.275526 ETH, so net is negative; no non-WETH residual remains.\"}",
+ "case_id": "pack_157",
+ "_time": "2026-10-19T18:31:38+0800"
+}

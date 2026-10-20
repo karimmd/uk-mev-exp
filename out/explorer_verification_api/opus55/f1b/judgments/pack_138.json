@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "front sender 0xf1f3 holds 193.826 PRIA; back sender 0x1a87 holds 189.93 PRIA",
+ "confidence": 5,
+ "note": "All three legs are ETH->PRIA buys through the router on the same pool 0xac35, so nothing opened in the front leg is closed in the back leg. The front and back legs also come from different senders (0xf1f3 and 0x1a87). Taken alone, the front sender spent a net 0.114018 ETH plus 0.081035 ETH gas and still holds PRIA, so no sign can be set for a bracket profit.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4163,
+  "output_tokens": 654,
+  "thinking_tokens": 378
+ },
+ "_request_id": "req_011CgBRdAFo7ya88FbXkSmbM",
+ "_response_id": "msg_011CgBRdDG7sfQZ5sfbeV83G",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0xac350eefccdae050614070e5040e17759cebb3e9\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"front sender 0xf1f3 holds 193.826 PRIA; back sender 0x1a87 holds 189.93 PRIA\", \"confidence\": 5, \"note\": \"All three legs are ETH->PRIA buys through the router on the same pool 0xac35, so nothing opened in the front leg is closed in the back leg. The front and back legs also come from different senders (0xf1f3 and 0x1a87). Taken alone, the front sender spent a net 0.114018 ETH plus 0.081035 ETH gas and still holds PRIA, so no sign can be set for a bracket profit.\"}",
+ "case_id": "pack_138",
+ "_time": "2026-10-19T18:18:52+0800"
+}

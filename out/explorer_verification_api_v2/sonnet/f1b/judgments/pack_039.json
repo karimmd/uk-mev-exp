@@ -1,0 +1,33 @@
+{
+ "actor": "0x726cdc837384a7deb8bbea64beba2e7b4d7346c0",
+ "pool": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": -0.0471,
+ "gas_eth": 0.022273,
+ "profit_after_gas": -0.069373,
+ "residual": "26.081520 DAI (7.457245 + 8.570195 + 10.054080) bought and never sold",
+ "confidence": 4,
+ "note": "The sender of the front, victim and back legs is the same address, and all three legs buy DAI with ETH on the same pool. No leg sells DAI, so no position is closed and the 'victim' is the actor itself. The ETH spent (0.0471) is not offset by any return, so the actor holds a residual DAI position and nothing bracket-like occurs.",
+ "note_extra": "",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3465,
+  "output_tokens": 309,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVJt9PwY8jgQDqi6Nwh",
+ "_response_id": "msg_011CgBVJtWDRc7gsY19JXfTg",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x726cdc837384a7deb8bbea64beba2e7b4d7346c0\", \"pool\": \"0xa478c2975ab1ea89e8196811f51a7b7ade33eb11\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": -0.0471, \"gas_eth\": 0.022273, \"profit_after_gas\": -0.069373, \"residual\": \"26.081520 DAI (7.457245 + 8.570195 + 10.054080) bought and never sold\", \"confidence\": 4, \"note\": \"The sender of the front, victim and back legs is the same address, and all three legs buy DAI with ETH on the same pool. No leg sells DAI, so no position is closed and the 'victim' is the actor itself. The ETH spent (0.0471) is not offset by any return, so the actor holds a residual DAI position and nothing bracket-like occurs.\", \"note_extra\": \"\"}",
+ "case_id": "pack_039",
+ "_time": "2026-10-19T19:07:06+0800"
+}

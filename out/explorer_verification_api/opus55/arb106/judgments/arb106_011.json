@@ -1,0 +1,42 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x5ed0dde7441efcd728e31cfd055c4c7efe20a57b",
+  "0x9c3ec0db90cf88f1881cabc6cb0faf0c5aa9f1c2",
+  "0x4d3138931437dcc356ca511ac812e14ba8199fd6",
+  "0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8",
+  "0x8616e439239bf0c116f430f399502e706dc8b7fb",
+  "0x8b59be2fc6fccc2256cc4841843a13ce29da16bd"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.030395,
+ "gas_eth": 0.028075,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The transaction holds two closed WETH cycles, each routed pool to pool and repaid to a V3 pool. Cycle 1 runs WETH, USDC, GMEE, BONDLY and back to WETH for +0.017176 WETH. Cycle 2 runs WETH, STRONG, LINK and back to WETH for +0.013219 WETH; the total of 0.030395 WETH exceeds the 0.028075 ETH gas fee by about 0.00232 ETH, a thin margin.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3027,
+  "output_tokens": 1000,
+  "thinking_tokens": 460
+ },
+ "_request_id": "req_011CgBT2pUh7bRc8esC9aCAH",
+ "_response_id": "msg_011CgBT2prGvSQBprs4oK1BL",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\", \"pools\": [\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0x5ed0dde7441efcd728e31cfd055c4c7efe20a57b\", \"0x9c3ec0db90cf88f1881cabc6cb0faf0c5aa9f1c2\", \"0x4d3138931437dcc356ca511ac812e14ba8199fd6\", \"0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8\", \"0x8616e439239bf0c116f430f399502e706dc8b7fb\", \"0x8b59be2fc6fccc2256cc4841843a13ce29da16bd\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.030395, \"gas_eth\": 0.028075, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The transaction holds two closed WETH cycles, each routed pool to pool and repaid to a V3 pool. Cycle 1 runs WETH, USDC, GMEE, BONDLY and back to WETH for +0.017176 WETH. Cycle 2 runs WETH, STRONG, LINK and back to WETH for +0.013219 WETH; the total of 0.030395 WETH exceeds the 0.028075 ETH gas fee by about 0.00232 ETH, a thin margin.\"}\n```",
+ "case_id": "arb106_011",
+ "_time": "2026-10-19T18:37:21+0800"
+}

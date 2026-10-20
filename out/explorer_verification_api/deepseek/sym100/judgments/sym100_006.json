@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x570febdf89c07f256c75686caca215289bb11cfc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.075452,
+ "gas_eth": 0.021028,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front leg sells ERN for WETH on the same Uniswap V2 pool the victim uses; back leg buys back the same ERN for less WETH, a sell-side sandwich (short ERN position). Net WETH gain 0.09648 less 0.021028 gas = 0.075452 ETH, with no residual ERN.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2337,
+  "output_tokens": 9190,
+  "thinking_tokens": 9008
+ },
+ "_request_id": "a877d68c8cfe8acb61e887918dacd6c8",
+ "_response_id": "a523bed0-bba5-4782-a004-753b47688682",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x570febdf89c07f256c75686caca215289bb11cfc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.075452, \"gas_eth\": 0.021028, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Front leg sells ERN for WETH on the same Uniswap V2 pool the victim uses; back leg buys back the same ERN for less WETH, a sell-side sandwich (short ERN position). Net WETH gain 0.09648 less 0.021028 gas = 0.075452 ETH, with no residual ERN.\"}",
+ "case_id": "sym100_006",
+ "_time": "2026-10-19T18:39:08+0800"
+}

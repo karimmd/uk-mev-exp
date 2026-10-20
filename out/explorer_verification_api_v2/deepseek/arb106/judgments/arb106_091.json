@@ -1,0 +1,39 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pools": [
+  "0xf058025c9c6b0a2318ec203062cd78bd4e538a6d",
+  "0x62e3c242b5e903071458ad90a160493d84911c77",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.050003,
+ "gas_eth": 0.036253,
+ "profit_after_gas": 0.01375,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor receives 3268.271095 USDT from one UniswapV2 pool and sends exactly that amount back to two pools, closing a USDT cycle. It ends with 0.050003 WETH profit from the UniswapV3 pool, which remains positive after the 0.036253 ETH gas fee.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1694,
+  "output_tokens": 5172,
+  "thinking_tokens": 4913
+ },
+ "_request_id": "927989e2104598a100bd0a41bcc70e84",
+ "_response_id": "4cd00124-e92c-4dd8-9140-c1496a13b84c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pools\":[\"0xf058025c9c6b0a2318ec203062cd78bd4e538a6d\",\"0x62e3c242b5e903071458ad90a160493d84911c77\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\"],\"cycle_token\":\"USDT\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.050003,\"gas_eth\":0.036253,\"profit_after_gas\":0.01375,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor receives 3268.271095 USDT from one UniswapV2 pool and sends exactly that amount back to two pools, closing a USDT cycle. It ends with 0.050003 WETH profit from the UniswapV3 pool, which remains positive after the 0.036253 ETH gas fee.\"}",
+ "case_id": "arb106_091",
+ "_time": "2026-10-19T20:06:55+0800"
+}

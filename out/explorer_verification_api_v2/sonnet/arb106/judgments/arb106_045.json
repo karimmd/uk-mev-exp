@@ -1,0 +1,41 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0xf9d04e7ed0cbf521e781a1ee2febee2edb36040c",
+  "0x3730ecd0aa7eb9b35a4e89b032bef80a1a41aa7f",
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.024512,
+ "gas_eth": 0.023362,
+ "profit_after_gas": 0.00115,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 3.969172 WETH into the OHM/WETH pool. The route runs OHM, DAI, renBTC and WBTC through five pools and returns 3.993845 WETH from the WBTC/WETH pool. Net WETH is +0.024673, minus 0.000161 ETH sent out internally, which gives 0.024512 before gas and about 0.00115 after the 0.023362 fee. Intermediate tokens all move pool to pool, so the actor holds no residual.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2476,
+  "output_tokens": 1126,
+  "thinking_tokens": 659
+ },
+ "_request_id": "req_011CgBXE3giijY39YzJZzSKx",
+ "_response_id": "msg_011CgBXE43oFryczaxsaZVbk",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0xf9d04e7ed0cbf521e781a1ee2febee2edb36040c\",\"0x3730ecd0aa7eb9b35a4e89b032bef80a1a41aa7f\",\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.024512,\"gas_eth\":0.023362,\"profit_after_gas\":0.00115,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 3.969172 WETH into the OHM/WETH pool. The route runs OHM, DAI, renBTC and WBTC through five pools and returns 3.993845 WETH from the WBTC/WETH pool. Net WETH is +0.024673, minus 0.000161 ETH sent out internally, which gives 0.024512 before gas and about 0.00115 after the 0.023362 fee. Intermediate tokens all move pool to pool, so the actor holds no residual.\"}",
+ "case_id": "arb106_045",
+ "_time": "2026-10-19T19:32:19+0800"
+}

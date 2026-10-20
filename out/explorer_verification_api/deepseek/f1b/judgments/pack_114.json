@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9c6c852a56de59a59f7a4527724a2a0a87f7d223",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.236228,
+ "gas_eth": 0.104134,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x1d6e... opened and closed a FERA position on UniswapV2 pair 0x9c6c..., which the victim also used. Gross WETH delta is +0.236228; front+back gas is 0.104134, leaving +0.132094 after gas, with no residual FERA.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2453,
+  "output_tokens": 6359,
+  "thinking_tokens": 6180
+ },
+ "_request_id": "ad3a33dc16e6069013366c61be928274",
+ "_response_id": "3a469af6-3994-4626-a3e8-e99cecdbd63a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x9c6c852a56de59a59f7a4527724a2a0a87f7d223\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.236228,\"gas_eth\":0.104134,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x1d6e... opened and closed a FERA position on UniswapV2 pair 0x9c6c..., which the victim also used. Gross WETH delta is +0.236228; front+back gas is 0.104134, leaving +0.132094 after gas, with no residual FERA.\"}",
+ "case_id": "pack_114",
+ "_time": "2026-10-19T18:22:24+0800"
+}

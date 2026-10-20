@@ -1,0 +1,17 @@
+{
+ "actor": "0xa405e822d1c3a8568c6b82eb6e570fca0136f802",
+ "pool": "0x09062ce4f20aac71f8074ac6cf8e6968abd4d03e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045323,
+ "gas_eth": 0.045096,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0xa405... (called by 0xd6f6... in both legs) buys 12558.19 EQX for 0.885515 WETH before the victim's 5 ETH buy on the same pool, then sells the exact same EQX amount after for 0.930838 WETH, leaving no residual token. Gross WETH profit is 0.045323 ETH, but gas of 0.009433 + 0.035663 = 0.045096 ETH leaves a net of only about +0.000227 ETH, which is positive but thin; the high back-leg gas price (461 gwei) suggests a priority bid, and any direct payment to the builder is not visible here.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0173047,
+ "_session": "e6859082-04d4-4ffc-8c48-bba81f3655fa",
+ "_raw": "{\"actor\": \"0xa405e822d1c3a8568c6b82eb6e570fca0136f802\", \"pool\": \"0x09062ce4f20aac71f8074ac6cf8e6968abd4d03e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.045323, \"gas_eth\": 0.045096, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0xa405... (called by 0xd6f6... in both legs) buys 12558.19 EQX for 0.885515 WETH before the victim's 5 ETH buy on the same pool, then sells the exact same EQX amount after for 0.930838 WETH, leaving no residual token. Gross WETH profit is 0.045323 ETH, but gas of 0.009433 + 0.035663 = 0.045096 ETH leaves a net of only about +0.000227 ETH, which is positive but thin; the high back-leg gas price (461 gwei) suggests a priority bid, and any direct payment to the builder is not visible here.\"}",
+ "case_id": "pack_124",
+ "_time": "2026-10-13T20:28:31+0800"
+}

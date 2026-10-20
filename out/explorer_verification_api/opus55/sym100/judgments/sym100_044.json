@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x611cde65dea90918c0078ac0400a72b0d25b9bb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.023088,
+ "gas_eth": 0.099206,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x...594e routes WETH through pool 0x8bd1 into REN and sells that REN into pool 0x611c ahead of the victim's REN sale on 0x611c, then reverses both pools in the back leg. The REN moves pool to pool and the actor never holds it directly, so the bracket is a two-pool sandwich on 0x611c, which slightly lowers my confidence on Q1. WETH net is -0.179815 + 0.302109 = +0.122294, and after 0.099206 ETH of gas it is about +0.023088 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4975,
+  "output_tokens": 1137,
+  "thinking_tokens": 824
+ },
+ "_request_id": "req_011CgBSHLJbSdJhmqH97vrNR",
+ "_response_id": "msg_011CgBSHLegpeNQt3Hyn4qfW",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x611cde65dea90918c0078ac0400a72b0d25b9bb1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.023088, \"gas_eth\": 0.099206, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x...594e routes WETH through pool 0x8bd1 into REN and sells that REN into pool 0x611c ahead of the victim's REN sale on 0x611c, then reverses both pools in the back leg. The REN moves pool to pool and the actor never holds it directly, so the bracket is a two-pool sandwich on 0x611c, which slightly lowers my confidence on Q1. WETH net is -0.179815 + 0.302109 = +0.122294, and after 0.099206 ETH of gas it is about +0.023088 ETH.\"}",
+ "case_id": "sym100_044",
+ "_time": "2026-10-19T18:27:34+0800"
+}

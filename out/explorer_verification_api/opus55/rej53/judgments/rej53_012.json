@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xa40bb1c47f6dd27142a2bd7c93bfa98db9d1f5c5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.003608,
+ "gas_eth": 0.030672,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg, contract 0x0000\u20266b40 routes 3.479590 WETH through the USDC/WETH V3 pool into the MASK/USDC V2 pool 0xa40b and receives 943.738070 MASK. The victim then buys MASK on 0xa40b, and in the back leg the actor sells the same 943.738070 MASK there and swaps back to 3.513870 WETH. The WETH gain of 0.034280 minus 0.030672 in gas leaves about +0.003608 ETH, with no residual MASK or USDC and no visible coinbase transfer.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4126,
+  "output_tokens": 617,
+  "thinking_tokens": 286
+ },
+ "_request_id": "req_011CgBShj8hEAdFXJkJM7L89",
+ "_response_id": "msg_011CgBShjV36spnhq4nn75ac",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xa40bb1c47f6dd27142a2bd7c93bfa98db9d1f5c5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.003608, \"gas_eth\": 0.030672, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg, contract 0x0000\u20266b40 routes 3.479590 WETH through the USDC/WETH V3 pool into the MASK/USDC V2 pool 0xa40b and receives 943.738070 MASK. The victim then buys MASK on 0xa40b, and in the back leg the actor sells the same 943.738070 MASK there and swaps back to 3.513870 WETH. The WETH gain of 0.034280 minus 0.030672 in gas leaves about +0.003608 ETH, with no residual MASK or USDC and no visible coinbase transfer.\"}",
+ "case_id": "rej53_012",
+ "_time": "2026-10-19T18:32:59+0800"
+}

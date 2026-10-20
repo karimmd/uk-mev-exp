@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000790b928b2ba74d7f53a2079e6a131f",
+ "pools": [
+  "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+  "0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2",
+  "0x23bb251705615b4efe9442be5f2aeb0e20b39858",
+  "0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1"
+ ],
+ "cycle_token": "INV",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.009303,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.009303,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor executed closed WETH-INV and WETH-VERI cycles across four pools; INV and VERI net to zero, leaving +0.009303 ETH/WETH after the 0.027908 ETH outflow; gas was zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2661,
+  "output_tokens": 12174,
+  "thinking_tokens": 11911
+ },
+ "_request_id": "5367d39ab4bab6a03b8b72b027f0e140",
+ "_response_id": "a87e23e4-4d71-418c-9236-43d2da6f8703",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000790b928b2ba74d7f53a2079e6a131f\",\"pools\":[\"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\",\"0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2\",\"0x23bb251705615b4efe9442be5f2aeb0e20b39858\",\"0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1\"],\"cycle_token\":\"INV\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.009303,\"gas_eth\":0.0,\"profit_after_gas\":0.009303,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor executed closed WETH-INV and WETH-VERI cycles across four pools; INV and VERI net to zero, leaving +0.009303 ETH/WETH after the 0.027908 ETH outflow; gas was zero.\"}",
+ "case_id": "arb106_103",
+ "_time": "2026-10-19T20:10:19+0800"
+}

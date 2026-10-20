@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0xcd7989894bc033581532d2cd88da5db0a4b12859",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.134131,
+ "gas_eth": 0.047245,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor bought 2871.878644 BADGER on the shared UniswapV2 pool in front and sold the exact same amount back in the back leg, with the victim trading on that pool in between. The back-leg 0.923261 ETH value and matching internal transfer net to zero for the actor; after 0.047245 ETH total gas, the WETH gain remains positive and no non-WETH residual is left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3268,
+  "output_tokens": 12355,
+  "thinking_tokens": 12171
+ },
+ "_request_id": "0dd371181df10ddd93b34c73590757b4",
+ "_response_id": "c83da8b8-5d42-4d56-8246-349bd4c711d6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000081c57cbc967248bea482c417207e84cffb\",\"pool\":\"0xcd7989894bc033581532d2cd88da5db0a4b12859\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.134131,\"gas_eth\":0.047245,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor bought 2871.878644 BADGER on the shared UniswapV2 pool in front and sold the exact same amount back in the back leg, with the victim trading on that pool in between. The back-leg 0.923261 ETH value and matching internal transfer net to zero for the actor; after 0.047245 ETH total gas, the WETH gain remains positive and no non-WETH residual is left.\"}",
+ "case_id": "pack_182",
+ "_time": "2026-10-19T18:34:50+0800"
+}

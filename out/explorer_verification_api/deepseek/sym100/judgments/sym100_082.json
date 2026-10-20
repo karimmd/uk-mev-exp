@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x811beed0119b4afce20d2583eb608c6f7af1954f",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.388129,
+ "gas_eth": 0.033768,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sends SHIB to the pool and receives WETH, while back sends WETH and receives the same SHIB amount; the actor thus holds WETH after the front leg, not a non-WETH position, so Q1 fails. Net WETH is +0.388129 before gas and +0.354361 after the front/back gas fees; net SHIB residual is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2418,
+  "output_tokens": 5200,
+  "thinking_tokens": 5022
+ },
+ "_request_id": "3f8fdb8feb68d0bc887e617d7f31f299",
+ "_response_id": "5691b875-c824-45d5-869e-7f60e3f9f40d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x811beed0119b4afce20d2583eb608c6f7af1954f\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.388129,\"gas_eth\":0.033768,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sends SHIB to the pool and receives WETH, while back sends WETH and receives the same SHIB amount; the actor thus holds WETH after the front leg, not a non-WETH position, so Q1 fails. Net WETH is +0.388129 before gas and +0.354361 after the front/back gas fees; net SHIB residual is zero.\"}",
+ "case_id": "sym100_082",
+ "_time": "2026-10-19T18:53:32+0800"
+}

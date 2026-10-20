@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x3127bbbc05f343192855ea40b54a34831ce72e04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.077983,
+ "gas_eth": 0.023678,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract 0x\u20264a30 (called by sender 0xf529\u2026) sells 924.961234 WAR into the WAR/WETH pool for 2.206240 WETH in the front leg. The victim also sells WAR into the same pool. The contract then buys back exactly 924.961234 WAR for 2.128257 WETH in the back leg. Net is +0.077983 WETH, or about +0.054305 ETH after 0.023678 ETH of gas. The front leg sells first instead of buying, so this is a sell-first (short) sandwich, and the WAR it sold must have been held beforehand. That ordering is the main reason my confidence is 3.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028093200000000002,
+ "_session": "a9499089-5bd9-44b1-a5bc-9f06328c14d5",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x3127bbbc05f343192855ea40b54a34831ce72e04\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.077983, \"gas_eth\": 0.023678, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The contract 0x\u20264a30 (called by sender 0xf529\u2026) sells 924.961234 WAR into the WAR/WETH pool for 2.206240 WETH in the front leg. The victim also sells WAR into the same pool. The contract then buys back exactly 924.961234 WAR for 2.128257 WETH in the back leg. Net is +0.077983 WETH, or about +0.054305 ETH after 0.023678 ETH of gas. The front leg sells first instead of buying, so this is a sell-first (short) sandwich, and the WAR it sold must have been held beforehand. That ordering is the main reason my confidence is 3.\"}",
+ "case_id": "sym100_036",
+ "_time": "2026-10-13T21:30:39+0800"
+}

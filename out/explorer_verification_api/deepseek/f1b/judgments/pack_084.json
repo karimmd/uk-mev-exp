@@ -1,0 +1,31 @@
+{
+ "actor": "0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e",
+ "pool": "0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -0.010099,
+ "gas_eth": 0.010099,
+ "residual": "104.061985 XIO",
+ "confidence": 5,
+ "note": "Front and back use the same actor and pool, but the front leg sells XIO for WETH and the back leg buys XIO, so the non-WETH position is opened in the back leg rather than the front leg under the protocol's definition. Net WETH is zero before gas, leaving a negative ETH gas cost and a positive XIO residual whose final value is not determined by the ETH/WETH netting alone.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2423,
+  "output_tokens": 12797,
+  "thinking_tokens": 12603
+ },
+ "_request_id": "45dc0bc25c3324ec2159ef77a085b28b",
+ "_response_id": "0d07fa45-936f-4288-ac48-592c4c59e2d5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e\",\"pool\":\"0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":-0.010099,\"gas_eth\":0.010099,\"residual\":\"104.061985 XIO\",\"confidence\":5,\"note\":\"Front and back use the same actor and pool, but the front leg sells XIO for WETH and the back leg buys XIO, so the non-WETH position is opened in the back leg rather than the front leg under the protocol's definition. Net WETH is zero before gas, leaving a negative ETH gas cost and a positive XIO residual whose final value is not determined by the ETH/WETH netting alone.\"}",
+ "case_id": "pack_084",
+ "_time": "2026-10-19T18:17:09+0800"
+}

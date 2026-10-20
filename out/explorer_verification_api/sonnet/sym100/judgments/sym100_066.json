@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013393,
+ "gas_eth": 0.010921,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract never holds EROWAN. In the front leg it buys EROWAN on pool 0x659a and sells it into the victim pool 0x13cd, ahead of the victim's EROWAN sale. In the back leg it buys EROWAN back from 0x13cd and sends it to 0x659a. WETH nets -0.004634 in the front and +0.046310 in the back, which is +0.041676; subtracting the 0.028283 ETH forwarded to 0x99c8 gives 0.013393 before gas. After 0.010921 ETH of gas the position is about +0.00247 ETH. The cross-pool structure, with no token held between legs, makes Q1 less clear-cut than a standard sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3546,
+  "output_tokens": 1596,
+  "thinking_tokens": 1234
+ },
+ "_request_id": "req_011CgBSHk184hMJBxLYqHX6M",
+ "_response_id": "msg_011CgBSHkLxmBAy4W2VFM4qX",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.013393,\"gas_eth\":0.010921,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract never holds EROWAN. In the front leg it buys EROWAN on pool 0x659a and sells it into the victim pool 0x13cd, ahead of the victim's EROWAN sale. In the back leg it buys EROWAN back from 0x13cd and sends it to 0x659a. WETH nets -0.004634 in the front and +0.046310 in the back, which is +0.041676; subtracting the 0.028283 ETH forwarded to 0x99c8 gives 0.013393 before gas. After 0.010921 ETH of gas the position is about +0.00247 ETH. The cross-pool structure, with no token held between legs, makes Q1 less clear-cut than a standard sandwich.\"}",
+ "case_id": "sym100_066",
+ "_time": "2026-10-19T18:27:39+0800"
+}

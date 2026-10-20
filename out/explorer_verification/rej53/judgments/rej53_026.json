@@ -1,0 +1,17 @@
+{
+ "actor": "0xe34820500dcd2a2c3c4ce2c1cac561e30ede0dc7",
+ "pool": "0xdf6b861b4fbcfaffb62dd1906fcd3a863955704b",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 2.003417,
+ "gas_eth": 0.015462,
+ "residual": "Back leg sells 165.157897 BUILD but front leg bought only 64.008969, so about 101.15 BUILD came from inventory outside this episode",
+ "confidence": 3,
+ "note": "The same contract trades the BUILD/WETH pool in the front and back legs, and the victim also trades that pool. But the victim sells BUILD into the pool after the front leg bought BUILD, so the victim is on the opposite side and is not pushed into a worse price. The back leg also closes a much larger position than the front opened, so the 2.003 ETH gain (1.988 after gas) can't be tied to this bracket.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0363712,
+ "_session": "757da03e-f391-4576-b894-c7f4cbfcf270",
+ "_raw": "{\"actor\": \"0xe34820500dcd2a2c3c4ce2c1cac561e30ede0dc7\", \"pool\": \"0xdf6b861b4fbcfaffb62dd1906fcd3a863955704b\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 2.003417, \"gas_eth\": 0.015462, \"residual\": \"Back leg sells 165.157897 BUILD but front leg bought only 64.008969, so about 101.15 BUILD came from inventory outside this episode\", \"confidence\": 3, \"note\": \"The same contract trades the BUILD/WETH pool in the front and back legs, and the victim also trades that pool. But the victim sells BUILD into the pool after the front leg bought BUILD, so the victim is on the opposite side and is not pushed into a worse price. The back leg also closes a much larger position than the front opened, so the 2.003 ETH gain (1.988 after gas) can't be tied to this bracket.\"}",
+ "case_id": "rej53_026",
+ "_time": "2026-10-13T21:58:29+0800"
+}

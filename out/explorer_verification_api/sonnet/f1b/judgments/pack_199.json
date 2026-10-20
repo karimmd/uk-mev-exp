@@ -1,0 +1,31 @@
+{
+ "actor": "0x00bf034cec51975faece51b285724301436b21c4",
+ "pool": "0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.232048,
+ "gas_eth": 0.050839,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x00bf\u2026 buys 14944.146367 ORO with 20 WETH in the front leg and sells exactly that amount back for 20.232048 WETH in the back leg. The victim buys ORO on the same pool in between. The gross gain of 0.232048 WETH less 0.050839 ETH gas (0.042948 + 0.007891) leaves about +0.181 ETH. The two legs are sent by different EOAs, but both call the same contract. Their gas is counted as cost, and the result is positive either way.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3064,
+  "output_tokens": 540,
+  "thinking_tokens": 236
+ },
+ "_request_id": "req_011CgBRtpQtd4FDDtAKuy47g",
+ "_response_id": "msg_011CgBRtpkiu7YYRkrWuutDr",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x00bf034cec51975faece51b285724301436b21c4\", \"pool\": \"0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.232048, \"gas_eth\": 0.050839, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x00bf\u2026 buys 14944.146367 ORO with 20 WETH in the front leg and sells exactly that amount back for 20.232048 WETH in the back leg. The victim buys ORO on the same pool in between. The gross gain of 0.232048 WETH less 0.050839 ETH gas (0.042948 + 0.007891) leaves about +0.181 ETH. The two legs are sent by different EOAs, but both call the same contract. Their gas is counted as cost, and the result is positive either way.\"}",
+ "case_id": "pack_199",
+ "_time": "2026-10-19T18:22:21+0800"
+}

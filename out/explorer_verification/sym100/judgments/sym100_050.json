@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xa4f35395910d7a4ff110669ced4b70227a166877",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071019,
+ "gas_eth": 0.035667,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sends 915.230241 MRCH into the pool for 1.836503 WETH in the front leg, the victim sells 2105.9 MRCH into the same pool, and the actor buys back exactly 915.230241 MRCH for 1.765484 WETH in the back leg. This is a sell-first round trip rather than the usual buy-first one, but it is still bracketed around the victim on the shared pool. WETH net is +0.071019 and gas is 0.035667, so about +0.035352 ETH after gas, with no MRCH left over. The actor must already have held the MRCH before the front leg, which is not shown in this block.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024482700000000003,
+ "_session": "dfefae23-53ed-406d-8b23-b6e234b22695",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xa4f35395910d7a4ff110669ced4b70227a166877\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.071019, \"gas_eth\": 0.035667, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sends 915.230241 MRCH into the pool for 1.836503 WETH in the front leg, the victim sells 2105.9 MRCH into the same pool, and the actor buys back exactly 915.230241 MRCH for 1.765484 WETH in the back leg. This is a sell-first round trip rather than the usual buy-first one, but it is still bracketed around the victim on the shared pool. WETH net is +0.071019 and gas is 0.035667, so about +0.035352 ETH after gas, with no MRCH left over. The actor must already have held the MRCH before the front leg, which is not shown in this block.\"}",
+ "case_id": "sym100_050",
+ "_time": "2026-10-13T21:34:01+0800"
+}

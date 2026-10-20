@@ -1,0 +1,17 @@
+{
+ "actor": "0x3f3636f45ee8b3bebd3244a106380319d07711f2",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.206517,
+ "gas_eth": 0.084144,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor first sells 55.8748 MPH for 13.100163 WETH, then buys the same 55.8748 MPH back for 12.893646 WETH. That is the opposite of a sandwich: the victim then buys MPH after the actor's sell, so the front leg does not move the price against the victim. The victim is also 162 positions after the front leg and 16 before the back leg, so this looks like inventory round-tripping rather than a bracket. Net is +0.206517 WETH, or about +0.1224 ETH after 0.084144 ETH of gas, with no residual MPH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0269527,
+ "_session": "6fa902e7-0d6e-4c6a-837c-465cfd487e21",
+ "_raw": "{\"actor\": \"0x3f3636f45ee8b3bebd3244a106380319d07711f2\", \"pool\": \"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.206517, \"gas_eth\": 0.084144, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor first sells 55.8748 MPH for 13.100163 WETH, then buys the same 55.8748 MPH back for 12.893646 WETH. That is the opposite of a sandwich: the victim then buys MPH after the actor's sell, so the front leg does not move the price against the victim. The victim is also 162 positions after the front leg and 16 before the back leg, so this looks like inventory round-tripping rather than a bracket. Net is +0.206517 WETH, or about +0.1224 ETH after 0.084144 ETH of gas, with no residual MPH.\"}",
+ "case_id": "sym100_046",
+ "_time": "2026-10-13T21:33:01+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x70dc051ffb179290ea022fc5659c8654d7acebfa",
+ "pool": "0x70e567076184803a43aa0ceae4e67ba31cbf89e1",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -10.0,
+ "gas_eth": 0.085434,
+ "residual": "8319.250642 ELE",
+ "confidence": 4,
+ "note": "The front leg buys ELE with 10 ETH for 0x70dc..., and the victim buys on the same pool. The 'back' leg is sent by a different address (0xa08c...) and also buys ELE (ETH in, 940.5 ELE out, 0.063 ETH refund), so nothing closes the front position. The front actor is left holding 8319 ELE, so no sign can be given for its position.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0252847,
+ "_session": "382befcc-8bd3-45a3-9b5d-579b6a295601",
+ "_raw": "{\"actor\": \"0x70dc051ffb179290ea022fc5659c8654d7acebfa\", \"pool\": \"0x70e567076184803a43aa0ceae4e67ba31cbf89e1\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -10.0, \"gas_eth\": 0.085434, \"residual\": \"8319.250642 ELE\", \"confidence\": 4, \"note\": \"The front leg buys ELE with 10 ETH for 0x70dc..., and the victim buys on the same pool. The 'back' leg is sent by a different address (0xa08c...) and also buys ELE (ETH in, 940.5 ELE out, 0.063 ETH refund), so nothing closes the front position. The front actor is left holding 8319 ELE, so no sign can be given for its position.\"}",
+ "case_id": "pack_158",
+ "_time": "2026-10-13T20:35:28+0800"
+}

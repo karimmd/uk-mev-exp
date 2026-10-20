@@ -1,0 +1,31 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.213209,
+ "gas_eth": 0.027306,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 12160.41 CVR to the pool for 5.921007 WETH in the front leg. The victim then sells 10000 CVR into the same pool, and the actor buys back exactly 12160.41 CVR for 5.707798 WETH in the back leg. The WETH gain is 0.213209 before gas. After 0.027306 ETH of front and back gas, the position is about +0.1859 ETH, and no CVR is left over. The front leg sells first and the back leg buys back, so the CVR position is a short that the actor opens and closes. Its CVR inventory before the front leg is not shown.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3458,
+  "output_tokens": 1015,
+  "thinking_tokens": 688
+ },
+ "_request_id": "req_011CgBSTmnoSSbhg6nXG43Kn",
+ "_response_id": "msg_011CgBSTn89WvbCdk3cG29Fm",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x09ddb304758caf024706dee2e92b569ca4823aa1\",\"pool\":\"0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.213209,\"gas_eth\":0.027306,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 12160.41 CVR to the pool for 5.921007 WETH in the front leg. The victim then sells 10000 CVR into the same pool, and the actor buys back exactly 12160.41 CVR for 5.707798 WETH in the back leg. The WETH gain is 0.213209 before gas. After 0.027306 ETH of front and back gas, the position is about +0.1859 ETH, and no CVR is left over. The front leg sells first and the back leg buys back, so the CVR position is a short that the actor opens and closes. Its CVR inventory before the front leg is not shown.\"}",
+ "case_id": "sym100_096",
+ "_time": "2026-10-19T18:29:52+0800"
+}

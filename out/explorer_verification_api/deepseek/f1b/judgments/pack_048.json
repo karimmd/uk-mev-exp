@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02978375,
+ "gas_eth": 0.15724125,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor 0x499dd... receives PEOPLE in the front leg, the victim trades on the same Uniswap V3 pool 0x83abec..., and the actor sells the same PEOPLE amount back to the pool. WETH inflow is 19.403861 - 19.216836 = 0.187025 ETH; after subtracting front+back gas 0.15724125 ETH, net is +0.02978375 ETH, with no residual PEOPLE.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2209,
+  "output_tokens": 6924,
+  "thinking_tokens": 6727
+ },
+ "_request_id": "2a0569a689a96295b10991bd3c08ab13",
+ "_response_id": "679b9471-0857-4db3-bfdc-87b75cbe07c6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.02978375,\"gas_eth\":0.15724125,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor 0x499dd... receives PEOPLE in the front leg, the victim trades on the same Uniswap V3 pool 0x83abec..., and the actor sells the same PEOPLE amount back to the pool. WETH inflow is 19.403861 - 19.216836 = 0.187025 ETH; after subtracting front+back gas 0.15724125 ETH, net is +0.02978375 ETH, with no residual PEOPLE.\"}",
+ "case_id": "pack_048",
+ "_time": "2026-10-19T18:10:50+0800"
+}

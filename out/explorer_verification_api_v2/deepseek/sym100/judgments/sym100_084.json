@@ -1,0 +1,32 @@
+{
+ "actor": "0x5927b6650a572f74451ea42ea216a0339de1a55f",
+ "pool": "0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.043646,
+ "gas_eth": 0.003711884,
+ "profit_after_gas": 0.039934116,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells 4099.049061 BASE to the BASE/WETH pair for 7.252053 WETH; back buys the same BASE amount for 7.208407 WETH on the same pool, with the victim trading in between. Net WETH gain is 0.043646, which remains positive after front/back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2473,
+  "output_tokens": 4028,
+  "thinking_tokens": 3839
+ },
+ "_request_id": "7b4b26528fefeb6ceac3c8177fdfd575",
+ "_response_id": "bdc3ba03-4fbf-4ff3-a20b-78bb33946eb8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x5927b6650a572f74451ea42ea216a0339de1a55f\",\"pool\":\"0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.043646,\"gas_eth\":0.003711884,\"profit_after_gas\":0.039934116,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells 4099.049061 BASE to the BASE/WETH pair for 7.252053 WETH; back buys the same BASE amount for 7.208407 WETH on the same pool, with the victim trading in between. Net WETH gain is 0.043646, which remains positive after front/back gas.\"}",
+ "case_id": "sym100_084",
+ "_time": "2026-10-19T19:37:11+0800"
+}

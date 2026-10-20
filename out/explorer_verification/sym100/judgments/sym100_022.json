@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xdc3e94ddf605864b79fce18c7cf974e579001e7b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.166717,
+ "gas_eth": 0.013946,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same actor contract trades the same pool before and after the victim, but the front leg sells 3.675846 QUICK for WETH while the victim buys QUICK on that pool. The front leg therefore moves the price against the victim's direction and lowers the victim's entry price, which does not fit a sandwich bracket. The back leg buys the same 3.675846 QUICK back, so no QUICK is left over. The WETH gain is +1.007874 - 0.841157 = 0.166717, or about 0.152771 after 0.013946 ETH of gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0367947,
+ "_session": "77e821b5-5a64-4a17-81ee-f93185ed8359",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0xdc3e94ddf605864b79fce18c7cf974e579001e7b\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.166717, \"gas_eth\": 0.013946, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same actor contract trades the same pool before and after the victim, but the front leg sells 3.675846 QUICK for WETH while the victim buys QUICK on that pool. The front leg therefore moves the price against the victim's direction and lowers the victim's entry price, which does not fit a sandwich bracket. The back leg buys the same 3.675846 QUICK back, so no QUICK is left over. The WETH gain is +1.007874 - 0.841157 = 0.166717, or about 0.152771 after 0.013946 ETH of gas.\"}",
+ "case_id": "sym100_022",
+ "_time": "2026-10-13T21:27:23+0800"
+}

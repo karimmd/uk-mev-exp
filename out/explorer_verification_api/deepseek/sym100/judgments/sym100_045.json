@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xa541279d7a77a768abf45acbcac7f32f28101d5f",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.052685,
+ "gas_eth": 0.226302,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs are cyclical two-pool swaps by contract 0x7cf..., sharing pool 0xa541... with the victim. The actor never holds PSP after the front leg (net PSP zero), so no non-WETH sandwich position is opened. Net WETH across both legs is +0.278987 ETH; after 0.226302 ETH gas, net is +0.052685 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3275,
+  "output_tokens": 8481,
+  "thinking_tokens": 8277
+ },
+ "_request_id": "20c14cba3158c217e676ebce9f787d9c",
+ "_response_id": "b832ae0f-3b72-4ded-b2fa-b86c73bafbbc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xa541279d7a77a768abf45acbcac7f32f28101d5f\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.052685, \"gas_eth\": 0.226302, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The front and back legs are cyclical two-pool swaps by contract 0x7cf..., sharing pool 0xa541... with the victim. The actor never holds PSP after the front leg (net PSP zero), so no non-WETH sandwich position is opened. Net WETH across both legs is +0.278987 ETH; after 0.226302 ETH gas, net is +0.052685 ETH.\"}",
+ "case_id": "sym100_045",
+ "_time": "2026-10-19T18:46:04+0800"
+}

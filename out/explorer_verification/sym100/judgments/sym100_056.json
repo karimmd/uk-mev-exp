@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3545d371334f4374872e915caf5ec36c0d83b93e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.06449,
+ "gas_eth": 0.06748,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor sells CGG into the V3 pool in the front leg (10.226 WETH in, CGG sourced from the V2 pool 0xc8ca), the victim sells CGG on that V3 pool, and the back leg buys the CGG back from V3 for exactly 10.226 WETH and routes it to V2. That is a sandwich bracket on V3. Gross WETH is -2.0617 on the front and +2.1262 on the back, so +0.0645 net, which is below the 0.0675 ETH gas for the two legs, leaving about -0.0030 ETH after cost. The actor holds no CGG at the end.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0292427,
+ "_session": "5d01b7a7-81f4-42a6-a8c8-48c2134f6f14",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x3545d371334f4374872e915caf5ec36c0d83b93e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.06449, \"gas_eth\": 0.06748, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor sells CGG into the V3 pool in the front leg (10.226 WETH in, CGG sourced from the V2 pool 0xc8ca), the victim sells CGG on that V3 pool, and the back leg buys the CGG back from V3 for exactly 10.226 WETH and routes it to V2. That is a sandwich bracket on V3. Gross WETH is -2.0617 on the front and +2.1262 on the back, so +0.0645 net, which is below the 0.0675 ETH gas for the two legs, leaving about -0.0030 ETH after cost. The actor holds no CGG at the end.\"}",
+ "case_id": "sym100_056",
+ "_time": "2026-10-13T21:35:21+0800"
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0xc5578194d457dcce3f272538d1ad52c68d1ce849",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x5777d92f208679db4b9778590fa3cab3ac9e2168",
+  "0xd340b57aacdd10f96fc1cf10e15921936f41e29c"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.019937,
+ "gas_eth": 0.017602,
+ "profit_after_gas": 0.002335,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received 9.326484 WETH from the Uniswap V3 WETH/WSTETH pool and sent 9.306547 WETH to the Uniswap V3 WETH/USDC pool, netting 0.019937 WETH. The other tokens moved directly between pools in a cyclic route. After the 0.017602 ETH gas fee, the net profit is 0.002335 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1694,
+  "output_tokens": 6842,
+  "thinking_tokens": 6515
+ },
+ "_request_id": "91419c79a359ff93a0995c8c09f26372",
+ "_response_id": "eebb914d-1711-48bf-8e9a-42b6a547386c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\", \"pools\": [\"0xc5578194d457dcce3f272538d1ad52c68d1ce849\", \"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0x5777d92f208679db4b9778590fa3cab3ac9e2168\", \"0xd340b57aacdd10f96fc1cf10e15921936f41e29c\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.019937, \"gas_eth\": 0.017602, \"profit_after_gas\": 0.002335, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract received 9.326484 WETH from the Uniswap V3 WETH/WSTETH pool and sent 9.306547 WETH to the Uniswap V3 WETH/USDC pool, netting 0.019937 WETH. The other tokens moved directly between pools in a cyclic route. After the 0.017602 ETH gas fee, the net profit is 0.002335 ETH.\"}",
+ "case_id": "arb106_072",
+ "_time": "2026-10-19T20:03:13+0800"
+}

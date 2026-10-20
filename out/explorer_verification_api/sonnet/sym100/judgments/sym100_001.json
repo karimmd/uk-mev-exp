@@ -1,0 +1,31 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.289847,
+ "gas_eth": 0.011402,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same EOA sells 574.971366 QNT for 9.050384 WETH in the front leg, then buys back exactly 574.971366 QNT for 8.760537 WETH in the back leg. Both legs use the QNT/WETH pool 0x0c4a\u2026, and the victim sells 1500 QNT into that pool in between. This is a sell-first, rebuy-after bracket, so the QNT position is flat and there is no residual. The WETH gain of 0.289847 less 0.011402 ETH gas leaves about +0.278445 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2895,
+  "output_tokens": 960,
+  "thinking_tokens": 651
+ },
+ "_request_id": "req_011CgBRuKqi8oZSYFhL1tNSK",
+ "_response_id": "msg_011CgBRuLHzCzXjNXB7jD8bJ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\",\"pool\":\"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.289847,\"gas_eth\":0.011402,\"residual\":\"none\",\"confidence\":3,\"note\":\"The same EOA sells 574.971366 QNT for 9.050384 WETH in the front leg, then buys back exactly 574.971366 QNT for 8.760537 WETH in the back leg. Both legs use the QNT/WETH pool 0x0c4a\u2026, and the victim sells 1500 QNT into that pool in between. This is a sell-first, rebuy-after bracket, so the QNT position is flat and there is no residual. The WETH gain of 0.289847 less 0.011402 ETH gas leaves about +0.278445 ETH.\"}",
+ "case_id": "sym100_001",
+ "_time": "2026-10-19T18:22:32+0800"
+}

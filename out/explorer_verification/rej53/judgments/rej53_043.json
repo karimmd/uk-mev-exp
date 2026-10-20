@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000b65e5ae3c80a89f73fbcfdeabc3c2c06",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.052887,
+ "gas_eth": 0.048343,
+ "residual": "about 0.000001 USDC (dust)",
+ "confidence": 4,
+ "note": "The actor routes WETH through the WETH/EXRD pool 0x3f2e into the EXRD/USDC pool 0x684b, ending the front leg holding 4346.932544 USDC. The victim sells EXRD for USDC on 0x684b in the same direction, and the back leg returns the USDC to 0x684b and takes WETH out. Net WETH is +0.052887 (1.550951 - 1.498064) against 0.048343 ETH of gas, leaving about +0.004544 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.023170700000000002,
+ "_session": "e872417f-c8ac-473c-b989-4d552c0b5fac",
+ "_raw": "{\"actor\": \"0x00000000b65e5ae3c80a89f73fbcfdeabc3c2c06\", \"pool\": \"0x684b00a5773679f88598a19976fbeb25a68e9a5f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.052887, \"gas_eth\": 0.048343, \"residual\": \"about 0.000001 USDC (dust)\", \"confidence\": 4, \"note\": \"The actor routes WETH through the WETH/EXRD pool 0x3f2e into the EXRD/USDC pool 0x684b, ending the front leg holding 4346.932544 USDC. The victim sells EXRD for USDC on 0x684b in the same direction, and the back leg returns the USDC to 0x684b and takes WETH out. Net WETH is +0.052887 (1.550951 - 1.498064) against 0.048343 ETH of gas, leaving about +0.004544 ETH.\"}",
+ "case_id": "rej53_043",
+ "_time": "2026-10-13T22:02:10+0800"
+}

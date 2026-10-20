@@ -1,0 +1,32 @@
+{
+ "actor": "0xd270417bd419dc3f4d3cd53f65bfb719f498bac8",
+ "pool": "0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": -20,
+ "gas_eth": 0.004368,
+ "profit_after_gas": -20.004368,
+ "residual": "12814.694008 ORO (0xc3eb2622190c57429aac3901808994443b64b466)",
+ "confidence": 5,
+ "note": "Both front and back legs are ETH-to-ORO buys on the same Uniswap pair, so the back leg does not close the front-leg position and this is not a sandwich. ETH/WETH net is -20 before gas, but the large residual ORO holding prevents determining the overall sign of the position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2740,
+  "output_tokens": 3210,
+  "thinking_tokens": 3005
+ },
+ "_request_id": "7440dde79f82e82b3bed5fb64fe04e7b",
+ "_response_id": "290599ab-dadd-4bcb-93fe-4dbdeba1da6a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xd270417bd419dc3f4d3cd53f65bfb719f498bac8\",\"pool\":\"0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":-20,\"gas_eth\":0.004368,\"profit_after_gas\":-20.004368,\"residual\":\"12814.694008 ORO (0xc3eb2622190c57429aac3901808994443b64b466)\",\"confidence\":5,\"note\":\"Both front and back legs are ETH-to-ORO buys on the same Uniswap pair, so the back leg does not close the front-leg position and this is not a sandwich. ETH/WETH net is -20 before gas, but the large residual ORO holding prevents determining the overall sign of the position.\"}",
+ "case_id": "pack_115",
+ "_time": "2026-10-19T19:18:55+0800"
+}

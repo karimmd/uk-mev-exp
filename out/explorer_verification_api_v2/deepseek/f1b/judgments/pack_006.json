@@ -1,0 +1,32 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xddf8390ced9fad414b1ca1dd4fe14f881c2cfa70",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.223742,
+ "gas_eth": 0.22041,
+ "profit_after_gas": 0.003332,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs are performed by the same contract actor on the same Uniswap V2 NTVRK/WETH pool, buying NTVRK before the victim's buy and selling it back after. The actor nets +0.223742 WETH before gas and remains positive after the front/back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2356,
+  "output_tokens": 1487,
+  "thinking_tokens": 1311
+ },
+ "_request_id": "6209342fa309126318959ad1b274da40",
+ "_response_id": "fa82382f-1e3d-40c1-b47e-b539307ce591",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000d41c96294ccdac8612bdfe29c641af\",\"pool\":\"0xddf8390ced9fad414b1ca1dd4fe14f881c2cfa70\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.223742,\"gas_eth\":0.220410,\"profit_after_gas\":0.003332,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs are performed by the same contract actor on the same Uniswap V2 NTVRK/WETH pool, buying NTVRK before the victim's buy and selling it back after. The actor nets +0.223742 WETH before gas and remains positive after the front/back gas fees.\"}",
+ "case_id": "pack_006",
+ "_time": "2026-10-19T19:04:22+0800"
+}

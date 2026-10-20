@@ -1,0 +1,40 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.080869,
+ "gas_eth": 0.074138,
+ "profit_after_gas": 0.006731,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received 11.294296 WETH from one pool and sent 11.213427 WETH to another, netting +0.080869 WETH across a four-pool WETH route. Gas leaves a small positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1775,
+  "output_tokens": 6636,
+  "thinking_tokens": 6368
+ },
+ "_request_id": "ed4d1ae914abdacc78ba1adc7aee88d7",
+ "_response_id": "ae55c063-5062-4800-bea8-d6ab8e4cf438",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\",\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"0xcd8286b48936cdac20518247dbd310ab681a9fbf\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.080869,\"gas_eth\":0.074138,\"profit_after_gas\":0.006731,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received 11.294296 WETH from one pool and sent 11.213427 WETH to another, netting +0.080869 WETH across a four-pool WETH route. Gas leaves a small positive profit.\"}",
+ "case_id": "arb106_023",
+ "_time": "2026-10-19T19:52:15+0800"
+}

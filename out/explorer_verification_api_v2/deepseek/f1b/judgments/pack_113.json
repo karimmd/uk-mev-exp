@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9d18248e03122a198eb17b11d3442665d7c5b16f",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.045984,
+ "gas_eth": 0.04623,
+ "profit_after_gas": -0.000246,
+ "residual": "203.139557 FlokiSanta",
+ "confidence": 5,
+ "note": "Front and back both use the same UniswapV2 pool; the called contract holds the FlokiSanta position between legs. WETH net is +0.045984, gas is 0.046230, so after gas is slightly negative; residual FlokiSanta is negligible relative to the shortfall.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2350,
+  "output_tokens": 5110,
+  "thinking_tokens": 4927
+ },
+ "_request_id": "7a254b8224afb28192e99e38a4c0464f",
+ "_response_id": "ebac0669-0f0f-4f1c-812c-a9995a42a6bc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x9d18248e03122a198eb17b11d3442665d7c5b16f\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.045984,\"gas_eth\":0.04623,\"profit_after_gas\":-0.000246,\"residual\":\"203.139557 FlokiSanta\",\"confidence\":5,\"note\":\"Front and back both use the same UniswapV2 pool; the called contract holds the FlokiSanta position between legs. WETH net is +0.045984, gas is 0.046230, so after gas is slightly negative; residual FlokiSanta is negligible relative to the shortfall.\"}",
+ "case_id": "pack_113",
+ "_time": "2026-10-19T19:18:47+0800"
+}

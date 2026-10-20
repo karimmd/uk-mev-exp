@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.001123,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.001123,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sent 4222.1 USDT to the V3 pool 0x94b4, which sent FNK straight to the V2 pool 0x61b6, which returned 4246.905315 USDT to the actor. The 24.805315 USDT surplus was swapped for 0.011233 WETH at V3 pool 0x11b8 and unwrapped, so USDT nets to zero and FNK never touches the actor. Gas price was 0, and 0.010110 ETH went to 0xea674f, which I took to be a miner/builder payment and counted as a cost, leaving 0.001123 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2503,
+  "output_tokens": 1068,
+  "thinking_tokens": 618
+ },
+ "_request_id": "req_011CgBXa3ReioTAcuAvw9D9T",
+ "_response_id": "msg_011CgBXa3pCxsvBYMrncWZ1b",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\", \"pools\": [\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\", \"0x61b62c5d56ccd158a38367ef2f539668a06356ab\", \"0x11b815efb8f581194ae79006d24e0d814b7697f6\"], \"cycle_token\": \"USDT\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.001123, \"gas_eth\": 0.0, \"profit_after_gas\": 0.001123, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sent 4222.1 USDT to the V3 pool 0x94b4, which sent FNK straight to the V2 pool 0x61b6, which returned 4246.905315 USDT to the actor. The 24.805315 USDT surplus was swapped for 0.011233 WETH at V3 pool 0x11b8 and unwrapped, so USDT nets to zero and FNK never touches the actor. Gas price was 0, and 0.010110 ETH went to 0xea674f, which I took to be a miner/builder payment and counted as a cost, leaving 0.001123 ETH.\"}",
+ "case_id": "arb106_078",
+ "_time": "2026-10-19T19:36:53+0800"
+}

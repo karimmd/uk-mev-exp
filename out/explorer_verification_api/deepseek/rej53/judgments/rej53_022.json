@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.095532,
+ "gas_eth": 0.020767,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract 0x000...594e received USDap on the front leg and sent the same amount back on the back leg through the same UniswapV2 pool the victim used. Net WETH/ETH after the 0.202158 ETH internal outflow and front/back gas is positive, with no residual non-WETH token.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2824,
+  "output_tokens": 5334,
+  "thinking_tokens": 5168
+ },
+ "_request_id": "edeca50d1c450c9c371abfdf5e86b1b4",
+ "_response_id": "fe1cfc18-aff7-423a-82b4-b53f18192711",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.095532,\"gas_eth\":0.020767,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract 0x000...594e received USDap on the front leg and sent the same amount back on the back leg through the same UniswapV2 pool the victim used. Net WETH/ETH after the 0.202158 ETH internal outflow and front/back gas is positive, with no residual non-WETH token.\"}",
+ "case_id": "rej53_022",
+ "_time": "2026-10-19T18:59:09+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x895324433d8026fad0531428ccfbac7a6b32fbf8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0379,
+ "gas_eth": 0.029171,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same actor contract sells RAINI for WETH in the front leg and buys the same RAINI back with less WETH in the back leg on the shared Uniswap V2 pool, with the victim selling RAINI between them. Net WETH gain exceeds the front and back gas fees, and the RAINI amount round-trips exactly, leaving no residual non-WETH position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2352,
+  "output_tokens": 7306,
+  "thinking_tokens": 7135
+ },
+ "_request_id": "2fcf0ea8f29f1107f648df690faccf76",
+ "_response_id": "fa75619f-1d76-44c2-bb67-1073e4499509",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x895324433d8026fad0531428ccfbac7a6b32fbf8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.0379,\"gas_eth\":0.029171,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same actor contract sells RAINI for WETH in the front leg and buys the same RAINI back with less WETH in the back leg on the shared Uniswap V2 pool, with the victim selling RAINI between them. Net WETH gain exceeds the front and back gas fees, and the RAINI amount round-trips exactly, leaving no residual non-WETH position.\"}",
+ "case_id": "sym100_015",
+ "_time": "2026-10-19T18:40:19+0800"
+}

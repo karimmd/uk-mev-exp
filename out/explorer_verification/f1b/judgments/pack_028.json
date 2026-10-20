@@ -1,0 +1,17 @@
+{
+ "actor": "0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -180.0,
+ "gas_eth": 0.016914,
+ "residual": "about 15420.496 SUSHI (10292.562 + 5127.934) held by 0xdead1241f2ee2a7950ad967993efb72d62bf6822",
+ "confidence": 4,
+ "note": "Both the front and back legs wrap ETH to WETH, send it to the SUSHI/WETH pool and receive SUSHI (120 WETH for 10292.6 SUSHI, then 60 WETH for 5127.9 SUSHI). The back leg buys more SUSHI instead of selling it, so no position is closed, which fails the bracket test. The actor spent 180 ETH net, plus 0.0169 ETH gas, and still holds the SUSHI, so Q2 has no sign. I took the actor as the contract 0xd9e1\u2026, which receives the ETH and swaps, but the SUSHI ends up with the sender 0xdead\u2026. That split is unclear and doesn't change the answers.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0309452,
+ "_session": "d4e9306f-9255-4cbe-891d-309fc9f48f10",
+ "_raw": "{\"actor\": \"0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f\", \"pool\": \"0x795065dcc9f64b5614c407a6efdc400da6221fb0\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -180.0, \"gas_eth\": 0.016914, \"residual\": \"about 15420.496 SUSHI (10292.562 + 5127.934) held by 0xdead1241f2ee2a7950ad967993efb72d62bf6822\", \"confidence\": 4, \"note\": \"Both the front and back legs wrap ETH to WETH, send it to the SUSHI/WETH pool and receive SUSHI (120 WETH for 10292.6 SUSHI, then 60 WETH for 5127.9 SUSHI). The back leg buys more SUSHI instead of selling it, so no position is closed, which fails the bracket test. The actor spent 180 ETH net, plus 0.0169 ETH gas, and still holds the SUSHI, so Q2 has no sign. I took the actor as the contract 0xd9e1\u2026, which receives the ETH and swaps, but the SUSHI ends up with the sender 0xdead\u2026. That split is unclear and doesn't change the answers.\"}",
+ "case_id": "pack_028",
+ "_time": "2026-10-13T20:09:35+0800"
+}

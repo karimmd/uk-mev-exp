@@ -1,0 +1,31 @@
+{
+ "actor": "0x1b2ac99dab967744395c6e425a11d51c4af51b81",
+ "pool": "0x7f1da3697236d4a5e0efd2a99de5d9c076937856",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.054878,
+ "gas_eth": 0.022257,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract 0x1b2a\u2026 sells 149076.17 UNN into the pool for 5.550942 WETH in the front leg. The victim then sells 500000 UNN into the same pool, and the contract buys back exactly 149076.17 UNN for 5.496064 WETH in the back leg. The WETH difference is +0.054878 before gas, or about +0.032621 after the 0.022257 ETH of gas, with no UNN left over. The bracket is a short-style sandwich that relies on UNN the contract already held before the front leg.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2706,
+  "output_tokens": 924,
+  "thinking_tokens": 624
+ },
+ "_request_id": "req_011CgBQHVeBueRTfjfmYRBJk",
+ "_response_id": "msg_011CgBQHcREkuTgX9zJrMApo",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1b2ac99dab967744395c6e425a11d51c4af51b81\",\"pool\":\"0x7f1da3697236d4a5e0efd2a99de5d9c076937856\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.054878,\"gas_eth\":0.022257,\"residual\":\"none\",\"confidence\":3,\"note\":\"The contract 0x1b2a\u2026 sells 149076.17 UNN into the pool for 5.550942 WETH in the front leg. The victim then sells 500000 UNN into the same pool, and the contract buys back exactly 149076.17 UNN for 5.496064 WETH in the back leg. The WETH difference is +0.054878 before gas, or about +0.032621 after the 0.022257 ETH of gas, with no UNN left over. The bracket is a short-style sandwich that relies on UNN the contract already held before the front leg.\"}",
+ "case_id": "pack_024",
+ "_time": "2026-10-19T18:01:20+0800"
+}

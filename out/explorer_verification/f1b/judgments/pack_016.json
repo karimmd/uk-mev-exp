@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.22457,
+ "gas_eth": 0.00968,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 11445.29 BOND on the BOND/USDC V2 pool in the front leg, funded by WETH through the USDC/WETH V3 pool. The victim bought BOND on the same V2 pool. The back leg returned the same 11445.29 BOND and received 100.462361 WETH, against 99.994507 WETH spent in the front leg, a gross gain of 0.467854 ETH. The 0.243284 ETH sent with the back leg was forwarded to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c, so it is a cost. That leaves 0.22457 ETH before gas and about 0.2149 ETH after the 0.00968 ETH gas fees.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0347888,
+ "_session": "f8722a27-a745-4f9f-892a-4c703cdfba71",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.22457, \"gas_eth\": 0.00968, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract bought 11445.29 BOND on the BOND/USDC V2 pool in the front leg, funded by WETH through the USDC/WETH V3 pool. The victim bought BOND on the same V2 pool. The back leg returned the same 11445.29 BOND and received 100.462361 WETH, against 99.994507 WETH spent in the front leg, a gross gain of 0.467854 ETH. The 0.243284 ETH sent with the back leg was forwarded to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c, so it is a cost. That leaves 0.22457 ETH before gas and about 0.2149 ETH after the 0.00968 ETH gas fees.\"}",
+ "case_id": "pack_016",
+ "_time": "2026-10-13T20:07:28+0800"
+}

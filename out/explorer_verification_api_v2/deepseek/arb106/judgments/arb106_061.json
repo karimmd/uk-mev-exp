@@ -1,0 +1,43 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+  "0x86e69d1ae728c9cd229f07bbf34e01bf27258354",
+  "0x7ce01885a13c652241ae02ea7369ee8d466802eb",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878",
+  "0x9e79ccaacaaa5dbb6714eea8fdfd6496c9618f40",
+  "0x4a9c7b98c1a92db0ad33b31b549fb1820fe571ff"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008922,
+ "gas_eth": 0.008288,
+ "profit_after_gas": 0.000634,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract 0xe33... receives WETH from several pools and sends WETH to others, netting +0.008922 WETH before gas. After the 0.008288 ETH gas fee, the position remains positive by 0.000634 ETH, and no other token residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2524,
+  "output_tokens": 7075,
+  "thinking_tokens": 6716
+ },
+ "_request_id": "f555c0fd9a4a27e51dc3d113b8b9f2ec",
+ "_response_id": "c4dea1b8-5d0a-4360-939b-3c4270025206",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\",\"0x86e69d1ae728c9cd229f07bbf34e01bf27258354\",\"0x7ce01885a13c652241ae02ea7369ee8d466802eb\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x94b0a3d511b6ecdb17ebf877278ab030acb0a878\",\"0x9e79ccaacaaa5dbb6714eea8fdfd6496c9618f40\",\"0x4a9c7b98c1a92db0ad33b31b549fb1820fe571ff\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.008922,\"gas_eth\":0.008288,\"profit_after_gas\":0.000634,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract 0xe33... receives WETH from several pools and sends WETH to others, netting +0.008922 WETH before gas. After the 0.008288 ETH gas fee, the position remains positive by 0.000634 ETH, and no other token residual remains.\"}",
+ "case_id": "arb106_061",
+ "_time": "2026-10-19T20:01:00+0800"
+}

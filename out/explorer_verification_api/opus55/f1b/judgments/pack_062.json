@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x5c1e3f0979513f1111995da718780bd24e73cda3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.040809,
+ "gas_eth": 0.030557,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x7cf0 spent 0.406118 WETH to buy 3202.84 BRD via WETH->USDT (V2 pool 0x0d4a) and USDT->BRD (V3 pool 0x5c1e). The victim then bought BRD with USDT on the same pool 0x5c1e, and the back leg sold exactly 3202.84 BRD back along the same route for 0.477484 WETH. That is +0.071366 WETH gross, minus 0.030557 ETH gas, leaving +0.040809 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3920,
+  "output_tokens": 557,
+  "thinking_tokens": 242
+ },
+ "_request_id": "req_011CgBQnNLxHKqYh5woMDoGU",
+ "_response_id": "msg_011CgBQnV3H2jw7irT9P4dxX",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0x5c1e3f0979513f1111995da718780bd24e73cda3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.040809, \"gas_eth\": 0.030557, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x7cf0 spent 0.406118 WETH to buy 3202.84 BRD via WETH->USDT (V2 pool 0x0d4a) and USDT->BRD (V3 pool 0x5c1e). The victim then bought BRD with USDT on the same pool 0x5c1e, and the back leg sold exactly 3202.84 BRD back along the same route for 0.477484 WETH. That is +0.071366 WETH gross, minus 0.030557 ETH gas, leaving +0.040809 ETH.\"}",
+ "case_id": "pack_062",
+ "_time": "2026-10-19T18:07:48+0800"
+}

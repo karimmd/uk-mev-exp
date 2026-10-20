@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x868b7bbbfe148516e5397f23982923686182c2d2",
+  "0xc50ef7861153c51d383d9a7d48e6c9467fb90c38",
+  "0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b"
+ ],
+ "cycle_token": "USTC",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.023719,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.023719,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor trades on three pools: USTC to USDT on the V3 pool 0x868b, USDT to USTC on the V2 pool 0xc50e, and USTC to WETH on the V2 pool 0x8b00. USTC (42771.964931 in, 42771.964931 out) and USDT both net to exactly zero, leaving 0.237195 WETH, which the actor unwraps to ETH. The gas price is 0, and 0.213476 ETH goes to 0xf541, which looks like a coinbase/builder payment; treating it as a cost leaves about 0.0237 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2708,
+  "output_tokens": 959,
+  "thinking_tokens": 506
+ },
+ "_request_id": "req_011CgBXRan3eJNJC5q8hnPNe",
+ "_response_id": "msg_011CgBXRb88ZRXoaR6uJEioH",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\", \"pools\": [\"0x868b7bbbfe148516e5397f23982923686182c2d2\", \"0xc50ef7861153c51d383d9a7d48e6c9467fb90c38\", \"0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b\"], \"cycle_token\": \"USTC\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.023719, \"gas_eth\": 0.0, \"profit_after_gas\": 0.023719, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor trades on three pools: USTC to USDT on the V3 pool 0x868b, USDT to USTC on the V2 pool 0xc50e, and USTC to WETH on the V2 pool 0x8b00. USTC (42771.964931 in, 42771.964931 out) and USDT both net to exactly zero, leaving 0.237195 WETH, which the actor unwraps to ETH. The gas price is 0, and 0.213476 ETH goes to 0xf541, which looks like a coinbase/builder payment; treating it as a cost leaves about 0.0237 ETH.\"}",
+ "case_id": "arb106_058",
+ "_time": "2026-10-19T19:34:56+0800"
+}

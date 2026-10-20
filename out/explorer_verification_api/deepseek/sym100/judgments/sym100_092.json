@@ -1,0 +1,31 @@
+{
+ "actor": "0x4ac1ae64fb072201d9e264c01c126aba57f5b6d2",
+ "pool": "0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.086248,
+ "gas_eth": 0.005514,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract uses the same UniswapV2 pool as the victim, but the front leg sells AXN for WETH rather than opening an AXN position, so it is not the bracketed non-WETH-token sandwich described. Netting WETH received/spent and subtracting both gas fees gives a positive result, with AXN net unchanged.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2451,
+  "output_tokens": 5164,
+  "thinking_tokens": 4988
+ },
+ "_request_id": "1597d71ccb958782a0b3b25fe232a96e",
+ "_response_id": "788dcf9c-dd0c-4004-87b1-2e6cdc007a3d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4ac1ae64fb072201d9e264c01c126aba57f5b6d2\",\"pool\":\"0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.086248,\"gas_eth\":0.005514,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract uses the same UniswapV2 pool as the victim, but the front leg sells AXN for WETH rather than opening an AXN position, so it is not the bracketed non-WETH-token sandwich described. Netting WETH received/spent and subtracting both gas fees gives a positive result, with AXN net unchanged.\"}",
+ "case_id": "sym100_092",
+ "_time": "2026-10-19T18:55:12+0800"
+}

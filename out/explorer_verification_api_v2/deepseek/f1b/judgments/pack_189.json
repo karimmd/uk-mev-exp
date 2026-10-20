@@ -1,0 +1,32 @@
+{
+ "actor": "0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792",
+ "pool": "0x7a21a32b536d72613cda8f4d2739821e8dc0f8ca",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.028128,
+ "gas_eth": 0.01154934,
+ "profit_after_gas": 0.01657866,
+ "residual": "0.000001 SAIYAN (dust; display-rounded)",
+ "confidence": 5,
+ "note": "Actor is the contract 0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792 called by the sender; it buys SAIYAN in front and sells it back on the same UniswapV2 pool used by the victim. WETH inflow minus outflow is 0.028128, gas is 0.01154934, leaving positive 0.01657866 ETH; a tiny ~0.000001 SAIYAN residual remains in displayed amounts.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2722,
+  "output_tokens": 5402,
+  "thinking_tokens": 5162
+ },
+ "_request_id": "656b3efc4ff04a9430c2acd533d0db8b",
+ "_response_id": "e9c50bbb-a5af-4428-9a30-0bbcc13b1d33",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792\",\"pool\":\"0x7a21a32b536d72613cda8f4d2739821e8dc0f8ca\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.028128,\"gas_eth\":0.01154934,\"profit_after_gas\":0.01657866,\"residual\":\"0.000001 SAIYAN (dust; display-rounded)\",\"confidence\":5,\"note\":\"Actor is the contract 0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792 called by the sender; it buys SAIYAN in front and sells it back on the same UniswapV2 pool used by the victim. WETH inflow minus outflow is 0.028128, gas is 0.01154934, leaving positive 0.01657866 ETH; a tiny ~0.000001 SAIYAN residual remains in displayed amounts.\"}",
+ "case_id": "pack_189",
+ "_time": "2026-10-19T19:26:50+0800"
+}

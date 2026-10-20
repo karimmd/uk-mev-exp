@@ -1,0 +1,31 @@
+{
+ "actor": "0x78cce34b82f8cef05eb658ddcf10f9a154298ed4",
+ "pool": "0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.112895,
+ "gas_eth": 0.018019,
+ "residual": "about 74.3 billion eMax (3,723.87B bought in the front leg, 3,649.60B sold in the back leg)",
+ "confidence": 4,
+ "note": "The same contract (0x78cc\u2026) bought eMax in the front leg and sold it in the back leg on pool 0xb143\u2026, and the victim's WETH\u2192eMax swap on that pool sits between them. The ETH/WETH net is +5.692895 \u2212 5.58 = +0.112895, or about +0.0949 after 0.018019 gas. The leftover eMax is a non-negative holding, so it cannot flip the sign.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3456,
+  "output_tokens": 930,
+  "thinking_tokens": 621
+ },
+ "_request_id": "req_011CgBSamNCLNv93ZLZSRNqo",
+ "_response_id": "msg_011CgBSamjHExPj8WhY2nCrK",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x78cce34b82f8cef05eb658ddcf10f9a154298ed4\",\"pool\":\"0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.112895,\"gas_eth\":0.018019,\"residual\":\"about 74.3 billion eMax (3,723.87B bought in the front leg, 3,649.60B sold in the back leg)\",\"confidence\":4,\"note\":\"The same contract (0x78cc\u2026) bought eMax in the front leg and sold it in the back leg on pool 0xb143\u2026, and the victim's WETH\u2192eMax swap on that pool sits between them. The ETH/WETH net is +5.692895 \u2212 5.58 = +0.112895, or about +0.0949 after 0.018019 gas. The leftover eMax is a non-negative holding, so it cannot flip the sign.\"}",
+ "case_id": "rej53_017",
+ "_time": "2026-10-19T18:31:25+0800"
+}

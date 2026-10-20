@@ -1,0 +1,40 @@
+{
+ "actor": "0x3765521db364ee269e9540970fd21e5a3e825699",
+ "pools": [
+  "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+  "0x724d5c9c618a2152e99a45649a3b8cf198321f46",
+  "0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615",
+  "0x3125e45d5665e98a08388a7df051a728b647eaae"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.001647,
+ "gas_eth": 0,
+ "profit_after_gas": 0.001647,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract routes WETH through four pools via MANA, USDC, and REVV, then receives more WETH back. Net WETH gain is 0.008670, and after the 0.007023 ETH internal transfer the net is +0.001647 ETH/WETH; gas fee is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1810,
+  "output_tokens": 9702,
+  "thinking_tokens": 9422
+ },
+ "_request_id": "e568f7ec2b515df123b30f902e5108ed",
+ "_response_id": "a3aaf0c2-0507-4218-b642-68a0a5d23f73",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3765521db364ee269e9540970fd21e5a3e825699\",\"pools\":[\"0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3\",\"0x724d5c9c618a2152e99a45649a3b8cf198321f46\",\"0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615\",\"0x3125e45d5665e98a08388a7df051a728b647eaae\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.001647,\"gas_eth\":0,\"profit_after_gas\":0.001647,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract routes WETH through four pools via MANA, USDC, and REVV, then receives more WETH back. Net WETH gain is 0.008670, and after the 0.007023 ETH internal transfer the net is +0.001647 ETH/WETH; gas fee is zero.\"}",
+ "case_id": "arb106_031",
+ "_time": "2026-10-19T19:54:22+0800"
+}

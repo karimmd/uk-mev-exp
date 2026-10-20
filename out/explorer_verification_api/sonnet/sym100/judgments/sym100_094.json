@@ -1,0 +1,31 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.146484,
+ "gas_eth": 0.016492,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 6608.905755 INFI into the pool for 1.850367 WETH in the front leg. The victim then sold INFI on the same pool, and the actor bought back exactly 6608.905755 INFI for 1.703883 WETH in the back leg. The WETH gain is 0.146484, and after 0.016492 ETH of front and back gas it is about +0.13 ETH. The INFI round trip is closed, so no residual remains.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2692,
+  "output_tokens": 800,
+  "thinking_tokens": 527
+ },
+ "_request_id": "req_011CgBSTCTqT438dsoAL3x2y",
+ "_response_id": "msg_011CgBSTCpfkBydEssrrzaHn",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x09ddb304758caf024706dee2e92b569ca4823aa1\",\"pool\":\"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.146484,\"gas_eth\":0.016492,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 6608.905755 INFI into the pool for 1.850367 WETH in the front leg. The victim then sold INFI on the same pool, and the actor bought back exactly 6608.905755 INFI for 1.703883 WETH in the back leg. The WETH gain is 0.146484, and after 0.016492 ETH of front and back gas it is about +0.13 ETH. The INFI round trip is closed, so no residual remains.\"}",
+ "case_id": "sym100_094",
+ "_time": "2026-10-19T18:29:42+0800"
+}

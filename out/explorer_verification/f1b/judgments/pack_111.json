@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.12448,
+ "gas_eth": 0.044567,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys 2275434.480165 PEOPLE for 20.553438 WETH in the front leg and sells exactly that amount back for 20.677918 WETH in the back leg, on the same UniswapV3 pool the victim buys PEOPLE from in between (positions 0, 3, 5). Gross WETH gain is 0.12448 ETH; after 0.044567 ETH of front and back gas the net is about +0.0799 ETH, with no PEOPLE left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0185407,
+ "_session": "7b14fefd-0c1b-4118-a72e-63d41aca8a27",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0x83abecf7204d5afc1bea5df734f085f2535a9976\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.12448, \"gas_eth\": 0.044567, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract buys 2275434.480165 PEOPLE for 20.553438 WETH in the front leg and sells exactly that amount back for 20.677918 WETH in the back leg, on the same UniswapV3 pool the victim buys PEOPLE from in between (positions 0, 3, 5). Gross WETH gain is 0.12448 ETH; after 0.044567 ETH of front and back gas the net is about +0.0799 ETH, with no PEOPLE left over.\"}",
+ "case_id": "pack_111",
+ "_time": "2026-10-13T20:26:14+0800"
+}

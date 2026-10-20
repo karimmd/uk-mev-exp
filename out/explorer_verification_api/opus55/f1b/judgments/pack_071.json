@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.044574,
+ "gas_eth": 0.0,
+ "residual": "about 5375712424 CHINU unaccounted (134840757811.72 bought vs 129465045387.40 sold; likely a transfer tax or reflection loss, possibly still held)",
+ "confidence": 4,
+ "note": "Contract 0x...3b3cc2 bought CHINU for 2.929267 WETH on the CHINU/WETH pair 0xe3c7ed83 before the victim's GET->WETH->CHINU buy on the same pair, then sold 129.47B CHINU for 3.236668 WETH (+0.307401). Gas fees were 0, but the 0.262827 ETH sent as transaction value was forwarded to 0x5a0b54d5 (likely a miner payment), leaving about +0.0446 ETH. Any leftover CHINU is non-negative, so the sign stays positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 5442,
+  "output_tokens": 1112,
+  "thinking_tokens": 723
+ },
+ "_request_id": "req_011CgBQuF6qX9dLjQf4HkvvJ",
+ "_response_id": "msg_011CgBQuKLa11iFdsFAKY1Bp",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.044574, \"gas_eth\": 0.0, \"residual\": \"about 5375712424 CHINU unaccounted (134840757811.72 bought vs 129465045387.40 sold; likely a transfer tax or reflection loss, possibly still held)\", \"confidence\": 4, \"note\": \"Contract 0x...3b3cc2 bought CHINU for 2.929267 WETH on the CHINU/WETH pair 0xe3c7ed83 before the victim's GET->WETH->CHINU buy on the same pair, then sold 129.47B CHINU for 3.236668 WETH (+0.307401). Gas fees were 0, but the 0.262827 ETH sent as transaction value was forwarded to 0x5a0b54d5 (likely a miner payment), leaving about +0.0446 ETH. Any leftover CHINU is non-negative, so the sign stays positive.\"}",
+ "case_id": "pack_071",
+ "_time": "2026-10-19T18:09:27+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.19807,
+ "gas_eth": 0.0148,
+ "profit_after_gas": 0.18327,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract sells AKITA for WETH in front, the victim sells AKITA on the same pool, and the contract buys back the same AKITA amount for less WETH in back. Net WETH before gas is 3.035358 - 2.837288 = 0.198070, and front/back gas totals 0.014800.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2436,
+  "output_tokens": 2417,
+  "thinking_tokens": 2232
+ },
+ "_request_id": "26346c37e838e64c0939384542535fe4",
+ "_response_id": "9fec20b7-613e-4659-881f-36cb27d93f5f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.19807,\"gas_eth\":0.0148,\"profit_after_gas\":0.18327,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract sells AKITA for WETH in front, the victim sells AKITA on the same pool, and the contract buys back the same AKITA amount for less WETH in back. Net WETH before gas is 3.035358 - 2.837288 = 0.198070, and front/back gas totals 0.014800.\"}",
+ "case_id": "pack_146",
+ "_time": "2026-10-19T19:21:47+0800"
+}

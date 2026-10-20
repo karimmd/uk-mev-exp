@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.079913,
+ "gas_eth": 0.044567,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x0000...46aa bought 2275434.480165 PEOPLE for 20.553438 WETH on the UniswapV3 pool 0x83ab...9976. The victim then bought PEOPLE on the same pool, and the contract sold the identical PEOPLE amount back for 20.677918 WETH. That leaves +0.124480 WETH before 0.044567 ETH of combined front and back gas, so net is +0.079913 ETH with no residual.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2743,
+  "output_tokens": 402,
+  "thinking_tokens": 118
+ },
+ "_request_id": "req_011CgBRNE35vc1kn6NnthQxi",
+ "_response_id": "msg_011CgBRNJErHKVDB836zNkvx",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0x83abecf7204d5afc1bea5df734f085f2535a9976\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.079913, \"gas_eth\": 0.044567, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x0000...46aa bought 2275434.480165 PEOPLE for 20.553438 WETH on the UniswapV3 pool 0x83ab...9976. The victim then bought PEOPLE on the same pool, and the contract sold the identical PEOPLE amount back for 20.677918 WETH. That leaves +0.124480 WETH before 0.044567 ETH of combined front and back gas, so net is +0.079913 ETH with no residual.\"}",
+ "case_id": "pack_111",
+ "_time": "2026-10-19T18:15:30+0800"
+}

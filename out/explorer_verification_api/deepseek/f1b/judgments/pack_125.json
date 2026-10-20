@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x377931b4f6adceccfc1a080f7a88b4af9d060336",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.87084,
+ "gas_eth": 0.028011,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use 0x499dd... to acquire and dispose of exactly 508890.137675 TWO on pool 0x377931..., with the victim trading on the same pool between them. WETH net is +0.898851; subtracting front/back gas 0.028011 leaves +0.87084 ETH, with no TWO residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2190,
+  "output_tokens": 13108,
+  "thinking_tokens": 12936
+ },
+ "_request_id": "2bc1ed25571246dcee367c955b582cd7",
+ "_response_id": "14b256d6-14e8-4681-817e-11bc42bab0a6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x377931b4f6adceccfc1a080f7a88b4af9d060336\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.87084,\"gas_eth\":0.028011,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use 0x499dd... to acquire and dispose of exactly 508890.137675 TWO on pool 0x377931..., with the victim trading on the same pool between them. WETH net is +0.898851; subtracting front/back gas 0.028011 leaves +0.87084 ETH, with no TWO residual.\"}",
+ "case_id": "pack_125",
+ "_time": "2026-10-19T18:25:29+0800"
+}

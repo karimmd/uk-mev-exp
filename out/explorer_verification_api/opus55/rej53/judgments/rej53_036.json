@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071069,
+ "gas_eth": 0.033829,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0000\u2026594e routes WETH\u2192RAD (pool f2f9) then RAD\u2192USDC (pool 8c1c), selling RAD on 8c1c ahead of the victim's RAD\u2192USDC sale there, and buys RAD back on 8c1c in the back leg, ending with the same 135008.58 USDC and no RAD left. WETH net is +0.220067; after the 0.148998 ETH internal payment to 0x829b\u2026 (likely a miner tip) net is 0.071069 ETH, and after 0.033829 ETH gas it is about +0.0372 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3695,
+  "output_tokens": 942,
+  "thinking_tokens": 619
+ },
+ "_request_id": "req_011CgBSquBfcbqPiPAbJWBVu",
+ "_response_id": "msg_011CgBSquYz88MN7Yn4a4gHt",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.071069, \"gas_eth\": 0.033829, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0000\u2026594e routes WETH\u2192RAD (pool f2f9) then RAD\u2192USDC (pool 8c1c), selling RAD on 8c1c ahead of the victim's RAD\u2192USDC sale there, and buys RAD back on 8c1c in the back leg, ending with the same 135008.58 USDC and no RAD left. WETH net is +0.220067; after the 0.148998 ETH internal payment to 0x829b\u2026 (likely a miner tip) net is 0.071069 ETH, and after 0.033829 ETH gas it is about +0.0372 ETH.\"}",
+ "case_id": "rej53_036",
+ "_time": "2026-10-19T18:34:53+0800"
+}

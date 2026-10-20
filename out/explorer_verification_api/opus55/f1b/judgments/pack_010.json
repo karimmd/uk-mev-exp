@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x72af4d1d175672d1f99506e68e6e7cff484be4de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.005627,
+ "gas_eth": 0.022507,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x0000\u20260c00, called by the same EOA in both legs, bought 234.177926 ASH for 1.859508 WETH on UniV2 pool 0x72af\u2026e4de. It sold exactly that ASH back for 1.887642 WETH on the same pool, after the victim bought ASH there. That is +0.028134 WETH gross, minus 0.022507 ETH gas, leaving +0.005627 ETH net (net_eth is after gas), with no residual ASH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3238,
+  "output_tokens": 541,
+  "thinking_tokens": 250
+ },
+ "_request_id": "req_011CgBQ7xGJeb7t1n68beQyw",
+ "_response_id": "msg_011CgBQ84y844qhMih5JxfjL",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000500e2fece27a7600435d0c48d64e0c00\", \"pool\": \"0x72af4d1d175672d1f99506e68e6e7cff484be4de\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.005627, \"gas_eth\": 0.022507, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x0000\u20260c00, called by the same EOA in both legs, bought 234.177926 ASH for 1.859508 WETH on UniV2 pool 0x72af\u2026e4de. It sold exactly that ASH back for 1.887642 WETH on the same pool, after the victim bought ASH there. That is +0.028134 WETH gross, minus 0.022507 ETH gas, leaving +0.005627 ETH net (net_eth is after gas), with no residual ASH.\"}",
+ "case_id": "pack_010",
+ "_time": "2026-10-19T17:59:08+0800"
+}

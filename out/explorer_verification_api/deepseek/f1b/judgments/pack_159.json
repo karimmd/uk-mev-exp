@@ -1,0 +1,31 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x659a9a43b32bea6c113c393930a45c7634a242d5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.091492142,
+ "gas_eth": 0.028200858,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x51acf0af77adcb20de482e1cd678f620baf07e0c holds and later sells EROWAN on the shared UniswapV2 EROWAN/WETH pool used by the victim. It spends 6.75 ETH/WETH in front and receives 6.869693 ETH/WETH back, positive after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2674,
+  "output_tokens": 2894,
+  "thinking_tokens": 2711
+ },
+ "_request_id": "34492cf751f3c9ae48a7d9b7c106a939",
+ "_response_id": "3f7b8c2e-0006-43d7-8a99-a398e86124d8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x51acf0af77adcb20de482e1cd678f620baf07e0c\",\"pool\":\"0x659a9a43b32bea6c113c393930a45c7634a242d5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.091492142,\"gas_eth\":0.028200858,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x51acf0af77adcb20de482e1cd678f620baf07e0c holds and later sells EROWAN on the shared UniswapV2 EROWAN/WETH pool used by the victim. It spends 6.75 ETH/WETH in front and receives 6.869693 ETH/WETH back, positive after gas.\"}",
+ "case_id": "pack_159",
+ "_time": "2026-10-19T18:31:40+0800"
+}

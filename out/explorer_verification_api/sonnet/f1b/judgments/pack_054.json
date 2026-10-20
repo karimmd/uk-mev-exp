@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x78ab16803d92f6db77ef6d4e92fe139affab78cf",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.19382,
+ "gas_eth": 0.103107,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor buys 3,211,873.52 FREE in the front leg and sells the same amount in the back leg on the pool the victim buys from in between. WETH net is +0.19382 against 0.103107 gas, leaving about +0.0907 ETH and no residual FREE.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2750,
+  "output_tokens": 632,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQeJmRjqFziScdbcTr8",
+ "_response_id": "msg_011CgBQeQbvHs5RPZiJqQkjs",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0x78ab16803d92f6db77ef6d4e92fe139affab78cf, a Uniswap V3 pool. It sends and receives FREE and WETH in all three legs.\n\nActor: 0x00000000726422a6fecb4759b44d47e48cf746aa, the contract that receives 3,211,873.52 FREE in the front leg and returns exactly that amount in the back leg.\n\nQ1: The actor buys FREE in the front leg and sells the same amount in the back leg. The victim buys FREE on the same pool in between, at position 3 between positions 0 and 4. This is a sandwich bracket, so yes.\n\nQ2: The actor spends 8.263597 WETH in the front leg and receives 8.457417 WETH in the back leg.\n- WETH net: 8.457417 \u2212 8.263597 = 0.193820.\n- Gas: 0.010383 + 0.092724 = 0.103107.\n- Net after gas: 0.193820 \u2212 0.103107 = 0.090713, which is positive.\n- Residual: the FREE amounts match exactly, so none is left.\n\nThe gas fee is paid by the sender EOA, not the actor contract, but it is still an observable cost of the bracket. The result stays positive either way.\n\n{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0x78ab16803d92f6db77ef6d4e92fe139affab78cf\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.19382, \"gas_eth\": 0.103107, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor buys 3,211,873.52 FREE in the front leg and sells the same amount in the back leg on the pool the victim buys from in between. WETH net is +0.19382 against 0.103107 gas, leaving about +0.0907 ETH and no residual FREE.\"}",
+ "case_id": "pack_054",
+ "_time": "2026-10-19T18:06:00+0800"
+}

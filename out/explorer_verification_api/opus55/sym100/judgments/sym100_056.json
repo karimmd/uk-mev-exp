@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3545d371334f4374872e915caf5ec36c0d83b93e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.00299,
+ "gas_eth": 0.06748,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x...3b3c, called by the same sender in both legs, routes CGG between V2 pool 0xc8ca and V3 pool 0x3545. In the front leg it sells CGG into 0x3545 just before the victim's CGG sale on 0x3545, and in the back leg it buys that CGG back; the CGG goes pool to pool, so the actor keeps no CGG. Gross WETH gain is 12.352363 - 12.287873 = +0.06449 (the 10.226139 cancels), and front plus back gas of 0.06748 leaves a net of about -0.00299 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3301,
+  "output_tokens": 1065,
+  "thinking_tokens": 731
+ },
+ "_request_id": "req_011CgBSMn6k2HYNff8GZAF9k",
+ "_response_id": "msg_011CgBSMnVJatNvSy5Xi1ofS",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x3545d371334f4374872e915caf5ec36c0d83b93e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.00299, \"gas_eth\": 0.06748, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x...3b3c, called by the same sender in both legs, routes CGG between V2 pool 0xc8ca and V3 pool 0x3545. In the front leg it sells CGG into 0x3545 just before the victim's CGG sale on 0x3545, and in the back leg it buys that CGG back; the CGG goes pool to pool, so the actor keeps no CGG. Gross WETH gain is 12.352363 - 12.287873 = +0.06449 (the 10.226139 cancels), and front plus back gas of 0.06748 leaves a net of about -0.00299 ETH.\"}\n```",
+ "case_id": "sym100_056",
+ "_time": "2026-10-19T18:28:33+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.074331,
+ "gas_eth": 0,
+ "profit_after_gas": 0.074331,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x027d... bought JEJUDOGE in the front leg and sold the exact same amount in the back leg on the same UniswapV2 pool used by the victim. WETH flow nets to +0.074331 before gas, and the nonzero back-leg ETH value is offset by an internal transfer out.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2796,
+  "output_tokens": 2892,
+  "thinking_tokens": 2708
+ },
+ "_request_id": "2ec5cb209c512836405a2505e9fb855c",
+ "_response_id": "3fc9baf9-1070-4d8e-b05d-352685f1efb9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.074331,\"gas_eth\":0,\"profit_after_gas\":0.074331,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x027d... bought JEJUDOGE in the front leg and sold the exact same amount in the back leg on the same UniswapV2 pool used by the victim. WETH flow nets to +0.074331 before gas, and the nonzero back-leg ETH value is offset by an internal transfer out.\"}",
+ "case_id": "rej53_014",
+ "_time": "2026-10-19T19:41:18+0800"
+}

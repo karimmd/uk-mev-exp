@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back use different economic actors: 0x0aa3... on the front and 0x0000000000005117... on the back. 0x787404... acts as a second pool/reserve contract, not an actor. The victim and both legs touch the UniswapV2 pair 0xb5f7..., but no single actor opens and closes a position on it.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3620,
+  "output_tokens": 13751,
+  "thinking_tokens": 13596
+ },
+ "_request_id": "0f616b24c2438964cf8b5cbf87b2c285",
+ "_response_id": "bd2295a8-5042-45b6-9c01-098033ea3f41",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xb5f790a03b7559312d9e738df5056a4b4c8459f4\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back use different economic actors: 0x0aa3... on the front and 0x0000000000005117... on the back. 0x787404... acts as a second pool/reserve contract, not an actor. The victim and both legs touch the UniswapV2 pair 0xb5f7..., but no single actor opens and closes a position on it.\"}",
+ "case_id": "pack_080",
+ "_time": "2026-10-19T18:16:43+0800"
+}

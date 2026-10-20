@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.044574,
+ "gas_eth": 0.0,
+ "residual": "about 5.376 billion CHINU (134.84B bought minus 129.47B sold)",
+ "confidence": 3,
+ "note": "The bot contract bought CHINU with 2.929 WETH on the CHINU/WETH pool before the victim's WETH-to-CHINU leg on that pool, then sold CHINU back for 3.237 WETH after it. Net WETH is +0.3074. The back leg also forwards 0.262827 ETH to another address, apparently a payment (possibly to the miner), so net is about +0.0446 ETH with zero gas fees. The leftover CHINU can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 5442,
+  "output_tokens": 1175,
+  "thinking_tokens": 857
+ },
+ "_request_id": "req_011CgBQqhcunzBnsiZTkPWGA",
+ "_response_id": "msg_011CgBQqpHkWPze3mM4HHSAq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.044574,\"gas_eth\":0.0,\"residual\":\"about 5.376 billion CHINU (134.84B bought minus 129.47B sold)\",\"confidence\":3,\"note\":\"The bot contract bought CHINU with 2.929 WETH on the CHINU/WETH pool before the victim's WETH-to-CHINU leg on that pool, then sold CHINU back for 3.237 WETH after it. Net WETH is +0.3074. The back leg also forwards 0.262827 ETH to another address, apparently a payment (possibly to the miner), so net is about +0.0446 ETH with zero gas fees. The leftover CHINU can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_071",
+ "_time": "2026-10-19T18:08:38+0800"
+}

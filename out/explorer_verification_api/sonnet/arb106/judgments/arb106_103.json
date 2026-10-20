@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000000000790b928b2ba74d7f53a2079e6a131f",
+ "pools": [
+  "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+  "0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2",
+  "0x23bb251705615b4efe9442be5f2aeb0e20b39858",
+  "0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1"
+ ],
+ "cycle_token": "INV",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.009303,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two closed cycles, INV (V2 pool to V3 pool) and VERI (V3 pool to V2 pool), and every token it receives or sends goes through one of those four pools. WETH nets +0.037211, then 0.027908 is withdrawn to ETH and sent to 0x2a0e\u2026, which looks like a builder payment. That leaves +0.009303 after the payment. The explorer shows a fee of 0 at 0.0 gwei, so I took gas as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3305,
+  "output_tokens": 940,
+  "thinking_tokens": 531
+ },
+ "_request_id": "req_011CgBTQ6ibnHbX7aQ6Yog8b",
+ "_response_id": "msg_011CgBTQ74RwRtmqwqLDJVVK",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000790b928b2ba74d7f53a2079e6a131f\",\"pools\":[\"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\",\"0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2\",\"0x23bb251705615b4efe9442be5f2aeb0e20b39858\",\"0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1\"],\"cycle_token\":\"INV\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.009303,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor runs two closed cycles, INV (V2 pool to V3 pool) and VERI (V3 pool to V2 pool), and every token it receives or sends goes through one of those four pools. WETH nets +0.037211, then 0.027908 is withdrawn to ETH and sent to 0x2a0e\u2026, which looks like a builder payment. That leaves +0.009303 after the payment. The explorer shows a fee of 0 at 0.0 gwei, so I took gas as 0.\"}",
+ "case_id": "arb106_103",
+ "_time": "2026-10-19T18:42:08+0800"
+}

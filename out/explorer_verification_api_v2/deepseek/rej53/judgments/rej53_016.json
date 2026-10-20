@@ -1,0 +1,32 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x329cc2740670a039efca7663bddbefa03d19522d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.096999,
+ "gas_eth": 0,
+ "profit_after_gas": 0.096999,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor 0x1be0... bought ARES on the shared 0x329cc... pool in the front leg and sold the same ARES amount there in the back leg after the victim bought on that same pool. Net ETH/WETH is +14.272490 WETH received minus 14.103186 WETH spent and 0.072305 ETH sent internally, giving +0.096999; gas fees are shown as zero, with no residual ARES.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3437,
+  "output_tokens": 4995,
+  "thinking_tokens": 4786
+ },
+ "_request_id": "3758a696539c1d1bee37d1e175161b21",
+ "_response_id": "1fdb4eef-8959-4a88-bcb4-190634c9d5aa",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\",\"pool\":\"0x329cc2740670a039efca7663bddbefa03d19522d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.096999,\"gas_eth\":0,\"profit_after_gas\":0.096999,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor 0x1be0... bought ARES on the shared 0x329cc... pool in the front leg and sold the same ARES amount there in the back leg after the victim bought on that same pool. Net ETH/WETH is +14.272490 WETH received minus 14.103186 WETH spent and 0.072305 ETH sent internally, giving +0.096999; gas fees are shown as zero, with no residual ARES.\"}",
+ "case_id": "rej53_016",
+ "_time": "2026-10-19T19:41:42+0800"
+}

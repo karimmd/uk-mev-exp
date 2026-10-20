@@ -1,0 +1,17 @@
+{
+ "actor": "0x00c409001c1900ddcda20000008e112417db003b",
+ "pool": "0xc0917d9f473618029bea42dd61b05fcf0251be42",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0.016357,
+ "gas_eth": 0.016602,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg (0x00c409...) and back leg (0x860bd2..., a different sender and contract) are different actors. Each is a self-contained two-pool arbitrage between 0xc0917d9f and 0x4cfa6c06 that ends flat in YETI, so neither opens a position that the other closes. The Q2 figures net both legs as the protocol specifies (front +0.016072, back +0.000285, gas 0.008230 + 0.008372), which comes out slightly negative; the front actor alone would be positive after its own gas, but that does not make this a sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0308447,
+ "_session": "b38aaeb6-2da9-4ddc-9054-c0ba6ef7083c",
+ "_raw": "{\"actor\": \"0x00c409001c1900ddcda20000008e112417db003b\", \"pool\": \"0xc0917d9f473618029bea42dd61b05fcf0251be42\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": 0.016357, \"gas_eth\": 0.016602, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg (0x00c409...) and back leg (0x860bd2..., a different sender and contract) are different actors. Each is a self-contained two-pool arbitrage between 0xc0917d9f and 0x4cfa6c06 that ends flat in YETI, so neither opens a position that the other closes. The Q2 figures net both legs as the protocol specifies (front +0.016072, back +0.000285, gas 0.008230 + 0.008372), which comes out slightly negative; the front actor alone would be positive after its own gas, but that does not make this a sandwich.\"}",
+ "case_id": "pack_171",
+ "_time": "2026-10-13T20:37:58+0800"
+}

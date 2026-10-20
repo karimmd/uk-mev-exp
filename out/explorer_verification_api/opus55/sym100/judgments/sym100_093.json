@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.130025,
+ "gas_eth": 0.069306,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x3dad sold 44713.708478 TRU into pool 0x80b4 for 8.733 WETH before the victim's TRU sale on the same pool. It then bought back exactly 44713.708478 TRU for 8.533669 WETH, so the TRU position closes flat. The WETH gain of 0.199331 minus 0.069306 gas leaves about +0.130 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3089,
+  "output_tokens": 545,
+  "thinking_tokens": 273
+ },
+ "_request_id": "req_011CgBSb6BYL4DsbSPpEMmBh",
+ "_response_id": "msg_011CgBSb6Yd1953w4iQmjFCm",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.130025, \"gas_eth\": 0.069306, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x3dad sold 44713.708478 TRU into pool 0x80b4 for 8.733 WETH before the victim's TRU sale on the same pool. It then bought back exactly 44713.708478 TRU for 8.533669 WETH, so the TRU position closes flat. The WETH gain of 0.199331 minus 0.069306 gas leaves about +0.130 ETH.\"}",
+ "case_id": "sym100_093",
+ "_time": "2026-10-19T18:31:28+0800"
+}

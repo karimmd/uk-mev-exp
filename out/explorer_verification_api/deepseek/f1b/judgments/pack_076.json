@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x110492b31c59716ac47337e616804e3e3adc0b4a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01867,
+ "gas_eth": 0.108075,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received 1.565618 WBTC in the front leg and returned the same amount in the back leg via pool 0x110492..., which the victim also trades. Gross WETH change is +0.126745 ETH; subtracting front/back gas (0.022693 + 0.085382) leaves +0.018670 ETH, with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3519,
+  "output_tokens": 6691,
+  "thinking_tokens": 6514
+ },
+ "_request_id": "ecc12b9a8cb35ab28d20793cd080139a",
+ "_response_id": "698fbd50-acc5-4300-a4bf-b52be4eff64d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x110492b31c59716ac47337e616804e3e3adc0b4a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.01867,\"gas_eth\":0.108075,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received 1.565618 WBTC in the front leg and returned the same amount in the back leg via pool 0x110492..., which the victim also trades. Gross WETH change is +0.126745 ETH; subtracting front/back gas (0.022693 + 0.085382) leaves +0.018670 ETH, with no residual non-WETH holding.\"}",
+ "case_id": "pack_076",
+ "_time": "2026-10-19T18:15:18+0800"
+}

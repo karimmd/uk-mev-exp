@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xf62bc39e99763f3df81c49f711c16e625388c64f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028624,
+ "gas_eth": 0.12391,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor contract buys SHIBOHM via WETH->MIM->SHIBOHM in the front leg, the victim buys SHIBOHM with MIM on the same pool, and the back leg sells exactly 48.982374 SHIBOHM back to WETH. WETH net is +0.152534, gas is 0.12391, leaving about +0.0286 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3138,
+  "output_tokens": 613,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBSdCVMYgxdQnZi5qfV4",
+ "_response_id": "msg_011CgBSdCrBig9XP5Q7hMrzm",
+ "_reader": "sonnet",
+ "_raw": "Net WETH for the actor: the front leg sends out 2.039232 WETH and the back leg receives 2.191766 WETH, so the gross gain is +0.152534.\n\nGas is 0.007887 + 0.116023 = 0.12391 ETH.\n\nNet after gas: 0.152534 \u2212 0.12391 = 0.028624 ETH, which is positive.\n\nThe actor is the contract 0x7cf09d7a, which holds the SHIBOHM after the front leg and gives it all up in the back leg (48.982374 in, 48.982374 out). No residual remains.\n\nThe front leg is a two-hop route: WETH to MIM on pool 0x07d5, then MIM to SHIBOHM on pool 0xf62b. The back leg reverses it. The victim trades MIM to SHIBOHM on pool 0xf62b, so that pool is shared, and the victim sits between the two legs. The sandwich bracket holds.\n\nThe sender 0x1dd7 is the same in both legs, and the target contract is the same.\n\nNet ETH is 0.028624 and gas is 0.12391.\n\n```json\n{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xf62bc39e99763f3df81c49f711c16e625388c64f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.028624,\"gas_eth\":0.12391,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor contract buys SHIBOHM via WETH->MIM->SHIBOHM in the front leg, the victim buys SHIBOHM with MIM on the same pool, and the back leg sells exactly 48.982374 SHIBOHM back to WETH. WETH net is +0.152534, gas is 0.12391, leaving about +0.0286 ETH.\"}\n```",
+ "case_id": "rej53_025",
+ "_time": "2026-10-19T18:31:57+0800"
+}

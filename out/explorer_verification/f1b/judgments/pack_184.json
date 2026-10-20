@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.081201,
+ "gas_eth": 0.017477,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 42.944214 WBTC from the WBTC/WETH Uniswap V3 pool for 524.854919 WETH in the front leg. The victim swaps on the same pool, and the actor sells the same 42.944214 WBTC back in the back leg for 539.602972 WETH. That is a gross gain of 14.748053 WETH. The back leg's 13.666852 ETH value is forwarded to 0x1ad9\u20265836, probably a builder tip, which leaves 1.081201 ETH. After 0.017477 ETH of gas the position is still positive at about 1.0637 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.034987199999999996,
+ "_session": "ff5c9a3d-5392-4a82-83e6-b69e7284f792",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xcbcdf9626bc03e24f779434178a73a0b4bad62ed\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.081201, \"gas_eth\": 0.017477, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 42.944214 WBTC from the WBTC/WETH Uniswap V3 pool for 524.854919 WETH in the front leg. The victim swaps on the same pool, and the actor sells the same 42.944214 WBTC back in the back leg for 539.602972 WETH. That is a gross gain of 14.748053 WETH. The back leg's 13.666852 ETH value is forwarded to 0x1ad9\u20265836, probably a builder tip, which leaves 1.081201 ETH. After 0.017477 ETH of gas the position is still positive at about 1.0637 ETH.\"}",
+ "case_id": "pack_184",
+ "_time": "2026-10-13T20:40:45+0800"
+}

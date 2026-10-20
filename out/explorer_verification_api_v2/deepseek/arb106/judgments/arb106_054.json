@@ -1,0 +1,40 @@
+{
+ "actor": "0x8698d9d5ea99809c00426484a80be2add4e54581",
+ "pools": [
+  "0x04444d365324134e58104b1d874d00dc68dcea53",
+  "0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9",
+  "0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de",
+  "0xa6a22e0a89ebcb85444833a5b3c6d13d51e3bb9b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.028888,
+ "gas_eth": 0.026866,
+ "profit_after_gas": 0.002022,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract performed a multi-hop WETH\u2192NU\u2192RNG\u2192FLX\u2192WETH swap across four pools, receiving 1.733668 WETH after sending 1.704780 WETH for a net pre-gas gain of 0.028888 WETH. After the 0.026866 ETH gas fee, the net is positive by about 0.002022 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1741,
+  "output_tokens": 10364,
+  "thinking_tokens": 10065
+ },
+ "_request_id": "c7b5845c98f3279e91c8ddc0923e407a",
+ "_response_id": "4b5b60e2-b116-4079-857f-0b0dc90bffe0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x8698d9d5ea99809c00426484a80be2add4e54581\",\"pools\":[\"0x04444d365324134e58104b1d874d00dc68dcea53\",\"0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9\",\"0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de\",\"0xa6a22e0a89ebcb85444833a5b3c6d13d51e3bb9b\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.028888,\"gas_eth\":0.026866,\"profit_after_gas\":0.002022,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract performed a multi-hop WETH\u2192NU\u2192RNG\u2192FLX\u2192WETH swap across four pools, receiving 1.733668 WETH after sending 1.704780 WETH for a net pre-gas gain of 0.028888 WETH. After the 0.026866 ETH gas fee, the net is positive by about 0.002022 ETH.\"}",
+ "case_id": "arb106_054",
+ "_time": "2026-10-19T19:59:48+0800"
+}

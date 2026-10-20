@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0x3f61171b1297f6e512c750c172ba86026ab0e820",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071677,
+ "gas_eth": 0.067601,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0000\u2026cffb swaps WETH through V3 FLEX/WETH pool 0x932a to sell FLEX into V2 FLEX/USDC pool 0x3f61 and takes 6077.899 USDC. The victim then sells FLEX into 0x3f61, and the back leg returns the same USDC for 1176.2 FLEX (versus 1096.9), which goes back to 0x932a for 2.197855 WETH. WETH net is +0.102199, minus the 0.030522 ETH passed through to 0x2daa (bribe), gives 0.071677 before gas. After 0.067601 gas, net is about +0.004076 ETH (net_eth is shown before gas).",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3188,
+  "output_tokens": 990,
+  "thinking_tokens": 629
+ },
+ "_request_id": "req_011CgBRsJmQbAoyGxx7x1pTE",
+ "_response_id": "msg_011CgBRsK7Evjfi4PtJt2mCr",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000081c57cbc967248bea482c417207e84cffb\", \"pool\": \"0x3f61171b1297f6e512c750c172ba86026ab0e820\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.071677, \"gas_eth\": 0.067601, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0000\u2026cffb swaps WETH through V3 FLEX/WETH pool 0x932a to sell FLEX into V2 FLEX/USDC pool 0x3f61 and takes 6077.899 USDC. The victim then sells FLEX into 0x3f61, and the back leg returns the same USDC for 1176.2 FLEX (versus 1096.9), which goes back to 0x932a for 2.197855 WETH. WETH net is +0.102199, minus the 0.030522 ETH passed through to 0x2daa (bribe), gives 0.071677 before gas. After 0.067601 gas, net is about +0.004076 ETH (net_eth is shown before gas).\"}",
+ "case_id": "pack_177",
+ "_time": "2026-10-19T18:22:07+0800"
+}

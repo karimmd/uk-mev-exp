@@ -1,0 +1,32 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xa00d47b4b304792eb07b09233467b690db847c91",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.067083,
+ "gas_eth": 0.000175,
+ "profit_after_gas": 0.066908,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same address bought IMX with WETH in the front leg and sold the same IMX amount back to the same UniswapV2 pool in the back leg, with the victim trading that pool in between. Net WETH gain is 9.067183 - 9.000100 = 0.067083 ETH, minus 0.000175 ETH front/back gas, leaving positive profit and no residual IMX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2272,
+  "output_tokens": 3500,
+  "thinking_tokens": 3305
+ },
+ "_request_id": "ba931a8ed24987cf6e3e48c389891702",
+ "_response_id": "430fb02c-64c9-46bc-aa2b-535f74e36772",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0xa00d47b4b304792eb07b09233467b690db847c91\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.067083,\"gas_eth\":0.000175,\"profit_after_gas\":0.066908,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same address bought IMX with WETH in the front leg and sold the same IMX amount back to the same UniswapV2 pool in the back leg, with the victim trading that pool in between. Net WETH gain is 9.067183 - 9.000100 = 0.067083 ETH, minus 0.000175 ETH front/back gas, leaving positive profit and no residual IMX.\"}",
+ "case_id": "pack_116",
+ "_time": "2026-10-19T19:19:03+0800"
+}

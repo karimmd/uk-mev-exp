@@ -1,0 +1,31 @@
+{
+ "actor": "0xd3761fad7cf72112c286c1640141e3d8aecdd4f2",
+ "pool": "0x43ae24960e5534731fc831386c07755a2dc33d47",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 12.843363,
+ "gas_eth": 0.037182,
+ "residual": "-1000 SNX (500 SNX sold in each of front and back; no SNX bought back)",
+ "confidence": 5,
+ "note": "All three transactions come from the same sender through the same router contract, and each sells 500 SNX for ETH on pool 0x43ae\u2026. No position is opened in the front leg and closed in the back leg, and the victim is the same actor, so this looks like one seller splitting an order rather than a sandwich. The ETH net of 12.88 ETH received minus 0.037 ETH gas is offset by 1000 SNX given up, so the economic sign cannot be judged from this data alone.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4864,
+  "output_tokens": 691,
+  "thinking_tokens": 375
+ },
+ "_request_id": "req_011CgBRs6M3NGBYyA6UEfnkN",
+ "_response_id": "msg_011CgBRs7CPHbzbHtgjMSUZs",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xd3761fad7cf72112c286c1640141e3d8aecdd4f2\", \"pool\": \"0x43ae24960e5534731fc831386c07755a2dc33d47\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 12.843363, \"gas_eth\": 0.037182, \"residual\": \"-1000 SNX (500 SNX sold in each of front and back; no SNX bought back)\", \"confidence\": 5, \"note\": \"All three transactions come from the same sender through the same router contract, and each sells 500 SNX for ETH on pool 0x43ae\u2026. No position is opened in the front leg and closed in the back leg, and the victim is the same actor, so this looks like one seller splitting an order rather than a sandwich. The ETH net of 12.88 ETH received minus 0.037 ETH gas is offset by 1000 SNX given up, so the economic sign cannot be judged from this data alone.\"}",
+ "case_id": "pack_176",
+ "_time": "2026-10-19T18:22:00+0800"
+}

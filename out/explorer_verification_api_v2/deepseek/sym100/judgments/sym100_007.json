@@ -1,0 +1,32 @@
+{
+ "actor": "0x858dce0aa7250fbc24e37a684858fdb08f9681b9",
+ "pool": "0xe6f19dab7d43317344282f803f8e8d240708174a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.047087,
+ "gas_eth": 0.012004,
+ "profit_after_gas": 0.035083,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same sender sells 20000 KEEP for WETH in front and buys back 20000 KEEP for WETH in back on the same Uniswap V2 pool that the victim trades between them. Net WETH before gas is positive and the KEEP position nets to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2484,
+  "output_tokens": 2114,
+  "thinking_tokens": 1943
+ },
+ "_request_id": "c0ef3d863f9ece7b9e128db278189e3d",
+ "_response_id": "f21992c0-6d28-454d-b129-5aa983b80efd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x858dce0aa7250fbc24e37a684858fdb08f9681b9\",\"pool\":\"0xe6f19dab7d43317344282f803f8e8d240708174a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.047087,\"gas_eth\":0.012004,\"profit_after_gas\":0.035083,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same sender sells 20000 KEEP for WETH in front and buys back 20000 KEEP for WETH in back on the same Uniswap V2 pool that the victim trades between them. Net WETH before gas is positive and the KEEP position nets to zero.\"}",
+ "case_id": "sym100_007",
+ "_time": "2026-10-19T19:29:15+0800"
+}

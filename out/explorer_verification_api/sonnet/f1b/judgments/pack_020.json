@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs trade on the MXS/WETH pool 0x13bb\u2026, but the front leg sells MXS for 9.04 ETH, which is the opposite of opening a long position. The back leg is a different sender (0x09ae\u2026) that spends 0.03 ETH to buy MXS, so the actor does not close what the front opened. There is no single actor opening and closing a position, so this is not a sandwich bracket.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3800,
+  "output_tokens": 233,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQF8sU97UooSeV1KGLQ",
+ "_response_id": "msg_011CgBQFEkwQM4Lc6hitMyoK",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs trade on the MXS/WETH pool 0x13bb\u2026, but the front leg sells MXS for 9.04 ETH, which is the opposite of opening a long position. The back leg is a different sender (0x09ae\u2026) that spends 0.03 ETH to buy MXS, so the actor does not close what the front opened. There is no single actor opening and closing a position, so this is not a sandwich bracket.\"}",
+ "case_id": "pack_020",
+ "_time": "2026-10-19T18:00:43+0800"
+}

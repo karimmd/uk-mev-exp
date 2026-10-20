@@ -1,0 +1,17 @@
+{
+ "actor": "0x3f499fe484a61af03b01ea5c81eab14f67c11a5a",
+ "pool": "0xba65016890709dbc9491ca7bf5de395b8441dc8b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.316872,
+ "gas_eth": 0.017399,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x3f49\u2026 bought 305222.891823 RSR for 15.8505 WETH in the front leg and sold the same amount back for 16.167372 WETH in the back leg. The victim bought RSR on the same pool (0xba65\u2026) between the two legs, routing through a SWAP/WETH pool first. The WETH gain is 0.316872. After the 0.017399 ETH combined gas of both legs, it is about +0.2995 ETH. The two legs have different EOA senders, but both call the same contract, which I treated as the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0244412,
+ "_session": "74cea9e6-c424-4436-98aa-58eff1560e60",
+ "_raw": "{\"actor\":\"0x3f499fe484a61af03b01ea5c81eab14f67c11a5a\",\"pool\":\"0xba65016890709dbc9491ca7bf5de395b8441dc8b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.316872,\"gas_eth\":0.017399,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x3f49\u2026 bought 305222.891823 RSR for 15.8505 WETH in the front leg and sold the same amount back for 16.167372 WETH in the back leg. The victim bought RSR on the same pool (0xba65\u2026) between the two legs, routing through a SWAP/WETH pool first. The WETH gain is 0.316872. After the 0.017399 ETH combined gas of both legs, it is about +0.2995 ETH. The two legs have different EOA senders, but both call the same contract, which I treated as the actor.\"}",
+ "case_id": "pack_118",
+ "_time": "2026-10-13T20:27:18+0800"
+}

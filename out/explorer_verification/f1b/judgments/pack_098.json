@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9ac681f68a589cc3763bad9ce43be3380696b136",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.081672,
+ "gas_eth": 0.068133,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 69.817709 MM for 7.79688 WETH in the front leg. The victim then bought 25.1 MM on the same Uniswap V3 pool. The actor sold exactly 69.817709 MM back for 7.878552 WETH, so the WETH gain is 0.081672 and the position is fully closed. After the front-leg gas of 0.068133 ETH the result is about +0.0135 ETH. The back leg shows a 0 gwei gas price, so its fee is taken as 0. That is unusual and slightly lowers confidence.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026365200000000002,
+ "_session": "c1b93ec9-0892-4ee8-87b4-7810daf7fd07",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x9ac681f68a589cc3763bad9ce43be3380696b136\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.081672, \"gas_eth\": 0.068133, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract bought 69.817709 MM for 7.79688 WETH in the front leg. The victim then bought 25.1 MM on the same Uniswap V3 pool. The actor sold exactly 69.817709 MM back for 7.878552 WETH, so the WETH gain is 0.081672 and the position is fully closed. After the front-leg gas of 0.068133 ETH the result is about +0.0135 ETH. The back leg shows a 0 gwei gas price, so its fee is taken as 0. That is unusual and slightly lowers confidence.\"}",
+ "case_id": "pack_098",
+ "_time": "2026-10-13T20:23:45+0800"
+}

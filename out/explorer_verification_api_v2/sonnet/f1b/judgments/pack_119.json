@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xe46935ae80e05cdebd4a4008b6ccaa36d2845370",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.114444,
+ "gas_eth": 0.063288,
+ "profit_after_gas": 0.051156,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x1d6e... buys 47685.93 OM for 4.25 WETH in the front leg and sells exactly that amount back for 4.364444 WETH in the back leg. The victim buys OM on the same pool between the two legs. The front and back transactions are sent from different EOAs, but both call the same contract, which is the actor. Net WETH is +0.114444 before gas and about +0.0512 after the two legs' fees.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3011,
+  "output_tokens": 658,
+  "thinking_tokens": 367
+ },
+ "_request_id": "req_011CgBVkHhC1Bfbvhdkd1E8x",
+ "_response_id": "msg_011CgBVkJ2XKJ7K59DpPyReB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xe46935ae80e05cdebd4a4008b6ccaa36d2845370\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.114444,\"gas_eth\":0.063288,\"profit_after_gas\":0.051156,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x1d6e... buys 47685.93 OM for 4.25 WETH in the front leg and sells exactly that amount back for 4.364444 WETH in the back leg. The victim buys OM on the same pool between the two legs. The front and back transactions are sent from different EOAs, but both call the same contract, which is the actor. Net WETH is +0.114444 before gas and about +0.0512 after the two legs' fees.\"}",
+ "case_id": "pack_119",
+ "_time": "2026-10-19T19:12:54+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xb767c20d9773adce84d0f0a5bc64e2f114ad3076",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.024136,
+ "gas_eth": 0.00807,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sold 1,980,461.84 wOMI into the pool before the victim's wOMI sale (front) and bought exactly that amount back after it (back). This is a reverse-direction bracket on the same pool. The wOMI nets to zero, but the front leg starts from existing inventory, so the 'opens a position' wording fits only loosely. WETH net is +0.024136 (3.775 \u2212 3.750864), and after 0.00807 ETH of gas the position is about \u22120.003934 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0244148,
+ "_session": "a184f0d4-bdc4-4dd4-b8ae-18ff01350ec9",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xb767c20d9773adce84d0f0a5bc64e2f114ad3076\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.024136, \"gas_eth\": 0.00807, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sold 1,980,461.84 wOMI into the pool before the victim's wOMI sale (front) and bought exactly that amount back after it (back). This is a reverse-direction bracket on the same pool. The wOMI nets to zero, but the front leg starts from existing inventory, so the 'opens a position' wording fits only loosely. WETH net is +0.024136 (3.775 \u2212 3.750864), and after 0.00807 ETH of gas the position is about \u22120.003934 ETH.\"}",
+ "case_id": "sym100_053",
+ "_time": "2026-10-13T21:34:41+0800"
+}

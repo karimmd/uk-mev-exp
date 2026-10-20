@@ -1,0 +1,31 @@
+{
+ "actor": "0xe34820500dcd2a2c3c4ce2c1cac561e30ede0dc7",
+ "pool": "0xdf6b861b4fbcfaffb62dd1906fcd3a863955704b",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 2.003417,
+ "gas_eth": 0.015462,
+ "residual": "back leg sold 165.157897 BUILD but front bought only 64.008969, so about 101.15 BUILD came from outside these two legs (short versus the bracket)",
+ "confidence": 3,
+ "note": "The same contract (0xe348...) buys BUILD on pool 0xdf6b in the front leg and sells BUILD on that pool in the back leg, with the victim also trading that pool in between. The victim sells BUILD rather than buying, which is unusual for a sandwich. Net WETH is +2.003 (+1.987955 after gas), but most of that comes from about 101 BUILD not bought in the front leg. At roughly 0.02 WETH per BUILD those are worth about 2 WETH, so the bracket's own profit could be near zero or negative and the sign cannot be settled.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4613,
+  "output_tokens": 1246,
+  "thinking_tokens": 866
+ },
+ "_request_id": "req_011CgBSdTENfEJAUsUbWv1Q9",
+ "_response_id": "msg_011CgBSdTZxyNSVCwfC85kHL",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xe34820500dcd2a2c3c4ce2c1cac561e30ede0dc7\",\"pool\":\"0xdf6b861b4fbcfaffb62dd1906fcd3a863955704b\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth\":2.003417,\"gas_eth\":0.015462,\"residual\":\"back leg sold 165.157897 BUILD but front bought only 64.008969, so about 101.15 BUILD came from outside these two legs (short versus the bracket)\",\"confidence\":3,\"note\":\"The same contract (0xe348...) buys BUILD on pool 0xdf6b in the front leg and sells BUILD on that pool in the back leg, with the victim also trading that pool in between. The victim sells BUILD rather than buying, which is unusual for a sandwich. Net WETH is +2.003 (+1.987955 after gas), but most of that comes from about 101 BUILD not bought in the front leg. At roughly 0.02 WETH per BUILD those are worth about 2 WETH, so the bracket's own profit could be near zero or negative and the sign cannot be settled.\"}",
+ "case_id": "rej53_026",
+ "_time": "2026-10-19T18:32:05+0800"
+}

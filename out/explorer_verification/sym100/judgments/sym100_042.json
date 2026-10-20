@@ -1,0 +1,17 @@
+{
+ "actor": "0x3f3636f45ee8b3bebd3244a106380319d07711f2",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071201,
+ "gas_eth": 0.022414,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract, called by 0xcf54 in both legs, sells 50.1663 MPH into the pool in the front leg and buys back exactly 50.1663 MPH in the back leg. The victim sells MPH on the same pool in between. The order is inverted: the actor sells first and buys back after, which relies on pre-held MPH inventory. The WETH net is +0.071201, and after 0.022414 ETH gas it is about +0.0488 ETH, with no residual MPH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0274572,
+ "_session": "fed11ed2-c90f-42c7-9b45-a2a0e1b48530",
+ "_raw": "{\"actor\": \"0x3f3636f45ee8b3bebd3244a106380319d07711f2\", \"pool\": \"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.071201, \"gas_eth\": 0.022414, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract, called by 0xcf54 in both legs, sells 50.1663 MPH into the pool in the front leg and buys back exactly 50.1663 MPH in the back leg. The victim sells MPH on the same pool in between. The order is inverted: the actor sells first and buys back after, which relies on pre-held MPH inventory. The WETH net is +0.071201, and after 0.022414 ETH gas it is about +0.0488 ETH, with no residual MPH.\"}",
+ "case_id": "sym100_042",
+ "_time": "2026-10-13T21:31:57+0800"
+}

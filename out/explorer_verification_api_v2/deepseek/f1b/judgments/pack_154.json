@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x76efea638426a85a868eac23d5efb34ba52156c1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.020471,
+ "gas_eth": 0.010242,
+ "profit_after_gas": 0.010229,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys UNV in the front leg on the UniswapV2 pool, the victim buys UNV on the same pool, and the actor sells the same UNV amount back in the back leg. Net WETH gain is 0.020471 before front/back gas of 0.010242, leaving a positive 0.010229 after gas and no residual UNV.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2630,
+  "output_tokens": 2492,
+  "thinking_tokens": 2298
+ },
+ "_request_id": "0f8f9bd70107a37d13914a83e8fc2e0e",
+ "_response_id": "386ca2ad-033d-4197-80db-25910ebaddbe",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000500e2fece27a7600435d0c48d64e0c00\",\"pool\":\"0x76efea638426a85a868eac23d5efb34ba52156c1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.020471,\"gas_eth\":0.010242,\"profit_after_gas\":0.010229,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract buys UNV in the front leg on the UniswapV2 pool, the victim buys UNV on the same pool, and the actor sells the same UNV amount back in the back leg. Net WETH gain is 0.020471 before front/back gas of 0.010242, leaving a positive 0.010229 after gas and no residual UNV.\"}",
+ "case_id": "pack_154",
+ "_time": "2026-10-19T19:22:43+0800"
+}

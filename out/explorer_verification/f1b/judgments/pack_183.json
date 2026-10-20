@@ -1,0 +1,17 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x43747d31fc178d626047c5b4346a251418167a1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.479943,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor buys 712300.691802 NBNG via WETH->USDT->NBNG in the front leg and sells exactly that amount back to WETH in the back leg. The victim's USDT->NBNG swap on the shared NBNG/USDT pool sits between the two legs. WETH net is +0.959887 (100.959853 - 99.999966), less a 0.479944 ETH transfer to 0x5a0b..., likely a builder payment. Gas fees are shown as 0 at 0.0 gwei, so the net is positive, but the 0.479944 ETH payment is the only visible cost and its source is unclear.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0233527,
+ "_session": "cfbc0fc2-3553-4102-a2a7-741cb4559d9a",
+ "_raw": "{\"actor\": \"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\", \"pool\": \"0x43747d31fc178d626047c5b4346a251418167a1a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.479943, \"gas_eth\": 0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor buys 712300.691802 NBNG via WETH->USDT->NBNG in the front leg and sells exactly that amount back to WETH in the back leg. The victim's USDT->NBNG swap on the shared NBNG/USDT pool sits between the two legs. WETH net is +0.959887 (100.959853 - 99.999966), less a 0.479944 ETH transfer to 0x5a0b..., likely a builder payment. Gas fees are shown as 0 at 0.0 gwei, so the net is positive, but the 0.479944 ETH payment is the only visible cost and its source is unclear.\"}",
+ "case_id": "pack_183",
+ "_time": "2026-10-13T20:40:33+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.013544,
+ "gas_eth": 0.0,
+ "residual": "about 5.27e12 MOONPUG (bought 266728859863781.09, sold 261457822590376.78)",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026932d spends 0.57 WETH for MOONPUG on pool 0x4cb5\u20260131. The victim then buys MOONPUG with WETH on that same pool, and the contract sells MOONPUG back there for 0.670962 WETH. Both actor legs pay zero gas price, but the back leg passes 0.087418 ETH from the sender to 0xb3b7\u2026d8d4, apparently a miner payment, leaving about +0.0135 ETH plus a small residual MOONPUG holding that can only add to the result.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3194,
+  "output_tokens": 962,
+  "thinking_tokens": 604
+ },
+ "_request_id": "req_011CgBQDUapjFeB6rxbC64Ce",
+ "_response_id": "msg_011CgBQDbJuHmKqxm4bpBT4u",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.013544, \"gas_eth\": 0.0, \"residual\": \"about 5.27e12 MOONPUG (bought 266728859863781.09, sold 261457822590376.78)\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026932d spends 0.57 WETH for MOONPUG on pool 0x4cb5\u20260131. The victim then buys MOONPUG with WETH on that same pool, and the contract sells MOONPUG back there for 0.670962 WETH. Both actor legs pay zero gas price, but the back leg passes 0.087418 ETH from the sender to 0xb3b7\u2026d8d4, apparently a miner payment, leaving about +0.0135 ETH plus a small residual MOONPUG holding that can only add to the result.\"}",
+ "case_id": "pack_017",
+ "_time": "2026-10-19T18:00:28+0800"
+}

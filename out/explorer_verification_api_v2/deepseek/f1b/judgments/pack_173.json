@@ -1,0 +1,32 @@
+{
+ "actor": "0x575c3a99429352eda66661fc3857b9f83f58a73f",
+ "pool": "0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.074817,
+ "gas_eth": 0,
+ "profit_after_gas": 0.074817,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both call 0x575c, which buys non-WETH token on pool c532 in front and sells it back after the victim trades on the same pool. Net WETH/ETH after the back-leg withdrawal and ETH transfer is +0.074817, with zero gas cost.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2356,
+  "output_tokens": 9061,
+  "thinking_tokens": 8889
+ },
+ "_request_id": "fd1d25fcfa5cf1d6061a2105b81b0d7f",
+ "_response_id": "5d04465d-7e15-4ef7-bdca-b6f54800b0d3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x575c3a99429352eda66661fc3857b9f83f58a73f\",\"pool\":\"0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.074817,\"gas_eth\":0,\"profit_after_gas\":0.074817,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both call 0x575c, which buys non-WETH token on pool c532 in front and sells it back after the victim trades on the same pool. Net WETH/ETH after the back-leg withdrawal and ETH transfer is +0.074817, with zero gas cost.\"}",
+ "case_id": "pack_173",
+ "_time": "2026-10-19T19:24:57+0800"
+}

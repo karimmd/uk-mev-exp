@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xdc2b82bc1106c9c5286e59344896fb0ceb932f53",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs use different actor contracts (0x...7f15 and 0x...6f65) and each nets zero RGT within its own transaction, so no single actor opens in front and closes in back. The shared pool with the victim is 0xdc2b..., where both front and back sell RGT, inconsistent with a standard sandwich.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4367,
+  "output_tokens": 10638,
+  "thinking_tokens": 10479
+ },
+ "_request_id": "498be3a7e29ce4d9f84d614ed6d06a1c",
+ "_response_id": "db5739c2-818c-4eb7-a888-0154d96a9b55",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0xdc2b82bc1106c9c5286e59344896fb0ceb932f53\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back legs use different actor contracts (0x...7f15 and 0x...6f65) and each nets zero RGT within its own transaction, so no single actor opens in front and closes in back. The shared pool with the victim is 0xdc2b..., where both front and back sell RGT, inconsistent with a standard sandwich.\"}",
+ "case_id": "pack_073",
+ "_time": "2026-10-19T18:14:49+0800"
+}

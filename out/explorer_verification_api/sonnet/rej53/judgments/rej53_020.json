@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xb43542e6b7c209f7da4b579792f67a1844546ce8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.035087,
+ "gas_eth": 0.030475,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sends 1.905144 WETH to the WETH/TIDAL pool and gets TIDAL, which goes to the TIDAL/USDC pool for 4266.374147 USDC. The victim sells TIDAL on that same TIDAL/USDC pool. The back leg returns exactly that USDC and brings back 1.958710 WETH. Net WETH is +0.053566. The 0.018479 ETH sent to 0x8595\u2026 (likely a builder tip) leaves +0.035087. Gas of 0.030475 leaves about +0.0046 ETH, with no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3562,
+  "output_tokens": 924,
+  "thinking_tokens": 608
+ },
+ "_request_id": "req_011CgBSbewmtZiuHhxx72y1z",
+ "_response_id": "msg_011CgBSbfHrXnk7DTTnGUPXn",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0xb43542e6b7c209f7da4b579792f67a1844546ce8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.035087,\"gas_eth\":0.030475,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sends 1.905144 WETH to the WETH/TIDAL pool and gets TIDAL, which goes to the TIDAL/USDC pool for 4266.374147 USDC. The victim sells TIDAL on that same TIDAL/USDC pool. The back leg returns exactly that USDC and brings back 1.958710 WETH. Net WETH is +0.053566. The 0.018479 ETH sent to 0x8595\u2026 (likely a builder tip) leaves +0.035087. Gas of 0.030475 leaves about +0.0046 ETH, with no residual token.\"}",
+ "case_id": "rej53_020",
+ "_time": "2026-10-19T18:31:37+0800"
+}

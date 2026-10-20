@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x724d5c9c618a2152e99a45649a3b8cf198321f46",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.046826,
+ "gas_eth": 0.045348,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys REVV on pool 0xc926\u2026 with WETH and sells it straight into pool 0x724d\u2026 in the front leg. The victim also sells REVV into 0x724d\u2026, and the back leg buys REVV back from 0x724d\u2026 and returns it to 0xc926\u2026. WETH nets -0.607252 in the front and +0.654078 in the back, so +0.046826 before gas and about +0.001478 after 0.045348 ETH of gas, with no REVV left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3293,
+  "output_tokens": 1080,
+  "thinking_tokens": 805
+ },
+ "_request_id": "req_011CgBRivr5BZA8Hoc4iEon5",
+ "_response_id": "msg_011CgBRiwHrvp8qj1gzixsme",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x724d5c9c618a2152e99a45649a3b8cf198321f46\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.046826,\"gas_eth\":0.045348,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys REVV on pool 0xc926\u2026 with WETH and sells it straight into pool 0x724d\u2026 in the front leg. The victim also sells REVV into 0x724d\u2026, and the back leg buys REVV back from 0x724d\u2026 and returns it to 0xc926\u2026. WETH nets -0.607252 in the front and +0.654078 in the back, so +0.046826 before gas and about +0.001478 after 0.045348 ETH of gas, with no REVV left over.\"}",
+ "case_id": "pack_164",
+ "_time": "2026-10-19T18:20:11+0800"
+}

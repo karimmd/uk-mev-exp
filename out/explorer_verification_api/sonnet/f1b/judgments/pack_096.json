@@ -1,0 +1,31 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.556872,
+ "gas_eth": 0.082625,
+ "residual": "about 632.63 MINT (19974.459044 bought minus 19341.831531 sold)",
+ "confidence": 4,
+ "note": "The same contract (0x7f94\u2026) bought MINT with 20.907221 ETH in the front leg and sold 19341.83 MINT for 21.464093 ETH in the back leg. The victim bought MINT on the same pool (0x092e\u2026) in between. The ETH change is +0.556872 before gas, or about +0.4742 after 0.082625 ETH of front and back gas. The leftover MINT can only add value, so the sign is positive, though its value is not counted.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3926,
+  "output_tokens": 773,
+  "thinking_tokens": 471
+ },
+ "_request_id": "req_011CgBR8kDuKSeGxZ64fzV9Q",
+ "_response_id": "msg_011CgBR8uUGJis4cdZS8S2TE",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7f941cdae3c01906e42f8325af0693a848f81072\",\"pool\":\"0x092e793afe54366601eb7ef7e63b6abb93edb485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.556872,\"gas_eth\":0.082625,\"residual\":\"about 632.63 MINT (19974.459044 bought minus 19341.831531 sold)\",\"confidence\":4,\"note\":\"The same contract (0x7f94\u2026) bought MINT with 20.907221 ETH in the front leg and sold 19341.83 MINT for 21.464093 ETH in the back leg. The victim bought MINT on the same pool (0x092e\u2026) in between. The ETH change is +0.556872 before gas, or about +0.4742 after 0.082625 ETH of front and back gas. The leftover MINT can only add value, so the sign is positive, though its value is not counted.\"}",
+ "case_id": "pack_096",
+ "_time": "2026-10-19T18:12:27+0800"
+}

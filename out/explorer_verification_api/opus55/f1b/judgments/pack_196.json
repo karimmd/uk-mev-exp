@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -0.05,
+ "gas_eth": 0.005279,
+ "residual": "85801.445022 MXS held by 0x09c950e4b7b3345c626e9c1188c720de68958a05 (front sender); 88137.761741 MXS held by 0x5e4872715dcd6488d7b9417e8a77e592e5a0814b (back sender)",
+ "confidence": 4,
+ "note": "Front and back are sent by different addresses and both buy MXS with ETH through the router on pool 0x13bb\u2026fa5f, while the victim sells MXS on that pool between them. No single actor opens and then closes a position. The figures shown are for the front sender alone: it is down 0.05 ETH plus 0.005279 ETH gas and still holds unsold MXS, so no sign can be set.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3818,
+  "output_tokens": 577,
+  "thinking_tokens": 249
+ },
+ "_request_id": "req_011CgBRzeNa8FSit4CT2bVMN",
+ "_response_id": "msg_011CgBRzehuYg1deoHW8NWfr",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -0.05, \"gas_eth\": 0.005279, \"residual\": \"85801.445022 MXS held by 0x09c950e4b7b3345c626e9c1188c720de68958a05 (front sender); 88137.761741 MXS held by 0x5e4872715dcd6488d7b9417e8a77e592e5a0814b (back sender)\", \"confidence\": 4, \"note\": \"Front and back are sent by different addresses and both buy MXS with ETH through the router on pool 0x13bb\u2026fa5f, while the victim sells MXS on that pool between them. No single actor opens and then closes a position. The figures shown are for the front sender alone: it is down 0.05 ETH plus 0.005279 ETH gas and still holds unsold MXS, so no sign can be set.\"}",
+ "case_id": "pack_196",
+ "_time": "2026-10-19T18:23:41+0800"
+}

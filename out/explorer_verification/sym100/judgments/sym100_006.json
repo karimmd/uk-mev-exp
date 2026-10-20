@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x570febdf89c07f256c75686caca215289bb11cfc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.09648,
+ "gas_eth": 0.021028,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 613.525441 ERN into the pool for 16.523149 WETH in the front leg, the victim sells 1000 ERN on the same pool, and the actor buys back exactly 613.525441 ERN for 16.426669 WETH in the back leg. This is a short-style bracket in which the ERN position is opened and closed with no residual. Gross WETH is +0.09648 and gas for the front and back legs totals 0.021028, so the position is about +0.0755 ETH after cost.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0235247,
+ "_session": "2a13401f-234c-4159-99b9-bbc4107ecfb7",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x570febdf89c07f256c75686caca215289bb11cfc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.09648, \"gas_eth\": 0.021028, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 613.525441 ERN into the pool for 16.523149 WETH in the front leg, the victim sells 1000 ERN on the same pool, and the actor buys back exactly 613.525441 ERN for 16.426669 WETH in the back leg. This is a short-style bracket in which the ERN position is opened and closed with no residual. Gross WETH is +0.09648 and gas for the front and back legs totals 0.021028, so the position is about +0.0755 ETH after cost.\"}",
+ "case_id": "sym100_006",
+ "_time": "2026-10-13T21:23:47+0800"
+}

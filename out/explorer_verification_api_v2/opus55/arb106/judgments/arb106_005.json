@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0x86e69d1ae728c9cd229f07bbf34e01bf27258354",
+  "0xbda1200eed6aa819c781f3b66d1312a3b703eb2e",
+  "0x2efec2097beede290b2eed63e2faf5ecbbc528fc",
+  "0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad"
+ ],
+ "cycle_token": "TRU (also CEEK)",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.00394,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.00394,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two closed cycles run through four pools. TRU comes from 0x86e6 and goes to 0x2efe, and CEEK comes from 0xbda1 and goes to 0x782a, with matching amounts. WETH nets to +0.015761, and after the 0.011821 ETH internal payment (likely a miner tip, since the transaction paid 0 gwei) it is about +0.00394 with no gas fee.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2764,
+  "output_tokens": 923,
+  "thinking_tokens": 494
+ },
+ "_request_id": "req_011CgBX5R4qechAbnrhcwqMd",
+ "_response_id": "msg_011CgBX5RRRfe6aTDCjMvMTX",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000000a1c7212a1c129512d80eb30d14dc08\", \"pools\": [\"0x86e69d1ae728c9cd229f07bbf34e01bf27258354\", \"0xbda1200eed6aa819c781f3b66d1312a3b703eb2e\", \"0x2efec2097beede290b2eed63e2faf5ecbbc528fc\", \"0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad\"], \"cycle_token\": \"TRU (also CEEK)\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.00394, \"gas_eth\": 0.0, \"profit_after_gas\": 0.00394, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Two closed cycles run through four pools. TRU comes from 0x86e6 and goes to 0x2efe, and CEEK comes from 0xbda1 and goes to 0x782a, with matching amounts. WETH nets to +0.015761, and after the 0.011821 ETH internal payment (likely a miner tip, since the transaction paid 0 gwei) it is about +0.00394 with no gas fee.\"}",
+ "case_id": "arb106_005",
+ "_time": "2026-10-19T19:30:23+0800"
+}

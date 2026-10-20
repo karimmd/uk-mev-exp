@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0x86e69d1ae728c9cd229f07bbf34e01bf27258354",
+  "0xbda1200eed6aa819c781f3b66d1312a3b703eb2e",
+  "0x2efec2097beede290b2eed63e2faf5ecbbc528fc",
+  "0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad"
+ ],
+ "cycle_token": "TRU",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.00394,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor trades across four pools, with TRU and CEEK both closing to net zero and WETH as the only positive token. Net WETH is +0.015761, less 0.011821 ETH internal transfer, with zero gas, leaving +0.00394 ETH-equivalent.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2098,
+  "output_tokens": 5231,
+  "thinking_tokens": 4947
+ },
+ "_request_id": "ce49088c3035859c1b9a511de1bc1258",
+ "_response_id": "b9b2f6ac-f5db-475a-8d49-3a8ee8174f9e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x0000000000a1c7212a1c129512d80eb30d14dc08\", \"pools\": [\"0x86e69d1ae728c9cd229f07bbf34e01bf27258354\", \"0xbda1200eed6aa819c781f3b66d1312a3b703eb2e\", \"0x2efec2097beede290b2eed63e2faf5ecbbc528fc\", \"0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad\"], \"cycle_token\": \"TRU\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.00394, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor trades across four pools, with TRU and CEEK both closing to net zero and WETH as the only positive token. Net WETH is +0.015761, less 0.011821 ETH internal transfer, with zero gas, leaving +0.00394 ETH-equivalent.\"}",
+ "case_id": "arb106_005",
+ "_time": "2026-10-19T19:04:52+0800"
+}

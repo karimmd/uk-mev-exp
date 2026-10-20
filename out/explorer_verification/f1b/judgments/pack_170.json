@@ -1,0 +1,17 @@
+{
+ "actor": "0x3f2a2b2729f624bd23f252f46bae42628d822a6e",
+ "pool": "0xbc6b3dc17e86c8cacf0f384f2e19468c36154a22",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 2.701799,
+ "gas_eth": 0.007558,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x3f2a buys 189.368585 CP3R for 28.893796 WETH in the front leg, the victim buys CP3R on the same pool in between, and 0x3f2a sells exactly 189.368585 CP3R for 31.595595 WETH in the back leg. The two legs have different EOA senders (0x6b8b and 0xd11b) but the same contract target. The net WETH is +2.701799 and about +2.694241 after the combined 0.007558 ETH gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.020008699999999997,
+ "_session": "30497d3f-c7c4-44d9-91e1-02187e815f21",
+ "_raw": "{\"actor\": \"0x3f2a2b2729f624bd23f252f46bae42628d822a6e\", \"pool\": \"0xbc6b3dc17e86c8cacf0f384f2e19468c36154a22\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 2.701799, \"gas_eth\": 0.007558, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x3f2a buys 189.368585 CP3R for 28.893796 WETH in the front leg, the victim buys CP3R on the same pool in between, and 0x3f2a sells exactly 189.368585 CP3R for 31.595595 WETH in the back leg. The two legs have different EOA senders (0x6b8b and 0xd11b) but the same contract target. The net WETH is +2.701799 and about +2.694241 after the combined 0.007558 ETH gas fee.\"}",
+ "case_id": "pack_170",
+ "_time": "2026-10-13T20:37:38+0800"
+}

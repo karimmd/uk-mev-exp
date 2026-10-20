@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x553db97b11642e0f9471d511296577421518de1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.05002,
+ "gas_eth": 0.000196,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The sender 0xf6da\u2026 sends 2.720728 WETH to the pool and receives 141464408105908.718750 MAK in the front leg, then returns exactly that MAK and receives 2.770748 WETH in the back leg. The victim buys MAK on the same pool between them. Net WETH is +0.05002, or about +0.049824 after about 0.000196 ETH of gas, with no MAK left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2848,
+  "output_tokens": 545,
+  "thinking_tokens": 295
+ },
+ "_request_id": "req_011CgBSipNF61P6G1Fmshxhy",
+ "_response_id": "msg_011CgBSipi6WUrpzNyUbZi8r",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0x553db97b11642e0f9471d511296577421518de1a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.05002,\"gas_eth\":0.000196,\"residual\":\"none\",\"confidence\":5,\"note\":\"The sender 0xf6da\u2026 sends 2.720728 WETH to the pool and receives 141464408105908.718750 MAK in the front leg, then returns exactly that MAK and receives 2.770748 WETH in the back leg. The victim buys MAK on the same pool between them. Net WETH is +0.05002, or about +0.049824 after about 0.000196 ETH of gas, with no MAK left over.\"}",
+ "case_id": "rej53_041",
+ "_time": "2026-10-19T18:33:12+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.050511,
+ "gas_eth": 0.05326,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 61547.897 SMINU to the pool for 0.972757 WETH in the front leg, the victim sells SMINU on the same pool, and the actor buys back exactly 61547.897 SMINU for 0.922246 WETH in the back leg. The gross WETH gain is 0.050511 ETH, which is less than the combined gas of 0.05326 ETH (0.027943 + 0.025317), so the net is about -0.00275 ETH. The sandwich runs in the sell-first direction, which assumes the actor already held the SMINU inventory.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3081,
+  "output_tokens": 798,
+  "thinking_tokens": 482
+ },
+ "_request_id": "req_011CgBSMZ88ipJgp7DCeVwpu",
+ "_response_id": "msg_011CgBSMZVTyKBc3g1GfkV6e",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.050511,\"gas_eth\":0.05326,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 61547.897 SMINU to the pool for 0.972757 WETH in the front leg, the victim sells SMINU on the same pool, and the actor buys back exactly 61547.897 SMINU for 0.922246 WETH in the back leg. The gross WETH gain is 0.050511 ETH, which is less than the combined gas of 0.05326 ETH (0.027943 + 0.025317), so the net is about -0.00275 ETH. The sandwich runs in the sell-first direction, which assumes the actor already held the SMINU inventory.\"}",
+ "case_id": "sym100_077",
+ "_time": "2026-10-19T18:28:26+0800"
+}

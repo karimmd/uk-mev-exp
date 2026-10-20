@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.015568,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x...27d2 pays 3.859384 WETH for 93.11B JEJUDOGE on the JEJUDOGE/WETH pair 0x9d54 that the victim then buys on. It sells the identical amount back for 3.933715 WETH, a gross gain of 0.074331. The 0.058763 ETH the sender passes through and forwards to 0x5a0b (likely a builder or miner payment) and zero-gwei gas leave about +0.0156 ETH, and the result stays positive whether or not that payment is counted.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3355,
+  "output_tokens": 831,
+  "thinking_tokens": 520
+ },
+ "_request_id": "req_011CgBR8yug1YA8kh4fkLjAw",
+ "_response_id": "msg_011CgBR93RkCSrDskk4F5nFq",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.015568, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x...27d2 pays 3.859384 WETH for 93.11B JEJUDOGE on the JEJUDOGE/WETH pair 0x9d54 that the victim then buys on. It sells the identical amount back for 3.933715 WETH, a gross gain of 0.074331. The 0.058763 ETH the sender passes through and forwards to 0x5a0b (likely a builder or miner payment) and zero-gwei gas leave about +0.0156 ETH, and the result stays positive whether or not that payment is counted.\"}",
+ "case_id": "pack_090",
+ "_time": "2026-10-19T18:12:31+0800"
+}

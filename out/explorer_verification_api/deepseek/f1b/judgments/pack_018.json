@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x87898263b6c5babe34b4ec53f22d98430b91e371",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.105493,
+ "gas_eth": 0.074287,
+ "residual": "0.000001 BEAN",
+ "confidence": 5,
+ "note": "Front and back both route through the same actor contract, which receives BEAN in front and sends it back in back on the same UniswapV2 pool the victim trades on. Gross WETH gain is 0.105493; after 0.074287 gas, net is +0.031206 ETH, leaving only dust BEAN.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2437,
+  "output_tokens": 5704,
+  "thinking_tokens": 5534
+ },
+ "_request_id": "f2afebdb568c05d6f3e60b6aa5a181fc",
+ "_response_id": "32e0d4db-0cec-4afd-8f71-e3c44f802cb9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x87898263b6c5babe34b4ec53f22d98430b91e371\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.105493,\"gas_eth\":0.074287,\"residual\":\"0.000001 BEAN\",\"confidence\":5,\"note\":\"Front and back both route through the same actor contract, which receives BEAN in front and sends it back in back on the same UniswapV2 pool the victim trades on. Gross WETH gain is 0.105493; after 0.074287 gas, net is +0.031206 ETH, leaving only dust BEAN.\"}",
+ "case_id": "pack_018",
+ "_time": "2026-10-19T18:03:00+0800"
+}

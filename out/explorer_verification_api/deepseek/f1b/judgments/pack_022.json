@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xb43542e6b7c209f7da4b579792f67a1844546ce8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.004612,
+ "gas_eth": 0.030475,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor is the called target contract 0x000...035b5, which receives USDC in front and spends it in back on pool 0xb435..., the same TIDAL/USDC pool the victim uses. Net WETH/ETH across legs less the 0.018479 ETH internal transfer is +0.035087 ETH; after 0.030475 gas the net is +0.004612 ETH, with no residual token holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2846,
+  "output_tokens": 7074,
+  "thinking_tokens": 6887
+ },
+ "_request_id": "924e60147492f82bd7e6b61724c4af2c",
+ "_response_id": "46e0e757-0fbb-4bf6-ab63-1d2a738ff337",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0xb43542e6b7c209f7da4b579792f67a1844546ce8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.004612,\"gas_eth\":0.030475,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor is the called target contract 0x000...035b5, which receives USDC in front and spends it in back on pool 0xb435..., the same TIDAL/USDC pool the victim uses. Net WETH/ETH across legs less the 0.018479 ETH internal transfer is +0.035087 ETH; after 0.030475 gas the net is +0.004612 ETH, with no residual token holding.\"}",
+ "case_id": "pack_022",
+ "_time": "2026-10-19T18:04:36+0800"
+}

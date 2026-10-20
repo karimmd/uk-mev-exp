@@ -1,0 +1,31 @@
+{
+ "actor": "0x0724ee5d148584c39425af7777a12bab54fa880a",
+ "pool": "0x9dc696f1067a6b9929986283f6d316be9c9198fd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.093616,
+ "gas_eth": 0.020745,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 10112.294722 BONDLY to the pool for 3.247220 WETH in the front leg, and bought back exactly 10112.294722 BONDLY for 3.153604 WETH in the back leg. The victim sold 110060 BONDLY into the same pool in between. Net WETH is +0.093616 before gas; after the 0.020745 ETH gas on both legs it is about +0.072871 ETH, and no BONDLY is left over. The front and back transactions come from different EOAs, but both call the same actor contract.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2908,
+  "output_tokens": 957,
+  "thinking_tokens": 657
+ },
+ "_request_id": "req_011CgBRvcZZtJ4jJyEuY8Hwc",
+ "_response_id": "msg_011CgBRvcx8MqmFQv84imkYM",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0724ee5d148584c39425af7777a12bab54fa880a\",\"pool\":\"0x9dc696f1067a6b9929986283f6d316be9c9198fd\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.093616,\"gas_eth\":0.020745,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 10112.294722 BONDLY to the pool for 3.247220 WETH in the front leg, and bought back exactly 10112.294722 BONDLY for 3.153604 WETH in the back leg. The victim sold 110060 BONDLY into the same pool in between. Net WETH is +0.093616 before gas; after the 0.020745 ETH gas on both legs it is about +0.072871 ETH, and no BONDLY is left over. The front and back transactions come from different EOAs, but both call the same actor contract.\"}",
+ "case_id": "sym100_005",
+ "_time": "2026-10-19T18:22:48+0800"
+}

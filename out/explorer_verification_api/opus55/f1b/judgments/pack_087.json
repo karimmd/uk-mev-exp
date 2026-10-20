@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.015612,
+ "gas_eth": 0.015612,
+ "residual": "-519.441522 TRU (sold 61603.191854 in front, bought back 61083.750332 in back)",
+ "confidence": 3,
+ "note": "Contract 0x3dad, called by the same EOA in both legs, sells TRU for 13.726 WETH on pair 0x80b4 ahead of the victim's TRU sale on that same pair, then spends exactly 13.726 WETH to buy TRU back. That is a token-side bracket, so the WETH legs net to zero and only gas of 0.015612 ETH remains. The actor also ends about 519 TRU short, so both the ETH and TRU positions are negative.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3063,
+  "output_tokens": 1052,
+  "thinking_tokens": 723
+ },
+ "_request_id": "req_011CgBR6q73AW1DRTJweRxXQ",
+ "_response_id": "msg_011CgBR6wFceQtCY737bftUu",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.015612, \"gas_eth\": 0.015612, \"residual\": \"-519.441522 TRU (sold 61603.191854 in front, bought back 61083.750332 in back)\", \"confidence\": 3, \"note\": \"Contract 0x3dad, called by the same EOA in both legs, sells TRU for 13.726 WETH on pair 0x80b4 ahead of the victim's TRU sale on that same pair, then spends exactly 13.726 WETH to buy TRU back. That is a token-side bracket, so the WETH legs net to zero and only gas of 0.015612 ETH remains. The actor also ends about 519 TRU short, so both the ETH and TRU positions are negative.\"}",
+ "case_id": "pack_087",
+ "_time": "2026-10-19T18:12:05+0800"
+}

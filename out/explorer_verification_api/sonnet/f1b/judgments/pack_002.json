@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.092166,
+ "gas_eth": 0.024731,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract 0x1315 sells POND for USDC on the POND/USDC pool 0xd187 in the front leg and buys the POND back in the back leg. The victim sells POND for USDC on the same pool in between, so this is a sandwich bracket. The USDC leg nets to zero (8637.163496 in and out) and WETH nets +0.035226, but the contract also pays out 0.114227 ETH (to the sender) and 0.013165 ETH (to 0x99c8). Gas is 0.024731 ETH. If the 0.114227 transfer to the sender is treated as internal to the operator, net is +0.022061 before gas, which is -0.00267 after gas. Either way the result is negative.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3244,
+  "output_tokens": 1431,
+  "thinking_tokens": 1075
+ },
+ "_request_id": "req_011CgBQ1Xmyqei2ZZ3wN7Sqh",
+ "_response_id": "msg_011CgBQ1eDvghyRmbj1Xxp57",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0xd18748b9839b0081a867a1a871d5b562b2ec9884\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.092166,\"gas_eth\":0.024731,\"residual\":\"none\",\"confidence\":3,\"note\":\"The contract 0x1315 sells POND for USDC on the POND/USDC pool 0xd187 in the front leg and buys the POND back in the back leg. The victim sells POND for USDC on the same pool in between, so this is a sandwich bracket. The USDC leg nets to zero (8637.163496 in and out) and WETH nets +0.035226, but the contract also pays out 0.114227 ETH (to the sender) and 0.013165 ETH (to 0x99c8). Gas is 0.024731 ETH. If the 0.114227 transfer to the sender is treated as internal to the operator, net is +0.022061 before gas, which is -0.00267 after gas. Either way the result is negative.\"}",
+ "case_id": "pack_002",
+ "_time": "2026-10-19T17:57:46+0800"
+}

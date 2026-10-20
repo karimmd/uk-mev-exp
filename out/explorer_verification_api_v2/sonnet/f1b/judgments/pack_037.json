@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x290850efa2d7e130e55bbc1db2b48bc5c03097f5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.164618,
+ "gas_eth": 0.160356,
+ "profit_after_gas": 0.004262,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract acts in both legs. The front buys MFT with WETH on the V2 pool 0x2084 and sells it on the V3 pool 0x2908 for 2583.41 USDC. The victim sells MFT into the V3 pool 0x2908, and the back leg spends the same USDC on that pool to buy MFT, which it sends to the V2 pool for 1.583857 WETH. WETH nets +0.164618 against 0.160356 ETH of gas, leaving a thin profit of about 0.00426 ETH and no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4231,
+  "output_tokens": 959,
+  "thinking_tokens": 640
+ },
+ "_request_id": "req_011CgBVJGPaQHa31Gxx2CDtE",
+ "_response_id": "msg_011CgBVJGiBKPaboybf5cVSw",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x290850efa2d7e130e55bbc1db2b48bc5c03097f5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.164618,\"gas_eth\":0.160356,\"profit_after_gas\":0.004262,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract acts in both legs. The front buys MFT with WETH on the V2 pool 0x2084 and sells it on the V3 pool 0x2908 for 2583.41 USDC. The victim sells MFT into the V3 pool 0x2908, and the back leg spends the same USDC on that pool to buy MFT, which it sends to the V2 pool for 1.583857 WETH. WETH nets +0.164618 against 0.160356 ETH of gas, leaving a thin profit of about 0.00426 ETH and no residual token.\"}",
+ "case_id": "pack_037",
+ "_time": "2026-10-19T19:07:02+0800"
+}

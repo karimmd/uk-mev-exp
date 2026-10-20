@@ -1,0 +1,32 @@
+{
+ "actor": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+ "pool": "0x60f6e2200bfef8b4d120028faff4d9a4486526f4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.000375,
+ "gas_eth": 0,
+ "profit_after_gas": 0.000375,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor bought IONX in front and sold the exact amount back in back on the victim's pool. Net WETH gain was 0.037628 ETH-WETH, less a 0.037253 ETH internal transfer, leaving +0.000375 before zero gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2442,
+  "output_tokens": 2681,
+  "thinking_tokens": 2511
+ },
+ "_request_id": "7c8824a76203d7906a5ce71e02d93102",
+ "_response_id": "80b0582e-a40b-4771-985b-b510444fd449",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000099cb7fc48a935bceb9f05bbae54e8987\",\"pool\":\"0x60f6e2200bfef8b4d120028faff4d9a4486526f4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.000375,\"gas_eth\":0,\"profit_after_gas\":0.000375,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor bought IONX in front and sold the exact amount back in back on the victim's pool. Net WETH gain was 0.037628 ETH-WETH, less a 0.037253 ETH internal transfer, leaving +0.000375 before zero gas fees.\"}",
+ "case_id": "pack_150",
+ "_time": "2026-10-19T19:22:11+0800"
+}

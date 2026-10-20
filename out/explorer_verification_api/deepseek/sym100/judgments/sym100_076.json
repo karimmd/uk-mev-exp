@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 8.9e-05,
+ "gas_eth": 0.011221,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0xc1dfd162... sold SYN for WETH in the front leg and bought back the same SYN amount in the back leg on the same Uniswap V2 pool the victim used, with the victim between. Gross WETH gain 0.011310 less front+back gas 0.011221 leaves a small positive net of 0.000089 ETH, with no net SYN residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2395,
+  "output_tokens": 8026,
+  "thinking_tokens": 7841
+ },
+ "_request_id": "c1ef93c431829e11a37f5330cfe38064",
+ "_response_id": "91a46f47-5b21-4873-a110-b0411a244627",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.000089,\"gas_eth\":0.011221,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract 0xc1dfd162... sold SYN for WETH in the front leg and bought back the same SYN amount in the back leg on the same Uniswap V2 pool the victim used, with the victim between. Gross WETH gain 0.011310 less front+back gas 0.011221 leaves a small positive net of 0.000089 ETH, with no net SYN residual.\"}",
+ "case_id": "sym100_076",
+ "_time": "2026-10-19T18:52:51+0800"
+}

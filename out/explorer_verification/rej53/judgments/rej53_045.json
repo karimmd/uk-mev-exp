@@ -1,0 +1,17 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x4cd36d6f32586177e36179a810595a33163a20bf",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.021727,
+ "gas_eth": 0.023485,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x1315 spends 5.947927 WETH in the front leg and gets 17117.445838 USDC. It returns exactly that USDC in the back leg for 5.990038 WETH. The victim sells DAO for USDC on the same DAO/USDC pool (0x4cd3) between the two legs. The WETH gain is +0.042111 and the 0.020384 ETH transfer to 0x99c8 leaves +0.021727. Front and back gas is 0.023485, so the final position is about -0.0018 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0274072,
+ "_session": "28606a6c-a069-4cec-99c3-f1d7940afac2",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0x4cd36d6f32586177e36179a810595a33163a20bf\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.021727,\"gas_eth\":0.023485,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract 0x1315 spends 5.947927 WETH in the front leg and gets 17117.445838 USDC. It returns exactly that USDC in the back leg for 5.990038 WETH. The victim sells DAO for USDC on the same DAO/USDC pool (0x4cd3) between the two legs. The WETH gain is +0.042111 and the 0.020384 ETH transfer to 0x99c8 leaves +0.021727. Front and back gas is 0.023485, so the final position is about -0.0018 ETH.\"}",
+ "case_id": "rej53_045",
+ "_time": "2026-10-13T22:02:35+0800"
+}

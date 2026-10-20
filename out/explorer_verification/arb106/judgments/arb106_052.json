@@ -1,0 +1,23 @@
+{
+ "actor": "0x54a9f36e4cb2d0ff596f87e6ecc1e566c97c4878",
+ "pools": [
+  "0x151ccb92bc1ed5c6d0f9adb5cec4763ceb66ac7f",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": null,
+ "profit_token": null,
+ "Q1": "no",
+ "Q1_reason": "other",
+ "Q2": "no",
+ "net_eth": -0.102447,
+ "gas_eth": 0.086204,
+ "residual": "net short about 9.0006 USDC and 0.3845 CETH versus the actor's own inventory; no token received from the zero address by the actor",
+ "confidence": 3,
+ "note": "The actor takes 88.86 WETH from two pools (the FLI/WETH pool and the USDC/WETH pool), unwraps it, mints cETH, and uses that to issue ETH2X-FLI. It also borrows USDC via the FLI contract and cUSDC. The CETH and USDC it handles come from the cETH, cUSDC and FLI contracts rather than from pools, and the FLI is minted straight to the pool, so this is an FLI issuance/mint-and-sell, not a closed pool cycle. The actor's combined ETH/WETH is -0.102447 (paid out to the sender and another address), and the actor ends net short in USDC and CETH, so it is not positive after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0414287,
+ "_session": "1c5939af-9960-4fcb-b028-617d27b5e3d4",
+ "_raw": "{\"actor\":\"0x54a9f36e4cb2d0ff596f87e6ecc1e566c97c4878\",\"pools\":[\"0x151ccb92bc1ed5c6d0f9adb5cec4763ceb66ac7f\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":null,\"profit_token\":null,\"Q1\":\"no\",\"Q1_reason\":\"other\",\"Q2\":\"no\",\"net_eth\":-0.102447,\"gas_eth\":0.086204,\"residual\":\"net short about 9.0006 USDC and 0.3845 CETH versus the actor's own inventory; no token received from the zero address by the actor\",\"confidence\":3,\"note\":\"The actor takes 88.86 WETH from two pools (the FLI/WETH pool and the USDC/WETH pool), unwraps it, mints cETH, and uses that to issue ETH2X-FLI. It also borrows USDC via the FLI contract and cUSDC. The CETH and USDC it handles come from the cETH, cUSDC and FLI contracts rather than from pools, and the FLI is minted straight to the pool, so this is an FLI issuance/mint-and-sell, not a closed pool cycle. The actor's combined ETH/WETH is -0.102447 (paid out to the sender and another address), and the actor ends net short in USDC and CETH, so it is not positive after gas.\"}",
+ "case_id": "arb106_052",
+ "_time": "2026-10-13T22:22:34+0800"
+}

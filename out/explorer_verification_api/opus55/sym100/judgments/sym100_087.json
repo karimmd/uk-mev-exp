@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x7d9c8d888d03df89461c645bd1108ae138b63a2a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.307208,
+ "gas_eth": 0.032541,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xb5917a sells 807641.186241 GLQ for 9.829 WETH on GLQ/WETH pool 0x7d9c8d. The victim then sells 700000 GLQ on the same pool, and 0xb5917a buys back exactly 807641.186241 GLQ for 9.489251 WETH. This is a sell-side bracket on GLQ: net +0.339749 WETH minus 0.032541 ETH gas gives about +0.307 ETH, with GLQ fully restored.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3045,
+  "output_tokens": 652,
+  "thinking_tokens": 349
+ },
+ "_request_id": "req_011CgBSZTc5fLdzHbDzSogdE",
+ "_response_id": "msg_011CgBSZTyR4yYBoAkf3SjgN",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x7d9c8d888d03df89461c645bd1108ae138b63a2a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.307208, \"gas_eth\": 0.032541, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xb5917a sells 807641.186241 GLQ for 9.829 WETH on GLQ/WETH pool 0x7d9c8d. The victim then sells 700000 GLQ on the same pool, and 0xb5917a buys back exactly 807641.186241 GLQ for 9.489251 WETH. This is a sell-side bracket on GLQ: net +0.339749 WETH minus 0.032541 ETH gas gives about +0.307 ETH, with GLQ fully restored.\"}",
+ "case_id": "sym100_087",
+ "_time": "2026-10-19T18:31:06+0800"
+}

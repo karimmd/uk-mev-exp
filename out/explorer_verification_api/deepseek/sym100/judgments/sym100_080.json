@@ -1,0 +1,31 @@
+{
+ "actor": "0xa88b80ff0d43b267f906c106df3c8f098798a702",
+ "pool": "0x18f238a96392a8fabb87065b5129dd00192e6cb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.032596,
+ "gas_eth": 0.029168,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front sold 3937.888624 SHARE for 4.389441 WETH; victim sold SHARE on the same pool; back repurchased the same SHARE amount for 4.327677 WETH. Net WETH gain 0.061764 minus total gas 0.029168 leaves +0.032596 ETH, with no net non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2536,
+  "output_tokens": 9541,
+  "thinking_tokens": 9366
+ },
+ "_request_id": "2270e7884557efcb8b7f643c39646da3",
+ "_response_id": "8a461789-ce7e-4ccf-affe-5487a8736363",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa88b80ff0d43b267f906c106df3c8f098798a702\",\"pool\":\"0x18f238a96392a8fabb87065b5129dd00192e6cb1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.032596,\"gas_eth\":0.029168,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front sold 3937.888624 SHARE for 4.389441 WETH; victim sold SHARE on the same pool; back repurchased the same SHARE amount for 4.327677 WETH. Net WETH gain 0.061764 minus total gas 0.029168 leaves +0.032596 ETH, with no net non-WETH residual.\"}",
+ "case_id": "sym100_080",
+ "_time": "2026-10-19T18:53:37+0800"
+}

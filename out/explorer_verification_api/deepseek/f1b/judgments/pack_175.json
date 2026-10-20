@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000005736775feb0c8568e7dee77222a26880",
+ "pool": "0xc34da1ab0f93dfed30729951dafcfb9ce3e2a9ae",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.067281,
+ "gas_eth": 0.054119,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both trade on the same WETH/XTM Uniswap V2 pool, with the actor contract receiving XTM in front and returning the exact amount in back. WETH proceeds of 0.1214 minus front/back gas of 0.054119 leave a positive net.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3292,
+  "output_tokens": 1448,
+  "thinking_tokens": 1291
+ },
+ "_request_id": "85091e191ffcd4e91ab58e0f3b0011d9",
+ "_response_id": "f20ca7cb-eee8-4bd0-91c2-4763625af668",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000005736775feb0c8568e7dee77222a26880\",\"pool\":\"0xc34da1ab0f93dfed30729951dafcfb9ce3e2a9ae\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.067281,\"gas_eth\":0.054119,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both trade on the same WETH/XTM Uniswap V2 pool, with the actor contract receiving XTM in front and returning the exact amount in back. WETH proceeds of 0.1214 minus front/back gas of 0.054119 leave a positive net.\"}",
+ "case_id": "pack_175",
+ "_time": "2026-10-19T18:33:33+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xb767c20d9773adce84d0f0a5bc64e2f114ad3076",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.018825,
+ "gas_eth": 0.047755,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back use the same economic actor and the shared wOMI/WETH Uniswap V2 pool 0xb767..., with the victim between them. The actor nets +0.06658 WETH before fees and +0.018825 after 0.047755 gas, with no residual wOMI.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2307,
+  "output_tokens": 8468,
+  "thinking_tokens": 8303
+ },
+ "_request_id": "805c0e75952b748a7793f2c1b8b0f78f",
+ "_response_id": "aafb570e-7bfc-4630-ab04-286cba778f6d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xb767c20d9773adce84d0f0a5bc64e2f114ad3076\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.018825,\"gas_eth\":0.047755,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back use the same economic actor and the shared wOMI/WETH Uniswap V2 pool 0xb767..., with the victim between them. The actor nets +0.06658 WETH before fees and +0.018825 after 0.047755 gas, with no residual wOMI.\"}",
+ "case_id": "sym100_073",
+ "_time": "2026-10-19T18:52:14+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x404e716257c4f4bcc43b967514520b98c0c09dd5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 8.5e-05,
+ "gas_eth": 0.008014,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x01ff\u2026 bought 83553.057894 HEART for 4.094420 WETH on pool 0x404e\u2026. The victim then bought HEART on the same pool. In the back leg 0x01ff\u2026 sold exactly the same 83553.057894 HEART for 4.102519 WETH, a gross gain of 0.008099 WETH. After 0.008014 ETH in gas the net is only about +0.000085 ETH; it is thin but still positive within the 6-decimal rounding of the figures shown.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2889,
+  "output_tokens": 515,
+  "thinking_tokens": 217
+ },
+ "_request_id": "req_011CgBRRqmVYDLe5f3bP9XpW",
+ "_response_id": "msg_011CgBRRvhunwzNRDBBufvoG",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x01ff6318440f7d5553a82294d78262d5f5084eff\", \"pool\": \"0x404e716257c4f4bcc43b967514520b98c0c09dd5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000085, \"gas_eth\": 0.008014, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x01ff\u2026 bought 83553.057894 HEART for 4.094420 WETH on pool 0x404e\u2026. The victim then bought HEART on the same pool. In the back leg 0x01ff\u2026 sold exactly the same 83553.057894 HEART for 4.102519 WETH, a gross gain of 0.008099 WETH. After 0.008014 ETH in gas the net is only about +0.000085 ETH; it is thin but still positive within the 6-decimal rounding of the figures shown.\"}",
+ "case_id": "pack_117",
+ "_time": "2026-10-19T18:16:17+0800"
+}

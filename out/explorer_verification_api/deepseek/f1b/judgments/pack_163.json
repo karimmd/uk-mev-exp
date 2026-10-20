@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001998,
+ "gas_eth": 0.028703,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use the UNQT/WETH UniswapV2 pool 0x020e..., with actor 0x1d6e... buying then selling the same 166.047434 UNQT. The victim swaps through that same pool between them, and the WETH profit of 0.030701 minus front/back gas of 0.028703 is positive with no residual UNQT.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2553,
+  "output_tokens": 2464,
+  "thinking_tokens": 2280
+ },
+ "_request_id": "4376bbe51457e2ddceb50659776f39fc",
+ "_response_id": "cae6723e-dfbd-43d3-9c5c-2d555ad80024",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x020e6d0e80d08567ecb14f942fa326748407a845\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.001998,\"gas_eth\":0.028703,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use the UNQT/WETH UniswapV2 pool 0x020e..., with actor 0x1d6e... buying then selling the same 166.047434 UNQT. The victim swaps through that same pool between them, and the WETH profit of 0.030701 minus front/back gas of 0.028703 is positive with no residual UNQT.\"}",
+ "case_id": "pack_163",
+ "_time": "2026-10-19T18:32:01+0800"
+}

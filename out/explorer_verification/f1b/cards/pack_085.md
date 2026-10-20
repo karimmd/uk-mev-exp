@@ -1,0 +1,115 @@
+# pack_085
+
+Block 11910454. Three transactions in block order: front, victim, back. Evidence is what two public explorers return for each hash.
+
+### Front leg: `0x58e45644829a67f783363b0923b504ad8d82843cec6385f77999a83cc9dc14a5`
+- block 11910454, position 28, result success, from `0xf55d84504217542d4f39d9bf9a70342744836007`, to `0x111111125434b319222cdbf8c261674adb56f3ae`, value 0.000000 ETH, gas used 1117251 at 266.0 gwei, fee 0.297189 ETH
+- token transfers (Blockscout, decoded):
+  - 40000.000000 UNI (`0x1f9840a8`): `0xf55d84504217542d4f39d9bf9a70342744836007` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 29.688000 WETH (`0xc02aaa39`): `0x56178a0d5f301baf6cf3e1cd53d9863437345bf9` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 2000.000000 UNI (`0x1f9840a8`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0x56178a0d5f301baf6cf3e1cd53d9863437345bf9`
+  - 2000.000000 UNI (`0x1f9840a8`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0xbed340a301b4f07fa7b61ab9e0767faa172f530d`
+  - 29.388550 WETH (`0xc02aaa39`): `0xbed340a301b4f07fa7b61ab9e0767faa172f530d` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 4000.000000 UNI (`0x1f9840a8`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0xdafd66636e2561b0284edde37e42d192f2844d40`
+  - 59.208148 WETH (`0xc02aaa39`): `0xdafd66636e2561b0284edde37e42d192f2844d40` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 32000.000000 UNI (`0x1f9840a8`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0xd3d2e2692501a5c9ca623199d38826e513033a17`
+  - 471.801041 WETH (`0xc02aaa39`): `0xd3d2e2692501a5c9ca623199d38826e513033a17` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 251420.781398 USDT (`0xdac17f95`): `0x56178a0d5f301baf6cf3e1cd53d9863437345bf9` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 147.521435 WETH (`0xc02aaa39`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0x56178a0d5f301baf6cf3e1cd53d9863437345bf9`
+  - 206.530009 WETH (`0xc02aaa39`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852`
+  - 351874.932696 USDT (`0xdac17f95`): `0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 236.034296 WETH (`0xc02aaa39`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0x06da0fd433c1a5d7a4faa01111c044910a184553`
+  - 402747.042841 USDT (`0xdac17f95`): `0x06da0fd433c1a5d7a4faa01111c044910a184553` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 1005925.130569 USDC (`0xa0b86991`): `0xc9f93163c99695c6526b799ebca2207fdf7d61ad` -> `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71`
+  - 1006042.756935 USDT (`0xdac17f95`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0xc9f93163c99695c6526b799ebca2207fdf7d61ad`
+  - 1005925.130569 USDC (`0xa0b86991`): `0xe069cb01d06ba617bcdf789bf2ff0d5e5ca20c71` -> `0xf55d84504217542d4f39d9bf9a70342744836007`
+- internal ETH transfers (Etherscan):
+  - none with value
+- events in the receipt (Etherscan), by emitting contract:
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Transfer
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Approval
+  - `0x080bf510fcbf18b91105470639e9561022937712` other
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Approval
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Transfer
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Approval
+  - `0xbed340a301b4f07fa7b61ab9e0767faa172f530d` other
+  - `0xbed340a301b4f07fa7b61ab9e0767faa172f530d` other
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Approval
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Transfer
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Transfer
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0xdafd66636e2561b0284edde37e42d192f2844d40` UniswapV2 Sync
+  - `0xdafd66636e2561b0284edde37e42d192f2844d40` UniswapV2 Swap
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Transfer
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0xd3d2e2692501a5c9ca623199d38826e513033a17` UniswapV2 Sync
+  - `0xd3d2e2692501a5c9ca623199d38826e513033a17` UniswapV2 Swap
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Approval
+  - `0x080bf510fcbf18b91105470639e9561022937712` other
+  - `0xdac17f958d2ee523a2206206994597c13d831ec7` Transfer
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0xdac17f958d2ee523a2206206994597c13d831ec7` Transfer
+  - `0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852` UniswapV2 Sync
+  - `0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852` UniswapV2 Swap
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0xdac17f958d2ee523a2206206994597c13d831ec7` Transfer
+  - `0x06da0fd433c1a5d7a4faa01111c044910a184553` UniswapV2 Sync
+  - `0x06da0fd433c1a5d7a4faa01111c044910a184553` UniswapV2 Swap
+  - `0xdac17f958d2ee523a2206206994597c13d831ec7` Approval
+  - `0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48` Transfer
+  - `0xdac17f958d2ee523a2206206994597c13d831ec7` Transfer
+  - `0xc9f93163c99695c6526b799ebca2207fdf7d61ad` other
+  - `0xc9f93163c99695c6526b799ebca2207fdf7d61ad` other
+  - `0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48` Transfer
+  - `0x111111125434b319222cdbf8c261674adb56f3ae` other
+- receipt status 1, index 28
+
+### Victim leg: `0x6a816f1178ffac109ea26d8b958283471d95d8914bae1f9ddc03b9811ac8d2f5`
+- block 11910454, position 31, result success, from `0x3e3579f4c17b837ccb01a13eb8389878f5cfad29`, to `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8`, value 0.000000 ETH, gas used 502817 at 266.0 gwei, fee 0.133749 ETH
+- token transfers (Blockscout, decoded):
+  - 24.890170 WETH (`0xc02aaa39`): `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8` -> `0x0000000000000000000000000000000000000000`
+  - 24.890170 WETH (`0xc02aaa39`): `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8` -> `0xd3d2e2692501a5c9ca623199d38826e513033a17`
+  - 1687.006628 UNI (`0x1f9840a8`): `0xd3d2e2692501a5c9ca623199d38826e513033a17` -> `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8`
+  - 1687.006628 UNI (`0x1f9840a8`): `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8` -> `0x17ac188e09a7890a1844e5e65471fe8b0ccfadf3`
+  - 1447.329349 LINK (`0x51491077`): `0x17ac188e09a7890a1844e5e65471fe8b0ccfadf3` -> `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8`
+  - 1447.329349 LINK (`0x51491077`): `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8` -> `0xc40d16476380e4037e6b1a2594caf6a6cc8da967`
+  - 25.113034 WETH (`0xc02aaa39`): `0xc40d16476380e4037e6b1a2594caf6a6cc8da967` -> `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8`
+  - 25.113034 WETH (`0xc02aaa39`): `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8` -> `0x0000000000000000000000000000000000000000`
+- internal ETH transfers (Etherscan):
+  - 24.890170 ETH: `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8` -> `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` [call]
+  - 25.113034 ETH: `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` -> `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8` [call]
+- events in the receipt (Etherscan), by emitting contract:
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` WETH Deposit 24.890170 ETH for `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8`
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Transfer
+  - `0xd3d2e2692501a5c9ca623199d38826e513033a17` UniswapV2 Sync
+  - `0xd3d2e2692501a5c9ca623199d38826e513033a17` UniswapV2 Swap
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Approval
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Approval
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Transfer
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` other
+  - `0x514910771af9ca656af840dff83e8264ecf986ca` Transfer
+  - `0x17ac188e09a7890a1844e5e65471fe8b0ccfadf3` other
+  - `0x514910771af9ca656af840dff83e8264ecf986ca` Transfer
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0xc40d16476380e4037e6b1a2594caf6a6cc8da967` UniswapV2 Sync
+  - `0xc40d16476380e4037e6b1a2594caf6a6cc8da967` UniswapV2 Swap
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` WETH Withdrawal 25.113034 ETH for `0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8`
+- receipt status 1, index 31
+
+### Back leg: `0x74da9795316ea14270ba30e37721e084453b92d7b578fbc65647a23caba21853`
+- block 11910454, position 37, result success, from `0xd68fe83d3834bf35c6e1aa8a9d81c56249a61881`, to `0xa57bd00134b2850b2a1c55860c9e9ea100fdd6cf`, value 0.000000 ETH, gas used 79362 at 266.0 gwei, fee 0.021110 ETH
+- token transfers (Blockscout, decoded):
+  - 26.081172 WETH (`0xc02aaa39`): `0x56178a0d5f301baf6cf3e1cd53d9863437345bf9` -> `0xd3d2e2692501a5c9ca623199d38826e513033a17`
+  - 1762.475705 UNI (`0x1f9840a8`): `0xd3d2e2692501a5c9ca623199d38826e513033a17` -> `0x56178a0d5f301baf6cf3e1cd53d9863437345bf9`
+- internal ETH transfers (Etherscan):
+  - none with value
+- events in the receipt (Etherscan), by emitting contract:
+  - `0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2` Transfer
+  - `0x1f9840a85d5af5bf1d1762f925bdaddc4201f984` Transfer
+  - `0xd3d2e2692501a5c9ca623199d38826e513033a17` UniswapV2 Sync
+  - `0xd3d2e2692501a5c9ca623199d38826e513033a17` UniswapV2 Swap
+- receipt status 1, index 37

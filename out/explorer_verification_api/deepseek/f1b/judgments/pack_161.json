@@ -1,0 +1,31 @@
+{
+ "actor": "0xf1971b9c48538b6240fe6d5b647aafda7ef86863",
+ "pool": "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.088862,
+ "gas_eth": 0.010347,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same EOA is the actor and the pool is shared, but the front leg sells YLD and the back leg buys the same YLD, so the non-WETH position is closed then reopened rather than opened then closed. Net WETH before gas is +0.088862; after gas it is +0.078515.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2407,
+  "output_tokens": 7708,
+  "thinking_tokens": 7542
+ },
+ "_request_id": "059c7f39d07a8685249304256a748453",
+ "_response_id": "518b4c18-07a1-4407-8680-3b15987e9d3a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf1971b9c48538b6240fe6d5b647aafda7ef86863\",\"pool\":\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.088862,\"gas_eth\":0.010347,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same EOA is the actor and the pool is shared, but the front leg sells YLD and the back leg buys the same YLD, so the non-WETH position is closed then reopened rather than opened then closed. Net WETH before gas is +0.088862; after gas it is +0.078515.\"}",
+ "case_id": "pack_161",
+ "_time": "2026-10-19T18:32:15+0800"
+}

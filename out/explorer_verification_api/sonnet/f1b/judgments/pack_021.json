@@ -1,0 +1,31 @@
+{
+ "actor": "0x66f049111958809841bbe4b81c034da2d953aa0c",
+ "pool": "0x82dbc2673e9640343d263a3c55de49021ad39ae2",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.011613,
+ "gas_eth": 0.012374,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 29779.520984 EDEN for 57.772711 WETH in the front leg. The victim bought EDEN on the same pool, and the actor sold the same EDEN back for 57.788830 WETH, a WETH gain of 0.016119. The back leg's 0.004506 ETH value was forwarded to 0x5a0b54d5, which I treated as a cost, leaving 0.011613 ETH before gas. Gas of about 0.012374 ETH across the two legs makes the final result about -0.00076 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2977,
+  "output_tokens": 861,
+  "thinking_tokens": 562
+ },
+ "_request_id": "req_011CgBQFBJKwRrYsNbPNvLLy",
+ "_response_id": "msg_011CgBQFH6LFAwyqHGUavxkf",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x66f049111958809841bbe4b81c034da2d953aa0c\",\"pool\":\"0x82dbc2673e9640343d263a3c55de49021ad39ae2\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.011613,\"gas_eth\":0.012374,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 29779.520984 EDEN for 57.772711 WETH in the front leg. The victim bought EDEN on the same pool, and the actor sold the same EDEN back for 57.788830 WETH, a WETH gain of 0.016119. The back leg's 0.004506 ETH value was forwarded to 0x5a0b54d5, which I treated as a cost, leaving 0.011613 ETH before gas. Gas of about 0.012374 ETH across the two legs makes the final result about -0.00076 ETH.\"}",
+ "case_id": "pack_021",
+ "_time": "2026-10-19T18:00:47+0800"
+}

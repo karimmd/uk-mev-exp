@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.035459,
+ "residual": "front 0xfdf400... holds 28470.711815 MXS; back 0xfc8e48... holds 25565.296828 MXS",
+ "confidence": 5,
+ "note": "All three legs trade the same MXS/WETH Uniswap V2 pool, but the front and back legs are both WETH-to-MXS buys by different addresses, so no single actor opens and closes a position. Q2 cannot be signed because there is no single actor and residual MXS holdings remain.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3008,
+  "output_tokens": 4806,
+  "thinking_tokens": 4633
+ },
+ "_request_id": "3c184fbecd704ef9a0bfa978787fc80d",
+ "_response_id": "6a28343f-5795-484b-877e-44dab58c3f05",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":0.035459,\"residual\":\"front 0xfdf400... holds 28470.711815 MXS; back 0xfc8e48... holds 25565.296828 MXS\",\"confidence\":5,\"note\":\"All three legs trade the same MXS/WETH Uniswap V2 pool, but the front and back legs are both WETH-to-MXS buys by different addresses, so no single actor opens and closes a position. Q2 cannot be signed because there is no single actor and residual MXS holdings remain.\"}",
+ "case_id": "pack_050",
+ "_time": "2026-10-19T18:11:05+0800"
+}

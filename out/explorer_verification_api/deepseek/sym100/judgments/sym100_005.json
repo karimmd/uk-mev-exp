@@ -1,0 +1,31 @@
+{
+ "actor": "0x0724ee5d148584c39425af7777a12bab54fa880a",
+ "pool": "0x9dc696f1067a6b9929986283f6d316be9c9198fd",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.093616,
+ "gas_eth": 0.020745,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front leg sells 10112.294722 BONDLY for 3.247220 WETH; back leg buys back the same BONDLY for 3.153604 WETH, netting +0.093616 WETH before gas. After 0.020745 ETH gas, net is +0.072871 ETH with no residual BONDLY. However, the actor closes a BONDLY position in front and reopens it in back, so it does not open in front and close in back as required for Q1.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2288,
+  "output_tokens": 9015,
+  "thinking_tokens": 8805
+ },
+ "_request_id": "b2810a06f4b788c9778ba9f5a98fc72a",
+ "_response_id": "469339ea-9c7a-41e3-91e4-a62e2e3cb255",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0724ee5d148584c39425af7777a12bab54fa880a\",\"pool\":\"0x9dc696f1067a6b9929986283f6d316be9c9198fd\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.093616,\"gas_eth\":0.020745,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front leg sells 10112.294722 BONDLY for 3.247220 WETH; back leg buys back the same BONDLY for 3.153604 WETH, netting +0.093616 WETH before gas. After 0.020745 ETH gas, net is +0.072871 ETH with no residual BONDLY. However, the actor closes a BONDLY position in front and reopens it in back, so it does not open in front and close in back as required for Q1.\"}",
+ "case_id": "sym100_005",
+ "_time": "2026-10-19T18:39:00+0800"
+}

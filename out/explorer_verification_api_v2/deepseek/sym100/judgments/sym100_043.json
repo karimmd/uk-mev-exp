@@ -1,0 +1,32 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.046858,
+ "gas_eth": 0.005269,
+ "profit_after_gas": 0.041589,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x4aeefe sold JEJUDOGE for WETH in the front leg and bought the same JEJUDOGE amount back for less WETH in the back leg on the same UniswapV2 pool the victim traded. Net WETH gain exceeds the front and back gas fees, with no residual JEJUDOGE change.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2501,
+  "output_tokens": 3219,
+  "thinking_tokens": 3028
+ },
+ "_request_id": "c9d5e999fe4db1a99b073f1ab75e668b",
+ "_response_id": "989a79a3-56ce-4639-ab74-bd6cf1c50a81",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\",\"pool\":\"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.046858,\"gas_eth\":0.005269,\"profit_after_gas\":0.041589,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x4aeefe sold JEJUDOGE for WETH in the front leg and bought the same JEJUDOGE amount back for less WETH in the back leg on the same UniswapV2 pool the victim traded. Net WETH gain exceeds the front and back gas fees, with no residual JEJUDOGE change.\"}",
+ "case_id": "sym100_043",
+ "_time": "2026-10-19T19:32:42+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0xb264dc9d22ece51aaa6028c5cbf2738b684560d6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.05011,
+ "gas_eth": 0.046169,
+ "profit_after_gas": 0.003941,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract receives NEWO in the front leg and sends exactly that NEWO amount back in the back leg, while the victim trades through the same NEWO/USDC pool in between. Net WETH gain is 1.280652 - 1.230542 = 0.050110, which remains positive after front and back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2430,
+  "output_tokens": 1420,
+  "thinking_tokens": 1240
+ },
+ "_request_id": "653f518cad22de28461b94523c8fe19c",
+ "_response_id": "e7dcd125-392a-41f0-9f0c-1618471c4d9f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0xb264dc9d22ece51aaa6028c5cbf2738b684560d6\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.050110,\"gas_eth\":0.046169,\"profit_after_gas\":0.003941,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract receives NEWO in the front leg and sends exactly that NEWO amount back in the back leg, while the victim trades through the same NEWO/USDC pool in between. Net WETH gain is 1.280652 - 1.230542 = 0.050110, which remains positive after front and back gas fees.\"}",
+ "case_id": "rej53_040",
+ "_time": "2026-10-19T19:45:16+0800"
+}

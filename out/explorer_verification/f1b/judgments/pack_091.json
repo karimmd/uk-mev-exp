@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0x7fd1de95fc975fbbd8be260525758549ec477960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.216159,
+ "gas_eth": 0.049841,
+ "residual": "about 2,515,473 HOGE (125,816,053.44 bought minus 123,300,580.24 sold), roughly 0.2 ETH at the back-leg price",
+ "confidence": 4,
+ "note": "The same contract actor buys HOGE with 9.479658 WETH in the front leg and sells HOGE for 9.695817 WETH in the back leg. The victim's USDC->WETH->HOGE swap passes through the same HOGE/WETH pool between them. WETH net is +0.216159, or +0.166318 after 0.049841 ETH of gas. The leftover HOGE is a positive holding, so it does not change the sign, though a transfer fee on HOGE could account for part of the difference between amounts bought and sold.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0219167,
+ "_session": "f6dad4e0-fae0-4961-b3a1-feeb181d2ddd",
+ "_raw": "{\"actor\": \"0x00000000c9fdd743c60055c0e4ea30d266272c1f\", \"pool\": \"0x7fd1de95fc975fbbd8be260525758549ec477960\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.216159, \"gas_eth\": 0.049841, \"residual\": \"about 2,515,473 HOGE (125,816,053.44 bought minus 123,300,580.24 sold), roughly 0.2 ETH at the back-leg price\", \"confidence\": 4, \"note\": \"The same contract actor buys HOGE with 9.479658 WETH in the front leg and sells HOGE for 9.695817 WETH in the back leg. The victim's USDC->WETH->HOGE swap passes through the same HOGE/WETH pool between them. WETH net is +0.216159, or +0.166318 after 0.049841 ETH of gas. The leftover HOGE is a positive holding, so it does not change the sign, though a transfer fee on HOGE could account for part of the difference between amounts bought and sold.\"}",
+ "case_id": "pack_091",
+ "_time": "2026-10-13T20:22:26+0800"
+}

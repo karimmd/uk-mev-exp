@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0x3f61171b1297f6e512c750c172ba86026ab0e820",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.102199,
+ "gas_eth": 0.067601,
+ "profit_after_gas": 0.034598,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys USDC on the shared FLEX/USDC V2 pool in the front and sells it back after the victim's trade. Net WETH gain before gas is 0.102199 ETH; after front/back gas it remains positive, with no residual FLEX/USDC.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2605,
+  "output_tokens": 7170,
+  "thinking_tokens": 7001
+ },
+ "_request_id": "f8bead4a5ce6032d138f391bc38c7c0a",
+ "_response_id": "a492041c-7155-4dcb-aac5-0e8c45afaec1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000081c57cbc967248bea482c417207e84cffb\",\"pool\":\"0x3f61171b1297f6e512c750c172ba86026ab0e820\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.102199,\"gas_eth\":0.067601,\"profit_after_gas\":0.034598,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract buys USDC on the shared FLEX/USDC V2 pool in the front and sells it back after the victim's trade. Net WETH gain before gas is 0.102199 ETH; after front/back gas it remains positive, with no residual FLEX/USDC.\"}",
+ "case_id": "pack_177",
+ "_time": "2026-10-19T19:25:28+0800"
+}

@@ -1,0 +1,26 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
+  "0xbb2b8038a1640196fbe3e38816f3e67cba72d940",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+  "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.047675,
+ "gas_eth": 0.042814,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH-in/WETH-out routes. The first goes V3 WBTC/WETH to V2 WBTC/WETH, with WBTC moved pool to pool, and nets +0.020953 WETH. The second goes V3 USDC/WETH to V2 USDC/HEX to V2 HEX/WETH and nets +0.026722 WETH. The actor holds no other tokens, so the gross gain is 0.047675 WETH. After the 0.042814 ETH gas fee, the net is about +0.004861 ETH. The WETH closes the cycle but also carries the profit, so the 'nets to about zero' test is only loosely met.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026160799999999998,
+ "_session": "5643ead0-8e7e-4c13-bc82-d8f9bdd022dc",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\", \"0xbb2b8038a1640196fbe3e38816f3e67cba72d940\", \"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\", \"0x55d5c232d921b9eaa6b37b5845e439acd04b4dba\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.047675, \"gas_eth\": 0.042814, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two WETH-in/WETH-out routes. The first goes V3 WBTC/WETH to V2 WBTC/WETH, with WBTC moved pool to pool, and nets +0.020953 WETH. The second goes V3 USDC/WETH to V2 USDC/HEX to V2 HEX/WETH and nets +0.026722 WETH. The actor holds no other tokens, so the gross gain is 0.047675 WETH. After the 0.042814 ETH gas fee, the net is about +0.004861 ETH. The WETH closes the cycle but also carries the profit, so the 'nets to about zero' test is only loosely met.\"}",
+ "case_id": "arb106_069",
+ "_time": "2026-10-13T22:26:11+0800"
+}

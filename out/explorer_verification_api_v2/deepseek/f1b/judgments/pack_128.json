@@ -1,0 +1,32 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.052961,
+ "gas_eth": 0.011798,
+ "profit_after_gas": 0.041163,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x42d0... buys 2765.9853 CEL in the front leg and sells exactly that amount in the back leg on the same UniswapV2 pool the victim trades on. ETH/WETH net is +0.052961 before gas, leaving positive profit after front and back gas costs.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2739,
+  "output_tokens": 5874,
+  "thinking_tokens": 5692
+ },
+ "_request_id": "4a811bfadb1c8b7af5eab7973f7c7dc8",
+ "_response_id": "71596411-3424-424b-825e-72a19f1ab378",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\",\"pool\":\"0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.052961,\"gas_eth\":0.011798,\"profit_after_gas\":0.041163,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x42d0... buys 2765.9853 CEL in the front leg and sells exactly that amount in the back leg on the same UniswapV2 pool the victim trades on. ETH/WETH net is +0.052961 before gas, leaving positive profit after front and back gas costs.\"}",
+ "case_id": "pack_128",
+ "_time": "2026-10-19T19:20:13+0800"
+}

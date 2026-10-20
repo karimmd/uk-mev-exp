@@ -1,0 +1,24 @@
+{
+ "actor": "0x00000000000123685885532dcb685c442dc83126",
+ "pools": [
+  "0xb8fce31f3dd2f0de6823575f1d35da4a306a5777",
+  "0xd4981ed8892cacc135192385de05b19684231e74",
+  "0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79"
+ ],
+ "cycle_token": "SST",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.012438,
+ "gas_eth": 0.008805,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor takes USDT and SST from two pools. It pays USDT to the V3 pool and SST to the two V2 pools. SST and USDT both net to zero. The only positive token is 0.080927 WETH, which it unwraps to ETH. It sends 0.059684 ETH to 0xe206\u20268fd0, probably a miner tip, and 0.021243 ETH to the sender. The contract nets zero. The sender nets 0.021243 \u2212 0.008805 gas = +0.012438 ETH, so I treated sender and contract as one operator.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0274012,
+ "_session": "e33e497d-4e90-4291-b976-11835d986981",
+ "_raw": "{\"actor\":\"0x00000000000123685885532dcb685c442dc83126\",\"pools\":[\"0xb8fce31f3dd2f0de6823575f1d35da4a306a5777\",\"0xd4981ed8892cacc135192385de05b19684231e74\",\"0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79\"],\"cycle_token\":\"SST\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.012438,\"gas_eth\":0.008805,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor takes USDT and SST from two pools. It pays USDT to the V3 pool and SST to the two V2 pools. SST and USDT both net to zero. The only positive token is 0.080927 WETH, which it unwraps to ETH. It sends 0.059684 ETH to 0xe206\u20268fd0, probably a miner tip, and 0.021243 ETH to the sender. The contract nets zero. The sender nets 0.021243 \u2212 0.008805 gas = +0.012438 ETH, so I treated sender and contract as one operator.\"}",
+ "case_id": "arb106_039",
+ "_time": "2026-10-13T22:19:31+0800"
+}

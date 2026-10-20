@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xaec21057bb0c910c22f6f6db64ae6743e96718b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.492079,
+ "gas_eth": 0.035149,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 2999.802063 DWZ for 15.137 WETH before the victim, who also sells DWZ on the same pool. It then buys back exactly 2999.802063 DWZ for 14.644921 WETH after the victim. This is a sell-first, buy-back-later bracket, so the DWZ position is short or from prior inventory rather than bought first. The WETH net is +0.492079, and after 0.035149 ETH of gas it is about +0.45693 ETH. The DWZ nets to zero across the two legs.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3015,
+  "output_tokens": 997,
+  "thinking_tokens": 696
+ },
+ "_request_id": "req_011CgBS4DaupM39BnbjT8Ad1",
+ "_response_id": "msg_011CgBS4DwzDBNLTY1NTuM1j",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xaec21057bb0c910c22f6f6db64ae6743e96718b4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.492079,\"gas_eth\":0.035149,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells 2999.802063 DWZ for 15.137 WETH before the victim, who also sells DWZ on the same pool. It then buys back exactly 2999.802063 DWZ for 14.644921 WETH after the victim. This is a sell-first, buy-back-later bracket, so the DWZ position is short or from prior inventory rather than bought first. The WETH net is +0.492079, and after 0.035149 ETH of gas it is about +0.45693 ETH. The DWZ nets to zero across the two legs.\"}",
+ "case_id": "sym100_028",
+ "_time": "2026-10-19T18:24:33+0800"
+}

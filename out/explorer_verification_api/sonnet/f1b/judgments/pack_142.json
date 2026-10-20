@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045506,
+ "gas_eth": 0.040054,
+ "residual": "about 687.89 DRIP (34394.678763 bought minus 33706.785188 sold)",
+ "confidence": 4,
+ "note": "The same contract buys DRIP with 0.172002 WETH in the front leg and sells 33706.79 DRIP for 0.217508 WETH in the back leg. The victim buys DRIP on that same DRIP/WETH pool in between. WETH gain is 0.045506, minus front gas of 0.040054 (back gas is shown as 0), leaves about +0.005452 ETH, and the leftover DRIP only adds to that, so the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3387,
+  "output_tokens": 810,
+  "thinking_tokens": 502
+ },
+ "_request_id": "req_011CgBRZqrfwsXTABdwBroPc",
+ "_response_id": "msg_011CgBRZw7SgS2Y1nGA9TX2b",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.045506,\"gas_eth\":0.040054,\"residual\":\"about 687.89 DRIP (34394.678763 bought minus 33706.785188 sold)\",\"confidence\":4,\"note\":\"The same contract buys DRIP with 0.172002 WETH in the front leg and sells 33706.79 DRIP for 0.217508 WETH in the back leg. The victim buys DRIP on that same DRIP/WETH pool in between. WETH gain is 0.045506, minus front gas of 0.040054 (back gas is shown as 0), leaves about +0.005452 ETH, and the leftover DRIP only adds to that, so the sign is positive.\"}",
+ "case_id": "pack_142",
+ "_time": "2026-10-19T18:18:06+0800"
+}

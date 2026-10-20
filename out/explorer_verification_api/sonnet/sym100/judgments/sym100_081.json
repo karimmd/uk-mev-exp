@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.086303,
+ "gas_eth": 0.072341,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor routes WETH -> token 0x892a on pool 0x43a7, then token 0x892a -> WETH on pool 0xab2d, so the token goes pool to pool and the actor holds none of it. The victim also sells 0x892a into pool 0xab2d between the legs, and the back leg reverses both swaps. WETH net is -0.041397 on the front plus +0.127700 on the back, which is +0.086303. Gas is 0.072341, leaving about +0.01396 ETH. The bracket is unusual because it is a two-pool cycle, so I am not fully certain it is a classic sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3121,
+  "output_tokens": 1381,
+  "thinking_tokens": 1053
+ },
+ "_request_id": "req_011CgBSNpWdCvFCFXHs1RxC7",
+ "_response_id": "msg_011CgBSNqpkzstFqqvWakdDB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000d41c96294ccdac8612bdfe29c641af\",\"pool\":\"0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.086303,\"gas_eth\":0.072341,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor routes WETH -> token 0x892a on pool 0x43a7, then token 0x892a -> WETH on pool 0xab2d, so the token goes pool to pool and the actor holds none of it. The victim also sells 0x892a into pool 0xab2d between the legs, and the back leg reverses both swaps. WETH net is -0.041397 on the front plus +0.127700 on the back, which is +0.086303. Gas is 0.072341, leaving about +0.01396 ETH. The bracket is unusual because it is a two-pool cycle, so I am not fully certain it is a classic sandwich.\"}",
+ "case_id": "sym100_081",
+ "_time": "2026-10-19T18:28:48+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xad698190cca1bd50263a6358ffac7c6f0460886f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.208818,
+ "gas_eth": 0.00017,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor 0xf6da\u2026 paid 1.420858 WETH for 47.24T CAT in the front leg. The victim then bought CAT on the same pool, and the actor sold exactly the same CAT amount back in the back leg for 1.629676 WETH. Net WETH is +0.208818 before gas and about +0.208648 after gas of about 0.00017 ETH, with no CAT left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2867,
+  "output_tokens": 646,
+  "thinking_tokens": 396
+ },
+ "_request_id": "req_011CgBSYhTk4urtRkU7sbeVf",
+ "_response_id": "msg_011CgBSYhumw6KwuEW8y85xn",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0xad698190cca1bd50263a6358ffac7c6f0460886f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.208818,\"gas_eth\":0.00017,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor 0xf6da\u2026 paid 1.420858 WETH for 47.24T CAT in the front leg. The victim then bought CAT on the same pool, and the actor sold exactly the same CAT amount back in the back leg for 1.629676 WETH. Net WETH is +0.208818 before gas and about +0.208648 after gas of about 0.00017 ETH, with no CAT left over.\"}",
+ "case_id": "rej53_009",
+ "_time": "2026-10-19T18:30:55+0800"
+}

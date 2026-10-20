@@ -1,0 +1,17 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.097412,
+ "gas_eth": 0.000208,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The sender 0xf6da buys 30967.458211 UCT with 2.0008 WETH on pool 0x7e02 in the front leg. The victim then buys 46443 UCT on the same pool. The back leg sells exactly 30967.458211 UCT for 2.098212 WETH, so the UCT position is fully closed. Net is +0.097412 WETH. After 0.000208 ETH of gas the profit is about 0.097204 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0237892,
+ "_session": "7a1f6f73-0a0a-49c1-903b-d8a8a41552ae",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.097412, \"gas_eth\": 0.000208, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The sender 0xf6da buys 30967.458211 UCT with 2.0008 WETH on pool 0x7e02 in the front leg. The victim then buys 46443 UCT on the same pool. The back leg sells exactly 30967.458211 UCT for 2.098212 WETH, so the UCT position is fully closed. Net is +0.097412 WETH. After 0.000208 ETH of gas the profit is about 0.097204 ETH.\"}",
+ "case_id": "pack_102",
+ "_time": "2026-10-13T20:24:32+0800"
+}

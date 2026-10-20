@@ -1,0 +1,32 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.025172,
+ "gas_eth": 0,
+ "profit_after_gas": 0.025172,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives USDC in the front leg and spends it in the back leg on the same EXRD/USDC pool used by the victim. Net WETH gain is 0.052993 WETH less a 0.027821 ETH internal transfer, with zero gas, yielding 0.025172 ETH. No non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3042,
+  "output_tokens": 5502,
+  "thinking_tokens": 5321
+ },
+ "_request_id": "c1f16d60f9737c89a7f66e7d7d756499",
+ "_response_id": "6e04bb4a-beef-4398-a04e-b92fe5783692",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.025172,\"gas_eth\":0,\"profit_after_gas\":0.025172,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives USDC in the front leg and spends it in the back leg on the same EXRD/USDC pool used by the victim. Net WETH gain is 0.052993 WETH less a 0.027821 ETH internal transfer, with zero gas, yielding 0.025172 ETH. No non-WETH residual remains.\"}",
+ "case_id": "rej53_053",
+ "_time": "2026-10-19T19:46:55+0800"
+}

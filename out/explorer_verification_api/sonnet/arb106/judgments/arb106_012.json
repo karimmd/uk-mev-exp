@@ -1,0 +1,40 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x9437ad40056ca3ec2fc1efe41885ad4b6ac46061",
+  "0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de",
+  "0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8",
+  "0x559ebe4e206e6b4d50e9bd3008cda7ce640c52cb",
+  "0x47841ec00564a33402f16b876ed148b52dfbe188"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.005975,
+ "gas_eth": 0.005864,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two closed WETH cycles. The first is WETH->NU (V2 pool 0x3a8a)->RNG (V3 pool 0x3ce4)->WETH (V3 pool 0x9437), netting +0.003384. The second is WETH->RADAR->WETH between V3 pool 0x4784 and V2 pool 0x559e, netting +0.002591. Gross WETH gain is 0.005975 against a 0.005864 gas fee, leaving about +0.000111 ETH, which is thin but positive. The actor holds no other tokens at the end.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2550,
+  "output_tokens": 1269,
+  "thinking_tokens": 788
+ },
+ "_request_id": "req_011CgBSrcBFUKeHkNjvs6hJ4",
+ "_response_id": "msg_011CgBSrcgkrvRa4tLHyCEAd",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x9437ad40056ca3ec2fc1efe41885ad4b6ac46061\",\"0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de\",\"0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8\",\"0x559ebe4e206e6b4d50e9bd3008cda7ce640c52cb\",\"0x47841ec00564a33402f16b876ed148b52dfbe188\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.005975,\"gas_eth\":0.005864,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor runs two closed WETH cycles. The first is WETH->NU (V2 pool 0x3a8a)->RNG (V3 pool 0x3ce4)->WETH (V3 pool 0x9437), netting +0.003384. The second is WETH->RADAR->WETH between V3 pool 0x4784 and V2 pool 0x559e, netting +0.002591. Gross WETH gain is 0.005975 against a 0.005864 gas fee, leaving about +0.000111 ETH, which is thin but positive. The actor holds no other tokens at the end.\"}",
+ "case_id": "arb106_012",
+ "_time": "2026-10-19T18:35:02+0800"
+}

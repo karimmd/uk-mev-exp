@@ -1,0 +1,31 @@
+{
+ "actor": "0x38f2e4e2e33c81998b20989513e124e9d568f365",
+ "pool": "0x1812ef69e1753f908229df40d304a5fbdcd52dd3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.139598,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys FORTH on the FORTH/USDT pool (via the WETH/USDT pool) in the front leg, the victim buys FORTH on the same pool, and the actor sells the identical 365.683852 FORTH in the back leg. WETH goes from 12.150242 out to 13.669706 in, a gain of 1.519464, minus a 0.379866 ETH internal transfer to 0x04668e\u2026 (likely a miner payment), giving 1.139598 ETH. Both legs show a 0 gwei gas price, so their fees are 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3971,
+  "output_tokens": 716,
+  "thinking_tokens": 411
+ },
+ "_request_id": "req_011CgBQ4PLZfT2ofBW2Pf8gG",
+ "_response_id": "msg_011CgBQ4WGH8v3LqWaYHFQzB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x38f2e4e2e33c81998b20989513e124e9d568f365\",\"pool\":\"0x1812ef69e1753f908229df40d304a5fbdcd52dd3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.139598,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys FORTH on the FORTH/USDT pool (via the WETH/USDT pool) in the front leg, the victim buys FORTH on the same pool, and the actor sells the identical 365.683852 FORTH in the back leg. WETH goes from 12.150242 out to 13.669706 in, a gain of 1.519464, minus a 0.379866 ETH internal transfer to 0x04668e\u2026 (likely a miner payment), giving 1.139598 ETH. Both legs show a 0 gwei gas price, so their fees are 0.\"}",
+ "case_id": "pack_005",
+ "_time": "2026-10-19T17:58:19+0800"
+}

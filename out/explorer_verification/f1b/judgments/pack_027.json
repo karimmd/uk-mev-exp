@@ -1,0 +1,17 @@
+{
+ "actor": "0xa1fac94eabbc27715a022a96009babfb4a49fb5d",
+ "pool": "0xfac2c7bc156c2c764ea21def2262ec2131100ab1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.16272,
+ "gas_eth": 0.030145,
+ "residual": "about 170,704,890 RAKUC (8663724207.61 bought minus 8493019317.09 sold)",
+ "confidence": 4,
+ "note": "The same contract (0xa1fa\u2026) buys RAKUC on pool 0xfac2\u2026 in the front leg and sells RAKUC back to it in the back leg. The victim's WETH->RAKUC swap on that pool sits between them. The actor takes in 1.717745 WETH and pays 1.555025, so +0.16272 ETH before gas. After 0.030145 ETH of gas that is about +0.1326 ETH. The leftover RAKUC is a positive holding, so it cannot flip the sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.030291199999999997,
+ "_session": "de126262-d640-4f59-bee1-53331c6f154a",
+ "_raw": "{\"actor\":\"0xa1fac94eabbc27715a022a96009babfb4a49fb5d\",\"pool\":\"0xfac2c7bc156c2c764ea21def2262ec2131100ab1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.16272,\"gas_eth\":0.030145,\"residual\":\"about 170,704,890 RAKUC (8663724207.61 bought minus 8493019317.09 sold)\",\"confidence\":4,\"note\":\"The same contract (0xa1fa\u2026) buys RAKUC on pool 0xfac2\u2026 in the front leg and sells RAKUC back to it in the back leg. The victim's WETH->RAKUC swap on that pool sits between them. The actor takes in 1.717745 WETH and pays 1.555025, so +0.16272 ETH before gas. After 0.030145 ETH of gas that is about +0.1326 ETH. The leftover RAKUC is a positive holding, so it cannot flip the sign.\"}",
+ "case_id": "pack_027",
+ "_time": "2026-10-13T20:09:23+0800"
+}

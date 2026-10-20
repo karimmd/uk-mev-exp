@@ -1,0 +1,31 @@
+{
+ "actor": "0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047981,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x8f30 routes WETH\u2192POND\u2192USDC in the front leg, buying USDC from the POND/USDC pool 0xd187. The victim then sells POND for USDC on that same pool, and the back leg exactly unwinds the 5977.238937 USDC back to 2.402137 WETH. The WETH gain of 0.100506, less the 0.052525 ETH internal payment (likely a miner bribe) and zero-gwei gas, gives about +0.048 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4021,
+  "output_tokens": 636,
+  "thinking_tokens": 339
+ },
+ "_request_id": "req_011CgBRUeMzHupPfQWdeicyX",
+ "_response_id": "msg_011CgBRUkVaCEkJcdAJ5np1T",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23\", \"pool\": \"0xd18748b9839b0081a867a1a871d5b562b2ec9884\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.047981, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x8f30 routes WETH\u2192POND\u2192USDC in the front leg, buying USDC from the POND/USDC pool 0xd187. The victim then sells POND for USDC on that same pool, and the back leg exactly unwinds the 5977.238937 USDC back to 2.402137 WETH. The WETH gain of 0.100506, less the 0.052525 ETH internal payment (likely a miner bribe) and zero-gwei gas, gives about +0.048 ETH.\"}",
+ "case_id": "pack_122",
+ "_time": "2026-10-19T18:16:56+0800"
+}

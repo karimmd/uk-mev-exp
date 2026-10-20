@@ -1,0 +1,26 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x8f30ba1f75ec27a014591789d117a1bb4703bff8",
+  "0x9f319e265b8189b5b5c2152cacc791b95b3da180",
+  "0xee802b312a957e00dd7bbc08eec8bb93d40e981d",
+  "0x36e2fcccc59e5747ff63a03ea2e5c0c2c14911e7",
+  "0x12014971036f0279d08705d1824c30f631c4b7fb"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.015425,
+ "gas_eth": 0.014452,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two WETH-closing legs: WETH->SHAKE->MILK2->WETH across three V2 pools (+0.008437), and a V3 pool sending xSUSHI directly to a V2 pool that pays WETH to the actor, who repays the V3 pool (+0.006988). Gross WETH gain 0.015425 minus gas 0.014452 leaves about +0.000973 ETH, with no residual token holdings and no mints. Gas is paid by the sender EOA, which I treated as the actor's operator.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024696700000000002,
+ "_session": "83dfc184-2270-4ca6-896e-da7d6752f31f",
+ "_raw": "{\"actor\": \"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\", \"pools\": [\"0x8f30ba1f75ec27a014591789d117a1bb4703bff8\", \"0x9f319e265b8189b5b5c2152cacc791b95b3da180\", \"0xee802b312a957e00dd7bbc08eec8bb93d40e981d\", \"0x36e2fcccc59e5747ff63a03ea2e5c0c2c14911e7\", \"0x12014971036f0279d08705d1824c30f631c4b7fb\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.015425, \"gas_eth\": 0.014452, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Two WETH-closing legs: WETH->SHAKE->MILK2->WETH across three V2 pools (+0.008437), and a V3 pool sending xSUSHI directly to a V2 pool that pays WETH to the actor, who repays the V3 pool (+0.006988). Gross WETH gain 0.015425 minus gas 0.014452 leaves about +0.000973 ETH, with no residual token holdings and no mints. Gas is paid by the sender EOA, which I treated as the actor's operator.\"}",
+ "case_id": "arb106_105",
+ "_time": "2026-10-13T22:34:29+0800"
+}

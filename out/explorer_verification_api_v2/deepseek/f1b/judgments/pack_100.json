@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.046401,
+ "gas_eth": 0.018664,
+ "profit_after_gas": 0.027737,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front bought HORD using WETH via the Uniswap V3 USDT/WETH pool and the Uniswap V2 HORD/USDT pool; victim also traded HORD on that same V2 pool; back sold the HORD and converted USDT back to WETH. The HORD position closed exactly, leaving a net WETH gain before gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2925,
+  "output_tokens": 14750,
+  "thinking_tokens": 14562
+ },
+ "_request_id": "dcedd1b86635f14a7848e199d1334d17",
+ "_response_id": "83af4643-93a1-4b82-a915-1fffcc6c11e6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.046401,\"gas_eth\":0.018664,\"profit_after_gas\":0.027737,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front bought HORD using WETH via the Uniswap V3 USDT/WETH pool and the Uniswap V2 HORD/USDT pool; victim also traded HORD on that same V2 pool; back sold the HORD and converted USDT back to WETH. The HORD position closed exactly, leaving a net WETH gain before gas.\"}",
+ "case_id": "pack_100",
+ "_time": "2026-10-19T19:18:14+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.061651,
+ "gas_eth": 0.034701,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Both actor legs and the victim trade on the same SUPER/WETH pool. But the actor sells 5491.45 SUPER in the front and buys the same amount back in the back, so its front trade runs opposite to the victim's SUPER buy and helps the victim rather than front-running it; that fails the bracket definition, which needs a token position opened in the front. The actor still nets 0.096352 WETH, minus 0.034701 ETH gas, for +0.061651 ETH with no SUPER left over, which suggests other pool activity between positions 15 and 109.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2857,
+  "output_tokens": 1002,
+  "thinking_tokens": 695
+ },
+ "_request_id": "req_011CgBSbZuuYew1cXaAP9axV",
+ "_response_id": "msg_011CgBSbaHjKUiewmw6ALGbU",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x25647e01bd0967c1b9599fa3521939871d1d0888\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.061651, \"gas_eth\": 0.034701, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Both actor legs and the victim trade on the same SUPER/WETH pool. But the actor sells 5491.45 SUPER in the front and buys the same amount back in the back, so its front trade runs opposite to the victim's SUPER buy and helps the victim rather than front-running it; that fails the bracket definition, which needs a token position opened in the front. The actor still nets 0.096352 WETH, minus 0.034701 ETH gas, for +0.061651 ETH with no SUPER left over, which suggests other pool activity between positions 15 and 109.\"}",
+ "case_id": "sym100_095",
+ "_time": "2026-10-19T18:31:41+0800"
+}

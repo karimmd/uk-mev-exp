@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs have different recipient actors (0xf1e8a3999e6c3bb9a518c3ef7f9bf621586a76ff and 0x1c8ad03a5de826d4e4bcb842e3604e1e2f3e8359), and both buy PRIA rather than one opening and the other closing a position. The shared pool is 0xac350eefccdae050614070e5040e17759cebb3e9, but Q1 fails on different actors and no opened-then-closed position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3383,
+  "output_tokens": 5810,
+  "thinking_tokens": 5598
+ },
+ "_request_id": "1f2657f24cb57584c473d281d2b89a12",
+ "_response_id": "9d0f3087-5450-4f7c-bfc6-5fb6cc605aaa",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0xac350eefccdae050614070e5040e17759cebb3e9\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back legs have different recipient actors (0xf1e8a3999e6c3bb9a518c3ef7f9bf621586a76ff and 0x1c8ad03a5de826d4e4bcb842e3604e1e2f3e8359), and both buy PRIA rather than one opening and the other closing a position. The shared pool is 0xac350eefccdae050614070e5040e17759cebb3e9, but Q1 fails on different actors and no opened-then-closed position.\"}",
+ "case_id": "pack_155",
+ "_time": "2026-10-19T18:31:33+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0xaa736ca527252cf9f65abed23c21f5ac46af27e3",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 1.958944,
+ "gas_eth": 0.022745,
+ "residual": "GOLD short by about 16825.8 (bought 19848.649072, sold 36674.453999), so the back leg sold GOLD the front leg did not buy",
+ "confidence": 3,
+ "note": "The same contract buys GOLD with WETH in the front leg and sells GOLD for WETH in the back leg on the same pair, with the victim's WETH-to-GOLD buy between them, so it is a bracket. The WETH net is +1.958944 before gas, or +1.936199 after. The back leg sold about 16.8k more GOLD than the front leg bought. At roughly 0.00011 WETH per GOLD, that extra GOLD is worth about 1.9 ETH, close to the whole gain. It may have come from prior inventory or from a token fee or rebase, so the profit sign can't be set from this evidence.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0256908,
+ "_session": "f00330b6-e8ef-4ad6-b6e1-e0675a8ede90",
+ "_raw": "{\"actor\": \"0x00000000c9fdd743c60055c0e4ea30d266272c1f\", \"pool\": \"0xaa736ca527252cf9f65abed23c21f5ac46af27e3\", \"Q1\": \"yes\", \"Q2\": \"cannot tell\", \"net_eth\": 1.958944, \"gas_eth\": 0.022745, \"residual\": \"GOLD short by about 16825.8 (bought 19848.649072, sold 36674.453999), so the back leg sold GOLD the front leg did not buy\", \"confidence\": 3, \"note\": \"The same contract buys GOLD with WETH in the front leg and sells GOLD for WETH in the back leg on the same pair, with the victim's WETH-to-GOLD buy between them, so it is a bracket. The WETH net is +1.958944 before gas, or +1.936199 after. The back leg sold about 16.8k more GOLD than the front leg bought. At roughly 0.00011 WETH per GOLD, that extra GOLD is worth about 1.9 ETH, close to the whole gain. It may have come from prior inventory or from a token fee or rebase, so the profit sign can't be set from this evidence.\"}",
+ "case_id": "pack_186",
+ "_time": "2026-10-13T20:41:10+0800"
+}

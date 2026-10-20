@@ -1,0 +1,31 @@
+{
+ "actor": "0x00bf034cec51975faece51b285724301436b21c4",
+ "pool": "0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.181209,
+ "gas_eth": 0.050839,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Same actor contract 0x00bf... receives 14944.146367 ORO in the front and sends exactly that amount back in the back, using shared UniswapV2 pool 0xa89a..., with the victim swap between. Gross WETH gain is 20.232048 - 20 = +0.232048; subtracting front/back gas 0.042948+0.007891 leaves +0.181209 ETH/WETH, with no ORO residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2398,
+  "output_tokens": 5601,
+  "thinking_tokens": 5403
+ },
+ "_request_id": "aa282645f698934989c716b948ea8b27",
+ "_response_id": "2d8c6f20-bbf5-472c-8b52-f5177ae483a7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00bf034cec51975faece51b285724301436b21c4\",\"pool\":\"0xa89abe11bd3ef4cf68a5004ba99b9fda52d5e8fc\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.181209,\"gas_eth\":0.050839,\"residual\":\"none\",\"confidence\":5,\"note\":\"Same actor contract 0x00bf... receives 14944.146367 ORO in the front and sends exactly that amount back in the back, using shared UniswapV2 pool 0xa89a..., with the victim swap between. Gross WETH gain is 20.232048 - 20 = +0.232048; subtracting front/back gas 0.042948+0.007891 leaves +0.181209 ETH/WETH, with no ORO residual.\"}",
+ "case_id": "pack_199",
+ "_time": "2026-10-19T18:37:04+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x95cfa1f48fad82232772d3b1415ad4393517f3b5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001574,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 5617.07 XRUNE for 0.626025 WETH in the front leg and sells all of it for 0.657492 WETH in the back leg. Both legs use the pool the victim also bought XRUNE on, and the victim sits between them. The WETH gain is +0.031467. Subtracting the 0.029893 ETH call out of the contract in the back leg (likely a builder payment) leaves +0.001574, and the explorer shows a 0.0 gwei gas price (fee 0) for both legs, so no gas is deducted. The sign is positive but the margin is thin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025044700000000003,
+ "_session": "5402b21f-0acc-48e1-9e37-29475fb03d0f",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x95cfa1f48fad82232772d3b1415ad4393517f3b5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.001574, \"gas_eth\": 0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 5617.07 XRUNE for 0.626025 WETH in the front leg and sells all of it for 0.657492 WETH in the back leg. Both legs use the pool the victim also bought XRUNE on, and the victim sits between them. The WETH gain is +0.031467. Subtracting the 0.029893 ETH call out of the contract in the back leg (likely a builder payment) leaves +0.001574, and the explorer shows a 0.0 gwei gas price (fee 0) for both legs, so no gas is deducted. The sign is positive but the margin is thin.\"}",
+ "case_id": "pack_156",
+ "_time": "2026-10-13T20:35:02+0800"
+}

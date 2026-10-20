@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x811beed0119b4afce20d2583eb608c6f7af1954f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.388129,
+ "gas_eth": 0.033768,
+ "profit_after_gas": 0.354361,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x3dad sold 30434610129.70 SHIB for 40.409 WETH on pool 0x811b, opening a short. The victim then sold SHIB on the same pool, and 0x3dad bought back exactly the same SHIB amount for 40.020871 WETH. That leaves +0.388129 WETH before 0.033768 ETH of gas and no residual SHIB.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3140,
+  "output_tokens": 419,
+  "thinking_tokens": 136
+ },
+ "_request_id": "req_011CgBWd2mvMo2mfbdLuQ91g",
+ "_response_id": "msg_011CgBWd3dGGWgPmCUd9nKqj",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x811beed0119b4afce20d2583eb608c6f7af1954f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.388129, \"gas_eth\": 0.033768, \"profit_after_gas\": 0.354361, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x3dad sold 30434610129.70 SHIB for 40.409 WETH on pool 0x811b, opening a short. The victim then sold SHIB on the same pool, and 0x3dad bought back exactly the same SHIB amount for 40.020871 WETH. That leaves +0.388129 WETH before 0.033768 ETH of gas and no residual SHIB.\"}",
+ "case_id": "sym100_082",
+ "_time": "2026-10-19T19:24:21+0800"
+}

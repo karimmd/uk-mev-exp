@@ -1,0 +1,31 @@
+{
+ "actor": "0x0724ee5d148584c39425af7777a12bab54fa880a",
+ "pool": "0x9dc696f1067a6b9929986283f6d316be9c9198fd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.072871,
+ "gas_eth": 0.020745,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0724 sells 10112.294722 BONDLY for 3.247220 WETH on pool 0x9dc6. The victim then also sells BONDLY into that pool, and 0x0724 buys back the exact same BONDLY amount for 3.153604 WETH, a short-style bracket with no residual. The two legs have different senders but are routed through the same contract, which nets +0.093616 WETH, minus 0.020745 ETH gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2908,
+  "output_tokens": 604,
+  "thinking_tokens": 324
+ },
+ "_request_id": "req_011CgBS3W3qn18QNWgDsJFeb",
+ "_response_id": "msg_011CgBS3WPw1UBSEhfhk4umz",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0724ee5d148584c39425af7777a12bab54fa880a\", \"pool\": \"0x9dc696f1067a6b9929986283f6d316be9c9198fd\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.072871, \"gas_eth\": 0.020745, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0724 sells 10112.294722 BONDLY for 3.247220 WETH on pool 0x9dc6. The victim then also sells BONDLY into that pool, and 0x0724 buys back the exact same BONDLY amount for 3.153604 WETH, a short-style bracket with no residual. The two legs have different senders but are routed through the same contract, which nets +0.093616 WETH, minus 0.020745 ETH gas.\"}",
+ "case_id": "sym100_005",
+ "_time": "2026-10-19T18:24:20+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x553db97b11642e0f9471d511296577421518de1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049823,
+ "gas_eth": 0.000197,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The sender EOA (through contract 0xd78a\u2026) swapped 2.720728 WETH for 141464408105908.72 MAK on pool 0x553d\u2026 and later returned exactly that MAK amount for 2.770748 WETH. The victim bought MAK on the same pool between those two legs. The gross gain is 0.050020 WETH, which nets to about 0.049823 ETH after 0.000197 ETH of gas, and no MAK is left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2848,
+  "output_tokens": 521,
+  "thinking_tokens": 249
+ },
+ "_request_id": "req_011CgBSswrCzupYDDXdh2RWA",
+ "_response_id": "msg_011CgBSsxCnZ4bJimUdxxCCw",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x553db97b11642e0f9471d511296577421518de1a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.049823, \"gas_eth\": 0.000197, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The sender EOA (through contract 0xd78a\u2026) swapped 2.720728 WETH for 141464408105908.72 MAK on pool 0x553d\u2026 and later returned exactly that MAK amount for 2.770748 WETH. The victim bought MAK on the same pool between those two legs. The gross gain is 0.050020 WETH, which nets to about 0.049823 ETH after 0.000197 ETH of gas, and no MAK is left over.\"}",
+ "case_id": "rej53_041",
+ "_time": "2026-10-19T18:35:17+0800"
+}

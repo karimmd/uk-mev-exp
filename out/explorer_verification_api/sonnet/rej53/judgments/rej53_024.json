@@ -1,0 +1,31 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.050269,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH through the WETH/USDT pool (0x06da\u2026) into the USDT/JINDOGE pool (0x6fc2\u2026) in the front leg. It buys 554264372419.139282 JINDOGE, the victim buys JINDOGE on the same pool, and the actor sells exactly that amount back in the back leg. WETH net is 11.158956 \u2212 10.874441 = +0.284515, minus a 0.234246 ETH outgoing call in the back leg, gives +0.050269 ETH. Both legs show a 0 gwei gas price, so the gas fee is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4062,
+  "output_tokens": 819,
+  "thinking_tokens": 493
+ },
+ "_request_id": "req_011CgBScsTd12t8Ly3o8aAp2",
+ "_response_id": "msg_011CgBScsoxJBRxjQw93mHCx",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\",\"pool\":\"0x6fc2fcc5e5065eab7588e3538923c9933d83bc5e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.050269,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract routes WETH through the WETH/USDT pool (0x06da\u2026) into the USDT/JINDOGE pool (0x6fc2\u2026) in the front leg. It buys 554264372419.139282 JINDOGE, the victim buys JINDOGE on the same pool, and the actor sells exactly that amount back in the back leg. WETH net is 11.158956 \u2212 10.874441 = +0.284515, minus a 0.234246 ETH outgoing call in the back leg, gives +0.050269 ETH. Both legs show a 0 gwei gas price, so the gas fee is 0.\"}",
+ "case_id": "rej53_024",
+ "_time": "2026-10-19T18:31:53+0800"
+}

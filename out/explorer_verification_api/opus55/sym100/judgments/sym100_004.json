@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xeb4664d8229dde455dca168a404ed6c03d4bb701",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.096914,
+ "gas_eth": 0.017271,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs trade on the same URUS/WETH UniswapV2 pool 0xeb46\u2026 with the victim in between. In the front leg, contract 0x\u202664c4 sells 799.417606 URUS for 12.171014 WETH, the victim then sells URUS in the same direction, and the back leg buys back exactly 799.417606 URUS for 12.056829 WETH. That is a mirrored, sell-side bracket, so the 'position' is a temporary short rather than a purchase. WETH gain is 0.114185 minus 0.017271 gas, leaving net about +0.0969 ETH with no residual URUS.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2978,
+  "output_tokens": 706,
+  "thinking_tokens": 375
+ },
+ "_request_id": "req_011CgBS2wiQ5eZbkYUshgCqP",
+ "_response_id": "msg_011CgBS2x7UFJvJe5VaWGDMC",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xeb4664d8229dde455dca168a404ed6c03d4bb701\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.096914, \"gas_eth\": 0.017271, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs trade on the same URUS/WETH UniswapV2 pool 0xeb46\u2026 with the victim in between. In the front leg, contract 0x\u202664c4 sells 799.417606 URUS for 12.171014 WETH, the victim then sells URUS in the same direction, and the back leg buys back exactly 799.417606 URUS for 12.056829 WETH. That is a mirrored, sell-side bracket, so the 'position' is a temporary short rather than a purchase. WETH gain is 0.114185 minus 0.017271 gas, leaving net about +0.0969 ETH with no residual URUS.\"}",
+ "case_id": "sym100_004",
+ "_time": "2026-10-19T18:24:14+0800"
+}

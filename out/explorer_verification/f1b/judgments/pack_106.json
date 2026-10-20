@@ -1,0 +1,17 @@
+{
+ "actor": "0xa6c484c80919be6bec5dfe596b54a90c0f6be843",
+ "pool": "0xe211637a32d526b2bdbb3d61f0c98869ad73c666",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.020569,
+ "gas_eth": 0.005118,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys X10 with 0.061713 WETH in the front leg and sells the same total (1432.134683 sent to the pool plus 18.599152 burned, equal to the 1450.733835 received) for 0.082282 WETH in the back leg. The victim buys X10 with ETH on the same pool in between. Net WETH is +0.020569, and after 0.005118 ETH of gas for the two legs it is about +0.015451 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0224987,
+ "_session": "18a47729-fc92-4e5d-af9b-9df7c50c3a83",
+ "_raw": "{\"actor\": \"0xa6c484c80919be6bec5dfe596b54a90c0f6be843\", \"pool\": \"0xe211637a32d526b2bdbb3d61f0c98869ad73c666\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.020569, \"gas_eth\": 0.005118, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract buys X10 with 0.061713 WETH in the front leg and sells the same total (1432.134683 sent to the pool plus 18.599152 burned, equal to the 1450.733835 received) for 0.082282 WETH in the back leg. The victim buys X10 with ETH on the same pool in between. Net WETH is +0.020569, and after 0.005118 ETH of gas for the two legs it is about +0.015451 ETH.\"}",
+ "case_id": "pack_106",
+ "_time": "2026-10-13T20:25:14+0800"
+}

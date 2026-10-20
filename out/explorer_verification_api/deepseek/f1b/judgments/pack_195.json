@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.06888807,
+ "residual": "none",
+ "confidence": 5,
+ "note": "All three legs trade on the same UniswapV2 pool, but the front sender sells MXS for ETH while the back sender buys MXS with ETH. They are different economic actors, so no single actor opens and closes a non-WETH position around the victim.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3099,
+  "output_tokens": 5914,
+  "thinking_tokens": 5767
+ },
+ "_request_id": "b9dbc4007f8b3b85ee0d348d2386bab8",
+ "_response_id": "6e490903-d843-4d14-8c23-5e0af04a10d3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.06888807, \"residual\": \"none\", \"confidence\": 5, \"note\": \"All three legs trade on the same UniswapV2 pool, but the front sender sells MXS for ETH while the back sender buys MXS with ETH. They are different economic actors, so no single actor opens and closes a non-WETH position around the victim.\"}",
+ "case_id": "pack_195",
+ "_time": "2026-10-19T18:36:18+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.145437,
+ "gas_eth": 0.132569,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor received CVX in front and sent the same CVX amount back to the same Uniswap V2 pool in back, while the victim traded on that pool between them. Gross WETH gain 0.145437 minus 0.132569 gas leaves a positive 0.012868 ETH/WETH, with no residual CVX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2205,
+  "output_tokens": 4504,
+  "thinking_tokens": 4343
+ },
+ "_request_id": "d48b65f8133963e212d7b468f5b3418c",
+ "_response_id": "ddc707eb-9600-4d57-b476-4af100a211e3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x05767d9ef41dc40689678ffca0608878fb3de906\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.145437,\"gas_eth\":0.132569,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor received CVX in front and sent the same CVX amount back to the same Uniswap V2 pool in back, while the victim traded on that pool between them. Gross WETH gain 0.145437 minus 0.132569 gas leaves a positive 0.012868 ETH/WETH, with no residual CVX.\"}",
+ "case_id": "pack_043",
+ "_time": "2026-10-19T18:10:09+0800"
+}

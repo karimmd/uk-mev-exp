@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.009342,
+ "gas_eth": 0.003114,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract sells and rebuys the same DFYN amount around the victim on the same Uniswap V2 pool, leaving no residual DFYN. It nets +0.012456 WETH before gas and +0.009342 WETH after the two gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2386,
+  "output_tokens": 7278,
+  "thinking_tokens": 7123
+ },
+ "_request_id": "f3beaf003bda48350be22afb2d0e515d",
+ "_response_id": "108be10a-915e-4577-bb5a-8a51c6152e8e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xcab335e1964363e48a790da303b74ec02d3f8fb2\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.009342,\"gas_eth\":0.003114,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract sells and rebuys the same DFYN amount around the victim on the same Uniswap V2 pool, leaving no residual DFYN. It nets +0.012456 WETH before gas and +0.009342 WETH after the two gas fees.\"}",
+ "case_id": "sym100_037",
+ "_time": "2026-10-19T18:44:49+0800"
+}

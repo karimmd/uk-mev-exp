@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xdc3e94ddf605864b79fce18c7cf974e579001e7b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.107156,
+ "gas_eth": 0.007043,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sends 3.594920 QUICK to the pool for 1.750411 WETH in the front leg. The victim then sells 50 QUICK on the same pool. In the back leg the actor pays 1.643255 WETH for exactly 3.594920 QUICK, so the QUICK position is flat. Gross WETH gain is 0.107156, and after 0.007043 ETH of front and back gas the net is about +0.100113 ETH. The front leg is a sell from existing QUICK inventory rather than a buy, which is the one reason this is not a 5.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2983,
+  "output_tokens": 789,
+  "thinking_tokens": 480
+ },
+ "_request_id": "req_011CgBS8NY39g9EZ4oiH85Mi",
+ "_response_id": "msg_011CgBS8NsdoX5VQfi7CJN7q",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xdc3e94ddf605864b79fce18c7cf974e579001e7b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.107156,\"gas_eth\":0.007043,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sends 3.594920 QUICK to the pool for 1.750411 WETH in the front leg. The victim then sells 50 QUICK on the same pool. In the back leg the actor pays 1.643255 WETH for exactly 3.594920 QUICK, so the QUICK position is flat. Gross WETH gain is 0.107156, and after 0.007043 ETH of front and back gas the net is about +0.100113 ETH. The front leg is a sell from existing QUICK inventory rather than a buy, which is the one reason this is not a 5.\"}",
+ "case_id": "sym100_041",
+ "_time": "2026-10-19T18:25:26+0800"
+}

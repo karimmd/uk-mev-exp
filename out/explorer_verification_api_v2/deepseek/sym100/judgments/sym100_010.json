@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.122608,
+ "gas_eth": 0.010256868,
+ "profit_after_gas": 0.112351132,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold SPELL for WETH in the front leg, the victim traded on the same Uniswap V2 pool, and the actor bought back the same SPELL amount with WETH in the back leg. Net WETH is +0.122608 before gas; after front/back gas it remains positive, with no residual non-WETH token.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2448,
+  "output_tokens": 4169,
+  "thinking_tokens": 3977
+ },
+ "_request_id": "969ea92dfb6f11eacd7651b2b28ec33b",
+ "_response_id": "80a2db3a-2fee-493a-9da6-3c3438068a0f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xb5de0c3753b6e1b4dba616db82767f17513e6d4e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.122608,\"gas_eth\":0.010256868,\"profit_after_gas\":0.112351132,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold SPELL for WETH in the front leg, the victim traded on the same Uniswap V2 pool, and the actor bought back the same SPELL amount with WETH in the back leg. Net WETH is +0.122608 before gas; after front/back gas it remains positive, with no residual non-WETH token.\"}",
+ "case_id": "sym100_010",
+ "_time": "2026-10-19T19:29:40+0800"
+}

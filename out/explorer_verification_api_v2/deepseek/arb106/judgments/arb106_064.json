@@ -1,0 +1,40 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x004375dff511095cc5a197a54140a24efef3a416",
+  "0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b",
+  "0x92995d179a5528334356cb4dc5c6cbb1c068696c",
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.009827,
+ "gas_eth": 0.006691,
+ "profit_after_gas": 0.003136,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x9116 receives 1.502804 WETH from 0x4585 and sends 1.492293 WETH to 0x8b00 within a four-pool WETH->USTC->USDC->WBTC->WETH cycle, netting +0.010511 WETH. It pays 0.000684 ETH internally; after the 0.006691 ETH gas fee, net profit is about +0.003136 ETH. No non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1775,
+  "output_tokens": 14088,
+  "thinking_tokens": 13773
+ },
+ "_request_id": "c320cf207e8b6c3628970f4088718855",
+ "_response_id": "382a78d1-8522-48d0-9933-27cd79509e28",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x004375dff511095cc5a197a54140a24efef3a416\",\"0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b\",\"0x92995d179a5528334356cb4dc5c6cbb1c068696c\",\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.009827,\"gas_eth\":0.006691,\"profit_after_gas\":0.003136,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x9116 receives 1.502804 WETH from 0x4585 and sends 1.492293 WETH to 0x8b00 within a four-pool WETH->USTC->USDC->WBTC->WETH cycle, netting +0.010511 WETH. It pays 0.000684 ETH internally; after the 0.006691 ETH gas fee, net profit is about +0.003136 ETH. No non-WETH residual remains.\"}",
+ "case_id": "arb106_064",
+ "_time": "2026-10-19T20:01:59+0800"
+}

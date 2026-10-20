@@ -1,0 +1,17 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02078,
+ "gas_eth": 0.019522,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor routes INV from pool 0x73e0 to victim pool 0x328d in the front leg and reverses it in the back leg, with the victim selling INV into 0x328d in between. WETH net is +0.103004, less a 0.082224 ETH payment to 0x99c8, gives +0.02078. After 0.019522 gas the result is about +0.00126 ETH, a thin positive, and the actor holds no INV afterwards.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.031374,
+ "_session": "d8fb9d48-79df-4405-a99b-cfa0ce341b00",
+ "_raw": "{\"actor\": \"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\", \"pool\": \"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.02078, \"gas_eth\": 0.019522, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor routes INV from pool 0x73e0 to victim pool 0x328d in the front leg and reverses it in the back leg, with the victim selling INV into 0x328d in between. WETH net is +0.103004, less a 0.082224 ETH payment to 0x99c8, gives +0.02078. After 0.019522 gas the result is about +0.00126 ETH, a thin positive, and the actor holds no INV afterwards.\"}",
+ "case_id": "sym100_049",
+ "_time": "2026-10-13T21:33:45+0800"
+}

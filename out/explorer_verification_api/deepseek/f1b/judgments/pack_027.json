@@ -1,0 +1,31 @@
+{
+ "actor": "0xa1fac94eabbc27715a022a96009babfb4a49fb5d",
+ "pool": "0xfac2c7bc156c2c764ea21def2262ec2131100ab1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.13257432,
+ "gas_eth": 0.03014568,
+ "residual": "170704890.518497 RAKUC",
+ "confidence": 4,
+ "note": "Front bought RAKUC with 1.555025 WETH on pool 0xfac2; back sold 8,493,019,317.091521 RAKUC for 1.717745 WETH on the same pool, with the victim trading that pool in between. Gross WETH is +0.16272, gas is 0.03014568, leaving +0.13257432; visible actor RAKUC residual is 170,704,890.518497 by shown transfers.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2936,
+  "output_tokens": 12147,
+  "thinking_tokens": 11937
+ },
+ "_request_id": "b126625a7f5094a3ee22ce37f787948a",
+ "_response_id": "20977008-fc81-4516-a7ae-08db0c53b783",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa1fac94eabbc27715a022a96009babfb4a49fb5d\",\"pool\":\"0xfac2c7bc156c2c764ea21def2262ec2131100ab1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.13257432,\"gas_eth\":0.03014568,\"residual\":\"170704890.518497 RAKUC\",\"confidence\":4,\"note\":\"Front bought RAKUC with 1.555025 WETH on pool 0xfac2; back sold 8,493,019,317.091521 RAKUC for 1.717745 WETH on the same pool, with the victim trading that pool in between. Gross WETH is +0.16272, gas is 0.03014568, leaving +0.13257432; visible actor RAKUC residual is 170,704,890.518497 by shown transfers.\"}",
+ "case_id": "pack_027",
+ "_time": "2026-10-19T18:06:39+0800"
+}

@@ -1,0 +1,41 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8",
+  "0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de",
+  "0x9437ad40056ca3ec2fc1efe41885ad4b6ac46061",
+  "0x47841ec00564a33402f16b876ed148b52dfbe188",
+  "0x559ebe4e206e6b4d50e9bd3008cda7ce640c52cb"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.005975,
+ "gas_eth": 0.005864,
+ "profit_after_gas": 0.000111,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract executed two WETH-based cyclic swaps across five Uniswap pools, netting +0.005975 WETH before gas and +0.000111 WETH after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1982,
+  "output_tokens": 8665,
+  "thinking_tokens": 8387
+ },
+ "_request_id": "3c8718355adfe63da194a8962320b7cc",
+ "_response_id": "17d619e9-42a0-4136-b441-a9e66acc5c83",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8\",\"0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de\",\"0x9437ad40056ca3ec2fc1efe41885ad4b6ac46061\",\"0x47841ec00564a33402f16b876ed148b52dfbe188\",\"0x559ebe4e206e6b4d50e9bd3008cda7ce640c52cb\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.005975,\"gas_eth\":0.005864,\"profit_after_gas\":0.000111,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract executed two WETH-based cyclic swaps across five Uniswap pools, netting +0.005975 WETH before gas and +0.000111 WETH after gas.\"}",
+ "case_id": "arb106_012",
+ "_time": "2026-10-19T19:49:57+0800"
+}

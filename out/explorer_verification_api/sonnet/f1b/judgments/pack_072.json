@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0,
+ "gas_eth": 0.035772,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs come from the same sender (0xe104...) and have identical shapes: each sells OTEN into the pool for 0.1 ETH. The 'victim' is the same address as the front and back senders, and no leg buys the token. No position is opened and then closed, so this is not a sandwich. Each leg is a repeated sell of about 0.1 ETH, and the net ETH is not a bracket profit. The gas is 3 \u00d7 0.011924 = 0.035772 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3702,
+  "output_tokens": 259,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQqyhJEeDJotE8w39Dt",
+ "_response_id": "msg_011CgBQqz481QnGinDPitGxx",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": 0, \"gas_eth\": 0.035772, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs come from the same sender (0xe104...) and have identical shapes: each sells OTEN into the pool for 0.1 ETH. The 'victim' is the same address as the front and back senders, and no leg buys the token. No position is opened and then closed, so this is not a sandwich. Each leg is a repeated sell of about 0.1 ETH, and the net ETH is not a bracket profit. The gas is 3 \u00d7 0.011924 = 0.035772 ETH.\"}",
+ "case_id": "pack_072",
+ "_time": "2026-10-19T18:08:33+0800"
+}

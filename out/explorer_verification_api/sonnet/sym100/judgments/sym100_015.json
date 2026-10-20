@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x895324433d8026fad0531428ccfbac7a6b32fbf8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.067071,
+ "gas_eth": 0.029171,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 375298.36 RAINI for 1.828093 WETH in the front leg. The victim then sells RAINI into the same pool, and the actor buys back exactly 375298.36 RAINI for 1.761022 WETH in the back leg. This is a reverse-direction bracket. The WETH gain is 0.067071 and gas is 0.029171, so the net is about +0.0379 ETH, with no residual RAINI.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3009,
+  "output_tokens": 713,
+  "thinking_tokens": 449
+ },
+ "_request_id": "req_011CgBRyUdeKK9wmJjNm5mYL",
+ "_response_id": "msg_011CgBRyUxVi5ZeoiwHcnKrz",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x895324433d8026fad0531428ccfbac7a6b32fbf8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.067071,\"gas_eth\":0.029171,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 375298.36 RAINI for 1.828093 WETH in the front leg. The victim then sells RAINI into the same pool, and the actor buys back exactly 375298.36 RAINI for 1.761022 WETH in the back leg. This is a reverse-direction bracket. The WETH gain is 0.067071 and gas is 0.029171, so the net is about +0.0379 ETH, with no residual RAINI.\"}",
+ "case_id": "sym100_015",
+ "_time": "2026-10-19T18:23:25+0800"
+}

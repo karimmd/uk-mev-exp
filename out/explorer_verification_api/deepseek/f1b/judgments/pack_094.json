@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.029784,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x499d... receives PEOPLE in the front and returns the exact amount in the back on the shared Uniswap V3 PEOPLE/WETH pool 0x83ab..., with the victim on that pool in between. WETH gain of 0.187025 exceeds front+back gas of 0.157241, and the pass-through ETH value/internal transfer nets to zero, leaving no PEOPLE residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2206,
+  "output_tokens": 9690,
+  "thinking_tokens": 9507
+ },
+ "_request_id": "e293020adc1e96228c24abe8a42f935d",
+ "_response_id": "219b8d01-aad5-4c36-afc6-827fe1efbfe4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.029784,\"gas_eth\":0.157241,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x499d... receives PEOPLE in the front and returns the exact amount in the back on the shared Uniswap V3 PEOPLE/WETH pool 0x83ab..., with the victim on that pool in between. WETH gain of 0.187025 exceeds front+back gas of 0.157241, and the pass-through ETH value/internal transfer nets to zero, leaving no PEOPLE residual.\"}",
+ "case_id": "pack_094",
+ "_time": "2026-10-19T18:18:48+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.023975,
+ "gas_eth": 0.017411,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys PROS on the USDC/PROS V2 pair in the front leg (routed WETH->USDC on V3, then USDC->PROS on V2). The victim buys PROS on that pair next. The contract sells the same 3514.902670 PROS back in the back leg. WETH goes from 3.064233 out to 3.107414 in, a gain of 0.043181. Subtracting the 0.019206 ETH forwarded to 0x7f10... (likely a builder tip) gives 0.023975. After 0.017411 ETH of gas, the position is about +0.00656 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.028887200000000002,
+ "_session": "8428f981-e150-4593-b01f-1388650105f3",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x3155acd9f75915fcc21d34035f440da7040bd3ba\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.023975, \"gas_eth\": 0.017411, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys PROS on the USDC/PROS V2 pair in the front leg (routed WETH->USDC on V3, then USDC->PROS on V2). The victim buys PROS on that pair next. The contract sells the same 3514.902670 PROS back in the back leg. WETH goes from 3.064233 out to 3.107414 in, a gain of 0.043181. Subtracting the 0.019206 ETH forwarded to 0x7f10... (likely a builder tip) gives 0.023975. After 0.017411 ETH of gas, the position is about +0.00656 ETH.\"}",
+ "case_id": "rej53_051",
+ "_time": "2026-10-13T22:03:47+0800"
+}

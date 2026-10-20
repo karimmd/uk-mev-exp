@@ -1,0 +1,32 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.01131,
+ "gas_eth": 0.011221,
+ "profit_after_gas": 8.9e-05,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs are both executed by contract 0xc1df on the same SYN/WETH Uniswap V2 pool; it sells SYN in front for WETH and buys back the same SYN amount in back. WETH net before gas is 4.764050 - 4.752740 = 0.011310, and front+back gas is 0.005875 + 0.005346 = 0.011221, leaving a small positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2463,
+  "output_tokens": 1937,
+  "thinking_tokens": 1725
+ },
+ "_request_id": "9d76e08aef61a993bd805940105643e7",
+ "_response_id": "ddc502b4-5270-4bd2-b136-aa057145a071",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.01131,\"gas_eth\":0.011221,\"profit_after_gas\":0.000089,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back legs are both executed by contract 0xc1df on the same SYN/WETH Uniswap V2 pool; it sells SYN in front for WETH and buys back the same SYN amount in back. WETH net before gas is 4.764050 - 4.752740 = 0.011310, and front+back gas is 0.005875 + 0.005346 = 0.011221, leaving a small positive profit.\"}",
+ "case_id": "sym100_076",
+ "_time": "2026-10-19T19:36:15+0800"
+}

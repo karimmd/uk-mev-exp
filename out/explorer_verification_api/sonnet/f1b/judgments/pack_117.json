@@ -1,0 +1,31 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x404e716257c4f4bcc43b967514520b98c0c09dd5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008099,
+ "gas_eth": 0.008014,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x01ff... buys 83553.057894 HEART with 4.094420 WETH in the front leg, then sells exactly that amount back for 4.102519 WETH in the back leg. Both legs use the same pool as the victim's 2.2 ETH buy, which sits between them. Net WETH is +0.008099 and gas for both legs is 0.008014 ETH, so the position is about +0.000085 ETH after gas. That margin is thin, and I assumed gas is borne by the actor even though the sender 0x5aa1... pays it.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2889,
+  "output_tokens": 717,
+  "thinking_tokens": 411
+ },
+ "_request_id": "req_011CgBRLQfFvQbnLqBzRwHwt",
+ "_response_id": "msg_011CgBRLWEbyQZCDLc2RgCAF",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x01ff6318440f7d5553a82294d78262d5f5084eff\",\"pool\":\"0x404e716257c4f4bcc43b967514520b98c0c09dd5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.008099,\"gas_eth\":0.008014,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract 0x01ff... buys 83553.057894 HEART with 4.094420 WETH in the front leg, then sells exactly that amount back for 4.102519 WETH in the back leg. Both legs use the same pool as the victim's 2.2 ETH buy, which sits between them. Net WETH is +0.008099 and gas for both legs is 0.008014 ETH, so the position is about +0.000085 ETH after gas. That margin is thin, and I assumed gas is borne by the actor even though the sender 0x5aa1... pays it.\"}",
+ "case_id": "pack_117",
+ "_time": "2026-10-19T18:15:03+0800"
+}

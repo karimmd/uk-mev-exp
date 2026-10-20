@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9ca8aef2372c705d6848fdda3c1267a7f51267c1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.105113,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received UDT in the front leg and sent the same UDT amount back in the back leg on the shared UniswapV2 pool 0x9ca8...; the victim also traded on that pool between them. Net WETH increased by 2.915113 - 2.810000 = 0.105113, with no residual UDT and zero gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2494,
+  "output_tokens": 3670,
+  "thinking_tokens": 3486
+ },
+ "_request_id": "1de2f59c21bccb0d2e1d075576c24a9b",
+ "_response_id": "d053dcc0-8171-4503-85f0-17899312882c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x9ca8aef2372c705d6848fdda3c1267a7f51267c1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.105113,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received UDT in the front leg and sent the same UDT amount back in the back leg on the shared UniswapV2 pool 0x9ca8...; the victim also traded on that pool between them. Net WETH increased by 2.915113 - 2.810000 = 0.105113, with no residual UDT and zero gas fees.\"}",
+ "case_id": "pack_192",
+ "_time": "2026-10-19T18:35:51+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x570febdf89c07f256c75686caca215289bb11cfc",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.3558226274,
+ "gas_eth": 0.0242763726,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front leg sells 1441.165691 ERN for 17.702044 WETH; back leg buys the same ERN amount for 17.321945 WETH. This is a profitable sell-side sandwich, but it does not open a non-WETH position in the front leg as Q1 requires; the actor holds WETH after front and gives it up in back. Net ETH/WETH after gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2316,
+  "output_tokens": 11500,
+  "thinking_tokens": 11318
+ },
+ "_request_id": "a08383ba4644ec70794e24d24b3d354b",
+ "_response_id": "648810a2-c9f3-423a-9684-048f63364d67",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x570febdf89c07f256c75686caca215289bb11cfc\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.3558226274,\"gas_eth\":0.0242763726,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front leg sells 1441.165691 ERN for 17.702044 WETH; back leg buys the same ERN amount for 17.321945 WETH. This is a profitable sell-side sandwich, but it does not open a non-WETH position in the front leg as Q1 requires; the actor holds WETH after front and gives it up in back. Net ETH/WETH after gas is positive.\"}",
+ "case_id": "sym100_091",
+ "_time": "2026-10-19T18:55:26+0800"
+}

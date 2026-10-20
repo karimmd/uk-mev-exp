@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x85917d97a4c399816cf6edb2d2e8767002f6a96a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.182744,
+ "gas_eth": 0.02385,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 1517.495805 ATD into the ATD/WETH pool for 7.963847 WETH before the victim, who also sells ATD into that pool. It then buys back exactly 1517.495805 ATD for 7.781103 WETH after the victim. This is a short-style round trip rather than a buy-then-sell, so ATD nets to zero. WETH gain is 0.182744, or about 0.158894 ETH after 0.02385 ETH of gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0236747,
+ "_session": "2ba8c467-b85a-49b5-8c5c-bcb6061c0288",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x85917d97a4c399816cf6edb2d2e8767002f6a96a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.182744, \"gas_eth\": 0.02385, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sells 1517.495805 ATD into the ATD/WETH pool for 7.963847 WETH before the victim, who also sells ATD into that pool. It then buys back exactly 1517.495805 ATD for 7.781103 WETH after the victim. This is a short-style round trip rather than a buy-then-sell, so ATD nets to zero. WETH gain is 0.182744, or about 0.158894 ETH after 0.02385 ETH of gas.\"}",
+ "case_id": "sym100_031",
+ "_time": "2026-10-13T21:29:35+0800"
+}

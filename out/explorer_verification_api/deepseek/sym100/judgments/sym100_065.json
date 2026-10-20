@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.022051,
+ "gas_eth": 0.020518,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front sells COOK for WETH; back buys COOK with WETH on shared pool 0xbdfe..., with victim between. Gross WETH delta +0.042569, gas 0.020518, net +0.022051; COOK nets to zero. The front leg reduces non-WETH holding rather than opening a long position, so Q1 is no.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2295,
+  "output_tokens": 12657,
+  "thinking_tokens": 12481
+ },
+ "_request_id": "a5052f0dc907c2620bdb5d72e1468c59",
+ "_response_id": "fde2d98e-b792-410d-8137-a80c05e8273e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.022051,\"gas_eth\":0.020518,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front sells COOK for WETH; back buys COOK with WETH on shared pool 0xbdfe..., with victim between. Gross WETH delta +0.042569, gas 0.020518, net +0.022051; COOK nets to zero. The front leg reduces non-WETH holding rather than opening a long position, so Q1 is no.\"}",
+ "case_id": "sym100_065",
+ "_time": "2026-10-19T18:51:15+0800"
+}

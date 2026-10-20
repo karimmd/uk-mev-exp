@@ -1,0 +1,17 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.462709,
+ "gas_eth": 0.06517,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract wrapped 11 ETH and bought 632.746926 KEN from the pool in the front leg. The victim bought 700 KEN from the same pool in between. The back leg sold exactly 632.746926 KEN for 11.462709 ETH, a gross gain of 0.462709 ETH. Front and back gas total 0.06517 ETH, so the position is still about +0.3975 ETH after cost. No KEN is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0260092,
+ "_session": "db4688f4-43cf-45a1-b61d-7590cbd097b5",
+ "_raw": "{\"actor\":\"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\",\"pool\":\"0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.462709,\"gas_eth\":0.06517,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract wrapped 11 ETH and bought 632.746926 KEN from the pool in the front leg. The victim bought 700 KEN from the same pool in between. The back leg sold exactly 632.746926 KEN for 11.462709 ETH, a gross gain of 0.462709 ETH. Front and back gas total 0.06517 ETH, so the position is still about +0.3975 ETH after cost. No KEN is left over.\"}",
+ "case_id": "pack_200",
+ "_time": "2026-10-13T20:43:51+0800"
+}

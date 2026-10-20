@@ -1,0 +1,31 @@
+{
+ "actor": "0x40a15a4f062a6c562333ad9b4d530c099f255a7b",
+ "pool": "0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.243281,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same address pays 68.9 WETH into the LKR/WETH pool in the front leg and returns exactly 64768.806987 LKR in the back leg for 69.143281 WETH. The victim buys LKR on the same pool in between. Net is +0.243281 WETH, and both legs show a 0 gwei gas price, so their fees are 0 and no LKR is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3010,
+  "output_tokens": 500,
+  "thinking_tokens": 247
+ },
+ "_request_id": "req_011CgBQPpasukkjBP3SfAqWB",
+ "_response_id": "msg_011CgBQPwNusAuDBe9akHhed",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x40a15a4f062a6c562333ad9b4d530c099f255a7b\",\"pool\":\"0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.243281,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same address pays 68.9 WETH into the LKR/WETH pool in the front leg and returns exactly 64768.806987 LKR in the back leg for 69.143281 WETH. The victim buys LKR on the same pool in between. Net is +0.243281 WETH, and both legs show a 0 gwei gas price, so their fees are 0 and no LKR is left over.\"}",
+ "case_id": "pack_033",
+ "_time": "2026-10-19T18:02:42+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xb54206d66747abe7d6b3ccc8adeaad953a0764c6",
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -1.0,
+ "gas_eth": 0.02169,
+ "residual": "17143.717040 MXS held by the front sender, never sold",
+ "confidence": 4,
+ "note": "The front and back legs both buy MXS with ETH on the same pool, so nothing is closed. The back leg is also sent by a different address (0x7440...) and receives MXS rather than selling it. The front actor spent 1 ETH and still holds MXS, so no profit sign can be set.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027341200000000003,
+ "_session": "064f3cae-109c-4f3c-aa01-b09c5a4b8ed9",
+ "_raw": "{\"actor\": \"0xb54206d66747abe7d6b3ccc8adeaad953a0764c6\", \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -1.0, \"gas_eth\": 0.02169, \"residual\": \"17143.717040 MXS held by the front sender, never sold\", \"confidence\": 4, \"note\": \"The front and back legs both buy MXS with ETH on the same pool, so nothing is closed. The back leg is also sent by a different address (0x7440...) and receives MXS rather than selling it. The front actor spent 1 ETH and still holds MXS, so no profit sign can be set.\"}",
+ "case_id": "pack_045",
+ "_time": "2026-10-13T20:12:48+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xf1971b9c48538b6240fe6d5b647aafda7ef86863",
+ "pool": "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.088862,
+ "gas_eth": 0.010347,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender calls the router directly and trades on the same YLD/WETH pool as the victim. It sells 41.561861 YLD for 1.677888 WETH in the front leg, then buys back exactly 41.561861 YLD for 1.589026 WETH in the back leg. The victim also sells YLD for WETH in between. The WETH net is +0.088862, and after 0.010347 ETH of gas it is about +0.0785 ETH, with no YLD left over. The front leg is a sell-first (short) opening rather than a buy-first one.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0266812,
+ "_session": "ef1bfa04-358c-4bf6-b213-3b67a501e231",
+ "_raw": "{\"actor\": \"0xf1971b9c48538b6240fe6d5b647aafda7ef86863\", \"pool\": \"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.088862, \"gas_eth\": 0.010347, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The sender calls the router directly and trades on the same YLD/WETH pool as the victim. It sells 41.561861 YLD for 1.677888 WETH in the front leg, then buys back exactly 41.561861 YLD for 1.589026 WETH in the back leg. The victim also sells YLD for WETH in between. The WETH net is +0.088862, and after 0.010347 ETH of gas it is about +0.0785 ETH, with no YLD left over. The front leg is a sell-first (short) opening rather than a buy-first one.\"}",
+ "case_id": "pack_161",
+ "_time": "2026-10-13T20:35:56+0800"
+}

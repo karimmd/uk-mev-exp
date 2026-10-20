@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.045506,
+ "gas_eth": 0.040054,
+ "profit_after_gas": 0.005452,
+ "residual": "687.893575 DRIP (0x239119c43e3cac84c8a2d45bcba0e46f528e5f77)",
+ "confidence": 5,
+ "note": "The actor contract bought DRIP on the shared WETH/DRIP pool in the front leg and sold DRIP back to the same pool in the back leg, with the victim trading through that pool in between. After front/back WETH flows and gas, the actor is positive by about 0.005452 ETH/WETH and still holds leftover DRIP.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2754,
+  "output_tokens": 2926,
+  "thinking_tokens": 2703
+ },
+ "_request_id": "f72490f85ae77d0124aecd481f380365",
+ "_response_id": "0f60460c-12c4-49e6-a86b-9884526e68b5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.045506,\"gas_eth\":0.040054,\"profit_after_gas\":0.005452,\"residual\":\"687.893575 DRIP (0x239119c43e3cac84c8a2d45bcba0e46f528e5f77)\",\"confidence\":5,\"note\":\"The actor contract bought DRIP on the shared WETH/DRIP pool in the front leg and sold DRIP back to the same pool in the back leg, with the victim trading through that pool in between. After front/back WETH flows and gas, the actor is positive by about 0.005452 ETH/WETH and still holds leftover DRIP.\"}",
+ "case_id": "pack_142",
+ "_time": "2026-10-19T19:21:28+0800"
+}

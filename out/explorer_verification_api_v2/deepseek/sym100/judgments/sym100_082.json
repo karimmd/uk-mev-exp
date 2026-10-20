@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x811beed0119b4afce20d2583eb608c6f7af1954f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.388129,
+ "gas_eth": 0.033768,
+ "profit_after_gas": 0.354361,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract 0x3dad8cf2 opens a short SHIB position in the front leg and closes it in the back leg on the same Uniswap V2 SHIB/WETH pool used by the victim. WETH received minus WETH paid is 0.388129 ETH-equivalent, and after front+back gas the net is positive; SHIB is returned in equal amount with no residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2486,
+  "output_tokens": 1883,
+  "thinking_tokens": 1684
+ },
+ "_request_id": "0ea866605712c1dabb19a4304bc2ac1a",
+ "_response_id": "ac478080-daff-41e7-9762-453cc7aeb8a3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x811beed0119b4afce20d2583eb608c6f7af1954f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.388129,\"gas_eth\":0.033768,\"profit_after_gas\":0.354361,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract 0x3dad8cf2 opens a short SHIB position in the front leg and closes it in the back leg on the same Uniswap V2 SHIB/WETH pool used by the victim. WETH received minus WETH paid is 0.388129 ETH-equivalent, and after front+back gas the net is positive; SHIB is returned in equal amount with no residual.\"}",
+ "case_id": "sym100_082",
+ "_time": "2026-10-19T19:36:52+0800"
+}

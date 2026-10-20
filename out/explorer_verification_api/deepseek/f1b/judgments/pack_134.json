@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x62e3c242b5e903071458ad90a160493d84911c77",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011633,
+ "gas_eth": 0.052814,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The target contract receives 2457.341661 USDT in the front leg and sends exactly that USDT to pool 0x62e3 in the back leg; the victim also swaps on that pool between them. Gross WETH gain is 1.078212 - 1.013765 = 0.064447; subtracting front/back gas 0.003501 + 0.049313 leaves +0.011633 ETH, with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2380,
+  "output_tokens": 6001,
+  "thinking_tokens": 5809
+ },
+ "_request_id": "86b8df2424529516c716e83c0227d575",
+ "_response_id": "1959cbb7-b9ba-45b9-86d1-877313592671",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x62e3c242b5e903071458ad90a160493d84911c77\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.011633,\"gas_eth\":0.052814,\"residual\":\"none\",\"confidence\":5,\"note\":\"The target contract receives 2457.341661 USDT in the front leg and sends exactly that USDT to pool 0x62e3 in the back leg; the victim also swaps on that pool between them. Gross WETH gain is 1.078212 - 1.013765 = 0.064447; subtracting front/back gas 0.003501 + 0.049313 leaves +0.011633 ETH, with no residual non-WETH holding.\"}",
+ "case_id": "pack_134",
+ "_time": "2026-10-19T18:26:46+0800"
+}

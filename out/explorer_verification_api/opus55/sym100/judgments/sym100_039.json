@@ -1,0 +1,31 @@
+{
+ "actor": "0xb8db34f834e9df42f2002ceb7b829dad89d08e14",
+ "pool": "0xcb4f983e705caeb7217c5c3785001cb138115f0b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.020362,
+ "gas_eth": 0.011175,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Both legs are self-contained WETH->USDT->YFV->WETH cycles (and the reverse) run by contract 0xb8db. No YFV or USDT position is opened in the front leg and closed in the back, so this is back-to-back cyclic arbitrage around the victim's trade on the YFV/WETH pool 0xcb4f, not a sandwich bracket. Net is +0.009456 + 0.022081 = 0.031537 WETH, minus 0.011175 ETH gas, giving +0.020362 ETH (net_eth is after gas).",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4773,
+  "output_tokens": 909,
+  "thinking_tokens": 592
+ },
+ "_request_id": "req_011CgBSF8Xs2uLLVWi8FJXjv",
+ "_response_id": "msg_011CgBSF8rxDh5A197K4n2de",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb8db34f834e9df42f2002ceb7b829dad89d08e14\", \"pool\": \"0xcb4f983e705caeb7217c5c3785001cb138115f0b\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.020362, \"gas_eth\": 0.011175, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Both legs are self-contained WETH->USDT->YFV->WETH cycles (and the reverse) run by contract 0xb8db. No YFV or USDT position is opened in the front leg and closed in the back, so this is back-to-back cyclic arbitrage around the victim's trade on the YFV/WETH pool 0xcb4f, not a sandwich bracket. Net is +0.009456 + 0.022081 = 0.031537 WETH, minus 0.011175 ETH gas, giving +0.020362 ETH (net_eth is after gas).\"}",
+ "case_id": "sym100_039",
+ "_time": "2026-10-19T18:27:01+0800"
+}

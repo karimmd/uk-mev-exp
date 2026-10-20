@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 8.9e-05,
+ "gas_eth": 0.011221,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xc1df\u2026 sold 7987.463059 SYN for 4.764050 WETH on the SYN/WETH pool 0x4a86\u2026 before the victim's 30000 SYN sale on the same pool, then bought back exactly 7987.463059 SYN for 4.752740 WETH (a short-side bracket). The WETH gain of 0.011310 minus front and back gas of 0.011221 leaves a slim positive 0.000089 ETH, and no SYN is left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3074,
+  "output_tokens": 681,
+  "thinking_tokens": 386
+ },
+ "_request_id": "req_011CgBSVarHYC4UeK8PwdvWt",
+ "_response_id": "msg_011CgBSVbp5hVYAwzUzYc6aU",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000089, \"gas_eth\": 0.011221, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xc1df\u2026 sold 7987.463059 SYN for 4.764050 WETH on the SYN/WETH pool 0x4a86\u2026 before the victim's 30000 SYN sale on the same pool, then bought back exactly 7987.463059 SYN for 4.752740 WETH (a short-side bracket). The WETH gain of 0.011310 minus front and back gas of 0.011221 leaves a slim positive 0.000089 ETH, and no SYN is left over.\"}",
+ "case_id": "sym100_076",
+ "_time": "2026-10-19T18:30:15+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0xb264dc9d22ece51aaa6028c5cbf2738b684560d6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.003941,
+ "gas_eth": 0.046169,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x0000\u202646aa paid 1.230542 WETH (via USDC through the V3 pool) for 13123.96 NEWO on the V2 NEWO/USDC pool. The victim then bought NEWO with USDC on that same pool, and the contract sold exactly the same NEWO back for 1.280652 WETH. That is a gross gain of 0.050110 WETH, and after 0.046169 ETH of front and back gas it leaves about +0.00394 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3052,
+  "output_tokens": 583,
+  "thinking_tokens": 291
+ },
+ "_request_id": "req_011CgBSsW4RttPdn7wTJCXCc",
+ "_response_id": "msg_011CgBSsWQWo2nNK79DtTCWe",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0xb264dc9d22ece51aaa6028c5cbf2738b684560d6\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.003941, \"gas_eth\": 0.046169, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x0000\u202646aa paid 1.230542 WETH (via USDC through the V3 pool) for 13123.96 NEWO on the V2 NEWO/USDC pool. The victim then bought NEWO with USDC on that same pool, and the contract sold exactly the same NEWO back for 1.280652 WETH. That is a gross gain of 0.050110 WETH, and after 0.046169 ETH of front and back gas it leaves about +0.00394 ETH.\"}",
+ "case_id": "rej53_040",
+ "_time": "2026-10-19T18:35:11+0800"
+}

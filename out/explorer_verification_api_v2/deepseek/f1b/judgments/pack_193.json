@@ -1,0 +1,32 @@
+{
+ "actor": "0x7a08ed5862ba4c2887ef169a17637eadb27beecf",
+ "pool": "0xaadb00551312a3c2a8b46597a39ef1105afb2c08",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.049721,
+ "gas_eth": 0.033614,
+ "profit_after_gas": 0.016107,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought 39,651,792.148310 AXN for 7.44 WETH on pool 0xaadb in front and sold the same AXN back for 7.489721 WETH/ETH, with the victim trading on the same pool in between. Net before gas is +0.049721 ETH; subtracting 0.033614 ETH gas leaves +0.016107 ETH, with no residual AXN.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2719,
+  "output_tokens": 8471,
+  "thinking_tokens": 8267
+ },
+ "_request_id": "8c5d4d70c3300f4b774ffcf28684f598",
+ "_response_id": "73b3d05b-8ada-458c-ad91-a3f389e69d3b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7a08ed5862ba4c2887ef169a17637eadb27beecf\",\"pool\":\"0xaadb00551312a3c2a8b46597a39ef1105afb2c08\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.049721,\"gas_eth\":0.033614,\"profit_after_gas\":0.016107,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract bought 39,651,792.148310 AXN for 7.44 WETH on pool 0xaadb in front and sold the same AXN back for 7.489721 WETH/ETH, with the victim trading on the same pool in between. Net before gas is +0.049721 ETH; subtracting 0.033614 ETH gas leaves +0.016107 ETH, with no residual AXN.\"}",
+ "case_id": "pack_193",
+ "_time": "2026-10-19T19:27:29+0800"
+}

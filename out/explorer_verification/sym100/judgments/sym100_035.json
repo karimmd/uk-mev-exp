@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xf4d4e16c9a93d88990e0b98820c363369ca91c01",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.112105,
+ "gas_eth": 0.01046,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 780.532419 CC to the pool for 3.322638 WETH in the front leg. It buys back exactly 780.532419 CC for 3.210533 WETH in the back leg, with the victim's CC sale on the same pool in between. The WETH gain is 0.112105, or about 0.101645 ETH after the 0.01046 ETH front and back gas. The CC position nets to zero. The direction is sell then rebuy, which is the same side as the victim's sale.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026939199999999996,
+ "_session": "9cb72765-bf63-46c4-9159-bf5a19cb6043",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0xf4d4e16c9a93d88990e0b98820c363369ca91c01\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.112105, \"gas_eth\": 0.01046, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 780.532419 CC to the pool for 3.322638 WETH in the front leg. It buys back exactly 780.532419 CC for 3.210533 WETH in the back leg, with the victim's CC sale on the same pool in between. The WETH gain is 0.112105, or about 0.101645 ETH after the 0.01046 ETH front and back gas. The CC position nets to zero. The direction is sell then rebuy, which is the same side as the victim's sale.\"}",
+ "case_id": "sym100_035",
+ "_time": "2026-10-13T21:30:26+0800"
+}

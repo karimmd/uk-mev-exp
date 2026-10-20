@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front is a sell of MXS for 9.044372 ETH by 0x071c..., while back is a buy of 3928.314691 MXS for 0.030000 ETH by a different sender 0x09ae.... Both use the shared pool 0x13bb..., but no single actor opens then closes a non-WETH position, so Q1 is no and Q2 is not determinable for one actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3072,
+  "output_tokens": 7228,
+  "thinking_tokens": 7063
+ },
+ "_request_id": "400f8a170e2bc999539de0691098c9a9",
+ "_response_id": "60563c0d-9b89-4537-8665-752675d454aa",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front is a sell of MXS for 9.044372 ETH by 0x071c..., while back is a buy of 3928.314691 MXS for 0.030000 ETH by a different sender 0x09ae.... Both use the shared pool 0x13bb..., but no single actor opens then closes a non-WETH position, so Q1 is no and Q2 is not determinable for one actor.\"}",
+ "case_id": "pack_020",
+ "_time": "2026-10-19T18:03:41+0800"
+}

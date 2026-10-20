@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xb143bbeb287dcd1034da6e7186ec695316fff78f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 2.923837,
+ "gas_eth": 2.564217,
+ "residual": "0.022913 XMT (dust)",
+ "confidence": 4,
+ "note": "The actor contract routes WETH to USDT to XMT in the front leg, buying XMT on the XMT/USDT pool the victim also buys from. It sells all but about 0.0229 XMT back in the back leg. WETH out is 338.123524 and WETH in is 341.047361, so the gross gain is 2.923837 ETH. Front and back gas total 2.564217 ETH, which leaves about +0.3596 ETH. The back leg's gas price of 10578 gwei is unusual but is what the explorers show.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024603999999999997,
+ "_session": "76b02591-c5a6-4402-bb4a-9e124fcfb525",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xb143bbeb287dcd1034da6e7186ec695316fff78f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 2.923837, \"gas_eth\": 2.564217, \"residual\": \"0.022913 XMT (dust)\", \"confidence\": 4, \"note\": \"The actor contract routes WETH to USDT to XMT in the front leg, buying XMT on the XMT/USDT pool the victim also buys from. It sells all but about 0.0229 XMT back in the back leg. WETH out is 338.123524 and WETH in is 341.047361, so the gross gain is 2.923837 ETH. Front and back gas total 2.564217 ETH, which leaves about +0.3596 ETH. The back leg's gas price of 10578 gwei is unusual but is what the explorers show.\"}",
+ "case_id": "pack_025",
+ "_time": "2026-10-13T20:09:03+0800"
+}

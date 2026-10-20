@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.042569,
+ "gas_eth": 0.020518,
+ "profit_after_gas": 0.022051,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold COOK for WETH in front, then bought the same COOK amount back with less WETH after the victim traded the same COOK/WETH pool. Net WETH is positive even after front and back gas, with no residual COOK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2363,
+  "output_tokens": 4006,
+  "thinking_tokens": 3840
+ },
+ "_request_id": "c8a0a34909eca3325e3b71ff98b02921",
+ "_response_id": "d15691cf-e20b-4a92-8642-9f1bfaa8d3d2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xbdfe29d9e42ea541c581eef6cf3a2bb27b51e2c4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.042569,\"gas_eth\":0.020518,\"profit_after_gas\":0.022051,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold COOK for WETH in front, then bought the same COOK amount back with less WETH after the victim traded the same COOK/WETH pool. Net WETH is positive even after front and back gas, with no residual COOK.\"}",
+ "case_id": "sym100_065",
+ "_time": "2026-10-19T19:35:25+0800"
+}

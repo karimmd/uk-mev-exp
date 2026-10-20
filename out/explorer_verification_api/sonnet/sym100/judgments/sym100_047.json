@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.945248,
+ "gas_eth": 0.92832,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Each of the actor's legs is a self-contained cross-pool round trip between the V3 pool 0x4b5a\u2026 and the V2 pool 0xdc00\u2026. The front buys LOOKS on V3 and sells it to V2 for -1.084 WETH. The back buys LOOKS on V2 and sells it to V3 for +2.030 WETH. The actor holds no LOOKS between legs, so no position is opened and closed, which fails the Q1 definition. The WETH net across both legs is +0.9452, and gas of 0.9283 ETH leaves about +0.017 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4112,
+  "output_tokens": 1504,
+  "thinking_tokens": 1185
+ },
+ "_request_id": "req_011CgBSAYYMzY9bWcjgZqqTb",
+ "_response_id": "msg_011CgBSAYtBzWAEZNBVi2PyA",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.945248,\"gas_eth\":0.92832,\"residual\":\"none\",\"confidence\":3,\"note\":\"Each of the actor's legs is a self-contained cross-pool round trip between the V3 pool 0x4b5a\u2026 and the V2 pool 0xdc00\u2026. The front buys LOOKS on V3 and sells it to V2 for -1.084 WETH. The back buys LOOKS on V2 and sells it to V3 for +2.030 WETH. The actor holds no LOOKS between legs, so no position is opened and closed, which fails the Q1 definition. The WETH net across both legs is +0.9452, and gas of 0.9283 ETH leaves about +0.017 ETH.\"}",
+ "case_id": "sym100_047",
+ "_time": "2026-10-19T18:26:02+0800"
+}

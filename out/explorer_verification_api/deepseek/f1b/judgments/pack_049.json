@@ -1,0 +1,31 @@
+{
+ "actor": "0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66",
+ "pool": "0xadeaa96a81ebba4e3a5525a008ee107385d588c3",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.02416,
+ "gas_eth": 0.131025,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both run WETH\u2192SWAG\u2192CREAM\u2192WETH cycles through the same SWAG/WETH pool used by the victim, but the actor holds no non-WETH position between the legs. Gross ETH/WETH gain is 0.155185; subtracting front/back gas 0.131025 leaves +0.024160.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 5300,
+  "output_tokens": 11724,
+  "thinking_tokens": 11552
+ },
+ "_request_id": "332c1c27b88664ff4b5f371f0df658fc",
+ "_response_id": "7109bc41-1fdb-4f09-a23b-5641d96a951d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66\",\"pool\":\"0xadeaa96a81ebba4e3a5525a008ee107385d588c3\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.02416,\"gas_eth\":0.131025,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both run WETH\u2192SWAG\u2192CREAM\u2192WETH cycles through the same SWAG/WETH pool used by the victim, but the actor holds no non-WETH position between the legs. Gross ETH/WETH gain is 0.155185; subtracting front/back gas 0.131025 leaves +0.024160.\"}",
+ "case_id": "pack_049",
+ "_time": "2026-10-19T18:11:13+0800"
+}

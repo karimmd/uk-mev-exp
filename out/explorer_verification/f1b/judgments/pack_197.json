@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022941,
+ "gas_eth": 0.02199,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH to LON on pool 0x7924 and then LON to USDT on pool 0x55d3 in the front leg. The back leg reverses this and ends with 62451.878937 USDT sent out, so the USDT nets to zero. The victim sells LON for USDT on 0x55d3 between the two legs. Gross WETH gain is 0.022941 and gas is 0.02199, so the net is about +0.00095 ETH. That margin is thin but positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027992,
+ "_session": "784e6ae5-3c09-4c27-85f2-729995aa2743",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.022941, \"gas_eth\": 0.02199, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract routes WETH to LON on pool 0x7924 and then LON to USDT on pool 0x55d3 in the front leg. The back leg reverses this and ends with 62451.878937 USDT sent out, so the USDT nets to zero. The victim sells LON for USDT on 0x55d3 between the two legs. Gross WETH gain is 0.022941 and gas is 0.02199, so the net is about +0.00095 ETH. That margin is thin but positive.\"}",
+ "case_id": "pack_197",
+ "_time": "2026-10-13T20:43:20+0800"
+}

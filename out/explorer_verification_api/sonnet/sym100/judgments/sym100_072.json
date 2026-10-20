@@ -1,0 +1,31 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.289847,
+ "gas_eth": 0.011402,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor sells 574.97 QNT for 9.050384 WETH in the front leg and buys the same 574.97 QNT back for 8.760537 WETH in the back leg. That nets +0.289847 WETH, or about +0.278445 ETH after 0.011402 ETH gas, with no residual QNT. The victim buys QNT on the same pool, the same direction as the actor's back leg, so the actor's sell-then-rebuy would be hurt by the victim rather than helped. The victim also looks like an arbitrage bot that sells the QNT on another pool. That does not fit a sandwich pattern, so I answer no on Q1, though the profit could have come from other transactions between the legs.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3606,
+  "output_tokens": 1565,
+  "thinking_tokens": 1211
+ },
+ "_request_id": "req_011CgBSKjebRBUncjxq1UqXT",
+ "_response_id": "msg_011CgBSKk2ANPCxzGSadPXE4",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\",\"pool\":\"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.289847,\"gas_eth\":0.011402,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor sells 574.97 QNT for 9.050384 WETH in the front leg and buys the same 574.97 QNT back for 8.760537 WETH in the back leg. That nets +0.289847 WETH, or about +0.278445 ETH after 0.011402 ETH gas, with no residual QNT. The victim buys QNT on the same pool, the same direction as the actor's back leg, so the actor's sell-then-rebuy would be hurt by the victim rather than helped. The victim also looks like an arbitrage bot that sells the QNT on another pool. That does not fit a sandwich pattern, so I answer no on Q1, though the profit could have come from other transactions between the legs.\"}",
+ "case_id": "sym100_072",
+ "_time": "2026-10-19T18:28:08+0800"
+}

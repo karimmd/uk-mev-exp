@@ -1,0 +1,31 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x7ba9b94127d434182287de708643932ec036d365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.618118,
+ "gas_eth": 0.018576,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract 0x51ac... opens the eRSDL position in the front leg and closes it in the back leg on UniswapV2 pool 0x7ba9..., with the victim swapping WETH for eRSDL on that same pool in between. The actor spends 17.43 ETH in front, receives 18.066694 ETH in back, and after 0.018576 ETH gas the net is positive with no eRSDL residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2627,
+  "output_tokens": 1361,
+  "thinking_tokens": 1169
+ },
+ "_request_id": "859493c0739db1b1dbddd6fd9fc5e9f4",
+ "_response_id": "d9af7882-9eb8-45ed-a9fa-5598e52d1a01",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x51acf0af77adcb20de482e1cd678f620baf07e0c\",\"pool\":\"0x7ba9b94127d434182287de708643932ec036d365\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.618118,\"gas_eth\":0.018576,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract 0x51ac... opens the eRSDL position in the front leg and closes it in the back leg on UniswapV2 pool 0x7ba9..., with the victim swapping WETH for eRSDL on that same pool in between. The actor spends 17.43 ETH in front, receives 18.066694 ETH in back, and after 0.018576 ETH gas the net is positive with no eRSDL residual.\"}",
+ "case_id": "pack_019",
+ "_time": "2026-10-19T18:03:07+0800"
+}

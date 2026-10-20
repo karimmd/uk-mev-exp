@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+ "pool": "0x60f6e2200bfef8b4d120028faff4d9a4486526f4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000375,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives and then returns the same IONX amount on the shared UniswapV2 pool. Net WETH/ETH is 3.305701 - 3.268073 - 0.037253 internal ETH = 0.000375, with zero gas cost and no residual IONX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2374,
+  "output_tokens": 1465,
+  "thinking_tokens": 1284
+ },
+ "_request_id": "d73de7259768b003b81566dccaf9a9be",
+ "_response_id": "def67146-b58c-4e08-9bfe-ebf179b71a70",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x0000000099cb7fc48a935bceb9f05bbae54e8987\", \"pool\": \"0x60f6e2200bfef8b4d120028faff4d9a4486526f4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000375, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract receives and then returns the same IONX amount on the shared UniswapV2 pool. Net WETH/ETH is 3.305701 - 3.268073 - 0.037253 internal ETH = 0.000375, with zero gas cost and no residual IONX.\"}",
+ "case_id": "pack_150",
+ "_time": "2026-10-19T18:30:29+0800"
+}

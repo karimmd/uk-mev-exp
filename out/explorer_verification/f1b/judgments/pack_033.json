@@ -1,0 +1,17 @@
+{
+ "actor": "0x40a15a4f062a6c562333ad9b4d530c099f255a7b",
+ "pool": "0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.243281,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender 0x40a1... buys 64768.806987 LKR with 68.9 WETH in the front leg. The victim then buys LKR on the same pool. The back leg sells exactly the same LKR amount for 69.143281 WETH, a net gain of 0.243281 WETH. Both legs show a 0.0 gwei gas price, so the fee is 0 as displayed. If that price is only rounded, the fee would be slightly higher, but it is unlikely to erase the gain.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024329200000000002,
+ "_session": "608ff381-e7f2-4a32-b534-16be5bde88df",
+ "_raw": "{\"actor\": \"0x40a15a4f062a6c562333ad9b4d530c099f255a7b\", \"pool\": \"0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.243281, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The sender 0x40a1... buys 64768.806987 LKR with 68.9 WETH in the front leg. The victim then buys LKR on the same pool. The back leg sells exactly the same LKR amount for 69.143281 WETH, a net gain of 0.243281 WETH. Both legs show a 0.0 gwei gas price, so the fee is 0 as displayed. If that price is only rounded, the fee would be slightly higher, but it is unlikely to erase the gain.\"}",
+ "case_id": "pack_033",
+ "_time": "2026-10-13T20:10:38+0800"
+}

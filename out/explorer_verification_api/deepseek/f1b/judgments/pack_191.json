@@ -1,0 +1,31 @@
+{
+ "actor": "0x6684977bbed67e101bb80fc07fccfba655c0a64f",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0,
+ "gas_eth": 0.016617,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back route WETH into the shared SUSHI/WETH pool and send SUSHI onward to the SushiBar, so they do not open and close a non-WETH position; the victim is just another similar call. The actor's WETH transfers net to zero, leaving only gas cost, so the observable net is negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4493,
+  "output_tokens": 13039,
+  "thinking_tokens": 12879
+ },
+ "_request_id": "c6ec606047043d6b2f79fa23d63a69b6",
+ "_response_id": "b1632fe6-9663-4ccc-ac5c-0f711ba67ec1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x6684977bbed67e101bb80fc07fccfba655c0a64f\",\"pool\":\"0x795065dcc9f64b5614c407a6efdc400da6221fb0\",\"Q1\":\"no\",\"Q2\":\"no\",\"net_eth\":0,\"gas_eth\":0.016617,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back route WETH into the shared SUSHI/WETH pool and send SUSHI onward to the SushiBar, so they do not open and close a non-WETH position; the victim is just another similar call. The actor's WETH transfers net to zero, leaving only gas cost, so the observable net is negative.\"}",
+ "case_id": "pack_191",
+ "_time": "2026-10-19T18:37:46+0800"
+}

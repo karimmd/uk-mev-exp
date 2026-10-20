@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x43ae24960e5534731fc831386c07755a2dc33d47",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender (0xd3761f...) to the same contract (0x86969d...). Each one sells 500 SNX into the same pool for about 6.4 ETH, so the 'victim' is the same actor as the front and back legs. The front and back legs both sell SNX, so no position is opened and then closed in the opposite direction. This is repeated same-direction selling by one actor, not a sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4953,
+  "output_tokens": 243,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBW3CZ6KstcUmhokwXTq",
+ "_response_id": "msg_011CgBW3E5cy69G6kijgnuSm",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x43ae24960e5534731fc831386c07755a2dc33d47\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender (0xd3761f...) to the same contract (0x86969d...). Each one sells 500 SNX into the same pool for about 6.4 ETH, so the 'victim' is the same actor as the front and back legs. The front and back legs both sell SNX, so no position is opened and then closed in the opposite direction. This is repeated same-direction selling by one actor, not a sandwich.\"}",
+ "case_id": "pack_176",
+ "_time": "2026-10-19T19:16:40+0800"
+}

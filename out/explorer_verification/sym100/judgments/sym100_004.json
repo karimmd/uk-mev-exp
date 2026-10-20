@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xeb4664d8229dde455dca168a404ed6c03d4bb701",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.114185,
+ "gas_eth": 0.017271,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 799.417606 URUS for 12.171014 WETH in the front leg, the victim also sells URUS into the same pool, and the actor buys back exactly 799.417606 URUS for 12.056829 WETH in the back leg. This is a sell-first (inventory-based) bracket rather than a buy-first one. The WETH net is +0.114185, and after 0.017271 ETH of front and back gas it is about +0.0969 ETH with no residual URUS change.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0220807,
+ "_session": "d9ec0add-b417-4b9b-9b7b-9ca7d4bfbdbe",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xeb4664d8229dde455dca168a404ed6c03d4bb701\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.114185, \"gas_eth\": 0.017271, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sells 799.417606 URUS for 12.171014 WETH in the front leg, the victim also sells URUS into the same pool, and the actor buys back exactly 799.417606 URUS for 12.056829 WETH in the back leg. This is a sell-first (inventory-based) bracket rather than a buy-first one. The WETH net is +0.114185, and after 0.017271 ETH of front and back gas it is about +0.0969 ETH with no residual URUS change.\"}",
+ "case_id": "sym100_004",
+ "_time": "2026-10-13T21:23:21+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.0264715389,
+ "gas_eth": 0.0461604611,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front leg sells 3430.880586 CGG for 5.344532 WETH on the shared Uniswap V2 pool; back leg buys the same CGG amount back for 5.271900 WETH. Net WETH after front/back gas is positive, but the non-WETH position is closed then reopened rather than opened in front and closed in back, so Q1 is no.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2083,
+  "output_tokens": 10122,
+  "thinking_tokens": 9939
+ },
+ "_request_id": "6f14e26c413da1eed1bfa34d8b535663",
+ "_response_id": "443d8190-6535-4d1a-aeef-99cbd3a09419",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.0264715389,\"gas_eth\":0.0461604611,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front leg sells 3430.880586 CGG for 5.344532 WETH on the shared Uniswap V2 pool; back leg buys the same CGG amount back for 5.271900 WETH. Net WETH after front/back gas is positive, but the non-WETH position is closed then reopened rather than opened in front and closed in back, so Q1 is no.\"}",
+ "case_id": "sym100_009",
+ "_time": "2026-10-19T18:39:44+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.024713,
+ "gas_eth": 0.020665,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x1d6e\u2026932d buys 8864.669729 GLCH for 1.573666 WETH on UniswapV2 pool 0x1037\u20264b4c and sells exactly the same GLCH back for 1.619044 WETH, a gross gain of 0.045378 WETH. Between the two legs the victim buys GLCH on the same pool with 4.644 WETH via 1inch. net_eth is after subtracting 0.020665 ETH of gas for the front and back legs.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3456,
+  "output_tokens": 465,
+  "thinking_tokens": 165
+ },
+ "_request_id": "req_011CgBRnWYSQbR5ypsSbFQPD",
+ "_response_id": "msg_011CgBRnWsYHrDbzCbSmb5fK",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.024713, \"gas_eth\": 0.020665, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x1d6e\u2026932d buys 8864.669729 GLCH for 1.573666 WETH on UniswapV2 pool 0x1037\u20264b4c and sells exactly the same GLCH back for 1.619044 WETH, a gross gain of 0.045378 WETH. Between the two legs the victim buys GLCH on the same pool with 4.644 WETH via 1inch. net_eth is after subtracting 0.020665 ETH of gas for the front and back legs.\"}",
+ "case_id": "pack_162",
+ "_time": "2026-10-19T18:20:56+0800"
+}

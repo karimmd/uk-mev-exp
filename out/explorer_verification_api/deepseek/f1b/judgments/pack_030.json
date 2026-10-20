@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9b577e849b128ee1a69144b218e809b8bb98c35d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 3.771397,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back both involve actor 0x1d6e8... trading NAOS against the same UniswapV2 pool, with the victim in between. WETH/ETH flows net to +3.771397 ETH-equivalent after the equal 3.586598 ETH value-in/internal-out pass-through; front/back gas is zero. The actor sold more NAOS than it received, but no residual NAOS holding remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2646,
+  "output_tokens": 12933,
+  "thinking_tokens": 12745
+ },
+ "_request_id": "5450a6fcbf27168c693dba01686964dc",
+ "_response_id": "8e0300ae-6fde-4606-a5fd-6ee964248faf",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x9b577e849b128ee1a69144b218e809b8bb98c35d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":3.771397,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back both involve actor 0x1d6e8... trading NAOS against the same UniswapV2 pool, with the victim in between. WETH/ETH flows net to +3.771397 ETH-equivalent after the equal 3.586598 ETH value-in/internal-out pass-through; front/back gas is zero. The actor sold more NAOS than it received, but no residual NAOS holding remains.\"}",
+ "case_id": "pack_030",
+ "_time": "2026-10-19T18:08:07+0800"
+}

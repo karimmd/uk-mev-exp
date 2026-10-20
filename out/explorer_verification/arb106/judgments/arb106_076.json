@@ -1,0 +1,25 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.012,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 8.848543 WETH into the TRIBE/WETH V3 pool and gets 8.874758 WETH back from the USDC/WETH V3 pool. The route is WETH->TRIBE->FEI->USDC->WETH across four pools. The net is +0.026215 WETH, less a 0.014215 ETH payment to 0x5a0b (probably a builder tip), which leaves +0.012. The explorer shows a fee of 0 at 0 gwei. The zero-value self-destruct entries are gas-token cleanup and don't change the balance.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.029402,
+ "_session": "cff2ba51-3bc7-42b8-a19a-3651966f499c",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.012,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 8.848543 WETH into the TRIBE/WETH V3 pool and gets 8.874758 WETH back from the USDC/WETH V3 pool. The route is WETH->TRIBE->FEI->USDC->WETH across four pools. The net is +0.026215 WETH, less a 0.014215 ETH payment to 0x5a0b (probably a builder tip), which leaves +0.012. The explorer shows a fee of 0 at 0 gwei. The zero-value self-destruct entries are gas-token cleanup and don't change the balance.\"}",
+ "case_id": "arb106_076",
+ "_time": "2026-10-13T22:27:39+0800"
+}

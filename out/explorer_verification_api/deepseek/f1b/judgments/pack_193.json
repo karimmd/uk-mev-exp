@@ -1,0 +1,31 @@
+{
+ "actor": "0x7a08ed5862ba4c2887ef169a17637eadb27beecf",
+ "pool": "0xaadb00551312a3c2a8b46597a39ef1105afb2c08",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016107378,
+ "gas_eth": 0.033613622,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same actor contract 0x7a08... to buy and sell the same AXN amount on pair 0xaadb..., and the victim also swaps WETH for AXN on that pair between them. Gross ETH/WETH gain is 0.049721 ETH; subtracting front and back gas fees gives +0.016107378 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2651,
+  "output_tokens": 6649,
+  "thinking_tokens": 6473
+ },
+ "_request_id": "57e601bdb1787ec268bb26c6fd8a5538",
+ "_response_id": "735b1420-f852-4513-9ae9-21a9a3865a17",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7a08ed5862ba4c2887ef169a17637eadb27beecf\",\"pool\":\"0xaadb00551312a3c2a8b46597a39ef1105afb2c08\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.016107378,\"gas_eth\":0.033613622,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs use the same actor contract 0x7a08... to buy and sell the same AXN amount on pair 0xaadb..., and the victim also swaps WETH for AXN on that pair between them. Gross ETH/WETH gain is 0.049721 ETH; subtracting front and back gas fees gives +0.016107378 ETH.\"}",
+ "case_id": "pack_193",
+ "_time": "2026-10-19T18:36:06+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x7ba9b94127d434182287de708643932ec036d365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.636694,
+ "gas_eth": 0.018576,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x51ac\u2026 wrapped 17.43 ETH and bought 132246.6589 eRSDL on the shared UniswapV2 pool in the front leg. The victim bought eRSDL on the same pool in between. The actor then sold exactly 132246.6589 eRSDL in the back leg for 18.066694 WETH and unwrapped it to ETH. Net is +0.636694 ETH before gas and about +0.618118 ETH after the 0.018576 ETH of front and back gas, with no token residual.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3311,
+  "output_tokens": 552,
+  "thinking_tokens": 259
+ },
+ "_request_id": "req_011CgBQE8Jhrkbh9TCasPQSf",
+ "_response_id": "msg_011CgBQEEbyYX6DVoi6hAHzC",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x51acf0af77adcb20de482e1cd678f620baf07e0c\",\"pool\":\"0x7ba9b94127d434182287de708643932ec036d365\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.636694,\"gas_eth\":0.018576,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x51ac\u2026 wrapped 17.43 ETH and bought 132246.6589 eRSDL on the shared UniswapV2 pool in the front leg. The victim bought eRSDL on the same pool in between. The actor then sold exactly 132246.6589 eRSDL in the back leg for 18.066694 WETH and unwrapped it to ETH. Net is +0.636694 ETH before gas and about +0.618118 ETH after the 0.018576 ETH of front and back gas, with no token residual.\"}",
+ "case_id": "pack_019",
+ "_time": "2026-10-19T18:00:30+0800"
+}

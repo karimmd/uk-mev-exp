@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x438d3e9cacab4614a8f1613ac7b182378d76e1f8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.016637,
+ "gas_eth": 0.004327,
+ "profit_after_gas": 0.01231,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x3dad8... sold WSCRT for WETH in the front leg and bought back the same WSCRT amount in the back leg on the same Uniswap V2 pool 0x438d..., with the victim trading that pool between. Net WETH before gas is 1.104680 - 1.088043 = 0.016637, and front+back gas is 0.004327, leaving positive profit with no WSCRT residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2513,
+  "output_tokens": 3242,
+  "thinking_tokens": 3023
+ },
+ "_request_id": "8b4aecdecde1b1fcfac6223409461d84",
+ "_response_id": "b7e8b4e1-2bbd-4f46-9984-7a391bcdb4d9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x438d3e9cacab4614a8f1613ac7b182378d76e1f8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.016637,\"gas_eth\":0.004327,\"profit_after_gas\":0.01231,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x3dad8... sold WSCRT for WETH in the front leg and bought back the same WSCRT amount in the back leg on the same Uniswap V2 pool 0x438d..., with the victim trading that pool between. Net WETH before gas is 1.104680 - 1.088043 = 0.016637, and front+back gas is 0.004327, leaving positive profit with no WSCRT residual.\"}",
+ "case_id": "sym100_052",
+ "_time": "2026-10-19T19:33:36+0800"
+}

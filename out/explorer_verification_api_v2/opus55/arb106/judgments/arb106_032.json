@@ -1,0 +1,40 @@
+{
+ "actor": "0xa10fca31a2cb432c9ac976779dc947cfdb003ef0",
+ "pools": [
+  "0x157dfa656fdf0d18e1ba94075a53600d81cb3a97",
+  "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
+  "0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8",
+  "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.071018,
+ "gas_eth": 0.036862,
+ "profit_after_gas": 0.034156,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor sends 7.489325 WETH into a four-pool loop (UniV3 UMA/WETH, then UniV2 UMA/FEI, then UniV3 FEI/DAI, then UniV2 DAI/WETH) and gets back 7.560343 WETH. Each intermediate token goes directly from one pool to the next, and the actor keeps no residual. It nets +0.071018 WETH, which covers the 0.036862 ETH gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2281,
+  "output_tokens": 851,
+  "thinking_tokens": 411
+ },
+ "_request_id": "req_011CgBXFb1QF34rEeDYhp3d7",
+ "_response_id": "msg_011CgBXFbNUyqdtehRJZ5Wya",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xa10fca31a2cb432c9ac976779dc947cfdb003ef0\", \"pools\": [\"0x157dfa656fdf0d18e1ba94075a53600d81cb3a97\", \"0x0f024314588466416c8fc66013ba4d3ab2e4efe5\", \"0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8\", \"0xa478c2975ab1ea89e8196811f51a7b7ade33eb11\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.071018, \"gas_eth\": 0.036862, \"profit_after_gas\": 0.034156, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor sends 7.489325 WETH into a four-pool loop (UniV3 UMA/WETH, then UniV2 UMA/FEI, then UniV3 FEI/DAI, then UniV2 DAI/WETH) and gets back 7.560343 WETH. Each intermediate token goes directly from one pool to the next, and the actor keeps no residual. It nets +0.071018 WETH, which covers the 0.036862 ETH gas.\"}",
+ "case_id": "arb106_032",
+ "_time": "2026-10-19T19:32:39+0800"
+}

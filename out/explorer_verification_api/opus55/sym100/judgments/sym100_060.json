@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.019847,
+ "gas_eth": 0.002953,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x3dad sells 2223.760412 CVX for 11.342 WETH on the CVX/WETH pool 0x0576 before the victim's CVX sale on the same pool. It then buys the identical 2223.760412 CVX back for 11.3192 WETH, a sell-side bracket. That leaves +0.0228 WETH gross, minus 0.002953 ETH gas for the two legs, with no residual CVX.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3042,
+  "output_tokens": 608,
+  "thinking_tokens": 331
+ },
+ "_request_id": "req_011CgBSPWfbrEmLKbfrT8wNB",
+ "_response_id": "msg_011CgBSPX1SU37EjMWFufyoi",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x05767d9ef41dc40689678ffca0608878fb3de906\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.019847, \"gas_eth\": 0.002953, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x3dad sells 2223.760412 CVX for 11.342 WETH on the CVX/WETH pool 0x0576 before the victim's CVX sale on the same pool. It then buys the identical 2223.760412 CVX back for 11.3192 WETH, a sell-side bracket. That leaves +0.0228 WETH gross, minus 0.002953 ETH gas for the two legs, with no residual CVX.\"}",
+ "case_id": "sym100_060",
+ "_time": "2026-10-19T18:28:52+0800"
+}

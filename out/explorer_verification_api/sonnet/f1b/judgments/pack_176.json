@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x43ae24960e5534731fc831386c07755a2dc33d47",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs come from the same sender (0xd376...) to the same contract (0x8696...), and each one sells 500 SNX for ETH on the same pool. The sender's own tokens go in and ETH comes out each time, with the victim leg identical in form to the front and back legs. No position is opened and closed, and the victim is not a different party, so this is not a sandwich. The ETH received falls (6.4646, 6.4280, 6.4159) and each leg pays about 0.0184-0.0188 ETH in gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4864,
+  "output_tokens": 260,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRnxqUsiwz5qWe6AEqv",
+ "_response_id": "msg_011CgBRnyBpQ5eiCuEr1vFya",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x43ae24960e5534731fc831386c07755a2dc33d47\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs come from the same sender (0xd376...) to the same contract (0x8696...), and each one sells 500 SNX for ETH on the same pool. The sender's own tokens go in and ETH comes out each time, with the victim leg identical in form to the front and back legs. No position is opened and closed, and the victim is not a different party, so this is not a sandwich. The ETH received falls (6.4646, 6.4280, 6.4159) and each leg pays about 0.0184-0.0188 ETH in gas.\"}",
+ "case_id": "pack_176",
+ "_time": "2026-10-19T18:20:59+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.13698,
+ "gas_eth": 0.0,
+ "residual": "266897856280.728515 KISHU",
+ "confidence": 5,
+ "note": "The front and back legs both use the KISHU/WETH pool 0xf82d..., with the same contract holding KISHU after the front and selling it in the back around the victim's trade. Net WETH is +0.13698, gas is zero, and a positive KISHU residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2965,
+  "output_tokens": 6810,
+  "thinking_tokens": 6637
+ },
+ "_request_id": "08440a4dbc47c2df41ea9708cde5bbc8",
+ "_response_id": "0eb28fee-6ee7-46d5-9252-31dd2ae69e78",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.13698,\"gas_eth\":0.0,\"residual\":\"266897856280.728515 KISHU\",\"confidence\":5,\"note\":\"The front and back legs both use the KISHU/WETH pool 0xf82d..., with the same contract holding KISHU after the front and selling it in the back around the victim's trade. Net WETH is +0.13698, gas is zero, and a positive KISHU residual remains.\"}",
+ "case_id": "pack_149",
+ "_time": "2026-10-19T18:30:45+0800"
+}

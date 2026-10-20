@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.284109,
+ "gas_eth": 0.018576,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH to WTON on pool 0xc292... and then WTON to TOS on the TOS/WTON pool. The victim also buys TOS with WTON on that pool, and the back leg reverses both hops. The actor takes in 20.529028 WETH and pays out 19.937134 WETH, a gain of 0.591894. It also forwards 0.307785 ETH to 0x0708..., which looks like a builder payment, leaving 0.284109 ETH before gas and about 0.2655 ETH after the 0.018576 ETH of gas. TOS and WTON in and out match, so no residual holding is left.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0286492,
+ "_session": "35334f0a-0483-4a4e-8845-740793d86e6e",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.284109, \"gas_eth\": 0.018576, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract routes WETH to WTON on pool 0xc292... and then WTON to TOS on the TOS/WTON pool. The victim also buys TOS with WTON on that pool, and the back leg reverses both hops. The actor takes in 20.529028 WETH and pays out 19.937134 WETH, a gain of 0.591894. It also forwards 0.307785 ETH to 0x0708..., which looks like a builder payment, leaving 0.284109 ETH before gas and about 0.2655 ETH after the 0.018576 ETH of gas. TOS and WTON in and out match, so no residual holding is left.\"}",
+ "case_id": "pack_137",
+ "_time": "2026-10-13T20:30:59+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xdc2b82bc1106c9c5286e59344896fb0ceb932f53",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are sent by different EOAs to different contracts (0x0000000000007f15\u2026 vs 0x000000000000006f65\u2026). Each leg is a self-contained arbitrage: it buys RGT from 0x28a55c4b and sells it into the same transaction's 0xdc2b RGT/WETH pool, so no RGT position is opened in front and closed in back. Because there is no single bracket actor, Q2 has no subject; taken separately, front nets about +0.281 ETH before 0.0715 gas and back about +0.192 ETH before 0.0095 gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 5364,
+  "output_tokens": 924,
+  "thinking_tokens": 630
+ },
+ "_request_id": "req_011CgBQwKuMhLGdTeXJM2iyD",
+ "_response_id": "msg_011CgBQwLw7tXjUC8LmfvDg7",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": null, \"pool\": \"0xdc2b82bc1106c9c5286e59344896fb0ceb932f53\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Front and back are sent by different EOAs to different contracts (0x0000000000007f15\u2026 vs 0x000000000000006f65\u2026). Each leg is a self-contained arbitrage: it buys RGT from 0x28a55c4b and sells it into the same transaction's 0xdc2b RGT/WETH pool, so no RGT position is opened in front and closed in back. Because there is no single bracket actor, Q2 has no subject; taken separately, front nets about +0.281 ETH before 0.0715 gas and back about +0.192 ETH before 0.0095 gas.\"}\n```",
+ "case_id": "pack_073",
+ "_time": "2026-10-19T18:09:54+0800"
+}

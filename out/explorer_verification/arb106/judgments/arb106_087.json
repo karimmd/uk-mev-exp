@@ -1,0 +1,24 @@
+{
+ "actor": "0xbf3f6477dbd514ef85b7d3ec6ac2205fd0962039",
+ "pools": [
+  "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878"
+ ],
+ "cycle_token": "USDC",
+ "profit_token": null,
+ "Q1": "cannot tell",
+ "Q1_reason": "unclear",
+ "Q2": "no",
+ "net_eth": 0,
+ "gas_eth": 0.065992,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor takes 3,567,488.91 USDC from the USDC/WETH pool and returns exactly that amount. It uses 68,686.97 USDC to buy FEI on the FEI/USDC V3 pool, then sells the FEI on the FEI/WETH V2 pool. The 30.07 WETH from that sale goes straight to the first pool, so the actor never holds it. Every token nets to zero for the actor, so no profit token is visible. Net ETH is 0 and the 0.065992 ETH gas fee makes the position negative.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0328712,
+ "_session": "af8da5a2-4bc8-4668-842e-207157784d76",
+ "_raw": "{\"actor\":\"0xbf3f6477dbd514ef85b7d3ec6ac2205fd0962039\",\"pools\":[\"0x56178a0d5f301baf6cf3e1cd53d9863437345bf9\",\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\",\"0x94b0a3d511b6ecdb17ebf877278ab030acb0a878\"],\"cycle_token\":\"USDC\",\"profit_token\":null,\"Q1\":\"cannot tell\",\"Q1_reason\":\"unclear\",\"Q2\":\"no\",\"net_eth\":0,\"gas_eth\":0.065992,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor takes 3,567,488.91 USDC from the USDC/WETH pool and returns exactly that amount. It uses 68,686.97 USDC to buy FEI on the FEI/USDC V3 pool, then sells the FEI on the FEI/WETH V2 pool. The 30.07 WETH from that sale goes straight to the first pool, so the actor never holds it. Every token nets to zero for the actor, so no profit token is visible. Net ETH is 0 and the 0.065992 ETH gas fee makes the position negative.\"}",
+ "case_id": "arb106_087",
+ "_time": "2026-10-13T22:30:16+0800"
+}

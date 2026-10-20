@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0xd3d2e2692501a5c9ca623199d38826e513033a17",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.318299,
+ "residual": "none identifiable",
+ "confidence": 3,
+ "note": "The front leg is a multi-pool route from 0xf55d... that sells 32000 UNI into the 0xd3d2 UNI/WETH pool and ends in USDC. The victim buys UNI on that pool, so the front sale pushes the UNI price down in the victim's favour instead of against them. The back leg is a different sender (0xd68f...) whose WETH-for-UNI buy on 0xd3d2 is funded by 0x5617..., not by the front actor, so I see no single actor opening and closing a position, and no basis for a net sign. gas_eth is the front fee (0.297189) plus the back fee (0.021110).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0388407,
+ "_session": "3b6acc77-e3ba-485a-8dde-0380c4e5f7f7",
+ "_raw": "{\"actor\": null, \"pool\": \"0xd3d2e2692501a5c9ca623199d38826e513033a17\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.318299, \"residual\": \"none identifiable\", \"confidence\": 3, \"note\": \"The front leg is a multi-pool route from 0xf55d... that sells 32000 UNI into the 0xd3d2 UNI/WETH pool and ends in USDC. The victim buys UNI on that pool, so the front sale pushes the UNI price down in the victim's favour instead of against them. The back leg is a different sender (0xd68f...) whose WETH-for-UNI buy on 0xd3d2 is funded by 0x5617..., not by the front actor, so I see no single actor opening and closing a position, and no basis for a net sign. gas_eth is the front fee (0.297189) plus the back fee (0.021110).\"}",
+ "case_id": "pack_085",
+ "_time": "2026-10-13T20:21:03+0800"
+}

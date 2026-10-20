@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0xb264dc9d22ece51aaa6028c5cbf2738b684560d6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.05011,
+ "gas_eth": 0.046169,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 13123.96 NEWO on the V2 pool in the front leg, routing WETH to USDC on V3 and then USDC to NEWO. The victim buys NEWO on the same V2 pool. The actor sells the identical NEWO amount back in the back leg and ends with 1.280652 WETH against 1.230542 spent, a gross gain of 0.05011 ETH. After 0.046169 ETH of gas for both legs, the net is about +0.00394 ETH, and no NEWO is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0247572,
+ "_session": "4eb70297-7143-4a41-92f9-81f16758edf5",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0xb264dc9d22ece51aaa6028c5cbf2738b684560d6\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.05011, \"gas_eth\": 0.046169, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 13123.96 NEWO on the V2 pool in the front leg, routing WETH to USDC on V3 and then USDC to NEWO. The victim buys NEWO on the same V2 pool. The actor sells the identical NEWO amount back in the back leg and ends with 1.280652 WETH against 1.230542 spent, a gross gain of 0.05011 ETH. After 0.046169 ETH of gas for both legs, the net is about +0.00394 ETH, and no NEWO is left over.\"}",
+ "case_id": "rej53_040",
+ "_time": "2026-10-13T22:01:33+0800"
+}

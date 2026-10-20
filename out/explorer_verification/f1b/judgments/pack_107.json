@@ -1,0 +1,17 @@
+{
+ "actor": "0x59903993ae67bf48f10832e9be28935fee04d6f6",
+ "pool": "0xd65e975c7d0d5871eff8b079120e43c9f377ada1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0035,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 4441.946284 YOP for 2.303848 WETH in the front leg, the victim buys YOP on the same YOP/WETH pool, and the actor sells the same YOP amount back for 2.337182 WETH in the back leg. The gross gain is 0.033334 ETH. The back leg also pays 0.029834 ETH to 0x1ad91ee0... (likely a builder/coinbase tip), leaving 0.0035 ETH, and the stated gas fees are 0 at 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0235547,
+ "_session": "9486880e-fc1e-4672-8991-fba911605017",
+ "_raw": "{\"actor\": \"0x59903993ae67bf48f10832e9be28935fee04d6f6\", \"pool\": \"0xd65e975c7d0d5871eff8b079120e43c9f377ada1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.0035, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 4441.946284 YOP for 2.303848 WETH in the front leg, the victim buys YOP on the same YOP/WETH pool, and the actor sells the same YOP amount back for 2.337182 WETH in the back leg. The gross gain is 0.033334 ETH. The back leg also pays 0.029834 ETH to 0x1ad91ee0... (likely a builder/coinbase tip), leaving 0.0035 ETH, and the stated gas fees are 0 at 0.0 gwei.\"}",
+ "case_id": "pack_107",
+ "_time": "2026-10-13T20:25:26+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792",
+ "pool": "0x7a21a32b536d72613cda8f4d2739821e8dc0f8ca",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016579,
+ "gas_eth": 0.011549,
+ "residual": "0.000001 SAIYAN",
+ "confidence": 5,
+ "note": "Both front and back legs trade on the same UniswapV2 pair; the called contract 0xf27b... receives SAIYAN in front and gives it up in back, with the victim trading that pair between. WETH net is +0.028128 minus 0.011549 gas, leaving +0.016579 ETH; only negligible SAIYAN dust remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2654,
+  "output_tokens": 4752,
+  "thinking_tokens": 4563
+ },
+ "_request_id": "855ffb1f9e2c103c5ffa68173c433a43",
+ "_response_id": "b9f74bb7-af75-4283-bad0-e16eff3ffeef",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf27b6320e9fa107c9ae72f1c82fa57000fbc0792\",\"pool\":\"0x7a21a32b536d72613cda8f4d2739821e8dc0f8ca\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.016579,\"gas_eth\":0.011549,\"residual\":\"0.000001 SAIYAN\",\"confidence\":5,\"note\":\"Both front and back legs trade on the same UniswapV2 pair; the called contract 0xf27b... receives SAIYAN in front and gives it up in back, with the victim trading that pair between. WETH net is +0.028128 minus 0.011549 gas, leaving +0.016579 ETH; only negligible SAIYAN dust remains.\"}",
+ "case_id": "pack_189",
+ "_time": "2026-10-19T18:35:28+0800"
+}

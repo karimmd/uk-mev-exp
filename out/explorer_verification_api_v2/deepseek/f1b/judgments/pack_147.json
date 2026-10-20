@@ -1,0 +1,32 @@
+{
+ "actor": "0x7e104e3497234f604edf65f6eebe44aa6dedfddf",
+ "pool": "0x4d9824fbc04eff50ab1dac614eae4e20859d5c91",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": -4.66686,
+ "gas_eth": 0.023522,
+ "profit_after_gas": -4.690382,
+ "residual": "1050.460166 DEUS",
+ "confidence": 5,
+ "note": "All three legs are WETH-to-DEUS buys on the same UniswapV2 pool; the front/back actor receives DEUS in both and does not close a position. The actor pays net ETH/WETH before gas, but the leftover DEUS holding prevents a profit sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2969,
+  "output_tokens": 4139,
+  "thinking_tokens": 3958
+ },
+ "_request_id": "e0a046e6d9118a334acdcd16c1fc1c14",
+ "_response_id": "b8e3946b-e56a-4472-b856-46a8b296f139",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7e104e3497234f604edf65f6eebe44aa6dedfddf\",\"pool\":\"0x4d9824fbc04eff50ab1dac614eae4e20859d5c91\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":-4.66686,\"gas_eth\":0.023522,\"profit_after_gas\":-4.690382,\"residual\":\"1050.460166 DEUS\",\"confidence\":5,\"note\":\"All three legs are WETH-to-DEUS buys on the same UniswapV2 pool; the front/back actor receives DEUS in both and does not close a position. The actor pays net ETH/WETH before gas, but the leftover DEUS holding prevents a profit sign.\"}",
+ "case_id": "pack_147",
+ "_time": "2026-10-19T19:21:56+0800"
+}

@@ -1,0 +1,37 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "SAITAMA",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.007525,
+ "gas_eth": 0.005652,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xdfee sent 0.509228 WETH to pool 0x9cbf and received 0.516753 WETH from pool 0xd0dc, with SAITAMA routed directly between the pools. Net WETH +0.007525; after 0.005652 gas fee, +0.001873.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1422,
+  "output_tokens": 9630,
+  "thinking_tokens": 9408
+ },
+ "_request_id": "4bd208e54278dbc5818cc77ed74c7d33",
+ "_response_id": "f552e187-7062-437e-9d08-5a2d36220993",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdfee68a9adb981cd08699891a11cabe10f25ec44\",\"pools\":[\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\",\"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"],\"cycle_token\":\"SAITAMA\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.007525,\"gas_eth\":0.005652,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0xdfee sent 0.509228 WETH to pool 0x9cbf and received 0.516753 WETH from pool 0xd0dc, with SAITAMA routed directly between the pools. Net WETH +0.007525; after 0.005652 gas fee, +0.001873.\"}",
+ "case_id": "arb106_086",
+ "_time": "2026-10-19T19:34:19+0800"
+}

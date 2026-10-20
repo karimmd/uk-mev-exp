@@ -1,0 +1,31 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.081176,
+ "gas_eth": 0.013277,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x09dd, called by 0xf529, sold 8902.104262 INFI for 4.646677 WETH on pair 0xe760. The victim then sold INFI on the same pair, lowering the price, and 0x09dd bought back exactly 8902.104262 INFI for 4.552224 WETH. This is an inverted (short-side) bracket that nets +0.094453 WETH before 0.013277 ETH of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3068,
+  "output_tokens": 579,
+  "thinking_tokens": 302
+ },
+ "_request_id": "req_011CgBSAPY7uAfpEV6YuWeeW",
+ "_response_id": "msg_011CgBSAPvSnYFnKBhbLAtxN",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x09ddb304758caf024706dee2e92b569ca4823aa1\", \"pool\": \"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.081176, \"gas_eth\": 0.013277, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x09dd, called by 0xf529, sold 8902.104262 INFI for 4.646677 WETH on pair 0xe760. The victim then sold INFI on the same pair, lowering the price, and 0x09dd bought back exactly 8902.104262 INFI for 4.552224 WETH. This is an inverted (short-side) bracket that nets +0.094453 WETH before 0.013277 ETH of gas.\"}",
+ "case_id": "sym100_024",
+ "_time": "2026-10-19T18:25:53+0800"
+}

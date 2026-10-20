@@ -1,0 +1,31 @@
+{
+ "actor": "0x292499bbec93aa92e0556e5dd89b5e7e172228a6",
+ "pool": "0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.058577,
+ "gas_eth": 0.025716,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front leg sells SPI for WETH and back leg buys SPI back, so the actor does not open a long non-WETH position in front; same actor and pool, with victim between. Net WETH delta is +0.058577; after front+back gas 0.025716 the position is +0.032861 ETH, with no net SPI residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2389,
+  "output_tokens": 10989,
+  "thinking_tokens": 10797
+ },
+ "_request_id": "ca60144239988a7f1f9d490ced83f575",
+ "_response_id": "15b1bf3c-14a3-4090-aa35-36487dae5a29",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x292499bbec93aa92e0556e5dd89b5e7e172228a6\", \"pool\": \"0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.058577, \"gas_eth\": 0.025716, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Front leg sells SPI for WETH and back leg buys SPI back, so the actor does not open a long non-WETH position in front; same actor and pool, with victim between. Net WETH delta is +0.058577; after front+back gas 0.025716 the position is +0.032861 ETH, with no net SPI residual.\"}",
+ "case_id": "sym100_018",
+ "_time": "2026-10-19T18:41:08+0800"
+}

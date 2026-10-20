@@ -1,0 +1,37 @@
+{
+ "actor": "0x649c8131c5fd45f3b75597224b45217b53578ec8",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000473,
+ "gas_eth": 0.004259,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract receives 0.280637 WETH from the second pool after sending 0.275905 WETH to the first, leaving +0.004732 WETH before gas. Subtracting the 0.004259 ETH fee leaves about +0.000473 net, with no residual non-WETH holding visible.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1419,
+  "output_tokens": 10584,
+  "thinking_tokens": 10367
+ },
+ "_request_id": "4825827ee1dfbdd7acf670a98fbd1a36",
+ "_response_id": "8936acea-7378-49bb-871f-6b5e44e18c8b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x649c8131c5fd45f3b75597224b45217b53578ec8\",\"pools\":[\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\",\"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000473,\"gas_eth\":0.004259,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract receives 0.280637 WETH from the second pool after sending 0.275905 WETH to the first, leaving +0.004732 WETH before gas. Subtracting the 0.004259 ETH fee leaves about +0.000473 net, with no residual non-WETH holding visible.\"}",
+ "case_id": "arb106_024",
+ "_time": "2026-10-19T19:09:54+0800"
+}

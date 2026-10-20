@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xc60c479f3cc66f1654a4113f4949c98ce77a9995",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.032475,
+ "gas_eth": 0.01681,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The shared pool is the KYL/WETH Uniswap V2 pair. The same contract sold KYL for WETH in the front leg and bought the same KYL amount back in the back leg, netting +0.049285 WETH before gas and +0.032475 ETH/WETH after gas. This is a sell-side reverse bracket, not a front-leg non-WETH purchase, so Q1 is no under the stated definition.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2273,
+  "output_tokens": 6338,
+  "thinking_tokens": 6152
+ },
+ "_request_id": "1db84253beca5ab0ad41ab28b90d4559",
+ "_response_id": "4687d9dd-d357-4352-948a-20c359eb9d04",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xc60c479f3cc66f1654a4113f4949c98ce77a9995\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.032475,\"gas_eth\":0.01681,\"residual\":\"none\",\"confidence\":4,\"note\":\"The shared pool is the KYL/WETH Uniswap V2 pair. The same contract sold KYL for WETH in the front leg and bought the same KYL amount back in the back leg, netting +0.049285 WETH before gas and +0.032475 ETH/WETH after gas. This is a sell-side reverse bracket, not a front-leg non-WETH purchase, so Q1 is no under the stated definition.\"}",
+ "case_id": "sym100_063",
+ "_time": "2026-10-19T18:50:21+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0,
+ "gas_eth": 0.015612,
+ "residual": "about -519.44 TRU (sold 61603.19, bought back 61083.75)",
+ "confidence": 3,
+ "note": "The same contract trades the TRU/WETH pool before and after the victim, who also sells TRU there. That fits a sell-first sandwich shape. WETH nets to exactly 0 (13.726 out, 13.726 in), gas costs 0.015612 ETH, and the actor ends with about 519 fewer TRU, so the position is negative after costs. The back leg bought at a worse price than the front sold at, which is unusual for a profitable sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3063,
+  "output_tokens": 1526,
+  "thinking_tokens": 1224
+ },
+ "_request_id": "req_011CgBR2To22ZwUcZqGmvi6T",
+ "_response_id": "msg_011CgBR2a3YqnJgVAY88Nxyx",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0,\"gas_eth\":0.015612,\"residual\":\"about -519.44 TRU (sold 61603.19, bought back 61083.75)\",\"confidence\":3,\"note\":\"The same contract trades the TRU/WETH pool before and after the victim, who also sells TRU there. That fits a sell-first sandwich shape. WETH nets to exactly 0 (13.726 out, 13.726 in), gas costs 0.015612 ETH, and the actor ends with about 519 fewer TRU, so the position is negative after costs. The back leg bought at a worse price than the front sold at, which is unusual for a profitable sandwich.\"}",
+ "case_id": "pack_087",
+ "_time": "2026-10-19T18:11:07+0800"
+}

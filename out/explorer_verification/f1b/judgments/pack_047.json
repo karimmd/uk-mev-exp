@@ -1,0 +1,17 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x9c4cc862f51b1ba90485de3502aa058ca4331f32",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.074708,
+ "gas_eth": 0.080033,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x51ac\u2026 buys 2072.5835 CELL with 6.75 ETH before the victim, whose swap buys CELL on the same pool (0x9c4c\u2026). It then sells exactly that CELL after the victim for 6.824708 ETH, so no CELL is left. The gross gain of 0.074708 ETH is less than the 0.080033 ETH of front and back gas, so the net is about -0.005325 ETH. This doesn't count any gas rebate from the CHI burn, which isn't shown in ETH terms.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0274572,
+ "_session": "b493b13e-ab98-4758-8600-2ed39ef7fe40",
+ "_raw": "{\"actor\":\"0x51acf0af77adcb20de482e1cd678f620baf07e0c\",\"pool\":\"0x9c4cc862f51b1ba90485de3502aa058ca4331f32\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.074708,\"gas_eth\":0.080033,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x51ac\u2026 buys 2072.5835 CELL with 6.75 ETH before the victim, whose swap buys CELL on the same pool (0x9c4c\u2026). It then sells exactly that CELL after the victim for 6.824708 ETH, so no CELL is left. The gross gain of 0.074708 ETH is less than the 0.080033 ETH of front and back gas, so the net is about -0.005325 ETH. This doesn't count any gas rebate from the CHI burn, which isn't shown in ETH terms.\"}",
+ "case_id": "pack_047",
+ "_time": "2026-10-13T20:13:09+0800"
+}

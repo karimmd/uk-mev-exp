@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x20d2c17d1928ef4290bf17f922a10eaa2770bf43",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.111215,
+ "gas_eth": 0.02553,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 128.014979 MUSE into the MUSE/WETH pool for 5.601308 WETH in the front leg. The victim then sells MUSE into the same pool, and the actor buys back exactly 128.014979 MUSE for 5.490093 WETH in the back leg, so the MUSE position is flat. WETH net is +0.111215, and after 0.02553 ETH of front and back gas it is about +0.0857 ETH. The sell-first direction means the actor must have held MUSE beforehand, which the shown evidence does not rule out.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.022222699999999998,
+ "_session": "2b4d9c65-c37e-4e31-838b-81ba87f28b34",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x20d2c17d1928ef4290bf17f922a10eaa2770bf43\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.111215, \"gas_eth\": 0.02553, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sells 128.014979 MUSE into the MUSE/WETH pool for 5.601308 WETH in the front leg. The victim then sells MUSE into the same pool, and the actor buys back exactly 128.014979 MUSE for 5.490093 WETH in the back leg, so the MUSE position is flat. WETH net is +0.111215, and after 0.02553 ETH of front and back gas it is about +0.0857 ETH. The sell-first direction means the actor must have held MUSE beforehand, which the shown evidence does not rule out.\"}",
+ "case_id": "sym100_054",
+ "_time": "2026-10-13T21:34:51+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9c6c852a56de59a59f7a4527724a2a0a87f7d223",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.132094,
+ "gas_eth": 0.104134,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026932d pays 16.8 WETH for 1,039,067.564282 FERA on pool 0x9c6c\u2026d223, and the victim then buys FERA on that same pool. In the back leg the contract sells exactly the same FERA amount for 17.036228 WETH, a gross gain of 0.236228 against 0.104134 ETH of gas, so net is +0.132094 ETH with no residual. The front and back legs have different senders, but both call the same contract, which holds and closes the position, so that does not change the answer.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3067,
+  "output_tokens": 488,
+  "thinking_tokens": 172
+ },
+ "_request_id": "req_011CgBRQKCTJsEu5P3MTXkio",
+ "_response_id": "msg_011CgBRQQVSmo8q8cELPu5ko",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x9c6c852a56de59a59f7a4527724a2a0a87f7d223\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.132094, \"gas_eth\": 0.104134, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026932d pays 16.8 WETH for 1,039,067.564282 FERA on pool 0x9c6c\u2026d223, and the victim then buys FERA on that same pool. In the back leg the contract sells exactly the same FERA amount for 17.036228 WETH, a gross gain of 0.236228 against 0.104134 ETH of gas, so net is +0.132094 ETH with no residual. The front and back legs have different senders, but both call the same contract, which holds and closes the position, so that does not change the answer.\"}",
+ "case_id": "pack_114",
+ "_time": "2026-10-19T18:15:56+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.002472,
+ "gas_eth": 0.010921,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Both of the actor's legs are closed WETH loops through pool A (0x659a) and pool B (0x13cd), so the actor never holds EROWAN; that fails the strict 'opens and closes a non-WETH position' test. Economically it still looks like a sandwich: the front leg loses 0.004634 WETH to sell EROWAN into B ahead of the victim's EROWAN sell, and the back leg reverses it for +0.046310 WETH. Net after the 0.028283 ETH coinbase payment and 0.010921 ETH gas is about +0.00247 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3546,
+  "output_tokens": 1317,
+  "thinking_tokens": 992
+ },
+ "_request_id": "req_011CgBSRYtMPZhN5EdmsjyMq",
+ "_response_id": "msg_011CgBSRZFSLwck4h3VDQoCX",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.002472, \"gas_eth\": 0.010921, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Both of the actor's legs are closed WETH loops through pool A (0x659a) and pool B (0x13cd), so the actor never holds EROWAN; that fails the strict 'opens and closes a non-WETH position' test. Economically it still looks like a sandwich: the front leg loses 0.004634 WETH to sell EROWAN into B ahead of the victim's EROWAN sell, and the back leg reverses it for +0.046310 WETH. Net after the 0.028283 ETH coinbase payment and 0.010921 ETH gas is about +0.00247 ETH.\"}",
+ "case_id": "sym100_066",
+ "_time": "2026-10-19T18:29:27+0800"
+}

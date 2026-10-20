@@ -1,0 +1,31 @@
+{
+ "actor": "0xc65433d2a598c323e04fd143566b08609af008dc",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.034551,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xc654 received COLLAR in the front leg and sold the identical 146.279741 COLLAR in the back leg on the same UniswapV2 pool used by the victim; gas fees were zero. Net ETH/WETH flow is +0.458185 - 0.440000 WETH plus +0.018185 ETH transaction value minus 0.001819 ETH internal transfer, leaving +0.034551 ETH-equivalent and no residual COLLAR.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2574,
+  "output_tokens": 6111,
+  "thinking_tokens": 5921
+ },
+ "_request_id": "9817df64a39103c1101d8212105d33d8",
+ "_response_id": "f99e1b4c-d99c-4cfa-8593-638b96224a72",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc65433d2a598c323e04fd143566b08609af008dc\",\"pool\":\"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.034551,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0xc654 received COLLAR in the front leg and sold the identical 146.279741 COLLAR in the back leg on the same UniswapV2 pool used by the victim; gas fees were zero. Net ETH/WETH flow is +0.458185 - 0.440000 WETH plus +0.018185 ETH transaction value minus 0.001819 ETH internal transfer, leaving +0.034551 ETH-equivalent and no residual COLLAR.\"}",
+ "case_id": "pack_013",
+ "_time": "2026-10-19T18:00:52+0800"
+}

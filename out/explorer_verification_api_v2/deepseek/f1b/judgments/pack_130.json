@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1965a114cc3341c0d2ba96a6361790b96ba8c20c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.035879,
+ "gas_eth": 0.012111,
+ "profit_after_gas": 0.023768,
+ "residual": "0.127402 MX",
+ "confidence": 5,
+ "note": "Front and back both trade on pool 0x1965a114cc3341c0d2ba96a6361790b96ba8c20c, with actor 0x00000000003b3cc22af3ae1eac0440bcee416b40 receiving MX in front and sending it back in back. WETH net is +0.035879; after 0.012111 gas cost profit is +0.023768, with only a tiny positive MX residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2416,
+  "output_tokens": 4345,
+  "thinking_tokens": 4121
+ },
+ "_request_id": "00ed7768c92c6158d8f3e4d638864c1e",
+ "_response_id": "b66dc721-dcd8-46de-8f48-2c58e630d3c5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1965a114cc3341c0d2ba96a6361790b96ba8c20c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.035879,\"gas_eth\":0.012111,\"profit_after_gas\":0.023768,\"residual\":\"0.127402 MX\",\"confidence\":5,\"note\":\"Front and back both trade on pool 0x1965a114cc3341c0d2ba96a6361790b96ba8c20c, with actor 0x00000000003b3cc22af3ae1eac0440bcee416b40 receiving MX in front and sending it back in back. WETH net is +0.035879; after 0.012111 gas cost profit is +0.023768, with only a tiny positive MX residual.\"}",
+ "case_id": "pack_130",
+ "_time": "2026-10-19T19:20:21+0800"
+}

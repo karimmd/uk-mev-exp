@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.146069,
+ "gas_eth": 0.008274,
+ "profit_after_gas": 0.137795,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front bought 373.776975 OHM via the same UniswapV2 OHM/DAI pool used by the victim; back sold exactly that OHM and received 0.146069 more WETH than spent. Back-leg tx value was forwarded as internal ETH, netting zero for the actor; gas subtracts 0.008274 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3072,
+  "output_tokens": 5258,
+  "thinking_tokens": 5070
+ },
+ "_request_id": "23faaff3a1f09e4f4212578cd1b277a8",
+ "_response_id": "d4f4bc78-6eec-41fc-bffb-0413ecd2e612",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.146069,\"gas_eth\":0.008274,\"profit_after_gas\":0.137795,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front bought 373.776975 OHM via the same UniswapV2 OHM/DAI pool used by the victim; back sold exactly that OHM and received 0.146069 more WETH than spent. Back-leg tx value was forwarded as internal ETH, netting zero for the actor; gas subtracts 0.008274 ETH.\"}",
+ "case_id": "pack_088",
+ "_time": "2026-10-19T19:15:24+0800"
+}

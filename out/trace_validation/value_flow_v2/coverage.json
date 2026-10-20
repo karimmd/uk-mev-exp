@@ -1,0 +1,24 @@
+{
+ "boundary_basis": {
+  "closing:actor_is_sender": 1599,
+  "closing:sender_invokes_actor": 12393,
+  "opening:actor_is_sender": 1599,
+  "opening:sender_invokes_actor": 12289
+ },
+ "cases": 17637,
+ "generated_at": "2026-09-20 20:28:38 CST",
+ "note": "precursor gates only; no sign, no outcome distribution, no group label",
+ "other": {},
+ "precursor_rate": {
+  "boundary_unresolved": 0.050235,
+  "reaches_ledger": 0.787209,
+  "recipient_disagreement": 0.108068,
+  "recipient_unresolved": 0.054488
+ },
+ "precursor_tally": {
+  "boundary_unresolved": 886,
+  "reaches_ledger": 13884,
+  "recipient_disagreement": 1906,
+  "recipient_unresolved": 961
+ }
+}

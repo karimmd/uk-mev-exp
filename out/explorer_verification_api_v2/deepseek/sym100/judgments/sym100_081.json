@@ -1,0 +1,32 @@
+{
+ "actor": "0x0000000000d41c96294ccdac8612bdfe29c641af",
+ "pool": "0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.086303,
+ "gas_eth": 0.072341,
+ "profit_after_gas": 0.013962,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells the non-WETH token 0x892a into shared pool 0xab2d, and back buys it back after the victim's sell on the same pool. Net WETH before gas is +0.086303 and gas is 0.072341, leaving +0.013962; no residual non-WETH holding is observed.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2523,
+  "output_tokens": 14113,
+  "thinking_tokens": 13907
+ },
+ "_request_id": "029fe8b86322dace8263f50d64cbc3e5",
+ "_response_id": "037802bf-88eb-4eda-ac9a-8f95181e4531",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x0000000000d41c96294ccdac8612bdfe29c641af\", \"pool\": \"0xab2d2f5bc36620a57ec4bb60d6a7df2a847deab5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.086303, \"gas_eth\": 0.072341, \"profit_after_gas\": 0.013962, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front sells the non-WETH token 0x892a into shared pool 0xab2d, and back buys it back after the victim's sell on the same pool. Net WETH before gas is +0.086303 and gas is 0.072341, leaving +0.013962; no residual non-WETH holding is observed.\"}",
+ "case_id": "sym100_081",
+ "_time": "2026-10-19T19:37:39+0800"
+}

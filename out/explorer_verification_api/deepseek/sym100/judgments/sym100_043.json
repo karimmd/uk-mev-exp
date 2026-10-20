@@ -1,0 +1,31 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.041589,
+ "gas_eth": 0.005269,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are calls into the same contract, which sold JEJUDOGE on the shared pool before the victim's sell and bought the same amount back after. Gross WETH gain was 0.046858; after 0.005269 gas, net is +0.041589, with no net JEJUDOGE residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2433,
+  "output_tokens": 10343,
+  "thinking_tokens": 10172
+ },
+ "_request_id": "9045849763768f373571188c7b504d8e",
+ "_response_id": "009faf56-a9fa-46d0-95e4-be011903ccff",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\",\"pool\":\"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.041589,\"gas_eth\":0.005269,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back are calls into the same contract, which sold JEJUDOGE on the shared pool before the victim's sell and bought the same amount back after. Gross WETH gain was 0.046858; after 0.005269 gas, net is +0.041589, with no net JEJUDOGE residual.\"}",
+ "case_id": "sym100_043",
+ "_time": "2026-10-19T18:46:14+0800"
+}

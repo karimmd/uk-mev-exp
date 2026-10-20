@@ -1,0 +1,17 @@
+{
+ "actor": "0x0000000071e801062eb0544403f66176bba42dc0",
+ "pool": "0x4a39d635581dd0fb39fe0e211c4b03590e44aa35",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.540308,
+ "gas_eth": 0.03512,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (called by different senders) spent 38.055664 WETH for 214.508315 YUI in the front leg and sold exactly 214.508315 YUI for 39.595972 WETH in the back leg, on the pool the victim also bought YUI from, with the victim in between. Gross WETH gain is 1.540308; after front and back gas of 0.03512 ETH the position is about +1.505 ETH, with no residual YUI.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0207027,
+ "_session": "0e23f47a-3ef5-40de-9fba-b4129a4d9fde",
+ "_raw": "{\"actor\": \"0x0000000071e801062eb0544403f66176bba42dc0\", \"pool\": \"0x4a39d635581dd0fb39fe0e211c4b03590e44aa35\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.540308, \"gas_eth\": 0.03512, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract (called by different senders) spent 38.055664 WETH for 214.508315 YUI in the front leg and sold exactly 214.508315 YUI for 39.595972 WETH in the back leg, on the pool the victim also bought YUI from, with the victim in between. Gross WETH gain is 1.540308; after front and back gas of 0.03512 ETH the position is about +1.505 ETH, with no residual YUI.\"}",
+ "case_id": "pack_041",
+ "_time": "2026-10-13T20:12:08+0800"
+}

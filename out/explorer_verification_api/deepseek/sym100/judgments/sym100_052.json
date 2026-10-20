@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x438d3e9cacab4614a8f1613ac7b182378d76e1f8",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.01231,
+ "gas_eth": 0.004327,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use pool 0x438d..., but the actor sells WSCRT for WETH in front and buys WSCRT back in back, so it does not open a non-WETH token position as required. Net WETH received 1.104680 minus spent 1.088043 equals +0.016637, less 0.004327 gas, leaving +0.01231 ETH-equivalent and no residual WSCRT.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2445,
+  "output_tokens": 2534,
+  "thinking_tokens": 2339
+ },
+ "_request_id": "3283aaf066fee05c747195895f48e274",
+ "_response_id": "d55affa3-2295-43a9-8a8b-c9e7ab9030a7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x438d3e9cacab4614a8f1613ac7b182378d76e1f8\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.01231,\"gas_eth\":0.004327,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use pool 0x438d..., but the actor sells WSCRT for WETH in front and buys WSCRT back in back, so it does not open a non-WETH token position as required. Net WETH received 1.104680 minus spent 1.088043 equals +0.016637, less 0.004327 gas, leaving +0.01231 ETH-equivalent and no residual WSCRT.\"}",
+ "case_id": "sym100_052",
+ "_time": "2026-10-19T18:47:27+0800"
+}

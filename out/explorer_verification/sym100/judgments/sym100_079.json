@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.215151,
+ "gas_eth": 0.056616,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 195.337011 PMON to the pool for 3.052328 WETH in the front leg. In the back leg it buys back exactly 195.337011 PMON for 2.837177 WETH. The victim sells PMON into the same pool between the two legs. Net WETH is +0.215151, and after 0.056616 ETH of gas it is about +0.1585 ETH. The PMON position is flat, so nothing is left over. The front leg opens with a sale of PMON the actor already held, not a purchase, but the bracket structure still holds.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0264132,
+ "_session": "b94f6b8b-6781-4ced-8cea-8bd07b08c75b",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.215151,\"gas_eth\":0.056616,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract actor sells 195.337011 PMON to the pool for 3.052328 WETH in the front leg. In the back leg it buys back exactly 195.337011 PMON for 2.837177 WETH. The victim sells PMON into the same pool between the two legs. Net WETH is +0.215151, and after 0.056616 ETH of gas it is about +0.1585 ETH. The PMON position is flat, so nothing is left over. The front leg opens with a sale of PMON the actor already held, not a purchase, but the bracket structure still holds.\"}",
+ "case_id": "sym100_079",
+ "_time": "2026-10-13T21:40:44+0800"
+}

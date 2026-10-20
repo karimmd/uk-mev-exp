@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfe903a12359496b932e24c5e9b78f1b9060a6342",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.65344,
+ "gas_eth": 0.392697,
+ "profit_after_gas": 0.260743,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells PKF for 15.563 WETH and back buys back the same PKF for 14.909560 WETH on the same pool used by the victim, leaving +0.65344 ETH/WETH before gas. Front/back gas totals 0.392697 ETH, so net after gas is +0.260743 ETH; no residual non-WETH position remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2695,
+  "output_tokens": 3663,
+  "thinking_tokens": 3469
+ },
+ "_request_id": "db38242fc652ee017d54f4e678610cb3",
+ "_response_id": "f5118b87-bf87-4ec3-bc00-b80c569518ee",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xfe903a12359496b932e24c5e9b78f1b9060a6342\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.65344,\"gas_eth\":0.392697,\"profit_after_gas\":0.260743,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells PKF for 15.563 WETH and back buys back the same PKF for 14.909560 WETH on the same pool used by the victim, leaving +0.65344 ETH/WETH before gas. Front/back gas totals 0.392697 ETH, so net after gas is +0.260743 ETH; no residual non-WETH position remains.\"}",
+ "case_id": "sym100_019",
+ "_time": "2026-10-19T19:30:25+0800"
+}

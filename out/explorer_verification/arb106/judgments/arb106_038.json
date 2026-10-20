@@ -1,0 +1,24 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "WETH/ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002212,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor takes 7268.884 USDT from the V2 FNK/USDT pair and sends 7222.1 USDT to a V3 pool and 46.784 USDT to another V3 pool. USDT nets to zero, and 0.022125 WETH comes in from the second V3 pool and is unwrapped. The actor then sends 0.019913 ETH to 0x3ecef08d0e2dad803847e052249bb4f8bff2d5bb, probably a builder or coinbase payment, leaving about +0.002212 ETH. The gas fee shows as 0 at 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0268672,
+ "_session": "9e998f5f-c077-4e90-9177-2487210f68cd",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\"],\"cycle_token\":\"USDT\",\"profit_token\":\"WETH/ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.002212,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor takes 7268.884 USDT from the V2 FNK/USDT pair and sends 7222.1 USDT to a V3 pool and 46.784 USDT to another V3 pool. USDT nets to zero, and 0.022125 WETH comes in from the second V3 pool and is unwrapped. The actor then sends 0.019913 ETH to 0x3ecef08d0e2dad803847e052249bb4f8bff2d5bb, probably a builder or coinbase payment, leaving about +0.002212 ETH. The gas fee shows as 0 at 0.0 gwei.\"}",
+ "case_id": "arb106_038",
+ "_time": "2026-10-13T22:19:16+0800"
+}

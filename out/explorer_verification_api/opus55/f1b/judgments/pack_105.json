@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000007c68390193776e8b44df3b698d311070b9",
+ "pool": "0xc4002da5ceb8c65b3dd985f6c4a9bc961d932690",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.007826,
+ "gas_eth": 0.052503,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x0000007c\u2026 bought 328460.712404 POP for 1.529115 WETH on UniV3 pool 0xc4002da5\u2026 before the victim's WETH\u2192POP swap on the same pool. It then sold exactly the same POP amount back for 1.589444 WETH. The WETH gain of 0.060329 minus 0.052503 in gas (the back leg paid a 492 gwei priority price) leaves +0.007826 ETH, with no POP left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2735,
+  "output_tokens": 515,
+  "thinking_tokens": 229
+ },
+ "_request_id": "req_011CgBRK35SktGT428zv2bXz",
+ "_response_id": "msg_011CgBRK3Sn1pKa29gLF7Ai8",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000007c68390193776e8b44df3b698d311070b9\", \"pool\": \"0xc4002da5ceb8c65b3dd985f6c4a9bc961d932690\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.007826, \"gas_eth\": 0.052503, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x0000007c\u2026 bought 328460.712404 POP for 1.529115 WETH on UniV3 pool 0xc4002da5\u2026 before the victim's WETH\u2192POP swap on the same pool. It then sold exactly the same POP amount back for 1.589444 WETH. The WETH gain of 0.060329 minus 0.052503 in gas (the back leg paid a 492 gwei priority price) leaves +0.007826 ETH, with no POP left over.\"}",
+ "case_id": "pack_105",
+ "_time": "2026-10-19T18:14:43+0800"
+}

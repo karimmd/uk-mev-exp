@@ -1,0 +1,17 @@
+{
+ "actor": "0x726cdc837384a7deb8bbea64beba2e7b4d7346c0",
+ "pool": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -0.0472,
+ "gas_eth": 0.015158,
+ "residual": "17.511325 DAI (7.457245 + 10.054080) received across front and back legs, none sold",
+ "confidence": 4,
+ "note": "All three legs have the same sender, 0x726c..., who swaps ETH for DAI each time via the Uniswap V2 router on the DAI/WETH pool. The back leg buys more DAI instead of selling the front-leg position, and the victim is the same address as the front and back actor, so no position is opened and closed and no separate victim exists. Net ETH is -0.0472 before gas, with 17.51 DAI left unsold, so the sign of the position can't be fixed.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0231227,
+ "_session": "40a7226d-abfe-40a1-884a-45fd4fa8b0f0",
+ "_raw": "{\"actor\": \"0x726cdc837384a7deb8bbea64beba2e7b4d7346c0\", \"pool\": \"0xa478c2975ab1ea89e8196811f51a7b7ade33eb11\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -0.0472, \"gas_eth\": 0.015158, \"residual\": \"17.511325 DAI (7.457245 + 10.054080) received across front and back legs, none sold\", \"confidence\": 4, \"note\": \"All three legs have the same sender, 0x726c..., who swaps ETH for DAI each time via the Uniswap V2 router on the DAI/WETH pool. The back leg buys more DAI instead of selling the front-leg position, and the victim is the same address as the front and back actor, so no position is opened and closed and no separate victim exists. Net ETH is -0.0472 before gas, with 17.51 DAI left unsold, so the sign of the position can't be fixed.\"}",
+ "case_id": "pack_039",
+ "_time": "2026-10-13T20:11:46+0800"
+}

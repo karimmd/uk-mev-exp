@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5fa464cefe8901d66c09b85d5fcdc55b3738c688",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.129141,
+ "gas_eth": 0.012972,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract trades in both legs. In each leg it buys TOKE on pool 0xd4e7 and sells it on pool 0x5fa4, or the reverse, so it holds no TOKE between legs. The victim sells TOKE into 0x5fa4 between the legs, and the actor's WETH result moves from -0.088986 in the front leg to +0.347422 in the back leg. After the 0.129295 ETH payment to 0x99c8 the WETH/ETH net is +0.129141, and after 0.012972 gas it is about +0.116 ETH. Q1 is a judgement call, because the position is flat within each leg rather than held across both.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3447,
+  "output_tokens": 1454,
+  "thinking_tokens": 1116
+ },
+ "_request_id": "req_011CgBRwJb6UBRuon9ojUMLo",
+ "_response_id": "msg_011CgBRwJuTYfXJdR3HJ6zfE",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x5fa464cefe8901d66c09b85d5fcdc55b3738c688\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.129141,\"gas_eth\":0.012972,\"residual\":\"none\",\"confidence\":3,\"note\":\"The same contract trades in both legs. In each leg it buys TOKE on pool 0xd4e7 and sells it on pool 0x5fa4, or the reverse, so it holds no TOKE between legs. The victim sells TOKE into 0x5fa4 between the legs, and the actor's WETH result moves from -0.088986 in the front leg to +0.347422 in the back leg. After the 0.129295 ETH payment to 0x99c8 the WETH/ETH net is +0.129141, and after 0.012972 gas it is about +0.116 ETH. Q1 is a judgement call, because the position is flat within each leg rather than held across both.\"}",
+ "case_id": "sym100_008",
+ "_time": "2026-10-19T18:23:01+0800"
+}

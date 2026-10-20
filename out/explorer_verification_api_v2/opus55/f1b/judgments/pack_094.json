@@ -1,0 +1,32 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.065254,
+ "gas_eth": 0.157241,
+ "profit_after_gas": -0.091987,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract bought 3,020,068.012421 PEOPLE for 19.216836 WETH on the V3 pool, the victim then bought PEOPLE on the same pool, and the back leg sold the same PEOPLE for 19.403861 WETH, a gross gain of +0.187025. In the back leg the sender paid 0.121771 ETH in value, which the contract forwarded to 0xb7e39\u2026 (likely a builder payment), so I subtracted it, giving 0.065254 before 0.157241 of gas. Without that deduction profit would be +0.029784, so the sign depends on whether 0xb7e39\u2026 belongs to the actor.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2890,
+  "output_tokens": 1082,
+  "thinking_tokens": 722
+ },
+ "_request_id": "req_011CgBVcP5fR2UemgU3vrp39",
+ "_response_id": "msg_011CgBVcPQm8B2Xw67znNSPq",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x83abecf7204d5afc1bea5df734f085f2535a9976\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth_before_gas\": 0.065254, \"gas_eth\": 0.157241, \"profit_after_gas\": -0.091987, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The contract bought 3,020,068.012421 PEOPLE for 19.216836 WETH on the V3 pool, the victim then bought PEOPLE on the same pool, and the back leg sold the same PEOPLE for 19.403861 WETH, a gross gain of +0.187025. In the back leg the sender paid 0.121771 ETH in value, which the contract forwarded to 0xb7e39\u2026 (likely a builder payment), so I subtracted it, giving 0.065254 before 0.157241 of gas. Without that deduction profit would be +0.029784, so the sign depends on whether 0xb7e39\u2026 belongs to the actor.\"}",
+ "case_id": "pack_094",
+ "_time": "2026-10-19T19:11:11+0800"
+}

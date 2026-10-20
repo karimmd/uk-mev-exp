@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x3f61171b1297f6e512c750c172ba86026ab0e820",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.109313,
+ "gas_eth": 0.098288,
+ "residual": "about 0.000001 USDC dust (negligible)",
+ "confidence": 4,
+ "note": "The actor contract pays 2.2856 WETH into the V3 pool, which routes FLEX to the FLEX/USDC V2 pool, and the actor receives 7388.229585 USDC in the front leg. The victim sells 1000 FLEX for USDC in that V2 pool, and in the back leg the actor returns 7388.229584 USDC and receives 2.3949 WETH. WETH net is +0.109313 and gas is 0.098288, so about +0.011025 ETH after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2999,
+  "output_tokens": 1079,
+  "thinking_tokens": 778
+ },
+ "_request_id": "req_011CgBQ8P44TtSMCrhD6nSeu",
+ "_response_id": "msg_011CgBQ8TrnfbW9eqP8uWhtT",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0x3f61171b1297f6e512c750c172ba86026ab0e820\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.109313,\"gas_eth\":0.098288,\"residual\":\"about 0.000001 USDC dust (negligible)\",\"confidence\":4,\"note\":\"The actor contract pays 2.2856 WETH into the V3 pool, which routes FLEX to the FLEX/USDC V2 pool, and the actor receives 7388.229585 USDC in the front leg. The victim sells 1000 FLEX for USDC in that V2 pool, and in the back leg the actor returns 7388.229584 USDC and receives 2.3949 WETH. WETH net is +0.109313 and gas is 0.098288, so about +0.011025 ETH after gas.\"}",
+ "case_id": "pack_011",
+ "_time": "2026-10-19T17:59:16+0800"
+}

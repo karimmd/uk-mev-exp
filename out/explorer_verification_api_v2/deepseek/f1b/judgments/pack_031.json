@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x0dacb47e00aed6abade32c7b398e029393e0d848",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.04516451,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are separate arbitrage contracts (0x78a55... and 0x860bd2...) both selling SOCKS into the same WETH/SOCKS pool; neither opens a position that the other closes. The victim buys SOCKS on that pool, but the attacker legs are not a single actor open/close bracket.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3329,
+  "output_tokens": 13839,
+  "thinking_tokens": 13684
+ },
+ "_request_id": "6abb744085c89fe581f45fd4f20d08ed",
+ "_response_id": "12390d7e-960a-4b5e-99e5-ab04196d140a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x0dacb47e00aed6abade32c7b398e029393e0d848\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.04516451,\"profit_after_gas\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are separate arbitrage contracts (0x78a55... and 0x860bd2...) both selling SOCKS into the same WETH/SOCKS pool; neither opens a position that the other closes. The victim buys SOCKS on that pool, but the attacker legs are not a single actor open/close bracket.\"}",
+ "case_id": "pack_031",
+ "_time": "2026-10-19T19:07:54+0800"
+}

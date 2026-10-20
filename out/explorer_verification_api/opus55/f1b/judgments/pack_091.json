@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0x7fd1de95fc975fbbd8be260525758549ec477960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.166318,
+ "gas_eth": 0.049841,
+ "residual": "possibly up to ~2.5M HOGE (gap between 125.8M received and 123.3M shown sent), likely HOGE's ~2% transfer fee rather than a real holding",
+ "confidence": 4,
+ "note": "Contract 0x00000000c9fd\u2026 swaps 9.479658 WETH for 125.8M HOGE on the HOGE/WETH pair 0x7fd1\u2026 before the victim buys HOGE on that same pair via USDC->WETH->HOGE. It then sells HOGE back on 0x7fd1\u2026 for 9.695817 WETH, a gain of 0.216159 WETH against 0.049841 ETH of gas. The HOGE gap matches HOGE's fee-on-transfer, so any leftover is small and does not change the sign.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2847,
+  "output_tokens": 907,
+  "thinking_tokens": 540
+ },
+ "_request_id": "req_011CgBR9oxQHNfyH3LvRbCCL",
+ "_response_id": "msg_011CgBR9tcwhuGkvu3ME6Myx",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000c9fdd743c60055c0e4ea30d266272c1f\", \"pool\": \"0x7fd1de95fc975fbbd8be260525758549ec477960\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.166318, \"gas_eth\": 0.049841, \"residual\": \"possibly up to ~2.5M HOGE (gap between 125.8M received and 123.3M shown sent), likely HOGE's ~2% transfer fee rather than a real holding\", \"confidence\": 4, \"note\": \"Contract 0x00000000c9fd\u2026 swaps 9.479658 WETH for 125.8M HOGE on the HOGE/WETH pair 0x7fd1\u2026 before the victim buys HOGE on that same pair via USDC->WETH->HOGE. It then sells HOGE back on 0x7fd1\u2026 for 9.695817 WETH, a gain of 0.216159 WETH against 0.049841 ETH of gas. The HOGE gap matches HOGE's fee-on-transfer, so any leftover is small and does not change the sign.\"}",
+ "case_id": "pack_091",
+ "_time": "2026-10-19T18:12:43+0800"
+}

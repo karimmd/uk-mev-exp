@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x280ab9403372be0371313a9ddd9222b5590dbfef",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.041742,
+ "gas_eth": 0,
+ "residual": "about 697,845,119,115.7 JSHIBA (front bought 34,917,813,261,615.9, back sold 34,219,968,142,500.2)",
+ "confidence": 3,
+ "note": "The actor contract buys JSHIBA with 5.84 WETH on the JSHIBA/WETH pool in the front leg. The victim buys JSHIBA on the same pool, and the back leg sells JSHIBA for 6.241362 WETH. Net is +0.401362 WETH minus the 0.35962 ETH forwarded out in the back leg (a payment to 0x2f73\u2026, likely a miner bribe), giving +0.041742 ETH. Both legs show a 0.0 gwei gas price, so gas is taken as 0. The leftover JSHIBA can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3330,
+  "output_tokens": 1234,
+  "thinking_tokens": 857
+ },
+ "_request_id": "req_011CgBQ1XpUB3TcDEPD7AK4e",
+ "_response_id": "msg_011CgBQ1Ythu1Zv2oqBcM5u3",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x280ab9403372be0371313a9ddd9222b5590dbfef\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.041742,\"gas_eth\":0,\"residual\":\"about 697,845,119,115.7 JSHIBA (front bought 34,917,813,261,615.9, back sold 34,219,968,142,500.2)\",\"confidence\":3,\"note\":\"The actor contract buys JSHIBA with 5.84 WETH on the JSHIBA/WETH pool in the front leg. The victim buys JSHIBA on the same pool, and the back leg sells JSHIBA for 6.241362 WETH. Net is +0.401362 WETH minus the 0.35962 ETH forwarded out in the back leg (a payment to 0x2f73\u2026, likely a miner bribe), giving +0.041742 ETH. Both legs show a 0.0 gwei gas price, so gas is taken as 0. The leftover JSHIBA can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_001",
+ "_time": "2026-10-19T17:57:43+0800"
+}

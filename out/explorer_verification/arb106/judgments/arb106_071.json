@@ -1,0 +1,24 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "ETH/WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001937,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 7262.97 USDT from the V2 FNK/USDT pool and sends 7222.10 USDT to one V3 pool and 40.87 USDT to another, so USDT nets to zero. FNK moves pool to pool and never touches the actor. The actor unwraps 0.019374 WETH to ETH and pays 0.017437 ETH to 0xe9b5 (probably a builder tip). That leaves +0.001937 ETH, and the explorer shows a zero gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0212827,
+ "_session": "e7debeeb-09b6-4da6-8db6-a0118c20f0a0",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\"],\"cycle_token\":\"USDT\",\"profit_token\":\"ETH/WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001937,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 7262.97 USDT from the V2 FNK/USDT pool and sends 7222.10 USDT to one V3 pool and 40.87 USDT to another, so USDT nets to zero. FNK moves pool to pool and never touches the actor. The actor unwraps 0.019374 WETH to ETH and pays 0.017437 ETH to 0xe9b5 (probably a builder tip). That leaves +0.001937 ETH, and the explorer shows a zero gas fee.\"}",
+ "case_id": "arb106_071",
+ "_time": "2026-10-13T22:26:39+0800"
+}

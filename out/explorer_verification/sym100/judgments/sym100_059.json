@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.171717,
+ "gas_eth": 0.021695,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 1094.379276 CWS into the pool for 10.506 WETH before the victim, who also sells CWS into the same pool, then buys back exactly 1094.379276 CWS for 10.334283 WETH. This is a reverse-direction sandwich: the actor starts with CWS inventory, so the token position is flat after the back leg. Net WETH is +0.171717, and after 0.021695 ETH of front and back gas it is about +0.150 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.022892700000000002,
+ "_session": "cbfa3f27-a88c-42aa-a6b0-fe6138ab3cc8",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.171717, \"gas_eth\": 0.021695, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 1094.379276 CWS into the pool for 10.506 WETH before the victim, who also sells CWS into the same pool, then buys back exactly 1094.379276 CWS for 10.334283 WETH. This is a reverse-direction sandwich: the actor starts with CWS inventory, so the token position is flat after the back leg. Net WETH is +0.171717, and after 0.021695 ETH of front and back gas it is about +0.150 ETH.\"}",
+ "case_id": "sym100_059",
+ "_time": "2026-10-13T21:35:59+0800"
+}

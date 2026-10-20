@@ -1,0 +1,40 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
+  "0xa5c475167f03b1556c054e0da78192cd2779087f",
+  "0xce7e98d4da6ebda6af474ea618c6b175729cd366"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.067922,
+ "gas_eth": 0.052853,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 5.735764 WETH from the FXS/WETH V3 pool and pays 5.667178 WETH into the FODL/WETH V2 pool. The route then runs FODL, USDC, FRAX and FXS through the other pools and ends at the first pool. The actor holds only WETH, netting +0.068586 WETH, then 0.000664 ETH goes to 0x829b, leaving 0.067922 ETH, and after the 0.052853 ETH gas fee about +0.01507 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2538,
+  "output_tokens": 1462,
+  "thinking_tokens": 1018
+ },
+ "_request_id": "req_011CgBSnvjbLa6bazs9MtaYP",
+ "_response_id": "msg_011CgBSnw5gAoqSxvo7rjaFh",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0xcd8286b48936cdac20518247dbd310ab681a9fbf\",\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\",\"0xa5c475167f03b1556c054e0da78192cd2779087f\",\"0xce7e98d4da6ebda6af474ea618c6b175729cd366\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.067922,\"gas_eth\":0.052853,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives 5.735764 WETH from the FXS/WETH V3 pool and pays 5.667178 WETH into the FODL/WETH V2 pool. The route then runs FODL, USDC, FRAX and FXS through the other pools and ends at the first pool. The actor holds only WETH, netting +0.068586 WETH, then 0.000664 ETH goes to 0x829b, leaving 0.067922 ETH, and after the 0.052853 ETH gas fee about +0.01507 ETH.\"}",
+ "case_id": "arb106_002",
+ "_time": "2026-10-19T18:34:14+0800"
+}

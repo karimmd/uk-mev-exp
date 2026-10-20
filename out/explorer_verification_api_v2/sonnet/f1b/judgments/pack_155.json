@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "Front-leg sender 0xf1e8a399... is left holding about 463.135 PRIA and never sells it. The back-leg address 0x1c8ad03a... also ends up holding about 193.826 PRIA.",
+ "confidence": 4,
+ "note": "The front leg (0xf1e8...) buys PRIA with 2 ETH. The back leg is a different address (0x1c8a...) that also buys PRIA, receiving 193.826 PRIA, which equals the victim's sold amount. No single actor opens and closes a position, so this is not a sandwich bracket. Because the front actor's PRIA is unsold, no profit sign can be given for it.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4274,
+  "output_tokens": 878,
+  "thinking_tokens": 566
+ },
+ "_request_id": "req_011CgBVvchxAjhzQjVjm36dT",
+ "_response_id": "msg_011CgBVvd43gFc9pxp5A4QH9",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xac350eefccdae050614070e5040e17759cebb3e9\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"Front-leg sender 0xf1e8a399... is left holding about 463.135 PRIA and never sells it. The back-leg address 0x1c8ad03a... also ends up holding about 193.826 PRIA.\", \"confidence\": 4, \"note\": \"The front leg (0xf1e8...) buys PRIA with 2 ETH. The back leg is a different address (0x1c8a...) that also buys PRIA, receiving 193.826 PRIA, which equals the victim's sold amount. No single actor opens and closes a position, so this is not a sandwich bracket. Because the front actor's PRIA is unsold, no profit sign can be given for it.\"}",
+ "case_id": "pack_155",
+ "_time": "2026-10-19T19:15:15+0800"
+}

@@ -1,0 +1,26 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x083178e6adcadbda37c02c47b1101aa19878d404",
+  "0xda827fe99adb2643d80fd30f750b8b96321d7726"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002512,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 0.739692 WETH into the USDT/WETH V3 pool. That USDT then goes through FNK (V3, then V2) and FUN (V3), and 0.749907 WETH comes back, so the WETH cycle closes with +0.010215 WETH. It then pays 0.007703 ETH to another address (probably a builder tip), leaving about +0.002512 ETH. The explorer shows gas price 0, so the fee is 0, and the actor holds no other tokens at the end.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025939200000000003,
+ "_session": "37128935-5cfe-4823-9d2d-3ded9a9f30c1",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x083178e6adcadbda37c02c47b1101aa19878d404\",\"0xda827fe99adb2643d80fd30f750b8b96321d7726\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.002512,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 0.739692 WETH into the USDT/WETH V3 pool. That USDT then goes through FNK (V3, then V2) and FUN (V3), and 0.749907 WETH comes back, so the WETH cycle closes with +0.010215 WETH. It then pays 0.007703 ETH to another address (probably a builder tip), leaving about +0.002512 ETH. The explorer shows gas price 0, so the fee is 0, and the actor holds no other tokens at the end.\"}",
+ "case_id": "arb106_003",
+ "_time": "2026-10-13T22:10:38+0800"
+}

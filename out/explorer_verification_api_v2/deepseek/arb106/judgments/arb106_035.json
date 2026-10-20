@@ -1,0 +1,41 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0xdfcf744c8ae896e8631ba9b9dc717546646f6708",
+  "0x66cab8b4acc7d125d2b5683392d4f5614093dbf0",
+  "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+  "0xa20ad630cee74bc834aa9b8fcb432c5c02710479",
+  "0xe626282591a993b0b0c86be3a102649a0ce6f34d"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.005237,
+ "gas_eth": 0.005053,
+ "profit_after_gas": 0.000184,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The target contract received 0.280853 WETH from one pool and sent 0.275616 WETH into another while routing through five pools, netting +0.005237 WETH before gas. After the 0.005053 ETH fee, the position remains slightly positive, with no residual non-WETH holding shown.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1892,
+  "output_tokens": 11945,
+  "thinking_tokens": 11642
+ },
+ "_request_id": "d31bc750c9655ace84678081f8351662",
+ "_response_id": "7aaac672-27be-4c08-8cb8-73f138d377eb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\",\"pools\":[\"0xdfcf744c8ae896e8631ba9b9dc717546646f6708\",\"0x66cab8b4acc7d125d2b5683392d4f5614093dbf0\",\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"0xa20ad630cee74bc834aa9b8fcb432c5c02710479\",\"0xe626282591a993b0b0c86be3a102649a0ce6f34d\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.005237,\"gas_eth\":0.005053,\"profit_after_gas\":0.000184,\"residual\":\"none\",\"confidence\":4,\"note\":\"The target contract received 0.280853 WETH from one pool and sent 0.275616 WETH into another while routing through five pools, netting +0.005237 WETH before gas. After the 0.005053 ETH fee, the position remains slightly positive, with no residual non-WETH holding shown.\"}",
+ "case_id": "arb106_035",
+ "_time": "2026-10-19T19:55:17+0800"
+}

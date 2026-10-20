@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs buy MXS with ETH on the same pool (0x13bb...), and the MXS token has a burn on each transfer. The front sender 0xfdf4... and the back sender 0xfc8e... are different addresses, and neither sells MXS back. The back leg is another buy, so no position is closed and there is no bracket. Q2 is therefore no, because the front actor spent 0.65 ETH plus gas and never exited.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3739,
+  "output_tokens": 240,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQc8Mogss8AiEyq4G2N",
+ "_response_id": "msg_011CgBQcEQShf67xngCrRf2c",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs buy MXS with ETH on the same pool (0x13bb...), and the MXS token has a burn on each transfer. The front sender 0xfdf4... and the back sender 0xfc8e... are different addresses, and neither sells MXS back. The back leg is another buy, so no position is closed and there is no bracket. Q2 is therefore no, because the front actor spent 0.65 ETH plus gas and never exited.\"}",
+ "case_id": "pack_050",
+ "_time": "2026-10-19T18:05:27+0800"
+}

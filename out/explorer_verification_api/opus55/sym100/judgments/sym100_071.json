@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.037916,
+ "gas_eth": 0.031091,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 442.27 URQA for 0.773930 WETH on pool 0x2dee\u2026c631 before the victim sells 9500 URQA into the same pool, then buys back exactly 442.27 URQA for 0.704923 WETH. This is a short-side bracket that is opened and closed with nothing left over. The WETH gain of 0.069007 minus 0.031091 in gas leaves about +0.0379 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2908,
+  "output_tokens": 607,
+  "thinking_tokens": 333
+ },
+ "_request_id": "req_011CgBSTCyMYZSi9D1b8YQRZ",
+ "_response_id": "msg_011CgBSTDKg8A5g2mc4E4Sin",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x2deeeda49e5436cfe18e0ba10f58e4496b8fc631\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.037916, \"gas_eth\": 0.031091, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 442.27 URQA for 0.773930 WETH on pool 0x2dee\u2026c631 before the victim sells 9500 URQA into the same pool, then buys back exactly 442.27 URQA for 0.704923 WETH. This is a short-side bracket that is opened and closed with nothing left over. The WETH gain of 0.069007 minus 0.031091 in gas leaves about +0.0379 ETH.\"}",
+ "case_id": "sym100_071",
+ "_time": "2026-10-19T18:29:43+0800"
+}

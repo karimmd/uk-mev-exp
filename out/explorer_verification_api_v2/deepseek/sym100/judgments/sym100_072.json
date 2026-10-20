@@ -1,0 +1,32 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.289847,
+ "gas_eth": 0.011402,
+ "profit_after_gas": 0.278445,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front leg sells 574.971366 QNT for 9.050384 WETH on the shared UniswapV2 pool, and the back leg buys back the same QNT amount for 8.760537 WETH after the victim trades on that pool. No non-WETH residual remains, and the net WETH gain exceeds the front and back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2929,
+  "output_tokens": 2355,
+  "thinking_tokens": 2165
+ },
+ "_request_id": "bfa1d3a4fb6759e128b7adb565b164ed",
+ "_response_id": "c8fa7566-6176-4086-86c0-29b169fcd056",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\",\"pool\":\"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.289847,\"gas_eth\":0.011402,\"profit_after_gas\":0.278445,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front leg sells 574.971366 QNT for 9.050384 WETH on the shared UniswapV2 pool, and the back leg buys back the same QNT amount for 8.760537 WETH after the victim trades on that pool. No non-WETH residual remains, and the net WETH gain exceeds the front and back gas fees.\"}",
+ "case_id": "sym100_072",
+ "_time": "2026-10-19T19:35:56+0800"
+}

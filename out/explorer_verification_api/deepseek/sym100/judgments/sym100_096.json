@@ -1,0 +1,31 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.185903,
+ "gas_eth": 0.027306,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front leg sells CVR for WETH and back leg buys the same CVR amount back, so the actor closes/reduces CVR in front and restores it in back rather than opening then closing. The shared pool is 0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8 and the victim trades it between the legs. Net WETH profit 0.213209 minus gas 0.027306 is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2720,
+  "output_tokens": 9533,
+  "thinking_tokens": 9320
+ },
+ "_request_id": "de232c67d59098bb02aa87674c50494d",
+ "_response_id": "e7f087f3-ec66-4e20-9f68-a78a5ca89f19",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x09ddb304758caf024706dee2e92b569ca4823aa1\", \"pool\": \"0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.185903, \"gas_eth\": 0.027306, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Front leg sells CVR for WETH and back leg buys the same CVR amount back, so the actor closes/reduces CVR in front and restores it in back rather than opening then closing. The shared pool is 0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8 and the victim trades it between the legs. Net WETH profit 0.213209 minus gas 0.027306 is positive.\"}",
+ "case_id": "sym100_096",
+ "_time": "2026-10-19T18:56:11+0800"
+}

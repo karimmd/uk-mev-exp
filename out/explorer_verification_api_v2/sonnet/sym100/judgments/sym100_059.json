@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.171717,
+ "gas_eth": 0.021695,
+ "profit_after_gas": 0.150022,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 1094.379276 CWS into the pool for 10.506 WETH in the front leg. The victim then sold CWS into the same pool, and the back leg bought exactly 1094.379276 CWS back for 10.334283 WETH. Net WETH is +0.171717, gas is about 0.021695 ETH, and no CWS is left over. The front leg sells CWS the actor already held, so this is a short opened and closed around the victim.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3160,
+  "output_tokens": 755,
+  "thinking_tokens": 457
+ },
+ "_request_id": "req_011CgBWStrebBWVn5KzhhYZx",
+ "_response_id": "msg_011CgBWSuDyUK3pxf7ydCVXr",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.171717,\"gas_eth\":0.021695,\"profit_after_gas\":0.150022,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 1094.379276 CWS into the pool for 10.506 WETH in the front leg. The victim then sold CWS into the same pool, and the back leg bought exactly 1094.379276 CWS back for 10.334283 WETH. Net WETH is +0.171717, gas is about 0.021695 ETH, and no CWS is left over. The front leg sells CWS the actor already held, so this is a short opened and closed around the victim.\"}",
+ "case_id": "sym100_059",
+ "_time": "2026-10-19T19:22:04+0800"
+}

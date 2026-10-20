@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x43ae24960e5534731fc831386c07755a2dc33d47",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.037182,
+ "residual": "none",
+ "confidence": 5,
+ "note": "All three legs use the same sender and contract to sell 500 SNX for ETH on the same Uniswap V2 SNX/WETH pool. No non-pool actor holds a non-WETH position after the front leg that is given up in the back, and the victim is also the same sender, so this is not a sandwich bracket.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3962,
+  "output_tokens": 7731,
+  "thinking_tokens": 7576
+ },
+ "_request_id": "cbc2a16db287a285099789222d4c5544",
+ "_response_id": "7f7d1ff7-622f-49a9-bb01-ad31bc0bd6f2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x43ae24960e5534731fc831386c07755a2dc33d47\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.037182, \"residual\": \"none\", \"confidence\": 5, \"note\": \"All three legs use the same sender and contract to sell 500 SNX for ETH on the same Uniswap V2 SNX/WETH pool. No non-pool actor holds a non-WETH position after the front leg that is given up in the back, and the victim is also the same sender, so this is not a sandwich bracket.\"}",
+ "case_id": "pack_176",
+ "_time": "2026-10-19T18:34:08+0800"
+}

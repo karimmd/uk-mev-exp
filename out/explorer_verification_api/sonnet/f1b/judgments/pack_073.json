@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000000007f150bd6f54c40a34d7c3d5e9f56",
+ "pool": "0xdc2b82bc1106c9c5286e59344896fb0ceb932f53",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.281409,
+ "gas_eth": 0.071493,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front contract buys RGT on pool 0x28a55c and sells all of it on pool 0xdc2b82 within the same transaction. That is an atomic arbitrage, so it opens no position. The back leg is a different contract (0x000000000000006f\u2026) doing the same kind of arbitrage, so there is no single actor opening and closing around the victim. The Q2 figures are for the front actor alone: +0.296878 WETH less a 0.015469 ETH side payment, then less 0.071493 gas, leaves about +0.2099 ETH net.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 5364,
+  "output_tokens": 1012,
+  "thinking_tokens": 707
+ },
+ "_request_id": "req_011CgBQrnNvijoZhJmGagvTs",
+ "_response_id": "msg_011CgBQrt4VZijv4P245bkci",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000007f150bd6f54c40a34d7c3d5e9f56\",\"pool\":\"0xdc2b82bc1106c9c5286e59344896fb0ceb932f53\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.281409,\"gas_eth\":0.071493,\"residual\":\"none\",\"confidence\":4,\"note\":\"The front contract buys RGT on pool 0x28a55c and sells all of it on pool 0xdc2b82 within the same transaction. That is an atomic arbitrage, so it opens no position. The back leg is a different contract (0x000000000000006f\u2026) doing the same kind of arbitrage, so there is no single actor opening and closing around the victim. The Q2 figures are for the front actor alone: +0.296878 WETH less a 0.015469 ETH side payment, then less 0.071493 gas, leaves about +0.2099 ETH net.\"}",
+ "case_id": "pack_073",
+ "_time": "2026-10-19T18:08:51+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x635b58600509acfe70e0bd4c4935c08182774e58",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.087624,
+ "gas_eth": 0.086705,
+ "profit_after_gas": 0.000919,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract receives STACK in the front leg and sends the same amount back in the back leg on the shared 0x635b pool. The victim also swaps WETH for STACK on that pool between them. Net WETH gain exceeds the front and back gas fees, with no residual STACK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2310,
+  "output_tokens": 3102,
+  "thinking_tokens": 2929
+ },
+ "_request_id": "e5befa9a6ac0b0495c5648345c3ee9a0",
+ "_response_id": "de1fdfb6-502d-412a-bb66-fed261046a32",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x01ff6318440f7d5553a82294d78262d5f5084eff\",\"pool\":\"0x635b58600509acfe70e0bd4c4935c08182774e58\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.087624,\"gas_eth\":0.086705,\"profit_after_gas\":0.000919,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract receives STACK in the front leg and sends the same amount back in the back leg on the shared 0x635b pool. The victim also swaps WETH for STACK on that pool between them. Net WETH gain exceeds the front and back gas fees, with no residual STACK.\"}",
+ "case_id": "pack_198",
+ "_time": "2026-10-19T19:28:14+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9b577e849b128ee1a69144b218e809b8bb98c35d",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 0.184799,
+ "gas_eth": 0.0,
+ "residual": "-17037.515332 NAOS (back leg sold more NAOS than the front leg bought, drawing down prior inventory)",
+ "confidence": 3,
+ "note": "Contract 0x1d6e buys NAOS for 3.62 WETH on pair 0x9b57 before the victim's 3 ETH buy on that pair, then sells 33669.79 NAOS for 7.391397 WETH. The 3.586598 ETH sent as value and forwarded to 0xb3b7 looks like a builder payment at 0 gwei gas, leaving +0.184799 ETH. The extra ~17037 NAOS sold from inventory (~3.7 ETH at front-leg price) makes the true sign unclear.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3323,
+  "output_tokens": 1076,
+  "thinking_tokens": 719
+ },
+ "_request_id": "req_011CgBQPaKeNaKZxnDecj6gd",
+ "_response_id": "msg_011CgBQPgdA3W6SDLeBTW4Xn",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x9b577e849b128ee1a69144b218e809b8bb98c35d\", \"Q1\": \"yes\", \"Q2\": \"cannot tell\", \"net_eth\": 0.184799, \"gas_eth\": 0.0, \"residual\": \"-17037.515332 NAOS (back leg sold more NAOS than the front leg bought, drawing down prior inventory)\", \"confidence\": 3, \"note\": \"Contract 0x1d6e buys NAOS for 3.62 WETH on pair 0x9b57 before the victim's 3 ETH buy on that pair, then sells 33669.79 NAOS for 7.391397 WETH. The 3.586598 ETH sent as value and forwarded to 0xb3b7 looks like a builder payment at 0 gwei gas, leaving +0.184799 ETH. The extra ~17037 NAOS sold from inventory (~3.7 ETH at front-leg price) makes the true sign unclear.\"}",
+ "case_id": "pack_030",
+ "_time": "2026-10-19T18:02:45+0800"
+}

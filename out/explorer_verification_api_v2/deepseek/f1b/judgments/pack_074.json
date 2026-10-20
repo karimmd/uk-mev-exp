@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xe6f51e892046cb5b437e0033d990b527ea4367c8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.441409,
+ "gas_eth": 0.034235,
+ "profit_after_gas": 0.407174,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract 0x00000000000064c443ef440577c26525a3c34a30 is the economic actor: it sells B20 for WETH in front and buys the same B20 amount back in back on the same UniswapV2 pool the victim trades. WETH nets to +0.441409 before gas, gas totals 0.034235, leaving a positive 0.407174; B20 nets to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3186,
+  "output_tokens": 5525,
+  "thinking_tokens": 5320
+ },
+ "_request_id": "9f6b89c1ce3543847ac21959382df6a0",
+ "_response_id": "883fe104-8f6e-4347-be8a-aa2d7313a6e3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xe6f51e892046cb5b437e0033d990b527ea4367c8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.441409,\"gas_eth\":0.034235,\"profit_after_gas\":0.407174,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract 0x00000000000064c443ef440577c26525a3c34a30 is the economic actor: it sells B20 for WETH in front and buys the same B20 amount back in back on the same UniswapV2 pool the victim trades. WETH nets to +0.441409 before gas, gas totals 0.034235, leaving a positive 0.407174; B20 nets to zero.\"}",
+ "case_id": "pack_074",
+ "_time": "2026-10-19T19:13:25+0800"
+}

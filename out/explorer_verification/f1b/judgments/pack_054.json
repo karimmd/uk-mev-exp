@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x78ab16803d92f6db77ef6d4e92fe139affab78cf",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.19382,
+ "gas_eth": 0.103107,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought 3,211,873.52 FREE for 8.263597 WETH in the front leg. It sold the same FREE amount back for 8.457417 WETH in the back leg. The victim bought FREE on the same pool between the two legs. The gross gain is 0.19382 WETH, and after 0.103107 ETH of gas the actor is still ahead by about 0.0907 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.022429200000000003,
+ "_session": "b7f8440e-134c-4d05-a443-89b7e0d6897a",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0x78ab16803d92f6db77ef6d4e92fe139affab78cf\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.19382, \"gas_eth\": 0.103107, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract bought 3,211,873.52 FREE for 8.263597 WETH in the front leg. It sold the same FREE amount back for 8.457417 WETH in the back leg. The victim bought FREE on the same pool between the two legs. The gross gain is 0.19382 WETH, and after 0.103107 ETH of gas the actor is still ahead by about 0.0907 ETH.\"}",
+ "case_id": "pack_054",
+ "_time": "2026-10-13T20:14:26+0800"
+}

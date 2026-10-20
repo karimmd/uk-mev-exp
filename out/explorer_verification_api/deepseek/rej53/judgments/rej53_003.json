@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0xb319887931a5a1bb379deb45c2586430b166f21b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02755,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract opens a FOR position on the FOR/USDT pair in the front leg and closes the same amount in the back leg, while the victim trades on that same pair in between. WETH gained is 0.039357, minus 0.011807 ETH paid out internally; front/back gas fees are zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2833,
+  "output_tokens": 2611,
+  "thinking_tokens": 2457
+ },
+ "_request_id": "735505829768c459a8b25bdb16319147",
+ "_response_id": "24a1afe8-3a4a-4dc9-a2f2-6d1a7c7b9781",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000032962b51589768828ad878876299e14\",\"pool\":\"0xb319887931a5a1bb379deb45c2586430b166f21b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.02755,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract opens a FOR position on the FOR/USDT pair in the front leg and closes the same amount in the back leg, while the victim trades on that same pair in between. WETH gained is 0.039357, minus 0.011807 ETH paid out internally; front/back gas fees are zero.\"}",
+ "case_id": "rej53_003",
+ "_time": "2026-10-19T18:57:10+0800"
+}

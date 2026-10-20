@@ -1,0 +1,32 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": -0.088845,
+ "gas_eth": 0.013232,
+ "profit_after_gas": -0.102077,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back form a cross-pool LDO short sandwich on 0xc558: 0x1315 sells LDO into 0xc558 in front, the victim sells LDO, and 0x1315 buys LDO back in the back leg. Net WETH is +0.114219, but including internal ETH outflows of 0.203064 and gas gives a negative after-cost result.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3177,
+  "output_tokens": 15250,
+  "thinking_tokens": 15046
+ },
+ "_request_id": "a8a5c964c8432f83a9c3867447d92f64",
+ "_response_id": "2602012b-0c2e-4b7d-8ca2-5af7f1011aa7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":-0.088845,\"gas_eth\":0.013232,\"profit_after_gas\":-0.102077,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back form a cross-pool LDO short sandwich on 0xc558: 0x1315 sells LDO into 0xc558 in front, the victim sells LDO, and 0x1315 buys LDO back in the back leg. Net WETH is +0.114219, but including internal ETH outflows of 0.203064 and gas gives a negative after-cost result.\"}",
+ "case_id": "pack_109",
+ "_time": "2026-10-19T19:19:02+0800"
+}

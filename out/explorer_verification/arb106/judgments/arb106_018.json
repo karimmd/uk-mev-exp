@@ -1,0 +1,26 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77",
+  "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+  "0x52127470de72e5ef77ca962d23125cbe096e2d81",
+  "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+  "0x495f8ef80e13e9e1e77d60d2f384bb49694823ef"
+ ],
+ "cycle_token": "DAI/USDT (closed between pools, not held by actor)",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.02599,
+ "gas_eth": 0.023583,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The tokens form a five-pool loop: USDT goes from the V3 pool to the RACA pair, RACA to the RACA/WETH pair, then WETH goes to the actor and on to the V3 MANA/WETH pool. MANA then goes to the MANA/DAI pair and DAI back to the V3 DAI/USDT pool. The actor receives 2.257463 WETH and sends 2.231473, a net +0.02599 WETH, or about +0.0024 ETH after the 0.023583 ETH gas fee. The actor only ever touches WETH, so the cycle closes at the pools rather than in the actor's own balance, which is why confidence is 4 rather than 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0288492,
+ "_session": "0b56d11d-d400-4cd9-a732-e336f7e539e0",
+ "_raw": "{\"actor\":\"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\",\"pools\":[\"0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77\",\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"0x52127470de72e5ef77ca962d23125cbe096e2d81\",\"0x8661ae7918c0115af9e3691662f605e9c550ddc9\",\"0x495f8ef80e13e9e1e77d60d2f384bb49694823ef\"],\"cycle_token\":\"DAI/USDT (closed between pools, not held by actor)\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.02599,\"gas_eth\":0.023583,\"residual\":\"none\",\"confidence\":4,\"note\":\"The tokens form a five-pool loop: USDT goes from the V3 pool to the RACA pair, RACA to the RACA/WETH pair, then WETH goes to the actor and on to the V3 MANA/WETH pool. MANA then goes to the MANA/DAI pair and DAI back to the V3 DAI/USDT pool. The actor receives 2.257463 WETH and sends 2.231473, a net +0.02599 WETH, or about +0.0024 ETH after the 0.023583 ETH gas fee. The actor only ever touches WETH, so the cycle closes at the pools rather than in the actor's own balance, which is why confidence is 4 rather than 5.\"}",
+ "case_id": "arb106_018",
+ "_time": "2026-10-13T22:14:03+0800"
+}

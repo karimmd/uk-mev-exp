@@ -1,0 +1,31 @@
+{
+ "actor": "0x7e104e3497234f604edf65f6eebe44aa6dedfddf",
+ "pool": "0x4d9824fbc04eff50ab1dac614eae4e20859d5c91",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -4.690382,
+ "gas_eth": 0.023522,
+ "residual": "1050.460166 DEUS",
+ "confidence": 5,
+ "note": "All three legs swap ETH/WETH for DEUS on the same Uniswap V2 pool; the back leg receives DEUS instead of selling it, so no position is closed and Q1 is no. The sender accumulates 1050.460166 DEUS, leaving a non-WETH residual that prevents a profitability sign; net ETH/WETH excluding residual is -4.690382 ETH and gas is 0.023522 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2901,
+  "output_tokens": 9960,
+  "thinking_tokens": 9765
+ },
+ "_request_id": "269d61bad6bbf89c508bd4131b06011a",
+ "_response_id": "8fe6d8c5-9644-425c-b170-bd8c67af0b45",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7e104e3497234f604edf65f6eebe44aa6dedfddf\",\"pool\":\"0x4d9824fbc04eff50ab1dac614eae4e20859d5c91\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":-4.690382,\"gas_eth\":0.023522,\"residual\":\"1050.460166 DEUS\",\"confidence\":5,\"note\":\"All three legs swap ETH/WETH for DEUS on the same Uniswap V2 pool; the back leg receives DEUS instead of selling it, so no position is closed and Q1 is no. The sender accumulates 1050.460166 DEUS, leaving a non-WETH residual that prevents a profitability sign; net ETH/WETH excluding residual is -4.690382 ETH and gas is 0.023522 ETH.\"}",
+ "case_id": "pack_147",
+ "_time": "2026-10-19T18:29:58+0800"
+}

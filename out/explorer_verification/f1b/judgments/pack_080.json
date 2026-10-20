@@ -1,0 +1,17 @@
+{
+ "actor": "0x0aa3e7a66c470ee6dc4f2ba2cead3b32200a8af5",
+ "pool": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 0.295202,
+ "gas_eth": 0.048454,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a closed round trip in one transaction: 5.075 WETH buys GLM on pool 0xb5f790, then the GLM is sold on a second pool, 0x787404, for 5.370 WETH, so no position is held into the victim. The back leg is run by a different contract (0x0000000000005117...), which buys GLM on 0x787404 and sells it on 0xb5f790 for a 0.073 WETH gross gain, so the front and back actors differ and nothing is opened and then closed by one actor. The net_eth and gas_eth figures are the front actor's own leg only (+0.2952 gross, +0.2467 after gas), not a bracket result, which is why Q2 is cannot tell.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.031406699999999996,
+ "_session": "6fde432d-e6fc-4ee2-9cbd-4b765bc5b255",
+ "_raw": "{\"actor\": \"0x0aa3e7a66c470ee6dc4f2ba2cead3b32200a8af5\", \"pool\": \"0xb5f790a03b7559312d9e738df5056a4b4c8459f4\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 0.295202, \"gas_eth\": 0.048454, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a closed round trip in one transaction: 5.075 WETH buys GLM on pool 0xb5f790, then the GLM is sold on a second pool, 0x787404, for 5.370 WETH, so no position is held into the victim. The back leg is run by a different contract (0x0000000000005117...), which buys GLM on 0x787404 and sells it on 0xb5f790 for a 0.073 WETH gross gain, so the front and back actors differ and nothing is opened and then closed by one actor. The net_eth and gas_eth figures are the front actor's own leg only (+0.2952 gross, +0.2467 after gas), not a bracket result, which is why Q2 is cannot tell.\"}",
+ "case_id": "pack_080",
+ "_time": "2026-10-13T20:19:55+0800"
+}

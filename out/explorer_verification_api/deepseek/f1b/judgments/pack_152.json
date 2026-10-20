@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x38c619c351d6ad03f496a8c82ba5430c86fe0ab7",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs use different top-level contracts and senders, so there is no single economic actor opening and closing a position across the legs. Each leg independently buys LORB from 0x10b110 and immediately sells it to the shared Uniswap V2 pool, leaving no residual LORB.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3908,
+  "output_tokens": 9559,
+  "thinking_tokens": 9425
+ },
+ "_request_id": "0ab1875acae6bc90ace49b65288a87ad",
+ "_response_id": "1bfea55b-47b3-4f45-9cf5-082f1bae9b08",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x38c619c351d6ad03f496a8c82ba5430c86fe0ab7\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back legs use different top-level contracts and senders, so there is no single economic actor opening and closing a position across the legs. Each leg independently buys LORB from 0x10b110 and immediately sells it to the shared Uniswap V2 pool, leaving no residual LORB.\"}",
+ "case_id": "pack_152",
+ "_time": "2026-10-19T18:31:09+0800"
+}

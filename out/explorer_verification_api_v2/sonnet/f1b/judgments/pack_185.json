@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000000cb53d776774284822b1298ade47f",
+ "pool": "0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.007925,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.007925,
+ "residual": "about 481,026,501,859.6 KEANU (24057112862586.11 bought minus 23576086360726.5 sold)",
+ "confidence": 3,
+ "note": "The actor bought KEANU in the front leg with 1.554598 WETH. The victim bought KEANU on the same pool (0xfee48\u2026). The actor then sold most of its KEANU in the back leg for 1.604821 WETH, a WETH gain of 0.050223. The back leg also forwarded 0.042298 ETH out to 0xea674\u2026, which I treated as a cost to the operator, leaving 0.007925. Both legs show a 0 gwei gas price, so gas is zero. The leftover KEANU is worth roughly 0.03 WETH and can only add to the profit, so the sign is positive either way.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3472,
+  "output_tokens": 1470,
+  "thinking_tokens": 1089
+ },
+ "_request_id": "req_011CgBW5behkmzD9HdicwpLX",
+ "_response_id": "msg_011CgBW5c1Xo37QJQgiLggVU",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000000cb53d776774284822b1298ade47f\",\"pool\":\"0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.007925,\"gas_eth\":0.0,\"profit_after_gas\":0.007925,\"residual\":\"about 481,026,501,859.6 KEANU (24057112862586.11 bought minus 23576086360726.5 sold)\",\"confidence\":3,\"note\":\"The actor bought KEANU in the front leg with 1.554598 WETH. The victim bought KEANU on the same pool (0xfee48\u2026). The actor then sold most of its KEANU in the back leg for 1.604821 WETH, a WETH gain of 0.050223. The back leg also forwarded 0.042298 ETH out to 0xea674\u2026, which I treated as a cost to the operator, leaving 0.007925. Both legs show a 0 gwei gas price, so gas is zero. The leftover KEANU is worth roughly 0.03 WETH and can only add to the profit, so the sign is positive either way.\"}",
+ "case_id": "pack_185",
+ "_time": "2026-10-19T19:17:22+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0xea7952fac7ff6e997d895c1566599b86b91444c0",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0.027611,
+ "gas_eth": 0.055879,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is done by 0x860bd2... and the back leg by 0x0000000000005117..., so no single actor opens and closes a position. Each leg is a closed WETH->UBI->DAI->WETH cycle that ends with no non-WETH holding. The front leg nets +0.0276 ETH against a 0.0559 ETH fee, so it is negative after gas. The back leg nets about +0.0757 WETH against 0.0566 ETH gas, but it is a different actor, so the legs cannot be combined.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0341852,
+ "_session": "29c77138-54e1-4469-9044-aa6e6e654303",
+ "_raw": "{\"actor\": null, \"pool\": \"0xea7952fac7ff6e997d895c1566599b86b91444c0\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": 0.027611, \"gas_eth\": 0.055879, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is done by 0x860bd2... and the back leg by 0x0000000000005117..., so no single actor opens and closes a position. Each leg is a closed WETH->UBI->DAI->WETH cycle that ends with no non-WETH holding. The front leg nets +0.0276 ETH against a 0.0559 ETH fee, so it is negative after gas. The back leg nets about +0.0757 WETH against 0.0566 ETH gas, but it is a different actor, so the legs cannot be combined.\"}",
+ "case_id": "pack_068",
+ "_time": "2026-10-13T20:17:17+0800"
+}

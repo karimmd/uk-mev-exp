@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0xaa736ca527252cf9f65abed23c21f5ac46af27e3",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 1.958944,
+ "gas_eth": 0.022745,
+ "residual": "The back leg sold 36674.453999 GOLD but the front leg bought only 19848.649072 GOLD, so the actor is short about 16825.8 GOLD that must have come from earlier inventory or a token mechanic.",
+ "confidence": 3,
+ "note": "The same contract buys GOLD with WETH in the front leg and sells GOLD for WETH in the back leg, on the pool the victim also buys from, with the victim in between. Net WETH is +1.958944 (4.198289 \u2212 2.239345), or about +1.9362 after gas. The extra GOLD sold in the back leg has an unknown source and cost, so I cannot confirm the sign of the profit.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2907,
+  "output_tokens": 1056,
+  "thinking_tokens": 724
+ },
+ "_request_id": "req_011CgBRqKYjUbxXMps6zWSRw",
+ "_response_id": "msg_011CgBRqKv4Sr4ckFjGGj5ho",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000c9fdd743c60055c0e4ea30d266272c1f\",\"pool\":\"0xaa736ca527252cf9f65abed23c21f5ac46af27e3\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth\":1.958944,\"gas_eth\":0.022745,\"residual\":\"The back leg sold 36674.453999 GOLD but the front leg bought only 19848.649072 GOLD, so the actor is short about 16825.8 GOLD that must have come from earlier inventory or a token mechanic.\",\"confidence\":3,\"note\":\"The same contract buys GOLD with WETH in the front leg and sells GOLD for WETH in the back leg, on the pool the victim also buys from, with the victim in between. Net WETH is +1.958944 (4.198289 \u2212 2.239345), or about +1.9362 after gas. The extra GOLD sold in the back leg has an unknown source and cost, so I cannot confirm the sign of the profit.\"}",
+ "case_id": "pack_186",
+ "_time": "2026-10-19T18:21:37+0800"
+}

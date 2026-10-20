@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022941,
+ "gas_eth": 0.02199,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the actor routes 21.7396 WETH through the LON/WETH pool 0x7924 into the LON/USDT pool 0x55d3 and ends up holding 62451.88 USDT. The victim sells LON for USDT on 0x55d3 in the same direction, and in the back leg the actor returns exactly 62451.88 USDT to that pool and receives 21.7625 WETH. That is +0.022941 WETH before gas and about +0.00095 ETH after 0.02199 ETH of gas, with no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3459,
+  "output_tokens": 878,
+  "thinking_tokens": 573
+ },
+ "_request_id": "req_011CgBRszsQeeVzL15UzgMvM",
+ "_response_id": "msg_011CgBRt1FUjzS217JDEkv3H",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.022941,\"gas_eth\":0.02199,\"residual\":\"none\",\"confidence\":4,\"note\":\"In the front leg the actor routes 21.7396 WETH through the LON/WETH pool 0x7924 into the LON/USDT pool 0x55d3 and ends up holding 62451.88 USDT. The victim sells LON for USDT on 0x55d3 in the same direction, and in the back leg the actor returns exactly 62451.88 USDT to that pool and receives 21.7625 WETH. That is +0.022941 WETH before gas and about +0.00095 ETH after 0.02199 ETH of gas, with no residual token.\"}",
+ "case_id": "pack_197",
+ "_time": "2026-10-19T18:22:13+0800"
+}

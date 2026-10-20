@@ -1,0 +1,31 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0xedc25e28c40762b64fa8fe139939c9164d5b3805",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.053085,
+ "gas_eth": 0.006572,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x4aee sells 7196 REVO for 1.412549 WETH on pool 0xedc2 just before the victim sells REVO into the same pool. It then buys back exactly 7196 REVO for 1.352892 WETH, so this is a sell-side sandwich. The WETH gain of 0.059657 minus 0.006572 ETH gas is clearly positive, and no REVO is left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2906,
+  "output_tokens": 636,
+  "thinking_tokens": 368
+ },
+ "_request_id": "req_011CgBS9tRQvaQZjRY3gyMqD",
+ "_response_id": "msg_011CgBS9tnjwrNW4TpyX2SJs",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\", \"pool\": \"0xedc25e28c40762b64fa8fe139939c9164d5b3805\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.053085, \"gas_eth\": 0.006572, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x4aee sells 7196 REVO for 1.412549 WETH on pool 0xedc2 just before the victim sells REVO into the same pool. It then buys back exactly 7196 REVO for 1.352892 WETH, so this is a sell-side sandwich. The WETH gain of 0.059657 minus 0.006572 ETH gas is clearly positive, and no REVO is left over.\"}",
+ "case_id": "sym100_023",
+ "_time": "2026-10-19T18:25:48+0800"
+}

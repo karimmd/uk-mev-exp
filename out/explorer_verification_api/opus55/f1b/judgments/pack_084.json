@@ -1,0 +1,31 @@
+{
+ "actor": "0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e",
+ "pool": "0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": -0.010099,
+ "gas_eth": 0.010099,
+ "residual": "+104.061985 XIO (about 0.17 ETH at the back-leg rate of ~0.00164 ETH/XIO)",
+ "confidence": 4,
+ "note": "Contract 0xf0ff, called by the same sender in both legs, sells 3622 XIO for 6.119153 WETH on pool 0xe0cc before the victim's 25000 XIO sell on the same pool. It then spends exactly that WETH to buy back 3726.06 XIO, a reverse-direction (short XIO) bracket. WETH nets to zero, so ETH is only the -0.0101 gas, but the 104 XIO residual is worth about 0.17 ETH at the in-block pool rate, so the sign is positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3104,
+  "output_tokens": 993,
+  "thinking_tokens": 630
+ },
+ "_request_id": "req_011CgBR4G7c83cQ43LAnQ7UP",
+ "_response_id": "msg_011CgBR4JNHrEKyoLjm49TFs",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e\", \"pool\": \"0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": -0.010099, \"gas_eth\": 0.010099, \"residual\": \"+104.061985 XIO (about 0.17 ETH at the back-leg rate of ~0.00164 ETH/XIO)\", \"confidence\": 4, \"note\": \"Contract 0xf0ff, called by the same sender in both legs, sells 3622 XIO for 6.119153 WETH on pool 0xe0cc before the victim's 25000 XIO sell on the same pool. It then spends exactly that WETH to buy back 3726.06 XIO, a reverse-direction (short XIO) bracket. WETH nets to zero, so ETH is only the -0.0101 gas, but the 104 XIO residual is worth about 0.17 ETH at the in-block pool rate, so the sign is positive.\"}",
+ "case_id": "pack_084",
+ "_time": "2026-10-19T18:11:28+0800"
+}

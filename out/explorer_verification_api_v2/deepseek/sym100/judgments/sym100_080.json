@@ -1,0 +1,32 @@
+{
+ "actor": "0xa88b80ff0d43b267f906c106df3c8f098798a702",
+ "pool": "0x18f238a96392a8fabb87065b5129dd00192e6cb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.061764,
+ "gas_eth": 0.029168,
+ "profit_after_gas": 0.032596,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor sold SHARE for WETH in front and bought back the same SHARE amount in back on the pool the victim also used. Net WETH gain exceeds the front and back gas fees, with no residual SHARE left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2604,
+  "output_tokens": 1805,
+  "thinking_tokens": 1646
+ },
+ "_request_id": "f07d9bbe1172ba65a77d8a82273799b0",
+ "_response_id": "00980d35-f52f-4d6c-b414-27ac0440bd4a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa88b80ff0d43b267f906c106df3c8f098798a702\",\"pool\":\"0x18f238a96392a8fabb87065b5129dd00192e6cb1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.061764,\"gas_eth\":0.029168,\"profit_after_gas\":0.032596,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor sold SHARE for WETH in front and bought back the same SHARE amount in back on the pool the victim also used. Net WETH gain exceeds the front and back gas fees, with no residual SHARE left.\"}",
+ "case_id": "sym100_080",
+ "_time": "2026-10-19T19:36:39+0800"
+}

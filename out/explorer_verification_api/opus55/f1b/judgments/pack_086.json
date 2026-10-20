@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x70885952f174fb5396deebb66ce3b4b2adfcef8a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.007331,
+ "gas_eth": 0.046463,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg, contract 0x7cf0 pays 2.620977 WETH and routes the STOS it buys through the shared V3 STOS/USDT pool 0x7088, ending up holding 8255.821796 USDT. The victim sells STOS for USDT on that same pool, and in the back leg the identical USDT amount goes back through the pool and returns 2.674771 WETH. The WETH gain of 0.053794 minus 0.046463 ETH of front and back gas is positive by a thin margin, with no residual holding.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3020,
+  "output_tokens": 734,
+  "thinking_tokens": 423
+ },
+ "_request_id": "req_011CgBR5eAgvuFvpWRRpem74",
+ "_response_id": "msg_011CgBR5kCpueZ4sYrUxPJtm",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0x70885952f174fb5396deebb66ce3b4b2adfcef8a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.007331, \"gas_eth\": 0.046463, \"residual\": \"none\", \"confidence\": 4, \"note\": \"In the front leg, contract 0x7cf0 pays 2.620977 WETH and routes the STOS it buys through the shared V3 STOS/USDT pool 0x7088, ending up holding 8255.821796 USDT. The victim sells STOS for USDT on that same pool, and in the back leg the identical USDT amount goes back through the pool and returns 2.674771 WETH. The WETH gain of 0.053794 minus 0.046463 ETH of front and back gas is positive by a thin margin, with no residual holding.\"}",
+ "case_id": "pack_086",
+ "_time": "2026-10-19T18:11:45+0800"
+}

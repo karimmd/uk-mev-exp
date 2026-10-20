@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5b155ea384905485fde4b24ef1cd63a7d2398100",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.050495,
+ "gas_eth": 0.11782,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract receives BILL in the front leg and sends the exact BILL amount in the back leg through the shared BILL/USDC pool used by the victim. Gross WETH gain is +0.168315, and subtracting 0.11782 gas leaves +0.050495 ETH/WETH net; no residual BILL remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2391,
+  "output_tokens": 3752,
+  "thinking_tokens": 3588
+ },
+ "_request_id": "eee051dcf0c9b8a4c8bfbadcd303c955",
+ "_response_id": "8ea0ecf3-2435-483e-bf91-20abfc06c156",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x5b155ea384905485fde4b24ef1cd63a7d2398100\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.050495,\"gas_eth\":0.11782,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract receives BILL in the front leg and sends the exact BILL amount in the back leg through the shared BILL/USDC pool used by the victim. Gross WETH gain is +0.168315, and subtracting 0.11782 gas leaves +0.050495 ETH/WETH net; no residual BILL remains.\"}",
+ "case_id": "rej53_002",
+ "_time": "2026-10-19T18:57:15+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.022941,
+ "gas_eth": 0.02199,
+ "profit_after_gas": 0.000951,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract buys USDT on the victim's LON/USDT pool in the front leg and sells the same USDT amount back on that pool in the back leg. WETH net is 21.762541 - 21.739600 = 0.022941 ETH before gas, and gas fees total 0.021990 ETH, leaving a small positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2859,
+  "output_tokens": 5345,
+  "thinking_tokens": 5151
+ },
+ "_request_id": "ba1421f032fb4bbf2ff6b1989bd25970",
+ "_response_id": "159aaebd-420a-444b-a29c-16322b782636",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.022941,\"gas_eth\":0.02199,\"profit_after_gas\":0.000951,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract buys USDT on the victim's LON/USDT pool in the front leg and sells the same USDT amount back on that pool in the back leg. WETH net is 21.762541 - 21.739600 = 0.022941 ETH before gas, and gas fees total 0.021990 ETH, leaving a small positive profit.\"}",
+ "case_id": "pack_197",
+ "_time": "2026-10-19T19:28:01+0800"
+}

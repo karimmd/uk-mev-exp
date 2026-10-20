@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe618785149a1ee7d3042e304e2f899f7a4616b7d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.096784,
+ "gas_eth": 0.012964,
+ "residual": "0.000545 USDT",
+ "confidence": 5,
+ "note": "The called contract receives USDT in the front and sends it back on pool 0xe618..., where the victim also trades between the legs. Net WETH gain is 0.109748 ETH; back transaction value and internal ETH transfer cancel, and subtracting front+back gas gives +0.096784 ETH, with only a negligible USDT residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2505,
+  "output_tokens": 7318,
+  "thinking_tokens": 7143
+ },
+ "_request_id": "9c54c5c5600f77d19997b19e60485328",
+ "_response_id": "e21553df-ff0c-4829-8820-fda25370e392",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe618785149a1ee7d3042e304e2f899f7a4616b7d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.096784,\"gas_eth\":0.012964,\"residual\":\"0.000545 USDT\",\"confidence\":5,\"note\":\"The called contract receives USDT in the front and sends it back on pool 0xe618..., where the victim also trades between the legs. Net WETH gain is 0.109748 ETH; back transaction value and internal ETH transfer cancel, and subtracting front+back gas gives +0.096784 ETH, with only a negligible USDT residual.\"}",
+ "case_id": "rej53_035",
+ "_time": "2026-10-19T19:01:47+0800"
+}

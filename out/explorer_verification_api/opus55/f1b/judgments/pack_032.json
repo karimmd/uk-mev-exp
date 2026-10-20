@@ -1,0 +1,31 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x87c6c475f40299e5ce3cba736f613f97e820f101",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 7.8e-05,
+ "gas_eth": 0.039298,
+ "residual": "none observable (0xfb40 token amounts not decoded)",
+ "confidence": 3,
+ "note": "Contract 0x01ff (called by 0x5aa1 in both legs) pays 0.515420 WETH into pool 0x87c6 for token 0xfb40. The victim then buys on the same pool, and 0x01ff sells back for 0.554796 WETH, a gross +0.039376 against 0.039298 gas. The margin is razor-thin and the 0xfb40 transfer amounts are not decoded, so a full close is assumed rather than shown.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2628,
+  "output_tokens": 618,
+  "thinking_tokens": 319
+ },
+ "_request_id": "req_011CgBQR6EkKup47Qz2d14ny",
+ "_response_id": "msg_011CgBQRDbmLRYXPNGQGeBim",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x01ff6318440f7d5553a82294d78262d5f5084eff\", \"pool\": \"0x87c6c475f40299e5ce3cba736f613f97e820f101\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000078, \"gas_eth\": 0.039298, \"residual\": \"none observable (0xfb40 token amounts not decoded)\", \"confidence\": 3, \"note\": \"Contract 0x01ff (called by 0x5aa1 in both legs) pays 0.515420 WETH into pool 0x87c6 for token 0xfb40. The victim then buys on the same pool, and 0x01ff sells back for 0.554796 WETH, a gross +0.039376 against 0.039298 gas. The margin is razor-thin and the 0xfb40 transfer amounts are not decoded, so a full close is assumed rather than shown.\"}",
+ "case_id": "pack_032",
+ "_time": "2026-10-19T18:03:03+0800"
+}

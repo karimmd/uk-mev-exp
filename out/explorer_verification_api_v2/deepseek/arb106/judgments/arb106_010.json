@@ -1,0 +1,40 @@
+{
+ "actor": "0x000000799cd54a82b54e8597f099b0183b301584",
+ "pools": [
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.043208,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.043208,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x000000799c... cycles WETH through four pools (397f, 5180, 9928, f87b), receives 74.497866 WETH and sends 74.343262 WETH plus withdraws 0.154604 WETH to ETH; after paying 0.111396 ETH to the miner, it keeps 0.043208 ETH. Gas was zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2555,
+  "output_tokens": 12803,
+  "thinking_tokens": 12511
+ },
+ "_request_id": "75e5b6746fa6fa51c8bbe1e23ed7f3c0",
+ "_response_id": "7e61435b-6d7d-46f5-b1f2-01c2c68eab23",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000799cd54a82b54e8597f099b0183b301584\",\"pools\":[\"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\",\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364\"],\"cycle_token\":\"WETH\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.043208,\"gas_eth\":0.0,\"profit_after_gas\":0.043208,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x000000799c... cycles WETH through four pools (397f, 5180, 9928, f87b), receives 74.497866 WETH and sends 74.343262 WETH plus withdraws 0.154604 WETH to ETH; after paying 0.111396 ETH to the miner, it keeps 0.043208 ETH. Gas was zero.\"}",
+ "case_id": "arb106_010",
+ "_time": "2026-10-19T19:49:38+0800"
+}

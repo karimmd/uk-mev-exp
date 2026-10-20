@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3545d371334f4374872e915caf5ec36c0d83b93e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.06449,
+ "gas_eth": 0.06748,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor is the executor contract 0x3b3...; sender only initiates. It sells CGG on V3 pool 0x3545 in front, victim sells CGG on same pool, then actor buys CGG back in back. Net WETH +0.06449, gas 0.06748, net after gas -0.00299; no residual CGG.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2616,
+  "output_tokens": 11749,
+  "thinking_tokens": 11572
+ },
+ "_request_id": "a517c779a4b00a45cf7a8325da117540",
+ "_response_id": "60c28ddf-cbcb-4e25-b85e-122c1fc21565",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x3545d371334f4374872e915caf5ec36c0d83b93e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.06449,\"gas_eth\":0.06748,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor is the executor contract 0x3b3...; sender only initiates. It sells CGG on V3 pool 0x3545 in front, victim sells CGG on same pool, then actor buys CGG back in back. Net WETH +0.06449, gas 0.06748, net after gas -0.00299; no residual CGG.\"}",
+ "case_id": "sym100_056",
+ "_time": "2026-10-19T18:48:43+0800"
+}

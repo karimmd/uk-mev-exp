@@ -1,0 +1,17 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0xc433e27c2b7a77e4021524a90354b9922c825335",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.064556,
+ "gas_eth": 0.035433,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 29958 RDT for 3.099062 WETH in the front leg. The victim then sells 33692 RDT into the same pool. In the back leg the actor buys back exactly 29958 RDT for 3.034506 WETH, so the RDT position is flat. WETH gain is 0.064556 and gas is 0.035433, leaving about +0.0291 ETH. The front leg starts from RDT the actor already held, so the opening is a short-style sale rather than a purchase. That is the main reason confidence is not higher.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0271452,
+ "_session": "e365c468-92ca-4e03-a54c-def0f9b562ca",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0xc433e27c2b7a77e4021524a90354b9922c825335\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.064556, \"gas_eth\": 0.035433, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sells 29958 RDT for 3.099062 WETH in the front leg. The victim then sells 33692 RDT into the same pool. In the back leg the actor buys back exactly 29958 RDT for 3.034506 WETH, so the RDT position is flat. WETH gain is 0.064556 and gas is 0.035433, leaving about +0.0291 ETH. The front leg starts from RDT the actor already held, so the opening is a short-style sale rather than a purchase. That is the main reason confidence is not higher.\"}",
+ "case_id": "sym100_088",
+ "_time": "2026-10-13T21:42:34+0800"
+}

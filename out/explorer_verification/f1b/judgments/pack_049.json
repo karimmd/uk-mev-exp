@@ -1,0 +1,17 @@
+{
+ "actor": "0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66",
+ "pool": "0xadeaa96a81ebba4e3a5525a008ee107385d588c3",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.155185,
+ "gas_eth": 0.131025,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions call the same contract (0x860bd2...), so the 'victim' is the same actor as the front and back legs. Each leg is a self-contained WETH->SWAG->CREAM->WETH cycle that ends with no token held, so no position is opened in the front and closed in the back. The WETH/SWAG pool is shared, but this looks like a single bot's arbitrage, not a sandwich. Gross WETH gain is 0.134766 (front) + 0.020419 (back) = 0.155185 ETH, against 0.131025 ETH gas, leaving about +0.02416 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0356927,
+ "_session": "b5f9858e-c53c-4c8b-bb84-d4f2cdf3ed9f",
+ "_raw": "{\"actor\": \"0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66\", \"pool\": \"0xadeaa96a81ebba4e3a5525a008ee107385d588c3\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.155185, \"gas_eth\": 0.131025, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions call the same contract (0x860bd2...), so the 'victim' is the same actor as the front and back legs. Each leg is a self-contained WETH->SWAG->CREAM->WETH cycle that ends with no token held, so no position is opened in the front and closed in the back. The WETH/SWAG pool is shared, but this looks like a single bot's arbitrage, not a sandwich. Gross WETH gain is 0.134766 (front) + 0.020419 (back) = 0.155185 ETH, against 0.131025 ETH gas, leaving about +0.02416 ETH.\"}",
+ "case_id": "pack_049",
+ "_time": "2026-10-13T20:13:33+0800"
+}

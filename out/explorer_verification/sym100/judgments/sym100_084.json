@@ -1,0 +1,17 @@
+{
+ "actor": "0x5927b6650a572f74451ea42ea216a0339de1a55f",
+ "pool": "0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.043646,
+ "gas_eth": 0.003711,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same sender trades on the same BASE/WETH pair before and after the victim. The front leg sells 4099.049061 BASE for 7.252053 WETH. The victim then sells 10000 BASE into the pool. The back leg pays 7.208407 WETH to get back exactly the same 4099.049061 BASE, so no BASE is left over. The actor nets +0.043646 WETH, or about +0.039935 ETH after 0.003711 ETH of gas. The bracket runs sell-first and buy-back-after, rather than the usual buy-first and sell-after, but it still gives a positive result.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0275112,
+ "_session": "cc0fcc0c-6943-41ff-8197-85d86a1a488f",
+ "_raw": "{\"actor\": \"0x5927b6650a572f74451ea42ea216a0339de1a55f\", \"pool\": \"0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.043646, \"gas_eth\": 0.003711, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same sender trades on the same BASE/WETH pair before and after the victim. The front leg sells 4099.049061 BASE for 7.252053 WETH. The victim then sells 10000 BASE into the pool. The back leg pays 7.208407 WETH to get back exactly the same 4099.049061 BASE, so no BASE is left over. The actor nets +0.043646 WETH, or about +0.039935 ETH after 0.003711 ETH of gas. The bracket runs sell-first and buy-back-after, rather than the usual buy-first and sell-after, but it still gives a positive result.\"}",
+ "case_id": "sym100_084",
+ "_time": "2026-10-13T21:41:46+0800"
+}

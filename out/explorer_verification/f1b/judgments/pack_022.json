@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xb43542e6b7c209f7da4b579792f67a1844546ce8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.035087,
+ "gas_eth": 0.030475,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor routes WETH through the WETH/TIDAL pool 0x9553 and sells TIDAL into the TIDAL/USDC pool 0xb435 for 4266.374147 USDC in the front leg. The victim sells TIDAL on the same pool, and the back leg returns exactly the same 4266.374147 USDC to buy TIDAL back and exit to WETH, leaving no residual. WETH goes from 1.905144 out to 1.958710 in, a gain of 0.053566, less the 0.018479 ETH transfer to 0x8595 (net_eth 0.035087), and then less 0.030475 gas, which leaves about +0.0046 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026412699999999997,
+ "_session": "27cacb65-0cf1-46f2-b619-fb4c455829bc",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0xb43542e6b7c209f7da4b579792f67a1844546ce8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.035087, \"gas_eth\": 0.030475, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor routes WETH through the WETH/TIDAL pool 0x9553 and sells TIDAL into the TIDAL/USDC pool 0xb435 for 4266.374147 USDC in the front leg. The victim sells TIDAL on the same pool, and the back leg returns exactly the same 4266.374147 USDC to buy TIDAL back and exit to WETH, leaving no residual. WETH goes from 1.905144 out to 1.958710 in, a gain of 0.053566, less the 0.018479 ETH transfer to 0x8595 (net_eth 0.035087), and then less 0.030475 gas, which leaves about +0.0046 ETH.\"}",
+ "case_id": "pack_022",
+ "_time": "2026-10-13T20:08:34+0800"
+}

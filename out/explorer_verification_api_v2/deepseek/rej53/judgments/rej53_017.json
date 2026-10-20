@@ -1,0 +1,32 @@
+{
+ "actor": "0x78cce34b82f8cef05eb658ddcf10f9a154298ed4",
+ "pool": "0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.112895,
+ "gas_eth": 0.018019,
+ "profit_after_gas": 0.094876,
+ "residual": "74275031939.155762 eMax (0xa3e059c0b01f07f211c85bf7b4f1d907afb011df)",
+ "confidence": 5,
+ "note": "Front wraps 5.58 ETH and buys eMax on the eMax/WETH pool; the victim trades through the same pool, and the back leg sells eMax for 5.692895 ETH. After front/back gas the actor is up about 0.094876 ETH, with a leftover eMax residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2800,
+  "output_tokens": 5705,
+  "thinking_tokens": 5486
+ },
+ "_request_id": "5bdcd96d0a532def35639eb779e1a7e4",
+ "_response_id": "3fbdce59-754b-409b-bfb8-d0a87ae46afc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x78cce34b82f8cef05eb658ddcf10f9a154298ed4\",\"pool\":\"0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.112895,\"gas_eth\":0.018019,\"profit_after_gas\":0.094876,\"residual\":\"74275031939.155762 eMax (0xa3e059c0b01f07f211c85bf7b4f1d907afb011df)\",\"confidence\":5,\"note\":\"Front wraps 5.58 ETH and buys eMax on the eMax/WETH pool; the victim trades through the same pool, and the back leg sells eMax for 5.692895 ETH. After front/back gas the actor is up about 0.094876 ETH, with a leftover eMax residual.\"}",
+ "case_id": "rej53_017",
+ "_time": "2026-10-19T19:41:46+0800"
+}

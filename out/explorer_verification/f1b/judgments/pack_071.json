@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.044574,
+ "gas_eth": 0.0,
+ "residual": "about 5.376B CHINU (134.84B bought in front, 129.47B sold in back)",
+ "confidence": 4,
+ "note": "The same contract buys CHINU with 2.929267 WETH in the front leg and sells it back for 3.236668 WETH in the back leg. The victim buys CHINU on the same pool in between. The back leg's 0.262827 ETH tx value goes out to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c, and both legs have 0 gwei gas, so net is 0.307401 - 0.262827 = +0.044574 ETH. The leftover CHINU can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.037486700000000005,
+ "_session": "5aac45e3-2f1c-4101-8359-7158f44cca44",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xe3c7ed83438482c7b2c2df48842a5e34d710bfb1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.044574, \"gas_eth\": 0.0, \"residual\": \"about 5.376B CHINU (134.84B bought in front, 129.47B sold in back)\", \"confidence\": 4, \"note\": \"The same contract buys CHINU with 2.929267 WETH in the front leg and sells it back for 3.236668 WETH in the back leg. The victim buys CHINU on the same pool in between. The back leg's 0.262827 ETH tx value goes out to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c, and both legs have 0 gwei gas, so net is 0.307401 - 0.262827 = +0.044574 ETH. The leftover CHINU can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_071",
+ "_time": "2026-10-13T20:17:53+0800"
+}

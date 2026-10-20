@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x87898263b6c5babe34b4ec53f22d98430b91e371",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.105493,
+ "gas_eth": 0.074287,
+ "residual": "0.000001 BEAN (dust)",
+ "confidence": 5,
+ "note": "The same contract buys 18562.71166 BEAN with 4.474893 WETH in the front leg. It sells 18562.711659 BEAN for 4.580386 WETH in the back leg. Both legs are on the same BEAN/WETH pool that the victim's 25 ETH buy goes through in between. Net WETH is +0.105493, and after the 0.074287 ETH of front and back gas the actor is about +0.0312 ETH. The BEAN dust left over is negligible.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024277200000000002,
+ "_session": "cd1defe9-e153-448e-bacd-1fce433f2b08",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x87898263b6c5babe34b4ec53f22d98430b91e371\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.105493, \"gas_eth\": 0.074287, \"residual\": \"0.000001 BEAN (dust)\", \"confidence\": 5, \"note\": \"The same contract buys 18562.71166 BEAN with 4.474893 WETH in the front leg. It sells 18562.711659 BEAN for 4.580386 WETH in the back leg. Both legs are on the same BEAN/WETH pool that the victim's 25 ETH buy goes through in between. Net WETH is +0.105493, and after the 0.074287 ETH of front and back gas the actor is about +0.0312 ETH. The BEAN dust left over is negligible.\"}",
+ "case_id": "pack_018",
+ "_time": "2026-10-13T20:07:50+0800"
+}

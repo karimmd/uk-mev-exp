@@ -1,0 +1,41 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x39c9e3128b8736e02a30b2b9b7e50ff522b935c5",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877",
+  "0x8406cb08a52afd2a97e958b8fad2103243b6af3e",
+  "0x69d91b94f0aaf8e8a2586909fa77a5c2c89818d5",
+  "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.03635,
+ "gas_eth": 0.030893,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 2.033373 WETH into a six-pool chain and gets 2.070655 WETH back. The chain is WETH->FXS (0x3432, mislabelled FRAX)->FRAX->OHM->USDC->HEX->WETH, and each intermediate token passes directly from one pool to the next. After the 0.000932 ETH internal transfer to 0x829b (likely a builder or miner tip at position 0), the net is about 0.03635 ETH. After the 0.030893 ETH gas fee, about 0.0055 ETH remains, which is positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2737,
+  "output_tokens": 1285,
+  "thinking_tokens": 760
+ },
+ "_request_id": "req_011CgBTTbVYKBjBEDNd5NpQF",
+ "_response_id": "msg_011CgBTTbs7dNCnkqTW8SSzP",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0x39c9e3128b8736e02a30b2b9b7e50ff522b935c5\", \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\", \"0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877\", \"0x8406cb08a52afd2a97e958b8fad2103243b6af3e\", \"0x69d91b94f0aaf8e8a2586909fa77a5c2c89818d5\", \"0x55d5c232d921b9eaa6b37b5845e439acd04b4dba\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.03635, \"gas_eth\": 0.030893, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 2.033373 WETH into a six-pool chain and gets 2.070655 WETH back. The chain is WETH->FXS (0x3432, mislabelled FRAX)->FRAX->OHM->USDC->HEX->WETH, and each intermediate token passes directly from one pool to the next. After the 0.000932 ETH internal transfer to 0x829b (likely a builder or miner tip at position 0), the net is about 0.03635 ETH. After the 0.030893 ETH gas fee, about 0.0055 ETH remains, which is positive.\"}\n```",
+ "case_id": "arb106_074",
+ "_time": "2026-10-19T18:42:59+0800"
+}

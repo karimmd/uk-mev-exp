@@ -1,0 +1,17 @@
+{
+ "actor": "0x0898f84acaa1d6229e78a73ee71d8fbbe4ac4bc6",
+ "pool": "0xae95aebf655e9b40c7e0d262198b970cd25f28af",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.052391,
+ "gas_eth": 0.013072,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same EOA calls the router in the front and back legs on the rHEGIC/WETH pair, with the victim's rHEGIC sale between them. The actor sells 4617.501196 rHEGIC for 0.893591 WETH, then buys back exactly 4617.501196 rHEGIC for 0.841200 WETH, so the round trip is flat in the token. WETH net is +0.052391 before gas and about +0.039319 after the 0.013072 ETH gas for both legs. It is a short-side sandwich, with the sale in the front leg and the buy-back in the back leg.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0239307,
+ "_session": "c7e30b4d-c47c-454e-a201-fa016a446def",
+ "_raw": "{\"actor\": \"0x0898f84acaa1d6229e78a73ee71d8fbbe4ac4bc6\", \"pool\": \"0xae95aebf655e9b40c7e0d262198b970cd25f28af\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.052391, \"gas_eth\": 0.013072, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same EOA calls the router in the front and back legs on the rHEGIC/WETH pair, with the victim's rHEGIC sale between them. The actor sells 4617.501196 rHEGIC for 0.893591 WETH, then buys back exactly 4617.501196 rHEGIC for 0.841200 WETH, so the round trip is flat in the token. WETH net is +0.052391 before gas and about +0.039319 after the 0.013072 ETH gas for both legs. It is a short-side sandwich, with the sale in the front leg and the buy-back in the back leg.\"}",
+ "case_id": "sym100_061",
+ "_time": "2026-10-13T21:36:27+0800"
+}

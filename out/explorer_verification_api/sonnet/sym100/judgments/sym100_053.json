@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xb767c20d9773adce84d0f0a5bc64e2f114ad3076",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.024136,
+ "gas_eth": 0.00807,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 1,980,461.839936 wOMI into the pool for 3.775 WETH in the front leg. The victim then sells 2,000,000 wOMI on the same pool, and the actor buys back exactly 1,980,461.839936 wOMI for 3.750864 WETH in the back leg. The WETH gain is 0.024136, and after 0.00807 ETH gas the net is about +0.01607 ETH. The bracket is a sell-side sandwich that starts from wOMI inventory the actor held before the front leg, so the position is opened in WETH rather than wOMI, and I am less than fully certain it fits the protocol's definition.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3043,
+  "output_tokens": 977,
+  "thinking_tokens": 632
+ },
+ "_request_id": "req_011CgBSCwoeQ2UUE3d3pirjY",
+ "_response_id": "msg_011CgBSCxAENQMppReXYmhvW",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xb767c20d9773adce84d0f0a5bc64e2f114ad3076\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.024136,\"gas_eth\":0.00807,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 1,980,461.839936 wOMI into the pool for 3.775 WETH in the front leg. The victim then sells 2,000,000 wOMI on the same pool, and the actor buys back exactly 1,980,461.839936 wOMI for 3.750864 WETH in the back leg. The WETH gain is 0.024136, and after 0.00807 ETH gas the net is about +0.01607 ETH. The bracket is a sell-side sandwich that starts from wOMI inventory the actor held before the front leg, so the position is opened in WETH rather than wOMI, and I am less than fully certain it fits the protocol's definition.\"}",
+ "case_id": "sym100_053",
+ "_time": "2026-10-19T18:26:30+0800"
+}

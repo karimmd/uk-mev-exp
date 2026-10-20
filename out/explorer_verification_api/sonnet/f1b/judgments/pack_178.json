@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x377931b4f6adceccfc1a080f7a88b4af9d060336",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.238808,
+ "gas_eth": 0.028011,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 508,890 TWO for 2.093795 WETH in the front leg and sold the same amount back for 2.992646 WETH in the back leg. The victim bought TWO from the same V3 pool between them. The WETH gain is 0.898851; subtracting the 0.660043 ETH sent on to 0x829b\u2026 (likely a builder payment) gives 0.238808, and after 0.028011 ETH gas about 0.2108 ETH remains, so the position is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3188,
+  "output_tokens": 774,
+  "thinking_tokens": 491
+ },
+ "_request_id": "req_011CgBRoFHwudebuWrv7FgKr",
+ "_response_id": "msg_011CgBRoFeHEzW8khGwXwTJc",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x377931b4f6adceccfc1a080f7a88b4af9d060336\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.238808,\"gas_eth\":0.028011,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 508,890 TWO for 2.093795 WETH in the front leg and sold the same amount back for 2.992646 WETH in the back leg. The victim bought TWO from the same V3 pool between them. The WETH gain is 0.898851; subtracting the 0.660043 ETH sent on to 0x829b\u2026 (likely a builder payment) gives 0.238808, and after 0.028011 ETH gas about 0.2108 ETH remains, so the position is positive.\"}",
+ "case_id": "pack_178",
+ "_time": "2026-10-19T18:21:07+0800"
+}

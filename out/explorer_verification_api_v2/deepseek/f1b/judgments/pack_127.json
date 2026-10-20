@@ -1,0 +1,32 @@
+{
+ "actor": "0x4ef377462b03b650d52140c482394a6703d0d338",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": -101.134146,
+ "gas_eth": 0.119744,
+ "profit_after_gas": -101.25389,
+ "residual": "16004 SUSHI",
+ "confidence": 5,
+ "note": "Both front and back are ETH-to-SUSHI buys by the same sender, which receives 10004 SUSHI in front and 6000 SUSHI in back; no SUSHI is sold back, so no sandwich position is opened and closed. Net ETH/WETH is negative, but the large residual SUSHI holding prevents determining an overall positive or negative position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2925,
+  "output_tokens": 5497,
+  "thinking_tokens": 5308
+ },
+ "_request_id": "03e2048d22452301da53e5d681b079de",
+ "_response_id": "8caea765-ff62-4d94-adea-9fad460a715b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4ef377462b03b650d52140c482394a6703d0d338\",\"pool\":\"0x795065dcc9f64b5614c407a6efdc400da6221fb0\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":-101.134146,\"gas_eth\":0.119744,\"profit_after_gas\":-101.25389,\"residual\":\"16004 SUSHI\",\"confidence\":5,\"note\":\"Both front and back are ETH-to-SUSHI buys by the same sender, which receives 10004 SUSHI in front and 6000 SUSHI in back; no SUSHI is sold back, so no sandwich position is opened and closed. Net ETH/WETH is negative, but the large residual SUSHI holding prevents determining an overall positive or negative position.\"}",
+ "case_id": "pack_127",
+ "_time": "2026-10-19T19:20:11+0800"
+}

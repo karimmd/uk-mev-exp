@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.145437,
+ "gas_eth": 0.132569,
+ "profit_after_gas": 0.012868,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought CVX with WETH in the front leg and sold the same CVX back for WETH in the back leg on the same UniswapV2 pool the victim used. Net WETH gain before gas is 0.145437 ETH, and front plus back gas is 0.132569 ETH, leaving positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2273,
+  "output_tokens": 1477,
+  "thinking_tokens": 1301
+ },
+ "_request_id": "f34b5139a53f89e04f5426cf19b2071d",
+ "_response_id": "15b1c51e-3515-4ce4-99d9-6d235a05e21f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x05767d9ef41dc40689678ffca0608878fb3de906\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.145437,\"gas_eth\":0.132569,\"profit_after_gas\":0.012868,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract bought CVX with WETH in the front leg and sold the same CVX back for WETH in the back leg on the same UniswapV2 pool the victim used. Net WETH gain before gas is 0.145437 ETH, and front plus back gas is 0.132569 ETH, leaving positive profit.\"}",
+ "case_id": "pack_043",
+ "_time": "2026-10-19T19:08:12+0800"
+}

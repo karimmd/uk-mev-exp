@@ -1,0 +1,18 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0x6d91af49939796f59273c859a92b76446450a920",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.120725,
+ "gas_eth": 0.007195,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 1809529318417.167725 BDT to the pool for 0.760486 WETH in the front leg. The victim sells BDT into the same pool. The back leg buys back exactly the same BDT amount for 0.639761 WETH, so the actor ends with no BDT residual. WETH net is +0.120725. After 0.007195 ETH of gas, the result is about +0.11353 ETH. This is a sell-first (short-direction) bracket, so the actor must have held BDT before the front leg.",
+ "confidence_detail": null,
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0268092,
+ "_session": "1b67ccca-a7eb-4676-b0a7-43d79acc5358",
+ "_raw": "{\"actor\": \"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\", \"pool\": \"0x6d91af49939796f59273c859a92b76446450a920\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.120725, \"gas_eth\": 0.007195, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 1809529318417.167725 BDT to the pool for 0.760486 WETH in the front leg. The victim sells BDT into the same pool. The back leg buys back exactly the same BDT amount for 0.639761 WETH, so the actor ends with no BDT residual. WETH net is +0.120725. After 0.007195 ETH of gas, the result is about +0.11353 ETH. This is a sell-first (short-direction) bracket, so the actor must have held BDT before the front leg.\", \"confidence_detail\": null}",
+ "case_id": "sym100_016",
+ "_time": "2026-10-13T21:26:02+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047981,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x8f30 routes WETH\u2192POND\u2192USDC through pools ccb4 and d187 in the front leg. The victim then sells POND for USDC on d187, and the back leg unwinds the same 5977.238937 USDC through d187 and ccb4, receiving 2.402137 WETH against 2.301631 spent. The front and back legs paid 0 gwei, so gas is nil; the 0.052525 ETH internal payment to 0xea67 (likely a miner bribe) is subtracted, leaving about +0.048 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4022,
+  "output_tokens": 638,
+  "thinking_tokens": 322
+ },
+ "_request_id": "req_011CgBSregJrrQdJqi28EbbH",
+ "_response_id": "msg_011CgBSrf4NjZH3ziPikKd6v",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23\", \"pool\": \"0xd18748b9839b0081a867a1a871d5b562b2ec9884\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.047981, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x8f30 routes WETH\u2192POND\u2192USDC through pools ccb4 and d187 in the front leg. The victim then sells POND for USDC on d187, and the back leg unwinds the same 5977.238937 USDC through d187 and ccb4, receiving 2.402137 WETH against 2.301631 spent. The front and back legs paid 0 gwei, so gas is nil; the 0.052525 ETH internal payment to 0xea67 (likely a miner bribe) is subtracted, leaving about +0.048 ETH.\"}",
+ "case_id": "rej53_037",
+ "_time": "2026-10-19T18:35:01+0800"
+}

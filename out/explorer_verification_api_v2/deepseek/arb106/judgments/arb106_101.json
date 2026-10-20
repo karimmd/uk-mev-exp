@@ -1,0 +1,40 @@
+{
+ "actor": "0xa1006d0051a35b0000f961a8000000009ea8d2db",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.080829,
+ "gas_eth": 0.07364,
+ "profit_after_gas": 0.007189,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xa1006d... sends 11.313233 WETH to the WETH/USDC pool and receives 11.394062 WETH from the WETH/FXS pool via a four-pool USDC/FRAX/FXS route, yielding net WETH +0.080829. Subtracting the 0.073640 ETH gas fee leaves +0.007189 ETH/WETH; no non-WETH residual is shown.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1777,
+  "output_tokens": 9210,
+  "thinking_tokens": 8875
+ },
+ "_request_id": "9cba90b0cd994fdc35fec8b804cfeeb9",
+ "_response_id": "7fbfb394-460e-408c-891d-13d89a7c2bfe",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xa1006d0051a35b0000f961a8000000009ea8d2db\", \"pools\": [\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\", \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\", \"0xcd8286b48936cdac20518247dbd310ab681a9fbf\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.080829, \"gas_eth\": 0.07364, \"profit_after_gas\": 0.007189, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Actor 0xa1006d... sends 11.313233 WETH to the WETH/USDC pool and receives 11.394062 WETH from the WETH/FXS pool via a four-pool USDC/FRAX/FXS route, yielding net WETH +0.080829. Subtracting the 0.073640 ETH gas fee leaves +0.007189 ETH/WETH; no non-WETH residual is shown.\"}",
+ "case_id": "arb106_101",
+ "_time": "2026-10-19T20:09:51+0800"
+}

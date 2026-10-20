@@ -1,0 +1,40 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8",
+  "0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de",
+  "0x9437ad40056ca3ec2fc1efe41885ad4b6ac46061",
+  "0x47841ec00564a33402f16b876ed148b52dfbe188",
+  "0x559ebe4e206e6b4d50e9bd3008cda7ce640c52cb"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.005975,
+ "gas_eth": 0.005864,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two closed WETH cycles: WETH->NU (V2 3a8afc)->RNG (V3 3ce42e)->WETH (V3 9437ad), netting +0.003384, and WETH->RADAR (V3 47841e)->WETH (V2 559ebe), netting +0.002591. The intermediate tokens pass pool to pool, and every WETH leg comes from or goes to a swapped pool. Gross WETH +0.005975 less the 0.005864 gas fee leaves about +0.000111 ETH, a thin but positive margin with no coinbase transfer and no residual holdings.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2550,
+  "output_tokens": 1177,
+  "thinking_tokens": 663
+ },
+ "_request_id": "req_011CgBT37DmzGzcsukBsG112",
+ "_response_id": "msg_011CgBT37bqJS7NDNVY8nXgJ",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\", \"pools\": [\"0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8\", \"0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de\", \"0x9437ad40056ca3ec2fc1efe41885ad4b6ac46061\", \"0x47841ec00564a33402f16b876ed148b52dfbe188\", \"0x559ebe4e206e6b4d50e9bd3008cda7ce640c52cb\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.005975, \"gas_eth\": 0.005864, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two closed WETH cycles: WETH->NU (V2 3a8afc)->RNG (V3 3ce42e)->WETH (V3 9437ad), netting +0.003384, and WETH->RADAR (V3 47841e)->WETH (V2 559ebe), netting +0.002591. The intermediate tokens pass pool to pool, and every WETH leg comes from or goes to a swapped pool. Gross WETH +0.005975 less the 0.005864 gas fee leaves about +0.000111 ETH, a thin but positive margin with no coinbase transfer and no residual holdings.\"}\n```",
+ "case_id": "arb106_012",
+ "_time": "2026-10-19T18:37:26+0800"
+}

@@ -1,0 +1,38 @@
+{
+ "actor": "0xe0a9efe32985cc306255b395a1bd06d21ccead42",
+ "pools": [
+  "0x055475920a8c93cffb64d039a8205f7acc7722d3",
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0x88051b0eea095007d3bef21ab287be961f3d8598"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth": -0.002514,
+ "gas_eth": 0.010578,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor received 3.048801 WETH from the WETH/OHM V3 pool and sent 3.034032 WETH to the WETH/DAI V3 pool, with DAI/OHM routed through the V2 pool to close the cycle. Gross WETH profit is 0.014769, but after the 0.006705 ETH internal transfer and 0.010578 gas fee the net is negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1542,
+  "output_tokens": 12220,
+  "thinking_tokens": 11961
+ },
+ "_request_id": "cf0d2849cf805a0869de88e46e13023f",
+ "_response_id": "e9e99fbe-f127-4107-b195-aee0f4847933",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe0a9efe32985cc306255b395a1bd06d21ccead42\",\"pools\":[\"0x055475920a8c93cffb64d039a8205f7acc7722d3\",\"0x60594a405d53811d3bc4766596efd80fd545a270\",\"0x88051b0eea095007d3bef21ab287be961f3d8598\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"no\",\"net_eth\":-0.002514,\"gas_eth\":0.010578,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor received 3.048801 WETH from the WETH/OHM V3 pool and sent 3.034032 WETH to the WETH/DAI V3 pool, with DAI/OHM routed through the V2 pool to close the cycle. Gross WETH profit is 0.014769, but after the 0.006705 ETH internal transfer and 0.010578 gas fee the net is negative.\"}",
+ "case_id": "arb106_082",
+ "_time": "2026-10-19T19:31:57+0800"
+}

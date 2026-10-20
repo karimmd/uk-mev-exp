@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5f6af850b5aec2962397d24e8cd820e511c2f1ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.073524,
+ "gas_eth": 0.033648,
+ "residual": "none (back leg sent 0.006428 QANX more than the front leg received, so a negligible pre-existing balance was used)",
+ "confidence": 4,
+ "note": "The same contract buys QANX with 2.805009 WETH in the front leg, the victim buys 244385.83 QANX on the same pool in between, and the contract sells the QANX back for 2.878533 WETH. The WETH gain of 0.073524 less 0.033648 ETH combined gas leaves about +0.0399 ETH, though the back leg's high 759.6 gwei gas price takes most of the profit.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.021972699999999998,
+ "_session": "d7077218-5d47-4dc0-a2e4-1a3cb01961c0",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x5f6af850b5aec2962397d24e8cd820e511c2f1ee\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.073524, \"gas_eth\": 0.033648, \"residual\": \"none (back leg sent 0.006428 QANX more than the front leg received, so a negligible pre-existing balance was used)\", \"confidence\": 4, \"note\": \"The same contract buys QANX with 2.805009 WETH in the front leg, the victim buys 244385.83 QANX on the same pool in between, and the contract sells the QANX back for 2.878533 WETH. The WETH gain of 0.073524 less 0.033648 ETH combined gas leaves about +0.0399 ETH, though the back leg's high 759.6 gwei gas price takes most of the profit.\"}",
+ "case_id": "pack_104",
+ "_time": "2026-10-13T20:24:56+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x3f61171b1297f6e512c750c172ba86026ab0e820",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.109313,
+ "gas_eth": 0.098288,
+ "residual": "0.000001 USDC (dust)",
+ "confidence": 4,
+ "note": "The actor contract spends 2.285589 WETH for 7388.229585 USDC in the front leg (WETH routed through the V3 pool into the FLEX/USDC V2 pool). In the back leg it returns 7388.229584 USDC and receives 2.394902 WETH, with the victim selling FLEX into the same V2 pool in between. WETH gain of 0.109313 minus 0.098288 gas (0.016728 + 0.081560) leaves about +0.011 ETH, a thin but positive margin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0223147,
+ "_session": "d3541bf5-31e6-4ebf-a385-c072f7daf71e",
+ "_raw": "{\"actor\": \"0x00000000726422a6fecb4759b44d47e48cf746aa\", \"pool\": \"0x3f61171b1297f6e512c750c172ba86026ab0e820\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.109313, \"gas_eth\": 0.098288, \"residual\": \"0.000001 USDC (dust)\", \"confidence\": 4, \"note\": \"The actor contract spends 2.285589 WETH for 7388.229585 USDC in the front leg (WETH routed through the V3 pool into the FLEX/USDC V2 pool). In the back leg it returns 7388.229584 USDC and receives 2.394902 WETH, with the victim selling FLEX into the same V2 pool in between. WETH gain of 0.109313 minus 0.098288 gas (0.016728 + 0.081560) leaves about +0.011 ETH, a thin but positive margin.\"}",
+ "case_id": "pack_011",
+ "_time": "2026-10-13T20:06:21+0800"
+}

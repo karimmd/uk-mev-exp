@@ -1,0 +1,40 @@
+{
+ "actor": "0x8698d9d5ea99809c00426484a80be2add4e54581",
+ "pools": [
+  "0x29c827ce49accf68a1a278c67c9d30c52fbbc348",
+  "0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17",
+  "0x7ec0b75a98997c927ace6d87958147a105147ea0",
+  "0x99b42f2b49c395d2a77d973f6009abb5d67da343"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.020915,
+ "gas_eth": 0.019244,
+ "profit_after_gas": 0.001671,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor sends 1.396192 WETH into the WETH/VEGA pool and receives 1.417107 WETH from the YGG/WETH pool after a multi-hop route through VEGA, USDC, and YGG. Net WETH before gas is +0.020915, and after the stated gas fee it remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1790,
+  "output_tokens": 8990,
+  "thinking_tokens": 8701
+ },
+ "_request_id": "1ae30226016458be16d29ed07a1e4b5a",
+ "_response_id": "3c8cb66a-9bc9-493c-9da7-3dc5bc6515e5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x8698d9d5ea99809c00426484a80be2add4e54581\",\"pools\":[\"0x29c827ce49accf68a1a278c67c9d30c52fbbc348\",\"0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17\",\"0x7ec0b75a98997c927ace6d87958147a105147ea0\",\"0x99b42f2b49c395d2a77d973f6009abb5d67da343\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.020915,\"gas_eth\":0.019244,\"profit_after_gas\":0.001671,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor sends 1.396192 WETH into the WETH/VEGA pool and receives 1.417107 WETH from the YGG/WETH pool after a multi-hop route through VEGA, USDC, and YGG. Net WETH before gas is +0.020915, and after the stated gas fee it remains positive.\"}",
+ "case_id": "arb106_070",
+ "_time": "2026-10-19T20:02:52+0800"
+}

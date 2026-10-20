@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x788248dddf945542ca202713e6cb74195db07209",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "OHM",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.001773,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.001773,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor flash-swaps OHM from the Uniswap V2 pair, repays via DAI produced by swapping OHM on one Uniswap V3 pool, and swaps the remaining OHM on another V3 pool for WETH, which is withdrawn to ETH. After the ETH payment to the miner/bribe, the actor nets +0.001773 ETH with no residual OHM and zero gas cost.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1935,
+  "output_tokens": 5905,
+  "thinking_tokens": 5633
+ },
+ "_request_id": "58b3fdead6113498dec027a042f3c5fa",
+ "_response_id": "9091f389-b005-4a2b-a18a-485cf69172b4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x788248dddf945542ca202713e6cb74195db07209\",\"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"],\"cycle_token\":\"OHM\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.001773,\"gas_eth\":0.0,\"profit_after_gas\":0.001773,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor flash-swaps OHM from the Uniswap V2 pair, repays via DAI produced by swapping OHM on one Uniswap V3 pool, and swaps the remaining OHM on another V3 pool for WETH, which is withdrawn to ETH. After the ETH payment to the miner/bribe, the actor nets +0.001773 ETH with no residual OHM and zero gas cost.\"}",
+ "case_id": "arb106_022",
+ "_time": "2026-10-19T19:51:49+0800"
+}

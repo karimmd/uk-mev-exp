@@ -1,0 +1,31 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.007241,
+ "gas_eth": 0.010018,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x4df3 wrapped 2.419244 ETH and bought 260792.41 UNIUSD on pool 0xbd39 at position 1. The victim bought on the same pool at position 33. At position 34 the contract sold exactly 260792.41 UNIUSD (255576.56 to the pool plus a 5215.85 token fee) for 2.436503 WETH, a gross +0.017259 ETH that is still positive after 0.010018 ETH of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4400,
+  "output_tokens": 597,
+  "thinking_tokens": 305
+ },
+ "_request_id": "req_011CgBRxFrBgztfm67s4VUT5",
+ "_response_id": "msg_011CgBRxGCGg1oWDqNdnnaiN",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\", \"pool\": \"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.007241, \"gas_eth\": 0.010018, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x4df3 wrapped 2.419244 ETH and bought 260792.41 UNIUSD on pool 0xbd39 at position 1. The victim bought on the same pool at position 33. At position 34 the contract sold exactly 260792.41 UNIUSD (255576.56 to the pool plus a 5215.85 token fee) for 2.436503 WETH, a gross +0.017259 ETH that is still positive after 0.010018 ETH of gas.\"}",
+ "case_id": "pack_188",
+ "_time": "2026-10-19T18:23:12+0800"
+}

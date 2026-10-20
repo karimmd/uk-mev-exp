@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc66ce0de9fd74e6ce40b6b8a9e86103ec56e45ed",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.092476,
+ "gas_eth": 0.022299,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 33816.952032 KST with 17.627637 WETH on the WETH/KST pool in the front leg. The victim's USDT->WETH->KST swap goes through the same pool, and the back leg sells exactly the same KST for 19.593682 WETH. The WETH gain is 1.966045, and the 0.873569 ETH sent as tx value and forwarded to 0x1ad9... (likely a miner payment) is counted as a cost. That leaves 1.092476 ETH before gas, or about 1.070 ETH after the 0.022299 ETH gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0241367,
+ "_session": "e547c9f9-4cae-485a-b9cd-a14757319393",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0xc66ce0de9fd74e6ce40b6b8a9e86103ec56e45ed\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.092476, \"gas_eth\": 0.022299, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 33816.952032 KST with 17.627637 WETH on the WETH/KST pool in the front leg. The victim's USDT->WETH->KST swap goes through the same pool, and the back leg sells exactly the same KST for 19.593682 WETH. The WETH gain is 1.966045, and the 0.873569 ETH sent as tx value and forwarded to 0x1ad9... (likely a miner payment) is counted as a cost. That leaves 1.092476 ETH before gas, or about 1.070 ETH after the 0.022299 ETH gas.\"}",
+ "case_id": "pack_081",
+ "_time": "2026-10-13T20:20:07+0800"
+}

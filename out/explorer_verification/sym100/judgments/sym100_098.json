@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xcbbc981bd5b358d09a9346726115d3ac8822d00b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.160907,
+ "gas_eth": 0.088953,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract never holds VXV. In each leg it routes VXV between the V2 pool 0x6593\u2026 and the V3 VXV/WETH pool 0xcbbc\u2026. Front sells VXV into the V3 pool and back buys VXV out of it, with the victim also selling VXV into that pool in between, so the V3 pool brackets the victim. Net WETH is -0.207499 (front) + 0.368406 (back) = +0.160907, which is +0.071954 after 0.088953 ETH gas. Confidence is only 3 because the legs also look like cross-pool arbitrage rather than a plain buy-then-sell position.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.029276700000000003,
+ "_session": "40f35eb9-42c3-4ef2-8936-6d0607dc395a",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xcbbc981bd5b358d09a9346726115d3ac8822d00b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.160907, \"gas_eth\": 0.088953, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract never holds VXV. In each leg it routes VXV between the V2 pool 0x6593\u2026 and the V3 VXV/WETH pool 0xcbbc\u2026. Front sells VXV into the V3 pool and back buys VXV out of it, with the victim also selling VXV into that pool in between, so the V3 pool brackets the victim. Net WETH is -0.207499 (front) + 0.368406 (back) = +0.160907, which is +0.071954 after 0.088953 ETH gas. Confidence is only 3 because the legs also look like cross-pool arbitrage rather than a plain buy-then-sell position.\"}",
+ "case_id": "sym100_098",
+ "_time": "2026-10-13T21:44:51+0800"
+}

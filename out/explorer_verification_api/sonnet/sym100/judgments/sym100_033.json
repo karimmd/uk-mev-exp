@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02932,
+ "gas_eth": 0.004804,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 67997.416493 RVP into the pool for 1.422 WETH in the front leg. The victim then sells 200000 RVP into the same pool. The back leg rebuys exactly 67997.416493 RVP for 1.39268 WETH, so the RVP position is flat and the WETH gain is 0.02932. After 0.004804 ETH of gas for the front and back legs, the net is about +0.0245 ETH. The bracket is a short-side round trip (sell first, rebuy after), not the usual buy-then-sell order.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2986,
+  "output_tokens": 778,
+  "thinking_tokens": 466
+ },
+ "_request_id": "req_011CgBS5tSJJC9rqnDdYRYpz",
+ "_response_id": "msg_011CgBS5tnNSvt4EQ6EF2tUh",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.02932,\"gas_eth\":0.004804,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 67997.416493 RVP into the pool for 1.422 WETH in the front leg. The victim then sells 200000 RVP into the same pool. The back leg rebuys exactly 67997.416493 RVP for 1.39268 WETH, so the RVP position is flat and the WETH gain is 0.02932. After 0.004804 ETH of gas for the front and back legs, the net is about +0.0245 ETH. The bracket is a short-side round trip (sell first, rebuy after), not the usual buy-then-sell order.\"}",
+ "case_id": "sym100_033",
+ "_time": "2026-10-19T18:24:52+0800"
+}

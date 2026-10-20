@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.284109,
+ "gas_eth": 0.018576,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract paid 19.937134 WETH and received 68711.196 TOS (via WTON) on the TOS/WTON pool 0x1c0c\u2026 just before the victim bought TOS on that same pool. In the back leg it sold exactly that TOS and ended with 20.529028 WETH, a gross gain of 0.591894. Netting out the 0.307785 ETH value passed through to 0x0708\u2026 (likely a builder payment) leaves +0.284109 ETH, or about +0.2655 ETH after 0.018576 ETH of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3275,
+  "output_tokens": 706,
+  "thinking_tokens": 386
+ },
+ "_request_id": "req_011CgBRcU3r9J7MNouM4LSCo",
+ "_response_id": "msg_011CgBRcX8snMAJRHyfYW3g2",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.284109, \"gas_eth\": 0.018576, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract paid 19.937134 WETH and received 68711.196 TOS (via WTON) on the TOS/WTON pool 0x1c0c\u2026 just before the victim bought TOS on that same pool. In the back leg it sold exactly that TOS and ended with 20.529028 WETH, a gross gain of 0.591894. Netting out the 0.307785 ETH value passed through to 0x0708\u2026 (likely a builder payment) leaves +0.284109 ETH, or about +0.2655 ETH after 0.018576 ETH of gas.\"}",
+ "case_id": "pack_137",
+ "_time": "2026-10-19T18:18:43+0800"
+}

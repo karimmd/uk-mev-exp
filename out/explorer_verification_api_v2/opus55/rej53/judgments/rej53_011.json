@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x4085cafb2c519e6bf69ad410d91dbb6139948366",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.227999,
+ "gas_eth": 0.211921,
+ "profit_after_gas": 0.016078,
+ "residual": "about 0.014981 VR (dust, worth well under 0.0001 ETH)",
+ "confidence": 4,
+ "note": "Contract 0x0000\u20266b40 routes 3.666028 WETH into the WETH/USDT pool and then the USDT/VR pool, receiving 36616.28 VR. The victim then buys VR with USDT on that same USDT/VR pool, and the contract sells 36616.26 VR back the same route for 3.894027 WETH. That is 0.228 WETH before gas; after the very high back-leg gas (1397 gwei), the profit is a thin 0.016 ETH, and the leftover VR is negligible dust.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3140,
+  "output_tokens": 655,
+  "thinking_tokens": 304
+ },
+ "_request_id": "req_011CgBWmkAnPHaGbNS2DZ7uZ",
+ "_response_id": "msg_011CgBWmkXsdR47yoYhQTH9b",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x4085cafb2c519e6bf69ad410d91dbb6139948366\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.227999, \"gas_eth\": 0.211921, \"profit_after_gas\": 0.016078, \"residual\": \"about 0.014981 VR (dust, worth well under 0.0001 ETH)\", \"confidence\": 4, \"note\": \"Contract 0x0000\u20266b40 routes 3.666028 WETH into the WETH/USDT pool and then the USDT/VR pool, receiving 36616.28 VR. The victim then buys VR with USDT on that same USDT/VR pool, and the contract sells 36616.26 VR back the same route for 3.894027 WETH. That is 0.228 WETH before gas; after the very high back-leg gas (1397 gwei), the profit is a thin 0.016 ETH, and the leftover VR is negligible dust.\"}",
+ "case_id": "rej53_011",
+ "_time": "2026-10-19T19:26:22+0800"
+}

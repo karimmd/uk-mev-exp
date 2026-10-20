@@ -1,0 +1,39 @@
+{
+ "actor": "0xb8db34f834e9df42f2002ceb7b829dad89d08e14",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.060922,
+ "gas_eth": 0.034753,
+ "profit_after_gas": 0.026169,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 3.594103 WETH into the WETH/YLD pool and receives 3.655025 WETH from the RFI/WETH pool, passing through the YLD/RFI pool in between. The path is a triangular cycle across three pools, with WETH netting +0.060922 before gas and +0.026169 after the 0.034753 ETH fee. The actor is the called contract, not the sender, and gas is paid by the sender EOA, so the after-gas figure is a slight assumption about who bears the fee.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2160,
+  "output_tokens": 423,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBXViFrsVqsKczv6yfA5",
+ "_response_id": "msg_011CgBXVibhtwoRuzcCj4z2n",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0xb8db34f834e9df42f2002ceb7b829dad89d08e14\", \"pools\": [\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\", \"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\", \"0x4c8341379e95f70c08defb76c4f9c036525edc30\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.060922, \"gas_eth\": 0.034753, \"profit_after_gas\": 0.026169, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 3.594103 WETH into the WETH/YLD pool and receives 3.655025 WETH from the RFI/WETH pool, passing through the YLD/RFI pool in between. The path is a triangular cycle across three pools, with WETH netting +0.060922 before gas and +0.026169 after the 0.034753 ETH fee. The actor is the called contract, not the sender, and gas is paid by the sender EOA, so the after-gas figure is a slight assumption about who bears the fee.\"}",
+ "case_id": "arb106_083",
+ "_time": "2026-10-19T19:35:47+0800"
+}

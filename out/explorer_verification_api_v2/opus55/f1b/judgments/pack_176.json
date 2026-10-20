@@ -1,0 +1,32 @@
+{
+ "actor": "0xd3761fad7cf72112c286c1640141e3d8aecdd4f2",
+ "pool": "0x43ae24960e5534731fc831386c07755a2dc33d47",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 12.880545,
+ "gas_eth": 0.037182,
+ "profit_after_gas": 12.843363,
+ "residual": "-1000 SNX (sold in front and back, never bought back)",
+ "confidence": 5,
+ "note": "All three transactions come from the same sender through the same contract, and each sells 500 SNX for WETH/ETH on the Uniswap V2 pool 0x43ae\u2026. Because the front and back legs trade in the same direction, no position is opened and then closed, and the 'victim' is the same actor, so this is a split sell order, not a sandwich. The ETH inflows of 12.88 ETH are offset by 1000 SNX given up, so profit cannot be signed in ETH terms.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4953,
+  "output_tokens": 666,
+  "thinking_tokens": 337
+ },
+ "_request_id": "req_011CgBW5FRHzUzdBV3ZDBNXZ",
+ "_response_id": "msg_011CgBW5FmsXFFJ6FA1MkmVW",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xd3761fad7cf72112c286c1640141e3d8aecdd4f2\", \"pool\": \"0x43ae24960e5534731fc831386c07755a2dc33d47\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": 12.880545, \"gas_eth\": 0.037182, \"profit_after_gas\": 12.843363, \"residual\": \"-1000 SNX (sold in front and back, never bought back)\", \"confidence\": 5, \"note\": \"All three transactions come from the same sender through the same contract, and each sells 500 SNX for WETH/ETH on the Uniswap V2 pool 0x43ae\u2026. Because the front and back legs trade in the same direction, no position is opened and then closed, and the 'victim' is the same actor, so this is a split sell order, not a sandwich. The ETH inflows of 12.88 ETH are offset by 1000 SNX given up, so profit cannot be signed in ETH terms.\"}",
+ "case_id": "pack_176",
+ "_time": "2026-10-19T19:17:12+0800"
+}

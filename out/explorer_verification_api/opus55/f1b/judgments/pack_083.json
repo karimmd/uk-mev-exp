@@ -1,0 +1,31 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x1f3d61248ec81542889535595903078109707941",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.084911,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xf73d5d bought 0.313561 KBTC via WETH->WBTC->KBTC in the front leg and sold exactly that amount back in the back leg. The victim's WBTC->KBTC swap sits between them on the same pool 0x1f3d61. Net WETH is +0.168424, minus the 0.083513 ETH internal transfer to 0x99c85b (likely a builder or miner tip, since both legs paid 0 gwei), which leaves about +0.0849 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3053,
+  "output_tokens": 641,
+  "thinking_tokens": 349
+ },
+ "_request_id": "req_011CgBR44WqyMUFQL1FCTex1",
+ "_response_id": "msg_011CgBR4EGE27QbTQc2dN8yF",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\", \"pool\": \"0x1f3d61248ec81542889535595903078109707941\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.084911, \"gas_eth\": 0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xf73d5d bought 0.313561 KBTC via WETH->WBTC->KBTC in the front leg and sold exactly that amount back in the back leg. The victim's WBTC->KBTC swap sits between them on the same pool 0x1f3d61. Net WETH is +0.168424, minus the 0.083513 ETH internal transfer to 0x99c85b (likely a builder or miner tip, since both legs paid 0 gwei), which leaves about +0.0849 ETH.\"}",
+ "case_id": "pack_083",
+ "_time": "2026-10-19T18:11:24+0800"
+}

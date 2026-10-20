@@ -1,0 +1,31 @@
+{
+ "actor": "0xeb46faa47a6a52519839a2e52c7b28a2db17651e",
+ "pool": "0xc930fedc53a8426203c9203079ca76d49f65b964",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.064548,
+ "gas_eth": 0.004403,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0xeb46 bought 27.925853 RL3R for 1.632892 WETH on pool 0xc930. The victim then bought RL3R with 5 ETH on the same pool. 0xeb46 sold exactly 27.925853 RL3R back for 1.701843 WETH, a gross gain of 0.068951 WETH, or 0.064548 after the 0.004403 ETH gas of both legs.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2861,
+  "output_tokens": 414,
+  "thinking_tokens": 144
+ },
+ "_request_id": "req_011CgBRhYjWvxQDY8fAnUnCC",
+ "_response_id": "msg_011CgBRhaJX9qjhmExDynuFF",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xeb46faa47a6a52519839a2e52c7b28a2db17651e\", \"pool\": \"0xc930fedc53a8426203c9203079ca76d49f65b964\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.064548, \"gas_eth\": 0.004403, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0xeb46 bought 27.925853 RL3R for 1.632892 WETH on pool 0xc930. The victim then bought RL3R with 5 ETH on the same pool. 0xeb46 sold exactly 27.925853 RL3R back for 1.701843 WETH, a gross gain of 0.068951 WETH, or 0.064548 after the 0.004403 ETH gas of both legs.\"}",
+ "case_id": "pack_148",
+ "_time": "2026-10-19T18:19:48+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.13698,
+ "gas_eth": 0,
+ "profit_after_gas": 0.13698,
+ "residual": "266897856280.728515 KISHU",
+ "confidence": 5,
+ "note": "Front buys KISHU and back sells KISHU on the same UniswapV2 KISHU/WETH pool that the victim uses between them. The target contract is the actor holding and giving up the KISHU position. Net WETH is +0.13698 ETH, gas is zero, and a positive KISHU residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3033,
+  "output_tokens": 7899,
+  "thinking_tokens": 7707
+ },
+ "_request_id": "d5d09e3d03a733f0e5ce3be0d2acb61a",
+ "_response_id": "d01a95d2-fac9-4558-ab7f-26ec37c22064",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.13698,\"gas_eth\":0,\"profit_after_gas\":0.13698,\"residual\":\"266897856280.728515 KISHU\",\"confidence\":5,\"note\":\"Front buys KISHU and back sells KISHU on the same UniswapV2 KISHU/WETH pool that the victim uses between them. The target contract is the actor holding and giving up the KISHU position. Net WETH is +0.13698 ETH, gas is zero, and a positive KISHU residual remains.\"}",
+ "case_id": "pack_149",
+ "_time": "2026-10-19T19:22:31+0800"
+}

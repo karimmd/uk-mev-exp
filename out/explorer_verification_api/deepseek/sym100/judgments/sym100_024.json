@@ -1,0 +1,31 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.081176,
+ "gas_eth": 0.013277,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells INFI for WETH, victim sells INFI on the same pool, and back buys the same INFI amount for less WETH, yielding net WETH after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2431,
+  "output_tokens": 8477,
+  "thinking_tokens": 8343
+ },
+ "_request_id": "38ff80bef3909ca8bb35819a210d560f",
+ "_response_id": "d4f69811-8b07-41af-bf2e-44c2b71fe2d2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x09ddb304758caf024706dee2e92b569ca4823aa1\",\"pool\":\"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.081176,\"gas_eth\":0.013277,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells INFI for WETH, victim sells INFI on the same pool, and back buys the same INFI amount for less WETH, yielding net WETH after gas.\"}",
+ "case_id": "sym100_024",
+ "_time": "2026-10-19T18:42:00+0800"
+}

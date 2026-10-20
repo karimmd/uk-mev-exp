@@ -1,0 +1,165 @@
+{
+ "blinded": true,
+ "cases": 17637,
+ "generated_at": "2026-09-20 21:00:37 CST",
+ "moved_examples": [
+  {
+   "case_id": "case_010cdd795986bad1ab49",
+   "frozen_value_flow": "positive",
+   "outcome": "structurally_supported",
+   "per_leg_value_flow": "negative"
+  },
+  {
+   "case_id": "case_01f710c9003c117567cb",
+   "frozen_value_flow": "undecidable",
+   "outcome": "rejected",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_028416aba8b68b752bd9",
+   "frozen_value_flow": "undecidable",
+   "outcome": "rejected",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_029ecf76bea5e72fd6f4",
+   "frozen_value_flow": "positive",
+   "outcome": "structurally_supported",
+   "per_leg_value_flow": "negative"
+  },
+  {
+   "case_id": "case_02c6805c3b54d244ed59",
+   "frozen_value_flow": "positive",
+   "outcome": "structurally_supported",
+   "per_leg_value_flow": "negative"
+  },
+  {
+   "case_id": "case_0332268780e3c1ebc223",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0345a1a5bdd2b4928f0e",
+   "frozen_value_flow": "undecidable",
+   "outcome": "rejected",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0380c73b48070e8a455d",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_04246f7c280464a5aaad",
+   "frozen_value_flow": "undecidable",
+   "outcome": "rejected",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0448a0a206d47c65abaf",
+   "frozen_value_flow": "positive",
+   "outcome": "structurally_supported",
+   "per_leg_value_flow": "negative"
+  },
+  {
+   "case_id": "case_04dc250282c23c22a790",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_05b5a9d7850142ec2cec",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_06d756abaedeeccb32f7",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0887a181c49daa686159",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_092dd49af6f5c9405e44",
+   "frozen_value_flow": "undecidable",
+   "outcome": "rejected",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0acde135636134a67586",
+   "frozen_value_flow": "undecidable",
+   "outcome": "rejected",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0c2c470fe656bf7e4cee",
+   "frozen_value_flow": "undecidable",
+   "outcome": "rejected",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0c56846d1ab75f638b66",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0cadb7035f5aaf31e05e",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  },
+  {
+   "case_id": "case_0df49b29a359d7eee3ce",
+   "frozen_value_flow": "undecidable",
+   "outcome": "undecidable",
+   "per_leg_value_flow": "cross_token_position_unpriced"
+  }
+ ],
+ "outcomes_by_boundary_size": {
+  "0": {
+   "rejected": 3186,
+   "undecidable": 567
+  },
+  "1": {
+   "rejected": 1113,
+   "structurally_supported": 396,
+   "undecidable": 89
+  },
+  "2": {
+   "rejected": 888,
+   "structurally_supported": 6165,
+   "undecidable": 3572
+  },
+  "3": {
+   "rejected": 231,
+   "structurally_supported": 1289,
+   "undecidable": 141
+  }
+ },
+ "question": "does folding a second sender into the boundary manufacture support?",
+ "support_from_boundary_ge3": 1289,
+ "support_lost_under_per_leg_boundary": 70,
+ "support_rate": 0.445087,
+ "support_rate_excluding_boundary_ge3": 0.372002,
+ "support_rate_under_per_leg_boundary": 0.441118,
+ "support_total": 7850,
+ "tally": {
+  "changed": 306,
+  "positive_to_negative": 72,
+  "recomputed": 1661,
+  "same": 1355,
+  "unaffected_by_construction": 15976,
+  "undecidable_to_cross_token_position_unpriced": 234
+ },
+ "test": "per-leg boundary {actor, sender-of-that-leg} vs frozen union boundary",
+ "two_sender_cases": 1661
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x8be4db5926232bc5b02b841dbede8161924495c4",
+ "pool": "0x414fbf662fc98415dbee27c72013a6f3a937ed66",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.179832,
+ "gas_eth": 0.164688,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x8be4\u202695c4 bought 12644.731114 OWL for 25.82 WETH on the WETH/OWL UniswapV2 pool 0x414f\u2026ed66. The victim then bought OWL with 17 ETH on the same pool, and the contract sold exactly 12644.731114 OWL back for 26.16452 WETH. That is +0.34452 WETH, minus 0.164688 ETH in front and back gas, leaving about +0.1798 ETH. The two legs came from different senders (front at position 0 with a 2312 gwei price, plus zero-value self-destruct calls typical of gas-token use), which lowers certainty slightly about the actor link.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3032,
+  "output_tokens": 551,
+  "thinking_tokens": 196
+ },
+ "_request_id": "req_011CgBQ6dJFtAs2AdtQzqcvJ",
+ "_response_id": "msg_011CgBQ6idyFduisUNor2tvP",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x8be4db5926232bc5b02b841dbede8161924495c4\", \"pool\": \"0x414fbf662fc98415dbee27c72013a6f3a937ed66\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.179832, \"gas_eth\": 0.164688, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x8be4\u202695c4 bought 12644.731114 OWL for 25.82 WETH on the WETH/OWL UniswapV2 pool 0x414f\u2026ed66. The victim then bought OWL with 17 ETH on the same pool, and the contract sold exactly 12644.731114 OWL back for 26.16452 WETH. That is +0.34452 WETH, minus 0.164688 ETH in front and back gas, leaving about +0.1798 ETH. The two legs came from different senders (front at position 0 with a 2312 gwei price, plus zero-value self-destruct calls typical of gas-token use), which lowers certainty slightly about the actor link.\"}",
+ "case_id": "pack_008",
+ "_time": "2026-10-19T17:58:51+0800"
+}

@@ -1,0 +1,39 @@
+{
+ "actor": "0x3765521db364ee269e9540970fd21e5a3e825699",
+ "pools": [
+  "0x231b7589426ffe1b75405526fc32ac09d44364c4",
+  "0x0d0d65e7a7db277d3e0f5e1676325e75f3340455",
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
+  "0xd0effc6828972483db1c64106f71d6ad12606a53"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.00228,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor sends and receives WETH through four Uniswap pools, ending with +0.011998 WETH before an internal ETH payment of 0.009718 and zero gas, for net +0.00228 ETH. No non-WETH residual or minted token is left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1732,
+  "output_tokens": 5104,
+  "thinking_tokens": 4850
+ },
+ "_request_id": "5d2044b1a36904469b55cf7466dd9786",
+ "_response_id": "8f108107-94e8-49f4-acaf-e514687aaffc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3765521db364ee269e9540970fd21e5a3e825699\",\"pools\":[\"0x231b7589426ffe1b75405526fc32ac09d44364c4\",\"0x0d0d65e7a7db277d3e0f5e1676325e75f3340455\",\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\",\"0xd0effc6828972483db1c64106f71d6ad12606a53\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.00228,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor sends and receives WETH through four Uniswap pools, ending with +0.011998 WETH before an internal ETH payment of 0.009718 and zero gas, for net +0.00228 ETH. No non-WETH residual or minted token is left.\"}",
+ "case_id": "arb106_089",
+ "_time": "2026-10-19T19:35:14+0800"
+}

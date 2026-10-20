@@ -1,0 +1,39 @@
+{
+ "actor": "0x3765521db364ee269e9540970fd21e5a3e825699",
+ "pools": [
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
+  "0x231b7589426ffe1b75405526fc32ac09d44364c4",
+  "0xd0effc6828972483db1c64106f71d6ad12606a53",
+  "0x0d0d65e7a7db277d3e0f5e1676325e75f3340455"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.00228,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 1.086531 WETH into the WBTC/WETH V3 pool. The WBTC then moves through the WBTC/DAI V2 pool, the DAI/MTA V3 pool and the MTA/WETH V2 pool, and 1.098529 WETH returns to the actor. That is +0.011998 WETH, less a 0.009718 ETH payment to 0xea67 (likely a miner tip), for +0.00228 ETH. The explorer shows a gas price of 0 gwei, so I took the gas fee as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2251,
+  "output_tokens": 1040,
+  "thinking_tokens": 618
+ },
+ "_request_id": "req_011CgBTKHpSyEy2TVXgKZwBF",
+ "_response_id": "msg_011CgBTKKXPPgYySvXQSoGox",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3765521db364ee269e9540970fd21e5a3e825699\",\"pools\":[\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\",\"0x231b7589426ffe1b75405526fc32ac09d44364c4\",\"0xd0effc6828972483db1c64106f71d6ad12606a53\",\"0x0d0d65e7a7db277d3e0f5e1676325e75f3340455\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.00228,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 1.086531 WETH into the WBTC/WETH V3 pool. The WBTC then moves through the WBTC/DAI V2 pool, the DAI/MTA V3 pool and the MTA/WETH V2 pool, and 1.098529 WETH returns to the actor. That is +0.011998 WETH, less a 0.009718 ETH payment to 0xea67 (likely a miner tip), for +0.00228 ETH. The explorer shows a gas price of 0 gwei, so I took the gas fee as 0.\"}",
+ "case_id": "arb106_089",
+ "_time": "2026-10-19T18:41:03+0800"
+}

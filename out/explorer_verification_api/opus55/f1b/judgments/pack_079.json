@@ -1,0 +1,31 @@
+{
+ "actor": "0x9edd647d7d6eceae6bb61d7785ef66c5055a9bee",
+ "pool": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.223175,
+ "gas_eth": 0.031574,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x9edd, called by the same sender in both legs, sold 8,515,787,148.95 AKITA for 3.104425 WETH on pool 0xda3a ahead of the victim's larger AKITA sell on that pool. It then bought back exactly the same AKITA amount for 2.849676 WETH, so this is a sell-first sandwich that leaves no residual. WETH net is +0.254749, minus 0.031574 ETH gas, giving +0.223175 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3075,
+  "output_tokens": 621,
+  "thinking_tokens": 321
+ },
+ "_request_id": "req_011CgBR1Y2ytTHgeuZgo1yek",
+ "_response_id": "msg_011CgBR1ctBM2jSuT8mqfySA",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x9edd647d7d6eceae6bb61d7785ef66c5055a9bee\", \"pool\": \"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.223175, \"gas_eth\": 0.031574, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x9edd, called by the same sender in both legs, sold 8,515,787,148.95 AKITA for 3.104425 WETH on pool 0xda3a ahead of the victim's larger AKITA sell on that pool. It then bought back exactly the same AKITA amount for 2.849676 WETH, so this is a sell-first sandwich that leaves no residual. WETH net is +0.254749, minus 0.031574 ETH gas, giving +0.223175 ETH.\"}",
+ "case_id": "pack_079",
+ "_time": "2026-10-19T18:10:48+0800"
+}

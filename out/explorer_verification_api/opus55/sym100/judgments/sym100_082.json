@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x811beed0119b4afce20d2583eb608c6f7af1954f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.354361,
+ "gas_eth": 0.033768,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x3dad sold 30,434,610,129.70 SHIB for 40.409 WETH on the SHIB/WETH pair 0x811b. The victim then sold SHIB on the same pair at a worse rate, and 0x3dad bought back exactly the same SHIB amount for 40.020871 WETH. This is a sell-side bracket that nets 0.388129 WETH before gas of 0.033768 ETH, with no SHIB left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3051,
+  "output_tokens": 788,
+  "thinking_tokens": 502
+ },
+ "_request_id": "req_011CgBSXTiU8iDWXPLxprLrw",
+ "_response_id": "msg_011CgBSXU4ZET4bWg99VjBuw",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x811beed0119b4afce20d2583eb608c6f7af1954f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.354361, \"gas_eth\": 0.033768, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x3dad sold 30,434,610,129.70 SHIB for 40.409 WETH on the SHIB/WETH pair 0x811b. The victim then sold SHIB on the same pair at a worse rate, and 0x3dad bought back exactly the same SHIB amount for 40.020871 WETH. This is a sell-side bracket that nets 0.388129 WETH before gas of 0.033768 ETH, with no SHIB left over.\"}",
+ "case_id": "sym100_082",
+ "_time": "2026-10-19T18:30:41+0800"
+}

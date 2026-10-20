@@ -1,0 +1,31 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.129992,
+ "gas_eth": 0.016492,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front leg sells 6608.905755 INFI for 1.850367 WETH; back leg buys the same INFI amount for 1.703883 WETH after the victim's INFI sale on the same pool. Net WETH gain is 0.146484 minus gas 0.016492, leaving a positive 0.129992 ETH-equivalent.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2095,
+  "output_tokens": 13610,
+  "thinking_tokens": 13435
+ },
+ "_request_id": "3bff78bbbf361d6a4b3116eb50c1a742",
+ "_response_id": "24d256c7-0c05-4a6d-a3b0-f325342dd363",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x09ddb304758caf024706dee2e92b569ca4823aa1\",\"pool\":\"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.129992,\"gas_eth\":0.016492,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front leg sells 6608.905755 INFI for 1.850367 WETH; back leg buys the same INFI amount for 1.703883 WETH after the victim's INFI sale on the same pool. Net WETH gain is 0.146484 minus gas 0.016492, leaving a positive 0.129992 ETH-equivalent.\"}",
+ "case_id": "sym100_094",
+ "_time": "2026-10-19T18:56:10+0800"
+}

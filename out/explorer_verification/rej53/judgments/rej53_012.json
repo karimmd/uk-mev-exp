@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xa40bb1c47f6dd27142a2bd7c93bfa98db9d1f5c5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.03428,
+ "gas_eth": 0.030672,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 943.738 MASK in the front leg by routing WETH through the V3 USDC/WETH pool into the V2 MASK/USDC pair. It sells the same 943.738 MASK back in the back leg, and the victim's swap hits that same V2 pair in between. WETH goes from 3.47959 out to 3.51387 in, a gain of 0.03428 ETH. After front and back gas of 0.030672 ETH, about +0.0036 ETH remains, which is a thin margin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0282068,
+ "_session": "c9e10097-ca70-4c93-a6ec-46e0f75349a0",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xa40bb1c47f6dd27142a2bd7c93bfa98db9d1f5c5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.03428, \"gas_eth\": 0.030672, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 943.738 MASK in the front leg by routing WETH through the V3 USDC/WETH pool into the V2 MASK/USDC pair. It sells the same 943.738 MASK back in the back leg, and the victim's swap hits that same V2 pair in between. WETH goes from 3.47959 out to 3.51387 in, a gain of 0.03428 ETH. After front and back gas of 0.030672 ETH, about +0.0036 ETH remains, which is a thin margin.\"}",
+ "case_id": "rej53_012",
+ "_time": "2026-10-13T21:55:43+0800"
+}

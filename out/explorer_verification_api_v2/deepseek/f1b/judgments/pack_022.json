@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0xb43542e6b7c209f7da4b579792f67a1844546ce8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.035087,
+ "gas_eth": 0.030475,
+ "profit_after_gas": 0.004612,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract opened a USDC position via the front two-hop route, with the shared pool 0xb435... used by the victim, then closed it in the back leg. ETH/WETH nets positive after including the back-leg internal ETH transfer and both gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2914,
+  "output_tokens": 3988,
+  "thinking_tokens": 3824
+ },
+ "_request_id": "58108d6f52714517c3acbc617f6b6aa9",
+ "_response_id": "bb953538-46a7-468d-baac-125742adb5eb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0xb43542e6b7c209f7da4b579792f67a1844546ce8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.035087,\"gas_eth\":0.030475,\"profit_after_gas\":0.004612,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract opened a USDC position via the front two-hop route, with the shared pool 0xb435... used by the victim, then closed it in the back leg. ETH/WETH nets positive after including the back-leg internal ETH transfer and both gas fees.\"}",
+ "case_id": "pack_022",
+ "_time": "2026-10-19T19:06:00+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x0612f7b15779ca6ddbe927f92d6c4144fbae1485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.045003,
+ "gas_eth": 0.02934,
+ "profit_after_gas": 0.015663,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs are executed by the same contract actor on the same UniswapV2 pool the victim trades. The actor nets +0.045003 WETH before gas and remains positive after 0.02934 ETH gas, with no REALM residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2450,
+  "output_tokens": 2687,
+  "thinking_tokens": 2520
+ },
+ "_request_id": "a435e68badbd27216f77e0c3141b18fa",
+ "_response_id": "4c96565e-5771-446c-af82-08957c9c7a8c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x0612f7b15779ca6ddbe927f92d6c4144fbae1485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.045003,\"gas_eth\":0.02934,\"profit_after_gas\":0.015663,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs are executed by the same contract actor on the same UniswapV2 pool the victim trades. The actor nets +0.045003 WETH before gas and remains positive after 0.02934 ETH gas, with no REALM residual.\"}",
+ "case_id": "sym100_083",
+ "_time": "2026-10-19T19:36:59+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbe55c87dff2a9f5c95cb5c07572c51fd91fe0732",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.056222,
+ "gas_eth": 0.051155,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a reverse-direction bracket on the ROOM/WETH UniswapV2 pool 0xbe55\u20260732. The contract 0x0000\u20264a30 sells 8436.182084 ROOM for 14.491313 WETH before the victim sells ROOM on the same pool, then buys back exactly 8436.182084 ROOM for 14.383936 WETH, so it holds a temporary short in ROOM. The 0.107377 WETH spread minus 0.051155 ETH gas leaves about +0.0562 ETH; the zero-value self-destruct internal transfers look like gas-token refunds.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2827,
+  "output_tokens": 825,
+  "thinking_tokens": 493
+ },
+ "_request_id": "req_011CgBS7G4pjAyTUKT9EVCyn",
+ "_response_id": "msg_011CgBS7GQR3Xpi1P8J1uWyu",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xbe55c87dff2a9f5c95cb5c07572c51fd91fe0732\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.056222, \"gas_eth\": 0.051155, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a reverse-direction bracket on the ROOM/WETH UniswapV2 pool 0xbe55\u20260732. The contract 0x0000\u20264a30 sells 8436.182084 ROOM for 14.491313 WETH before the victim sells ROOM on the same pool, then buys back exactly 8436.182084 ROOM for 14.383936 WETH, so it holds a temporary short in ROOM. The 0.107377 WETH spread minus 0.051155 ETH gas leaves about +0.0562 ETH; the zero-value self-destruct internal transfers look like gas-token refunds.\"}",
+ "case_id": "sym100_017",
+ "_time": "2026-10-19T18:25:13+0800"
+}

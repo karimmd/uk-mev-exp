@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xf4d4e16c9a93d88990e0b98820c363369ca91c01",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.112105,
+ "gas_eth": 0.01046,
+ "profit_after_gas": 0.101645,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same actor contract and the same UniswapV2 CC/WETH pool. The actor sold CC for WETH in front and bought the same CC amount back after the victim's sell, netting +0.112105 WETH before gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2446,
+  "output_tokens": 2538,
+  "thinking_tokens": 2368
+ },
+ "_request_id": "4be08cf83fdf31e04b0ee3349f364332",
+ "_response_id": "ed980d31-147f-4726-950b-3363f3d6d70f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xf4d4e16c9a93d88990e0b98820c363369ca91c01\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.112105,\"gas_eth\":0.01046,\"profit_after_gas\":0.101645,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs use the same actor contract and the same UniswapV2 CC/WETH pool. The actor sold CC for WETH in front and bought the same CC amount back after the victim's sell, netting +0.112105 WETH before gas.\"}",
+ "case_id": "sym100_035",
+ "_time": "2026-10-19T19:31:39+0800"
+}

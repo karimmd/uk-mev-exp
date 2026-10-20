@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "no single actor; the front sender keeps 463.135021 PRIA and the back sender keeps 193.826 PRIA",
+ "confidence": 5,
+ "note": "All three legs trade the same PRIA/WETH UniswapV2 pool 0xac35\u2026, but front and back come from different senders (0xf1e8\u2026 and 0x1c8a\u2026). Both of them buy PRIA with ETH through the router, so no one opens and then closes a position around the victim's PRIA sale. With no single actor, there is no position to net for Q2.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4274,
+  "output_tokens": 536,
+  "thinking_tokens": 269
+ },
+ "_request_id": "req_011CgBVxVRhrabkWJ4eCMBN5",
+ "_response_id": "msg_011CgBVxVnYHTccc2oRv6KB2",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0xac350eefccdae050614070e5040e17759cebb3e9\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"no single actor; the front sender keeps 463.135021 PRIA and the back sender keeps 193.826 PRIA\", \"confidence\": 5, \"note\": \"All three legs trade the same PRIA/WETH UniswapV2 pool 0xac35\u2026, but front and back come from different senders (0xf1e8\u2026 and 0x1c8a\u2026). Both of them buy PRIA with ETH through the router, so no one opens and then closes a position around the victim's PRIA sale. With no single actor, there is no position to net for Q2.\"}",
+ "case_id": "pack_155",
+ "_time": "2026-10-19T19:15:39+0800"
+}

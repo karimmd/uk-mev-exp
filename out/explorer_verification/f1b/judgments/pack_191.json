@@ -1,0 +1,17 @@
+{
+ "actor": "0x6684977bbed67e101bb80fc07fccfba655c0a64f",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0,
+ "gas_eth": 0.016617,
+ "residual": "dust SLP (about 0.000001 in front leg; about 0.081366 in back leg is received from burn, no non-WETH position held)",
+ "confidence": 4,
+ "note": "All three transactions share the same sender and the same target contract, so the 'victim' is the same actor as the front and back legs, which rules out a sandwich. Each leg is a SushiMaker-style conversion that burns SLP and routes WETH to the WETH/SUSHI pool, with SUSHI going to a third address. The actor's WETH nets to zero in each leg, so after gas of 0.016617 ETH (front plus back) the position is negative.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0338047,
+ "_session": "7ff60f08-1fb4-4261-b193-647d20e7226f",
+ "_raw": "{\"actor\": \"0x6684977bbed67e101bb80fc07fccfba655c0a64f\", \"pool\": \"0x795065dcc9f64b5614c407a6efdc400da6221fb0\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": 0, \"gas_eth\": 0.016617, \"residual\": \"dust SLP (about 0.000001 in front leg; about 0.081366 in back leg is received from burn, no non-WETH position held)\", \"confidence\": 4, \"note\": \"All three transactions share the same sender and the same target contract, so the 'victim' is the same actor as the front and back legs, which rules out a sandwich. Each leg is a SushiMaker-style conversion that burns SLP and routes WETH to the WETH/SUSHI pool, with SUSHI going to a third address. The actor's WETH nets to zero in each leg, so after gas of 0.016617 ETH (front plus back) the position is negative.\"}",
+ "case_id": "pack_191",
+ "_time": "2026-10-13T20:42:09+0800"
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+  "0xfebf38b1d34818d4827034f97b7d6d77c79d4997",
+  "0xa9e98dc206f21fa0992ec640ba37ab4f62b223e9",
+  "0x8dc082087ee75b528dfd4e68fa28966666de1a60",
+  "0x75f89ffbe5c25161cbc7e97c988c9f391eaefaf9"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.018171,
+ "gas_eth": 0.016242,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor only touches WETH. It takes 4.884438 WETH from the SPELL/WETH V2 pool and pays 4.876210 to the V3 pool, which sends SPELL straight to the V2 pool. It then runs a WETH\u2192YFU\u2192WPE\u2192WETH triangle, paying 0.075365 and receiving 0.085308. Gross WETH is +0.018171 and gas is 0.016242, leaving about +0.00193 ETH, with no residual holding and no mint.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2598,
+  "output_tokens": 1180,
+  "thinking_tokens": 737
+ },
+ "_request_id": "req_011CgBTFfngdxcqEaqT4piM7",
+ "_response_id": "msg_011CgBTFg82X2MDVxhiMzvR2",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0xb5de0c3753b6e1b4dba616db82767f17513e6d4e\",\"0xfebf38b1d34818d4827034f97b7d6d77c79d4997\",\"0xa9e98dc206f21fa0992ec640ba37ab4f62b223e9\",\"0x8dc082087ee75b528dfd4e68fa28966666de1a60\",\"0x75f89ffbe5c25161cbc7e97c988c9f391eaefaf9\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.018171,\"gas_eth\":0.016242,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor only touches WETH. It takes 4.884438 WETH from the SPELL/WETH V2 pool and pays 4.876210 to the V3 pool, which sends SPELL straight to the V2 pool. It then runs a WETH\u2192YFU\u2192WPE\u2192WETH triangle, paying 0.075365 and receiving 0.085308. Gross WETH is +0.018171 and gas is 0.016242, leaving about +0.00193 ETH, with no residual holding and no mint.\"}",
+ "case_id": "arb106_080",
+ "_time": "2026-10-19T18:40:14+0800"
+}

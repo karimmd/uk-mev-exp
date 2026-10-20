@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x9314941c11d6dee1d7bf93113eb74d4718949f3b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.283864,
+ "gas_eth": 0.043961,
+ "residual": "250829570863.375 $HOKK",
+ "confidence": 5,
+ "note": "The shared actor contract receives HOKK in the front leg and sends HOKK back to the same WETH/HOKK pool in the back leg; the victim swaps on that pool between them. WETH flow is +0.327825 ETH, gas is 0.043961 ETH, leaving +0.283864 ETH plus residual HOKK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2273,
+  "output_tokens": 6814,
+  "thinking_tokens": 6638
+ },
+ "_request_id": "75e9979c9e4edaa463c347a7a5331e48",
+ "_response_id": "96a61e59-b802-4e31-88f4-7da51be0ae4d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000084e91743124a982076c59f10084\",\"pool\":\"0x9314941c11d6dee1d7bf93113eb74d4718949f3b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.283864,\"gas_eth\":0.043961,\"residual\":\"250829570863.375 $HOKK\",\"confidence\":5,\"note\":\"The shared actor contract receives HOKK in the front leg and sends HOKK back to the same WETH/HOKK pool in the back leg; the victim swaps on that pool between them. WETH flow is +0.327825 ETH, gas is 0.043961 ETH, leaving +0.283864 ETH plus residual HOKK.\"}",
+ "case_id": "pack_012",
+ "_time": "2026-10-19T18:00:24+0800"
+}

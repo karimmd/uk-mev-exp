@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.096352,
+ "gas_eth": 0.034701,
+ "residual": "none (SUPER out 5491.446252 in front, same amount back in back leg)",
+ "confidence": 3,
+ "note": "The actor's front leg sells SUPER into the pool for 4.958936 WETH, and the back leg buys the same 5491.446252 SUPER back for 4.862584 WETH, so the order is sell-then-buy. The front sale lowers SUPER's price before the victim buys, which helps the victim instead of front-running them, so this does not look like a sandwich bracket. The actor nets +0.096352 WETH, or about +0.0617 ETH after 0.034701 ETH gas, but the profit may come from price moves in the many intervening transactions (positions 16-108) rather than from the victim.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0268867,
+ "_session": "43ac8eeb-84ae-47fe-88c8-09d575684c69",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.096352,\"gas_eth\":0.034701,\"residual\":\"none (SUPER out 5491.446252 in front, same amount back in back leg)\",\"confidence\":3,\"note\":\"The actor's front leg sells SUPER into the pool for 4.958936 WETH, and the back leg buys the same 5491.446252 SUPER back for 4.862584 WETH, so the order is sell-then-buy. The front sale lowers SUPER's price before the victim buys, which helps the victim instead of front-running them, so this does not look like a sandwich bracket. The actor nets +0.096352 WETH, or about +0.0617 ETH after 0.034701 ETH gas, but the profit may come from price moves in the many intervening transactions (positions 16-108) rather than from the victim.\"}",
+ "case_id": "sym100_095",
+ "_time": "2026-10-13T21:44:07+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.006811,
+ "gas_eth": 5e-06,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract routes WETH through pool 0xcc3959 into pool 0x8d2a. In the front leg it sells RUNE into 0x8d2a ahead of the victim's RUNE sale on that pool, then reverses the route in the back leg. The RUNE never rests with the actor, so the 'position' is the pool-B price move rather than a held balance, which keeps confidence moderate. WETH net is -0.026517 + 0.064640 = +0.038123, minus a 0.031307 ETH payment (likely a miner bribe, since gas was 0 gwei) and about 0.000005 gas, leaving about +0.0068 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4138,
+  "output_tokens": 1061,
+  "thinking_tokens": 708
+ },
+ "_request_id": "req_011CgBSQ65mubQrWCrwWw5hT",
+ "_response_id": "msg_011CgBSQ6RsTokyTQSrh8TCM",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\", \"pool\": \"0x8d2a4cc2e2ca0f7ab011b686449dc82c3af924c7\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.006811, \"gas_eth\": 0.000005, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract routes WETH through pool 0xcc3959 into pool 0x8d2a. In the front leg it sells RUNE into 0x8d2a ahead of the victim's RUNE sale on that pool, then reverses the route in the back leg. The RUNE never rests with the actor, so the 'position' is the pool-B price move rather than a held balance, which keeps confidence moderate. WETH net is -0.026517 + 0.064640 = +0.038123, minus a 0.031307 ETH payment (likely a miner bribe, since gas was 0 gwei) and about 0.000005 gas, leaving about +0.0068 ETH.\"}",
+ "case_id": "sym100_062",
+ "_time": "2026-10-19T18:29:04+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x376079a32d73b3942639486da4841ca31afa9960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.14286,
+ "gas_eth": 0.002884,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a sell-first sandwich on the EPAY/WETH pair 0x3760\u20269960. The actor contract sells 2,362,884,269.495 EPAY for 9.292415 WETH ahead of the victim's EPAY sell, then buys back the identical EPAY amount for 9.146671 WETH, so it ends with no EPAY left over. That nets +0.145744 WETH, or +0.142860 ETH after 0.002884 ETH of gas; confidence is 4 rather than 5 only because the position is a short (EPAY given up, then bought back) rather than a buy-then-sell.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2956,
+  "output_tokens": 618,
+  "thinking_tokens": 293
+ },
+ "_request_id": "req_011CgBSAw4SZYDGwJnL19VQN",
+ "_response_id": "msg_011CgBSAwR2RbnRacXTWR9Gu",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0x376079a32d73b3942639486da4841ca31afa9960\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.142860, \"gas_eth\": 0.002884, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a sell-first sandwich on the EPAY/WETH pair 0x3760\u20269960. The actor contract sells 2,362,884,269.495 EPAY for 9.292415 WETH ahead of the victim's EPAY sell, then buys back the identical EPAY amount for 9.146671 WETH, so it ends with no EPAY left over. That nets +0.145744 WETH, or +0.142860 ETH after 0.002884 ETH of gas; confidence is 4 rather than 5 only because the position is a short (EPAY given up, then bought back) rather than a buy-then-sell.\"}",
+ "case_id": "sym100_026",
+ "_time": "2026-10-19T18:26:01+0800"
+}

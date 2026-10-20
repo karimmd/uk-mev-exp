@@ -1,0 +1,17 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0xc88ac988a655b91b70def427c8778b4d43f2048d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.382083,
+ "gas_eth": 0.243935,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract (called by the same sender in both legs) sends 49.585159 WETH through the WETH/DERC pool and the DERC/USDC pool to open a 64564.942336 USDC position. The victim trades DERC for USDC on the DERC/USDC pool in between, and the back leg returns exactly that USDC and unwinds to 49.967242 WETH. Gross WETH gain is 0.382083 against gas of 0.243935 (the back leg paid 2691 gwei), leaving about +0.138 ETH net and no residual holding.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0228647,
+ "_session": "72a603bd-049e-4560-ada6-a2aa1c55bcf3",
+ "_raw": "{\"actor\": \"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\", \"pool\": \"0xc88ac988a655b91b70def427c8778b4d43f2048d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.382083, \"gas_eth\": 0.243935, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract (called by the same sender in both legs) sends 49.585159 WETH through the WETH/DERC pool and the DERC/USDC pool to open a 64564.942336 USDC position. The victim trades DERC for USDC on the DERC/USDC pool in between, and the back leg returns exactly that USDC and unwinds to 49.967242 WETH. Gross WETH gain is 0.382083 against gas of 0.243935 (the back leg paid 2691 gwei), leaving about +0.138 ETH net and no residual holding.\"}",
+ "case_id": "rej53_023",
+ "_time": "2026-10-13T21:57:55+0800"
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0x8698d9d5ea99809c00426484a80be2add4e54581",
+ "pools": [
+  "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877",
+  "0x5b66d267a5c13626a6d68d78e1c7e31f1d52b5c2",
+  "0x8ae720a71622e824f576b4a8c03031066548a3b1"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001531,
+ "gas_eth": 0.014645,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x8698 executes a multi-pool WETH\u2192DAI\u2192OHM\u2192FRAX\u2192RAI\u2192WETH cycle, receiving 3.768697 WETH and sending 3.752521 WETH. After the 0.014645 ETH gas fee, the net is +0.001531 ETH. No residual non-WETH holdings.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1940,
+  "output_tokens": 12397,
+  "thinking_tokens": 12078
+ },
+ "_request_id": "031b51daa380596d70877f06c6dcea96",
+ "_response_id": "ef6b8850-0ca4-4d48-977a-ad11e20e0ace",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x8698d9d5ea99809c00426484a80be2add4e54581\",\"pools\":[\"0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877\",\"0x5b66d267a5c13626a6d68d78e1c7e31f1d52b5c2\",\"0x8ae720a71622e824f576b4a8c03031066548a3b1\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001531,\"gas_eth\":0.014645,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract 0x8698 executes a multi-pool WETH\u2192DAI\u2192OHM\u2192FRAX\u2192RAI\u2192WETH cycle, receiving 3.768697 WETH and sending 3.752521 WETH. After the 0.014645 ETH gas fee, the net is +0.001531 ETH. No residual non-WETH holdings.\"}",
+ "case_id": "arb106_021",
+ "_time": "2026-10-19T19:09:04+0800"
+}

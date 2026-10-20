@@ -1,0 +1,39 @@
+{
+ "actor": "0x4b74b30c790daa943ccce0ffc470d05423edfeb6",
+ "pools": [
+  "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+  "0x5069c5fbed5757642023e55458ae363b1cbf0616",
+  "0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.005042,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.005042,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor sends 0.278979 WETH into the first pool and receives 0.284021 WETH from the third, a triangular WETH->SANSHU->MFUND->WETH route over three pools with intermediate tokens passed pool to pool. The explorer shows gas price 0.0 gwei and a zero fee, so gas is taken as 0. The actor then pays 0.004537 ETH to 0x3ecef0..., probably a builder tip, which leaves 0.000505 ETH after the tip. The 0.005042 figure is therefore before that payment. Since the tip is an observable cost, the position stays positive either way.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2229,
+  "output_tokens": 456,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBX5PrfGBSN3JgFQYj1r",
+ "_response_id": "msg_011CgBX5QBkS8ZThf3kmpKHb",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0x4b74b30c790daa943ccce0ffc470d05423edfeb6\", \"pools\": [\"0xa7ad4ce6c21d9e875f1067cd377256326b483002\", \"0x5069c5fbed5757642023e55458ae363b1cbf0616\", \"0x0ed2b16d5ac4a997f896562f7e8a8a357c1f8222\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.005042, \"gas_eth\": 0.0, \"profit_after_gas\": 0.005042, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor sends 0.278979 WETH into the first pool and receives 0.284021 WETH from the third, a triangular WETH->SANSHU->MFUND->WETH route over three pools with intermediate tokens passed pool to pool. The explorer shows gas price 0.0 gwei and a zero fee, so gas is taken as 0. The actor then pays 0.004537 ETH to 0x3ecef0..., probably a builder tip, which leaves 0.000505 ETH after the tip. The 0.005042 figure is therefore before that payment. Since the tip is an observable cost, the position stays positive either way.\"}",
+ "case_id": "arb106_019",
+ "_time": "2026-10-19T19:30:17+0800"
+}

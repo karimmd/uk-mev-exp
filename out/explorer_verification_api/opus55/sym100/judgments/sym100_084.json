@@ -1,0 +1,31 @@
+{
+ "actor": "0x5927b6650a572f74451ea42ea216a0339de1a55f",
+ "pool": "0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.039935,
+ "gas_eth": 0.003711,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender, an EOA trading through the router, sold 4099.049061 BASE for 7.252053 WETH on pool 0xde5b. The victim then sold 10000 BASE on the same pool, and the sender bought back exactly 4099.049061 BASE for 7.208407 WETH. This is a sell-first sandwich with a WETH gain of 0.043646 minus 0.003711 gas; the inverted direction is the only reason confidence is not 5.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3013,
+  "output_tokens": 679,
+  "thinking_tokens": 392
+ },
+ "_request_id": "req_011CgBSYHUcGzRiUiA78qjtB",
+ "_response_id": "msg_011CgBSYHrgKsGWdLxPuVms3",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x5927b6650a572f74451ea42ea216a0339de1a55f\", \"pool\": \"0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.039935, \"gas_eth\": 0.003711, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The sender, an EOA trading through the router, sold 4099.049061 BASE for 7.252053 WETH on pool 0xde5b. The victim then sold 10000 BASE on the same pool, and the sender bought back exactly 4099.049061 BASE for 7.208407 WETH. This is a sell-first sandwich with a WETH gain of 0.043646 minus 0.003711 gas; the inverted direction is the only reason confidence is not 5.\"}",
+ "case_id": "sym100_084",
+ "_time": "2026-10-19T18:30:52+0800"
+}

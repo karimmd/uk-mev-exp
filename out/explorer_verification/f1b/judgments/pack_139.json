@@ -1,0 +1,17 @@
+{
+ "actor": "0xfb5761fde5227d8bb093daf9db87013b3ab9cd24",
+ "pool": "0x5f57c5f9564d6a4e25d908605341632e33e7874d",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -1e-06,
+ "gas_eth": 0.01624,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 8407.29 ROCKS to the pool before the victim's ROCKS sale and buys the same amount back right after, so it is a round trip on the victim's pool. This is an inverse bracket that relies on ROCKS inventory the actor held before the front leg. WETH nets to about -0.000001 (+0.507316 in, -0.469939 to the pool, -0.037378 to 0xefacb3fb...), so after 0.01624 ETH of gas the position is negative.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0250727,
+ "_session": "57bf12ed-5573-493f-bab0-80a22b73a650",
+ "_raw": "{\"actor\": \"0xfb5761fde5227d8bb093daf9db87013b3ab9cd24\", \"pool\": \"0x5f57c5f9564d6a4e25d908605341632e33e7874d\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.000001, \"gas_eth\": 0.01624, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract sells 8407.29 ROCKS to the pool before the victim's ROCKS sale and buys the same amount back right after, so it is a round trip on the victim's pool. This is an inverse bracket that relies on ROCKS inventory the actor held before the front leg. WETH nets to about -0.000001 (+0.507316 in, -0.469939 to the pool, -0.037378 to 0xefacb3fb...), so after 0.01624 ETH of gas the position is negative.\"}",
+ "case_id": "pack_139",
+ "_time": "2026-10-13T20:31:30+0800"
+}

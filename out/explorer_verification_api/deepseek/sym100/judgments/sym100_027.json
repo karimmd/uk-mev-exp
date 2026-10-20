@@ -1,0 +1,31 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x4214290310264a27b0ba8cff02b4c592d0234aa1",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.007224,
+ "gas_eth": 6e-06,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0xcc1d receives/sends WETH across both legs, but no RFOX is transferred to it; RFOX is routed directly between pools, so no non-WETH position is opened after the front leg and closed in the back. Net ETH/WETH after the front/back gas fees and the internal ETH outflow is positive, with no residual RFOX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2836,
+  "output_tokens": 9430,
+  "thinking_tokens": 9251
+ },
+ "_request_id": "e2ed554ef161c06ba02e62948b5fb271",
+ "_response_id": "1245ecd1-dbeb-4794-92da-4effb08e5c29",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\",\"pool\":\"0x4214290310264a27b0ba8cff02b4c592d0234aa1\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.007224,\"gas_eth\":0.000006,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract 0xcc1d receives/sends WETH across both legs, but no RFOX is transferred to it; RFOX is routed directly between pools, so no non-WETH position is opened after the front leg and closed in the back. Net ETH/WETH after the front/back gas fees and the internal ETH outflow is positive, with no residual RFOX.\"}",
+ "case_id": "sym100_027",
+ "_time": "2026-10-19T18:42:48+0800"
+}

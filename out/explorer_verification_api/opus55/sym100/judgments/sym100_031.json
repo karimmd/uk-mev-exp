@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x85917d97a4c399816cf6edb2d2e8767002f6a96a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.158894,
+ "gas_eth": 0.02385,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 1517.495805 ATD for 7.963847 WETH on pool 0x8591. The victim then sold 1000 ATD into the same pool, and the actor bought back exactly 1517.495805 ATD for 7.781103 WETH. This is a sell-first bracket with no ATD left over, netting 0.182744 WETH before 0.02385 ETH of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2889,
+  "output_tokens": 614,
+  "thinking_tokens": 357
+ },
+ "_request_id": "req_011CgBSCbx3bXsK3TrRSs1pf",
+ "_response_id": "msg_011CgBSCcJ8sDPRH1JBf29o2",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x85917d97a4c399816cf6edb2d2e8767002f6a96a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.158894, \"gas_eth\": 0.02385, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sold 1517.495805 ATD for 7.963847 WETH on pool 0x8591. The victim then sold 1000 ATD into the same pool, and the actor bought back exactly 1517.495805 ATD for 7.781103 WETH. This is a sell-first bracket with no ATD left over, netting 0.182744 WETH before 0.02385 ETH of gas.\"}",
+ "case_id": "sym100_031",
+ "_time": "2026-10-19T18:26:25+0800"
+}

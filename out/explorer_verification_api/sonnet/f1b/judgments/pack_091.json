@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0x7fd1de95fc975fbbd8be260525758549ec477960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.216159,
+ "gas_eth": 0.049841,
+ "residual": "about 2,515,473 HOGE left (125,816,053.44 bought minus 123,300,580.24 sold)",
+ "confidence": 4,
+ "note": "The same contract buys HOGE with 9.4797 WETH in the front leg and sells HOGE for 9.6958 WETH in the back leg. The victim buys HOGE on the same pool in between, via USDC to WETH to HOGE. Net WETH is +0.216159, and after 0.049841 ETH of gas it is +0.166318. The leftover HOGE has non-negative value, so it can only add to this and the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2847,
+  "output_tokens": 931,
+  "thinking_tokens": 629
+ },
+ "_request_id": "req_011CgBR5eDQUiKH1WE51mHfh",
+ "_response_id": "msg_011CgBR5kEoeaUpufNLtN9qf",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000c9fdd743c60055c0e4ea30d266272c1f\",\"pool\":\"0x7fd1de95fc975fbbd8be260525758549ec477960\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.216159,\"gas_eth\":0.049841,\"residual\":\"about 2,515,473 HOGE left (125,816,053.44 bought minus 123,300,580.24 sold)\",\"confidence\":4,\"note\":\"The same contract buys HOGE with 9.4797 WETH in the front leg and sells HOGE for 9.6958 WETH in the back leg. The victim buys HOGE on the same pool in between, via USDC to WETH to HOGE. Net WETH is +0.216159, and after 0.049841 ETH of gas it is +0.166318. The leftover HOGE has non-negative value, so it can only add to this and the sign is positive.\"}",
+ "case_id": "pack_091",
+ "_time": "2026-10-19T18:11:46+0800"
+}

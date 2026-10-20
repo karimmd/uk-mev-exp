@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.199331,
+ "gas_eth": 0.069306,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 44713.708478 TRU into the TRU/WETH pool for 8.733 WETH in the front leg. The victim then sold 50000 TRU into the same pool, and the actor bought back exactly 44713.708478 TRU for 8.533669 WETH in the back leg. The gross WETH gain is 0.199331, and after front and back gas of 0.069306 ETH the net is about +0.130025 ETH, with no residual TRU. The bracket runs in the sell-then-rebuy direction, so the actor's 'position' is a short on TRU.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3089,
+  "output_tokens": 893,
+  "thinking_tokens": 572
+ },
+ "_request_id": "req_011CgBST5NwfumoXWo39BRSL",
+ "_response_id": "msg_011CgBST5k2WNDAPW3wy1LV9",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.199331,\"gas_eth\":0.069306,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 44713.708478 TRU into the TRU/WETH pool for 8.733 WETH in the front leg. The victim then sold 50000 TRU into the same pool, and the actor bought back exactly 44713.708478 TRU for 8.533669 WETH in the back leg. The gross WETH gain is 0.199331, and after front and back gas of 0.069306 ETH the net is about +0.130025 ETH, with no residual TRU. The bracket runs in the sell-then-rebuy direction, so the actor's 'position' is a short on TRU.\"}",
+ "case_id": "sym100_093",
+ "_time": "2026-10-19T18:29:41+0800"
+}

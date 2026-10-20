@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x20d2c17d1928ef4290bf17f922a10eaa2770bf43",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.085685,
+ "gas_eth": 0.02553,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x0000\u202664c4 sells 128.014979 MUSE for 5.601308 WETH on pool 0x20d2 before the victim sells MUSE into that same pool. It then buys back exactly 128.014979 MUSE for 5.490093 WETH, a reverse-direction bracket that leaves no MUSE residual. WETH gain is 0.111215, minus 0.02553 gas, giving +0.085685 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3031,
+  "output_tokens": 647,
+  "thinking_tokens": 371
+ },
+ "_request_id": "req_011CgBSMEj78iejDNtret8az",
+ "_response_id": "msg_011CgBSMF5RsR9fJLjMJxuDh",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x20d2c17d1928ef4290bf17f922a10eaa2770bf43\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.085685, \"gas_eth\": 0.02553, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x0000\u202664c4 sells 128.014979 MUSE for 5.601308 WETH on pool 0x20d2 before the victim sells MUSE into that same pool. It then buys back exactly 128.014979 MUSE for 5.490093 WETH, a reverse-direction bracket that leaves no MUSE residual. WETH gain is 0.111215, minus 0.02553 gas, giving +0.085685 ETH.\"}",
+ "case_id": "sym100_054",
+ "_time": "2026-10-19T18:28:21+0800"
+}

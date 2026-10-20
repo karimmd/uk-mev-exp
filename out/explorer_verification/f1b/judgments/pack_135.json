@@ -1,0 +1,17 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.008911,
+ "gas_eth": 0.000229905,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same sender bought 15106258.037614 WSHIBA with 200 WETH in the front leg and sold exactly that amount back for 201.008911 WETH in the back leg, on the pool the victim also bought from (victim at position 1, between them). Net WETH is +1.008911, or about +1.00868 after gas, with no WSHIBA left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0261232,
+ "_session": "98c6f74e-3bdf-4f35-9a78-7fbee6ee60b2",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.008911, \"gas_eth\": 0.000229905, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same sender bought 15106258.037614 WSHIBA with 200 WETH in the front leg and sold exactly that amount back for 201.008911 WETH in the back leg, on the pool the victim also bought from (victim at position 1, between them). Net WETH is +1.008911, or about +1.00868 after gas, with no WSHIBA left over.\"}",
+ "case_id": "pack_135",
+ "_time": "2026-10-13T20:30:35+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xb767c20d9773adce84d0f0a5bc64e2f114ad3076",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016066,
+ "gas_eth": 0.00807,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor 0x3dad sold wOMI for 3.775 WETH in the front and bought the same wOMI back for 3.750864 WETH in the back, sandwiching the victim's sell on the same pool. Net WETH +0.024136 minus 0.008070 gas is +0.016066; wOMI returns to the same amount, so no residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2401,
+  "output_tokens": 12557,
+  "thinking_tokens": 12372
+ },
+ "_request_id": "b3d53a45ebcbe970fe2c27a51919a545",
+ "_response_id": "bb2bc225-1bfe-4f87-9a6d-d65030627ca2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xb767c20d9773adce84d0f0a5bc64e2f114ad3076\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.016066,\"gas_eth\":0.00807,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor 0x3dad sold wOMI for 3.775 WETH in the front and bought the same wOMI back for 3.750864 WETH in the back, sandwiching the victim's sell on the same pool. Net WETH +0.024136 minus 0.008070 gas is +0.016066; wOMI returns to the same amount, so no residual.\"}",
+ "case_id": "sym100_053",
+ "_time": "2026-10-19T18:49:39+0800"
+}

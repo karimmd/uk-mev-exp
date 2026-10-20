@@ -1,0 +1,39 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4",
+  "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+  "0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.189004,
+ "gas_eth": 0.181444,
+ "profit_after_gas": 0.00756,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor 0x9762 executed a multi-pool cycle WETH->MIM->USDC->WETH via UniswapV2/V3 pools, netting +0.189004 WETH before gas. After the 0.181444 ETH gas fee, profit is +0.00756 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1626,
+  "output_tokens": 22049,
+  "thinking_tokens": 21765
+ },
+ "_request_id": "784f8fa34e314e5c128b2009c251dfe7",
+ "_response_id": "edaa6c7b-ed7d-4b5d-bb59-01a429178134",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x9762b1d716bb97735905996e013d61c140722249\", \"pools\": [\"0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4\", \"0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc\", \"0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.189004, \"gas_eth\": 0.181444, \"profit_after_gas\": 0.00756, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor 0x9762 executed a multi-pool cycle WETH->MIM->USDC->WETH via UniswapV2/V3 pools, netting +0.189004 WETH before gas. After the 0.181444 ETH gas fee, profit is +0.00756 ETH.\"}",
+ "case_id": "arb106_104",
+ "_time": "2026-10-19T20:11:18+0800"
+}

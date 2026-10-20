@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071069,
+ "gas_eth": 0.033829,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 233.023 WETH through the RAD/WETH pool and the RAD/USDC pool 0x8c1c in the front leg, ending with 135008.58 USDC. It returns exactly that USDC in the back leg for 233.2435 WETH, with the victim selling RAD into 0x8c1c in between. Net is +0.220067 WETH minus a 0.148998 ETH internal transfer to 0x829b (likely a builder tip), which gives +0.071069 ETH. After 0.033829 ETH of gas that is about +0.0372 ETH, with no residual holding.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0256287,
+ "_session": "e4e1e207-0fa2-40d0-b7d5-99ace3f210c7",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.071069, \"gas_eth\": 0.033829, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 233.023 WETH through the RAD/WETH pool and the RAD/USDC pool 0x8c1c in the front leg, ending with 135008.58 USDC. It returns exactly that USDC in the back leg for 233.2435 WETH, with the victim selling RAD into 0x8c1c in between. Net is +0.220067 WETH minus a 0.148998 ETH internal transfer to 0x829b (likely a builder tip), which gives +0.071069 ETH. After 0.033829 ETH of gas that is about +0.0372 ETH, with no residual holding.\"}",
+ "case_id": "rej53_036",
+ "_time": "2026-10-13T22:00:45+0800"
+}

@@ -1,0 +1,45 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0xefb47fcfcad4f96c83d4ca676842fb03ef20a477",
+  "0xff64cb7ba5717a10dabc4be3a41acd2c2f95ee22",
+  "0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
+  "0xecfbe9b182f6477a93065c1c11271232147838e5",
+  "0x92cc4300b9fd36242900bca782b2e9e000bd5099",
+  "0x819de42d3ab832eaf7111a222a8a5a7419f13b48",
+  "0x7c082bf85e01f9bb343dbb460a14e51f67c58cfb",
+  "0xd1d5a4c0ea98971894772dcd6d2f1dc71083c44e",
+  "0x28b67e0a4e570720c111c090c45daa065a54e58d"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.092287,
+ "gas_eth": 0.08607,
+ "profit_after_gas": 0.006217,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor received 6.579972 WETH from three pools and sent 6.487685 WETH to three pools across multiple routed cycles, leaving a positive WETH net. After the 0.086070 ETH gas fee, profit is about 0.006217 ETH equivalent.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2765,
+  "output_tokens": 11050,
+  "thinking_tokens": 10643
+ },
+ "_request_id": "a6d703f00a69ae65542b2532e91ce884",
+ "_response_id": "f48a2b9e-10f7-443b-b983-c2f83d5ed15f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0xefb47fcfcad4f96c83d4ca676842fb03ef20a477\",\"0xff64cb7ba5717a10dabc4be3a41acd2c2f95ee22\",\"0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec\",\"0xecfbe9b182f6477a93065c1c11271232147838e5\",\"0x92cc4300b9fd36242900bca782b2e9e000bd5099\",\"0x819de42d3ab832eaf7111a222a8a5a7419f13b48\",\"0x7c082bf85e01f9bb343dbb460a14e51f67c58cfb\",\"0xd1d5a4c0ea98971894772dcd6d2f1dc71083c44e\",\"0x28b67e0a4e570720c111c090c45daa065a54e58d\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.092287,\"gas_eth\":0.08607,\"profit_after_gas\":0.006217,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor received 6.579972 WETH from three pools and sent 6.487685 WETH to three pools across multiple routed cycles, leaving a positive WETH net. After the 0.086070 ETH gas fee, profit is about 0.006217 ETH equivalent.\"}",
+ "case_id": "arb106_009",
+ "_time": "2026-10-19T19:49:21+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x858dce0aa7250fbc24e37a684858fdb08f9681b9",
+ "pool": "0xe6f19dab7d43317344282f803f8e8d240708174a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047087,
+ "gas_eth": 0.012004,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same EOA sells 20000 KEEP into the KEEP/WETH pool before the victim, who sells 100000 KEEP on that pool. It then buys back exactly 20000 KEEP after the victim. WETH received minus WETH paid is 4.056288 - 4.009201 = +0.047087, and after 0.012004 ETH of gas for the two legs it is about +0.035083. The KEEP round trip nets to zero, but the bracket runs in the reverse direction: it sells first and buys back after, which relies on KEEP inventory held beforehand.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0226367,
+ "_session": "859751b7-fc7e-41d5-a39a-02c2ed2e4965",
+ "_raw": "{\"actor\": \"0x858dce0aa7250fbc24e37a684858fdb08f9681b9\", \"pool\": \"0xe6f19dab7d43317344282f803f8e8d240708174a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.047087, \"gas_eth\": 0.012004, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same EOA sells 20000 KEEP into the KEEP/WETH pool before the victim, who sells 100000 KEEP on that pool. It then buys back exactly 20000 KEEP after the victim. WETH received minus WETH paid is 4.056288 - 4.009201 = +0.047087, and after 0.012004 ETH of gas for the two legs it is about +0.035083. The KEEP round trip nets to zero, but the bracket runs in the reverse direction: it sells first and buys back after, which relies on KEEP inventory held beforehand.\"}",
+ "case_id": "sym100_007",
+ "_time": "2026-10-13T21:23:59+0800"
+}

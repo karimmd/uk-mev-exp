@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x5c1e3f0979513f1111995da718780bd24e73cda3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.071366,
+ "gas_eth": 0.030557,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 3202.84 BRD from the BRD/USDT V3 pool in the front leg. It pays for this with USDT bought from the USDT/WETH V2 pool for 0.406118 WETH. The victim buys BRD on the same V3 pool in between. In the back leg the actor sells exactly 3202.84 BRD back and swaps the USDT to 0.477484 WETH. That is a gross WETH gain of 0.071366 (net_eth, before gas) and 0.040809 after 0.030557 ETH of gas, with no BRD left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3920,
+  "output_tokens": 736,
+  "thinking_tokens": 420
+ },
+ "_request_id": "req_011CgBQjtdXZf8Gb5nbZJ4jA",
+ "_response_id": "msg_011CgBQjtzMdJfSn3suxQ6Do",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0x5c1e3f0979513f1111995da718780bd24e73cda3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.071366,\"gas_eth\":0.030557,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 3202.84 BRD from the BRD/USDT V3 pool in the front leg. It pays for this with USDT bought from the USDT/WETH V2 pool for 0.406118 WETH. The victim buys BRD on the same V3 pool in between. In the back leg the actor sells exactly 3202.84 BRD back and swaps the USDT to 0.477484 WETH. That is a gross WETH gain of 0.071366 (net_eth, before gas) and 0.040809 after 0.030557 ETH of gas, with no BRD left over.\"}",
+ "case_id": "pack_062",
+ "_time": "2026-10-19T18:07:14+0800"
+}

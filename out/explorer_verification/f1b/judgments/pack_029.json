@@ -1,0 +1,17 @@
+{
+ "actor": "0x50004cb09702ced04e59dcdaff9df58b6cc97983",
+ "pool": "0x18d98d452072ac2eb7b74ce3db723374360539f1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.230902,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 1.224440 ibBTC on the WBTC/ibBTC pool in the front leg, the victim buys ibBTC on the same pool, and the actor sells exactly 1.224440 ibBTC back in the back leg. WETH goes from -20.366370 to +20.943623, a gain of 0.577253, and the 0.346351 ETH sent to 0xb3b7... in the back leg (likely a builder payment) leaves 0.230902 net. Both legs show a gas price of 0.0 gwei, so gas is taken as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025786699999999996,
+ "_session": "9ca0a4a5-0dd9-410e-8ad0-5d5d5e7b4daa",
+ "_raw": "{\"actor\": \"0x50004cb09702ced04e59dcdaff9df58b6cc97983\", \"pool\": \"0x18d98d452072ac2eb7b74ce3db723374360539f1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.230902, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 1.224440 ibBTC on the WBTC/ibBTC pool in the front leg, the victim buys ibBTC on the same pool, and the actor sells exactly 1.224440 ibBTC back in the back leg. WETH goes from -20.366370 to +20.943623, a gain of 0.577253, and the 0.346351 ETH sent to 0xb3b7... in the back leg (likely a builder payment) leaves 0.230902 net. Both legs show a gas price of 0.0 gwei, so gas is taken as 0.\"}",
+ "case_id": "pack_029",
+ "_time": "2026-10-13T20:09:49+0800"
+}

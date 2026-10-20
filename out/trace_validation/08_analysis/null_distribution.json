@@ -1,0 +1,17 @@
+{
+ "draws": 20000,
+ "generated_at_blinded": true,
+ "n": 258,
+ "overall_support_pct": 44.5087,
+ "seed": 20260920,
+ "support_diff_95_band_pp": [
+  -6.2277,
+  5.9662
+ ],
+ "support_diff_sd_pp": 3.1295,
+ "undecidable_diff_95_band_pp": [
+  -5.0786,
+  5.1485
+ ],
+ "undecidable_diff_sd_pp": 2.6981
+}

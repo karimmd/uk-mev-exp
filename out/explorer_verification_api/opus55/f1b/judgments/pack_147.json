@@ -1,0 +1,31 @@
+{
+ "actor": "0x7e104e3497234f604edf65f6eebe44aa6dedfddf",
+ "pool": "0x4d9824fbc04eff50ab1dac614eae4e20859d5c91",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -4.66686,
+ "gas_eth": 0.023522,
+ "residual": "1050.460166 DEUS from front+back (1575.690249 DEUS across all three txs)",
+ "confidence": 5,
+ "note": "All three transactions come from the same EOA through the Uniswap V2 router, and each buys exactly 525.230083 DEUS with ETH on the same pair at a rising price, so no position is closed. The 'victim' is the same sender, which looks like three repeated buys rather than a sandwich. Front and back together spend 4.66686 ETH plus 0.023522 ETH of gas (net_eth is before gas), and the DEUS left unsold prevents a profit sign.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3624,
+  "output_tokens": 677,
+  "thinking_tokens": 357
+ },
+ "_request_id": "req_011CgBRhXMuRbaeJYoTBkgzF",
+ "_response_id": "msg_011CgBRhYsCu4V92tcVU4EqY",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7e104e3497234f604edf65f6eebe44aa6dedfddf\", \"pool\": \"0x4d9824fbc04eff50ab1dac614eae4e20859d5c91\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -4.66686, \"gas_eth\": 0.023522, \"residual\": \"1050.460166 DEUS from front+back (1575.690249 DEUS across all three txs)\", \"confidence\": 5, \"note\": \"All three transactions come from the same EOA through the Uniswap V2 router, and each buys exactly 525.230083 DEUS with ETH on the same pair at a rising price, so no position is closed. The 'victim' is the same sender, which looks like three repeated buys rather than a sandwich. Front and back together spend 4.66686 ETH plus 0.023522 ETH of gas (net_eth is before gas), and the DEUS left unsold prevents a profit sign.\"}",
+ "case_id": "pack_147",
+ "_time": "2026-10-19T18:19:51+0800"
+}

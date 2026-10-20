@@ -1,0 +1,32 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 1.008911,
+ "gas_eth": 0.00023,
+ "profit_after_gas": 1.008681,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front buys 15,106,258.037614 WSHIBA with 200 WETH on the shared pool, and the back sells the identical WSHIBA amount for 201.008911 WETH, with the victim trading the same pool in between. The actor is the sender 0xf6da21e95d74767009accb145b96897ac3630bad, and no WSHIBA residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2983,
+  "output_tokens": 1666,
+  "thinking_tokens": 1466
+ },
+ "_request_id": "c39ce9b7041e16f52e511b886e8d52fe",
+ "_response_id": "bef17f4a-a4fe-4cae-8f37-b2f60d9313b9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":1.008911,\"gas_eth\":0.00023,\"profit_after_gas\":1.008681,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front buys 15,106,258.037614 WSHIBA with 200 WETH on the shared pool, and the back sells the identical WSHIBA amount for 201.008911 WETH, with the victim trading the same pool in between. The actor is the sender 0xf6da21e95d74767009accb145b96897ac3630bad, and no WSHIBA residual remains.\"}",
+ "case_id": "pack_135",
+ "_time": "2026-10-19T19:20:47+0800"
+}

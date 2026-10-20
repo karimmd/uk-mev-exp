@@ -1,0 +1,38 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x9e0905249ceefffb9605e034b534544684a58be6",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.011215,
+ "gas_eth": 0.01012,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The trade is a closed three-pool cycle, WETH -> USDC -> HEX -> WETH, through 0x88e6 (V3), 0xf6dc (V2) and 0x9e09 (V3); USDC and HEX pass directly from pool to pool. The actor receives 3.751436 WETH and sends 3.739764 WETH, a gain of 0.011672 WETH. After the 0.000457 ETH internal payment to 0x829b (likely a builder or miner tip at position 0), net is 0.011215 ETH, and after the 0.01012 ETH gas fee about +0.0011 ETH remains.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2067,
+  "output_tokens": 913,
+  "thinking_tokens": 469
+ },
+ "_request_id": "req_011CgBTUkRqphCD2Chxw9ufm",
+ "_response_id": "msg_011CgBTUkov6omdBeG4Ti2jC",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0x9e0905249ceefffb9605e034b534544684a58be6\", \"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.011215, \"gas_eth\": 0.01012, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The trade is a closed three-pool cycle, WETH -> USDC -> HEX -> WETH, through 0x88e6 (V3), 0xf6dc (V2) and 0x9e09 (V3); USDC and HEX pass directly from pool to pool. The actor receives 3.751436 WETH and sends 3.739764 WETH, a gain of 0.011672 WETH. After the 0.000457 ETH internal payment to 0x829b (likely a builder or miner tip at position 0), net is 0.011215 ETH, and after the 0.01012 ETH gas fee about +0.0011 ETH remains.\"}\n```",
+ "case_id": "arb106_077",
+ "_time": "2026-10-19T18:43:12+0800"
+}

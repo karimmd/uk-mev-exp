@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000000740a22fa209cf6806d38f7605385",
+ "pool": "0x287856d10418e01ef1e93df9962b04d9a3a521c9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.478201,
+ "gas_eth": 0.01153,
+ "profit_after_gas": 0.466671,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received SSL in the front leg and sent the same SSL amount back to the shared Uniswap V2 pool in the back leg, with the victim trading on that pool between them. Net WETH gain is 0.630026 - 0.151825 = 0.478201 ETH, leaving 0.466671 ETH after front and back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2340,
+  "output_tokens": 1013,
+  "thinking_tokens": 826
+ },
+ "_request_id": "ef593d4211bac7889d53697d4b56fcc6",
+ "_response_id": "ca9c7a7e-2032-4ff7-b81f-4a9880265dc6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000740a22fa209cf6806d38f7605385\",\"pool\":\"0x287856d10418e01ef1e93df9962b04d9a3a521c9\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.478201,\"gas_eth\":0.01153,\"profit_after_gas\":0.466671,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received SSL in the front leg and sent the same SSL amount back to the shared Uniswap V2 pool in the back leg, with the victim trading on that pool between them. Net WETH gain is 0.630026 - 0.151825 = 0.478201 ETH, leaving 0.466671 ETH after front and back gas fees.\"}",
+ "case_id": "pack_144",
+ "_time": "2026-10-19T19:21:33+0800"
+}

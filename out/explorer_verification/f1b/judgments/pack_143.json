@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 1.011599,
+ "gas_eth": 0.026936,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg (actor 0x0000000000007f15...) and the back leg (actor 0x000000000000006f65...) are different contracts. Each is a self-contained WETH->API3->WETH arbitrage between pools 0x7b18... and 0x4dd2... that returns to WETH within its own transaction, so no position is opened in the front and closed in the back. The victim does trade on 0x4dd2..., but the bracket fails on same actor and on an open position. Both legs are profitable on their own: about +1.0116 ETH combined after the builder tips, and about +0.985 ETH after gas of 0.026936 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0318827,
+ "_session": "68232728-5fb4-41cf-8a62-bff5bfae9354",
+ "_raw": "{\"actor\": null, \"pool\": \"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 1.011599, \"gas_eth\": 0.026936, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg (actor 0x0000000000007f15...) and the back leg (actor 0x000000000000006f65...) are different contracts. Each is a self-contained WETH->API3->WETH arbitrage between pools 0x7b18... and 0x4dd2... that returns to WETH within its own transaction, so no position is opened in the front and closed in the back. The victim does trade on 0x4dd2..., but the bracket fails on same actor and on an open position. Both legs are profitable on their own: about +1.0116 ETH combined after the builder tips, and about +0.985 ETH after gas of 0.026936 ETH.\"}",
+ "case_id": "pack_143",
+ "_time": "2026-10-13T20:32:26+0800"
+}

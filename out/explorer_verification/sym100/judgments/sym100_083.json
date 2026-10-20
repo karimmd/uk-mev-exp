@@ -1,0 +1,17 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x0612f7b15779ca6ddbe927f92d6c4144fbae1485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045003,
+ "gas_eth": 0.02934,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 2500.901129 REALM into the pool in the front leg for 0.353977 WETH, then buys back exactly 2500.901129 REALM for 0.308974 WETH in the back leg. The victim sells 75000 REALM on the same pool in between, in the same direction as the front leg. Net WETH is +0.045003, and after 0.02934 ETH of front and back gas it is about +0.015663 ETH with no residual REALM. The bracket works from existing REALM inventory rather than buying first, which is the only reason confidence is not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0236167,
+ "_session": "cb9cd993-3716-475c-be2f-ece1d0ba8d29",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x0612f7b15779ca6ddbe927f92d6c4144fbae1485\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.045003, \"gas_eth\": 0.02934, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sells 2500.901129 REALM into the pool in the front leg for 0.353977 WETH, then buys back exactly 2500.901129 REALM for 0.308974 WETH in the back leg. The victim sells 75000 REALM on the same pool in between, in the same direction as the front leg. Net WETH is +0.045003, and after 0.02934 ETH of front and back gas it is about +0.015663 ETH with no residual REALM. The bracket works from existing REALM inventory rather than buying first, which is the only reason confidence is not 5.\"}",
+ "case_id": "sym100_083",
+ "_time": "2026-10-13T21:41:34+0800"
+}

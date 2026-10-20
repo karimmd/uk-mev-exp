@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x742c15d71ea7444964bc39b0ed729b3729adc361",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.080145,
+ "gas_eth": 0.043282,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Both actor legs route WETH->OMG on pool 0x48e3 and OMG->WETH on pool 0x742c (front), then reverse the route (back). The victim sells 1500 OMG into 0x742c between them, so the actor sold OMG into that pool before the victim and bought it back after. WETH nets -0.280359 on the front and +0.360504 on the back, giving +0.080145 before gas and about +0.0369 after gas, with no OMG left over. The OMG position is held only within each transaction, which is why confidence is not higher.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0295867,
+ "_session": "d263f2f3-4f5c-4b29-83e0-68e3f7faa416",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x742c15d71ea7444964bc39b0ed729b3729adc361\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.080145, \"gas_eth\": 0.043282, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Both actor legs route WETH->OMG on pool 0x48e3 and OMG->WETH on pool 0x742c (front), then reverse the route (back). The victim sells 1500 OMG into 0x742c between them, so the actor sold OMG into that pool before the victim and bought it back after. WETH nets -0.280359 on the front and +0.360504 on the back, giving +0.080145 before gas and about +0.0369 after gas, with no OMG left over. The OMG position is held only within each transaction, which is why confidence is not higher.\"}",
+ "case_id": "sym100_085",
+ "_time": "2026-10-13T21:42:00+0800"
+}

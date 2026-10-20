@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfe903a12359496b932e24c5e9b78f1b9060a6342",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.65344,
+ "gas_eth": 0.392697,
+ "profit_after_gas": 0.260743,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0xb591 sold 22542.86 PKF for 15.563 WETH on pool 0xfe90, opening a short. The victim then sold PKF on the same pool, and 0xb591 bought back exactly 22542.86 PKF for 14.90956 WETH. The 0.65344 WETH spread exceeds the combined gas of 0.392697 ETH, and the 2 CHI burned carry no ETH value in the transfers shown.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3349,
+  "output_tokens": 512,
+  "thinking_tokens": 211
+ },
+ "_request_id": "req_011CgBWKArLtfMEqMgj2zMXd",
+ "_response_id": "msg_011CgBWKBkvMnqnao29K9gvF",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0xfe903a12359496b932e24c5e9b78f1b9060a6342\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.65344, \"gas_eth\": 0.392697, \"profit_after_gas\": 0.260743, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0xb591 sold 22542.86 PKF for 15.563 WETH on pool 0xfe90, opening a short. The victim then sold PKF on the same pool, and 0xb591 bought back exactly 22542.86 PKF for 14.90956 WETH. The 0.65344 WETH spread exceeds the combined gas of 0.392697 ETH, and the 2 CHI burned carry no ETH value in the transfers shown.\"}",
+ "case_id": "sym100_019",
+ "_time": "2026-10-19T19:20:19+0800"
+}

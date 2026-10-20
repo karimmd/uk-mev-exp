@@ -1,0 +1,32 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.556872,
+ "gas_eth": 0.082625591,
+ "profit_after_gas": 0.474246409,
+ "residual": "632.627513 MINT",
+ "confidence": 5,
+ "note": "Actor 0x7f94... bought MINT for WETH in the front leg and sold MINT for WETH on the same 0x092e... pool in the back leg, with the victim trading MINT on that pool between. Net ETH/WETH is positive after 0.082625591 ETH gas, leaving 632.627513 MINT residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3303,
+  "output_tokens": 7541,
+  "thinking_tokens": 7348
+ },
+ "_request_id": "da8c71fc66396af7faad157eea3e5f76",
+ "_response_id": "3488c85b-5519-4850-b348-8c060ec8385d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7f941cdae3c01906e42f8325af0693a848f81072\",\"pool\":\"0x092e793afe54366601eb7ef7e63b6abb93edb485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.556872,\"gas_eth\":0.082625591,\"profit_after_gas\":0.474246409,\"residual\":\"632.627513 MINT\",\"confidence\":5,\"note\":\"Actor 0x7f94... bought MINT for WETH in the front leg and sold MINT for WETH on the same 0x092e... pool in the back leg, with the victim trading MINT on that pool between. Net ETH/WETH is positive after 0.082625591 ETH gas, leaving 632.627513 MINT residual.\"}",
+ "case_id": "rej53_044",
+ "_time": "2026-10-19T19:46:01+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xae06088ecb0e668db494ee64ae78af5e5b510797",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02417,
+ "gas_eth": 0.019665,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract routes WETH through two pools in each leg (A=0x69aa90c6, B=0xae06088e) and never holds DUCK. In the front leg it buys DUCK on A and sells it into B, and in the back leg it reverses the route. This brackets the victim's DUCK sale on B, so it is a sandwich on B funded by A. Net WETH is -0.071787 + 0.095957 = +0.02417, and after 0.019665 ETH of gas the result is about +0.0045 ETH. Confidence is limited because the position is flat rather than a held token.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0289907,
+ "_session": "b1effc12-6457-4a03-898d-f93adf70ad0a",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xae06088ecb0e668db494ee64ae78af5e5b510797\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.02417, \"gas_eth\": 0.019665, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract routes WETH through two pools in each leg (A=0x69aa90c6, B=0xae06088e) and never holds DUCK. In the front leg it buys DUCK on A and sells it into B, and in the back leg it reverses the route. This brackets the victim's DUCK sale on B, so it is a sandwich on B funded by A. Net WETH is -0.071787 + 0.095957 = +0.02417, and after 0.019665 ETH of gas the result is about +0.0045 ETH. Confidence is limited because the position is flat rather than a held token.\"}",
+ "case_id": "sym100_075",
+ "_time": "2026-10-13T21:39:47+0800"
+}

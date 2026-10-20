@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x3127bbbc05f343192855ea40b54a34831ce72e04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.054305,
+ "gas_eth": 0.023678,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract sells WAR for WETH in the front and buys back the same WAR amount in the back on the same pool the victim uses between them; this is a sell-side sandwich bracket. Gross WETH gain is 0.077983, gas is 0.023678, leaving net +0.054305; WAR residual is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2346,
+  "output_tokens": 10329,
+  "thinking_tokens": 10166
+ },
+ "_request_id": "08cb1e1f9dd8d6d53922f4b293d567c7",
+ "_response_id": "363a0625-6471-421d-a1a7-dfb446dd1d05",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x3127bbbc05f343192855ea40b54a34831ce72e04\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.054305,\"gas_eth\":0.023678,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract sells WAR for WETH in the front and buys back the same WAR amount in the back on the same pool the victim uses between them; this is a sell-side sandwich bracket. Gross WETH gain is 0.077983, gas is 0.023678, leaving net +0.054305; WAR residual is zero.\"}",
+ "case_id": "sym100_036",
+ "_time": "2026-10-19T18:44:54+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xf62bc39e99763f3df81c49f711c16e625388c64f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.152534,
+ "gas_eth": 0.123906665,
+ "profit_after_gas": 0.028627335,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor buys SHIBOHM on the MIM/SHIBOHM pool in the front leg and sells it back after the victim on that same pool. Net WETH before gas is +0.152534 ETH, and after front/back gas it remains positive with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2573,
+  "output_tokens": 4101,
+  "thinking_tokens": 3919
+ },
+ "_request_id": "9a69dce33e4f734366ba789dfb87fa6f",
+ "_response_id": "e1fb3f88-a369-45a8-9938-921c324f5a18",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xf62bc39e99763f3df81c49f711c16e625388c64f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.152534,\"gas_eth\":0.123906665,\"profit_after_gas\":0.028627335,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor buys SHIBOHM on the MIM/SHIBOHM pool in the front leg and sells it back after the victim on that same pool. Net WETH before gas is +0.152534 ETH, and after front/back gas it remains positive with no residual non-WETH holding.\"}",
+ "case_id": "rej53_025",
+ "_time": "2026-10-19T19:42:32+0800"
+}

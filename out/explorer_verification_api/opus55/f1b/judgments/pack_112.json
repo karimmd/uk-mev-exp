@@ -1,0 +1,31 @@
+{
+ "actor": "0xda6b746b76fdc8424764d6981e9ef5c3b13a56af",
+ "pool": "0x1be574041828303f0bfb5d06a2414f3bd6da1b2a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022046,
+ "gas_eth": 0.049524,
+ "residual": "~18,561,680,721 HUSKY (620.48B received in front, 601.91B sold in back; possibly a transfer fee or a retained balance)",
+ "confidence": 4,
+ "note": "Contract 0xda6b, called by 0x8ad7, wraps 0.54 ETH and buys HUSKY on pair 0x1be5. The victim then buys HUSKY on the same pair, via PAID->WETH->HUSKY. In the back leg 0xda6b sells HUSKY for 0.61157 WETH and unwraps it, netting 0.07157 ETH gross and about 0.022 ETH after 0.0495 ETH of gas. The small HUSKY residual can only add value, so the sign is positive either way.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3443,
+  "output_tokens": 884,
+  "thinking_tokens": 523
+ },
+ "_request_id": "req_011CgBRNytpRzUkJee3WNfxH",
+ "_response_id": "msg_011CgBRP58LVd4Dx9Mc6Gavv",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xda6b746b76fdc8424764d6981e9ef5c3b13a56af\", \"pool\": \"0x1be574041828303f0bfb5d06a2414f3bd6da1b2a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.022046, \"gas_eth\": 0.049524, \"residual\": \"~18,561,680,721 HUSKY (620.48B received in front, 601.91B sold in back; possibly a transfer fee or a retained balance)\", \"confidence\": 4, \"note\": \"Contract 0xda6b, called by 0x8ad7, wraps 0.54 ETH and buys HUSKY on pair 0x1be5. The victim then buys HUSKY on the same pair, via PAID->WETH->HUSKY. In the back leg 0xda6b sells HUSKY for 0.61157 WETH and unwraps it, netting 0.07157 ETH gross and about 0.022 ETH after 0.0495 ETH of gas. The small HUSKY residual can only add value, so the sign is positive either way.\"}",
+ "case_id": "pack_112",
+ "_time": "2026-10-19T18:15:42+0800"
+}

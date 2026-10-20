@@ -1,0 +1,31 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.250298,
+ "gas_eth": 0.159357,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0x55eb spends 6.720188 WETH in the front leg, routing through the WETH/RACA pool 0x5212 and the RACA/USDT pool 0x700f, and ends up holding 31120.111039 USDT. The victim sells RACA for USDT on 0x700f, and the back leg returns exactly that USDT and collects 6.970486 WETH. Net WETH is +0.250298, and after 0.159357 ETH of gas (0.012811 front, 0.146546 back) the position is about +0.0909 ETH with no residual holding.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3067,
+  "output_tokens": 776,
+  "thinking_tokens": 462
+ },
+ "_request_id": "req_011CgBRGMqygUBYoDcNrRV8H",
+ "_response_id": "msg_011CgBRGTKsu9bfJZ2SJzNh7",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.250298,\"gas_eth\":0.159357,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract 0x55eb spends 6.720188 WETH in the front leg, routing through the WETH/RACA pool 0x5212 and the RACA/USDT pool 0x700f, and ends up holding 31120.111039 USDT. The victim sells RACA for USDT on 0x700f, and the back leg returns exactly that USDT and collects 6.970486 WETH. Net WETH is +0.250298, and after 0.159357 ETH of gas (0.012811 front, 0.146546 back) the position is about +0.0909 ETH with no residual holding.\"}",
+ "case_id": "pack_110",
+ "_time": "2026-10-19T18:14:09+0800"
+}

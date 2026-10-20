@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.22457,
+ "gas_eth": 0.00968,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 11445.29 BOND from the BOND/USDC V2 pair in the front leg, funded by WETH through the USDC/WETH V3 pool. The victim buys BOND on that same pair, and the actor sells all the BOND back in the back leg. WETH goes from 99.994507 to 100.462361 (+0.467854). The 0.243284 ETH sent in as tx value and forwarded to 0x5a0b\u2026 is treated as a cost, giving 0.22457 before gas. After the 0.00968 ETH gas, the net is about +0.2149 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3226,
+  "output_tokens": 909,
+  "thinking_tokens": 589
+ },
+ "_request_id": "req_011CgBQCR1kRkxURG2Ne3arq",
+ "_response_id": "msg_011CgBQCYYRoRQwLNw8Wb5QC",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x6591c4bcd6d7a1eb4e537da8b78676c1576ba244\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.22457,\"gas_eth\":0.00968,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 11445.29 BOND from the BOND/USDC V2 pair in the front leg, funded by WETH through the USDC/WETH V3 pool. The victim buys BOND on that same pair, and the actor sells all the BOND back in the back leg. WETH goes from 99.994507 to 100.462361 (+0.467854). The 0.243284 ETH sent in as tx value and forwarded to 0x5a0b\u2026 is treated as a cost, giving 0.22457 before gas. After the 0.00968 ETH gas, the net is about +0.2149 ETH.\"}",
+ "case_id": "pack_016",
+ "_time": "2026-10-19T18:00:10+0800"
+}

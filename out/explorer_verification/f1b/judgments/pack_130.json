@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1965a114cc3341c0d2ba96a6361790b96ba8c20c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.017059,
+ "gas_eth": 0.012111,
+ "residual": "about 0.127 MX (853131.590290 bought, 853131.462888 sold), negligible dust",
+ "confidence": 4,
+ "note": "The same contract buys MX with 3.573203 WETH in the front leg and sells it back for 3.609082 WETH in the back leg. The victim buys MX on the same pool in between. The WETH gain of 0.035879 minus the 0.018820 ETH forwarded to 0x7f10... (likely a builder tip) gives 0.017059, and after 0.012111 gas the net is about +0.004948 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0209867,
+ "_session": "2a2d8e23-8b23-4e2e-9deb-6c567f644dc2",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x1965a114cc3341c0d2ba96a6361790b96ba8c20c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.017059, \"gas_eth\": 0.012111, \"residual\": \"about 0.127 MX (853131.590290 bought, 853131.462888 sold), negligible dust\", \"confidence\": 4, \"note\": \"The same contract buys MX with 3.573203 WETH in the front leg and sells it back for 3.609082 WETH in the back leg. The victim buys MX on the same pool in between. The WETH gain of 0.035879 minus the 0.018820 ETH forwarded to 0x7f10... (likely a builder tip) gives 0.017059, and after 0.012111 gas the net is about +0.004948 ETH.\"}",
+ "case_id": "pack_130",
+ "_time": "2026-10-13T20:29:34+0800"
+}

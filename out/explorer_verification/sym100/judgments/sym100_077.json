@@ -1,0 +1,17 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.050511,
+ "gas_eth": 0.05326,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract (0xc1dfd...) sells 61547.897140 SMINU into the pool in the front leg, in the same direction as the victim's sale. It buys exactly that amount back in the back leg, on the same pool and with the victim in between. The WETH nets +0.972757 - 0.922246 = +0.050511, and front plus back gas of 0.027943 + 0.025317 = 0.053260 ETH exceeds it, so the position is about -0.00275 ETH after cost. The front leg starts from inventory the actor already held, so the 'opened a position' reading is slightly unusual.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025162700000000003,
+ "_session": "8be22ef0-a618-4133-b131-fad5b6fd223f",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.050511, \"gas_eth\": 0.05326, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract (0xc1dfd...) sells 61547.897140 SMINU into the pool in the front leg, in the same direction as the victim's sale. It buys exactly that amount back in the back leg, on the same pool and with the victim in between. The WETH nets +0.972757 - 0.922246 = +0.050511, and front plus back gas of 0.027943 + 0.025317 = 0.053260 ETH exceeds it, so the position is about -0.00275 ETH after cost. The front leg starts from inventory the actor already held, so the 'opened a position' reading is slightly unusual.\"}",
+ "case_id": "sym100_077",
+ "_time": "2026-10-13T21:40:21+0800"
+}

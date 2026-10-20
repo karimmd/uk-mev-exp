@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02078,
+ "gas_eth": 0.019522,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract trades across two pools. Front: WETH goes into pool 0x73e0, INV goes straight on to pool 0x328d, and WETH comes back. The back leg reverses this. The actor never holds INV, but it pushes INV into 0x328d before the victim sells 80 INV there and pulls it out afterwards. WETH net is +0.103004 (-6.037778 front, +6.140782 back), minus a 0.082224 ETH payment to 0x99c8, gives 0.02078 ETH. After 0.019522 ETH gas the result is about +0.00126 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3557,
+  "output_tokens": 1076,
+  "thinking_tokens": 753
+ },
+ "_request_id": "req_011CgBSBXUPCqE72t9A53z6q",
+ "_response_id": "msg_011CgBSBYKVgNBuHHGZHLGFz",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.02078,\"gas_eth\":0.019522,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract trades across two pools. Front: WETH goes into pool 0x73e0, INV goes straight on to pool 0x328d, and WETH comes back. The back leg reverses this. The actor never holds INV, but it pushes INV into 0x328d before the victim sells 80 INV there and pulls it out afterwards. WETH net is +0.103004 (-6.037778 front, +6.140782 back), minus a 0.082224 ETH payment to 0x99c8, gives 0.02078 ETH. After 0.019522 ETH gas the result is about +0.00126 ETH.\"}",
+ "case_id": "sym100_049",
+ "_time": "2026-10-19T18:26:12+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x0dacb47e00aed6abade32c7b398e029393e0d848",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front and back legs come from different senders through different contracts (0x78a5\u2026 and 0x860b\u2026). Each is a self-contained arbitrage: it buys SOCKS with ETH on the 0x22d8\u2026 exchange and sells it the same leg into V2 pool 0x0dac\u2026, nets about +0.0539 ETH and +0.2294 ETH before gas respectively, and holds no SOCKS between the legs. No single actor opens a position before the victim's WETH\u2192SOCKS buy on 0x0dac\u2026 and closes it after, so there is no bracket and no actor P&L to compute.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4119,
+  "output_tokens": 880,
+  "thinking_tokens": 571
+ },
+ "_request_id": "req_011CgBVEiueyTckJ5MSVWw6i",
+ "_response_id": "msg_011CgBVEjEVdHAwMo1V1R2vQ",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": null, \"pool\": \"0x0dacb47e00aed6abade32c7b398e029393e0d848\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front and back legs come from different senders through different contracts (0x78a5\u2026 and 0x860b\u2026). Each is a self-contained arbitrage: it buys SOCKS with ETH on the 0x22d8\u2026 exchange and sells it the same leg into V2 pool 0x0dac\u2026, nets about +0.0539 ETH and +0.2294 ETH before gas respectively, and holds no SOCKS between the legs. No single actor opens a position before the victim's WETH\u2192SOCKS buy on 0x0dac\u2026 and closes it after, so there is no bracket and no actor P&L to compute.\"}\n```",
+ "case_id": "pack_031",
+ "_time": "2026-10-19T19:06:16+0800"
+}

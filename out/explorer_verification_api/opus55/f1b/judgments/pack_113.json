@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9d18248e03122a198eb17b11d3442665d7c5b16f",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.000246,
+ "gas_eth": 0.04623,
+ "residual": "about 203.14 FlokiSanta (worth roughly 0.0000014 ETH at pool price)",
+ "confidence": 4,
+ "note": "Contract 0x...3b3cc22a bought FlokiSanta with 3.134871 WETH on pool 0x9d18 before the victim bought on the same pool, then sold it back for 3.180855 WETH, a gross gain of 0.045984 WETH. The front and back gas fees total 0.046230 ETH and exceed that gain. The leftover ~203 FlokiSanta is far too small to change the sign.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2900,
+  "output_tokens": 576,
+  "thinking_tokens": 275
+ },
+ "_request_id": "req_011CgBRPh4a7xWqqozFDvnsU",
+ "_response_id": "msg_011CgBRPnyWyC3b29igv95o2",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x9d18248e03122a198eb17b11d3442665d7c5b16f\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.000246, \"gas_eth\": 0.04623, \"residual\": \"about 203.14 FlokiSanta (worth roughly 0.0000014 ETH at pool price)\", \"confidence\": 4, \"note\": \"Contract 0x...3b3cc22a bought FlokiSanta with 3.134871 WETH on pool 0x9d18 before the victim bought on the same pool, then sold it back for 3.180855 WETH, a gross gain of 0.045984 WETH. The front and back gas fees total 0.046230 ETH and exceed that gain. The leftover ~203 FlokiSanta is far too small to change the sign.\"}",
+ "case_id": "pack_113",
+ "_time": "2026-10-19T18:15:48+0800"
+}

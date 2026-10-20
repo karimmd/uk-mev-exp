@@ -1,0 +1,24 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+  "0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4",
+  "0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.189004,
+ "gas_eth": 0.181444,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 12.25 WETH to the MIM/WETH V2 pair. The MIM goes straight to the USDC/MIM V3 pool, and the USDC goes straight to the USDC/WETH V2 pair. That pair returns 12.439004 WETH to the actor, a gain of 0.189004 WETH. After the 0.181444 ETH gas fee, about 0.00756 ETH is left, assuming the sender's gas fee counts against the actor. The actor keeps no other tokens.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0235772,
+ "_session": "28d8a243-95b4-45c7-9bc0-49302a55c8c6",
+ "_raw": "{\"actor\":\"0x9762b1d716bb97735905996e013d61c140722249\",\"pools\":[\"0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc\",\"0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4\",\"0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.189004,\"gas_eth\":0.181444,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 12.25 WETH to the MIM/WETH V2 pair. The MIM goes straight to the USDC/MIM V3 pool, and the USDC goes straight to the USDC/WETH V2 pair. That pair returns 12.439004 WETH to the actor, a gain of 0.189004 WETH. After the 0.181444 ETH gas fee, about 0.00756 ETH is left, assuming the sender's gas fee counts against the actor. The actor keeps no other tokens.\"}",
+ "case_id": "arb106_104",
+ "_time": "2026-10-13T22:34:04+0800"
+}

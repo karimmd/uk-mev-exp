@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x62e3c242b5e903071458ad90a160493d84911c77",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.064447,
+ "gas_eth": 0.052814,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract spends 1.013765 WETH through the WETH/LSS pool and the LSS/USDT pool to get 2457.341661 USDT, then returns exactly that USDT in the back leg for 1.078212 WETH. The victim sells LSS for USDT on the shared LSS/USDT pool between the two legs. The WETH gain of 0.064447 less 0.052814 ETH of front and back gas leaves about +0.011633 ETH, with no USDT residual.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0225707,
+ "_session": "b17bcea3-8d0d-4d04-a3dd-9b08bf044c19",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x62e3c242b5e903071458ad90a160493d84911c77\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.064447, \"gas_eth\": 0.052814, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract spends 1.013765 WETH through the WETH/LSS pool and the LSS/USDT pool to get 2457.341661 USDT, then returns exactly that USDT in the back leg for 1.078212 WETH. The victim sells LSS for USDT on the shared LSS/USDT pool between the two legs. The WETH gain of 0.064447 less 0.052814 ETH of front and back gas leaves about +0.011633 ETH, with no USDT residual.\"}",
+ "case_id": "rej53_015",
+ "_time": "2026-10-13T21:56:18+0800"
+}

@@ -1,0 +1,41 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0xce7e98d4da6ebda6af474ea618c6b175729cd366",
+  "0xa5c475167f03b1556c054e0da78192cd2779087f",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.067922,
+ "gas_eth": 0.052853,
+ "profit_after_gas": 0.015069,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 5.667178 WETH into the FODL pool. Tokens then pass pool to pool (WETH\u2192FODL\u2192USDC\u2192FRAX\u2192token 0x3432, tagged 'FRAX' but likely FXS, \u2192WETH), and 5.735764 WETH comes back from the V3 pool, so the cycle closes and the actor keeps no intermediate tokens. Net WETH is +0.068586, minus a 0.000664 ETH internal payment (likely a builder tip), minus the 0.052853 gas fee, which leaves about +0.0151 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2604,
+  "output_tokens": 1007,
+  "thinking_tokens": 508
+ },
+ "_request_id": "req_011CgBX3stq3xSsfiKunUKVH",
+ "_response_id": "msg_011CgBX3tEAo5TH9t7MdrwtE",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0xce7e98d4da6ebda6af474ea618c6b175729cd366\", \"0xa5c475167f03b1556c054e0da78192cd2779087f\", \"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\", \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\", \"0xcd8286b48936cdac20518247dbd310ab681a9fbf\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.067922, \"gas_eth\": 0.052853, \"profit_after_gas\": 0.015069, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 5.667178 WETH into the FODL pool. Tokens then pass pool to pool (WETH\u2192FODL\u2192USDC\u2192FRAX\u2192token 0x3432, tagged 'FRAX' but likely FXS, \u2192WETH), and 5.735764 WETH comes back from the V3 pool, so the cycle closes and the actor keeps no intermediate tokens. Net WETH is +0.068586, minus a 0.000664 ETH internal payment (likely a builder tip), minus the 0.052853 gas fee, which leaves about +0.0151 ETH.\"}",
+ "case_id": "arb106_002",
+ "_time": "2026-10-19T19:30:02+0800"
+}

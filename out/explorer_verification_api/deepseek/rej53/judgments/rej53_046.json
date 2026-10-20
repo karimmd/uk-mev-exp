@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.062795,
+ "gas_eth": 0.013207,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract receives 40686.033752 USDC in front and spends the same amount in back on pool 0x3155, which the victim also trades. Gross ETH/WETH gain is 0.076002 before gas; after front+back gas 0.013207 it is +0.062795. No residual non-WETH holding remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2649,
+  "output_tokens": 7707,
+  "thinking_tokens": 7540
+ },
+ "_request_id": "283c22e63271cdb4617aa458f1364603",
+ "_response_id": "b16f6a32-a460-457c-bbde-bd6ae24036a6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.062795,\"gas_eth\":0.013207,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract receives 40686.033752 USDC in front and spends the same amount in back on pool 0x3155, which the victim also trades. Gross ETH/WETH gain is 0.076002 before gas; after front+back gas 0.013207 it is +0.062795. No residual non-WETH holding remains.\"}",
+ "case_id": "rej53_046",
+ "_time": "2026-10-19T19:03:07+0800"
+}

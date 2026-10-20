@@ -1,0 +1,32 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x9c4cc862f51b1ba90485de3502aa058ca4331f32",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.074708,
+ "gas_eth": 0.080033,
+ "profit_after_gas": -0.005325,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys 2072.5835 CELL on pool 0x9c4 in the front leg and sells the same amount back on the same pool in the back leg; the victim also trades that pool between them. ETH/WETH net is +6.824708 - 6.750000 = +0.074708 before gas, and subtracting 0.049504 + 0.030529 gas gives a negative result; no CELL remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3115,
+  "output_tokens": 11002,
+  "thinking_tokens": 10776
+ },
+ "_request_id": "15622beac69295a94cde9789755c18ef",
+ "_response_id": "ee6e0957-ae19-4044-9cbe-1ad1c633f590",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x51acf0af77adcb20de482e1cd678f620baf07e0c\", \"pool\": \"0x9c4cc862f51b1ba90485de3502aa058ca4331f32\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth_before_gas\": 0.074708, \"gas_eth\": 0.080033, \"profit_after_gas\": -0.005325, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract buys 2072.5835 CELL on pool 0x9c4 in the front leg and sells the same amount back on the same pool in the back leg; the victim also trades that pool between them. ETH/WETH net is +6.824708 - 6.750000 = +0.074708 before gas, and subtracting 0.049504 + 0.030529 gas gives a negative result; no CELL remains.\"}",
+ "case_id": "pack_047",
+ "_time": "2026-10-19T19:09:29+0800"
+}

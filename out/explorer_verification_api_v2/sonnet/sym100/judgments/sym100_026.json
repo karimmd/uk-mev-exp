@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x376079a32d73b3942639486da4841ca31afa9960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.145744,
+ "gas_eth": 0.002884,
+ "profit_after_gas": 0.14286,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 2362884269.495092 EPAY into the pool for 9.292415 WETH in the front leg. The victim then sold EPAY on the same pool, and the actor bought back the identical EPAY amount for 9.146671 WETH in the back leg, so the short is closed with no residual. Net is +0.145744 WETH, and gas for the front and back legs is 0.002884 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3045,
+  "output_tokens": 691,
+  "thinking_tokens": 420
+ },
+ "_request_id": "req_011CgBWHSRuwYEFxL6G4f9ML",
+ "_response_id": "msg_011CgBWHThoQubC2etufBghx",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x376079a32d73b3942639486da4841ca31afa9960\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.145744,\"gas_eth\":0.002884,\"profit_after_gas\":0.14286,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 2362884269.495092 EPAY into the pool for 9.292415 WETH in the front leg. The victim then sold EPAY on the same pool, and the actor bought back the identical EPAY amount for 9.146671 WETH in the back leg, so the short is closed with no residual. Net is +0.145744 WETH, and gas for the front and back legs is 0.002884 ETH.\"}",
+ "case_id": "sym100_026",
+ "_time": "2026-10-19T19:19:56+0800"
+}

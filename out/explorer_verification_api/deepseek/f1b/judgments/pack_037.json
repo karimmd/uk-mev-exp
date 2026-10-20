@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x290850efa2d7e130e55bbc1db2b48bc5c03097f5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.004262,
+ "gas_eth": 0.160356,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leaves USDC at the actor contract via trades on 0x2084 and 0x2908, and back spends that USDC on 0x2908 to receive WETH. The victim also trades on 0x2908 between front and back. Net WETH gain 0.164618 minus 0.160356 gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3364,
+  "output_tokens": 6690,
+  "thinking_tokens": 6522
+ },
+ "_request_id": "328bcfab5262f871465032efd4addad9",
+ "_response_id": "4c6aa3a9-3296-4c1f-b743-ce06e2a99532",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x290850efa2d7e130e55bbc1db2b48bc5c03097f5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.004262,\"gas_eth\":0.160356,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leaves USDC at the actor contract via trades on 0x2084 and 0x2908, and back spends that USDC on 0x2908 to receive WETH. The victim also trades on 0x2908 between front and back. Net WETH gain 0.164618 minus 0.160356 gas is positive.\"}",
+ "case_id": "pack_037",
+ "_time": "2026-10-19T18:09:09+0800"
+}

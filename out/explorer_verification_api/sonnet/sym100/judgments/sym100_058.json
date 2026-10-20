@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x05f04f112a286c4c551897fb19ed2300272656c8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.026401,
+ "gas_eth": 0.009954,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 5438.688740 POLK to the POLK/WETH pool for 2.14 WETH in the front leg, and the victim sells POLK into the same pool. The back leg buys back exactly 5438.688740 POLK for 2.113599 WETH, a mirror-image (sell-first) sandwich. The WETH gain is 0.026401, so after 0.009954 ETH of front and back gas the position is about +0.016447 ETH with no POLK left over. The actor already held the POLK before the front leg, which is why I am not fully certain it counts as opening a position.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2857,
+  "output_tokens": 959,
+  "thinking_tokens": 643
+ },
+ "_request_id": "req_011CgBSEYdgS4TDwvCUVA9Nt",
+ "_response_id": "msg_011CgBSEZ1jzEWK5Cuf6ybRe",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x05f04f112a286c4c551897fb19ed2300272656c8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.026401,\"gas_eth\":0.009954,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells 5438.688740 POLK to the POLK/WETH pool for 2.14 WETH in the front leg, and the victim sells POLK into the same pool. The back leg buys back exactly 5438.688740 POLK for 2.113599 WETH, a mirror-image (sell-first) sandwich. The WETH gain is 0.026401, so after 0.009954 ETH of front and back gas the position is about +0.016447 ETH with no POLK left over. The actor already held the POLK before the front leg, which is why I am not fully certain it counts as opening a position.\"}",
+ "case_id": "sym100_058",
+ "_time": "2026-10-19T18:26:52+0800"
+}

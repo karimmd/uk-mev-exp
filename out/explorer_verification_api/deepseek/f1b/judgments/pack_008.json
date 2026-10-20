@@ -1,0 +1,31 @@
+{
+ "actor": "0x8be4db5926232bc5b02b841dbede8161924495c4",
+ "pool": "0x414fbf662fc98415dbee27c72013a6f3a937ed66",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.179832,
+ "gas_eth": 0.164688,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both call 0x8be4..., which receives 12644.731114 OWL in the front and returns the same amount in the back on pool 0x414f...; the victim trades that same pool between them. WETH delta is +0.344520 (26.164520 received - 25.820000 spent), and after 0.164688 gas the net is +0.179832 ETH/WETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2385,
+  "output_tokens": 6216,
+  "thinking_tokens": 6028
+ },
+ "_request_id": "b6209616111315656bb8d2b245e877d4",
+ "_response_id": "fa0ad359-e08d-4bdf-bcc5-df681b267846",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x8be4db5926232bc5b02b841dbede8161924495c4\",\"pool\":\"0x414fbf662fc98415dbee27c72013a6f3a937ed66\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.179832,\"gas_eth\":0.164688,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both call 0x8be4..., which receives 12644.731114 OWL in the front and returns the same amount in the back on pool 0x414f...; the victim trades that same pool between them. WETH delta is +0.344520 (26.164520 received - 25.820000 spent), and after 0.164688 gas the net is +0.179832 ETH/WETH.\"}",
+ "case_id": "pack_008",
+ "_time": "2026-10-19T17:59:07+0800"
+}

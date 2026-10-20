@@ -1,0 +1,31 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x9c4cc862f51b1ba90485de3502aa058ca4331f32",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.074708,
+ "gas_eth": 0.080033,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x51acf0 wraps 6.75 ETH and buys 2072.5835 CELL on pool 0x9c4cc8. The victim then buys CELL on the same pool (via JUP->WETH on 0x2dfee8). The back leg sells exactly 2072.5835 CELL for 6.824708 WETH and unwraps it, so the gross gain of 0.074708 ETH is below the 0.080033 ETH in front and back gas fees (net about -0.005325 ETH, before also counting the 4 CHI burned).",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3832,
+  "output_tokens": 717,
+  "thinking_tokens": 404
+ },
+ "_request_id": "req_011CgBQbvUvawRMPFUKiYcFN",
+ "_response_id": "msg_011CgBQc2BymsXaK5jQNzfxY",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x51acf0af77adcb20de482e1cd678f620baf07e0c\", \"pool\": \"0x9c4cc862f51b1ba90485de3502aa058ca4331f32\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.074708, \"gas_eth\": 0.080033, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x51acf0 wraps 6.75 ETH and buys 2072.5835 CELL on pool 0x9c4cc8. The victim then buys CELL on the same pool (via JUP->WETH on 0x2dfee8). The back leg sells exactly 2072.5835 CELL for 6.824708 WETH and unwraps it, so the gross gain of 0.074708 ETH is below the 0.080033 ETH in front and back gas fees (net about -0.005325 ETH, before also counting the 4 CHI burned).\"}",
+ "case_id": "pack_047",
+ "_time": "2026-10-19T18:05:29+0800"
+}

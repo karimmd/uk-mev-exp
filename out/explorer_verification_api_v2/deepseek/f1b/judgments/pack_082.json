@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x860425be6ad1345dc7a3e287facbf32b18bc4fae",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.073097,
+ "gas_eth": 0.078148,
+ "profit_after_gas": -0.005051,
+ "residual": "0.000290 mSLV",
+ "confidence": 5,
+ "note": "Actor target contract bought mSLV in the front leg and sold it back on the victim's pool 0x8604 in the back leg, with the victim in between. Net WETH before gas is +0.073097; subtracting front/back gas 0.078148 leaves -0.005051, and the tiny mSLV residual does not change the sign.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2546,
+  "output_tokens": 5667,
+  "thinking_tokens": 5471
+ },
+ "_request_id": "af7f8a3b9d1540fe0c2a02e505232f41",
+ "_response_id": "196bbee2-7cf4-49af-9659-ea98bf72d38d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x860425be6ad1345dc7a3e287facbf32b18bc4fae\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.073097,\"gas_eth\":0.078148,\"profit_after_gas\":-0.005051,\"residual\":\"0.000290 mSLV\",\"confidence\":5,\"note\":\"Actor target contract bought mSLV in the front leg and sold it back on the victim's pool 0x8604 in the back leg, with the victim in between. Net WETH before gas is +0.073097; subtracting front/back gas 0.078148 leaves -0.005051, and the tiny mSLV residual does not change the sign.\"}",
+ "case_id": "pack_082",
+ "_time": "2026-10-19T19:14:45+0800"
+}

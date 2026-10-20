@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.061616,
+ "gas_eth": 0.042605,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 9171.131681 BBANK to the pool for 2.039836 WETH in the front leg. The victim sells BBANK on that pool in between. The actor then buys back exactly 9171.131681 BBANK for 1.978220 WETH in the back leg. This is a sell-side sandwich, so the BBANK position nets to zero. The WETH gain is 0.061616, and after 0.042605 ETH of gas it is about +0.019011 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0248788,
+ "_session": "eb1b483e-c8de-40b7-a58e-b5d2c942ff3c",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.061616, \"gas_eth\": 0.042605, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sells 9171.131681 BBANK to the pool for 2.039836 WETH in the front leg. The victim sells BBANK on that pool in between. The actor then buys back exactly 9171.131681 BBANK for 1.978220 WETH in the back leg. This is a sell-side sandwich, so the BBANK position nets to zero. The WETH gain is 0.061616, and after 0.042605 ETH of gas it is about +0.019011 ETH.\"}",
+ "case_id": "sym100_051",
+ "_time": "2026-10-13T21:34:14+0800"
+}

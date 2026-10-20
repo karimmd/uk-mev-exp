@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.019011,
+ "gas_eth": 0.042605,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg sold 9171.131681 BBANK for 2.039836 WETH; victim also sold BBANK on the same pool; back leg bought back the same BBANK amount for 1.978220 WETH. Net WETH profit 0.061616 minus gas 0.042605 = 0.019011 ETH; BBANK quantity is exactly restored so no net non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2572,
+  "output_tokens": 6263,
+  "thinking_tokens": 6075
+ },
+ "_request_id": "2a63f8e4d2b606ab036ef99742ff8e13",
+ "_response_id": "15b917fd-fb22-4324-ba42-881deed5da57",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x2a182e532a379cb2c7f1b34ce3f76f3f7d3596f7\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.019011,\"gas_eth\":0.042605,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leg sold 9171.131681 BBANK for 2.039836 WETH; victim also sold BBANK on the same pool; back leg bought back the same BBANK amount for 1.978220 WETH. Net WETH profit 0.061616 minus gas 0.042605 = 0.019011 ETH; BBANK quantity is exactly restored so no net non-WETH residual.\"}",
+ "case_id": "sym100_051",
+ "_time": "2026-10-19T18:47:15+0800"
+}

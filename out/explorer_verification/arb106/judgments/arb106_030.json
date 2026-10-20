@@ -1,0 +1,26 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d",
+  "0xd876bea7f5121a8e21459224e58aec6c933a16e9",
+  "0x3a5dbafbac514a0b40dcdf3bc3ff7763da9d2d37",
+  "0x132eeb05d5cb6829bd34f552cde0b6b708ef5014"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.028098,
+ "gas_eth": 0.027963,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor only touches WETH, in two separate cycles. First it takes 1.538118 WETH from the V3 USDC pool and sends 1.522726 to the DIA pair, whose DIA goes to the DIA/USDC pair and then USDC back to the V3 pool, for +0.015392. Second it takes 0.889612 WETH from the VSP V3 pool and sends 0.876906 to the VSP V2 pair, whose VSP goes back to the V3 pool, for +0.012706. Gross is +0.028098 WETH against 0.027963 ETH gas, so the net is a thin +0.000135 ETH. Under the strict rule WETH does not net to zero (it is the profit token), and the cycles close through intermediate tokens that move pool to pool without passing through the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025744700000000002,
+ "_session": "4b517973-1f24-4bbf-adf2-557d524a8209",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d\",\"0xd876bea7f5121a8e21459224e58aec6c933a16e9\",\"0x3a5dbafbac514a0b40dcdf3bc3ff7763da9d2d37\",\"0x132eeb05d5cb6829bd34f552cde0b6b708ef5014\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.028098,\"gas_eth\":0.027963,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor only touches WETH, in two separate cycles. First it takes 1.538118 WETH from the V3 USDC pool and sends 1.522726 to the DIA pair, whose DIA goes to the DIA/USDC pair and then USDC back to the V3 pool, for +0.015392. Second it takes 0.889612 WETH from the VSP V3 pool and sends 0.876906 to the VSP V2 pair, whose VSP goes back to the V3 pool, for +0.012706. Gross is +0.028098 WETH against 0.027963 ETH gas, so the net is a thin +0.000135 ETH. Under the strict rule WETH does not net to zero (it is the profit token), and the cycles close through intermediate tokens that move pool to pool without passing through the actor.\"}",
+ "case_id": "arb106_030",
+ "_time": "2026-10-13T22:17:10+0800"
+}

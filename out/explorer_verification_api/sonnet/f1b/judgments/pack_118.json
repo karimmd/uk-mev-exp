@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f499fe484a61af03b01ea5c81eab14f67c11a5a",
+ "pool": "0xba65016890709dbc9491ca7bf5de395b8441dc8b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.316872,
+ "gas_eth": 0.017399,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x3f49 buys 305222.891823 RSR for 15.8505 WETH in the front leg. The victim's SWAP->WETH->RSR route ends on the same RSR/WETH pool (0xba65). The same contract then sells exactly the same RSR for 16.167372 WETH in the back leg. Gross WETH gain is 0.316872, and after 0.017399 ETH of gas the position is about +0.2995 ETH with no residual RSR. The front and back transactions have different senders, but both call the same contract.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2918,
+  "output_tokens": 689,
+  "thinking_tokens": 387
+ },
+ "_request_id": "req_011CgBRMJGob731VPYTdadND",
+ "_response_id": "msg_011CgBRMPLQDWNVGrwuPqM3q",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3f499fe484a61af03b01ea5c81eab14f67c11a5a\",\"pool\":\"0xba65016890709dbc9491ca7bf5de395b8441dc8b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.316872,\"gas_eth\":0.017399,\"residual\":\"none\",\"confidence\":4,\"note\":\"Contract 0x3f49 buys 305222.891823 RSR for 15.8505 WETH in the front leg. The victim's SWAP->WETH->RSR route ends on the same RSR/WETH pool (0xba65). The same contract then sells exactly the same RSR for 16.167372 WETH in the back leg. Gross WETH gain is 0.316872, and after 0.017399 ETH of gas the position is about +0.2995 ETH with no residual RSR. The front and back transactions have different senders, but both call the same contract.\"}",
+ "case_id": "pack_118",
+ "_time": "2026-10-19T18:15:17+0800"
+}

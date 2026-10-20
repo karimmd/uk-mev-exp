@@ -1,0 +1,32 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.016118,
+ "gas_eth": 0.013232,
+ "profit_after_gas": 0.002886,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract buys LDO on pool 0x454f with 99 WETH and sells it into pool 0xc558 in the front leg. The victim then sells 10000 LDO into 0xc558, and the back leg buys LDO back from 0xc558 and sells it into 0x454f. WETH nets +0.114219, and I treated the 0.098101 ETH sent to 0xeea5 as a cost and the 0.104963 ETH sent to the sender EOA as an internal payout to the same operator. The result stays positive after gas but is small and depends on that treatment; if the payout to the EOA were also counted as a cost, it would turn negative.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3959,
+  "output_tokens": 2022,
+  "thinking_tokens": 1665
+ },
+ "_request_id": "req_011CgBVgRytrSZBQREWbdrWh",
+ "_response_id": "msg_011CgBVgSZ8C6ghNpnqMyYT8",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.016118,\"gas_eth\":0.013232,\"profit_after_gas\":0.002886,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract buys LDO on pool 0x454f with 99 WETH and sells it into pool 0xc558 in the front leg. The victim then sells 10000 LDO into 0xc558, and the back leg buys LDO back from 0xc558 and sells it into 0x454f. WETH nets +0.114219, and I treated the 0.098101 ETH sent to 0xeea5 as a cost and the 0.104963 ETH sent to the sender EOA as an internal payout to the same operator. The result stays positive after gas but is small and depends on that treatment; if the payout to the EOA were also counted as a cost, it would turn negative.\"}",
+ "case_id": "pack_109",
+ "_time": "2026-10-19T19:12:11+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1f964ff83c54ce447adae5cb93f9ec17018bf55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.058134,
+ "gas_eth": 0.0,
+ "residual": "501678560799.347656 BEZOGE",
+ "confidence": 5,
+ "note": "The target contract holds BEZOGE after the front leg and releases it in the back leg on the same UniswapV2 pair the victim also trades on. ETH/WETH nets +0.058134 WETH, internal ETH flow nets zero, and front/back gas is zero. A BEZOGE residual remains, but the ETH/WETH position is already positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2785,
+  "output_tokens": 4730,
+  "thinking_tokens": 4550
+ },
+ "_request_id": "eb924834e7444e38080ce2a24eb9c8b8",
+ "_response_id": "31e52ba0-3afc-403a-923e-e76e561a756f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1f964ff83c54ce447adae5cb93f9ec17018bf55b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.058134,\"gas_eth\":0.0,\"residual\":\"501678560799.347656 BEZOGE\",\"confidence\":5,\"note\":\"The target contract holds BEZOGE after the front leg and releases it in the back leg on the same UniswapV2 pair the victim also trades on. ETH/WETH nets +0.058134 WETH, internal ETH flow nets zero, and front/back gas is zero. A BEZOGE residual remains, but the ETH/WETH position is already positive.\"}",
+ "case_id": "pack_069",
+ "_time": "2026-10-19T18:13:38+0800"
+}

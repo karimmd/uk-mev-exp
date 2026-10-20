@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.024838,
+ "gas_eth": 0.199053,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 88.248554 STRONG in the front leg and sells exactly that amount in the back leg. Both legs and the victim's buy are on the same V3 pool. WETH net is +0.054528, and the 0.02969 ETH forwarded to 0xb7e3... in the back leg (likely a builder tip) brings it to +0.024838. Gas of 0.199053 ETH exceeds that, so the position is about -0.174 ETH after cost.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0225508,
+ "_session": "3867a4a2-0f02-4858-98bb-aae198632e6c",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.024838, \"gas_eth\": 0.199053, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 88.248554 STRONG in the front leg and sells exactly that amount in the back leg. Both legs and the victim's buy are on the same V3 pool. WETH net is +0.054528, and the 0.02969 ETH forwarded to 0xb7e3... in the back leg (likely a builder tip) brings it to +0.024838. Gas of 0.199053 ETH exceeds that, so the position is about -0.174 ETH after cost.\"}",
+ "case_id": "rej53_047",
+ "_time": "2026-10-13T22:02:57+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2a4a220beb6a0fd217a129125d0034e2db0dee46",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.034259,
+ "gas_eth": 0.275526,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 423402468.646795 HARAMBE for 20.336594 WETH in the front leg, the victim buys HARAMBE on the same V3 pool, and the actor sells the exact same amount back for 20.452645 WETH. That is a +0.116051 WETH gain, less the 0.081792 ETH forwarded to 0x829b\u2026 in the back leg, giving net_eth 0.034259. Front and back gas total 0.275526 ETH, so the position is negative after observable cost (about -0.241 ETH).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0208507,
+ "_session": "2abf8d3d-9f1d-42d8-85cc-7de76b599b94",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x2a4a220beb6a0fd217a129125d0034e2db0dee46\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.034259, \"gas_eth\": 0.275526, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 423402468.646795 HARAMBE for 20.336594 WETH in the front leg, the victim buys HARAMBE on the same V3 pool, and the actor sells the exact same amount back for 20.452645 WETH. That is a +0.116051 WETH gain, less the 0.081792 ETH forwarded to 0x829b\u2026 in the back leg, giving net_eth 0.034259. Front and back gas total 0.275526 ETH, so the position is negative after observable cost (about -0.241 ETH).\"}",
+ "case_id": "pack_036",
+ "_time": "2026-10-13T20:11:07+0800"
+}

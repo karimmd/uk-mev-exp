@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd2f1fd188f127cde9d0feef58c3eb457cc0bcb9c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.120751,
+ "gas_eth": 0.0,
+ "residual": "about 91,849,938.66 SHIBAL kept by the actor contract (4,657,697,853.78 in, 4,565,847,915.12 out)",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026932d, called by 0x8517\u20265c43, buys SHIBAL for 3.91 WETH on pool 0xd2f1\u2026c9cb9c. The victim then buys SHIBAL on the same pool, and the contract sells back for 5.956627 WETH, a gross gain of 2.046627 WETH. Netting out the 1.925876 ETH passed through to 0xea674f\u20268ec8 (likely a miner payment) and zero gas fees at 0 gwei gives 0.120751 ETH, and the leftover SHIBAL can only add to this, so the sign is positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3376,
+  "output_tokens": 1106,
+  "thinking_tokens": 709
+ },
+ "_request_id": "req_011CgBRwRBy4nLJBJbHUtuwK",
+ "_response_id": "msg_011CgBRwRYJZVedbnFpcLr29",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0xd2f1fd188f127cde9d0feef58c3eb457cc0bcb9c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.120751, \"gas_eth\": 0.0, \"residual\": \"about 91,849,938.66 SHIBAL kept by the actor contract (4,657,697,853.78 in, 4,565,847,915.12 out)\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026932d, called by 0x8517\u20265c43, buys SHIBAL for 3.91 WETH on pool 0xd2f1\u2026c9cb9c. The victim then buys SHIBAL on the same pool, and the contract sells back for 5.956627 WETH, a gross gain of 2.046627 WETH. Netting out the 1.925876 ETH passed through to 0xea674f\u20268ec8 (likely a miner payment) and zero gas fees at 0 gwei gives 0.120751 ETH, and the leftover SHIBAL can only add to this, so the sign is positive.\"}\n```",
+ "case_id": "pack_187",
+ "_time": "2026-10-19T18:23:02+0800"
+}

@@ -1,0 +1,38 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x868b7bbbfe148516e5397f23982923686182c2d2",
+  "0xc50ef7861153c51d383d9a7d48e6c9467fb90c38",
+  "0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.023719,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x18c... closes zero-net USDT/USTC positions across three pools, receives 0.237195 WETH from 0x8b00, withdraws it to ETH, and sends 0.213476 ETH out, retaining 0.023719 ETH. Gas fee is zero, so net ETH is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2061,
+  "output_tokens": 10596,
+  "thinking_tokens": 10350
+ },
+ "_request_id": "2d9d624e5ea6849d9a6cb1b714a280f0",
+ "_response_id": "ed0e536b-069e-4e97-989f-1d47f705dda9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x868b7bbbfe148516e5397f23982923686182c2d2\",\"0xc50ef7861153c51d383d9a7d48e6c9467fb90c38\",\"0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b\"],\"cycle_token\":\"USDT\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.023719,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x18c... closes zero-net USDT/USTC positions across three pools, receives 0.237195 WETH from 0x8b00, withdraws it to ETH, and sends 0.213476 ETH out, retaining 0.023719 ETH. Gas fee is zero, so net ETH is positive.\"}",
+ "case_id": "arb106_058",
+ "_time": "2026-10-19T19:21:50+0800"
+}

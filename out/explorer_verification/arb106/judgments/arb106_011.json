@@ -1,0 +1,28 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x5ed0dde7441efcd728e31cfd055c4c7efe20a57b",
+  "0x9c3ec0db90cf88f1881cabc6cb0faf0c5aa9f1c2",
+  "0x4d3138931437dcc356ca511ac812e14ba8199fd6",
+  "0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8",
+  "0x8616e439239bf0c116f430f399502e706dc8b7fb",
+  "0x8b59be2fc6fccc2256cc4841843a13ce29da16bd"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.030395,
+ "gas_eth": 0.028075,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH-to-WETH loops. The first goes WETH to USDC to GMEE to BONDLY to WETH and nets +0.017176. The second goes WETH to STRONG to LINK to WETH and nets +0.013219. Each intermediate token moves pool to pool and never touches the actor. The WETH gain is 0.030395, so about +0.00232 ETH remains after the 0.028075 ETH gas fee. That margin is thin, and the sender, not the actor contract, pays the gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.030657200000000003,
+ "_session": "a2e14f60-e96c-41f2-b9ec-37dab0d1da86",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x5ed0dde7441efcd728e31cfd055c4c7efe20a57b\",\"0x9c3ec0db90cf88f1881cabc6cb0faf0c5aa9f1c2\",\"0x4d3138931437dcc356ca511ac812e14ba8199fd6\",\"0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8\",\"0x8616e439239bf0c116f430f399502e706dc8b7fb\",\"0x8b59be2fc6fccc2256cc4841843a13ce29da16bd\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.030395,\"gas_eth\":0.028075,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor runs two WETH-to-WETH loops. The first goes WETH to USDC to GMEE to BONDLY to WETH and nets +0.017176. The second goes WETH to STRONG to LINK to WETH and nets +0.013219. Each intermediate token moves pool to pool and never touches the actor. The WETH gain is 0.030395, so about +0.00232 ETH remains after the 0.028075 ETH gas fee. That margin is thin, and the sender, not the actor contract, pays the gas.\"}",
+ "case_id": "arb106_011",
+ "_time": "2026-10-13T22:12:28+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x811beed0119b4afce20d2583eb608c6f7af1954f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.388129,
+ "gas_eth": 0.033768,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (called by the same sender) sells 30434610129.701443 SHIB into the pool for 40.409 WETH in the front leg and buys back exactly that SHIB for 40.020871 WETH in the back leg. The victim sells SHIB into the same pool between them, so this is a sell-first sandwich with the SHIB position flat afterwards. Gross WETH gain is 0.388129, and after 0.033768 ETH of front and back gas it is about +0.354361 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.023032700000000003,
+ "_session": "93a6f0f8-d86f-4a61-853f-b3560d06a278",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x811beed0119b4afce20d2583eb608c6f7af1954f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.388129, \"gas_eth\": 0.033768, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract (called by the same sender) sells 30434610129.701443 SHIB into the pool for 40.409 WETH in the front leg and buys back exactly that SHIB for 40.020871 WETH in the back leg. The victim sells SHIB into the same pool between them, so this is a sell-first sandwich with the SHIB position flat afterwards. Gross WETH gain is 0.388129, and after 0.033768 ETH of front and back gas it is about +0.354361 ETH.\"}",
+ "case_id": "sym100_082",
+ "_time": "2026-10-13T21:41:21+0800"
+}

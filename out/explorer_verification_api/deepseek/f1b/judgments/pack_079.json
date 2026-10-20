@@ -1,0 +1,31 @@
+{
+ "actor": "0x9edd647d7d6eceae6bb61d7785ef66c5055a9bee",
+ "pool": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.223175,
+ "gas_eth": 0.031574,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg sells AKITA for WETH while back leg buys the same AKITA amount back, so the actor does not open a non-WETH position in front. Net WETH gain is 0.254749 minus 0.031574 gas = 0.223175 ETH-equivalent, with zero net AKITA residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2400,
+  "output_tokens": 6065,
+  "thinking_tokens": 5899
+ },
+ "_request_id": "99a188e73510dee9c30ad702611e4379",
+ "_response_id": "66b8b5b1-c7e5-454f-bc77-b3cd7029db15",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x9edd647d7d6eceae6bb61d7785ef66c5055a9bee\",\"pool\":\"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.223175,\"gas_eth\":0.031574,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leg sells AKITA for WETH while back leg buys the same AKITA amount back, so the actor does not open a non-WETH position in front. Net WETH gain is 0.254749 minus 0.031574 gas = 0.223175 ETH-equivalent, with zero net AKITA residual.\"}",
+ "case_id": "pack_079",
+ "_time": "2026-10-19T18:15:55+0800"
+}

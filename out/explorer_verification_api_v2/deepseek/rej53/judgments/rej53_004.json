@@ -1,0 +1,32 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.250298,
+ "gas_eth": 0.159357,
+ "profit_after_gas": 0.090941,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are two-hop swaps routed through shared RACA/USDT pool 0x700f...; the called contract 0x55eb... holds 31,120.111039 USDT after front and spends exactly it in back. WETH net is +0.250298 before gas, and front/back fees total 0.159357 ETH, leaving positive profit; no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2479,
+  "output_tokens": 4810,
+  "thinking_tokens": 4613
+ },
+ "_request_id": "80d0b611815c42070b827a325366cfa2",
+ "_response_id": "d42e2d18-e7e3-41d1-a96e-04eb2d1d73a4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.250298,\"gas_eth\":0.159357,\"profit_after_gas\":0.090941,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are two-hop swaps routed through shared RACA/USDT pool 0x700f...; the called contract 0x55eb... holds 31,120.111039 USDT after front and spends exactly it in back. WETH net is +0.250298 before gas, and front/back fees total 0.159357 ETH, leaving positive profit; no non-WETH residual remains.\"}",
+ "case_id": "rej53_004",
+ "_time": "2026-10-19T19:40:11+0800"
+}

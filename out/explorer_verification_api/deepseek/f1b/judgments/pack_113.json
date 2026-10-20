@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x9d18248e03122a198eb17b11d3442665d7c5b16f",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": -0.000246,
+ "gas_eth": 0.04623,
+ "residual": "203.139557 FlokiSanta",
+ "confidence": 5,
+ "note": "Front and back both trade the same Uniswap V2 pool, with actor 0x000...3b3 receiving FlokiSanta in front and sending it back in back while the victim trades the same pool in between. WETH net after gas is slightly negative, but the remaining FlokiSanta residual prevents determining the overall sign without valuing it.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2282,
+  "output_tokens": 3015,
+  "thinking_tokens": 2838
+ },
+ "_request_id": "4162d7ad0d4f245783104f193a21c59e",
+ "_response_id": "5f2c8dd2-6795-4473-8521-50518ff86ab9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x9d18248e03122a198eb17b11d3442665d7c5b16f\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth\":-0.000246,\"gas_eth\":0.04623,\"residual\":\"203.139557 FlokiSanta\",\"confidence\":5,\"note\":\"Front and back both trade the same Uniswap V2 pool, with actor 0x000...3b3 receiving FlokiSanta in front and sending it back in back while the victim trades the same pool in between. WETH net after gas is slightly negative, but the remaining FlokiSanta residual prevents determining the overall sign without valuing it.\"}",
+ "case_id": "pack_113",
+ "_time": "2026-10-19T18:22:04+0800"
+}

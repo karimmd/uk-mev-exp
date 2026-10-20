@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5fa464cefe8901d66c09b85d5fcdc55b3738c688",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.258436,
+ "gas_eth": 0.012972,
+ "profit_after_gas": 0.245464,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x00000000003b3cc22af3ae1eac0440bcee416b40 is the economic actor, selling TOKE into the shared Uniswap V2 pool 0x5fa464cefe8901d66c09b85d5fcdc55b3738c688 in the front leg and buying it back in the back leg around the victim. Netting WETH and ETH across front and back gives +0.258436 before gas, and +0.245464 after gas, with no residual TOKE.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2824,
+  "output_tokens": 12802,
+  "thinking_tokens": 12568
+ },
+ "_request_id": "6e28893f4d57a5e7282de989da6e4508",
+ "_response_id": "c39d929f-c221-4b5d-ab30-06e56a87d994",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x5fa464cefe8901d66c09b85d5fcdc55b3738c688\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.258436,\"gas_eth\":0.012972,\"profit_after_gas\":0.245464,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0x00000000003b3cc22af3ae1eac0440bcee416b40 is the economic actor, selling TOKE into the shared Uniswap V2 pool 0x5fa464cefe8901d66c09b85d5fcdc55b3738c688 in the front leg and buying it back in the back leg around the victim. Netting WETH and ETH across front and back gives +0.258436 before gas, and +0.245464 after gas, with no residual TOKE.\"}",
+ "case_id": "sym100_008",
+ "_time": "2026-10-19T19:30:12+0800"
+}

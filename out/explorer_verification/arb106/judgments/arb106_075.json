@@ -1,0 +1,29 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+  "0xb66c491e2356bf32b7e3ea14af7f60b3ed171a22",
+  "0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17",
+  "0x29c827ce49accf68a1a278c67c9d30c52fbbc348",
+  "0x22def8cf4e481417cb014d9dc64975ba12e3a184",
+  "0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537",
+  "0xc12c4c3e0008b838f75189bfb39283467cf6e5b3",
+  "0xaff587846a44aa086a6555ff69055d3380fd379a"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.062633,
+ "gas_eth": 0.055005,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs three WETH round trips, each through pools it swapped on: WETH\u2192QNT\u2192USDC\u2192VEGA\u2192WETH, WETH\u2192SDT\u2192WETH, and WETH\u21920xBTC\u2192WETH. Gross WETH is +0.062633 (3.828541 in, 3.765908 out). After the 0.055005 ETH gas fee that leaves about +0.007628 ETH. The fee is paid by the sender, which may be a different address from the actor, and no intermediate token is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0321712,
+ "_session": "b9e9a077-460a-4766-a808-0a9dbfb3058c",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\",\"0xb66c491e2356bf32b7e3ea14af7f60b3ed171a22\",\"0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17\",\"0x29c827ce49accf68a1a278c67c9d30c52fbbc348\",\"0x22def8cf4e481417cb014d9dc64975ba12e3a184\",\"0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537\",\"0xc12c4c3e0008b838f75189bfb39283467cf6e5b3\",\"0xaff587846a44aa086a6555ff69055d3380fd379a\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.062633,\"gas_eth\":0.055005,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor runs three WETH round trips, each through pools it swapped on: WETH\u2192QNT\u2192USDC\u2192VEGA\u2192WETH, WETH\u2192SDT\u2192WETH, and WETH\u21920xBTC\u2192WETH. Gross WETH is +0.062633 (3.828541 in, 3.765908 out). After the 0.055005 ETH gas fee that leaves about +0.007628 ETH. The fee is paid by the sender, which may be a different address from the actor, and no intermediate token is left over.\"}",
+ "case_id": "arb106_075",
+ "_time": "2026-10-13T22:27:27+0800"
+}

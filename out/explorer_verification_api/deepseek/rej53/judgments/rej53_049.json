@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x164fe0239d703379bddde3c80e4d4800a1cd452b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028397,
+ "gas_eth": 0.014053,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives 829.147676 BTC2X-FLI in the front leg and sends the same amount back via the shared UniV2 pair 0x164fe..., where the victim also swaps. WETH gain is 0.077816, less 0.049419 internal ETH and 0.014053 gas, leaving +0.014344 ETH-equivalent and no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3086,
+  "output_tokens": 7525,
+  "thinking_tokens": 7345
+ },
+ "_request_id": "bfeeff93b75ecd7ef8e5c919672c54d3",
+ "_response_id": "c8d49084-d0fa-46e9-ae6e-df9bfa5b6e77",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x164fe0239d703379bddde3c80e4d4800a1cd452b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.028397,\"gas_eth\":0.014053,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives 829.147676 BTC2X-FLI in the front leg and sends the same amount back via the shared UniV2 pair 0x164fe..., where the victim also swaps. WETH gain is 0.077816, less 0.049419 internal ETH and 0.014053 gas, leaving +0.014344 ETH-equivalent and no residual non-WETH holding.\"}",
+ "case_id": "rej53_049",
+ "_time": "2026-10-19T19:03:28+0800"
+}

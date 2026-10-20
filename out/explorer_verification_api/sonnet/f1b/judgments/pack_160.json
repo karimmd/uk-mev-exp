@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.00147,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 185.787870 COLLAR for 1.453431 WETH in the front leg and sells all of it back for 1.463231 WETH in the back leg, with the victim buying COLLAR on the same pool in between. The WETH gain is +0.009800, but the back leg sends 0.011270 ETH on to 0x829b\u2026 (likely a coinbase payment) and both legs show a gas fee of 0, so the net is about -0.00147 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3001,
+  "output_tokens": 692,
+  "thinking_tokens": 411
+ },
+ "_request_id": "req_011CgBRhe6U7qd1xHCNBsyLo",
+ "_response_id": "msg_011CgBRhfSqLsg5QiYTD5EjX",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\",\"pool\":\"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.00147,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 185.787870 COLLAR for 1.453431 WETH in the front leg and sells all of it back for 1.463231 WETH in the back leg, with the victim buying COLLAR on the same pool in between. The WETH gain is +0.009800, but the back leg sends 0.011270 ETH on to 0x829b\u2026 (likely a coinbase payment) and both legs show a gas fee of 0, so the net is about -0.00147 ETH.\"}",
+ "case_id": "pack_160",
+ "_time": "2026-10-19T18:19:50+0800"
+}

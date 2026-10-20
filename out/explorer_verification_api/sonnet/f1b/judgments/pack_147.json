@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x4d9824fbc04eff50ab1dac614eae4e20859d5c91",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender (0x7e10...) and each buys 525.230083 DEUS with ETH through the Uniswap router. No leg sells DEUS back, so no position is opened and closed. The sender is also the 'victim' sender, so this is the same actor repeating buys, which looks like a repeated or replayed swap rather than a sandwich. Q2 is not meaningful without a closing leg, so I answered no, though 'cannot tell' is also defensible.",
+ "net_eth_detail": "not applicable",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3624,
+  "output_tokens": 268,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRcWVRrEXf4miV2qbie",
+ "_response_id": "msg_011CgBRcZegqzPUEWFFrZa2J",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x4d9824fbc04eff50ab1dac614eae4e20859d5c91\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender (0x7e10...) and each buys 525.230083 DEUS with ETH through the Uniswap router. No leg sells DEUS back, so no position is opened and closed. The sender is also the 'victim' sender, so this is the same actor repeating buys, which looks like a repeated or replayed swap rather than a sandwich. Q2 is not meaningful without a closing leg, so I answered no, though 'cannot tell' is also defensible.\", \"net_eth_detail\": \"not applicable\"}",
+ "case_id": "pack_147",
+ "_time": "2026-10-19T18:18:39+0800"
+}

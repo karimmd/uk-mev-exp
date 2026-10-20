@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.094869,
+ "gas_eth": 0.030886,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (0xb591\u2026) sells 323.665965 PMON into the pool before the victim, who also sells PMON into that pool. It then buys back exactly 323.665965 PMON after the victim, so the PMON position is flat. The WETH net is 8.978000 - 8.883131 = +0.094869. Subtracting 0.030886 ETH of front and back gas leaves about +0.063983 ETH. The bracket runs sell-then-rebuy, which differs from the usual buy-then-sell, but the structure fits.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0269652,
+ "_session": "f6bc89c8-f3bf-4192-afaf-869753d4b7d5",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.094869, \"gas_eth\": 0.030886, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract (0xb591\u2026) sells 323.665965 PMON into the pool before the victim, who also sells PMON into that pool. It then buys back exactly 323.665965 PMON after the victim, so the PMON position is flat. The WETH net is 8.978000 - 8.883131 = +0.094869. Subtracting 0.030886 ETH of front and back gas leaves about +0.063983 ETH. The bracket runs sell-then-rebuy, which differs from the usual buy-then-sell, but the structure fits.\"}",
+ "case_id": "sym100_100",
+ "_time": "2026-10-13T21:45:16+0800"
+}

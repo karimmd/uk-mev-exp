@@ -1,0 +1,32 @@
+{
+ "actor": "0xce50840272d623272d6aef25e403f2265c27cfe7",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.376187,
+ "gas_eth": 0,
+ "profit_after_gas": 0.376187,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received ALBT in the front leg via the WETH/USDT and USDT/ALBT pools, then sold the same ALBT amount in the back leg through the USDT/ALBT pool also used by the victim. ETH/WETH flows give +21.450911 WETH in, -20.949328 WETH out, and -0.125396 ETH out, with zero recorded gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3243,
+  "output_tokens": 6032,
+  "thinking_tokens": 5834
+ },
+ "_request_id": "1f8b7ebb17b115d6c670b51c6f036650",
+ "_response_id": "24c539d1-d444-4110-93a5-27c3209aa0f6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xce50840272d623272d6aef25e403f2265c27cfe7\",\"pool\":\"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.376187,\"gas_eth\":0,\"profit_after_gas\":0.376187,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received ALBT in the front leg via the WETH/USDT and USDT/ALBT pools, then sold the same ALBT amount in the back leg through the USDT/ALBT pool also used by the victim. ETH/WETH flows give +21.450911 WETH in, -20.949328 WETH out, and -0.125396 ETH out, with zero recorded gas fees.\"}",
+ "case_id": "rej53_010",
+ "_time": "2026-10-19T19:41:04+0800"
+}

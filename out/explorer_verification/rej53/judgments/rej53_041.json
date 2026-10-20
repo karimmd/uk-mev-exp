@@ -1,0 +1,17 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x553db97b11642e0f9471d511296577421518de1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.05002,
+ "gas_eth": 0.000196,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender 0xf6da... paid 2.720728 WETH for 141464408105908.718750 MAK in the front leg. The victim bought MAK on the same pool in between. In the back leg the sender returned the exact same MAK amount for 2.770748 WETH. That nets +0.05002 WETH, or about +0.04982 ETH after front and back gas of about 0.000196 ETH, with no MAK left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0240712,
+ "_session": "5e388ff6-62c5-47fb-9a61-c8def6da0719",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0x553db97b11642e0f9471d511296577421518de1a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.05002,\"gas_eth\":0.000196,\"residual\":\"none\",\"confidence\":4,\"note\":\"The sender 0xf6da... paid 2.720728 WETH for 141464408105908.718750 MAK in the front leg. The victim bought MAK on the same pool in between. In the back leg the sender returned the exact same MAK amount for 2.770748 WETH. That nets +0.05002 WETH, or about +0.04982 ETH after front and back gas of about 0.000196 ETH, with no MAK left over.\"}",
+ "case_id": "rej53_041",
+ "_time": "2026-10-13T22:01:43+0800"
+}

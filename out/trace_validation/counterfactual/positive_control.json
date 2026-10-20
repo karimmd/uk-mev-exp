@@ -1,0 +1,89 @@
+{
+  "actual_reproduced": 0,
+  "blocks_tried": 5,
+  "counterfactual_differs": 0,
+  "generated_at": "2026-09-19 01:26:09 CST",
+  "results": [
+    {
+      "block": 12027856,
+      "metrics": {
+        "actual_gas_used": 129602,
+        "actual_reproduces_gas": false,
+        "actual_reproduces_logs": true,
+        "adjacent": false,
+        "design": "FULL_REEXECUTION_FEASIBLE",
+        "diff_tier": 1,
+        "intervening": 179,
+        "onchain_gas_used": 117586,
+        "opening_index": 3,
+        "victim_index": 183
+      },
+      "pool": "0xc60c479f3cc66f1654a4113f4949c98ce77a9995",
+      "reason": "actual_execution_did_not_reproduce",
+      "seconds": 8.37,
+      "state": "technical_unavailable"
+    },
+    {
+      "block": 11597573,
+      "metrics": {
+        "actual_gas_used": 215373,
+        "actual_reproduces_gas": false,
+        "actual_reproduces_logs": true,
+        "adjacent": false,
+        "design": "FULL_REEXECUTION_FEASIBLE",
+        "diff_tier": 1,
+        "intervening": 87,
+        "onchain_gas_used": 203357,
+        "opening_index": 13,
+        "victim_index": 101
+      },
+      "pool": "0x454f11d58e27858926d7a4ece8bfea2c33e97b13",
+      "reason": "actual_execution_did_not_reproduce",
+      "seconds": 7.36,
+      "state": "technical_unavailable"
+    },
+    {
+      "block": 10652463,
+      "metrics": {
+        "actual_gas_used": 129606,
+        "actual_reproduces_gas": false,
+        "actual_reproduces_logs": true,
+        "adjacent": false,
+        "design": "FULL_REEXECUTION_FEASIBLE",
+        "diff_tier": 1,
+        "intervening": 80,
+        "onchain_gas_used": 117590,
+        "opening_index": 43,
+        "victim_index": 124
+      },
+      "pool": "0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e",
+      "reason": "actual_execution_did_not_reproduce",
+      "seconds": 6.75,
+      "state": "technical_unavailable"
+    },
+    {
+      "block": 10381484,
+      "metrics": {
+        "actual_gas_used": 125445,
+        "actual_reproduces_gas": false,
+        "actual_reproduces_logs": true,
+        "adjacent": false,
+        "design": "FULL_REEXECUTION_FEASIBLE",
+        "diff_tier": 1,
+        "intervening": 72,
+        "onchain_gas_used": 113429,
+        "opening_index": 2,
+        "victim_index": 75
+      },
+      "pool": "0x5e64cd6f84d0ee2ad2a84cadc464184e36274e0c",
+      "reason": "actual_execution_did_not_reproduce",
+      "seconds": 6.76,
+      "state": "technical_unavailable"
+    }
+  ],
+  "same_pool_pairs_found": 4,
+  "states": {
+    "technical_unavailable": 4
+  },
+  "task": "04_positive_control"
+}

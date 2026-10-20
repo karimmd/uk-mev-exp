@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x3a8027b37cd119cde72c1086ab5d7de912f61b61"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.009999,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.009999,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Triangular arbitrage WETH->USDC->RAD->WETH across three distinct pools. Actor nets +0.025957 WETH and pays 0.015958 ETH to the miner, leaving +0.009999 ETH equivalent before zero gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2114,
+  "output_tokens": 8251,
+  "thinking_tokens": 8007
+ },
+ "_request_id": "632bd1e11f5d5365a4619fe30f56b90b",
+ "_response_id": "c3fd43c4-fba2-47bb-8692-5fc5c16ffa13",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000051666bbfbb42925c3ee5d50cf6b10\",\"pools\":[\"0x8c1c499b1796d7f3c2521ac37186b52de024e58c\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x3a8027b37cd119cde72c1086ab5d7de912f61b61\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.009999,\"gas_eth\":0.0,\"profit_after_gas\":0.009999,\"residual\":\"none\",\"confidence\":5,\"note\":\"Triangular arbitrage WETH->USDC->RAD->WETH across three distinct pools. Actor nets +0.025957 WETH and pays 0.015958 ETH to the miner, leaving +0.009999 ETH equivalent before zero gas.\"}",
+ "case_id": "arb106_059",
+ "_time": "2026-10-19T20:00:49+0800"
+}

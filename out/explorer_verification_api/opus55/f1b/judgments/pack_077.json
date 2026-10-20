@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2fa7361d7e3b812375604681eb155a97b4d65e9e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.054456,
+ "gas_eth": 0.176447,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x499dd9 buys 13.817921 aKLIMA for 4.890465 WETH on pool 0x2fa736 in the front leg. The victim then buys aKLIMA on the same pool, and the contract sells the identical amount back for 5.202896 WETH, a gross gain of 0.312431. Subtracting the 0.190440 ETH sent from the sender and forwarded to 0x3ecef0 (likely a builder or miner payment) and 0.176447 ETH of gas leaves about -0.054 ETH, though without that 0.19 ETH payment the result would be positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2753,
+  "output_tokens": 745,
+  "thinking_tokens": 415
+ },
+ "_request_id": "req_011CgBQzP6wEratBdFxpY75U",
+ "_response_id": "msg_011CgBQzW6ccuBNsQrEtPZC5",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x2fa7361d7e3b812375604681eb155a97b4d65e9e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.054456, \"gas_eth\": 0.176447, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x499dd9 buys 13.817921 aKLIMA for 4.890465 WETH on pool 0x2fa736 in the front leg. The victim then buys aKLIMA on the same pool, and the contract sells the identical amount back for 5.202896 WETH, a gross gain of 0.312431. Subtracting the 0.190440 ETH sent from the sender and forwarded to 0x3ecef0 (likely a builder or miner payment) and 0.176447 ETH of gas leaves about -0.054 ETH, though without that 0.19 ETH payment the result would be positive.\"}",
+ "case_id": "pack_077",
+ "_time": "2026-10-19T18:10:34+0800"
+}

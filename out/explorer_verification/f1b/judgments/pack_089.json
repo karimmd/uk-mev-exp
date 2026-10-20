@@ -1,0 +1,17 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x66e32d1b776a43935ed20e8dc39a27a140d31c8f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000207,
+ "gas_eth": 0.008497,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The contract 0x1315 buys 7707.977757 EPK on the EPK/USDT pool 0x66e3 before the victim's USDT->EPK swap. It sells the same amount back after the victim, routing through the WETH/USDT pool 0x06da. WETH net is +0.009677. Subtracting the 0.000973 ETH payment to 0x52bc and 0.008497 ETH of gas leaves about +0.0002, so the margin is thin. I treated the 0.100192 ETH sent to the operator's own sender EOA as an internal transfer; counting it as a cost would make Q2 negative.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0314192,
+ "_session": "18b62d6e-7c07-4bf7-8832-0413a799ee7a",
+ "_raw": "{\"actor\": \"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\", \"pool\": \"0x66e32d1b776a43935ed20e8dc39a27a140d31c8f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000207, \"gas_eth\": 0.008497, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The contract 0x1315 buys 7707.977757 EPK on the EPK/USDT pool 0x66e3 before the victim's USDT->EPK swap. It sells the same amount back after the victim, routing through the WETH/USDT pool 0x06da. WETH net is +0.009677. Subtracting the 0.000973 ETH payment to 0x52bc and 0.008497 ETH of gas leaves about +0.0002, so the margin is thin. I treated the 0.100192 ETH sent to the operator's own sender EOA as an internal transfer; counting it as a cost would make Q2 negative.\"}",
+ "case_id": "pack_089",
+ "_time": "2026-10-13T20:22:00+0800"
+}

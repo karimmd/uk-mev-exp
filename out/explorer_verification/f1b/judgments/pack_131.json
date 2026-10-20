@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x60594a405d53811d3bc4766596efd80fd545a270",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.339638,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 1,482,581.07 DAI with 608.131 WETH in the front leg, the victim sells WETH for DAI on that same DAI/WETH V3 pool, and the contract sells all the DAI back for 608.617 WETH. That is +0.485197 WETH, less the 0.145559 ETH sent out in the back leg (likely a miner payment), which leaves +0.339638 ETH. Both bot legs show 0.0 gwei and a 0 fee, so gas is taken as 0, and the DAI position is fully closed.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0320827,
+ "_session": "8e994e9f-c601-4478-bb45-afa74f8cbe88",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x60594a405d53811d3bc4766596efd80fd545a270\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.339638, \"gas_eth\": 0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 1,482,581.07 DAI with 608.131 WETH in the front leg, the victim sells WETH for DAI on that same DAI/WETH V3 pool, and the contract sells all the DAI back for 608.617 WETH. That is +0.485197 WETH, less the 0.145559 ETH sent out in the back leg (likely a miner payment), which leaves +0.339638 ETH. Both bot legs show 0.0 gwei and a 0 fee, so gas is taken as 0, and the DAI position is fully closed.\"}",
+ "case_id": "pack_131",
+ "_time": "2026-10-13T20:29:48+0800"
+}

@@ -1,0 +1,41 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x7b504a15ef05f4eed1c07208c5815c49022a0c19",
+  "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0xac5a2c404ebba22a869998089ac7893ff4e1f0a7",
+  "0xc40d16476380e4037e6b1a2594caf6a6cc8da967"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.023495,
+ "gas_eth": 0.020988,
+ "profit_after_gas": 0.002507,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract runs two WETH-in/WETH-out routes. The first is GRT between the V2 pool and the V3 pool, netting +0.008803 WETH. The second is WETH to LINK to USDT to WETH across three pools, netting +0.014692 WETH. The actor only receives and sends WETH, all with pools, and keeps +0.023495 WETH, which is still +0.002507 ETH after the 0.020988 ETH gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2550,
+  "output_tokens": 1229,
+  "thinking_tokens": 781
+ },
+ "_request_id": "req_011CgBXNo8cHPNXfdUcVggyX",
+ "_response_id": "msg_011CgBXNoTiCGXkj8SuHFsJj",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x7b504a15ef05f4eed1c07208c5815c49022a0c19\",\"0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0xac5a2c404ebba22a869998089ac7893ff4e1f0a7\",\"0xc40d16476380e4037e6b1a2594caf6a6cc8da967\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.023495,\"gas_eth\":0.020988,\"profit_after_gas\":0.002507,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract runs two WETH-in/WETH-out routes. The first is GRT between the V2 pool and the V3 pool, netting +0.008803 WETH. The second is WETH to LINK to USDT to WETH across three pools, netting +0.014692 WETH. The actor only receives and sends WETH, all with pools, and keeps +0.023495 WETH, which is still +0.002507 ETH after the 0.020988 ETH gas fee.\"}",
+ "case_id": "arb106_068",
+ "_time": "2026-10-19T19:34:18+0800"
+}

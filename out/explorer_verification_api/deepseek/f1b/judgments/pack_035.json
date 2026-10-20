@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.195573,
+ "gas_eth": 0.009937,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells RVP for WETH on the shared RVP/WETH pool, while back buys RVP back; this is the opposite of opening a non-WETH position in the front leg. Gross WETH net is +0.205510; after gas fees of 0.009937 ETH the net is +0.195573 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2325,
+  "output_tokens": 11372,
+  "thinking_tokens": 11202
+ },
+ "_request_id": "566614ba1868754ef7bae3aba0911330",
+ "_response_id": "6be0ee20-e971-4853-a691-6677c66d4457",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.195573,\"gas_eth\":0.009937,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells RVP for WETH on the shared RVP/WETH pool, while back buys RVP back; this is the opposite of opening a non-WETH position in the front leg. Gross WETH net is +0.205510; after gas fees of 0.009937 ETH the net is +0.195573 ETH.\"}",
+ "case_id": "pack_035",
+ "_time": "2026-10-19T18:09:34+0800"
+}

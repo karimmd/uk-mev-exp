@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none observable; no MXS purchase is shown, so any MXS position was opened outside these legs",
+ "confidence": 4,
+ "note": "Front (sender 0x2cfc...) and back (sender 0x2435...) are different addresses, and both legs sell MXS into the shared pool 0x13bb... for WETH (0.279685 and 0.148546). The victim buys MXS on that pool. Neither actor buys MXS and then sells it back, so no position is opened and closed, which means this is not a sandwich bracket and a single actor's net ETH can't be defined.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0254187,
+ "_session": "c1ce3a9b-2d3c-43c8-8a55-71c3d8d62223",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none observable; no MXS purchase is shown, so any MXS position was opened outside these legs\", \"confidence\": 4, \"note\": \"Front (sender 0x2cfc...) and back (sender 0x2435...) are different addresses, and both legs sell MXS into the shared pool 0x13bb... for WETH (0.279685 and 0.148546). The victim buys MXS on that pool. Neither actor buys MXS and then sells it back, so no position is opened and closed, which means this is not a sandwich bracket and a single actor's net ETH can't be defined.\"}",
+ "case_id": "pack_151",
+ "_time": "2026-10-13T20:33:49+0800"
+}

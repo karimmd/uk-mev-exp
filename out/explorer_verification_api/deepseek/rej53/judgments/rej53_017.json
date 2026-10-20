@@ -1,0 +1,31 @@
+{
+ "actor": "0x78cce34b82f8cef05eb658ddcf10f9a154298ed4",
+ "pool": "0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0948764605,
+ "gas_eth": 0.0180185395,
+ "residual": "74275031939.155762 eMax",
+ "confidence": 5,
+ "note": "Front and back both execute through 0x78cce34b82f8cef05eb658ddcf10f9a154298ed4, which receives eMax on the shared UniswapV2 pair in front and sends eMax back in back; the victim also trades that pair between them. Gross ETH/WETH across front/back is +0.112895 (5.692895 - 5.58); after gas it is +0.0948764605, leaving a positive eMax residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2732,
+  "output_tokens": 4679,
+  "thinking_tokens": 4457
+ },
+ "_request_id": "96f1437c2ba8a7940fe256c4ad19459c",
+ "_response_id": "86271645-c538-4871-95ee-39fa8dd0f15a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x78cce34b82f8cef05eb658ddcf10f9a154298ed4\",\"pool\":\"0xb1432d4a6b6089d4cd198cad4cd7d5b44a0b7111\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.0948764605,\"gas_eth\":0.0180185395,\"residual\":\"74275031939.155762 eMax\",\"confidence\":5,\"note\":\"Front and back both execute through 0x78cce34b82f8cef05eb658ddcf10f9a154298ed4, which receives eMax on the shared UniswapV2 pair in front and sends eMax back in back; the victim also trades that pair between them. Gross ETH/WETH across front/back is +0.112895 (5.692895 - 5.58); after gas it is +0.0948764605, leaving a positive eMax residual.\"}",
+ "case_id": "rej53_017",
+ "_time": "2026-10-19T18:58:46+0800"
+}

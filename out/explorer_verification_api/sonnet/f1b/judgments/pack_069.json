@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1f964ff83c54ce447adae5cb93f9ec17018bf55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.006336,
+ "gas_eth": 0.0,
+ "residual": "about 501.68 billion BEZOGE (25104.90B bought minus 24603.23B sold)",
+ "confidence": 4,
+ "note": "The actor contract buys BEZOGE with 2.211908 WETH in the front leg. The victim buys BEZOGE on the same pool (0x1f96\u2026) in between, and the actor sells back for 2.270042 WETH. The back leg also sends 0.051798 ETH to 0x00192f\u2026 (likely a miner tip), so net is 0.058134 \u2212 0.051798 = +0.006336 ETH, and gas is 0 at 0 gwei. The leftover BEZOGE could only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3522,
+  "output_tokens": 1063,
+  "thinking_tokens": 734
+ },
+ "_request_id": "req_011CgBQpZRmDZ8DcrDMakBfH",
+ "_response_id": "msg_011CgBQpdvsdERpnspk9kiF5",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1f964ff83c54ce447adae5cb93f9ec17018bf55b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.006336,\"gas_eth\":0.0,\"residual\":\"about 501.68 billion BEZOGE (25104.90B bought minus 24603.23B sold)\",\"confidence\":4,\"note\":\"The actor contract buys BEZOGE with 2.211908 WETH in the front leg. The victim buys BEZOGE on the same pool (0x1f96\u2026) in between, and the actor sells back for 2.270042 WETH. The back leg also sends 0.051798 ETH to 0x00192f\u2026 (likely a miner tip), so net is 0.058134 \u2212 0.051798 = +0.006336 ETH, and gas is 0 at 0 gwei. The leftover BEZOGE could only add value, so the sign stays positive.\"}",
+ "case_id": "pack_069",
+ "_time": "2026-10-19T18:08:23+0800"
+}

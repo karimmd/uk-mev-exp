@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000740a22fa209cf6806d38f7605385",
+ "pool": "0x287856d10418e01ef1e93df9962b04d9a3a521c9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.466671,
+ "gas_eth": 0.01153,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor bought SSL in the front leg and sold the same SSL amount in the back leg on the same UniswapV2 pool the victim used. WETH gained across back vs front is 0.478201, and subtracting front/back gas leaves a positive net.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2272,
+  "output_tokens": 2229,
+  "thinking_tokens": 2077
+ },
+ "_request_id": "58e8d3662b5b7d140f4ea985069e8cc6",
+ "_response_id": "1e0a0e5d-85d3-4ba7-9fea-ce4bc14c4f08",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000740a22fa209cf6806d38f7605385\",\"pool\":\"0x287856d10418e01ef1e93df9962b04d9a3a521c9\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.466671,\"gas_eth\":0.01153,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor bought SSL in the front leg and sold the same SSL amount in the back leg on the same UniswapV2 pool the victim used. WETH gained across back vs front is 0.478201, and subtracting front/back gas leaves a positive net.\"}",
+ "case_id": "pack_144",
+ "_time": "2026-10-19T18:28:35+0800"
+}

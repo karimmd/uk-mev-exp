@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc66ce0de9fd74e6ce40b6b8a9e86103ec56e45ed",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.070177,
+ "gas_eth": 0.022299,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x499dd9 bought 33816.95 KST for 17.627637 WETH on pool 0xc66ce0 before the victim, who bought KST on the same pool. It then sold exactly the same 33816.95 KST back for 19.593682 WETH, a gross gain of 1.966045 WETH. The 0.873569 ETH sent as value and forwarded to 0x1ad91e (likely a builder or miner tip) and the 0.022299 ETH of gas are subtracted, leaving about +1.070 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2987,
+  "output_tokens": 650,
+  "thinking_tokens": 336
+ },
+ "_request_id": "req_011CgBR2h7Cfwn8CgTWJeawY",
+ "_response_id": "msg_011CgBR2oNzPh8p2Wip1zz1N",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0xc66ce0de9fd74e6ce40b6b8a9e86103ec56e45ed\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.070177, \"gas_eth\": 0.022299, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x499dd9 bought 33816.95 KST for 17.627637 WETH on pool 0xc66ce0 before the victim, who bought KST on the same pool. It then sold exactly the same 33816.95 KST back for 19.593682 WETH, a gross gain of 1.966045 WETH. The 0.873569 ETH sent as value and forwarded to 0x1ad91e (likely a builder or miner tip) and the 0.022299 ETH of gas are subtracted, leaving about +1.070 ETH.\"}",
+ "case_id": "pack_081",
+ "_time": "2026-10-19T18:11:07+0800"
+}

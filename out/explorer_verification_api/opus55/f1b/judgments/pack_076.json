@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x110492b31c59716ac47337e616804e3e3adc0b4a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01867,
+ "gas_eth": 0.108075,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract routed WETH through the WETH/BADGER pool 0x9752 and into the BADGER/WBTC pool 0x1104, taking 1.565618 WBTC; the victim then sold BADGER for WBTC on 0x1104, and the back leg returned exactly 1.565618 WBTC along the reverse route. The WETH gain of 0.126745 minus 0.108075 in gas leaves about +0.01867 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4303,
+  "output_tokens": 559,
+  "thinking_tokens": 285
+ },
+ "_request_id": "req_011CgBQy77iiQsNX4v1TAkwz",
+ "_response_id": "msg_011CgBQyBvCyMsXXCdhYhSF1",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x110492b31c59716ac47337e616804e3e3adc0b4a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.01867, \"gas_eth\": 0.108075, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract routed WETH through the WETH/BADGER pool 0x9752 and into the BADGER/WBTC pool 0x1104, taking 1.565618 WBTC; the victim then sold BADGER for WBTC on 0x1104, and the back leg returned exactly 1.565618 WBTC along the reverse route. The WETH gain of 0.126745 minus 0.108075 in gas leaves about +0.01867 ETH.\"}",
+ "case_id": "pack_076",
+ "_time": "2026-10-19T18:10:15+0800"
+}

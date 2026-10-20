@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.155204,
+ "gas_eth": 0,
+ "profit_after_gas": 0.155204,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front buys STARL and back sells the same STARL amount on the same Uniswap V2 pool, with the victim between them. Net WETH gain is 0.155204, gas is zero, and no STARL residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2827,
+  "output_tokens": 2429,
+  "thinking_tokens": 2264
+ },
+ "_request_id": "41ab0b377fb686490b6181181308b7d5",
+ "_response_id": "118532ba-6764-4c37-bfbf-c5aae5024af0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.155204,\"gas_eth\":0,\"profit_after_gas\":0.155204,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front buys STARL and back sells the same STARL amount on the same Uniswap V2 pool, with the victim between them. Net WETH gain is 0.155204, gas is zero, and no STARL residual remains.\"}",
+ "case_id": "pack_169",
+ "_time": "2026-10-19T19:24:16+0800"
+}

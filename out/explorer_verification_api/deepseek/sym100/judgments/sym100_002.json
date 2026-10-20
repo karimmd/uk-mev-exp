@@ -1,0 +1,31 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x1ab24a692eff49b9712ceacdef853152d78b9050",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.035772,
+ "gas_eth": 0.025594,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract traded on the shared XPb/WETH pool before and after the victim, but the front leg sells XPb and the back leg buys it back, so it did not open a non-WETH position in the front and close it in the back. Net WETH gain is 0.061366 minus 0.025594 gas, leaving +0.035772 ETH and no residual XPb.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2207,
+  "output_tokens": 8381,
+  "thinking_tokens": 8208
+ },
+ "_request_id": "93f1a98e73d78baef8ca68bc63b4fb82",
+ "_response_id": "0c401bdb-53ea-4856-8fdd-125c4e9de178",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdac775cd972ac612907682ff757af66f75eecece\",\"pool\":\"0x1ab24a692eff49b9712ceacdef853152d78b9050\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.035772,\"gas_eth\":0.025594,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract traded on the shared XPb/WETH pool before and after the victim, but the front leg sells XPb and the back leg buys it back, so it did not open a non-WETH position in the front and close it in the back. Net WETH gain is 0.061366 minus 0.025594 gas, leaving +0.035772 ETH and no residual XPb.\"}",
+ "case_id": "sym100_002",
+ "_time": "2026-10-19T18:38:27+0800"
+}

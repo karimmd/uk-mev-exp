@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011095,
+ "gas_eth": 0.0,
+ "residual": "about 266.9 billion KISHU (13349661072931.72 bought, 13082763216650.99 sold)",
+ "confidence": 4,
+ "note": "The same contract buys KISHU with 11.096637 WETH in the front leg and sells most of it back for 11.233617 WETH in the back leg, on the KISHU/WETH pool the victim also swaps through, so the bracket is clear. The WETH gain is 0.13698, and subtracting the 0.125885 ETH forwarded to 0x1ad9... in the back leg leaves +0.011095 with zero gas fee shown. The small leftover KISHU balance can only add to this, so the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0271667,
+ "_session": "4f88fd8a-9d3c-4e80-a0ff-3dbaf0d31e92",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xf82d8ec196fb0d56c6b82a8b1870f09502a49f88\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.011095, \"gas_eth\": 0.0, \"residual\": \"about 266.9 billion KISHU (13349661072931.72 bought, 13082763216650.99 sold)\", \"confidence\": 4, \"note\": \"The same contract buys KISHU with 11.096637 WETH in the front leg and sells most of it back for 11.233617 WETH in the back leg, on the KISHU/WETH pool the victim also swaps through, so the bracket is clear. The WETH gain is 0.13698, and subtracting the 0.125885 ETH forwarded to 0x1ad9... in the back leg leaves +0.011095 with zero gas fee shown. The small leftover KISHU balance can only add to this, so the sign is positive.\"}",
+ "case_id": "pack_149",
+ "_time": "2026-10-13T20:33:31+0800"
+}

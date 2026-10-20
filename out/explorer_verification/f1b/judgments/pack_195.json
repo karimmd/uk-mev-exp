@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.068889,
+ "residual": "front sender 0x5136 sold 2106242.66 MXS for 16.111 ETH and holds no MXS from this leg. It is a sell, not an opened long position, and nothing closes it.",
+ "confidence": 4,
+ "note": "All three legs trade the same MXS/WETH pool, but the front sender (0x5136) sells MXS for ETH. The back leg is a different address (0x09ae) buying MXS with only 0.03 ETH, so no single actor opens and closes a position around the victim. Because the actors differ, there is no consistent net for Q2. Gas for the front and back legs together is 0.063082 + 0.005807 = 0.068889 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.029499199999999996,
+ "_session": "279667fb-8e60-4605-a24e-57c9d3a75cec",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.068889, \"residual\": \"front sender 0x5136 sold 2106242.66 MXS for 16.111 ETH and holds no MXS from this leg. It is a sell, not an opened long position, and nothing closes it.\", \"confidence\": 4, \"note\": \"All three legs trade the same MXS/WETH pool, but the front sender (0x5136) sells MXS for ETH. The back leg is a different address (0x09ae) buying MXS with only 0.03 ETH, so no single actor opens and closes a position around the victim. Because the actors differ, there is no consistent net for Q2. Gas for the front and back legs together is 0.063082 + 0.005807 = 0.068889 ETH.\"}",
+ "case_id": "pack_195",
+ "_time": "2026-10-13T20:42:56+0800"
+}

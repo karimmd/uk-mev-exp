@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x110492b31c59716ac47337e616804e3e3adc0b4a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.126745,
+ "gas_eth": 0.108075,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract pays 68.406470 WETH through the WETH/BADGER pool, routes the BADGER into the BADGER/WBTC pool and receives 1.565618 WBTC. In the back leg it returns exactly that WBTC and receives 68.533215 WETH. The victim sells BADGER for WBTC on the same BADGER/WBTC pool in between. The WETH gain of 0.126745 exceeds the combined gas of 0.108075, leaving about +0.01867 ETH with no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0263807,
+ "_session": "bd39b7f0-413d-4cf3-af5c-8b8d27110867",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x110492b31c59716ac47337e616804e3e3adc0b4a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.126745, \"gas_eth\": 0.108075, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract pays 68.406470 WETH through the WETH/BADGER pool, routes the BADGER into the BADGER/WBTC pool and receives 1.565618 WBTC. In the back leg it returns exactly that WBTC and receives 68.533215 WETH. The victim sells BADGER for WBTC on the same BADGER/WBTC pool in between. The WETH gain of 0.126745 exceeds the combined gas of 0.108075, leaving about +0.01867 ETH with no residual token.\"}",
+ "case_id": "pack_076",
+ "_time": "2026-10-13T20:19:04+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xf44e8ff3bb644479124e691bf572f7813a1bc499",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.05747,
+ "gas_eth": 0.005716,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract (called by the same sender in both legs) sells 1.212499 EDDA into the pool in the front leg, the victim sells EDDA into that pool in between, and the back leg buys back exactly 1.212499 EDDA, so there is no residual token. WETH net is +0.809000 - 0.751530 = +0.05747 before gas, or about +0.05175 after the 0.005716 ETH gas for the two legs. The bracket runs sell-first rather than buy-first, which is why confidence is not higher.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0244087,
+ "_session": "e7470135-c08e-49a4-9755-7f660940ac50",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xf44e8ff3bb644479124e691bf572f7813a1bc499\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.05747, \"gas_eth\": 0.005716, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract (called by the same sender in both legs) sells 1.212499 EDDA into the pool in the front leg, the victim sells EDDA into that pool in between, and the back leg buys back exactly 1.212499 EDDA, so there is no residual token. WETH net is +0.809000 - 0.751530 = +0.05747 before gas, or about +0.05175 after the 0.005716 ETH gas for the two legs. The bracket runs sell-first rather than buy-first, which is why confidence is not higher.\"}",
+ "case_id": "sym100_020",
+ "_time": "2026-10-13T21:26:50+0800"
+}

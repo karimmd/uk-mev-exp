@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.137795,
+ "gas_eth": 0.008274,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg gives WETH and receives 373.776975 OHM into 0x000...3b3 via the OHM/DAI V2 pool 0x34d7; back leg returns exactly that OHM to the same pool. The victim also trades 0x34d7. Net WETH gain is 0.146069 ETH less 0.008274 ETH gas, with no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3004,
+  "output_tokens": 4426,
+  "thinking_tokens": 4237
+ },
+ "_request_id": "0fdfef6840b8e2a27c02224bbc2b6446",
+ "_response_id": "3994018d-e70a-4ae0-b719-2d218d328bc8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.137795,\"gas_eth\":0.008274,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leg gives WETH and receives 373.776975 OHM into 0x000...3b3 via the OHM/DAI V2 pool 0x34d7; back leg returns exactly that OHM to the same pool. The victim also trades 0x34d7. Net WETH gain is 0.146069 ETH less 0.008274 ETH gas, with no non-WETH residual.\"}",
+ "case_id": "pack_088",
+ "_time": "2026-10-19T18:17:29+0800"
+}

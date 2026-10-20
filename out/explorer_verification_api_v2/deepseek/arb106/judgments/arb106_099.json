@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0xa20ad630cee74bc834aa9b8fcb432c5c02710479",
+  "0x63c1a7269bf3df0731446cb55cf0e3acccedb0f8",
+  "0x6a0c7b96bdac7190baf318c133d4bf026423ec31"
+ ],
+ "cycle_token": "REVV",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.00189,
+ "gas_eth": 0,
+ "profit_after_gas": 0.00189,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor swapped REVV/LMT through three pools, with REVV and LMT netting to zero, then received WETH from a V3 pool, withdrew it to ETH, and paid 0.025112 ETH to the builder. The remaining 0.00189 ETH is positive profit; gas fee is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2112,
+  "output_tokens": 11309,
+  "thinking_tokens": 11055
+ },
+ "_request_id": "dfc1f868a37cbbf01e1757d3bcb71452",
+ "_response_id": "d81a0a6e-b497-4049-b8c1-a35c46df7ea1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0xa20ad630cee74bc834aa9b8fcb432c5c02710479\",\"0x63c1a7269bf3df0731446cb55cf0e3acccedb0f8\",\"0x6a0c7b96bdac7190baf318c133d4bf026423ec31\"],\"cycle_token\":\"REVV\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.00189,\"gas_eth\":0,\"profit_after_gas\":0.00189,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor swapped REVV/LMT through three pools, with REVV and LMT netting to zero, then received WETH from a V3 pool, withdrew it to ETH, and paid 0.025112 ETH to the builder. The remaining 0.00189 ETH is positive profit; gas fee is zero.\"}",
+ "case_id": "arb106_099",
+ "_time": "2026-10-19T20:09:27+0800"
+}

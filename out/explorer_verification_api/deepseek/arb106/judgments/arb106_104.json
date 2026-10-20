@@ -1,0 +1,38 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4",
+  "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+  "0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.00756,
+ "gas_eth": 0.181444,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor 0x9762... sends 12.25 WETH to a Uniswap V2 pool and receives 12.439004 WETH from another via a three-pool route (WETH->MIM->USDC->WETH). Net WETH profit is 0.189004, and after the 0.181444 ETH gas fee the operation remains slightly positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1578,
+  "output_tokens": 14567,
+  "thinking_tokens": 14307
+ },
+ "_request_id": "62ef7a3f4c800e9359a181b570c1f7d3",
+ "_response_id": "88e41004-333e-4790-9356-7683d8aaa2b1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x9762b1d716bb97735905996e013d61c140722249\",\"pools\":[\"0x07d5695a24904cc1b6e3bd57cc7780b90618e3c4\",\"0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc\",\"0x298b7c5e0770d151e4c5cf6cca4dae3a3ffc8e27\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.00756,\"gas_eth\":0.181444,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor 0x9762... sends 12.25 WETH to a Uniswap V2 pool and receives 12.439004 WETH from another via a three-pool route (WETH->MIM->USDC->WETH). Net WETH profit is 0.189004, and after the 0.181444 ETH gas fee the operation remains slightly positive.\"}",
+ "case_id": "arb106_104",
+ "_time": "2026-10-19T19:43:56+0800"
+}

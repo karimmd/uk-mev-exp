@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.044803,
+ "gas_eth": 0.039437,
+ "profit_after_gas": 0.005366,
+ "residual": "168395427909.888672 SANSHU",
+ "confidence": 5,
+ "note": "The same contract actor buys SANSHU on the SANSHU/WETH pool in front and sells it back after the victim trades on that same pool. Net WETH is +0.044803 before 0.039437 gas, leaving +0.005366 ETH, plus leftover SANSHU.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2708,
+  "output_tokens": 4018,
+  "thinking_tokens": 3837
+ },
+ "_request_id": "9be86f7cc0ec39f6dd89b5185c7b3365",
+ "_response_id": "626b0508-f938-4622-89a0-02a2748c5494",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xa7ad4ce6c21d9e875f1067cd377256326b483002\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.044803,\"gas_eth\":0.039437,\"profit_after_gas\":0.005366,\"residual\":\"168395427909.888672 SANSHU\",\"confidence\":5,\"note\":\"The same contract actor buys SANSHU on the SANSHU/WETH pool in front and sells it back after the victim trades on that same pool. Net WETH is +0.044803 before 0.039437 gas, leaving +0.005366 ETH, plus leftover SANSHU.\"}",
+ "case_id": "pack_051",
+ "_time": "2026-10-19T19:09:38+0800"
+}

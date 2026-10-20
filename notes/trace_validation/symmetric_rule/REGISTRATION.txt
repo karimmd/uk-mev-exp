@@ -1,0 +1,2 @@
+sha256 db651ebd5c4560a6e5742ee3610209a2d4920658c9e8cf54d8c0be7ded19624d SYMMETRIC_RULE.md
+registered_at 2026-10-13T19:40:05+08:00 (read from date -Is on the server)

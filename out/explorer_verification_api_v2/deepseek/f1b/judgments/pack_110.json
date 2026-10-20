@@ -1,0 +1,32 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.250298,
+ "gas_eth": 0.159357,
+ "profit_after_gas": 0.090941,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received 31,120.111039 USDT in the front leg and gave the same amount back in the back leg on the RACA/USDT pool shared with the victim. Net WETH rose from 6.720188 out to 6.970486 in, and subtracting the two gas fees leaves a positive result with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2477,
+  "output_tokens": 4505,
+  "thinking_tokens": 4318
+ },
+ "_request_id": "790ac886cad0317dea2662843902b8dd",
+ "_response_id": "771f76e2-a7f7-44d4-a070-33803948190d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.250298,\"gas_eth\":0.159357,\"profit_after_gas\":0.090941,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received 31,120.111039 USDT in the front leg and gave the same amount back in the back leg on the RACA/USDT pool shared with the victim. Net WETH rose from 6.720188 out to 6.970486 in, and subtracting the two gas fees leaves a positive result with no residual non-WETH holding.\"}",
+ "case_id": "pack_110",
+ "_time": "2026-10-19T19:18:24+0800"
+}

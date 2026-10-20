@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x76efea638426a85a868eac23d5efb34ba52156c1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.010229,
+ "gas_eth": 0.010242,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use the same Uniswap V2 WETH/UNV pool, and the 0x00000000500e... contract receives then spends the exact UNV amount. The WETH/liquid-ETH gain is 0.020471 minus front/back gas 0.010242, leaving a positive 0.010229.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2562,
+  "output_tokens": 2104,
+  "thinking_tokens": 1933
+ },
+ "_request_id": "f7052743e664de12c4ace3c6d88cefdf",
+ "_response_id": "23c61270-4ac4-4b6a-80f2-a39fe3996633",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000500e2fece27a7600435d0c48d64e0c00\",\"pool\":\"0x76efea638426a85a868eac23d5efb34ba52156c1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.010229,\"gas_eth\":0.010242,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use the same Uniswap V2 WETH/UNV pool, and the 0x00000000500e... contract receives then spends the exact UNV amount. The WETH/liquid-ETH gain is 0.020471 minus front/back gas 0.010242, leaving a positive 0.010229.\"}",
+ "case_id": "pack_154",
+ "_time": "2026-10-19T18:31:15+0800"
+}

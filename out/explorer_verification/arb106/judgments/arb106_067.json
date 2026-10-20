@@ -1,0 +1,24 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x0730abfb26cf04f7a31b20d42e88cd606a8441ea",
+  "0x7f517657496c09c43cc28d0ca131e35dcd557e02",
+  "0x60594a405d53811d3bc4766596efd80fd545a270"
+ ],
+ "cycle_token": "DAI",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001156,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sent 422.1 DAI to V3 pool 0x0730, whose RAIL went straight to V2 pool 0x7f51. That V2 pool paid the actor 447.801405 DAI. The actor then sent 25.701405 DAI to V3 pool 0x6059 for 0.011564 WETH. DAI nets to zero, and the WETH was unwrapped to ETH. Of that ETH, 0.010408 went to 0x5a0b (probably a builder or coinbase payment), leaving about 0.001156 ETH. The gas fee is shown as 0 because the gas price is 0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0259652,
+ "_session": "925c95bb-858f-44d3-950e-e856bf5c046f",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x0730abfb26cf04f7a31b20d42e88cd606a8441ea\",\"0x7f517657496c09c43cc28d0ca131e35dcd557e02\",\"0x60594a405d53811d3bc4766596efd80fd545a270\"],\"cycle_token\":\"DAI\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001156,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sent 422.1 DAI to V3 pool 0x0730, whose RAIL went straight to V2 pool 0x7f51. That V2 pool paid the actor 447.801405 DAI. The actor then sent 25.701405 DAI to V3 pool 0x6059 for 0.011564 WETH. DAI nets to zero, and the WETH was unwrapped to ETH. Of that ETH, 0.010408 went to 0x5a0b (probably a builder or coinbase payment), leaving about 0.001156 ETH. The gas fee is shown as 0 because the gas price is 0 gwei.\"}",
+ "case_id": "arb106_067",
+ "_time": "2026-10-13T22:25:45+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x39b71cb975280df8f1390c95c4dc861d2c2e7a2b",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is sent from 0x75b0...9795 and the back leg from 0x2ad4...d8ab. Each receives SIN and neither sells it back: the front buys 235 SIN and the back buys 105.2 SIN, both with ETH->DAI->SIN. No actor opens and then closes a position, so this is not a sandwich bracket. The back leg is a second buy in the same direction, not a close, so there is no actor-level profit to compute.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4912,
+  "output_tokens": 262,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVgBhf8fBVxaBUZd1AD",
+ "_response_id": "msg_011CgBVgC2FuBeH89C1mf8oW",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x39b71cb975280df8f1390c95c4dc861d2c2e7a2b\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is sent from 0x75b0...9795 and the back leg from 0x2ad4...d8ab. Each receives SIN and neither sells it back: the front buys 235 SIN and the back buys 105.2 SIN, both with ETH->DAI->SIN. No actor opens and then closes a position, so this is not a sandwich bracket. The back leg is a second buy in the same direction, not a close, so there is no actor-level profit to compute.\"}",
+ "case_id": "pack_108",
+ "_time": "2026-10-19T19:11:55+0800"
+}

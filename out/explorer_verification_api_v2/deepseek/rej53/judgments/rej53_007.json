@@ -1,0 +1,32 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xf62bc39e99763f3df81c49f711c16e625388c64f",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": 0.112558,
+ "gas_eth": 0.117055,
+ "profit_after_gas": -0.004497,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract acquired 35.840232 SHIBOHM in the front leg and disposed of the same amount in the back leg on the victim's SHIBOHM/MIM pool. Net WETH before gas was +0.112558, but front and back gas totaled 0.117055, making the observable result negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2566,
+  "output_tokens": 2576,
+  "thinking_tokens": 2391
+ },
+ "_request_id": "95a097cdb826c6d797a5969cd82eab52",
+ "_response_id": "f19b73a8-2623-4990-99ae-1b8df9c6a83b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xf62bc39e99763f3df81c49f711c16e625388c64f\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":0.112558,\"gas_eth\":0.117055,\"profit_after_gas\":-0.004497,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract acquired 35.840232 SHIBOHM in the front leg and disposed of the same amount in the back leg on the victim's SHIBOHM/MIM pool. Net WETH before gas was +0.112558, but front and back gas totaled 0.117055, making the observable result negative.\"}",
+ "case_id": "rej53_007",
+ "_time": "2026-10-19T19:40:23+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2fa7361d7e3b812375604681eb155a97b4d65e9e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.135984,
+ "gas_eth": 0.176447,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x499dd... buys 13.817921 aKLIMA on the Uniswap V3 pool in the front leg and sells the same amount in the back leg, while the victim also trades on that pool. Actor WETH profit is 5.202896 - 4.890465 = 0.312431 ETH; subtracting total gas 0.176447 ETH leaves +0.135984 ETH, with the back-leg ETH value and internal transfer offsetting.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2764,
+  "output_tokens": 4325,
+  "thinking_tokens": 4110
+ },
+ "_request_id": "e5b62a674c2536647898c853b6ecac14",
+ "_response_id": "9b9c22ff-1fb6-4406-a085-22e2adfe2e91",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x2fa7361d7e3b812375604681eb155a97b4d65e9e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.135984, \"gas_eth\": 0.176447, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract 0x499dd... buys 13.817921 aKLIMA on the Uniswap V3 pool in the front leg and sells the same amount in the back leg, while the victim also trades on that pool. Actor WETH profit is 5.202896 - 4.890465 = 0.312431 ETH; subtracting total gas 0.176447 ETH leaves +0.135984 ETH, with the back-leg ETH value and internal transfer offsetting.\"}",
+ "case_id": "pack_060",
+ "_time": "2026-10-19T18:12:20+0800"
+}

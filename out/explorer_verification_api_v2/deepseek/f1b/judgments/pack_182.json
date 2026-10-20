@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000081c57cbc967248bea482c417207e84cffb",
+ "pool": "0xcd7989894bc033581532d2cd88da5db0a4b12859",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 1.134131,
+ "gas_eth": 0.047245,
+ "profit_after_gas": 1.086886,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys BADGER on the UniswapV2 BADGER/WBTC pool in the front leg and sells the same BADGER amount back on that pool in the back leg, with the victim trading the same pool in between. Net WETH inflow is positive after gas; BADGER and WBTC net to zero and the pass-through ETH nets to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3336,
+  "output_tokens": 6703,
+  "thinking_tokens": 6517
+ },
+ "_request_id": "183f9632d64b4b5b8ebe2f6344431f3f",
+ "_response_id": "2db71ef5-a06e-4718-8355-82fe480b2c73",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000081c57cbc967248bea482c417207e84cffb\",\"pool\":\"0xcd7989894bc033581532d2cd88da5db0a4b12859\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":1.134131,\"gas_eth\":0.047245,\"profit_after_gas\":1.086886,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract buys BADGER on the UniswapV2 BADGER/WBTC pool in the front leg and sells the same BADGER amount back on that pool in the back leg, with the victim trading the same pool in between. Net WETH inflow is positive after gas; BADGER and WBTC net to zero and the pass-through ETH nets to zero.\"}",
+ "case_id": "pack_182",
+ "_time": "2026-10-19T19:26:08+0800"
+}

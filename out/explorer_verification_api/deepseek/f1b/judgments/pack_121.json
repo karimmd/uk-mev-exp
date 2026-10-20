@@ -1,0 +1,31 @@
+{
+ "actor": "0x7b78eb388fe213037b0f558a4a5935fe27b1e481",
+ "pool": "0xd583d0824ed78767e0e35b9bf7a636c81c665aa8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.051349,
+ "gas_eth": 0.056554,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x7b78 acquires 1943.610652 LYXE in the front leg on the LYXE/WETH pool and sells the same amount in the back leg on the same pool the victim uses. Gross ETH/WETH profit is 3.867903 - 3.760000 = 0.107903 ETH; subtracting front and back gas fees leaves about 0.051349 ETH positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2725,
+  "output_tokens": 10052,
+  "thinking_tokens": 9865
+ },
+ "_request_id": "d373e095940a706cecb2658179ab9f04",
+ "_response_id": "5c3df6e0-5676-468b-8196-c5ae2b524bdc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7b78eb388fe213037b0f558a4a5935fe27b1e481\",\"pool\":\"0xd583d0824ed78767e0e35b9bf7a636c81c665aa8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.051349,\"gas_eth\":0.056554,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x7b78 acquires 1943.610652 LYXE in the front leg on the LYXE/WETH pool and sells the same amount in the back leg on the same pool the victim uses. Gross ETH/WETH profit is 3.867903 - 3.760000 = 0.107903 ETH; subtracting front and back gas fees leaves about 0.051349 ETH positive.\"}",
+ "case_id": "pack_121",
+ "_time": "2026-10-19T18:23:55+0800"
+}

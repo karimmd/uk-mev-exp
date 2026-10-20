@@ -1,0 +1,39 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": null,
+ "profit_token": "WETH",
+ "Q1": "no",
+ "Q1_reason": "other",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.025126,
+ "gas_eth": 0.023619,
+ "profit_after_gas": 0.001507,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor received 6.725126 WETH and sent 6.7 WETH, netting +0.025126 WETH. The transaction is a flash-swap triangular arbitrage, but DAI and OHM bypassed the actor, so no zero-net closed cycle token exists for the actor. After subtracting gas, profit is +0.001507 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1558,
+  "output_tokens": 13438,
+  "thinking_tokens": 13151
+ },
+ "_request_id": "a3ed413d8bf30ab97fcb4638e3f943e8",
+ "_response_id": "4a0910a0-ef02-4ad5-8a0e-9734f8e936e6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x9762b1d716bb97735905996e013d61c140722249\", \"pools\": [\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\", \"0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8\", \"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"], \"cycle_token\": null, \"profit_token\": \"WETH\", \"Q1\": \"no\", \"Q1_reason\": \"other\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.025126, \"gas_eth\": 0.023619, \"profit_after_gas\": 0.001507, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor received 6.725126 WETH and sent 6.7 WETH, netting +0.025126 WETH. The transaction is a flash-swap triangular arbitrage, but DAI and OHM bypassed the actor, so no zero-net closed cycle token exists for the actor. After subtracting gas, profit is +0.001507 ETH.\"}",
+ "case_id": "arb106_049",
+ "_time": "2026-10-19T19:58:27+0800"
+}

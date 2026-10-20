@@ -1,0 +1,31 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.250298,
+ "gas_eth": 0.159357,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The 0x55eb contract receives USDT in the front leg and spends the same USDT in the back leg on the victim's RACA/USDT pool, ending with +0.250298 WETH. Gas costs for the front and back legs total 0.159357 ETH, leaving +0.090941 ETH-equivalent net; no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2411,
+  "output_tokens": 7546,
+  "thinking_tokens": 7372
+ },
+ "_request_id": "2b4d7cff7bb7d88999c806a5dad65968",
+ "_response_id": "323801a4-4d6e-4e81-8889-0d0e25a1d69d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.250298,\"gas_eth\":0.159357,\"residual\":\"none\",\"confidence\":5,\"note\":\"The 0x55eb contract receives USDT in the front leg and spends the same USDT in the back leg on the victim's RACA/USDT pool, ending with +0.250298 WETH. Gas costs for the front and back legs total 0.159357 ETH, leaving +0.090941 ETH-equivalent net; no non-WETH residual remains.\"}",
+ "case_id": "rej53_004",
+ "_time": "2026-10-19T18:57:31+0800"
+}

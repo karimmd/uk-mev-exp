@@ -1,0 +1,17 @@
+{
+ "actor": "0x4ac1ae64fb072201d9e264c01c126aba57f5b6d2",
+ "pool": "0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.091762,
+ "gas_eth": 0.005514,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract (called by the same sender in both legs) sells 5,979,329.29 AXN into the victim's pool before the victim's AXN sale and buys back exactly that amount after it, so its AXN balance is unchanged. WETH moves +2.490013 then -2.398251, a gross gain of 0.091762, or about 0.0862 ETH after 0.005514 ETH of gas. The front leg sells AXN rather than opening a held position, so it must have used AXN held beforehand, which the card doesn't show. That is why confidence is 3.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024620700000000002,
+ "_session": "deea680d-729c-44fb-b75a-6adcdfe5d401",
+ "_raw": "{\"actor\": \"0x4ac1ae64fb072201d9e264c01c126aba57f5b6d2\", \"pool\": \"0x0d0f908ad29bd8a9f8d99533e3ad69e2e40f3094\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.091762, \"gas_eth\": 0.005514, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract (called by the same sender in both legs) sells 5,979,329.29 AXN into the victim's pool before the victim's AXN sale and buys back exactly that amount after it, so its AXN balance is unchanged. WETH moves +2.490013 then -2.398251, a gross gain of 0.091762, or about 0.0862 ETH after 0.005514 ETH of gas. The front leg sells AXN rather than opening a held position, so it must have used AXN held beforehand, which the card doesn't show. That is why confidence is 3.\"}",
+ "case_id": "sym100_092",
+ "_time": "2026-10-13T21:43:29+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x85917d97a4c399816cf6edb2d2e8767002f6a96a",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.158894,
+ "gas_eth": 0.02385,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sold ATD for WETH and back bought ATD, so the non-WETH position is not opened in front and closed in back; the shared pool is the ATD/WETH pair. Net WETH gain is 0.182744 less 0.02385 gas = 0.158894 ETH, with no residual ATD.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2300,
+  "output_tokens": 9221,
+  "thinking_tokens": 9054
+ },
+ "_request_id": "9a04f65d18892a3bc31139422ca7efe6",
+ "_response_id": "3ddcf693-1586-41bb-b3fd-ec3e39ae9159",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x85917d97a4c399816cf6edb2d2e8767002f6a96a\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.158894,\"gas_eth\":0.02385,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sold ATD for WETH and back bought ATD, so the non-WETH position is not opened in front and closed in back; the shared pool is the ATD/WETH pair. Net WETH gain is 0.182744 less 0.02385 gas = 0.158894 ETH, with no residual ATD.\"}",
+ "case_id": "sym100_031",
+ "_time": "2026-10-19T18:43:34+0800"
+}

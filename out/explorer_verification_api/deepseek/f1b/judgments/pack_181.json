@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6af1becb78701f5919adb6f6932965abe4547763",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.025893,
+ "gas_eth": 0.0,
+ "residual": "634111774.180504 KELPIE",
+ "confidence": 5,
+ "note": "Front and back both use the same actor contract on the KELPIE/WETH pool 0x6af1..., and the victim also swaps on that pool between them. WETH net is +0.025893, gas is zero, and a positive KELPIE residual remains, so the observable ETH/WETH position is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2334,
+  "output_tokens": 8383,
+  "thinking_tokens": 8194
+ },
+ "_request_id": "eb90c9f0013eb1c523a634533eede6c7",
+ "_response_id": "18cf21c6-f832-459b-a680-29b191c71c54",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x6af1becb78701f5919adb6f6932965abe4547763\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.025893, \"gas_eth\": 0.0, \"residual\": \"634111774.180504 KELPIE\", \"confidence\": 5, \"note\": \"Front and back both use the same actor contract on the KELPIE/WETH pool 0x6af1..., and the victim also swaps on that pool between them. WETH net is +0.025893, gas is zero, and a positive KELPIE residual remains, so the observable ETH/WETH position is positive.\"}",
+ "case_id": "pack_181",
+ "_time": "2026-10-19T18:34:31+0800"
+}

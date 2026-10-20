@@ -1,0 +1,32 @@
+{
+ "actor": "0x6684977bbed67e101bb80fc07fccfba655c0a64f",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": 0,
+ "gas_eth": 0.016617,
+ "profit_after_gas": -0.016617,
+ "residual": "none",
+ "confidence": 5,
+ "note": "All three transactions are SushiMaker conversions; the actor burns LP tokens, swaps underlying to SUSHI, and sends SUSHI to SushiBar. No position is opened and closed around the middle transaction, so it is not a sandwich bracket. Net WETH is zero and gas makes the result negative.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4561,
+  "output_tokens": 17196,
+  "thinking_tokens": 17027
+ },
+ "_request_id": "b9d3232804eb66ed23709dd253650155",
+ "_response_id": "ab021827-d171-4839-b0e6-86481b0f7c9c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x6684977bbed67e101bb80fc07fccfba655c0a64f\",\"pool\":\"0x795065dcc9f64b5614c407a6efdc400da6221fb0\",\"Q1\":\"no\",\"Q2\":\"no\",\"net_eth_before_gas\":0,\"gas_eth\":0.016617,\"profit_after_gas\":-0.016617,\"residual\":\"none\",\"confidence\":5,\"note\":\"All three transactions are SushiMaker conversions; the actor burns LP tokens, swaps underlying to SUSHI, and sends SUSHI to SushiBar. No position is opened and closed around the middle transaction, so it is not a sandwich bracket. Net WETH is zero and gas makes the result negative.\"}",
+ "case_id": "pack_191",
+ "_time": "2026-10-19T19:28:05+0800"
+}

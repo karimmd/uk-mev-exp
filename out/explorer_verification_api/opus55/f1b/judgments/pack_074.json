@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xe6f51e892046cb5b437e0033d990b527ea4367c8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.407174,
+ "gas_eth": 0.034235,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0x\u202664c4 sells 930.701366 B20 for 14.841519 WETH on pool 0xe6f5 and later buys back exactly 930.701366 B20 for 14.400110 WETH on the same pool, so it opens and closes a position around the victim (net +0.441409 WETH, minus 0.034235 ETH gas). The literal criteria are met, but the direction is atypical: the front sells B20 while the victim buys B20 on that pool. The victim looks like an arbitrage bot that profited, and the actor's gain likely came from the many transactions between positions 14 and 189, so this may not be a true victim sandwich.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3873,
+  "output_tokens": 1671,
+  "thinking_tokens": 1332
+ },
+ "_request_id": "req_011CgBQw8y3fAxCc6rMZKZg7",
+ "_response_id": "msg_011CgBQwFBrTyryw62QRqTuD",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xe6f51e892046cb5b437e0033d990b527ea4367c8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.407174, \"gas_eth\": 0.034235, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0x\u202664c4 sells 930.701366 B20 for 14.841519 WETH on pool 0xe6f5 and later buys back exactly 930.701366 B20 for 14.400110 WETH on the same pool, so it opens and closes a position around the victim (net +0.441409 WETH, minus 0.034235 ETH gas). The literal criteria are met, but the direction is atypical: the front sells B20 while the victim buys B20 on that pool. The victim looks like an arbitrage bot that profited, and the actor's gain likely came from the many transactions between positions 14 and 189, so this may not be a true victim sandwich.\"}",
+ "case_id": "pack_074",
+ "_time": "2026-10-19T18:10:00+0800"
+}

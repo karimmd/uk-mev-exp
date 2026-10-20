@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xf44e8ff3bb644479124e691bf572f7813a1bc499",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.051754,
+ "gas_eth": 0.005716,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back use the same contract 0x3dad... on the shared UniswapV2 pool 0xf44e..., round-tripping 1.212499 EDDA against WETH. The front leg sends EDDA to the pool and receives WETH, so it does not open the required non-WETH position in front; nevertheless the WETH net after gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2346,
+  "output_tokens": 8333,
+  "thinking_tokens": 8157
+ },
+ "_request_id": "e1e97fc0c956b2c71629a9a5e472919c",
+ "_response_id": "c6037a8d-86b8-4b57-bee6-93e5c7713ac2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xf44e8ff3bb644479124e691bf572f7813a1bc499\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.051754,\"gas_eth\":0.005716,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back use the same contract 0x3dad... on the shared UniswapV2 pool 0xf44e..., round-tripping 1.212499 EDDA against WETH. The front leg sends EDDA to the pool and receives WETH, so it does not open the required non-WETH position in front; nevertheless the WETH net after gas is positive.\"}",
+ "case_id": "sym100_020",
+ "_time": "2026-10-19T18:41:21+0800"
+}

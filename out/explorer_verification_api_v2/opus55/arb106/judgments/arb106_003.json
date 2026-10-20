@@ -1,0 +1,41 @@
+{
+ "actor": "0x0000000000051666bbfbb42925c3ee5d50cf6b10",
+ "pools": [
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x083178e6adcadbda37c02c47b1101aa19878d404",
+  "0xda827fe99adb2643d80fd30f750b8b96321d7726"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.002512,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.002512,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 0.739692 WETH into the 11b8 pool. The tokens then pass directly from pool to pool (USDT, then FNK, then USDT, then FUN), and 0.749907 WETH comes back from the da82 pool, closing a 5-pool WETH cycle with a gross gain of 0.010215 WETH. An internal transfer of 0.007703 ETH to 0x5a0b, likely a miner payment, is subtracted, and the gas fee shows as 0 at 0 gwei, leaving about +0.0025 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2441,
+  "output_tokens": 1064,
+  "thinking_tokens": 575
+ },
+ "_request_id": "req_011CgBX4cSBSUAoPHRGMKLng",
+ "_response_id": "msg_011CgBX4cnkjMwbxH3RkV6P9",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000000051666bbfbb42925c3ee5d50cf6b10\", \"pools\": [\"0x11b815efb8f581194ae79006d24e0d814b7697f6\", \"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\", \"0x61b62c5d56ccd158a38367ef2f539668a06356ab\", \"0x083178e6adcadbda37c02c47b1101aa19878d404\", \"0xda827fe99adb2643d80fd30f750b8b96321d7726\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.002512, \"gas_eth\": 0.0, \"profit_after_gas\": 0.002512, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 0.739692 WETH into the 11b8 pool. The tokens then pass directly from pool to pool (USDT, then FNK, then USDT, then FUN), and 0.749907 WETH comes back from the da82 pool, closing a 5-pool WETH cycle with a gross gain of 0.010215 WETH. An internal transfer of 0.007703 ETH to 0x5a0b, likely a miner payment, is subtracted, and the gas fee shows as 0 at 0 gwei, leaving about +0.0025 ETH.\"}",
+ "case_id": "arb106_003",
+ "_time": "2026-10-19T19:30:13+0800"
+}

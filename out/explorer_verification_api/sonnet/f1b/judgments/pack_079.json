@@ -1,0 +1,31 @@
+{
+ "actor": "0x9edd647d7d6eceae6bb61d7785ef66c5055a9bee",
+ "pool": "0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.254749,
+ "gas_eth": 0.031574,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sold 8515787148.948834 AKITA for 3.104425 WETH in the front leg. The victim then sold AKITA on the same pool, and in the back leg the actor bought back exactly the same AKITA amount for 2.849676 WETH. This is a sell-first, buy-back-after pattern, so the actor's AKITA is flat and its WETH gain is 0.254749, or about 0.2232 after 0.031574 ETH of gas. The front leg starts from existing AKITA inventory rather than opening a new position, which is why Q1 is not a 5.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3075,
+  "output_tokens": 967,
+  "thinking_tokens": 647
+ },
+ "_request_id": "req_011CgBQwCU8ri2YXuz5AqyKz",
+ "_response_id": "msg_011CgBQwJrc55CTSN2W3gy9z",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x9edd647d7d6eceae6bb61d7785ef66c5055a9bee\",\"pool\":\"0xda3a20aad0c34fa742bd9813d45bbf67c787ae0b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.254749,\"gas_eth\":0.031574,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sold 8515787148.948834 AKITA for 3.104425 WETH in the front leg. The victim then sold AKITA on the same pool, and in the back leg the actor bought back exactly the same AKITA amount for 2.849676 WETH. This is a sell-first, buy-back-after pattern, so the actor's AKITA is flat and its WETH gain is 0.254749, or about 0.2232 after 0.031574 ETH of gas. The front leg starts from existing AKITA inventory rather than opening a new position, which is why Q1 is not a 5.\"}",
+ "case_id": "pack_079",
+ "_time": "2026-10-19T18:09:51+0800"
+}

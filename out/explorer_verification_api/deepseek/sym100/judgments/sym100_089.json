@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x6f9e023c0881ec3d8f56630a6c4fd137c025419e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01367,
+ "gas_eth": 0.050902,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back both trade YLDY/WETH on UniswapV2 pair 0x6f9e... for actor contract 0xc1df..., with the victim's YLDY sell between. Gross WETH profit is 0.064572, gas is 0.050902, leaving +0.01367 ETH, and the YLDY amount is sold then rebought exactly, so no net residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2416,
+  "output_tokens": 9041,
+  "thinking_tokens": 8852
+ },
+ "_request_id": "1e6ac9e7d0045a36d2bce7f5a9ac2ec7",
+ "_response_id": "e8b3f640-b523-40b6-b897-f17f0ec98d46",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x6f9e023c0881ec3d8f56630a6c4fd137c025419e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.01367,\"gas_eth\":0.050902,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back both trade YLDY/WETH on UniswapV2 pair 0x6f9e... for actor contract 0xc1df..., with the victim's YLDY sell between. Gross WETH profit is 0.064572, gas is 0.050902, leaving +0.01367 ETH, and the YLDY amount is sold then rebought exactly, so no net residual.\"}",
+ "case_id": "sym100_089",
+ "_time": "2026-10-19T18:55:04+0800"
+}

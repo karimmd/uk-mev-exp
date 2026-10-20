@@ -1,0 +1,32 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xae06088ecb0e668db494ee64ae78af5e5b510797",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02417,
+ "gas_eth": 0.019665,
+ "profit_after_gas": 0.004505,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract is used in front and back, trading the shared DUCK/WETH pool 0xae that the victim also trades. WETH nets to +0.02417 ETH before gas, with 0.019665 ETH front+back gas, leaving a positive 0.004505 ETH and no DUCK residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2768,
+  "output_tokens": 6510,
+  "thinking_tokens": 6327
+ },
+ "_request_id": "275f65ac08b28cc9fb6c3d8950388ce0",
+ "_response_id": "30c04f63-fb8b-45e2-9e91-66cce237a183",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xae06088ecb0e668db494ee64ae78af5e5b510797\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.02417,\"gas_eth\":0.019665,\"profit_after_gas\":0.004505,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract is used in front and back, trading the shared DUCK/WETH pool 0xae that the victim also trades. WETH nets to +0.02417 ETH before gas, with 0.019665 ETH front+back gas, leaving a positive 0.004505 ETH and no DUCK residual.\"}",
+ "case_id": "sym100_075",
+ "_time": "2026-10-19T19:36:26+0800"
+}

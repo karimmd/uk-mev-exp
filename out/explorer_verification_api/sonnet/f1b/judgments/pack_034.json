@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x23a9292830fc80db7f563edb28d2fe6fb47f8624",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.111993,
+ "gas_eth": 0.08361,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 38.43798 SFI with 5.966286 WETH in the front leg and sells exactly that amount for 6.078279 WETH in the back leg. The victim buys SFI on the same pool between the two legs. The gross gain of 0.111993 WETH minus 0.08361 ETH of gas leaves about +0.0284 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3402,
+  "output_tokens": 698,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQQxwxCYM7Fu3SugsVy",
+ "_response_id": "msg_011CgBQR5fm8D64DsCmNfoUx",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0x23a9292830fc80db7f563edb28d2fe6fb47f8624 (WETH/SFI). The front leg buys 38.437980 SFI for 5.966286 WETH. The victim also buys SFI on this pool, with 3.131104 WETH in and 19.450837 SFI out. The back leg sells the same 38.437980 SFI for 6.078279 WETH.\n\nThe actor is the contract 0x000000000035b5e5ad9019092c665357240f594e. It holds the SFI after the front leg and gives all of it up in the back leg, so no SFI residual remains.\n\nNet WETH = 6.078279 \u2212 5.966286 = 0.111993.\n\nGas for the two legs = 0.004763 + 0.078847 = 0.083610 ETH.\n\nNet after gas = 0.111993 \u2212 0.083610 = 0.028383, which is positive.\n\nI take the gas from the fee figures shown. The back-leg fee checks out: 58509 \u00d7 1347.6 gwei = 0.078847 ETH. The front-leg fee also checks out: 69012 \u00d7 69 gwei = 0.004762 ETH.\n\nThe sender of both legs is 0x3856\u2026, but the contract is the one holding the position, so I name the contract as the actor. The back leg paid a very high gas price, probably a priority bid to land right after the victim, yet the net is still positive.\n\n```json\n{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x23a9292830fc80db7f563edb28d2fe6fb47f8624\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.111993,\"gas_eth\":0.08361,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract buys 38.43798 SFI with 5.966286 WETH in the front leg and sells exactly that amount for 6.078279 WETH in the back leg. The victim buys SFI on the same pool between the two legs. The gross gain of 0.111993 WETH minus 0.08361 ETH of gas leaves about +0.0284 ETH.\"}\n```",
+ "case_id": "pack_034",
+ "_time": "2026-10-19T18:03:00+0800"
+}

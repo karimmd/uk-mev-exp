@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.215151,
+ "gas_eth": 0.056616,
+ "profit_after_gas": 0.158535,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sold 195.337011 PMON for 3.052328 WETH in front and bought the same PMON back for 2.837177 WETH in back on the victim-shared pool. Net WETH is +0.215151 before gas, and the two leg fees total 0.056616 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2444,
+  "output_tokens": 4438,
+  "thinking_tokens": 4261
+ },
+ "_request_id": "99bb86e2e7dc5f69544e5a05a2e326c8",
+ "_response_id": "2768d01c-ddf7-4a84-898f-68a8de50a2f2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.215151,\"gas_eth\":0.056616,\"profit_after_gas\":0.158535,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sold 195.337011 PMON for 3.052328 WETH in front and bought the same PMON back for 2.837177 WETH in back on the victim-shared pool. Net WETH is +0.215151 before gas, and the two leg fees total 0.056616 ETH.\"}",
+ "case_id": "sym100_079",
+ "_time": "2026-10-19T19:36:46+0800"
+}

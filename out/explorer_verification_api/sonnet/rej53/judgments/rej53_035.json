@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe618785149a1ee7d3042e304e2f899f7a4616b7d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.01896,
+ "gas_eth": 0.012964,
+ "residual": "about 0.000545 USDT dust",
+ "confidence": 4,
+ "note": "The actor routes WETH through the WOZX/WETH pool (0x5f09) into the WOZX/USDT pool (0xe618), ending the front leg holding 3653.636882 USDT. The victim sells WOZX for USDT on 0xe618, and the back leg returns 3653.636337 USDT to that pool for 1.126643 WETH. WETH net is +0.109748, minus the 0.090788 ETH sent to 0x7f10 (probably a miner payment), gives +0.01896 before gas. After 0.012964 gas the position is about +0.006 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3147,
+  "output_tokens": 896,
+  "thinking_tokens": 569
+ },
+ "_request_id": "req_011CgBSgzX8sDZD3kTWJFMQD",
+ "_response_id": "msg_011CgBSgzuSyPd8yHXBgVLVg",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe618785149a1ee7d3042e304e2f899f7a4616b7d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.01896,\"gas_eth\":0.012964,\"residual\":\"about 0.000545 USDT dust\",\"confidence\":4,\"note\":\"The actor routes WETH through the WOZX/WETH pool (0x5f09) into the WOZX/USDT pool (0xe618), ending the front leg holding 3653.636882 USDT. The victim sells WOZX for USDT on 0xe618, and the back leg returns 3653.636337 USDT to that pool for 1.126643 WETH. WETH net is +0.109748, minus the 0.090788 ETH sent to 0x7f10 (probably a miner payment), gives +0.01896 before gas. After 0.012964 gas the position is about +0.006 ETH.\"}",
+ "case_id": "rej53_035",
+ "_time": "2026-10-19T18:32:50+0800"
+}

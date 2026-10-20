@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xd3d2e2692501a5c9ca623199d38826e513033a17",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.318299,
+ "residual": "front-leg sender receives about 1,005,925 USDC; the 0x5617 contract in the back leg ends with 1762 UNI",
+ "confidence": 3,
+ "note": "The front leg is a 1inch-routed multi-pool trade that sells UNI into the UNI/WETH pool 0xd3d2. The back leg is a different contract, 0x5617, buying UNI from that pool and sent by a different address. Because the actors differ and the direction is sell then buy, not buy then sell, this is not a sandwich bracket. The ETH/WETH net is not well defined because the front leg ends in USDC, so Q2 has no clear sign. The gas figure is the sum of the front and back fees.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 6623,
+  "output_tokens": 1108,
+  "thinking_tokens": 793
+ },
+ "_request_id": "req_011CgBR17EieVVhoyXng1sYj",
+ "_response_id": "msg_011CgBR1Dmt1zMsk48ZCrvTq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xd3d2e2692501a5c9ca623199d38826e513033a17\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.318299, \"residual\": \"front-leg sender receives about 1,005,925 USDC; the 0x5617 contract in the back leg ends with 1762 UNI\", \"confidence\": 3, \"note\": \"The front leg is a 1inch-routed multi-pool trade that sells UNI into the UNI/WETH pool 0xd3d2. The back leg is a different contract, 0x5617, buying UNI from that pool and sent by a different address. Because the actors differ and the direction is sell then buy, not buy then sell, this is not a sandwich bracket. The ETH/WETH net is not well defined because the front leg ends in USDC, so Q2 has no clear sign. The gas figure is the sum of the front and back fees.\"}",
+ "case_id": "pack_085",
+ "_time": "2026-10-19T18:10:45+0800"
+}

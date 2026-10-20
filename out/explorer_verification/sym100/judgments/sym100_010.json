@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xb5de0c3753b6e1b4dba616db82767f17513e6d4e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.122608,
+ "gas_eth": 0.010257,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sold 13,442,189.245015 SPELL to the pool for 3.505 WETH before the victim, who also sold SPELL into the same pool. The actor then bought back exactly the same SPELL amount for 3.382392 WETH. That leaves +0.122608 WETH, or about +0.112351 ETH after 0.010257 ETH of front and back gas, with SPELL flat. The sale was made from existing SPELL inventory, so this is a sell-first sandwich rather than a buy-first one.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027229200000000002,
+ "_session": "2f2ceb35-7bf4-4a40-98ce-89beed4541c7",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xb5de0c3753b6e1b4dba616db82767f17513e6d4e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.122608, \"gas_eth\": 0.010257, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sold 13,442,189.245015 SPELL to the pool for 3.505 WETH before the victim, who also sold SPELL into the same pool. The actor then bought back exactly the same SPELL amount for 3.382392 WETH. That leaves +0.122608 WETH, or about +0.112351 ETH after 0.010257 ETH of front and back gas, with SPELL flat. The sale was made from existing SPELL inventory, so this is a sell-first sandwich rather than a buy-first one.\"}",
+ "case_id": "sym100_010",
+ "_time": "2026-10-13T21:24:49+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x4edc5e546633f22357841b2d23a100a461160e80",
+ "pool": "0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -2.0,
+ "gas_eth": 0.048646,
+ "residual": "23.982505 XFYI from the front and back legs (35.970611 XFYI counting the victim leg)",
+ "confidence": 5,
+ "note": "All three transactions come from the same EOA through the Uniswap V2 router. Each one is an identical 1 ETH buy of XFYI on pool 0x44dbfee4, so the back leg never closes the position and there is no separate victim; this looks like repeated buying, not a sandwich. The front and back legs spend 2 ETH plus 0.048646 ETH gas and leave about 23.98 XFYI unpriced, so the sign of the net cannot be settled.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3392,
+  "output_tokens": 591,
+  "thinking_tokens": 272
+ },
+ "_request_id": "req_011CgBRxvPgLEWtDHmVanMMn",
+ "_response_id": "msg_011CgBRxvj1LPrQY2h5ZJ5Jo",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x4edc5e546633f22357841b2d23a100a461160e80\", \"pool\": \"0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -2.0, \"gas_eth\": 0.048646, \"residual\": \"23.982505 XFYI from the front and back legs (35.970611 XFYI counting the victim leg)\", \"confidence\": 5, \"note\": \"All three transactions come from the same EOA through the Uniswap V2 router. Each one is an identical 1 ETH buy of XFYI on pool 0x44dbfee4, so the back leg never closes the position and there is no separate victim; this looks like repeated buying, not a sandwich. The front and back legs spend 2 ETH plus 0.048646 ETH gas and leave about 23.98 XFYI unpriced, so the sign of the net cannot be settled.\"}",
+ "case_id": "pack_190",
+ "_time": "2026-10-19T18:23:18+0800"
+}

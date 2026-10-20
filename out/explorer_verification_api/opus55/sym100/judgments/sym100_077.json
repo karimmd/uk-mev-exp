@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.002749,
+ "gas_eth": 0.05326,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xc1df\u2026 sells 61547.897 SMINU into pool 0x519c\u2026 for 0.972757 WETH. The victim then sells SMINU on the same pool, and 0xc1df\u2026 buys back exactly 61547.897 SMINU for 0.922246 WETH. That is a sell-first bracket with the victim between the legs. The gross WETH gain of 0.050511 is smaller than the 0.05326 ETH in front and back gas, so the actor nets about -0.00275 ETH with no residual SMINU.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3081,
+  "output_tokens": 687,
+  "thinking_tokens": 377
+ },
+ "_request_id": "req_011CgBSVxbViWMpCy2zv7xNM",
+ "_response_id": "msg_011CgBSVxwKuJ1yesKMHwzNx",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x519c94e42cc613aedd836e9d6dd17ba6e3ea3f66\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.002749, \"gas_eth\": 0.05326, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xc1df\u2026 sells 61547.897 SMINU into pool 0x519c\u2026 for 0.972757 WETH. The victim then sells SMINU on the same pool, and 0xc1df\u2026 buys back exactly 61547.897 SMINU for 0.922246 WETH. That is a sell-first bracket with the victim between the legs. The gross WETH gain of 0.050511 is smaller than the 0.05326 ETH in front and back gas, so the actor nets about -0.00275 ETH with no residual SMINU.\"}",
+ "case_id": "sym100_077",
+ "_time": "2026-10-19T18:30:21+0800"
+}

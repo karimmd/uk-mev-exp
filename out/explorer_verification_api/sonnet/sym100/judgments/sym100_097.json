@@ -1,0 +1,31 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.112412,
+ "gas_eth": 0.101725,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor contract sold 30590.96 NCT to the pool for 1.509 WETH before the victim's NCT buy on the same pool, then bought back the same NCT amount for 1.396588 WETH. WETH gain of 0.112412 exceeds combined gas of 0.101725 by about 0.0107 ETH, and the NCT position is flat.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4073,
+  "output_tokens": 697,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBSUV9xkKDSdJGuLXFKv",
+ "_response_id": "msg_011CgBSUVZ1uVHgHT7Efw4Aa",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0x9f4aa9b4... (NCT/WETH). The actor is the contract 0xdac775cd..., which sold NCT to the pool for WETH in the front leg and bought NCT back in the back leg.\n\nWait: the direction needs checking. In the front leg, the actor sends 30590.96 NCT to the pool and receives 1.509 WETH. In the back leg, it sends 1.396588 WETH and receives 30590.96 NCT. So the actor opens with a sell (a short, the NCT presumably held beforehand) and closes by buying back. The victim buys NCT on that pool (2.6 WETH in, 60434 NCT out), which pushes the price up, so the actor sold before the price rise and bought back after it. That is consistent with a sandwich and has the same open-then-close shape, even though the actor starts with NCT inventory. The NCT position is flat across the two legs: 30590.96 out, then 30590.96 in.\n\nNet WETH: 1.509 \u2212 1.396588 = 0.112412.\n\nGas: 0.054068 + 0.047657 = 0.101725.\n\nNet after gas: 0.112412 \u2212 0.101725 = 0.010687, which is positive.\n\nThe CHI tokens are burned for gas refunds, and the fees shown already reflect the gas used. No residual non-WETH holding remains.\n\n```json\n{\"actor\": \"0xdac775cd972ac612907682ff757af66f75eecece\", \"pool\": \"0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.112412, \"gas_eth\": 0.101725, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor contract sold 30590.96 NCT to the pool for 1.509 WETH before the victim's NCT buy on the same pool, then bought back the same NCT amount for 1.396588 WETH. WETH gain of 0.112412 exceeds combined gas of 0.101725 by about 0.0107 ETH, and the NCT position is flat.\"}\n```",
+ "case_id": "sym100_097",
+ "_time": "2026-10-19T18:29:59+0800"
+}

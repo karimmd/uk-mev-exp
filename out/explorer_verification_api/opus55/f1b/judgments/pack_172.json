@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd234e8493d6690d6a7820d3f6e4f1f13579efe3a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011157,
+ "gas_eth": 0.0,
+ "residual": "~41242.07 CHOW (bought 1401697.57, sold 1360455.49)",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026932d buys CHOW for 5.56 WETH on CHOW/WETH pool 0xd234\u2026fe3a, the victim's second hop buys CHOW on the same pool, and the back leg sells CHOW there for 5.639697 WETH. Net is +0.079697 WETH minus the 0.06854 ETH sent in and forwarded to 0x1ad9\u20265836 (likely a builder payment), with zero gas fees, giving about +0.011157 ETH. The leftover CHOW can only add value, so the sign is positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3362,
+  "output_tokens": 793,
+  "thinking_tokens": 440
+ },
+ "_request_id": "req_011CgBRqh5HmZVseqz3Xsjbu",
+ "_response_id": "msg_011CgBRqhX5BUuuWvXSHJE58",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0xd234e8493d6690d6a7820d3f6e4f1f13579efe3a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.011157, \"gas_eth\": 0.0, \"residual\": \"~41242.07 CHOW (bought 1401697.57, sold 1360455.49)\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026932d buys CHOW for 5.56 WETH on CHOW/WETH pool 0xd234\u2026fe3a, the victim's second hop buys CHOW on the same pool, and the back leg sells CHOW there for 5.639697 WETH. Net is +0.079697 WETH minus the 0.06854 ETH sent in and forwarded to 0x1ad9\u20265836 (likely a builder payment), with zero gas fees, giving about +0.011157 ETH. The leftover CHOW can only add value, so the sign is positive.\"}",
+ "case_id": "pack_172",
+ "_time": "2026-10-19T18:21:42+0800"
+}

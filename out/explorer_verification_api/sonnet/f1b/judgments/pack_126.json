@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000767,
+ "gas_eth": 0.0,
+ "residual": "about 4.70e9 SAITAMA (235028948319.6 bought minus 230328435812.0 sold)",
+ "confidence": 3,
+ "note": "The same contract buys SAITAMA in the front leg and sells it in the back leg on pool 0xd0dc, and the victim's SAITAMA buy on that pool sits between them. WETH net is +0.332259 \u2212 0.316928 = +0.015331, minus the 0.014564 ETH sent on to 0x1ad9\u2026 in the back leg, which leaves about +0.000767 ETH with 0 gas shown. The leftover SAITAMA can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3114,
+  "output_tokens": 1096,
+  "thinking_tokens": 765
+ },
+ "_request_id": "req_011CgBRRKzr9FLZzs7D1DrtH",
+ "_response_id": "msg_011CgBRRPwECYFxc5rQeWqXb",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\",\"pool\":\"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.000767,\"gas_eth\":0.0,\"residual\":\"about 4.70e9 SAITAMA (235028948319.6 bought minus 230328435812.0 sold)\",\"confidence\":3,\"note\":\"The same contract buys SAITAMA in the front leg and sells it in the back leg on pool 0xd0dc, and the victim's SAITAMA buy on that pool sits between them. WETH net is +0.332259 \u2212 0.316928 = +0.015331, minus the 0.014564 ETH sent on to 0x1ad9\u2026 in the back leg, which leaves about +0.000767 ETH with 0 gas shown. The leftover SAITAMA can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_126",
+ "_time": "2026-10-19T18:16:13+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.213209,
+ "gas_eth": 0.027306,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x09dd... (called by 0xd38b...) sells 12160.41 CVR into the pool for 5.921007 WETH before the victim's CVR->WETH swap on the same pool, then buys the same 12160.41 CVR back for 5.707798 WETH right after. WETH net is +0.213209, and after 0.027306 ETH of gas it is about +0.1859 ETH with no CVR left over. The front leg draws on CVR the contract already held, so it opens the position as a sale rather than a purchase, which is why confidence is 4 and not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025060699999999998,
+ "_session": "60aa632e-aac0-43f5-afe8-5330263b8ee4",
+ "_raw": "{\"actor\": \"0x09ddb304758caf024706dee2e92b569ca4823aa1\", \"pool\": \"0xbf7045f6ea651abb04e96cba61adabe6d7bf0ee8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.213209, \"gas_eth\": 0.027306, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x09dd... (called by 0xd38b...) sells 12160.41 CVR into the pool for 5.921007 WETH before the victim's CVR->WETH swap on the same pool, then buys the same 12160.41 CVR back for 5.707798 WETH right after. WETH net is +0.213209, and after 0.027306 ETH of gas it is about +0.1859 ETH with no CVR left over. The front leg draws on CVR the contract already held, so it opens the position as a sale rather than a purchase, which is why confidence is 4 and not 5.\"}",
+ "case_id": "sym100_096",
+ "_time": "2026-10-13T21:44:17+0800"
+}

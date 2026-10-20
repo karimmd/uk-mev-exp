@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0x7fd1de95fc975fbbd8be260525758549ec477960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.216159,
+ "gas_eth": 0.049841,
+ "profit_after_gas": 0.166318,
+ "residual": "about 2,515,473 HOGE left in the actor contract (125,816,053.44 bought minus 123,300,580.24 sold)",
+ "confidence": 4,
+ "note": "The same contract buys HOGE on the HOGE/WETH pool in the front leg, the victim buys HOGE on that pool in between, and the contract sells HOGE back in the back leg. WETH netted +0.216159 before gas and +0.166318 after gas. The leftover HOGE can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2936,
+  "output_tokens": 882,
+  "thinking_tokens": 590
+ },
+ "_request_id": "req_011CgBVbS4Dts5J3m7pe3wxJ",
+ "_response_id": "msg_011CgBVbSS3WKPpe5dzfkznd",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000c9fdd743c60055c0e4ea30d266272c1f\",\"pool\":\"0x7fd1de95fc975fbbd8be260525758549ec477960\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.216159,\"gas_eth\":0.049841,\"profit_after_gas\":0.166318,\"residual\":\"about 2,515,473 HOGE left in the actor contract (125,816,053.44 bought minus 123,300,580.24 sold)\",\"confidence\":4,\"note\":\"The same contract buys HOGE on the HOGE/WETH pool in the front leg, the victim buys HOGE on that pool in between, and the contract sells HOGE back in the back leg. WETH netted +0.216159 before gas and +0.166318 after gas. The leftover HOGE can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_091",
+ "_time": "2026-10-19T19:10:55+0800"
+}

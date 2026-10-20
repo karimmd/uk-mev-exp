@@ -1,0 +1,38 @@
+{
+ "actor": "0x0000000000007f150bd6f54c40a34d7c3d5e9f56",
+ "pools": [
+  "0x701d570d96caae620b64478046d79780912c5c17",
+  "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974"
+ ],
+ "cycle_token": "IBETH",
+ "profit_token": "ETH",
+ "Q1": "no",
+ "Q1_reason": "minted token sale",
+ "Q2": "yes",
+ "net_eth_before_gas": 1.041107,
+ "gas_eth": 0.994649,
+ "profit_after_gas": 0.046458,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor minted IBETH from the zero address, swapped it through two Uniswap pools to WETH, and unwrapped to ETH for a net +1.041107 ETH before gas. The zero-address mint makes this a minted-token sale rather than a pure arbitrage under the protocol, though after gas it remains positive by about 0.046458 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2257,
+  "output_tokens": 13396,
+  "thinking_tokens": 13153
+ },
+ "_request_id": "1e6ccfe57ed5977d7922fc21ce7cbbaa",
+ "_response_id": "4a68db9c-cb31-4924-ad83-beb92bb62e4d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000007f150bd6f54c40a34d7c3d5e9f56\",\"pools\":[\"0x701d570d96caae620b64478046d79780912c5c17\",\"0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974\"],\"cycle_token\":\"IBETH\",\"profit_token\":\"ETH\",\"Q1\":\"no\",\"Q1_reason\":\"minted token sale\",\"Q2\":\"yes\",\"net_eth_before_gas\":1.041107,\"gas_eth\":0.994649,\"profit_after_gas\":0.046458,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor minted IBETH from the zero address, swapped it through two Uniswap pools to WETH, and unwrapped to ETH for a net +1.041107 ETH before gas. The zero-address mint makes this a minted-token sale rather than a pure arbitrage under the protocol, though after gas it remains positive by about 0.046458 ETH.\"}",
+ "case_id": "arb106_006",
+ "_time": "2026-10-19T19:48:43+0800"
+}

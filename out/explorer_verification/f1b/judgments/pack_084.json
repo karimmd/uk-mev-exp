@@ -1,0 +1,17 @@
+{
+ "actor": "0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e",
+ "pool": "0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0,
+ "gas_eth": 0.010099,
+ "residual": "+104.061985 XIO (3726.061985 received in back minus 3622 sent in front)",
+ "confidence": 3,
+ "note": "The same contract actor (called by the same sender) sells 3622 XIO for 6.119153 WETH before the victim's 25000 XIO sale on the same pool, then buys back 3726.06 XIO for exactly 6.119153 WETH after it. The WETH nets to zero, so ETH-side P&L is only -0.010099 ETH of gas, but the extra ~104 XIO (about 0.17 ETH at the front-leg rate) outweighs gas; the sign depends on valuing that XIO residual, and this is not a classic buy-then-sell bracket.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0268647,
+ "_session": "b6eff0a1-bc30-4f84-a935-c397139120fd",
+ "_raw": "{\"actor\": \"0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e\", \"pool\": \"0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.0, \"gas_eth\": 0.010099, \"residual\": \"+104.061985 XIO (3726.061985 received in back minus 3622 sent in front)\", \"confidence\": 3, \"note\": \"The same contract actor (called by the same sender) sells 3622 XIO for 6.119153 WETH before the victim's 25000 XIO sale on the same pool, then buys back 3726.06 XIO for exactly 6.119153 WETH after it. The WETH nets to zero, so ETH-side P&L is only -0.010099 ETH of gas, but the extra ~104 XIO (about 0.17 ETH at the front-leg rate) outweighs gas; the sign depends on valuing that XIO residual, and this is not a classic buy-then-sell bracket.\"}",
+ "case_id": "pack_084",
+ "_time": "2026-10-13T20:20:47+0800"
+}

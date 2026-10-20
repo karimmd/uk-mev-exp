@@ -1,0 +1,17 @@
+{
+ "actor": "0xa88b80ff0d43b267f906c106df3c8f098798a702",
+ "pool": "0x18f238a96392a8fabb87065b5129dd00192e6cb1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.061764,
+ "gas_eth": 0.029168,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same sender sells 3937.888624 SHARE into the pool in the front leg for 4.389441 WETH. The victim sells SHARE into the same pool, and the back leg buys back exactly 3937.888624 SHARE for 4.327677 WETH. WETH net is +0.061764 and gas is 0.029168, leaving about +0.0326 ETH after gas. The position is round-trip, selling first and buying back after, so no SHARE is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025941199999999998,
+ "_session": "ef2b225e-6a69-4d27-b463-c3936f9878e3",
+ "_raw": "{\"actor\": \"0xa88b80ff0d43b267f906c106df3c8f098798a702\", \"pool\": \"0x18f238a96392a8fabb87065b5129dd00192e6cb1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.061764, \"gas_eth\": 0.029168, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same sender sells 3937.888624 SHARE into the pool in the front leg for 4.389441 WETH. The victim sells SHARE into the same pool, and the back leg buys back exactly 3937.888624 SHARE for 4.327677 WETH. WETH net is +0.061764 and gas is 0.029168, leaving about +0.0326 ETH after gas. The position is round-trip, selling first and buying back after, so no SHARE is left over.\"}",
+ "case_id": "sym100_080",
+ "_time": "2026-10-13T21:40:53+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x43ae24960e5534731fc831386c07755a2dc33d47",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 12.880545,
+ "gas_eth": 0.037182,
+ "residual": "none held; 1000 SNX sent out of the sender's wallet and not recovered",
+ "confidence": 4,
+ "note": "All three legs come from the same sender (0xd376...) to the same contract, and each sells 500 SNX for ETH on the same pool. The front and back are both sells, so no position is opened and closed, and the victim shares the sender, so this looks like three repeated sells rather than a sandwich. The ETH inflow of 12.880545 is proceeds from selling 1000 SNX, which has no matching buy, so a profit sign cannot be established.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0283447,
+ "_session": "d9867def-dadb-4915-888b-efb5d76931cc",
+ "_raw": "{\"actor\": null, \"pool\": \"0x43ae24960e5534731fc831386c07755a2dc33d47\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 12.880545, \"gas_eth\": 0.037182, \"residual\": \"none held; 1000 SNX sent out of the sender's wallet and not recovered\", \"confidence\": 4, \"note\": \"All three legs come from the same sender (0xd376...) to the same contract, and each sells 500 SNX for ETH on the same pool. The front and back are both sells, so no position is opened and closed, and the victim shares the sender, so this looks like three repeated sells rather than a sandwich. The ETH inflow of 12.880545 is proceeds from selling 1000 SNX, which has no matching buy, so a profit sign cannot be established.\"}",
+ "case_id": "pack_176",
+ "_time": "2026-10-13T20:39:05+0800"
+}

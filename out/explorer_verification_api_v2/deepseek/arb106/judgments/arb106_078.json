@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.001123,
+ "gas_eth": 0,
+ "profit_after_gas": 0.001123,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor received and sent equal USDT across three pools (net zero) and received 0.011233 WETH from a pool, withdrew it to ETH, and sent 0.010110 ETH to the miner, leaving +0.001123 ETH. Gas fee was zero, and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1946,
+  "output_tokens": 10304,
+  "thinking_tokens": 10049
+ },
+ "_request_id": "60eb710a09ca824d18640c681e3283bb",
+ "_response_id": "a9917f5b-3c43-4a0b-9b1d-ad5b69de74e7",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\"],\"cycle_token\":\"USDT\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.001123,\"gas_eth\":0,\"profit_after_gas\":0.001123,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor received and sent equal USDT across three pools (net zero) and received 0.011233 WETH from a pool, withdrew it to ETH, and sent 0.010110 ETH to the miner, leaving +0.001123 ETH. Gas fee was zero, and no non-WETH residual remains.\"}",
+ "case_id": "arb106_078",
+ "_time": "2026-10-19T20:04:15+0800"
+}

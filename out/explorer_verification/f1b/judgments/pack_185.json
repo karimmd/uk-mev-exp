@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000000cb53d776774284822b1298ade47f",
+ "pool": "0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.007925,
+ "gas_eth": 0.0,
+ "residual": "about 481,026,501,859.6 KEANU (24057112862586.113 bought minus 23576086360726.5 sold)",
+ "confidence": 4,
+ "note": "The same contract buys KEANU with 1.554598 WETH in the front leg and sells it for 1.604821 WETH in the back leg. The victim buys KEANU on the same WETH/KEANU pool in between. Net WETH is +0.050223, less the 0.042298 ETH forwarded to 0xea67... in the back leg, giving +0.007925 with zero gas fees shown. The leftover KEANU can only add value, so the sign stays positive, but its value is unknown.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0263707,
+ "_session": "e5faabf1-e5e0-496a-bad5-87136b6a93ba",
+ "_raw": "{\"actor\": \"0x000000000000cb53d776774284822b1298ade47f\", \"pool\": \"0xfee4800067bfc9dff564d116cba4d4b16ca7b7b3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.007925, \"gas_eth\": 0.0, \"residual\": \"about 481,026,501,859.6 KEANU (24057112862586.113 bought minus 23576086360726.5 sold)\", \"confidence\": 4, \"note\": \"The same contract buys KEANU with 1.554598 WETH in the front leg and sells it for 1.604821 WETH in the back leg. The victim buys KEANU on the same WETH/KEANU pool in between. Net WETH is +0.050223, less the 0.042298 ETH forwarded to 0xea67... in the back leg, giving +0.007925 with zero gas fees shown. The leftover KEANU can only add value, so the sign stays positive, but its value is unknown.\"}",
+ "case_id": "pack_185",
+ "_time": "2026-10-13T20:40:57+0800"
+}

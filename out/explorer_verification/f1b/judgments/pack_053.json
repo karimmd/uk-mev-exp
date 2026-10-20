@@ -1,0 +1,17 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x553db97b11642e0f9471d511296577421518de1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.05002,
+ "gas_eth": 0.000197,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same address 0xf6da\u2026 bought 141464408105908.718750 MAK for 2.720728 WETH in the front leg. The victim bought MAK on the same pool in between. The back leg sold the identical MAK amount for 2.770748 WETH, so the MAK is fully closed out. Net is +0.050020 WETH, or about +0.049823 after 0.000197 ETH of gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0226772,
+ "_session": "143dc420-958f-497f-8fb3-df68741e6b3e",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x553db97b11642e0f9471d511296577421518de1a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.05002, \"gas_eth\": 0.000197, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same address 0xf6da\u2026 bought 141464408105908.718750 MAK for 2.720728 WETH in the front leg. The victim bought MAK on the same pool in between. The back leg sold the identical MAK amount for 2.770748 WETH, so the MAK is fully closed out. Net is +0.050020 WETH, or about +0.049823 after 0.000197 ETH of gas.\"}",
+ "case_id": "pack_053",
+ "_time": "2026-10-13T20:14:18+0800"
+}

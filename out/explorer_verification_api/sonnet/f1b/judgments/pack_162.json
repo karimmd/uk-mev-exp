@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045378,
+ "gas_eth": 0.020665,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys 8864.669729 GLCH for 1.573666 WETH on the V2 pool in the front leg. The victim then buys GLCH on that same pool, as part of a split route with a V3 pool. The actor sells exactly the same GLCH amount back for 1.619044 WETH. The WETH gain is 0.045378, and after 0.020665 ETH of front and back gas the result is about +0.0247 ETH with no GLCH left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3456,
+  "output_tokens": 601,
+  "thinking_tokens": 319
+ },
+ "_request_id": "req_011CgBRi9KNc6rbBmGCBPVUx",
+ "_response_id": "msg_011CgBRi9fDWPoA9oEoQuJDr",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x1037fa1f40b69c9266c4aeb2abcedc7553614b4c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.045378,\"gas_eth\":0.020665,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract buys 8864.669729 GLCH for 1.573666 WETH on the V2 pool in the front leg. The victim then buys GLCH on that same pool, as part of a split route with a V3 pool. The actor sells exactly the same GLCH amount back for 1.619044 WETH. The WETH gain is 0.045378, and after 0.020665 ETH of front and back gas the result is about +0.0247 ETH with no GLCH left over.\"}",
+ "case_id": "pack_162",
+ "_time": "2026-10-19T18:19:57+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0xae8b9d75a75a8b7c5cc5deb51fa916ac49147dad",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.033525,
+ "gas_eth": 0.02314,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 149135.650778 DEPO into the DEPO/WETH pool for 0.865499 WETH in the front leg. The victim then sells DEPO into the same pool. The actor buys back exactly 149135.650778 DEPO for 0.831974 WETH in the back leg, so no DEPO is left over. Net WETH is +0.033525 before gas and about +0.010385 after the 0.02314 ETH gas for both legs. The front leg is a sell, so it relies on the actor holding DEPO beforehand. That is why I am not fully certain.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.022872700000000003,
+ "_session": "ea3228fb-903c-4a80-ab3b-78cbcc290f59",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0xae8b9d75a75a8b7c5cc5deb51fa916ac49147dad\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.033525, \"gas_eth\": 0.02314, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 149135.650778 DEPO into the DEPO/WETH pool for 0.865499 WETH in the front leg. The victim then sells DEPO into the same pool. The actor buys back exactly 149135.650778 DEPO for 0.831974 WETH in the back leg, so no DEPO is left over. Net WETH is +0.033525 before gas and about +0.010385 after the 0.02314 ETH gas for both legs. The front leg is a sell, so it relies on the actor holding DEPO beforehand. That is why I am not fully certain.\"}",
+ "case_id": "sym100_048",
+ "_time": "2026-10-13T21:33:29+0800"
+}

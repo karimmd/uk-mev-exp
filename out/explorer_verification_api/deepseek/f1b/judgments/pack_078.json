@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.006968,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sender 0x882e... and back sender 0x1feb... are different, so no single economic actor opens and closes a position; all legs share pool 0x13bb..., but Q1 fails on the different-actor requirement. Q2 cannot be evaluated for a single actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3189,
+  "output_tokens": 7917,
+  "thinking_tokens": 7763
+ },
+ "_request_id": "a197275439ecb9aa1a64c31bc8c5cf02",
+ "_response_id": "10d69603-f910-4205-86f3-fac1c5948f1f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.006968, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front sender 0x882e... and back sender 0x1feb... are different, so no single economic actor opens and closes a position; all legs share pool 0x13bb..., but Q1 fails on the different-actor requirement. Q2 cannot be evaluated for a single actor.\"}",
+ "case_id": "pack_078",
+ "_time": "2026-10-19T18:15:56+0800"
+}

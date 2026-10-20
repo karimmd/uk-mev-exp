@@ -1,0 +1,32 @@
+{
+ "actor": "0x4edc5e546633f22357841b2d23a100a461160e80",
+ "pool": "0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": -2,
+ "gas_eth": 0.048646,
+ "profit_after_gas": -2.048646,
+ "residual": "23.982505 XFYI",
+ "confidence": 4,
+ "note": "All three swaps route 1 ETH through the same UniswapV2 XFYI/WETH pair, but front and back both buy XFYI rather than opening and closing a position, so there is no sandwich bracket. The actor spends 2 ETH in the front and back legs and is left holding XFYI, so the overall sign cannot be determined without valuing the residual token.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2792,
+  "output_tokens": 3278,
+  "thinking_tokens": 3078
+ },
+ "_request_id": "ebacffb9c0213991edb50983293e0775",
+ "_response_id": "60892703-657b-4824-b2eb-77766c1092a3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4edc5e546633f22357841b2d23a100a461160e80\",\"pool\":\"0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":-2,\"gas_eth\":0.048646,\"profit_after_gas\":-2.048646,\"residual\":\"23.982505 XFYI\",\"confidence\":4,\"note\":\"All three swaps route 1 ETH through the same UniswapV2 XFYI/WETH pair, but front and back both buy XFYI rather than opening and closing a position, so there is no sandwich bracket. The actor spends 2 ETH in the front and back legs and is left holding XFYI, so the overall sign cannot be determined without valuing the residual token.\"}",
+ "case_id": "pack_190",
+ "_time": "2026-10-19T19:27:03+0800"
+}

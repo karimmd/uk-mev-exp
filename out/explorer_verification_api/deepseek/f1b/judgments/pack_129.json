@@ -1,0 +1,31 @@
+{
+ "actor": "0x00bf034cec51975faece51b285724301436b21c4",
+ "pool": "0x86fef14c27c78deaeb4349fd959caa11fc5b5d75",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.062245,
+ "gas_eth": 0.005842,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract received 739.094753 RARI in the front leg on the UniswapV2 RARI/WETH pool and sent the same amount back in the back leg. The victim traded on that same pool in between, and the actor's WETH gain of 0.068087 minus front/back gas 0.005842 is positive with no residual RARI.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2318,
+  "output_tokens": 3159,
+  "thinking_tokens": 2985
+ },
+ "_request_id": "b27aa82fbbafe4a96ff3ece25ff9750e",
+ "_response_id": "55fa54e1-2993-4800-a156-fc18b7f59a7a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00bf034cec51975faece51b285724301436b21c4\",\"pool\":\"0x86fef14c27c78deaeb4349fd959caa11fc5b5d75\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.062245,\"gas_eth\":0.005842,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract received 739.094753 RARI in the front leg on the UniswapV2 RARI/WETH pool and sent the same amount back in the back leg. The victim traded on that same pool in between, and the actor's WETH gain of 0.068087 minus front/back gas 0.005842 is positive with no residual RARI.\"}",
+ "case_id": "pack_129",
+ "_time": "2026-10-19T18:25:43+0800"
+}

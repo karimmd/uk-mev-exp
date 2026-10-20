@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.048504,
+ "gas_eth": 0.1365,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 905428.168460 SPICE from the pool in the front leg, the victim buys SPICE on the same pool in between, and the actor sells exactly the same SPICE back in the back leg. WETH net is +0.199833, and the 0.151329 ETH sent with the back transaction (forwarded to 0x829b...) takes it to +0.048504. Gas of 0.1365 ETH across both legs makes the total about -0.088 ETH, so the position is negative after observable cost.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0226727,
+ "_session": "79ff2000-c2f0-4129-a521-6d3fd5beb273",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.048504, \"gas_eth\": 0.1365, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 905428.168460 SPICE from the pool in the front leg, the victim buys SPICE on the same pool in between, and the actor sells exactly the same SPICE back in the back leg. WETH net is +0.199833, and the 0.151329 ETH sent with the back transaction (forwarded to 0x829b...) takes it to +0.048504. Gas of 0.1365 ETH across both legs makes the total about -0.088 ETH, so the position is negative after observable cost.\"}",
+ "case_id": "pack_132",
+ "_time": "2026-10-13T20:29:58+0800"
+}

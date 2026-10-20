@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x570febdf89c07f256c75686caca215289bb11cfc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.355822,
+ "gas_eth": 0.024277,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x...64c4 sold 1441.165691 ERN for 17.702044 WETH on pool 0x570f ahead of the victim's ERN sell on the same pool, then bought back exactly 1441.165691 ERN for 17.321945 WETH. That leaves +0.380099 WETH and no ERN residual, which is +0.355822 ETH after 0.024277 ETH gas. The bracket runs sell-then-buy, the reverse of the usual direction, but the ERN position still opens in the front leg and closes in the back leg around the victim, so a little confidence is withheld.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2940,
+  "output_tokens": 651,
+  "thinking_tokens": 331
+ },
+ "_request_id": "req_011CgBSaX6DSEGwRatfXkz3F",
+ "_response_id": "msg_011CgBSaXSnmAof6QNhYmhoD",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x570febdf89c07f256c75686caca215289bb11cfc\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.355822, \"gas_eth\": 0.024277, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x...64c4 sold 1441.165691 ERN for 17.702044 WETH on pool 0x570f ahead of the victim's ERN sell on the same pool, then bought back exactly 1441.165691 ERN for 17.321945 WETH. That leaves +0.380099 WETH and no ERN residual, which is +0.355822 ETH after 0.024277 ETH gas. The bracket runs sell-then-buy, the reverse of the usual direction, but the ERN position still opens in the front leg and closes in the back leg around the victim, so a little confidence is withheld.\"}",
+ "case_id": "sym100_091",
+ "_time": "2026-10-19T18:31:21+0800"
+}

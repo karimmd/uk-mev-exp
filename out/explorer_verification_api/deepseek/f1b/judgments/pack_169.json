@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.155204,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front bought STARL with WETH on pool 0xa5e9..., and back sold the identical STARL amount on the same pool with the victim trading on that pool between them. The actor spent 12.118578 WETH and received 12.273782 WETH; back-leg ETH value and internal ETH forwarding cancel, and no STARL residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2759,
+  "output_tokens": 5234,
+  "thinking_tokens": 5059
+ },
+ "_request_id": "890661bc20faac18714fb64d7cb34017",
+ "_response_id": "fbc8cff9-21d1-4f1d-830e-30150f109df1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.155204,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front bought STARL with WETH on pool 0xa5e9..., and back sold the identical STARL amount on the same pool with the victim trading on that pool between them. The actor spent 12.118578 WETH and received 12.273782 WETH; back-leg ETH value and internal ETH forwarding cancel, and no STARL residual remains.\"}",
+ "case_id": "pack_169",
+ "_time": "2026-10-19T18:33:02+0800"
+}

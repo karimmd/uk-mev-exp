@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.076002,
+ "gas_eth": 0.013207,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x0000\u2026f594e is the actor in both legs. It routes WETH through the WETH/PROS pool 0x19b8 and the PROS/USDC pool 0x3155 and ends flat in PROS and USDC (40686.033752 USDC out and back). The victim sells PROS into 0x3155 between the legs. Net WETH is 24.707975 \u2212 24.380778 = +0.327197. After the 0.251195 ETH payment to 0xe206\u2026 the net is +0.076002, and after 0.013207 ETH of gas it is about +0.0628.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027877199999999998,
+ "_session": "17a468b2-8d83-4620-adcb-4d4068764afd",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.076002,\"gas_eth\":0.013207,\"residual\":\"none\",\"confidence\":4,\"note\":\"The contract 0x0000\u2026f594e is the actor in both legs. It routes WETH through the WETH/PROS pool 0x19b8 and the PROS/USDC pool 0x3155 and ends flat in PROS and USDC (40686.033752 USDC out and back). The victim sells PROS into 0x3155 between the legs. Net WETH is 24.707975 \u2212 24.380778 = +0.327197. After the 0.251195 ETH payment to 0xe206\u2026 the net is +0.076002, and after 0.013207 ETH of gas it is about +0.0628.\"}",
+ "case_id": "rej53_046",
+ "_time": "2026-10-13T22:02:47+0800"
+}

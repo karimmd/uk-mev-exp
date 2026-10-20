@@ -1,0 +1,17 @@
+{
+ "actor": "0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567",
+ "pool": "0xb9f7046f985a906ee3f48f738a44bbcd22bee727",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.088251,
+ "gas_eth": 0.021903,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x1dc0\u2026 paid 1.579578 WETH for 83959.177451 MNET in the front leg. In the back leg it sold exactly that MNET amount back to the same pool for 1.667829 WETH, and the victim bought MNET on that pool in between. The gross gain is 0.088251 ETH. Front and back gas total 0.021903 ETH, which leaves about +0.066348 ETH. The two legs were sent from different EOAs but both called the same contract, so the actor is the same.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0254792,
+ "_session": "9e5fe0ef-dacd-4486-9022-2cc0e147099e",
+ "_raw": "{\"actor\": \"0x1dc09af6aeabfe733eac67d11e06f27d1d2ee567\", \"pool\": \"0xb9f7046f985a906ee3f48f738a44bbcd22bee727\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.088251, \"gas_eth\": 0.021903, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The contract 0x1dc0\u2026 paid 1.579578 WETH for 83959.177451 MNET in the front leg. In the back leg it sold exactly that MNET amount back to the same pool for 1.667829 WETH, and the victim bought MNET on that pool in between. The gross gain is 0.088251 ETH. Front and back gas total 0.021903 ETH, which leaves about +0.066348 ETH. The two legs were sent from different EOAs but both called the same contract, so the actor is the same.\"}",
+ "case_id": "pack_136",
+ "_time": "2026-10-13T20:30:46+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xd2f1fd188f127cde9d0feef58c3eb457cc0bcb9c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 2.046627,
+ "gas_eth": 0.0,
+ "residual": "91,849,938.661921 SHIBAL",
+ "confidence": 5,
+ "note": "Front and back share the SHIBAL/WETH Uniswap V2 pool 0xd2f1...; the front buys SHIBAL into 0x1d6e8, and the back sells it after the victim's multi-hop trade through the same pool. Net WETH is +5.956627 - 3.910000 = +2.046627, with back-leg ETH value and internal ETH transfer cancelling; gas is zero, leaving a small SHIBAL residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2658,
+  "output_tokens": 9668,
+  "thinking_tokens": 9453
+ },
+ "_request_id": "9859636267613c2ed8f44fa921b65198",
+ "_response_id": "1b9f3122-7789-4cf9-a5be-16563644ddf4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xd2f1fd188f127cde9d0feef58c3eb457cc0bcb9c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":2.046627,\"gas_eth\":0.0,\"residual\":\"91,849,938.661921 SHIBAL\",\"confidence\":5,\"note\":\"Front and back share the SHIBAL/WETH Uniswap V2 pool 0xd2f1...; the front buys SHIBAL into 0x1d6e8, and the back sells it after the victim's multi-hop trade through the same pool. Net WETH is +5.956627 - 3.910000 = +2.046627, with back-leg ETH value and internal ETH transfer cancelling; gas is zero, leaving a small SHIBAL residual.\"}",
+ "case_id": "pack_187",
+ "_time": "2026-10-19T18:35:35+0800"
+}

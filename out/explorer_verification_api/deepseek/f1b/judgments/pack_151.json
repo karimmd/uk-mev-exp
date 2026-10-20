@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are sells of MXS on the same MXS/WETH pool, but the senders are different addresses (0x2cfc... and 0x2435...); the victim buys MXS on that pool between them. There is no single economic actor opening and closing a position, so Q1 is no and Q2 cannot be netted.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3174,
+  "output_tokens": 7993,
+  "thinking_tokens": 7831
+ },
+ "_request_id": "4174f545ca939bf24026ffde14eac57e",
+ "_response_id": "a2cb9ea8-32b9-4560-80f3-558b5a535ecc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back are sells of MXS on the same MXS/WETH pool, but the senders are different addresses (0x2cfc... and 0x2435...); the victim buys MXS on that pool between them. There is no single economic actor opening and closing a position, so Q1 is no and Q2 cannot be netted.\"}",
+ "case_id": "pack_151",
+ "_time": "2026-10-19T18:31:06+0800"
+}

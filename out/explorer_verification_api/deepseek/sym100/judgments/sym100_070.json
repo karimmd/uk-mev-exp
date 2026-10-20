@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.047475,
+ "gas_eth": 0.040331,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front and back legs use the same actor and shared CWS/WETH pool, and the victim trades that pool. However the actor sells CWS for WETH in front and buys CWS back in back, so it does not open a non-WETH token position in the front leg under the stated bracket definition; net ETH/WETH after gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2329,
+  "output_tokens": 9276,
+  "thinking_tokens": 9101
+ },
+ "_request_id": "6687d6b987f560bc3d1652cc28d22dd9",
+ "_response_id": "e19672ac-ab78-42c2-807f-e29327ca049d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.047475,\"gas_eth\":0.040331,\"residual\":\"none\",\"confidence\":4,\"note\":\"The front and back legs use the same actor and shared CWS/WETH pool, and the victim trades that pool. However the actor sells CWS for WETH in front and buys CWS back in back, so it does not open a non-WETH token position in the front leg under the stated bracket definition; net ETH/WETH after gas is positive.\"}",
+ "case_id": "sym100_070",
+ "_time": "2026-10-19T18:51:56+0800"
+}

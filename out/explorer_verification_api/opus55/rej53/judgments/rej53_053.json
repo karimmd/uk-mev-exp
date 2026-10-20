@@ -1,0 +1,31 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.025172,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x55eb routes 2.675540 WETH through the WETH/EXRD pool and the EXRD/USDC pool 0x684b, ending with 4364.807017 USDC. The victim then sells EXRD for USDC on 0x684b, and in the back leg the contract sells exactly the same USDC back along the reverse route for 2.728533 WETH. Net is +0.052993 WETH minus a 0.027821 ETH internal payment (apparently a builder/miner tip, since both legs paid zero gas), which still leaves the contract positive with no residual.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3727,
+  "output_tokens": 697,
+  "thinking_tokens": 376
+ },
+ "_request_id": "req_011CgBSx96FY85V1VUVS3RE1",
+ "_response_id": "msg_011CgBSx9aX8fgui6WhuNdqH",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\", \"pool\": \"0x684b00a5773679f88598a19976fbeb25a68e9a5f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.025172, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x55eb routes 2.675540 WETH through the WETH/EXRD pool and the EXRD/USDC pool 0x684b, ending with 4364.807017 USDC. The victim then sells EXRD for USDC on 0x684b, and in the back leg the contract sells exactly the same USDC back along the reverse route for 2.728533 WETH. Net is +0.052993 WETH minus a 0.027821 ETH internal payment (apparently a builder/miner tip, since both legs paid zero gas), which still leaves the contract positive with no residual.\"}",
+ "case_id": "rej53_053",
+ "_time": "2026-10-19T18:36:15+0800"
+}

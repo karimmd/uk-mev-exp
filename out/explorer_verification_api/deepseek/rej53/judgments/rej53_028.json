@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.104126,
+ "gas_eth": 0.024008,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The token-holding actor is the contract that receives DON in the front and sends the same amount in the back, using the shared UniswapV2 pool 0x91b1... that the victim also trades. Net WETH gain is 0.131181, but internal ETH outflows total 0.211299 and gas totals 0.024008, leaving a negative net of -0.104126 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2616,
+  "output_tokens": 12863,
+  "thinking_tokens": 12670
+ },
+ "_request_id": "14ac53de3dc90fafca94dc8b515af19e",
+ "_response_id": "1026283c-1179-41eb-a1a3-6c285a6a707f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.104126,\"gas_eth\":0.024008,\"residual\":\"none\",\"confidence\":5,\"note\":\"The token-holding actor is the contract that receives DON in the front and sends the same amount in the back, using the shared UniswapV2 pool 0x91b1... that the victim also trades. Net WETH gain is 0.131181, but internal ETH outflows total 0.211299 and gas totals 0.024008, leaving a negative net of -0.104126 ETH.\"}",
+ "case_id": "rej53_028",
+ "_time": "2026-10-19T19:00:23+0800"
+}

@@ -1,0 +1,41 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x008d9d457ad0a75c83d9a5e2b8e4ce89232b5083",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x5777d92f208679db4b9778590fa3cab3ac9e2168",
+  "0xc5578194d457dcce3f272538d1ad52c68d1ce849",
+  "0xd340b57aacdd10f96fc1cf10e15921936f41e29c"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000626,
+ "gas_eth": 0.017051,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor 0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70 received WETH from two pools and sent WETH to two pools, netting +0.017677 WETH before gas. After the 0.017051 ETH gas fee, net is about +0.000626 ETH/WETH. Intermediate USDT, USDC, DAI, and WSTETH routed directly between the six pools.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2071,
+  "output_tokens": 12288,
+  "thinking_tokens": 11941
+ },
+ "_request_id": "335af3fcd1319ae2cf8f6fe7601b0efa",
+ "_response_id": "272b3282-6a4c-4b1a-b24f-7b1e9ddcd078",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0x008d9d457ad0a75c83d9a5e2b8e4ce89232b5083\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x5777d92f208679db4b9778590fa3cab3ac9e2168\",\"0xc5578194d457dcce3f272538d1ad52c68d1ce849\",\"0xd340b57aacdd10f96fc1cf10e15921936f41e29c\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000626,\"gas_eth\":0.017051,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor 0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70 received WETH from two pools and sent WETH to two pools, netting +0.017677 WETH before gas. After the 0.017051 ETH gas fee, net is about +0.000626 ETH/WETH. Intermediate USDT, USDC, DAI, and WSTETH routed directly between the six pools.\"}",
+ "case_id": "arb106_051",
+ "_time": "2026-10-19T19:18:12+0800"
+}

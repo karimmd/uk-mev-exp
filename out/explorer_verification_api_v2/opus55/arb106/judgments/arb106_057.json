@@ -1,0 +1,39 @@
+{
+ "actor": "0xa1006d0051a35b0000f961a8000000009ea8d2db",
+ "pools": [
+  "0x20e95253e54490d8d30ea41574b24f741ee70201",
+  "0x6c6bc977e13df9b0de53b251522280bb72383700",
+  "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.055295,
+ "gas_eth": 0.052531,
+ "profit_after_gas": 0.002764,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sends 13.699350 WETH through a closed three-pool route (WETH->USDC on a V2 pool, USDC->DAI on a V3 pool, DAI->WETH on a V2 pool) and gets back 13.754645 WETH. USDC and DAI pass only between pools, and there are no mints or internal ETH payments. The 0.0553 WETH gross barely exceeds the 0.0525 ETH gas fee at 240.6 gwei, so the margin after gas is thin but positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2082,
+  "output_tokens": 785,
+  "thinking_tokens": 362
+ },
+ "_request_id": "req_011CgBXRa2QZjMQGQn4rw4rg",
+ "_response_id": "msg_011CgBXRaNzSeJoP2AVJSu3g",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0xa1006d0051a35b0000f961a8000000009ea8d2db\", \"pools\": [\"0x20e95253e54490d8d30ea41574b24f741ee70201\", \"0x6c6bc977e13df9b0de53b251522280bb72383700\", \"0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.055295, \"gas_eth\": 0.052531, \"profit_after_gas\": 0.002764, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sends 13.699350 WETH through a closed three-pool route (WETH->USDC on a V2 pool, USDC->DAI on a V3 pool, DAI->WETH on a V2 pool) and gets back 13.754645 WETH. USDC and DAI pass only between pools, and there are no mints or internal ETH payments. The 0.0553 WETH gross barely exceeds the 0.0525 ETH gas fee at 240.6 gwei, so the margin after gas is thin but positive.\"}\n```",
+ "case_id": "arb106_057",
+ "_time": "2026-10-19T19:34:56+0800"
+}

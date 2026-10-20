@@ -1,0 +1,32 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x1f3d61248ec81542889535595903078109707941",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.084911,
+ "gas_eth": 0,
+ "profit_after_gas": 0.084911,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract f73d acquired KBTC in the front leg and sold the same KBTC amount in the back leg, while the victim traded on the same WBTC/KBTC pool 0x1f3d. WETH/ETH net is +7.827973 - 7.659549 - 0.083513 = 0.084911 before zero gas, with no residual KBTC.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2482,
+  "output_tokens": 2588,
+  "thinking_tokens": 2397
+ },
+ "_request_id": "2fed8b622956d192c7d061537a6f1a20",
+ "_response_id": "07b6413b-8ee4-4b48-a1b0-432297af30f2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\",\"pool\":\"0x1f3d61248ec81542889535595903078109707941\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.084911,\"gas_eth\":0,\"profit_after_gas\":0.084911,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract f73d acquired KBTC in the front leg and sold the same KBTC amount in the back leg, while the victim traded on the same WBTC/KBTC pool 0x1f3d. WETH/ETH net is +7.827973 - 7.659549 - 0.083513 = 0.084911 before zero gas, with no residual KBTC.\"}",
+ "case_id": "pack_083",
+ "_time": "2026-10-19T19:14:38+0800"
+}

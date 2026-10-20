@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.029873,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front leg buys UNQT and the back leg sells the same UNQT amount on the same UniswapV2 pool the victim trades on, with the victim in between. Net WETH changes by 0.513110 - 0.483237 = 0.029873, while ETH tx value and internal transfer offset, and both actor gas fees are zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2758,
+  "output_tokens": 2152,
+  "thinking_tokens": 1980
+ },
+ "_request_id": "ab808b52aa1108cd551009855d3ddf10",
+ "_response_id": "37fb142f-7739-443e-9e39-afe7669fb33e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0x020e6d0e80d08567ecb14f942fa326748407a845\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.029873,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front leg buys UNQT and the back leg sells the same UNQT amount on the same UniswapV2 pool the victim trades on, with the victim in between. Net WETH changes by 0.513110 - 0.483237 = 0.029873, while ETH tx value and internal transfer offset, and both actor gas fees are zero.\"}",
+ "case_id": "pack_059",
+ "_time": "2026-10-19T18:12:08+0800"
+}

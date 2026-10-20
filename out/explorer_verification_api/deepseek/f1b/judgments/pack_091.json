@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0x7fd1de95fc975fbbd8be260525758549ec477960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.216159,
+ "gas_eth": 0.049841,
+ "residual": "2515473.193878 HOGE",
+ "confidence": 5,
+ "note": "Front buys HOGE and back sells HOGE on the shared HOGE/WETH pool, with the victim's multi-hop trade using that pool in between. Gross WETH net is +0.216159; after 0.049841 gas the net is +0.166318, and the actor retains 2515473.193878 HOGE.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2211,
+  "output_tokens": 11539,
+  "thinking_tokens": 11366
+ },
+ "_request_id": "076386f6ae06495ecc307867ad950471",
+ "_response_id": "bfca5b9d-9326-4382-8937-4e5c151c9523",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000c9fdd743c60055c0e4ea30d266272c1f\",\"pool\":\"0x7fd1de95fc975fbbd8be260525758549ec477960\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.216159,\"gas_eth\":0.049841,\"residual\":\"2515473.193878 HOGE\",\"confidence\":5,\"note\":\"Front buys HOGE and back sells HOGE on the shared HOGE/WETH pool, with the victim's multi-hop trade using that pool in between. Gross WETH net is +0.216159; after 0.049841 gas the net is +0.166318, and the actor retains 2515473.193878 HOGE.\"}",
+ "case_id": "pack_091",
+ "_time": "2026-10-19T18:18:34+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x570febdf89c07f256c75686caca215289bb11cfc",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.09648,
+ "gas_eth": 0.021028,
+ "profit_after_gas": 0.075452,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sells 613.525441 ERN for 16.523149 WETH in front and buys back the same ERN for 16.426669 WETH in back on the same UniswapV2 pool used by the victim. Net WETH is +0.09648 before gas; after front/back fees of 0.021028 ETH the result is +0.075452, with no residual non-WETH position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2405,
+  "output_tokens": 2432,
+  "thinking_tokens": 2233
+ },
+ "_request_id": "cc6589cbd0262faa0b18ab9f7901e6bc",
+ "_response_id": "7224ee75-a173-4c87-8337-0aaf3f6cba0c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x570febdf89c07f256c75686caca215289bb11cfc\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.09648,\"gas_eth\":0.021028,\"profit_after_gas\":0.075452,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract sells 613.525441 ERN for 16.523149 WETH in front and buys back the same ERN for 16.426669 WETH in back on the same UniswapV2 pool used by the victim. Net WETH is +0.09648 before gas; after front/back fees of 0.021028 ETH the result is +0.075452, with no residual non-WETH position.\"}",
+ "case_id": "sym100_006",
+ "_time": "2026-10-19T19:29:15+0800"
+}

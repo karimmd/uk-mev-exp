@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.015568,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x...27d2 pays 3.859384 WETH for 93112565531.761871 JEJUDOGE on pool 0x9d54 before the victim's 0.74 ETH buy on the same pool, then sells exactly that JEJUDOGE back for 3.933715 WETH, a gross gain of 0.074331. Both legs show 0 gwei gas, but the back leg forwards 0.058763 ETH (funded by the sender's tx value) to 0x5a0b..., likely a builder or miner payment. Treating that as a cost leaves about +0.015568 ETH, and the result is positive either way.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3370,
+  "output_tokens": 759,
+  "thinking_tokens": 423
+ },
+ "_request_id": "req_011CgBSk1CPwU7NdKAnRZsmE",
+ "_response_id": "msg_011CgBSk1XVoM8tQ1nJCYsts",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.015568, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x...27d2 pays 3.859384 WETH for 93112565531.761871 JEJUDOGE on pool 0x9d54 before the victim's 0.74 ETH buy on the same pool, then sells exactly that JEJUDOGE back for 3.933715 WETH, a gross gain of 0.074331. Both legs show 0 gwei gas, but the back leg forwards 0.058763 ETH (funded by the sender's tx value) to 0x5a0b..., likely a builder or miner payment. Treating that as a cost leaves about +0.015568 ETH, and the result is positive either way.\"}",
+ "case_id": "rej53_019",
+ "_time": "2026-10-19T18:33:31+0800"
+}

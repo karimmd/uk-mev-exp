@@ -1,0 +1,32 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0x6d91af49939796f59273c859a92b76446450a920",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.120725,
+ "gas_eth": 0.007195539,
+ "profit_after_gas": 0.113529461,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells exactly the BDT amount that back buys back, on the same UniswapV2 pool, with the victim's BDT-to-WETH swap between. Net WETH is +0.120725; gas totals 0.007195539 ETH, leaving positive profit and no residual BDT.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2408,
+  "output_tokens": 3829,
+  "thinking_tokens": 3654
+ },
+ "_request_id": "cede561bb0479b58c3b74b03559ca632",
+ "_response_id": "04866ff3-02a9-4abb-927f-850ed3c9139d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\",\"pool\":\"0x6d91af49939796f59273c859a92b76446450a920\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.120725,\"gas_eth\":0.007195539,\"profit_after_gas\":0.113529461,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells exactly the BDT amount that back buys back, on the same UniswapV2 pool, with the victim's BDT-to-WETH swap between. Net WETH is +0.120725; gas totals 0.007195539 ETH, leaving positive profit and no residual BDT.\"}",
+ "case_id": "sym100_016",
+ "_time": "2026-10-19T19:30:07+0800"
+}

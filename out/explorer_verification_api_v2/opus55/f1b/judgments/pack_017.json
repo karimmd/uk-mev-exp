@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.013544,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.013544,
+ "residual": "about 5271037273404.31 MOONPUG (front leg received 266728859863781.09, back leg sent 261457822590376.78)",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026932d bought MOONPUG for 0.57 WETH on pool 0x4cb5\u20260131, the victim then bought MOONPUG on the same pool, and the back leg sold it for 0.670962 WETH. The 0.087418 ETH that the sender sent in and the contract forwarded to 0xb3b7\u2026d8d4, apparently a miner payment, is counted as a cost; both legs show zero gas fees. The small leftover MOONPUG is positive value and cannot turn the result negative.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3283,
+  "output_tokens": 1120,
+  "thinking_tokens": 744
+ },
+ "_request_id": "req_011CgBVAbiT7i3RK463rjEa6",
+ "_response_id": "msg_011CgBVAc344GDt5KJwB2g74",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.013544, \"gas_eth\": 0.0, \"profit_after_gas\": 0.013544, \"residual\": \"about 5271037273404.31 MOONPUG (front leg received 266728859863781.09, back leg sent 261457822590376.78)\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026932d bought MOONPUG for 0.57 WETH on pool 0x4cb5\u20260131, the victim then bought MOONPUG on the same pool, and the back leg sold it for 0.670962 WETH. The 0.087418 ETH that the sender sent in and the contract forwarded to 0xb3b7\u2026d8d4, apparently a miner payment, is counted as a cost; both legs show zero gas fees. The small leftover MOONPUG is positive value and cannot turn the result negative.\"}",
+ "case_id": "pack_017",
+ "_time": "2026-10-19T19:05:22+0800"
+}

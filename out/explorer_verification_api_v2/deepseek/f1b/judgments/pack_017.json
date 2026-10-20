@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.100962,
+ "gas_eth": 0,
+ "profit_after_gas": 0.100962,
+ "residual": "5271037273404.3125 MOONPUG",
+ "confidence": 5,
+ "note": "Front leg buys MOONPUG with WETH on pool 0x4cb5, victim also trades on that pool buying MOONPUG, and back leg sells MOONPUG back to the same pool. The actor contract 0x1d6e nets +0.100962 WETH after zero gas fees, with a small residual MOONPUG holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2576,
+  "output_tokens": 5369,
+  "thinking_tokens": 5166
+ },
+ "_request_id": "fa57d056fe6ec6b4359688a42bb0ba95",
+ "_response_id": "5556bae8-9aa2-47f6-8062-b3d6771f1368",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.100962,\"gas_eth\":0,\"profit_after_gas\":0.100962,\"residual\":\"5271037273404.3125 MOONPUG\",\"confidence\":5,\"note\":\"Front leg buys MOONPUG with WETH on pool 0x4cb5, victim also trades on that pool buying MOONPUG, and back leg sells MOONPUG back to the same pool. The actor contract 0x1d6e nets +0.100962 WETH after zero gas fees, with a small residual MOONPUG holding.\"}",
+ "case_id": "pack_017",
+ "_time": "2026-10-19T19:05:36+0800"
+}

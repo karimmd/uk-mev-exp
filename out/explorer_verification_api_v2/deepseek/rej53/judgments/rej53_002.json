@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5b155ea384905485fde4b24ef1cd63a7d2398100",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.168315,
+ "gas_eth": 0.11782,
+ "profit_after_gas": 0.050495,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The caller's contract received BILL in front via WETH/USDC and sold the same BILL amount in back through the BILL/USDC pool also used by the victim. Net WETH inflow minus outflow is 0.168315 ETH before gas; fees total 0.11782 ETH, leaving positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2459,
+  "output_tokens": 2769,
+  "thinking_tokens": 2596
+ },
+ "_request_id": "c09d9ae268b7a8ec929fa0d17d784106",
+ "_response_id": "26bbf553-60e4-4e10-9094-f342a420bee0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x5b155ea384905485fde4b24ef1cd63a7d2398100\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.168315,\"gas_eth\":0.11782,\"profit_after_gas\":0.050495,\"residual\":\"none\",\"confidence\":5,\"note\":\"The caller's contract received BILL in front via WETH/USDC and sold the same BILL amount in back through the BILL/USDC pool also used by the victim. Net WETH inflow minus outflow is 0.168315 ETH before gas; fees total 0.11782 ETH, leaving positive profit.\"}",
+ "case_id": "rej53_002",
+ "_time": "2026-10-19T19:40:02+0800"
+}

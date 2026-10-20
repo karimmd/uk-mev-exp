@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x66e32d1b776a43935ed20e8dc39a27a140d31c8f",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.099985,
+ "gas_eth": 0.008497,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0x1315... holds the EPK after the front leg and sends the same EPK amount back in the back leg on pool 0x66e..., which the victim also trades on. Netting WETH, internal ETH outflows, and gas leaves a small negative position, with no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2585,
+  "output_tokens": 6486,
+  "thinking_tokens": 6315
+ },
+ "_request_id": "0b874388daecff64831e6756930b6dba",
+ "_response_id": "ad5c7438-58d3-49de-9615-fe1ade9c3cde",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0x66e32d1b776a43935ed20e8dc39a27a140d31c8f\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.099985,\"gas_eth\":0.008497,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0x1315... holds the EPK after the front leg and sends the same EPK amount back in the back leg on pool 0x66e..., which the victim also trades on. Netting WETH, internal ETH outflows, and gas leaves a small negative position, with no non-WETH residual.\"}",
+ "case_id": "pack_089",
+ "_time": "2026-10-19T18:17:50+0800"
+}

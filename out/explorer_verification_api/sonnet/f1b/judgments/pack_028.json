@@ -1,0 +1,31 @@
+{
+ "actor": "0xdead1241f2ee2a7950ad967993efb72d62bf6822",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -180.0,
+ "gas_eth": 0.016914,
+ "residual": "SUSHI: received 10292.562367 in front and 5127.933609 in back, leaving about 5164.63 SUSHI",
+ "confidence": 4,
+ "note": "The front and back legs both buy SUSHI with WETH on the same pool, and neither sells it. So no position is closed, and this is not a sandwich bracket. The actor spends 180 ETH in total and receives no ETH back, leaving a large SUSHI residual, so the position is not positive after cost. The victim does trade on this pool (SUSHI to WETH leg), but that does not change the outcome.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3999,
+  "output_tokens": 300,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQLEvzDJZTzGW4vxPnq",
+ "_response_id": "msg_011CgBQLMJjGK339P39W5Cdy",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0xdead1241f2ee2a7950ad967993efb72d62bf6822\", \"pool\": \"0x795065dcc9f64b5614c407a6efdc400da6221fb0\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": -180.0, \"gas_eth\": 0.016914, \"residual\": \"SUSHI: received 10292.562367 in front and 5127.933609 in back, leaving about 5164.63 SUSHI\", \"confidence\": 4, \"note\": \"The front and back legs both buy SUSHI with WETH on the same pool, and neither sells it. So no position is closed, and this is not a sandwich bracket. The actor spends 180 ETH in total and receives no ETH back, leaving a large SUSHI residual, so the position is not positive after cost. The victim does trade on this pool (SUSHI to WETH leg), but that does not change the outcome.\"}",
+ "case_id": "pack_028",
+ "_time": "2026-10-19T18:01:52+0800"
+}

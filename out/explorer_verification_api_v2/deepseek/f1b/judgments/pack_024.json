@@ -1,0 +1,32 @@
+{
+ "actor": "0x1b2ac99dab967744395c6e425a11d51c4af51b81",
+ "pool": "0x7f1da3697236d4a5e0efd2a99de5d9c076937856",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.054878,
+ "gas_eth": 0.022257,
+ "profit_after_gas": 0.032621,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor sold 149076.170170 UNN for 5.550942 WETH in front and bought back the same UNN amount for 5.496064 WETH in back on the shared UniswapV2 pool, with the victim trading on that pool in between. Net WETH profit before gas is 0.054878, and after front/back gas it remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2249,
+  "output_tokens": 2161,
+  "thinking_tokens": 1960
+ },
+ "_request_id": "7f591a95f10c1ac7030c7886b9b689b7",
+ "_response_id": "459d4c00-bdeb-41a9-b67b-523a04acfb3d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1b2ac99dab967744395c6e425a11d51c4af51b81\",\"pool\":\"0x7f1da3697236d4a5e0efd2a99de5d9c076937856\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.054878,\"gas_eth\":0.022257,\"profit_after_gas\":0.032621,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor sold 149076.170170 UNN for 5.550942 WETH in front and bought back the same UNN amount for 5.496064 WETH in back on the shared UniswapV2 pool, with the victim trading on that pool in between. Net WETH profit before gas is 0.054878, and after front/back gas it remains positive.\"}",
+ "case_id": "pack_024",
+ "_time": "2026-10-19T19:06:10+0800"
+}

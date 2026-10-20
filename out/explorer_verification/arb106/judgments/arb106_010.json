@@ -1,0 +1,25 @@
+{
+ "actor": "0x000000799cd54a82b54e8597f099b0183b301584",
+ "pools": [
+  "0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.043208,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 74.343 WETH into the WETH/USDC V2 pool. The route runs USDC to FEI, FEI to TRIBE, and TRIBE to WETH on the V3 pool, which returns 74.498 WETH. It unwraps the 0.1546 WETH surplus and sends 0.1114 ETH to 0x5a0b\u2026, which looks like a builder payment. That leaves +0.043208 ETH. The listed gas fee is 0 because the gas price shows as 0.0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.029859200000000002,
+ "_session": "4935c89c-47f5-4fae-bfd0-8b05cf7946d6",
+ "_raw": "{\"actor\":\"0x000000799cd54a82b54e8597f099b0183b301584\",\"pools\":[\"0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\",\"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.043208,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 74.343 WETH into the WETH/USDC V2 pool. The route runs USDC to FEI, FEI to TRIBE, and TRIBE to WETH on the V3 pool, which returns 74.498 WETH. It unwraps the 0.1546 WETH surplus and sends 0.1114 ETH to 0x5a0b\u2026, which looks like a builder payment. That leaves +0.043208 ETH. The listed gas fee is 0 because the gas price shows as 0.0 gwei.\"}",
+ "case_id": "arb106_010",
+ "_time": "2026-10-13T22:12:13+0800"
+}

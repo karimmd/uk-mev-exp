@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x874376be8231dad99aabf9ef0767b3cc054c60ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.040489,
+ "gas_eth": 0.009118,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 4.888790 LEASH into the LEASH/WETH pool for 1.263197 WETH in the front leg. The victim then sells 50 LEASH into the same pool, and the back leg buys back exactly 4.888790 LEASH for 1.213590 WETH. The bracket runs in the sell direction, so the actor starts with LEASH inventory rather than opening a long. The WETH gain of 0.049607 less 0.009118 ETH gas leaves 0.040489 ETH, with no LEASH left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2851,
+  "output_tokens": 907,
+  "thinking_tokens": 606
+ },
+ "_request_id": "req_011CgBS4g38qFd85aQJgygVC",
+ "_response_id": "msg_011CgBS4gMyeGs8NNWd8qw71",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x874376be8231dad99aabf9ef0767b3cc054c60ee\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.040489,\"gas_eth\":0.009118,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells 4.888790 LEASH into the LEASH/WETH pool for 1.263197 WETH in the front leg. The victim then sells 50 LEASH into the same pool, and the back leg buys back exactly 4.888790 LEASH for 1.213590 WETH. The bracket runs in the sell direction, so the actor starts with LEASH inventory rather than opening a long. The WETH gain of 0.049607 less 0.009118 ETH gas leaves 0.040489 ETH, with no LEASH left over.\"}",
+ "case_id": "sym100_029",
+ "_time": "2026-10-19T18:24:37+0800"
+}

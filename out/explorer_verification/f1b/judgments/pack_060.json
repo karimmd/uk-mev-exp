@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2fa7361d7e3b812375604681eb155a97b4d65e9e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.121991,
+ "gas_eth": 0.176447,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor bought 13.817921 aKLIMA for 4.890465 WETH in the front leg. It sold the same amount back for 5.202896 WETH in the back leg, with the victim buying aKLIMA on the same UniswapV3 pool in between. The gross WETH gain is 0.312431. The 0.19044 ETH sent with the back transaction is forwarded to 0x3ecef08d0e2dad803847e052249bb4f8bff2d5bb and counts as a cost, leaving 0.121991. After 0.176447 ETH of gas the result is about -0.0545 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0288032,
+ "_session": "74817bc4-d458-4f88-be9e-fbb8a5069ec9",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x2fa7361d7e3b812375604681eb155a97b4d65e9e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.121991, \"gas_eth\": 0.176447, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor bought 13.817921 aKLIMA for 4.890465 WETH in the front leg. It sold the same amount back for 5.202896 WETH in the back leg, with the victim buying aKLIMA on the same UniswapV3 pool in between. The gross WETH gain is 0.312431. The 0.19044 ETH sent with the back transaction is forwarded to 0x3ecef08d0e2dad803847e052249bb4f8bff2d5bb and counts as a cost, leaving 0.121991. After 0.176447 ETH of gas the result is about -0.0545 ETH.\"}",
+ "case_id": "pack_060",
+ "_time": "2026-10-13T20:15:42+0800"
+}

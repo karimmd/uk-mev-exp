@@ -1,0 +1,31 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.278445,
+ "gas_eth": 0.011402,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are both sent by the same actor on the same QNT/WETH Uniswap V2 pool, and the victim trades that pool between them. However the front leg sells QNT for WETH while the back leg buys QNT back, so it is reversed from the specified front-open/back-close pattern; the actor's net ETH/WETH after gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2861,
+  "output_tokens": 6653,
+  "thinking_tokens": 6476
+ },
+ "_request_id": "bc4b24adf0c3889d0426b11230058e8c",
+ "_response_id": "8eaa1d13-a8d0-47a3-94ae-801e23e90aea",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\",\"pool\":\"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.278445,\"gas_eth\":0.011402,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are both sent by the same actor on the same QNT/WETH Uniswap V2 pool, and the victim trades that pool between them. However the front leg sells QNT for WETH while the back leg buys QNT back, so it is reversed from the specified front-open/back-close pattern; the actor's net ETH/WETH after gas is positive.\"}",
+ "case_id": "sym100_072",
+ "_time": "2026-10-19T18:51:53+0800"
+}

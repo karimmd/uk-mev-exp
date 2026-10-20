@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.022941,
+ "gas_eth": 0.02199,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x000...3b3 receives USDT in the front leg and spends the same USDT in the back leg on pool 0x55d3, which the victim also uses. Net WETH is +0.022941, gas is 0.021990, leaving +0.000951 after cost with no residual token.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2791,
+  "output_tokens": 8373,
+  "thinking_tokens": 8199
+ },
+ "_request_id": "6dba22472fff24ee4da9797e84e858c0",
+ "_response_id": "9fa48d8f-1c4a-4561-91ed-30b2392c8e4f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.022941,\"gas_eth\":0.02199,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0x000...3b3 receives USDT in the front leg and spends the same USDT in the back leg on pool 0x55d3, which the victim also uses. Net WETH is +0.022941, gas is 0.021990, leaving +0.000951 after cost with no residual token.\"}",
+ "case_id": "pack_197",
+ "_time": "2026-10-19T18:36:52+0800"
+}

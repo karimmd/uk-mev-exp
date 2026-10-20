@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.046401,
+ "gas_eth": 0.018664,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front buys HORD on the shared UniswapV2 pool; victim buys HORD there; back sells the same HORD amount. Actor gross WETH net is +0.046401, gas is 0.018664, net after gas is +0.027737; no residual HORD/USDT.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2859,
+  "output_tokens": 12287,
+  "thinking_tokens": 12123
+ },
+ "_request_id": "c8920627f4b54ac32113c3e4ec68d767",
+ "_response_id": "9d23281e-d0ab-4852-8043-ca0e900b4984",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xde6faedbcae38eec6d33ad61473a04a6dd7f6e28\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.046401,\"gas_eth\":0.018664,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front buys HORD on the shared UniswapV2 pool; victim buys HORD there; back sells the same HORD amount. Actor gross WETH net is +0.046401, gas is 0.018664, net after gas is +0.027737; no residual HORD/USDT.\"}",
+ "case_id": "rej53_039",
+ "_time": "2026-10-19T19:02:40+0800"
+}

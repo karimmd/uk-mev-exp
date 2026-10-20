@@ -1,0 +1,31 @@
+{
+ "actor": "0x66f049111958809841bbe4b81c034da2d953aa0c",
+ "pool": "0x82dbc2673e9640343d263a3c55de49021ad39ae2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.003745,
+ "gas_eth": 0.012374,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract 0x66f... receives EDEN in front and returns the same EDEN in back on pool 0x82db..., with victim trading between. Gross WETH delta is +0.016119; after 0.012374 gas, net is +0.003745, leaving no non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2311,
+  "output_tokens": 11068,
+  "thinking_tokens": 10907
+ },
+ "_request_id": "8aa0f74cf85c24283d7023e748b7d966",
+ "_response_id": "fe67e92b-be03-47c4-b00e-5ee675038512",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x66f049111958809841bbe4b81c034da2d953aa0c\",\"pool\":\"0x82dbc2673e9640343d263a3c55de49021ad39ae2\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.003745,\"gas_eth\":0.012374,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract 0x66f... receives EDEN in front and returns the same EDEN in back on pool 0x82db..., with victim trading between. Gross WETH delta is +0.016119; after 0.012374 gas, net is +0.003745, leaving no non-WETH residual.\"}",
+ "case_id": "pack_021",
+ "_time": "2026-10-19T18:05:45+0800"
+}

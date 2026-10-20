@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.143626,
+ "gas_eth": 0.042663,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both involve the same actor and SHOPX/WETH pool as the victim, but the front leg sells SHOPX for WETH while the back leg buys SHOPX back, so the non-WETH position is opened in the back rather than the front. Net WETH across the two legs is 0.186289 minus 0.042663 gas = 0.143626 ETH, with no residual SHOPX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2369,
+  "output_tokens": 3075,
+  "thinking_tokens": 2887
+ },
+ "_request_id": "a5833d5a7c54ad81e432156bcbb65c4b",
+ "_response_id": "be566cfe-6502-4cc3-9b69-d71e6acb986f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.143626,\"gas_eth\":0.042663,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both involve the same actor and SHOPX/WETH pool as the victim, but the front leg sells SHOPX for WETH while the back leg buys SHOPX back, so the non-WETH position is opened in the back rather than the front. Net WETH across the two legs is 0.186289 minus 0.042663 gas = 0.143626 ETH, with no residual SHOPX.\"}",
+ "case_id": "sym100_013",
+ "_time": "2026-10-19T18:39:40+0800"
+}

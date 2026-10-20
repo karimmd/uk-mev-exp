@@ -1,0 +1,17 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.027383,
+ "gas_eth": 0.024008,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract buys 43133.534828 DON in the front leg and sells exactly that amount in the back leg on the USDT/DON pool, which the victim also trades in between. The WETH leg nets +0.131181. I subtracted the 0.103798 ETH paid to 0x5a0b from that and treated the 0.107501 ETH sent to the sender EOA in the front leg as internal to the actor, which leaves +0.027383 before gas. Gas of 0.024008 leaves about +0.0034. If that front-leg payment is counted as a cost instead, the sign turns negative, so the result is marginal.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.029876800000000002,
+ "_session": "da4b6351-ac34-4237-9685-5cad91b71ac2",
+ "_raw": "{\"actor\": \"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\", \"pool\": \"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.027383, \"gas_eth\": 0.024008, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The same contract buys 43133.534828 DON in the front leg and sells exactly that amount in the back leg on the USDT/DON pool, which the victim also trades in between. The WETH leg nets +0.131181. I subtracted the 0.103798 ETH paid to 0x5a0b from that and treated the 0.107501 ETH sent to the sender EOA in the front leg as internal to the actor, which leaves +0.027383 before gas. Gas of 0.024008 leaves about +0.0034. If that front-leg payment is counted as a cost instead, the sign turns negative, so the result is marginal.\"}",
+ "case_id": "rej53_028",
+ "_time": "2026-10-13T21:58:58+0800"
+}

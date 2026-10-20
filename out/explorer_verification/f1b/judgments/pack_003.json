@@ -1,0 +1,17 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xd4981ed8892cacc135192385de05b19684231e74",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.054149,
+ "gas_eth": 0.032678,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0x7cf09d... (called by the same sender in both legs) swaps WETH to SST on pool dfa70d and then SST to USDT on pool d4981e in the front leg. It reverses both swaps in the back leg, and the victim swaps SST to USDT on d4981e in between. WETH goes from -0.581585 to +0.635734, a gain of 0.054149. Front and back gas total 0.032678, leaving about +0.02147 ETH. SST and USDT both net to zero.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0287352,
+ "_session": "75e484d5-571b-495a-911c-558e18a2ea64",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0xd4981ed8892cacc135192385de05b19684231e74\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.054149, \"gas_eth\": 0.032678, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0x7cf09d... (called by the same sender in both legs) swaps WETH to SST on pool dfa70d and then SST to USDT on pool d4981e in the front leg. It reverses both swaps in the back leg, and the victim swaps SST to USDT on d4981e in between. WETH goes from -0.581585 to +0.635734, a gain of 0.054149. Front and back gas total 0.032678, leaving about +0.02147 ETH. SST and USDT both net to zero.\"}",
+ "case_id": "pack_003",
+ "_time": "2026-10-13T20:04:52+0800"
+}

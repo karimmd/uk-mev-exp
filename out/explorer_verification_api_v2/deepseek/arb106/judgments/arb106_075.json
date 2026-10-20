@@ -1,0 +1,44 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17",
+  "0x29c827ce49accf68a1a278c67c9d30c52fbbc348",
+  "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+  "0xb66c491e2356bf32b7e3ea14af7f60b3ed171a22",
+  "0x22def8cf4e481417cb014d9dc64975ba12e3a184",
+  "0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537",
+  "0xc12c4c3e0008b838f75189bfb39283467cf6e5b3",
+  "0xaff587846a44aa086a6555ff69055d3380fd379a"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.062633,
+ "gas_eth": 0.055005,
+ "profit_after_gas": 0.007628,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xb2bbfd... receives WETH from three pools and sends WETH to three pools across multiple Uniswap V2/V3 pools, netting +0.062633 WETH before gas. No other token holdings or mints are visible, and gas leaves a positive net position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2632,
+  "output_tokens": 8267,
+  "thinking_tokens": 7891
+ },
+ "_request_id": "cd160836adf62bf70fa2a12752aa990f",
+ "_response_id": "7ab09e0d-dcce-4df8-9337-42902cd53b66",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x42b7b8f8f83fa5cbf0176f8c24ad51ebcd4b5f17\",\"0x29c827ce49accf68a1a278c67c9d30c52fbbc348\",\"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\",\"0xb66c491e2356bf32b7e3ea14af7f60b3ed171a22\",\"0x22def8cf4e481417cb014d9dc64975ba12e3a184\",\"0xc465c0a16228ef6fe1bf29c04fdb04bb797fd537\",\"0xc12c4c3e0008b838f75189bfb39283467cf6e5b3\",\"0xaff587846a44aa086a6555ff69055d3380fd379a\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.062633,\"gas_eth\":0.055005,\"profit_after_gas\":0.007628,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0xb2bbfd... receives WETH from three pools and sends WETH to three pools across multiple Uniswap V2/V3 pools, netting +0.062633 WETH before gas. No other token holdings or mints are visible, and gas leaves a positive net position.\"}",
+ "case_id": "arb106_075",
+ "_time": "2026-10-19T20:03:49+0800"
+}

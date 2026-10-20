@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xcb49221ad08e84b1692f80b62cd5f90c1aadbe6e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.028922,
+ "gas_eth": 0.0041,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract sells 114948.586662 CUDOS into the pool for 1.356 WETH in the front leg, and buys back exactly the same CUDOS for 1.327078 WETH in the back leg. The victim sells 170000 CUDOS on that pool in between. The gross WETH gain of 0.028922 is about 0.0248 ETH after the 0.0041 ETH gas for both legs, and there is no CUDOS residual. The position is a short-then-cover rather than buy-then-sell, but the bracket still fits the sandwich pattern.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3092,
+  "output_tokens": 830,
+  "thinking_tokens": 517
+ },
+ "_request_id": "req_011CgBRCupxiZfJqAsPYWbZd",
+ "_response_id": "msg_011CgBRD15yUjzudEAZSPX7c",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xcb49221ad08e84b1692f80b62cd5f90c1aadbe6e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.028922,\"gas_eth\":0.0041,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract sells 114948.586662 CUDOS into the pool for 1.356 WETH in the front leg, and buys back exactly the same CUDOS for 1.327078 WETH in the back leg. The victim sells 170000 CUDOS on that pool in between. The gross WETH gain of 0.028922 is about 0.0248 ETH after the 0.0041 ETH gas for both legs, and there is no CUDOS residual. The position is a short-then-cover rather than buy-then-sell, but the bracket still fits the sandwich pattern.\"}",
+ "case_id": "pack_103",
+ "_time": "2026-10-19T18:13:23+0800"
+}

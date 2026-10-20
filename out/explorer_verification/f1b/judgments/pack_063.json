@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x0efea698136d636e2babad10821e9064fe08f418",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.029116,
+ "gas_eth": 0.020745,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys 4360.590635 ICE for 1.858765 WETH in the front leg. In the back leg it sells exactly that amount back on the same pool for 1.887881 WETH. The victim swaps through that pool in between, in the second hop of its route. The gross gain is 0.029116 WETH. After 0.020745 ETH of gas across both legs, the actor is left with about +0.008371 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0258892,
+ "_session": "d9b558e3-102c-498c-ab7f-2182979d968f",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x0efea698136d636e2babad10821e9064fe08f418\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.029116, \"gas_eth\": 0.020745, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same contract buys 4360.590635 ICE for 1.858765 WETH in the front leg. In the back leg it sells exactly that amount back on the same pool for 1.887881 WETH. The victim swaps through that pool in between, in the second hop of its route. The gross gain is 0.029116 WETH. After 0.020745 ETH of gas across both legs, the actor is left with about +0.008371 ETH.\"}",
+ "case_id": "pack_063",
+ "_time": "2026-10-13T20:16:14+0800"
+}

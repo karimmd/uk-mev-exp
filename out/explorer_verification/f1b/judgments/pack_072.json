@@ -1,0 +1,18 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 0.2,
+ "gas_eth": 0.023848,
+ "residual": "OTEN outflow of about 0.004607 across the front and back legs, with no OTEN inflow shown. The OTEN balance before the legs is unknown.",
+ "confidence": 4,
+ "note": "The front, 'victim' and back transactions all come from the same sender, 0xe104..., with identical gas, so there is no separate victim. Each leg sells OTEN into the pool for 0.1 ETH and none buys it, so no position is opened and closed. The ETH inflow is +0.2 before gas, but the OTEN sold can't be valued and its source isn't shown, so the sign of Q2 can't be settled.",
+ "": "",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0278272,
+ "_session": "a1a44176-1e94-45fa-8582-633bac33aff7",
+ "_raw": "{\"actor\": \"0xe104053d23918cf2787883508834661c138c9f61\", \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 0.2, \"gas_eth\": 0.023848, \"residual\": \"OTEN outflow of about 0.004607 across the front and back legs, with no OTEN inflow shown. The OTEN balance before the legs is unknown.\", \"confidence\": 4, \"note\": \"The front, 'victim' and back transactions all come from the same sender, 0xe104..., with identical gas, so there is no separate victim. Each leg sells OTEN into the pool for 0.1 ETH and none buys it, so no position is opened and closed. The ETH inflow is +0.2 before gas, but the OTEN sold can't be valued and its source isn't shown, so the sign of Q2 can't be settled.\", \"\": \"\"}",
+ "case_id": "pack_072",
+ "_time": "2026-10-13T20:18:04+0800"
+}

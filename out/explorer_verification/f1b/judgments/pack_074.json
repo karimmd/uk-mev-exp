@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xe6f51e892046cb5b437e0033d990b527ea4367c8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.441409,
+ "gas_eth": 0.034235,
+ "residual": "none",
+ "confidence": 2,
+ "note": "The same contract actor sells 930.701366 B20 into the pool in the front leg for 14.841519 WETH and buys the same 930.701366 B20 back in the back leg for 14.400110 WETH. The victim trades on that pool in between, so the bracket structure holds and the actor nets +0.441409 WETH, or +0.407174 after 0.034235 ETH of gas. Confidence is low because the front leg sells B20 while the victim buys it, which is not the usual adverse direction. The victim also looks like an arbitrageur (it routes through a second pool, 0x6f1a5cdf95a81c9c5fbf825c4a09b5ad94c47318), and about 115 other transactions sit between the victim and the back leg.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0353807,
+ "_session": "35071e12-36f3-4a4a-bee8-8b34d0816e73",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xe6f51e892046cb5b437e0033d990b527ea4367c8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.441409, \"gas_eth\": 0.034235, \"residual\": \"none\", \"confidence\": 2, \"note\": \"The same contract actor sells 930.701366 B20 into the pool in the front leg for 14.841519 WETH and buys the same 930.701366 B20 back in the back leg for 14.400110 WETH. The victim trades on that pool in between, so the bracket structure holds and the actor nets +0.441409 WETH, or +0.407174 after 0.034235 ETH of gas. Confidence is low because the front leg sells B20 while the victim buys it, which is not the usual adverse direction. The victim also looks like an arbitrageur (it routes through a second pool, 0x6f1a5cdf95a81c9c5fbf825c4a09b5ad94c47318), and about 115 other transactions sit between the victim and the back leg.\"}",
+ "case_id": "pack_074",
+ "_time": "2026-10-13T20:18:36+0800"
+}

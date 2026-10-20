@@ -1,0 +1,41 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d",
+  "0xd876bea7f5121a8e21459224e58aec6c933a16e9",
+  "0x132eeb05d5cb6829bd34f552cde0b6b708ef5014",
+  "0x3a5dbafbac514a0b40dcdf3bc3ff7763da9d2d37"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.028098,
+ "gas_eth": 0.027963,
+ "profit_after_gas": 0.000135,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two circular WETH routes: WETH->DIA->USDC->WETH and WETH->VSP->WETH, with intermediate tokens routed directly between pools. Actor nets +0.028098 WETH before gas, yielding +0.000135 ETH after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2056,
+  "output_tokens": 14103,
+  "thinking_tokens": 13796
+ },
+ "_request_id": "0f5b2d4a000d6401d32caf565a49df8d",
+ "_response_id": "15ba2e76-3733-4eea-aaa0-930be266deb4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d\",\"0xd876bea7f5121a8e21459224e58aec6c933a16e9\",\"0x132eeb05d5cb6829bd34f552cde0b6b708ef5014\",\"0x3a5dbafbac514a0b40dcdf3bc3ff7763da9d2d37\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.028098,\"gas_eth\":0.027963,\"profit_after_gas\":0.000135,\"residual\":\"none\",\"confidence\":4,\"note\":\"Two circular WETH routes: WETH->DIA->USDC->WETH and WETH->VSP->WETH, with intermediate tokens routed directly between pools. Actor nets +0.028098 WETH before gas, yielding +0.000135 ETH after gas.\"}",
+ "case_id": "arb106_030",
+ "_time": "2026-10-19T19:54:01+0800"
+}

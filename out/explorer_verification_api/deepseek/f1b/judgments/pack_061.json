@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.020568,
+ "gas_eth": 0.021902,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The called contract 0x...3b3cc is the actor: it receives BTRFLY in the front leg and returns the same BTRFLY amount in the back leg through the OHM/BTRFLY pool 0xe9ab..., which the victim also trades. WETH net is +0.042470, and subtracting 0.021902 gas leaves +0.020568 ETH with no residual BTRFLY or OHM.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2525,
+  "output_tokens": 4897,
+  "thinking_tokens": 4704
+ },
+ "_request_id": "f4f77124e06049f0f3780825988f2104",
+ "_response_id": "01b78b98-68d6-44ad-a4c3-63ebdac5e3bb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.020568,\"gas_eth\":0.021902,\"residual\":\"none\",\"confidence\":5,\"note\":\"The called contract 0x...3b3cc is the actor: it receives BTRFLY in the front leg and returns the same BTRFLY amount in the back leg through the OHM/BTRFLY pool 0xe9ab..., which the victim also trades. WETH net is +0.042470, and subtracting 0.021902 gas leaves +0.020568 ETH with no residual BTRFLY or OHM.\"}",
+ "case_id": "pack_061",
+ "_time": "2026-10-19T18:12:29+0800"
+}

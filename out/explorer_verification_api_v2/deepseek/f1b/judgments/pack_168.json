@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xc352e35a7e5364e53073b4670d5f622438774a41",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.03971,
+ "gas_eth": 0.038117,
+ "profit_after_gas": 0.001593,
+ "residual": "2313690340209.15625 FIRU",
+ "confidence": 5,
+ "note": "The actor bought FIRU in the front leg on pool 0xc352 and sold it back on the same pool in the back leg after the victim also bought FIRU there. WETH nets to +0.039710 before gas and +0.001593 after the listed front/back fees, with 2313690340209.15625 FIRU left as residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2375,
+  "output_tokens": 6725,
+  "thinking_tokens": 6528
+ },
+ "_request_id": "de42f30cd914c60dc3d9584ba176ed51",
+ "_response_id": "072ea1e5-7f57-4798-9955-4d6da4c018a9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xc352e35a7e5364e53073b4670d5f622438774a41\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.03971,\"gas_eth\":0.038117,\"profit_after_gas\":0.001593,\"residual\":\"2313690340209.15625 FIRU\",\"confidence\":5,\"note\":\"The actor bought FIRU in the front leg on pool 0xc352 and sold it back on the same pool in the back leg after the victim also bought FIRU there. WETH nets to +0.039710 before gas and +0.001593 after the listed front/back fees, with 2313690340209.15625 FIRU left as residual.\"}",
+ "case_id": "pack_168",
+ "_time": "2026-10-19T19:24:16+0800"
+}

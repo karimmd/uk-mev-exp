@@ -1,0 +1,31 @@
+{
+ "actor": "0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66",
+ "pool": "0xadeaa96a81ebba4e3a5525a008ee107385d588c3",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.02416,
+ "gas_eth": 0.131025,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions call the same contract 0x860bd2 from different senders. Each one is a self-contained WETH\u2192token\u2192WETH arbitrage loop, so no SWAG position is opened in the front leg and closed in the back leg. Front and back both buy SWAG on the shared pool 0xadeaa9 (the same direction), while the 'victim' sells SWAG there. Across front and back the contract nets +0.155185 ETH before 0.131025 ETH of gas, which is slightly positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 6436,
+  "output_tokens": 758,
+  "thinking_tokens": 462
+ },
+ "_request_id": "req_011CgBQdSspFkj8jvMTRySYe",
+ "_response_id": "msg_011CgBQdZ3P2Bk8ZBGX288Ev",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66\", \"pool\": \"0xadeaa96a81ebba4e3a5525a008ee107385d588c3\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.02416, \"gas_eth\": 0.131025, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions call the same contract 0x860bd2 from different senders. Each one is a self-contained WETH\u2192token\u2192WETH arbitrage loop, so no SWAG position is opened in the front leg and closed in the back leg. Front and back both buy SWAG on the shared pool 0xadeaa9 (the same direction), while the 'victim' sells SWAG there. Across front and back the contract nets +0.155185 ETH before 0.131025 ETH of gas, which is slightly positive.\"}",
+ "case_id": "pack_049",
+ "_time": "2026-10-19T18:05:51+0800"
+}

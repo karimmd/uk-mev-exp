@@ -1,0 +1,31 @@
+{
+ "actor": "0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66",
+ "pool": "0xea7952fac7ff6e997d895c1566599b86b91444c0",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": 0.027611,
+ "gas_eth": 0.055879,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a closed WETH->UBI->DAI->WETH cycle by contract 0x860bd2\u2026, so no position stays open. The back leg is a different actor (0x5117dd\u2026) running its own UBI/DAI/WETH cycle, so the actors differ. The front actor's own result is +0.027611 ETH against 0.055879 ETH gas, which is negative after cost. The back actor's separate result would be +0.075649 ETH against 0.056597 ETH gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 5014,
+  "output_tokens": 855,
+  "thinking_tokens": 573
+ },
+ "_request_id": "req_011CgBQoZWgp1v71Exet1RrN",
+ "_response_id": "msg_011CgBQofi1RMJcgWetvQ42E",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66\",\"pool\":\"0xea7952fac7ff6e997d895c1566599b86b91444c0\",\"Q1\":\"no\",\"Q2\":\"no\",\"net_eth\":0.027611,\"gas_eth\":0.055879,\"residual\":\"none\",\"confidence\":4,\"note\":\"The front leg is a closed WETH->UBI->DAI->WETH cycle by contract 0x860bd2\u2026, so no position stays open. The back leg is a different actor (0x5117dd\u2026) running its own UBI/DAI/WETH cycle, so the actors differ. The front actor's own result is +0.027611 ETH against 0.055879 ETH gas, which is negative after cost. The back actor's separate result would be +0.075649 ETH against 0.056597 ETH gas.\"}",
+ "case_id": "pack_068",
+ "_time": "2026-10-19T18:08:09+0800"
+}

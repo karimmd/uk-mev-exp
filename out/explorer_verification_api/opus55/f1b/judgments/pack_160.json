@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.00147,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x36c1 buys 185.787870 COLLAR for 1.453431 WETH on pool 0xd329. The victim then buys COLLAR on the same pool, and 0x36c1 sells the identical 185.787870 COLLAR back for 1.463231 WETH, a +0.0098 WETH gross gain. The back leg's 0.011270 ETH value, sent by the sender and forwarded by the contract to 0x829b (likely a builder or miner payment, with gas at 0 gwei), exceeds that gain, leaving about -0.00147 ETH net. If only the contract is counted and the sender-funded payment is excluded, the net would be +0.0098 instead.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3001,
+  "output_tokens": 740,
+  "thinking_tokens": 376
+ },
+ "_request_id": "req_011CgBRmjhvwJRgZCrdHkyvv",
+ "_response_id": "msg_011CgBRmmqvASS14KzJHzQHL",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\", \"pool\": \"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.00147, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x36c1 buys 185.787870 COLLAR for 1.453431 WETH on pool 0xd329. The victim then buys COLLAR on the same pool, and 0x36c1 sells the identical 185.787870 COLLAR back for 1.463231 WETH, a +0.0098 WETH gross gain. The back leg's 0.011270 ETH value, sent by the sender and forwarded by the contract to 0x829b (likely a builder or miner payment, with gas at 0 gwei), exceeds that gain, leaving about -0.00147 ETH net. If only the contract is counted and the sender-funded payment is excluded, the net would be +0.0098 instead.\"}",
+ "case_id": "pack_160",
+ "_time": "2026-10-19T18:20:49+0800"
+}

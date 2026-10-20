@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x063271fdac84b94e9283557f748594dc84092bf3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.411414269,
+ "gas_eth": 0.024006731,
+ "residual": "86.631920 PROPHET",
+ "confidence": 5,
+ "note": "Front and back both call 0x000000000000084e91743124a982076c59f10084, which receives PROPHET in front and sends PROPHET back to the same UniswapV2 pool in the back leg; the victim also trades on that pool between them. The actor nets +1.435421 WETH before gas, pays 0.024006731 ETH gas across the two legs, and retains 86.631920 PROPHET residual, so the observable ETH/WETH position remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3005,
+  "output_tokens": 7453,
+  "thinking_tokens": 7245
+ },
+ "_request_id": "9a3756dc9fe6eee5e82a3bab3651a497",
+ "_response_id": "1865486a-0d6e-4c17-b2b3-17cb4fb491e1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000084e91743124a982076c59f10084\",\"pool\":\"0x063271fdac84b94e9283557f748594dc84092bf3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.411414269,\"gas_eth\":0.024006731,\"residual\":\"86.631920 PROPHET\",\"confidence\":5,\"note\":\"Front and back both call 0x000000000000084e91743124a982076c59f10084, which receives PROPHET in front and sends PROPHET back to the same UniswapV2 pool in the back leg; the victim also trades on that pool between them. The actor nets +1.435421 WETH before gas, pays 0.024006731 ETH gas across the two legs, and retains 86.631920 PROPHET residual, so the observable ETH/WETH position remains positive.\"}",
+ "case_id": "rej53_021",
+ "_time": "2026-10-19T18:59:16+0800"
+}

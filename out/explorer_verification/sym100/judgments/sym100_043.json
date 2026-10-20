@@ -1,0 +1,17 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.046858,
+ "gas_eth": 0.005269,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sells 49999999999.999992 JEJUDOGE into the WETH pool in the front leg for 4.036043 WETH. The victim sells into the same pool in between. The back leg buys back exactly the same token amount for 3.989185 WETH, so there is no residual token. Net WETH is +0.046858, or about +0.04159 ETH after the 0.005269 ETH of front and back gas. The order is sell, then buy back, rather than buy, then sell, but it is still a bracket on the victim's sell.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0267672,
+ "_session": "7b099aae-c323-49d3-baf1-78962ac0272c",
+ "_raw": "{\"actor\": \"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\", \"pool\": \"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.046858, \"gas_eth\": 0.005269, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sells 49999999999.999992 JEJUDOGE into the WETH pool in the front leg for 4.036043 WETH. The victim sells into the same pool in between. The back leg buys back exactly the same token amount for 3.989185 WETH, so there is no residual token. Net WETH is +0.046858, or about +0.04159 ETH after the 0.005269 ETH of front and back gas. The order is sell, then buy back, rather than buy, then sell, but it is still a bracket on the victim's sell.\"}",
+ "case_id": "sym100_043",
+ "_time": "2026-10-13T21:32:09+0800"
+}

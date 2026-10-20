@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.026136,
+ "gas_eth": 0.009554,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg routes WETH through the WETH/ALBT pool and the ALBT/USDT pool, so the actor ends up holding 18343.122297 USDT. The victim sells ALBT for USDT on the ALBT/USDT pool, and the back leg returns exactly that USDT and ends in 6.004439 WETH. Net is 6.004439 \u2212 5.949158 = +0.055281 WETH, minus the 0.029145 ETH sent on to 0xea67\u2026 in the back leg (probably a builder tip) gives +0.026136 ETH. After 0.009554 ETH gas the result is about +0.0166 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3218,
+  "output_tokens": 849,
+  "thinking_tokens": 518
+ },
+ "_request_id": "req_011CgBSWfdZFo4dPTsFxHd4s",
+ "_response_id": "msg_011CgBSWfzduGCP4XFmX9ajQ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.026136,\"gas_eth\":0.009554,\"residual\":\"none\",\"confidence\":4,\"note\":\"The front leg routes WETH through the WETH/ALBT pool and the ALBT/USDT pool, so the actor ends up holding 18343.122297 USDT. The victim sells ALBT for USDT on the ALBT/USDT pool, and the back leg returns exactly that USDT and ends in 6.004439 WETH. Net is 6.004439 \u2212 5.949158 = +0.055281 WETH, minus the 0.029145 ETH sent on to 0xea67\u2026 in the back leg (probably a builder tip) gives +0.026136 ETH. After 0.009554 ETH gas the result is about +0.0166 ETH.\"}",
+ "case_id": "rej53_001",
+ "_time": "2026-10-19T18:30:29+0800"
+}

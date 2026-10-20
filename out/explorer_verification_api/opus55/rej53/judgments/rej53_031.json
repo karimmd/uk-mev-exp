@@ -1,0 +1,31 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.147127,
+ "gas_eth": 0.010519,
+ "residual": "none observable (token 0x2568... amounts not decoded)",
+ "confidence": 4,
+ "note": "Contract 0x4df3 wraps 1.164192 ETH and buys token 0x2568... on UniswapV2 pool 0xbd39 at position 0. The victim sells the same token into that pool at position 97, and 0x4df3 sells back for 1.321838 WETH, which it unwraps, at position 101. Gross gain is 0.157646 ETH minus 0.010519 ETH gas; the front and back come from different senders through the same contract, and the token amounts are not decoded, so full closure of the position cannot be confirmed exactly.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3272,
+  "output_tokens": 707,
+  "thinking_tokens": 375
+ },
+ "_request_id": "req_011CgBSoyCDYG4KqHtyDqS43",
+ "_response_id": "msg_011CgBSoyZ3K3NUSv5EY3tYN",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\", \"pool\": \"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.147127, \"gas_eth\": 0.010519, \"residual\": \"none observable (token 0x2568... amounts not decoded)\", \"confidence\": 4, \"note\": \"Contract 0x4df3 wraps 1.164192 ETH and buys token 0x2568... on UniswapV2 pool 0xbd39 at position 0. The victim sells the same token into that pool at position 97, and 0x4df3 sells back for 1.321838 WETH, which it unwraps, at position 101. Gross gain is 0.157646 ETH minus 0.010519 ETH gas; the front and back come from different senders through the same contract, and the token amounts are not decoded, so full closure of the position cannot be confirmed exactly.\"}",
+ "case_id": "rej53_031",
+ "_time": "2026-10-19T18:34:24+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.284109,
+ "gas_eth": 0.018576,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys TOS with WTON on the TOS/WTON pool in the front leg (WTON obtained via WETH on the WETH/WTON pool). The victim then buys TOS on the same pool, and the back leg sells all the TOS and routes the WTON back to WETH. WETH net is 20.529028 - 19.937134 = +0.591894, minus the 0.307785 ETH forwarded to 0x0708\u2026 in the back leg, gives 0.284109. After 0.018576 ETH gas the result is about +0.2655 ETH, with no residual token.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3275,
+  "output_tokens": 855,
+  "thinking_tokens": 537
+ },
+ "_request_id": "req_011CgBRX54qBwZbciWqUiWNP",
+ "_response_id": "msg_011CgBRX8xF6t9c8hAr2193B",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.284109,\"gas_eth\":0.018576,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys TOS with WTON on the TOS/WTON pool in the front leg (WTON obtained via WETH on the WETH/WTON pool). The victim then buys TOS on the same pool, and the back leg sells all the TOS and routes the WTON back to WETH. WETH net is 20.529028 - 19.937134 = +0.591894, minus the 0.307785 ETH forwarded to 0x0708\u2026 in the back leg, gives 0.284109. After 0.018576 ETH gas the result is about +0.2655 ETH, with no residual token.\"}",
+ "case_id": "pack_137",
+ "_time": "2026-10-19T18:17:28+0800"
+}

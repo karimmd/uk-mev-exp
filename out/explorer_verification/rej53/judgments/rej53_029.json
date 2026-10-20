@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is run by 0x0aa3e7a6... and the back leg by 0x00000000005117dd..., so they are different actors. Each leg is a self-contained WETH\u2192GLM\u2192WETH arbitrage between pool 0xb5f790a0... and pool 0x78740436... that leaves no GLM behind. The front leg nets about +0.2952 WETH before its 0.0485 ETH gas, and the back leg nets about +0.0731 WETH before its 0.0555 ETH gas. Neither leg opens a position that the other closes, so there is no sandwich bracket and no single actor to net, which is why Q2 has no sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0335312,
+ "_session": "8b33d3b5-044f-4708-9ac5-dcd1c2035100",
+ "_raw": "{\"actor\": null, \"pool\": \"0xb5f790a03b7559312d9e738df5056a4b4c8459f4\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is run by 0x0aa3e7a6... and the back leg by 0x00000000005117dd..., so they are different actors. Each leg is a self-contained WETH\u2192GLM\u2192WETH arbitrage between pool 0xb5f790a0... and pool 0x78740436... that leaves no GLM behind. The front leg nets about +0.2952 WETH before its 0.0485 ETH gas, and the back leg nets about +0.0731 WETH before its 0.0555 ETH gas. Neither leg opens a position that the other closes, so there is no sandwich bracket and no single actor to net, which is why Q2 has no sign.\"}",
+ "case_id": "rej53_029",
+ "_time": "2026-10-13T21:59:13+0800"
+}

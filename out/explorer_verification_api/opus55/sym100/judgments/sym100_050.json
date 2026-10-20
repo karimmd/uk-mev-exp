@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xa4f35395910d7a4ff110669ced4b70227a166877",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.035352,
+ "gas_eth": 0.035667,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract sold 915.230241 MRCH into pool 0xa4f3 for 1.836503 WETH in the front leg, the victim then sold MRCH into that pool, and the contract bought back exactly 915.230241 MRCH for 1.765484 WETH. This is a sell-first sandwich on a shared pool, giving +0.071019 WETH gross minus 0.035667 ETH gas. I took one point off confidence because the position is a temporary short in MRCH (sold first, bought back) rather than a buy opened and then closed.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2971,
+  "output_tokens": 632,
+  "thinking_tokens": 329
+ },
+ "_request_id": "req_011CgBSKp7E2GV5hWVJLitse",
+ "_response_id": "msg_011CgBSKpV4KcUw5VaLnbuXU",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xa4f35395910d7a4ff110669ced4b70227a166877\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.035352, \"gas_eth\": 0.035667, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract sold 915.230241 MRCH into pool 0xa4f3 for 1.836503 WETH in the front leg, the victim then sold MRCH into that pool, and the contract bought back exactly 915.230241 MRCH for 1.765484 WETH. This is a sell-first sandwich on a shared pool, giving +0.071019 WETH gross minus 0.035667 ETH gas. I took one point off confidence because the position is a temporary short in MRCH (sold first, bought back) rather than a buy opened and then closed.\"}",
+ "case_id": "sym100_050",
+ "_time": "2026-10-19T18:28:02+0800"
+}

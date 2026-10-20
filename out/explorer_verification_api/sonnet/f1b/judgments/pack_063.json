@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x0efea698136d636e2babad10821e9064fe08f418",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008371,
+ "gas_eth": 0.020745,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 4360.59 ICE for 1.858765 WETH in the front leg, the victim buys ICE on the same pool, and the actor sells the same ICE back for 1.887881 WETH. The WETH gain of 0.029116 less 0.020745 ETH of gas leaves about +0.00837 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3410,
+  "output_tokens": 578,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQkMbzoNN7fRsoMVfpz",
+ "_response_id": "msg_011CgBQkTxyouYCzkfo3pTEA",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0x0efea698... is the pool shared by all three legs. The victim's swap routes through two pools, 0x94b8... and 0x0efe....\n\nActor: the contract 0x00000000003b3cc2... buys ICE in the front leg and sells the same amount (4360.590635 ICE) in the back leg. The victim buys ICE on 0x0efe... in between, so the bracket holds and Q1 is yes.\n\nNet WETH: the actor pays 1.858765 WETH in the front leg and receives 1.887881 WETH in the back leg, a gain of 0.029116 WETH.\n\nGas: the front fee is 0.003068 ETH and the back fee is 0.017677 ETH, for a total of 0.020745 ETH. The sender EOA pays the gas, not the contract, but the gas is still a cost to the operator. It is counted here.\n\nNet after gas: 0.029116 \u2212 0.020745 = 0.008371 ETH, which is positive. No ICE is left over, since the amounts bought and sold are equal.\n\n```json\n{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x0efea698136d636e2babad10821e9064fe08f418\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.008371,\"gas_eth\":0.020745,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 4360.59 ICE for 1.858765 WETH in the front leg, the victim buys ICE on the same pool, and the actor sells the same ICE back for 1.887881 WETH. The WETH gain of 0.029116 less 0.020745 ETH of gas leaves about +0.00837 ETH.\"}\n```",
+ "case_id": "pack_063",
+ "_time": "2026-10-19T18:07:22+0800"
+}

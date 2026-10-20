@@ -1,0 +1,17 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.00147,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 185.787870 COLLAR for 1.453431 WETH in the front leg, the victim buys COLLAR on the same pool, and the actor sells the exact same COLLAR amount for 1.463231 WETH in the back leg. That is +0.009800 WETH, but the back leg also sends 0.011270 ETH to 0x829b\u2026a830 (likely a builder payment), so the net is -0.001470 ETH. Both legs show a gas price of 0.0 gwei and a fee of 0.000000 ETH, so I took gas as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.020786699999999998,
+ "_session": "aaecef82-930c-4963-863c-33dbf510da26",
+ "_raw": "{\"actor\": \"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\", \"pool\": \"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.00147, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 185.787870 COLLAR for 1.453431 WETH in the front leg, the victim buys COLLAR on the same pool, and the actor sells the exact same COLLAR amount for 1.463231 WETH in the back leg. That is +0.009800 WETH, but the back leg also sends 0.011270 ETH to 0x829b\u2026a830 (likely a builder payment), so the net is -0.001470 ETH. Both legs show a gas price of 0.0 gwei and a fee of 0.000000 ETH, so I took gas as 0.\"}",
+ "case_id": "rej53_050",
+ "_time": "2026-10-13T22:03:32+0800"
+}

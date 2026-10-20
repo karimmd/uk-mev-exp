@@ -1,0 +1,32 @@
+{
+ "actor": "0xeb46faa47a6a52519839a2e52c7b28a2db17651e",
+ "pool": "0xc930fedc53a8426203c9203079ca76d49f65b964",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.068951,
+ "gas_eth": 0.004403448,
+ "profit_after_gas": 0.064547552,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use 0xeb46faa47a6a52519839a2e52c7b28a2db17651e, which buys and then sells the same RL3R amount on UniswapV2 pool 0xc930fedc53a8426203c9203079ca76d49f65b964, with the victim trading that same pool in between. The actor's WETH net is +1.701843 - 1.632892 = 0.068951 before gas, and no RL3R remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2316,
+  "output_tokens": 1995,
+  "thinking_tokens": 1761
+ },
+ "_request_id": "42a1909c6080a4030177fadda61ce770",
+ "_response_id": "c6c3c0c0-c691-4bfd-b400-4c654d99da8f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xeb46faa47a6a52519839a2e52c7b28a2db17651e\",\"pool\":\"0xc930fedc53a8426203c9203079ca76d49f65b964\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.068951,\"gas_eth\":0.004403448,\"profit_after_gas\":0.064547552,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use 0xeb46faa47a6a52519839a2e52c7b28a2db17651e, which buys and then sells the same RL3R amount on UniswapV2 pool 0xc930fedc53a8426203c9203079ca76d49f65b964, with the victim trading that same pool in between. The actor's WETH net is +1.701843 - 1.632892 = 0.068951 before gas, and no RL3R remains.\"}",
+ "case_id": "pack_148",
+ "_time": "2026-10-19T19:21:56+0800"
+}

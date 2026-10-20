@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.024516,
+ "gas_eth": 0.004804,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract 0x3dad and shared pool 0xee9b appear, but the front leg sells RVP and the back leg rebuys it, so no non-WETH position is opened in the front leg. Net WETH is +0.029320 before gas and +0.024516 after gas, with no residual RVP left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2322,
+  "output_tokens": 8032,
+  "thinking_tokens": 7857
+ },
+ "_request_id": "63734105e4c5a3bc0e0a22f2d72896df",
+ "_response_id": "e49f17bf-3c15-4d02-a90c-50e83d393639",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.024516,\"gas_eth\":0.004804,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract 0x3dad and shared pool 0xee9b appear, but the front leg sells RVP and the back leg rebuys it, so no non-WETH position is opened in the front leg. Net WETH is +0.029320 before gas and +0.024516 after gas, with no residual RVP left.\"}",
+ "case_id": "sym100_033",
+ "_time": "2026-10-19T18:44:05+0800"
+}

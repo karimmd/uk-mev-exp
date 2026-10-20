@@ -1,0 +1,23 @@
+{
+ "actor": "0xf277db0f2098ba87bcc27250150c2d681a39ef75",
+ "pools": [
+  "0x8d8da72161da2d800ebdd2a316214eac7c32fca0",
+  "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000156,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor receives 10.788036 USDT from pool 0x8d8d and sends the same amount to pool 0x0d4a. It receives 0.005789 WETH from 0x0d4a and pays 0.005633 ETH to 0xeea5, probably a builder tip. That leaves about +0.000156 ETH, and the explorer shows gas as 0. No input transfer into pool 0x8d8d is shown, so the closing leg of the cycle is unclear and this could instead be a pass-through sale.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0251348,
+ "_session": "446c97a8-58c4-4f83-bb09-264418656acf",
+ "_raw": "{\"actor\":\"0xf277db0f2098ba87bcc27250150c2d681a39ef75\",\"pools\":[\"0x8d8da72161da2d800ebdd2a316214eac7c32fca0\",\"0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852\"],\"cycle_token\":\"USDT\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000156,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor receives 10.788036 USDT from pool 0x8d8d and sends the same amount to pool 0x0d4a. It receives 0.005789 WETH from 0x0d4a and pays 0.005633 ETH to 0xeea5, probably a builder tip. That leaves about +0.000156 ETH, and the explorer shows gas as 0. No input transfer into pool 0x8d8d is shown, so the closing leg of the cycle is unclear and this could instead be a pass-through sale.\"}",
+ "case_id": "arb106_081",
+ "_time": "2026-10-13T22:28:58+0800"
+}

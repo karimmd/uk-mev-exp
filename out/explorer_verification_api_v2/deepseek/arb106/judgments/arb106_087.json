@@ -1,0 +1,38 @@
+{
+ "actor": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9",
+ "pools": [
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x94b0a3d511b6ecdb17ebf877278ab030acb0a878"
+ ],
+ "cycle_token": null,
+ "profit_token": "WETH",
+ "Q1": "no",
+ "Q1_reason": "routed sale",
+ "Q2": "yes",
+ "net_eth_before_gas": 30.069527,
+ "gas_eth": 0.065992,
+ "profit_after_gas": 30.003535,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor swapped USDC for WETH via two pools using an intermediary; there is no closed cycle for the actor, so this is a routed sale rather than arbitrage. Its ETH/WETH net is positive WETH received before gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1864,
+  "output_tokens": 25334,
+  "thinking_tokens": 25102
+ },
+ "_request_id": "8cb06e85cece07741134e9f34e7743ec",
+ "_response_id": "c7ab6480-d8b5-47f5-baae-2171a5089a95",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x56178a0d5f301baf6cf3e1cd53d9863437345bf9\", \"pools\": [\"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\", \"0x94b0a3d511b6ecdb17ebf877278ab030acb0a878\"], \"cycle_token\": null, \"profit_token\": \"WETH\", \"Q1\": \"no\", \"Q1_reason\": \"routed sale\", \"Q2\": \"yes\", \"net_eth_before_gas\": 30.069527, \"gas_eth\": 0.065992, \"profit_after_gas\": 30.003535, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor swapped USDC for WETH via two pools using an intermediary; there is no closed cycle for the actor, so this is a routed sale rather than arbitrage. Its ETH/WETH net is positive WETH received before gas.\"}",
+ "case_id": "arb106_087",
+ "_time": "2026-10-19T20:09:58+0800"
+}

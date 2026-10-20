@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34b8487fc2912c486b04d1436b07f19f7730cd43",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.022414,
+ "gas_eth": 0.028687,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Each leg is a self-contained two-pool loop through V2 pool 0x05f0 and V3 pool 0x34b8, which the victim also trades. POLK moves directly between the two pools, so the actor contract never holds a non-WETH position between the legs, which fails the strict Q1 test even though the front pushes the V3 pool the same way as the victim and the back reverses it. On WETH alone the actor nets -0.117686 in the front and +0.168787 in the back, for +0.051101 before gas and +0.022414 after 0.028687 of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3490,
+  "output_tokens": 1171,
+  "thinking_tokens": 859
+ },
+ "_request_id": "req_011CgBSdVS5UfijRPmqAf2pi",
+ "_response_id": "msg_011CgBSdVmuzaqTBkaSKTLB2",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x34b8487fc2912c486b04d1436b07f19f7730cd43\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.022414, \"gas_eth\": 0.028687, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Each leg is a self-contained two-pool loop through V2 pool 0x05f0 and V3 pool 0x34b8, which the victim also trades. POLK moves directly between the two pools, so the actor contract never holds a non-WETH position between the legs, which fails the strict Q1 test even though the front pushes the V3 pool the same way as the victim and the back reverses it. On WETH alone the actor nets -0.117686 in the front and +0.168787 in the back, for +0.051101 before gas and +0.022414 after 0.028687 of gas.\"}",
+ "case_id": "sym100_099",
+ "_time": "2026-10-19T18:32:06+0800"
+}

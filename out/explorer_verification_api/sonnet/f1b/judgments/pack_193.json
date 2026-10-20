@@ -1,0 +1,31 @@
+{
+ "actor": "0x7a08ed5862ba4c2887ef169a17637eadb27beecf",
+ "pool": "0xaadb00551312a3c2a8b46597a39ef1105afb2c08",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049721,
+ "gas_eth": 0.033614,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys 39.65M AXN with 7.44 ETH in the front leg, the victim buys AXN on the same AXN/WETH pool, and the actor sells all the AXN back for 7.489721 ETH. The gross gain of 0.049721 ETH exceeds the combined gas of 0.033614 ETH, leaving about +0.0161 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3371,
+  "output_tokens": 660,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRsK3XSmFQ4Ey97sHeJ",
+ "_response_id": "msg_011CgBRsKQbmJiBKCDf872Cx",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0xaadb00551312a3c2a8b46597a39ef1105afb2c08 (AXN/WETH). The victim's swap goes USDT -> WETH -> AXN, so it also trades on this pool.\n\nActor: contract 0x7a08ed5862ba4c2887ef169a17637eadb27beecf, called by sender 0x9796.... In the front leg it spends 7.44 ETH (wrapped to WETH) and receives 39,651,792.148310 AXN. In the back leg it returns the same AXN amount and receives 7.489721 WETH, which it unwraps to ETH. No AXN is left over.\n\nNet ETH: 7.489721 \u2212 7.44 = 0.049721 ETH.\n\nGas: the front fee is 0.017866 ETH and the back fee is 0.015748 ETH, so total gas is 0.033614 ETH.\n\nNet after gas: 0.049721 \u2212 0.033614 = 0.016107 ETH, which is positive.\n\nThe gas fees are as stated in the card. Those figures match gas used \u00d7 133 gwei: 134331 \u00d7 133 gwei \u2248 0.017866 and 118403 \u00d7 133 gwei \u2248 0.015747.\n\n{\"actor\": \"0x7a08ed5862ba4c2887ef169a17637eadb27beecf\", \"pool\": \"0xaadb00551312a3c2a8b46597a39ef1105afb2c08\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.049721, \"gas_eth\": 0.033614, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract buys 39.65M AXN with 7.44 ETH in the front leg, the victim buys AXN on the same AXN/WETH pool, and the actor sells all the AXN back for 7.489721 ETH. The gross gain of 0.049721 ETH exceeds the combined gas of 0.033614 ETH, leaving about +0.0161 ETH.\"}",
+ "case_id": "pack_193",
+ "_time": "2026-10-19T18:22:00+0800"
+}

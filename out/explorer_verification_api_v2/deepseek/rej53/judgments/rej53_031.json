@@ -1,0 +1,32 @@
+{
+ "actor": "0x4df3f167387f93fdc927a6e6d709f166b2ee279b",
+ "pool": "0xbd39b1f24b8960d3d7cd2c5471d0493496888185",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.157646,
+ "gas_eth": 0.010519,
+ "profit_after_gas": 0.147127,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same actor contract receives token exposure in the front leg via a WETH-to-token swap and unwinds it in the back leg on the same Uniswap V2 pool the victim uses. Netting the front WETH input of 1.164192 ETH against the back ETH withdrawal of 1.321838 ETH is positive before gas, and remains positive after the two leg gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2658,
+  "output_tokens": 12369,
+  "thinking_tokens": 12173
+ },
+ "_request_id": "e65d061c0883377cf6eefda9ffb5ef07",
+ "_response_id": "65a7b73e-a1b8-4cef-a56b-e2516639cda1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4df3f167387f93fdc927a6e6d709f166b2ee279b\",\"pool\":\"0xbd39b1f24b8960d3d7cd2c5471d0493496888185\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.157646,\"gas_eth\":0.010519,\"profit_after_gas\":0.147127,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same actor contract receives token exposure in the front leg via a WETH-to-token swap and unwinds it in the back leg on the same Uniswap V2 pool the victim uses. Netting the front WETH input of 1.164192 ETH against the back ETH withdrawal of 1.321838 ETH is positive before gas, and remains positive after the two leg gas fees.\"}",
+ "case_id": "rej53_031",
+ "_time": "2026-10-19T19:44:05+0800"
+}

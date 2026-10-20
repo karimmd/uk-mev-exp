@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.070113,
+ "gas_eth": 0.008274,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x0000\u20266b40 bought 373.776975 OHM on the OHM/DAI V2 pool 0x34d7 before the victim's DAI\u2192OHM buy on that pool, routing 33.461349 WETH through the DAI/WETH V3 pool 0x6059. It then sold the same OHM back and received 33.607418 WETH, a gain of 0.146069 WETH. Subtracting the 0.075956 ETH sent to 0xb7e3\u2026 leaves 0.070113 ETH before gas, or about 0.061839 ETH after 0.008274 ETH of gas, with no OHM left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3715,
+  "output_tokens": 899,
+  "thinking_tokens": 559
+ },
+ "_request_id": "req_011CgBR7MgoVm7P3MKFWE7n2",
+ "_response_id": "msg_011CgBR7SFPBrGRXQLoUbnFN",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.070113, \"gas_eth\": 0.008274, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x0000\u20266b40 bought 373.776975 OHM on the OHM/DAI V2 pool 0x34d7 before the victim's DAI\u2192OHM buy on that pool, routing 33.461349 WETH through the DAI/WETH V3 pool 0x6059. It then sold the same OHM back and received 33.607418 WETH, a gain of 0.146069 WETH. Subtracting the 0.075956 ETH sent to 0xb7e3\u2026 leaves 0.070113 ETH before gas, or about 0.061839 ETH after 0.008274 ETH of gas, with no OHM left over.\"}",
+ "case_id": "pack_088",
+ "_time": "2026-10-19T18:12:12+0800"
+}

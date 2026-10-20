@@ -1,0 +1,18 @@
+{
+ "routed_share_rejected_by_arm": {
+  "absent_258": 0.717,
+  "absent_new": 0.0,
+  "comparison": 0.0,
+  "recorded": 0.0451
+ },
+ "per_era_symmetric": {
+  "flashbots_pre_london": 16.38,
+  "post_london": 15.31,
+  "pre_flashbots": 5.82
+ },
+ "per_era_prespecified": {
+  "flashbots_pre_london": 2.36,
+  "post_london": 4.19,
+  "pre_flashbots": 0.52
+ }
+}

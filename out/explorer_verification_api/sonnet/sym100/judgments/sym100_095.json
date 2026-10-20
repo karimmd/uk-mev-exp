@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x25647e01bd0967c1b9599fa3521939871d1d0888",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.096352,
+ "gas_eth": 0.034701,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor's front leg sells 5491.446 SUPER for 4.958936 WETH. The back leg buys back exactly 5491.446 SUPER for 4.862584 WETH, so it ends flat in SUPER with +0.096352 WETH, or about +0.0617 ETH after 0.034701 ETH gas. The victim buys SUPER on the same pool in between, but the front leg trades the opposite way to the victim, so it does not open a long position that the victim then pushes up. This is not a classic sandwich bracket, and the SUPER sold in the front leg was held before it.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2857,
+  "output_tokens": 1809,
+  "thinking_tokens": 1501
+ },
+ "_request_id": "req_011CgBSTfSZ9EFjAKr8LPFY5",
+ "_response_id": "msg_011CgBSTfp95EsBHciyy2DuT",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x25647e01bd0967c1b9599fa3521939871d1d0888\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.096352,\"gas_eth\":0.034701,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor's front leg sells 5491.446 SUPER for 4.958936 WETH. The back leg buys back exactly 5491.446 SUPER for 4.862584 WETH, so it ends flat in SUPER with +0.096352 WETH, or about +0.0617 ETH after 0.034701 ETH gas. The victim buys SUPER on the same pool in between, but the front leg trades the opposite way to the victim, so it does not open a long position that the victim then pushes up. This is not a classic sandwich bracket, and the SUPER sold in the front leg was held before it.\"}",
+ "case_id": "sym100_095",
+ "_time": "2026-10-19T18:29:57+0800"
+}

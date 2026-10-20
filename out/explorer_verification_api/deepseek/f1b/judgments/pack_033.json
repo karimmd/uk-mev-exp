@@ -1,0 +1,31 @@
+{
+ "actor": "0x40a15a4f062a6c562333ad9b4d530c099f255a7b",
+ "pool": "0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.243281,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor receives LKR in the front leg and sends the exact same LKR amount back to the same pool in the back leg, with the victim trading on that pool between them. Net WETH gain is 69.143281 - 68.9 = 0.243281, and both front/back gas fees are zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2367,
+  "output_tokens": 1047,
+  "thinking_tokens": 877
+ },
+ "_request_id": "cae808a0d98e35b19360685a298a9124",
+ "_response_id": "0d2b46ef-2e60-45db-8359-69702dfa16c8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x40a15a4f062a6c562333ad9b4d530c099f255a7b\",\"pool\":\"0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.243281,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor receives LKR in the front leg and sends the exact same LKR amount back to the same pool in the back leg, with the victim trading on that pool between them. Net WETH gain is 69.143281 - 68.9 = 0.243281, and both front/back gas fees are zero.\"}",
+ "case_id": "pack_033",
+ "_time": "2026-10-19T18:08:12+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016118,
+ "gas_eth": 0.013232,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells LDO into pool 0xc558 in the front leg, using LDO sourced from pool 0x454f. The victim sells LDO into 0xc558 next. The back leg buys LDO back from 0xc558 and repays 0x454f. WETH net is +0.114219. After the 0.098101 ETH payment to 0xeea5 (likely a builder bribe), the actor group nets +0.016118. The 0.104963 ETH sent to the sender is treated as internal to the operator. After 0.013232 gas, the result is about +0.0029 ETH. This is a thin margin, and the sign depends on how the ETH transfers are treated.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0351592,
+ "_session": "bdff1573-5b00-4108-8114-85bfb21e0a89",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0xc558f600b34a5f69dd2f0d06cb8a88d829b7420a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.016118,\"gas_eth\":0.013232,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells LDO into pool 0xc558 in the front leg, using LDO sourced from pool 0x454f. The victim sells LDO into 0xc558 next. The back leg buys LDO back from 0xc558 and repays 0x454f. WETH net is +0.114219. After the 0.098101 ETH payment to 0xeea5 (likely a builder bribe), the actor group nets +0.016118. The 0.104963 ETH sent to the sender is treated as internal to the operator. After 0.013232 gas, the result is about +0.0029 ETH. This is a thin margin, and the sign depends on how the ETH transfers are treated.\"}",
+ "case_id": "pack_109",
+ "_time": "2026-10-13T20:25:53+0800"
+}

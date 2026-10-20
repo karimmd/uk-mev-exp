@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x553db97b11642e0f9471d511296577421518de1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049823,
+ "gas_eth": 0.000197,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The sender EOA 0xf6da\u20260bad itself sends and receives the tokens. It buys 141464408105908.72 MAK for 2.720728 WETH on pool 0x553d\u2026de1a before the victim's WETH->MAK buy on the same pool, then sells exactly the same MAK back for 2.770748 WETH. That is a gross gain of 0.050020 WETH, less 0.000197 ETH in gas, leaving no MAK residual.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2847,
+  "output_tokens": 451,
+  "thinking_tokens": 177
+ },
+ "_request_id": "req_011CgBQgit4LXCpqVPs4Jcyy",
+ "_response_id": "msg_011CgBQgqk43jgaetDe8btSW",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0x553db97b11642e0f9471d511296577421518de1a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.049823, \"gas_eth\": 0.000197, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The sender EOA 0xf6da\u20260bad itself sends and receives the tokens. It buys 141464408105908.72 MAK for 2.720728 WETH on pool 0x553d\u2026de1a before the victim's WETH->MAK buy on the same pool, then sells exactly the same MAK back for 2.770748 WETH. That is a gross gain of 0.050020 WETH, less 0.000197 ETH in gas, leaving no MAK residual.\"}",
+ "case_id": "pack_053",
+ "_time": "2026-10-19T18:06:32+0800"
+}

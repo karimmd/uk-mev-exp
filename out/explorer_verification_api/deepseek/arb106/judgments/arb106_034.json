@@ -1,0 +1,39 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xdf50fbde8180c8785842c8e316ebe06f542d3443",
+  "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
+  "0x157dfa656fdf0d18e1ba94075a53600d81cb3a97"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001165,
+ "gas_eth": 0.04197,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xe33... sends 4.565817 WETH to Uniswap V3 pool 0x88e6 and receives 4.608952 WETH from pool 0x157d via a four-pool WETH->USDC->FEI->UMA->WETH cycle. Net WETH 0.043135 minus gas 0.041970 leaves +0.001165 ETH and no residual holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1648,
+  "output_tokens": 10182,
+  "thinking_tokens": 9894
+ },
+ "_request_id": "1c3d2d11ab960eadf467fd5524352714",
+ "_response_id": "01e5d9be-604a-4c71-b56e-81605f72ac21",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0xdf50fbde8180c8785842c8e316ebe06f542d3443\",\"0x0f024314588466416c8fc66013ba4d3ab2e4efe5\",\"0x157dfa656fdf0d18e1ba94075a53600d81cb3a97\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001165,\"gas_eth\":0.04197,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0xe33... sends 4.565817 WETH to Uniswap V3 pool 0x88e6 and receives 4.608952 WETH from pool 0x157d via a four-pool WETH->USDC->FEI->UMA->WETH cycle. Net WETH 0.043135 minus gas 0.041970 leaves +0.001165 ETH and no residual holding.\"}",
+ "case_id": "arb106_034",
+ "_time": "2026-10-19T19:13:21+0800"
+}

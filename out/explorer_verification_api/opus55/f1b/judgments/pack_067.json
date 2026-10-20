@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x21359dfb99489204a3549692dd80f2cff4d4e8f9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.06622,
+ "gas_eth": 0.028407,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x1d6e\u2026932d buys 5074.997847 STR for 4.03 WETH on UniswapV2 pool 0x2135\u2026f8d9. The victim then buys STR with 6 ETH on the same pool, and the same contract sells exactly 5074.997847 STR back for 4.124627 WETH, a gross gain of 0.094627 WETH before gas. The front and back legs come from different EOAs but call the same contract, which holds and releases the position, so I am slightly less than certain both senders belong to one operator.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2905,
+  "output_tokens": 451,
+  "thinking_tokens": 140
+ },
+ "_request_id": "req_011CgBQrRCUDBPzAM7vPYwVK",
+ "_response_id": "msg_011CgBQrXBPMPsGpgrswe4nm",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x21359dfb99489204a3549692dd80f2cff4d4e8f9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.06622, \"gas_eth\": 0.028407, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x1d6e\u2026932d buys 5074.997847 STR for 4.03 WETH on UniswapV2 pool 0x2135\u2026f8d9. The victim then buys STR with 6 ETH on the same pool, and the same contract sells exactly 5074.997847 STR back for 4.124627 WETH, a gross gain of 0.094627 WETH before gas. The front and back legs come from different EOAs but call the same contract, which holds and releases the position, so I am slightly less than certain both senders belong to one operator.\"}",
+ "case_id": "pack_067",
+ "_time": "2026-10-19T18:08:43+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs trade the same MXS/WETH pool (0x13bb...), but the front leg sells MXS for ETH (the sender gives up 2.1M MXS and receives 16.11 ETH), while the victim and back legs both buy MXS. The back leg's sender (0x09ae...) is a different address from the front leg's sender (0x5136...), and the back leg is a small 0.03 ETH buy, not a close of the front position. There is no open-then-close by one actor, so this is not a sandwich bracket, and Q2 has no sign to give because the front and back legs belong to different actors.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3830,
+  "output_tokens": 297,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRshxBCCtuC6cXZVCKT",
+ "_response_id": "msg_011CgBRsiJG2dbSLUrxmtJK8",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs trade the same MXS/WETH pool (0x13bb...), but the front leg sells MXS for ETH (the sender gives up 2.1M MXS and receives 16.11 ETH), while the victim and back legs both buy MXS. The back leg's sender (0x09ae...) is a different address from the front leg's sender (0x5136...), and the back leg is a small 0.03 ETH buy, not a close of the front position. There is no open-then-close by one actor, so this is not a sandwich bracket, and Q2 has no sign to give because the front and back legs belong to different actors.\"}",
+ "case_id": "pack_195",
+ "_time": "2026-10-19T18:22:04+0800"
+}

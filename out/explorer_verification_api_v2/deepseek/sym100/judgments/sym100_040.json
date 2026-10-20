@@ -1,0 +1,32 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.075701,
+ "gas_eth": 0.010177,
+ "profit_after_gas": 0.065524,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract c1df sold SYN for WETH in the front leg and bought the same SYN back with slightly less WETH in the back leg on the shared Uniswap V2 SYN/WETH pool. The victim also traded that pool between them, and the WETH inflow exceeds the front/back gas fees with no net non-WETH residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2363,
+  "output_tokens": 3390,
+  "thinking_tokens": 3206
+ },
+ "_request_id": "39db3bc6806b08a76bc12e9e5e3bc5bc",
+ "_response_id": "fec5ab8e-a833-47bd-bd60-dd64ea3bc10f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.075701,\"gas_eth\":0.010177,\"profit_after_gas\":0.065524,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract c1df sold SYN for WETH in the front leg and bought the same SYN back with slightly less WETH in the back leg on the shared Uniswap V2 SYN/WETH pool. The victim also traded that pool between them, and the WETH inflow exceeds the front/back gas fees with no net non-WETH residual.\"}",
+ "case_id": "sym100_040",
+ "_time": "2026-10-19T19:31:58+0800"
+}

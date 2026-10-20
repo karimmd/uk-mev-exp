@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.074331,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received JEJUDOGE in the front and returned the same amount in the back via the same UniswapV2 pool used by the victim. Net WETH change is 3.933715 - 3.859384 = 0.074331, gas fees are zero, and no JEJUDOGE remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2728,
+  "output_tokens": 3689,
+  "thinking_tokens": 3503
+ },
+ "_request_id": "158e85fb8b6408606501aad070540e25",
+ "_response_id": "b04aea84-d2f7-4b63-bfac-eee39b50a635",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.074331, \"gas_eth\": 0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract received JEJUDOGE in the front and returned the same amount in the back via the same UniswapV2 pool used by the victim. Net WETH change is 3.933715 - 3.859384 = 0.074331, gas fees are zero, and no JEJUDOGE remains.\"}",
+ "case_id": "rej53_014",
+ "_time": "2026-10-19T18:58:25+0800"
+}

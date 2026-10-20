@@ -1,0 +1,24 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824",
+  "0x9e0905249ceefffb9605e034b534544684a58be6"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.011215,
+ "gas_eth": 0.01012,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 3.739764 WETH into the USDC/WETH V3 pool, and that pool's USDC goes straight to the HEX/USDC V2 pair. The V2 pair's HEX goes to the HEX/WETH V3 pool, which returns 3.751436 WETH to the actor. This is a three-pool WETH cycle with a gross gain of 0.011672 WETH. After a 0.000457 ETH internal payment (likely a builder tip) and 0.010120 ETH gas, the net is about +0.001095 ETH. The net_eth figure of 0.011215 is before gas.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0204767,
+ "_session": "eb82b755-80cf-40ca-9263-93e8dc7a278b",
+ "_raw": "{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\", \"0xf6dcdce0ac3001b2f67f750bc64ea5beb37b5824\", \"0x9e0905249ceefffb9605e034b534544684a58be6\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.011215, \"gas_eth\": 0.01012, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 3.739764 WETH into the USDC/WETH V3 pool, and that pool's USDC goes straight to the HEX/USDC V2 pair. The V2 pair's HEX goes to the HEX/WETH V3 pool, which returns 3.751436 WETH to the actor. This is a three-pool WETH cycle with a gross gain of 0.011672 WETH. After a 0.000457 ETH internal payment (likely a builder tip) and 0.010120 ETH gas, the net is about +0.001095 ETH. The net_eth figure of 0.011215 is before gas.\"}",
+ "case_id": "arb106_077",
+ "_time": "2026-10-13T22:27:52+0800"
+}

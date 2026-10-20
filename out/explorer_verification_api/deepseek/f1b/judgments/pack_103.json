@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xcb49221ad08e84b1692f80b62cd5f90c1aadbe6e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0248215883,
+ "gas_eth": 0.0041004117,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sold 114948.586662 CUDOS for WETH before the victim's CUDOS sale on the same UniswapV2 pool, then bought back the same CUDOS amount after the victim. Its WETH proceeds exceed the WETH spent, leaving a positive ~0.02482 ETH/WETH result after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2418,
+  "output_tokens": 7782,
+  "thinking_tokens": 7605
+ },
+ "_request_id": "81e304a87b66fbd82da620ab7155ae0a",
+ "_response_id": "9b40192e-87ac-40f6-bb72-47b62d7bdb49",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xcb49221ad08e84b1692f80b62cd5f90c1aadbe6e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.0248215883,\"gas_eth\":0.0041004117,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract actor sold 114948.586662 CUDOS for WETH before the victim's CUDOS sale on the same UniswapV2 pool, then bought back the same CUDOS amount after the victim. Its WETH proceeds exceed the WETH spent, leaving a positive ~0.02482 ETH/WETH result after gas.\"}",
+ "case_id": "pack_103",
+ "_time": "2026-10-19T18:20:40+0800"
+}

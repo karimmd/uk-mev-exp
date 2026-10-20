@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.186289,
+ "gas_eth": 0.042663,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract (0xb5917a48) sells 5814.437643 SHOPX for 12.015 WETH in the front leg and buys back exactly 5814.437643 SHOPX for 11.828711 WETH in the back leg. Both legs and the victim's SHOPX->WETH sale are on pool 0x37ac54dc, with the victim between them. WETH nets +0.186289, which is about +0.143626 ETH after 0.042663 ETH of gas for the two legs, and no SHOPX is left over. The front leg sells from existing inventory rather than buying, so the 'opens a position' wording fits only loosely, but the round trip is clearly bracketed around the victim.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.023920700000000003,
+ "_session": "d80fa8aa-4c7a-4fd6-9df8-663e089eacd6",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.186289, \"gas_eth\": 0.042663, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract (0xb5917a48) sells 5814.437643 SHOPX for 12.015 WETH in the front leg and buys back exactly 5814.437643 SHOPX for 11.828711 WETH in the back leg. Both legs and the victim's SHOPX->WETH sale are on pool 0x37ac54dc, with the victim between them. WETH nets +0.186289, which is about +0.143626 ETH after 0.042663 ETH of gas for the two legs, and no SHOPX is left over. The front leg sells from existing inventory rather than buying, so the 'opens a position' wording fits only loosely, but the round trip is clearly bracketed around the victim.\"}",
+ "case_id": "sym100_013",
+ "_time": "2026-10-13T21:25:27+0800"
+}

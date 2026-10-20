@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.001937,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.001937,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor takes 7262.97 USDT from the V2 pool and sends 7222.10 to the FNK V3 pool and 40.87 to the WETH V3 pool, so USDT nets to zero. It receives 0.019374 WETH, unwraps it, and pays 0.017437 ETH to 0xe9b5 (likely a builder tip), leaving about 0.001937 ETH. The explorer shows a fee of 0 at 0.0 gwei, so gas is taken as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2512,
+  "output_tokens": 1194,
+  "thinking_tokens": 791
+ },
+ "_request_id": "req_011CgBXQA9SVRpzAwHoUZ49g",
+ "_response_id": "msg_011CgBXQB1XSBRDCEc9jsPyD",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\"],\"cycle_token\":\"USDT\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.001937,\"gas_eth\":0.0,\"profit_after_gas\":0.001937,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor takes 7262.97 USDT from the V2 pool and sends 7222.10 to the FNK V3 pool and 40.87 to the WETH V3 pool, so USDT nets to zero. It receives 0.019374 WETH, unwraps it, and pays 0.017437 ETH to 0xe9b5 (likely a builder tip), leaving about 0.001937 ETH. The explorer shows a fee of 0 at 0.0 gwei, so gas is taken as 0.\"}",
+ "case_id": "arb106_071",
+ "_time": "2026-10-19T19:34:37+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x0612f7b15779ca6ddbe927f92d6c4144fbae1485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.045003,
+ "gas_eth": 0.02934,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract trades REALM/WETH on the victim's pool in both legs. It sells 2500.901129 REALM for 0.353977 WETH before the victim's REALM sale, then buys exactly 2500.901129 REALM back for 0.308974 WETH after it, so it ends flat in REALM. Net WETH is +0.045003, and after gas of 0.02934 ETH (0.015370 + 0.013970) the result is about +0.01566 ETH. The bracket runs sell-then-rebuy rather than buy-then-sell, so it relies on the actor already holding REALM inventory.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3052,
+  "output_tokens": 904,
+  "thinking_tokens": 580
+ },
+ "_request_id": "req_011CgBSPsDNuCatNj17xnLHJ",
+ "_response_id": "msg_011CgBSPsYUUkPuWDbNMqfUq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x0612f7b15779ca6ddbe927f92d6c4144fbae1485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.045003,\"gas_eth\":0.02934,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract trades REALM/WETH on the victim's pool in both legs. It sells 2500.901129 REALM for 0.353977 WETH before the victim's REALM sale, then buys exactly 2500.901129 REALM back for 0.308974 WETH after it, so it ends flat in REALM. Net WETH is +0.045003, and after gas of 0.02934 ETH (0.015370 + 0.013970) the result is about +0.01566 ETH. The bracket runs sell-then-rebuy rather than buy-then-sell, so it relies on the actor already holding REALM inventory.\"}",
+ "case_id": "sym100_083",
+ "_time": "2026-10-19T18:28:58+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x30296ea311779740ec158ff8c9e3a8c0217f8113",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.175235,
+ "gas_eth": 0.084765,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 14973.705057 BFLY into the WETH/BFLY pool in the front leg for 5.605 WETH. The victim then sells 7814 BFLY into the same pool. In the back leg the actor buys back the identical 14973.705057 BFLY for 5.429765 WETH, so its BFLY position nets to zero. The WETH gain of 0.175235 is greater than the 0.084765 ETH of gas in the two legs, leaving about +0.0905 ETH. The front leg's BFLY sale comes from the actor's existing inventory, not a prior buy. That makes this a reverse-order sandwich, which I still count as a bracket.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.027391199999999997,
+ "_session": "f5136390-da16-4cc0-ac72-4e8d54a671f7",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x30296ea311779740ec158ff8c9e3a8c0217f8113\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.175235,\"gas_eth\":0.084765,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 14973.705057 BFLY into the WETH/BFLY pool in the front leg for 5.605 WETH. The victim then sells 7814 BFLY into the same pool. In the back leg the actor buys back the identical 14973.705057 BFLY for 5.429765 WETH, so its BFLY position nets to zero. The WETH gain of 0.175235 is greater than the 0.084765 ETH of gas in the two legs, leaving about +0.0905 ETH. The front leg's BFLY sale comes from the actor's existing inventory, not a prior buy. That makes this a reverse-order sandwich, which I still count as a bracket.\"}",
+ "case_id": "sym100_034",
+ "_time": "2026-10-13T21:30:13+0800"
+}

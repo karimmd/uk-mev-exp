@@ -1,0 +1,17 @@
+{
+ "actor": "0xc6e6dd6a0c61651d1bc055dc1c22418a729d41bb",
+ "pool": "0x51c1d5cdf10dda49219054920c22c8d4a23eed89",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.017831,
+ "gas_eth": 0.30479,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract 0xc6e6 buys 2,478,058.296219 LX for 16.53 WETH in the front leg. The victim then buys LX on the same pool. The contract sells the identical LX amount back for 17.547831 WETH, so no LX is left over. Net WETH is +1.017831. After 0.30479 ETH of combined front and back gas, the position is about +0.713 ETH. The front and back transactions come from different senders, but both call the same contract.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0242332,
+ "_session": "d598549f-b25a-4a5b-8832-e42a2c1ab202",
+ "_raw": "{\"actor\": \"0xc6e6dd6a0c61651d1bc055dc1c22418a729d41bb\", \"pool\": \"0x51c1d5cdf10dda49219054920c22c8d4a23eed89\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.017831, \"gas_eth\": 0.30479, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract 0xc6e6 buys 2,478,058.296219 LX for 16.53 WETH in the front leg. The victim then buys LX on the same pool. The contract sells the identical LX amount back for 17.547831 WETH, so no LX is left over. Net WETH is +1.017831. After 0.30479 ETH of combined front and back gas, the position is about +0.713 ETH. The front and back transactions come from different senders, but both call the same contract.\"}",
+ "case_id": "pack_014",
+ "_time": "2026-10-13T20:06:59+0800"
+}

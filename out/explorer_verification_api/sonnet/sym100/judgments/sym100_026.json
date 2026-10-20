@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x376079a32d73b3942639486da4841ca31afa9960",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.145744,
+ "gas_eth": 0.002884,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 2362884269.495092 EPAY into the EPAY/WETH pool for 9.292415 WETH in the front leg. The victim also sells EPAY on that pool, and the actor then buys back exactly the same EPAY amount for 9.146671 WETH in the back leg. This is a sell-first, buy-back-later sandwich. Net WETH is +0.145744 before gas, and gas for both legs is 0.002884 ETH, so the position is about +0.14286 ETH after gas, with no EPAY left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2956,
+  "output_tokens": 956,
+  "thinking_tokens": 659
+ },
+ "_request_id": "req_011CgBS3bKLptAfd8cPTnMgZ",
+ "_response_id": "msg_011CgBS3bfvb6DvXoRqa4BXL",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0x376079a32d73b3942639486da4841ca31afa9960\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.145744,\"gas_eth\":0.002884,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 2362884269.495092 EPAY into the EPAY/WETH pool for 9.292415 WETH in the front leg. The victim also sells EPAY on that pool, and the actor then buys back exactly the same EPAY amount for 9.146671 WETH in the back leg. This is a sell-first, buy-back-later sandwich. Net WETH is +0.145744 before gas, and gas for both legs is 0.002884 ETH, so the position is about +0.14286 ETH after gas, with no EPAY left over.\"}",
+ "case_id": "sym100_026",
+ "_time": "2026-10-19T18:24:23+0800"
+}

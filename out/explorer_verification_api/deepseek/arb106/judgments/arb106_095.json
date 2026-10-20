@@ -1,0 +1,39 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x05767d9ef41dc40689678ffca0608878fb3de906",
+  "0x2e4784446a0a06df3d1a040b03e1680ee266c35a",
+  "0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9",
+  "0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.006064,
+ "gas_eth": 0.02901,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The target contract b2bb ends with net positive WETH after trading across four Uniswap V2/V3 pools, with CVX and TOWER routed pool-to-pool as intermediate tokens. After the stated gas fee, the net WETH result remains positive, and no non-WETH residual or mint is visible.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1793,
+  "output_tokens": 10403,
+  "thinking_tokens": 10138
+ },
+ "_request_id": "629272c69622bd04b443f3d47edb88a3",
+ "_response_id": "adba5fa7-9fd6-48ef-945c-52f4fb086095",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x05767d9ef41dc40689678ffca0608878fb3de906\",\"0x2e4784446a0a06df3d1a040b03e1680ee266c35a\",\"0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9\",\"0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.006064,\"gas_eth\":0.02901,\"residual\":\"none\",\"confidence\":5,\"note\":\"The target contract b2bb ends with net positive WETH after trading across four Uniswap V2/V3 pools, with CVX and TOWER routed pool-to-pool as intermediate tokens. After the stated gas fee, the net WETH result remains positive, and no non-WETH residual or mint is visible.\"}",
+ "case_id": "arb106_095",
+ "_time": "2026-10-19T19:39:26+0800"
+}

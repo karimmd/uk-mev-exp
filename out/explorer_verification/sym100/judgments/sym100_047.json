@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.945248,
+ "gas_eth": 0.92832,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor's contract runs a V3-to-V2 LOOKS round trip in each leg. It sells LOOKS into the V2 pool before the victim sells there and buys LOOKS back from that pool afterwards, so the V2 pool is the shared pool (the victim also trades the V3 pool). Net WETH is -1.084465 in the front and +2.029713 in the back, which gives +0.945248. Gas is 0.92832 ETH, mostly from the 3973 gwei back leg, so the result after gas is only about +0.0169 ETH. No LOOKS is left over. Each leg is closed within its own transaction, so the 'position' is a V2-side short rather than a held balance, which is why I'm only moderately confident.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0353272,
+ "_session": "4824c3f7-6f8a-4f6d-95f1-197c9b6b7f67",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.945248, \"gas_eth\": 0.92832, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor's contract runs a V3-to-V2 LOOKS round trip in each leg. It sells LOOKS into the V2 pool before the victim sells there and buys LOOKS back from that pool afterwards, so the V2 pool is the shared pool (the victim also trades the V3 pool). Net WETH is -1.084465 in the front and +2.029713 in the back, which gives +0.945248. Gas is 0.92832 ETH, mostly from the 3973 gwei back leg, so the result after gas is only about +0.0169 ETH. No LOOKS is left over. Each leg is closed within its own transaction, so the 'position' is a V2-side short rather than a held balance, which is why I'm only moderately confident.\"}",
+ "case_id": "sym100_047",
+ "_time": "2026-10-13T21:33:16+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xdc3e94ddf605864b79fce18c7cf974e579001e7b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.152771,
+ "gas_eth": 0.013946,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front leg sells QUICK for WETH and the back leg buys the same amount of QUICK back, so the actor closes a non-WETH position before the victim and opens one after, not a sandwich as defined. Net WETH profit after gas is positive and there is no residual QUICK holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3408,
+  "output_tokens": 6475,
+  "thinking_tokens": 6316
+ },
+ "_request_id": "5a068f7216928e9b1ff2665916c5a522",
+ "_response_id": "17b8130e-fffb-4895-9a8f-9cf49a27baa8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xdc3e94ddf605864b79fce18c7cf974e579001e7b\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.152771,\"gas_eth\":0.013946,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front leg sells QUICK for WETH and the back leg buys the same amount of QUICK back, so the actor closes a non-WETH position before the victim and opens one after, not a sandwich as defined. Net WETH profit after gas is positive and there is no residual QUICK holding.\"}",
+ "case_id": "sym100_022",
+ "_time": "2026-10-19T18:42:49+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.041163,
+ "gas_eth": 0.011798,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x42d0 wraps 11 ETH and buys 2765.9853 CEL on Uniswap V2 pair 0xa5e7. The victim then buys CEL with 32.77 ETH on the same pair, and 0x42d0 sells exactly 2765.9853 CEL back for 11.052961 WETH, which it unwraps. Gross gain is 0.052961 ETH; minus front and back gas of 0.011798 ETH that leaves about +0.041163 ETH, with no CEL left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3421,
+  "output_tokens": 571,
+  "thinking_tokens": 261
+ },
+ "_request_id": "req_011CgBRYCrg6uXArxA74mAyx",
+ "_response_id": "msg_011CgBRYH89sV8qqgbp9j12L",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\", \"pool\": \"0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.041163, \"gas_eth\": 0.011798, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x42d0 wraps 11 ETH and buys 2765.9853 CEL on Uniswap V2 pair 0xa5e7. The victim then buys CEL with 32.77 ETH on the same pair, and 0x42d0 sells exactly 2765.9853 CEL back for 11.052961 WETH, which it unwraps. Gross gain is 0.052961 ETH; minus front and back gas of 0.011798 ETH that leaves about +0.041163 ETH, with no CEL left over.\"}",
+ "case_id": "pack_128",
+ "_time": "2026-10-19T18:17:43+0800"
+}

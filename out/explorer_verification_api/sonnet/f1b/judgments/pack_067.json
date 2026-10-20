@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x21359dfb99489204a3549692dd80f2cff4d4e8f9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.094627,
+ "gas_eth": 0.028407,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 5074.997847 STR in the front leg and sells exactly that amount in the back leg on the pool the victim buys from. It gains 0.094627 WETH, or about 0.0662 ETH after front and back gas, with no STR left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2905,
+  "output_tokens": 620,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQoEFKGKWNrdt2FyFyX",
+ "_response_id": "msg_011CgBQoLGy3DQ9Fffew96Q8",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0x21359dfb... (WETH/STR). The front leg sends 4.03 WETH in and receives 5074.997847 STR. The victim buys STR with 6 ETH on the same pool. The back leg sells exactly 5074.997847 STR and receives 4.124627 WETH.\n\nActor: the contract 0x1d6e8bac... holds the STR after the front leg and gives it up in the back leg. The senders differ (0x4f69... in front, 0x74b8... in back), but both call the same contract, so the economic actor is the same.\n\nNet ETH: 4.124627 \u2212 4.03 = 0.094627 WETH.\n\nGas: the front fee is 0.014339 ETH and the back fee is 0.014068 ETH, for a total of 0.028407 ETH. The fees are paid by the senders, who may or may not be the actor. They are still counted as observable cost.\n\nAfter cost: 0.094627 \u2212 0.028407 = 0.06622, which is positive.\n\nResidual: none. The STR bought (5074.997847) equals the STR sold.\n\nQ1 is yes: one actor opens and closes a position in a non-WETH token with the victim in between on the shared pool. Q2 is yes.\n\n{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x21359dfb99489204a3549692dd80f2cff4d4e8f9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.094627, \"gas_eth\": 0.028407, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 5074.997847 STR in the front leg and sells exactly that amount in the back leg on the pool the victim buys from. It gains 0.094627 WETH, or about 0.0662 ETH after front and back gas, with no STR left over.\"}",
+ "case_id": "pack_067",
+ "_time": "2026-10-19T18:08:00+0800"
+}

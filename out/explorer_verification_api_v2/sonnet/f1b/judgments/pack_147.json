@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x4d9824fbc04eff50ab1dac614eae4e20859d5c91",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender, 0x7e104e34..., and each one buys DEUS with ETH on the same pool. The sender is also the victim, so there is no separate actor and no sale in the back leg that would close a position. This is three consecutive buys, not a sandwich bracket, so there is no profit to compute.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3713,
+  "output_tokens": 216,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVt8Wkdg6evJn8GLKTH",
+ "_response_id": "msg_011CgBVt8rLgjUPaNAexdKR9",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x4d9824fbc04eff50ab1dac614eae4e20859d5c91\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender, 0x7e104e34..., and each one buys DEUS with ETH on the same pool. The sender is also the victim, so there is no separate actor and no sale in the back leg that would close a position. This is three consecutive buys, not a sandwich bracket, so there is no profit to compute.\"}",
+ "case_id": "pack_147",
+ "_time": "2026-10-19T19:14:37+0800"
+}

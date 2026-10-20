@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.076002,
+ "gas_eth": 0.013207,
+ "profit_after_gas": 0.062795,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH through the WETH/PROS pool and then the PROS/USDC pool in the front leg, ending up with 40686.03 USDC. The back leg returns exactly that USDC to the PROS/USDC pool, which the victim also trades on, and gets WETH back. WETH net is +0.327197 (24.707975 \u2212 24.380778). The 0.251195 ETH internal transfer out looks like a payment to the block producer, and I counted it as a cost, giving 0.076002 before gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3431,
+  "output_tokens": 834,
+  "thinking_tokens": 527
+ },
+ "_request_id": "req_011CgBWusDAusDrvsjwX1pBg",
+ "_response_id": "msg_011CgBWuuScrU6ieHR3hr8GX",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.076002,\"gas_eth\":0.013207,\"profit_after_gas\":0.062795,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract routes WETH through the WETH/PROS pool and then the PROS/USDC pool in the front leg, ending up with 40686.03 USDC. The back leg returns exactly that USDC to the PROS/USDC pool, which the victim also trades on, and gets WETH back. WETH net is +0.327197 (24.707975 \u2212 24.380778). The 0.251195 ETH internal transfer out looks like a payment to the block producer, and I counted it as a cost, giving 0.076002 before gas.\"}",
+ "case_id": "rej53_046",
+ "_time": "2026-10-19T19:28:12+0800"
+}

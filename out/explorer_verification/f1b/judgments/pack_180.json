@@ -1,0 +1,17 @@
+{
+ "actor": "0x3cf2379669cc6e4dcb5b8e6b75d351954ce6b58a",
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -0.05,
+ "gas_eth": 0.003343,
+ "residual": "774563.8744 MXS held by the front sender, never sold",
+ "confidence": 4,
+ "note": "All three legs are ETH-to-MXS buys on the same pair. The back leg is sent by a different address (0xeda6...) and buys 4.8M MXS with 0.33 ETH instead of selling, so no one closes a position. The front actor spent 0.05 ETH and still holds MXS, so the sign of its net position can't be set.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0279712,
+ "_session": "a9843ecd-78d0-4e58-949b-90597fc9c195",
+ "_raw": "{\"actor\": \"0x3cf2379669cc6e4dcb5b8e6b75d351954ce6b58a\", \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -0.05, \"gas_eth\": 0.003343, \"residual\": \"774563.8744 MXS held by the front sender, never sold\", \"confidence\": 4, \"note\": \"All three legs are ETH-to-MXS buys on the same pair. The back leg is sent by a different address (0xeda6...) and buys 4.8M MXS with 0.33 ETH instead of selling, so no one closes a position. The front actor spent 0.05 ETH and still holds MXS, so the sign of its net position can't be set.\"}",
+ "case_id": "pack_180",
+ "_time": "2026-10-13T20:39:52+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xce50840272d623272d6aef25e403f2265c27cfe7",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.376187,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract spends 20.949328 WETH in the front leg to buy ALBT through the WETH/USDT pool and then the ALBT/USDT pool. The victim buys ALBT on that same ALBT/USDT pool. The back leg sells all 112939.66 ALBT back and returns 21.450911 WETH, a gross gain of 0.501583. After the 0.125396 ETH payment to 0x04668ec2... the net is 0.376187 ETH, and the explorers show gas at 0.0 gwei, so gas fees are 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0297452,
+ "_session": "c1054bbb-c2b8-4457-a65a-15cb6a115dcc",
+ "_raw": "{\"actor\": \"0xce50840272d623272d6aef25e403f2265c27cfe7\", \"pool\": \"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.376187, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract spends 20.949328 WETH in the front leg to buy ALBT through the WETH/USDT pool and then the ALBT/USDT pool. The victim buys ALBT on that same ALBT/USDT pool. The back leg sells all 112939.66 ALBT back and returns 21.450911 WETH, a gross gain of 0.501583. After the 0.125396 ETH payment to 0x04668ec2... the net is 0.376187 ETH, and the explorers show gas at 0.0 gwei, so gas fees are 0.\"}",
+ "case_id": "rej53_010",
+ "_time": "2026-10-13T21:55:24+0800"
+}

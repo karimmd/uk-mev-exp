@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x438d3e9cacab4614a8f1613ac7b182378d76e1f8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016637,
+ "gas_eth": 0.004327,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sold 1867.832613 WSCRT into the pool for 1.104680 WETH in the front leg. The victim then sold 2000 WSCRT on the same pool. The back leg bought back exactly 1867.832613 WSCRT for 1.088043 WETH. The WETH net is +0.016637 before gas and about +0.01231 after 0.004327 ETH of gas, with no WSCRT left over. The bracket is sell-first, so it relies on WSCRT the actor already held rather than a buy-first position.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3082,
+  "output_tokens": 824,
+  "thinking_tokens": 520
+ },
+ "_request_id": "req_011CgBSCQcfV1xXbFcQs8NT4",
+ "_response_id": "msg_011CgBSCQxkD7oUqtfJiEaZB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x438d3e9cacab4614a8f1613ac7b182378d76e1f8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.016637,\"gas_eth\":0.004327,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sold 1867.832613 WSCRT into the pool for 1.104680 WETH in the front leg. The victim then sold 2000 WSCRT on the same pool. The back leg bought back exactly 1867.832613 WSCRT for 1.088043 WETH. The WETH net is +0.016637 before gas and about +0.01231 after 0.004327 ETH of gas, with no WSCRT left over. The bracket is sell-first, so it relies on WSCRT the actor already held rather than a buy-first position.\"}",
+ "case_id": "sym100_052",
+ "_time": "2026-10-19T18:26:21+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.039425,
+ "gas_eth": 0.758563,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x7cf09d paid 4.060760 WETH in the front leg, routing WETH to TOS on 0x2ad99c and TOS to WTON on 0x1c0ce9, and received 1997.688058 WTON. The victim swapped TOS for WTON on 0x1c0ce9, and the back leg returned exactly that WTON along the reverse route for 4.858748 WETH. The WETH gain of 0.797988 less 0.758563 ETH of combined gas leaves a net of about +0.0394 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3015,
+  "output_tokens": 563,
+  "thinking_tokens": 241
+ },
+ "_request_id": "req_011CgBRoFR8dV5QZjbk1D8UC",
+ "_response_id": "msg_011CgBRoFkinrXP99nUnFL9Z",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\", \"pool\": \"0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.039425, \"gas_eth\": 0.758563, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x7cf09d paid 4.060760 WETH in the front leg, routing WETH to TOS on 0x2ad99c and TOS to WTON on 0x1c0ce9, and received 1997.688058 WTON. The victim swapped TOS for WTON on 0x1c0ce9, and the back leg returned exactly that WTON along the reverse route for 4.858748 WETH. The WETH gain of 0.797988 less 0.758563 ETH of combined gas leaves a net of about +0.0394 ETH.\"}",
+ "case_id": "pack_165",
+ "_time": "2026-10-19T18:21:07+0800"
+}

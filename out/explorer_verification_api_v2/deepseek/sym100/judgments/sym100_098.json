@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xcbbc981bd5b358d09a9346726115d3ac8822d00b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.160907,
+ "gas_eth": 0.088953,
+ "profit_after_gas": 0.071954,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The bot contract 0x3b3 shorted VXV on the UniV3 pool cbbc in the front leg and closed the short on the same pool in the back leg, sandwiching the victim's VXV sell. Its net WETH gain before gas is 0.160907 ETH; subtracting front/back gas gives a positive 0.071954 ETH profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2598,
+  "output_tokens": 21249,
+  "thinking_tokens": 21061
+ },
+ "_request_id": "e1d56f69ecf5ce46286348071e981f50",
+ "_response_id": "e4a9d67f-484e-41e1-acf8-babe40bf2d83",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xcbbc981bd5b358d09a9346726115d3ac8822d00b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.160907,\"gas_eth\":0.088953,\"profit_after_gas\":0.071954,\"residual\":\"none\",\"confidence\":4,\"note\":\"The bot contract 0x3b3 shorted VXV on the UniV3 pool cbbc in the front leg and closed the short on the same pool in the back leg, sandwiching the victim's VXV sell. Its net WETH gain before gas is 0.160907 ETH; subtracting front/back gas gives a positive 0.071954 ETH profit.\"}",
+ "case_id": "sym100_098",
+ "_time": "2026-10-19T19:39:34+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000b65e5ae3c80a89f73fbcfdeabc3c2c06",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.004544,
+ "gas_eth": 0.048343,
+ "residual": "0.000001 USDC",
+ "confidence": 5,
+ "note": "The same contract receives USDC in the front leg and spends it in the back leg, trading on the EXRD/USDC pool 0x684b..., which the victim also trades. Net WETH gain is 1.550951 - 1.498064 = 0.052887 ETH; subtracting 0.016745 + 0.031598 = 0.048343 gas leaves +0.004544 ETH, with 0.000001 USDC residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2481,
+  "output_tokens": 3052,
+  "thinking_tokens": 2849
+ },
+ "_request_id": "11a4bb9e65e2cecd6490df3b0415f393",
+ "_response_id": "0541c54c-cc6c-4389-b96e-5e9dd949b784",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000b65e5ae3c80a89f73fbcfdeabc3c2c06\",\"pool\":\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.004544,\"gas_eth\":0.048343,\"residual\":\"0.000001 USDC\",\"confidence\":5,\"note\":\"The same contract receives USDC in the front leg and spends it in the back leg, trading on the EXRD/USDC pool 0x684b..., which the victim also trades. Net WETH gain is 1.550951 - 1.498064 = 0.052887 ETH; subtracting 0.016745 + 0.031598 = 0.048343 gas leaves +0.004544 ETH, with 0.000001 USDC residual.\"}",
+ "case_id": "rej53_043",
+ "_time": "2026-10-19T19:02:20+0800"
+}

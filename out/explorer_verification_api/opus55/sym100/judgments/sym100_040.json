@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x4a86c01d67965f8cb3d0aaa2c655705e64097c31",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.065524,
+ "gas_eth": 0.010177,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xc1df sells 12261.068643 SYN for 10.496856 WETH on the SYN/WETH pair 0x4a86 just before the victim sells SYN on the same pair. It then buys back exactly 12261.068643 SYN for 10.421155 WETH, so the bracket runs in the sell direction and leaves no residual. The WETH gain is 0.075701; after 0.010177 ETH of gas the net is about +0.0655 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2938,
+  "output_tokens": 582,
+  "thinking_tokens": 292
+ },
+ "_request_id": "req_011CgBSGBZTbewem7Hi41i8E",
+ "_response_id": "msg_011CgBSGBymGpVJtLGDMKnWR",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x4a86c01d67965f8cb3d0aaa2c655705e64097c31\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.065524, \"gas_eth\": 0.010177, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xc1df sells 12261.068643 SYN for 10.496856 WETH on the SYN/WETH pair 0x4a86 just before the victim sells SYN on the same pair. It then buys back exactly 12261.068643 SYN for 10.421155 WETH, so the bracket runs in the sell direction and leaves no residual. The WETH gain is 0.075701; after 0.010177 ETH of gas the net is about +0.0655 ETH.\"}",
+ "case_id": "sym100_040",
+ "_time": "2026-10-19T18:27:13+0800"
+}

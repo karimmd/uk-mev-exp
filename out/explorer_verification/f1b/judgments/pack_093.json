@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 0.2,
+ "gas_eth": 0.023848,
+ "residual": "none acquired; the sender only sold OTEN (0.002336 in the front leg, 0.002391 in the back leg) that it already held, so there is no position opened and closed",
+ "confidence": 4,
+ "note": "All three legs are the same sender (0xe104...) making the same kind of OTEN-to-ETH sell on the same pool through the router. The victim's sender is identical to the front and back sender, and there is no buy-then-sell round trip. The 0.2 ETH received across front and back is proceeds from selling pre-held OTEN, not a sandwich profit, so Q2 has no meaningful sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0229987,
+ "_session": "38e6f06b-3438-4af1-a40c-e3b55e1d4869",
+ "_raw": "{\"actor\": null, \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 0.2, \"gas_eth\": 0.023848, \"residual\": \"none acquired; the sender only sold OTEN (0.002336 in the front leg, 0.002391 in the back leg) that it already held, so there is no position opened and closed\", \"confidence\": 4, \"note\": \"All three legs are the same sender (0xe104...) making the same kind of OTEN-to-ETH sell on the same pool through the router. The victim's sender is identical to the front and back sender, and there is no buy-then-sell round trip. The 0.2 ETH received across front and back is proceeds from selling pre-held OTEN, not a sandwich profit, so Q2 has no meaningful sign.\"}",
+ "case_id": "pack_093",
+ "_time": "2026-10-13T20:22:49+0800"
+}

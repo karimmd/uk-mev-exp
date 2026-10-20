@@ -1,0 +1,31 @@
+{
+ "actor": "0x5927b6650a572f74451ea42ea216a0339de1a55f",
+ "pool": "0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.043646,
+ "gas_eth": 0.003711,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The sender sells 4099.049 BASE for 7.252 WETH in the front leg, the victim sells 10000 BASE on the same pool, and the sender buys back exactly 4099.049 BASE for 7.208 WETH in the back leg. The BASE position is flat, so it is a sell-first sandwich. WETH net is +0.043646, or about +0.039935 after 0.003711 ETH of gas, which is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3013,
+  "output_tokens": 837,
+  "thinking_tokens": 568
+ },
+ "_request_id": "req_011CgBSQDajMjRasYcsfe7Cz",
+ "_response_id": "msg_011CgBSQDw4Fd1NYbQG6dqcB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x5927b6650a572f74451ea42ea216a0339de1a55f\",\"pool\":\"0xde5b7ff5b10cc5f8c95a2e2b643e3abf5179c987\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.043646,\"gas_eth\":0.003711,\"residual\":\"none\",\"confidence\":3,\"note\":\"The sender sells 4099.049 BASE for 7.252 WETH in the front leg, the victim sells 10000 BASE on the same pool, and the sender buys back exactly 4099.049 BASE for 7.208 WETH in the back leg. The BASE position is flat, so it is a sell-first sandwich. WETH net is +0.043646, or about +0.039935 after 0.003711 ETH of gas, which is positive.\"}",
+ "case_id": "sym100_084",
+ "_time": "2026-10-19T18:29:02+0800"
+}

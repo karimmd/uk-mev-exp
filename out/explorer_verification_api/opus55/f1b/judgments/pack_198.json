@@ -1,0 +1,31 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x635b58600509acfe70e0bd4c4935c08182774e58",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000919,
+ "gas_eth": 0.086705,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x01ff buys 79355.203674 STACK for 3.475330 WETH on pool 0x635b. The victim then buys STACK on the same pool, and 0x01ff sells the same STACK amount back for 3.562954 WETH (gross +0.087624). The 1050 gwei back-leg fee takes almost all of it, leaving a thin positive margin of about 0.0009 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2840,
+  "output_tokens": 454,
+  "thinking_tokens": 190
+ },
+ "_request_id": "req_011CgBS19upw1GDJ6atEyvGL",
+ "_response_id": "msg_011CgBS1AGem29wvVhEBsiVc",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x01ff6318440f7d5553a82294d78262d5f5084eff\", \"pool\": \"0x635b58600509acfe70e0bd4c4935c08182774e58\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000919, \"gas_eth\": 0.086705, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x01ff buys 79355.203674 STACK for 3.475330 WETH on pool 0x635b. The victim then buys STACK on the same pool, and 0x01ff sells the same STACK amount back for 3.562954 WETH (gross +0.087624). The 1050 gwei back-leg fee takes almost all of it, leaving a thin positive margin of about 0.0009 ETH.\"}",
+ "case_id": "pack_198",
+ "_time": "2026-10-19T18:23:48+0800"
+}

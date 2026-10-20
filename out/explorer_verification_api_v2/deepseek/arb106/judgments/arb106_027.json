@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000007253c7b66206e928357d14c4574c83de71",
+ "pools": [
+  "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12",
+  "0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.025156,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.025156,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The target contract routes through four pools, receiving 41.731608 WETH and sending 41.655060 WETH while paying 0.051392 ETH, leaving a net ETH/WETH gain. Gas is zero, so the position is positive after observable cost.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2500,
+  "output_tokens": 9633,
+  "thinking_tokens": 9356
+ },
+ "_request_id": "362c7366ba18cc88ad90fd5e9e7382a9",
+ "_response_id": "56163eff-2e2e-4419-9c80-06220da4a928",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000007253c7b66206e928357d14c4574c83de71\",\"pools\":[\"0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc\",\"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\",\"0x6f483af1e32cc556d92de33c0b15c0f8b03a6d12\",\"0x8c54aa2a32a779e6f6fbea568ad85a19e0109c26\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.025156,\"gas_eth\":0.0,\"profit_after_gas\":0.025156,\"residual\":\"none\",\"confidence\":5,\"note\":\"The target contract routes through four pools, receiving 41.731608 WETH and sending 41.655060 WETH while paying 0.051392 ETH, leaving a net ETH/WETH gain. Gas is zero, so the position is positive after observable cost.\"}",
+ "case_id": "arb106_027",
+ "_time": "2026-10-19T19:53:00+0800"
+}

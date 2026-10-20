@@ -1,0 +1,53 @@
+{
+ "blocks_covered": 50000,
+ "M_arbitrages": 30954,
+ "rule_P2_on_covered_blocks": 12482,
+ "P2_recorded_in_M": [
+  10757,
+  12042
+ ],
+ "P2_absent_in_M": [
+  172,
+  440
+ ],
+ "P2_canonical_recorded_in_M": [
+  10239,
+  11452
+ ],
+ "P2_canonical_absent_in_M": [
+  168,
+  230
+ ],
+ "P2_noncanonical_recorded_in_M": [
+  518,
+  590
+ ],
+ "P2_noncanonical_absent_in_M": [
+  4,
+  210
+ ],
+ "P4_recorded_in_M": [
+  9813,
+  10813
+ ],
+ "P4_absent_in_M": [
+  154,
+  255
+ ],
+ "P4_canonical_absent_in_M": [
+  152,
+  208
+ ],
+ "first_position_within_M_called_canonical_contested": {
+  "absent": [
+   42,
+   74
+  ],
+  "recorded": [
+   997,
+   6991
+  ]
+ },
+ "M_only_not_in_rule_candidates": 18829,
+ "M_only_weth_profit": 18265
+}

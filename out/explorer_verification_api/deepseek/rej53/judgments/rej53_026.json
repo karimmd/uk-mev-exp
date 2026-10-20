@@ -1,0 +1,31 @@
+{
+ "actor": "0xe34820500dcd2a2c3c4ce2c1cac561e30ede0dc7",
+ "pool": "0xdf6b861b4fbcfaffb62dd1906fcd3a863955704b",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 1.987955,
+ "gas_eth": 0.015462,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front buys BUILD on the shared pool and the back sells BUILD on the same pool with the victim in between, so it is a structural bracket. Net WETH after gas is +1.987955, but the back leg sells 101.148928 more BUILD than the front bought, so the overall position depends on the missing cost basis of that extra BUILD.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3694,
+  "output_tokens": 12820,
+  "thinking_tokens": 12647
+ },
+ "_request_id": "89f15ca8d8ed7400b35131e8db30cac7",
+ "_response_id": "c55a2432-36fb-40ef-af38-4b378fff251b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe34820500dcd2a2c3c4ce2c1cac561e30ede0dc7\",\"pool\":\"0xdf6b861b4fbcfaffb62dd1906fcd3a863955704b\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth\":1.987955,\"gas_eth\":0.015462,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front buys BUILD on the shared pool and the back sells BUILD on the same pool with the victim in between, so it is a structural bracket. Net WETH after gas is +1.987955, but the back leg sells 101.148928 more BUILD than the front bought, so the overall position depends on the missing cost basis of that extra BUILD.\"}",
+ "case_id": "rej53_026",
+ "_time": "2026-10-19T19:01:39+0800"
+}

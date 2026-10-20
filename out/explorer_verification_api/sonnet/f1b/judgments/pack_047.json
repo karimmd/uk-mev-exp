@@ -1,0 +1,31 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x9c4cc862f51b1ba90485de3502aa058ca4331f32",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.074708,
+ "gas_eth": 0.080033,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 2072.5835 CELL with 6.75 ETH in the front leg. The victim's JUP->WETH->CELL swap then goes through the same CELL/WETH pool. The back leg sells exactly 2072.5835 CELL for 6.824708 WETH. That is +0.074708 ETH gross against 0.080033 ETH in front and back gas, so about -0.0053 ETH after gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3832,
+  "output_tokens": 516,
+  "thinking_tokens": 252
+ },
+ "_request_id": "req_011CgBQaHhpfvGinLvf27uZc",
+ "_response_id": "msg_011CgBQaPTbafuaKGifb8mze",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x51acf0af77adcb20de482e1cd678f620baf07e0c\",\"pool\":\"0x9c4cc862f51b1ba90485de3502aa058ca4331f32\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.074708,\"gas_eth\":0.080033,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 2072.5835 CELL with 6.75 ETH in the front leg. The victim's JUP->WETH->CELL swap then goes through the same CELL/WETH pool. The back leg sells exactly 2072.5835 CELL for 6.824708 WETH. That is +0.074708 ETH gross against 0.080033 ETH in front and back gas, so about -0.0053 ETH after gas.\"}",
+ "case_id": "pack_047",
+ "_time": "2026-10-19T18:05:05+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.866618,
+ "gas_eth": 0.019695,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use contract 0x7cf... as actor, opening and closing the same 5782.131347 0x3432... position on pool 0xe157..., which the victim also trades. Net WETH gain is 34.641501 - 33.774883 = 0.866618 ETH; gas front+back is 0.019695 ETH, leaving a positive position after cost. The back tx value and internal ETH transfer cancel for the actor, and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3620,
+  "output_tokens": 13551,
+  "thinking_tokens": 13340
+ },
+ "_request_id": "8303422b87dd430c4568fd241349ec9d",
+ "_response_id": "2af800ce-81c2-43f0-baed-0b152a73625c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.866618,\"gas_eth\":0.019695,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use contract 0x7cf... as actor, opening and closing the same 5782.131347 0x3432... position on pool 0xe157..., which the victim also trades. Net WETH gain is 34.641501 - 33.774883 = 0.866618 ETH; gas front+back is 0.019695 ETH, leaving a positive position after cost. The back tx value and internal ETH transfer cancel for the actor, and no non-WETH residual remains.\"}",
+ "case_id": "pack_097",
+ "_time": "2026-10-19T18:19:43+0800"
+}

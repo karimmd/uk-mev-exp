@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f3636f45ee8b3bebd3244a106380319d07711f2",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.0487863851,
+ "gas_eth": 0.0224146149,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same pool and actor, but the front leg sells MPH for WETH while the back leg buys MPH back; the non-WETH position is not opened in front and closed in back. Net WETH is positive after gas, with no residual MPH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2389,
+  "output_tokens": 5642,
+  "thinking_tokens": 5464
+ },
+ "_request_id": "1625d4dfd98e33c9e114f4d7cd35eb73",
+ "_response_id": "4bb45c04-8b32-4860-9fdf-10fd474b668f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x3f3636f45ee8b3bebd3244a106380319d07711f2\", \"pool\": \"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.0487863851, \"gas_eth\": 0.0224146149, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The front and back legs use the same pool and actor, but the front leg sells MPH for WETH while the back leg buys MPH back; the non-WETH position is not opened in front and closed in back. Net WETH is positive after gas, with no residual MPH.\"}",
+ "case_id": "sym100_042",
+ "_time": "2026-10-19T18:45:26+0800"
+}

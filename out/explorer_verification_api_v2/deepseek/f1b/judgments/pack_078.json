@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg sold 940000 MXS for 0.058469 ETH from 0x882efb9e67eda9bf74766e8686259cb3a1fc8b8a; back leg bought 1558208.813165 MXS for 0.1 ETH to 0x1feb8b8b87983ebe826bd12321775b5a51af699d. These are different actors, so no single economic actor opened and closed a position; Q2 cannot be netted.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3257,
+  "output_tokens": 10523,
+  "thinking_tokens": 10326
+ },
+ "_request_id": "99d5f6d7a516337143e4de5971ecc6de",
+ "_response_id": "78b8192b-5b86-45e3-88ca-b89472327776",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":null,\"profit_after_gas\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leg sold 940000 MXS for 0.058469 ETH from 0x882efb9e67eda9bf74766e8686259cb3a1fc8b8a; back leg bought 1558208.813165 MXS for 0.1 ETH to 0x1feb8b8b87983ebe826bd12321775b5a51af699d. These are different actors, so no single economic actor opened and closed a position; Q2 cannot be netted.\"}",
+ "case_id": "pack_078",
+ "_time": "2026-10-19T19:14:27+0800"
+}

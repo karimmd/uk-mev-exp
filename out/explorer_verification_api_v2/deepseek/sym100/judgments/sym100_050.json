@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xa4f35395910d7a4ff110669ced4b70227a166877",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.071019,
+ "gas_eth": 0.035667,
+ "profit_after_gas": 0.035352,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs both involve the same contract, which sells 915.230241 MRCH for 1.836503 WETH in front and buys back the same MRCH amount for 1.765484 WETH in back on the victim's UniswapV2 pool. The 0.071019 WETH gross gain minus 0.035667 ETH gas is positive, and the MRCH amount round-trips exactly.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2385,
+  "output_tokens": 3950,
+  "thinking_tokens": 3736
+ },
+ "_request_id": "e57af750f198494aecd1eefa60d7de8d",
+ "_response_id": "0c2d0ec4-417a-433b-aaeb-b31ec8e72a2b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xa4f35395910d7a4ff110669ced4b70227a166877\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.071019, \"gas_eth\": 0.035667, \"profit_after_gas\": 0.035352, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back legs both involve the same contract, which sells 915.230241 MRCH for 1.836503 WETH in front and buys back the same MRCH amount for 1.765484 WETH in back on the victim's UniswapV2 pool. The 0.071019 WETH gross gain minus 0.035667 ETH gas is positive, and the MRCH amount round-trips exactly.\"}",
+ "case_id": "sym100_050",
+ "_time": "2026-10-19T19:33:26+0800"
+}

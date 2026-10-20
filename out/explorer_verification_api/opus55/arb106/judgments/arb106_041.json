@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000000000fbcaf22009ef39f5316bc58d9728aa",
+ "pools": [
+  "0xba3f54d4ed114a359b3ab81ed11834a2b54addc1",
+  "0x44c21f5dcb285d92320ae345c92e8b6204be8cdf",
+  "0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983",
+  "0xa44002e8062c90a8f8b3cfce6ec70990bba28ae5"
+ ],
+ "cycle_token": "$DG and ROOK",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.007218,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two closed cycles. $DG (47.999884) came from V3 pool 0xba3f and went to V2 pool 0x44c2, netting +0.014660 WETH. ROOK (5.897464) came from V2 pool 0x70ec and went to V3 pool 0xa440, netting +0.014212 WETH. That is +0.028872 WETH in total, and after the 0.021654 ETH internal payment to 0x5a0b (zero gas price, so likely a direct miner payment) the actor keeps about +0.007218 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3080,
+  "output_tokens": 1021,
+  "thinking_tokens": 567
+ },
+ "_request_id": "req_011CgBTE2an9soQmjsGqbbBC",
+ "_response_id": "msg_011CgBTE2yLVTAHmo2mM5ixE",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x0000000000fbcaf22009ef39f5316bc58d9728aa\", \"pools\": [\"0xba3f54d4ed114a359b3ab81ed11834a2b54addc1\", \"0x44c21f5dcb285d92320ae345c92e8b6204be8cdf\", \"0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983\", \"0xa44002e8062c90a8f8b3cfce6ec70990bba28ae5\"], \"cycle_token\": \"$DG and ROOK\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.007218, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Two closed cycles. $DG (47.999884) came from V3 pool 0xba3f and went to V2 pool 0x44c2, netting +0.014660 WETH. ROOK (5.897464) came from V2 pool 0x70ec and went to V3 pool 0xa440, netting +0.014212 WETH. That is +0.028872 WETH in total, and after the 0.021654 ETH internal payment to 0x5a0b (zero gas price, so likely a direct miner payment) the actor keeps about +0.007218 ETH.\"}",
+ "case_id": "arb106_041",
+ "_time": "2026-10-19T18:39:52+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f",
+ "pool": "0xa541279d7a77a768abf45acbcac7f32f28101d5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.278987,
+ "gas_eth": 0.226302,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract (called by 0x1dd7...) routes WETH into pool 0x458a, sends the PSP on to pool 0xa541 and sells it there for WETH. The back leg reverses this, buying PSP on 0xa541 and returning it to 0x458a for WETH. The victim sells PSP on 0xa541 between the two legs. The actor ends with no PSP and +0.278987 WETH, which is +0.0527 ETH after 0.226302 ETH gas. The legs also touch a second pool (0x458a), so this is a two-pool structure rather than a plain single-pool sandwich.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4144,
+  "output_tokens": 1248,
+  "thinking_tokens": 920
+ },
+ "_request_id": "req_011CgBS9fyYra3DtuMi4h56U",
+ "_response_id": "msg_011CgBS9gJQZ45viGrcWQRr4",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x7cf09d7a9a74f746edcb06949b9d64bcd9d1604f\",\"pool\":\"0xa541279d7a77a768abf45acbcac7f32f28101d5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.278987,\"gas_eth\":0.226302,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract (called by 0x1dd7...) routes WETH into pool 0x458a, sends the PSP on to pool 0xa541 and sells it there for WETH. The back leg reverses this, buying PSP on 0xa541 and returning it to 0x458a for WETH. The victim sells PSP on 0xa541 between the two legs. The actor ends with no PSP and +0.278987 WETH, which is +0.0527 ETH after 0.226302 ETH gas. The legs also touch a second pool (0x458a), so this is a two-pool structure rather than a plain single-pool sandwich.\"}",
+ "case_id": "sym100_045",
+ "_time": "2026-10-19T18:25:48+0800"
+}

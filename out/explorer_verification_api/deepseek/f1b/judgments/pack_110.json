@@ -1,0 +1,31 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.250298,
+ "gas_eth": 0.159357,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs share pool 0x700f with the victim; actor 0x55eb receives 31120.111039 USDT in front and spends exactly that in back. Gross WETH delta is +0.250298; after front/back gas of 0.159357 ETH, it remains positive (+0.090941 ETH).",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2409,
+  "output_tokens": 8860,
+  "thinking_tokens": 8691
+ },
+ "_request_id": "6e528d0287a6820ef353a497a2814786",
+ "_response_id": "21a1f9da-9814-43ff-a5f1-6e01ee00b1b0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.250298,\"gas_eth\":0.159357,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back legs share pool 0x700f with the victim; actor 0x55eb receives 31120.111039 USDT in front and spends exactly that in back. Gross WETH delta is +0.250298; after front/back gas of 0.159357 ETH, it remains positive (+0.090941 ETH).\"}",
+ "case_id": "pack_110",
+ "_time": "2026-10-19T18:21:19+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0xe104053d23918cf2787883508834661c138c9f61",
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": 0.2,
+ "gas_eth": 0.023848,
+ "residual": "none acquired; the actor sent out 0.002283 and 0.002363 OTEN in the front and back legs, and no OTEN was bought",
+ "confidence": 4,
+ "note": "The front, victim and back legs all come from the same sender (0xe104...9f61) with identical gas and identical flows, and each one sells OTEN into the pool for ETH. The victim is the same address as the front and back actor, and no leg buys OTEN to open a position, so this is not a sandwich. The +0.2 ETH received (before 0.023848 ETH gas) comes from outright sales, not from closing a bracket, so Q2 has no meaningful sign.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0287852,
+ "_session": "1b70d233-b43d-4bb3-9a33-22f4553d1364",
+ "_raw": "{\"actor\": \"0xe104053d23918cf2787883508834661c138c9f61\", \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": 0.2, \"gas_eth\": 0.023848, \"residual\": \"none acquired; the actor sent out 0.002283 and 0.002363 OTEN in the front and back legs, and no OTEN was bought\", \"confidence\": 4, \"note\": \"The front, victim and back legs all come from the same sender (0xe104...9f61) with identical gas and identical flows, and each one sells OTEN into the pool for ETH. The victim is the same address as the front and back actor, and no leg buys OTEN to open a position, so this is not a sandwich. The +0.2 ETH received (before 0.023848 ETH gas) comes from outright sales, not from closing a bracket, so Q2 has no meaningful sign.\"}",
+ "case_id": "pack_120",
+ "_time": "2026-10-13T20:27:36+0800"
+}

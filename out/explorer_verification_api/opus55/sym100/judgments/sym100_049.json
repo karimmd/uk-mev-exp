@@ -1,0 +1,31 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.001258,
+ "gas_eth": 0.019522,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x1315 routes WETH through pools 0x73e0 and 0x328d. In the front leg it sells 43.08 INV into 0x328d ahead of the victim's 80 INV sale on the same pool, and in the back leg it buys back 46.00 INV for the same 1.886 WETH, then unwinds on 0x73e0. WETH nets +0.103004; subtracting the 0.082224 ETH internal payment (likely to the block builder) and 0.019522 ETH gas leaves about +0.00126 ETH, with no INV left over.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3557,
+  "output_tokens": 1492,
+  "thinking_tokens": 1171
+ },
+ "_request_id": "req_011CgBSKWtPmGgUbNnVKhTPC",
+ "_response_id": "msg_011CgBSKXFUKRx94QxZAJceM",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\", \"pool\": \"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.001258, \"gas_eth\": 0.019522, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x1315 routes WETH through pools 0x73e0 and 0x328d. In the front leg it sells 43.08 INV into 0x328d ahead of the victim's 80 INV sale on the same pool, and in the back leg it buys back 46.00 INV for the same 1.886 WETH, then unwinds on 0x73e0. WETH nets +0.103004; subtracting the 0.082224 ETH internal payment (likely to the block builder) and 0.019522 ETH gas leaves about +0.00126 ETH, with no INV left over.\"}",
+ "case_id": "sym100_049",
+ "_time": "2026-10-19T18:28:06+0800"
+}

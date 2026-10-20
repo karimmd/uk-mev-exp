@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three legs trade MXS on the same pool (0x13bb...), but the front leg and the victim both SELL MXS for ETH, so the front leg opens no position that is later closed. The back leg is a different address (0x1feb...) that buys MXS with 0.1 ETH, so there is no single actor and no bracket. Q2 is 'no' because the actor is undefined and no front-to-back position exists to net.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3947,
+  "output_tokens": 233,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQvSWDCHBh7Q4oH4QXN",
+ "_response_id": "msg_011CgBQvYRQotGQ7zVLyUWwq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three legs trade MXS on the same pool (0x13bb...), but the front leg and the victim both SELL MXS for ETH, so the front leg opens no position that is later closed. The back leg is a different address (0x1feb...) that buys MXS with 0.1 ETH, so there is no single actor and no bracket. Q2 is 'no' because the actor is undefined and no front-to-back position exists to net.\"}",
+ "case_id": "pack_078",
+ "_time": "2026-10-19T18:09:35+0800"
+}

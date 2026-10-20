@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x05f04f112a286c4c551897fb19ed2300272656c8",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.026401,
+ "gas_eth": 0.00995316,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back use the same actor and POLK/WETH pool, but the front leg sells POLK for WETH and the back leg buys it back, so no non-WETH position is opened in front. Net WETH before gas is +0.026401; after 0.00995316 gas it is +0.01644784, with no residual POLK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2224,
+  "output_tokens": 12506,
+  "thinking_tokens": 12331
+ },
+ "_request_id": "7d9ca9a46e92f4727b64420f0beeadcc",
+ "_response_id": "d058bf6e-075f-40f0-82a7-0f320df1f220",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x05f04f112a286c4c551897fb19ed2300272656c8\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.026401,\"gas_eth\":0.00995316,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back use the same actor and POLK/WETH pool, but the front leg sells POLK for WETH and the back leg buys it back, so no non-WETH position is opened in front. Net WETH before gas is +0.026401; after 0.00995316 gas it is +0.01644784, with no residual POLK.\"}",
+ "case_id": "sym100_058",
+ "_time": "2026-10-19T18:49:46+0800"
+}

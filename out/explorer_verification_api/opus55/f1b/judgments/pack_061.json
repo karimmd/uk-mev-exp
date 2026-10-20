@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.020568,
+ "gas_eth": 0.021902,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x0000\u20266b40 routes WETH\u2192OHM (pool 0x69b8) and then OHM\u2192BTRFLY (pool 0xe9ab), receiving 13.260718 BTRFLY in the front leg. The victim buys BTRFLY with OHM on 0xe9ab, and the back leg returns exactly 13.260718 BTRFLY along the reverse path. Net WETH is 4.960720 \u2212 4.918250 = 0.042470, and after subtracting 0.021902 ETH of front and back gas the result is about +0.020568 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3190,
+  "output_tokens": 576,
+  "thinking_tokens": 250
+ },
+ "_request_id": "req_011CgBQnAamxuJmGsdVPHqbs",
+ "_response_id": "msg_011CgBQnHMovTWSzD4M5B7Lc",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.020568, \"gas_eth\": 0.021902, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x0000\u20266b40 routes WETH\u2192OHM (pool 0x69b8) and then OHM\u2192BTRFLY (pool 0xe9ab), receiving 13.260718 BTRFLY in the front leg. The victim buys BTRFLY with OHM on 0xe9ab, and the back leg returns exactly 13.260718 BTRFLY along the reverse path. Net WETH is 4.960720 \u2212 4.918250 = 0.042470, and after subtracting 0.021902 ETH of front and back gas the result is about +0.020568 ETH.\"}",
+ "case_id": "pack_061",
+ "_time": "2026-10-19T18:07:47+0800"
+}

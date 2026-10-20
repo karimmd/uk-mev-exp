@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.030701,
+ "gas_eth": 0.028703,
+ "profit_after_gas": 0.001998,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract buys and sells UNQT on the same UNQT/WETH Uniswap V2 pool, and the victim's route also uses that pool between the legs. The actor spent 0.246800 WETH and received 0.277501 WETH, with no residual UNQT; front and back gas totals 0.028703 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2621,
+  "output_tokens": 3172,
+  "thinking_tokens": 2984
+ },
+ "_request_id": "7db9a878d677a1a5d58d52c195c3f609",
+ "_response_id": "ac891241-93cd-431a-818d-d01c8a395263",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x020e6d0e80d08567ecb14f942fa326748407a845\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.030701,\"gas_eth\":0.028703,\"profit_after_gas\":0.001998,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract buys and sells UNQT on the same UNQT/WETH Uniswap V2 pool, and the victim's route also uses that pool between the legs. The actor spent 0.246800 WETH and received 0.277501 WETH, with no residual UNQT; front and back gas totals 0.028703 ETH.\"}",
+ "case_id": "pack_163",
+ "_time": "2026-10-19T19:23:41+0800"
+}

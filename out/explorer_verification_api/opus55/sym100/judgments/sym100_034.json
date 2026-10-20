@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x30296ea311779740ec158ff8c9e3a8c0217f8113",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.09047,
+ "gas_eth": 0.084765,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xb5917a\u2026, called by the same sender in both legs, sold 14973.705 BFLY into pool 0x30296e\u2026 for 5.605 WETH. The victim then sold BFLY into the same pool, and the contract bought back exactly 14973.705 BFLY for 5.429765 WETH, leaving +0.175235 WETH gross and 0.09047 ETH after 0.084765 ETH gas. The bracket runs sell-then-buy rather than buy-then-sell, and the unexplained 'other' BFLY events add slight uncertainty.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3078,
+  "output_tokens": 723,
+  "thinking_tokens": 404
+ },
+ "_request_id": "req_011CgBSDVsx18PFQr7N2sqz4",
+ "_response_id": "msg_011CgBSDWEXjtDL963waMStc",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb5917a48a99c1f8c76119a5133fde1169ec11170\", \"pool\": \"0x30296ea311779740ec158ff8c9e3a8c0217f8113\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.09047, \"gas_eth\": 0.084765, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xb5917a\u2026, called by the same sender in both legs, sold 14973.705 BFLY into pool 0x30296e\u2026 for 5.605 WETH. The victim then sold BFLY into the same pool, and the contract bought back exactly 14973.705 BFLY for 5.429765 WETH, leaving +0.175235 WETH gross and 0.09047 ETH after 0.084765 ETH gas. The bracket runs sell-then-buy rather than buy-then-sell, and the unexplained 'other' BFLY events add slight uncertainty.\"}",
+ "case_id": "sym100_034",
+ "_time": "2026-10-19T18:26:37+0800"
+}

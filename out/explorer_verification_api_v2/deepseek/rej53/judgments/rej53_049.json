@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x164fe0239d703379bddde3c80e4d4800a1cd452b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.028397,
+ "gas_eth": 0.014053,
+ "profit_after_gas": 0.014344,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract bought BTC2X-FLI on the UniswapV2 pair in the front leg, the victim also traded that same pair buying BTC2X-FLI, and the actor sold the same amount back in the back leg. After including the back-leg internal ETH transfer, the ETH/WETH net remains positive even after front and back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3154,
+  "output_tokens": 3833,
+  "thinking_tokens": 3651
+ },
+ "_request_id": "b9910572b44feaed7f0133e7b3c977eb",
+ "_response_id": "eef58544-afc4-4e71-90a0-0d78fc5ef129",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x164fe0239d703379bddde3c80e4d4800a1cd452b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.028397,\"gas_eth\":0.014053,\"profit_after_gas\":0.014344,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract bought BTC2X-FLI on the UniswapV2 pair in the front leg, the victim also traded that same pair buying BTC2X-FLI, and the actor sold the same amount back in the back leg. After including the back-leg internal ETH transfer, the ETH/WETH net remains positive even after front and back gas fees.\"}",
+ "case_id": "rej53_049",
+ "_time": "2026-10-19T19:46:23+0800"
+}

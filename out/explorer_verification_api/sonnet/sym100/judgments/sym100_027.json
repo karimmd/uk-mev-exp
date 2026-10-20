@@ -1,0 +1,31 @@
+{
+ "actor": "0xcc1deb828b1baddd45dbb75ceab110b0d57a2666",
+ "pool": "0x4214290310264a27b0ba8cff02b4c592d0234aa1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.00723,
+ "gas_eth": 6e-06,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract acts in both legs. In the front leg it buys RFOX on pool 0xc448\u2026 and sells it into the victim's pool 0x4214\u2026, so the victim's RFOX sale comes after the actor's sale into that pool. In the back leg it buys RFOX back from 0x4214\u2026 and sells it on 0xc448\u2026. WETH nets -0.741579 in the front and +0.759885 in the back, then 0.011076 ETH goes out to 0xf541\u2026, leaving about +0.00723 ETH before gas and about +0.00722 after. The structure is a two-pool route and the actor never holds RFOX between legs, which is why Q1 confidence is only moderate.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3551,
+  "output_tokens": 1269,
+  "thinking_tokens": 923
+ },
+ "_request_id": "req_011CgBS3rtyAsFDD31FHn1As",
+ "_response_id": "msg_011CgBS3sEoDWJUaR3dKPCMB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xcc1deb828b1baddd45dbb75ceab110b0d57a2666\",\"pool\":\"0x4214290310264a27b0ba8cff02b4c592d0234aa1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.00723,\"gas_eth\":0.000006,\"residual\":\"none\",\"confidence\":3,\"note\":\"The same contract acts in both legs. In the front leg it buys RFOX on pool 0xc448\u2026 and sells it into the victim's pool 0x4214\u2026, so the victim's RFOX sale comes after the actor's sale into that pool. In the back leg it buys RFOX back from 0x4214\u2026 and sells it on 0xc448\u2026. WETH nets -0.741579 in the front and +0.759885 in the back, then 0.011076 ETH goes out to 0xf541\u2026, leaving about +0.00723 ETH before gas and about +0.00722 after. The structure is a two-pool route and the actor never holds RFOX between legs, which is why Q1 confidence is only moderate.\"}",
+ "case_id": "sym100_027",
+ "_time": "2026-10-19T18:24:29+0800"
+}

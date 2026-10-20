@@ -1,0 +1,31 @@
+{
+ "actor": "0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047981,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor is the called contract 0x8f30..., which receives USDC in the front leg on pool 0xd187... and returns the same USDC in the back leg, with the victim trading on that same pool in between. Net WETH gain is 0.100506 ETH minus a 0.052525 ETH internal payment, leaving +0.047981 ETH before zero gas fees, with no residual non-WETH position.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3238,
+  "output_tokens": 5625,
+  "thinking_tokens": 5437
+ },
+ "_request_id": "2d1e7ff8f242f6674fcca020a4bcffa6",
+ "_response_id": "3c3a10fe-e36c-490b-9b08-526aaa74cfcb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23\",\"pool\":\"0xd18748b9839b0081a867a1a871d5b562b2ec9884\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.047981,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor is the called contract 0x8f30..., which receives USDC in the front leg on pool 0xd187... and returns the same USDC in the back leg, with the victim trading on that same pool in between. Net WETH gain is 0.100506 ETH minus a 0.052525 ETH internal payment, leaving +0.047981 ETH before zero gas fees, with no residual non-WETH position.\"}",
+ "case_id": "pack_122",
+ "_time": "2026-10-19T18:24:19+0800"
+}

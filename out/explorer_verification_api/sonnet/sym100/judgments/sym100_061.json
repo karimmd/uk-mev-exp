@@ -1,0 +1,31 @@
+{
+ "actor": "0x0898f84acaa1d6229e78a73ee71d8fbbe4ac4bc6",
+ "pool": "0xae95aebf655e9b40c7e0d262198b970cd25f28af",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.052391,
+ "gas_eth": 0.013072,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor sold 4617.50 rHEGIC for 0.893591 WETH before the victim, whose 30909 rHEGIC sale went through the same pool. The actor then bought back exactly 4617.50 rHEGIC for 0.8412 WETH, so the token position is flat and the WETH gain is 0.052391. After 0.013072 ETH of gas the result is about +0.0393 ETH. The bracket runs sell-first then buy-back, so the actor must have held the rHEGIC beforehand. That is why Q1 is not fully certain.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3128,
+  "output_tokens": 861,
+  "thinking_tokens": 548
+ },
+ "_request_id": "req_011CgBSGBbCDJUdpD1FRoVGG",
+ "_response_id": "msg_011CgBSGC1kbBFnJvX3Nhxs5",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0898f84acaa1d6229e78a73ee71d8fbbe4ac4bc6\",\"pool\":\"0xae95aebf655e9b40c7e0d262198b970cd25f28af\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.052391,\"gas_eth\":0.013072,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor sold 4617.50 rHEGIC for 0.893591 WETH before the victim, whose 30909 rHEGIC sale went through the same pool. The actor then bought back exactly 4617.50 rHEGIC for 0.8412 WETH, so the token position is flat and the WETH gain is 0.052391. After 0.013072 ETH of gas the result is about +0.0393 ETH. The bracket runs sell-first then buy-back, so the actor must have held the rHEGIC beforehand. That is why Q1 is not fully certain.\"}",
+ "case_id": "sym100_061",
+ "_time": "2026-10-19T18:27:13+0800"
+}

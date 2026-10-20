@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x38c619c351d6ad03f496a8c82ba5430c86fe0ab7",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.0695,
+ "gas_eth": 0.05632,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg (actor 0x31b7\u2026) and the back leg (actor 0x6892\u2026) are different actors. Each leg is a self-contained arbitrage round trip: WETH into pool 0x10b1\u2026 for LORB, then LORB into pool 0x38c6\u2026 for WETH. The victim runs the same arbitrage on the same two pools, so nothing is held open across the victim and this is not a sandwich. Summing both legs gives net ETH of about +0.0695 after the 0.034698 ETH payment in the front leg, and about +0.0132 after the 0.05632 ETH gas, with no LORB left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4787,
+  "output_tokens": 1108,
+  "thinking_tokens": 801
+ },
+ "_request_id": "req_011CgBReyNm8iaPbeZ5xjjJK",
+ "_response_id": "msg_011CgBReyjLdCtAB2vh51xZn",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x38c619c351d6ad03f496a8c82ba5430c86fe0ab7\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.0695, \"gas_eth\": 0.05632, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg (actor 0x31b7\u2026) and the back leg (actor 0x6892\u2026) are different actors. Each leg is a self-contained arbitrage round trip: WETH into pool 0x10b1\u2026 for LORB, then LORB into pool 0x38c6\u2026 for WETH. The victim runs the same arbitrage on the same two pools, so nothing is held open across the victim and this is not a sandwich. Summing both legs gives net ETH of about +0.0695 after the 0.034698 ETH payment in the front leg, and about +0.0132 after the 0.05632 ETH gas, with no LORB left over.\"}",
+ "case_id": "pack_152",
+ "_time": "2026-10-19T18:19:18+0800"
+}

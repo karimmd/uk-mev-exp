@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x063271fdac84b94e9283557f748594dc84092bf3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.411414269,
+ "gas_eth": 0.024006731,
+ "residual": "86.631920 PROPHET",
+ "confidence": 5,
+ "note": "Same contract 0x000000000000084e91743124a982076c59f10084 receives PROPHET in the front and sends it to pool 0x063271fdac84b94e9283557f748594dc84092bf3 in the back; the victim also trades that pool between them. WETH net 8.425635 - 6.990214 minus gas 0.024006731 is positive, leaving 86.631920 PROPHET residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3003,
+  "output_tokens": 7825,
+  "thinking_tokens": 7624
+ },
+ "_request_id": "c54cb6c65a9235d064e98386d058de7c",
+ "_response_id": "5eccb994-78ff-4926-8aa3-d530e6d79845",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000084e91743124a982076c59f10084\",\"pool\":\"0x063271fdac84b94e9283557f748594dc84092bf3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.411414269,\"gas_eth\":0.024006731,\"residual\":\"86.631920 PROPHET\",\"confidence\":5,\"note\":\"Same contract 0x000000000000084e91743124a982076c59f10084 receives PROPHET in the front and sends it to pool 0x063271fdac84b94e9283557f748594dc84092bf3 in the back; the victim also trades that pool between them. WETH net 8.425635 - 6.990214 minus gas 0.024006731 is positive, leaving 86.631920 PROPHET residual.\"}",
+ "case_id": "pack_101",
+ "_time": "2026-10-19T18:20:04+0800"
+}

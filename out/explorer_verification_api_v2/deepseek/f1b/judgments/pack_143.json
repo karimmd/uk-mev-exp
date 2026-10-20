@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x4dd26482738be6c06c31467a19dcda9ad781e8c4",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are executed by different contracts, each performing an independent API3/WETH arbitrage cycle and ending flat in API3. No single actor opens a position in the front and closes it in the back, so this is not a sandwich.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3956,
+  "output_tokens": 9229,
+  "thinking_tokens": 9083
+ },
+ "_request_id": "41e3da70a0108553a9a10a778d8ec5cc",
+ "_response_id": "7d4153fc-7d1e-44cc-9940-20f645b2852d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x4dd26482738be6c06c31467a19dcda9ad781e8c4\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back are executed by different contracts, each performing an independent API3/WETH arbitrage cycle and ending flat in API3. No single actor opens a position in the front and closes it in the back, so this is not a sandwich.\"}",
+ "case_id": "pack_143",
+ "_time": "2026-10-19T19:22:06+0800"
+}

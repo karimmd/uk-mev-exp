@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x020e6d0e80d08567ecb14f942fa326748407a845",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008836,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 530.133065 UNQT for 0.483237 WETH in the front leg and sells all of it back for 0.513110 WETH in the back leg. Both legs are on the pool the victim also trades on, and the victim sits between them at position 2. The WETH gain is 0.029873. The back leg's 0.021037 ETH value is passed on to 0xea67\u2026 (likely a builder or miner payment), which leaves about 0.008836 ETH net. Gas fees are 0 at 0 gwei. The victim's trade is tiny (1 UNQT), so the sandwich's effect on them is small.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0279472,
+ "_session": "30ce6fe7-9446-4a9b-84eb-b2152fd7663a",
+ "_raw": "{\"actor\": \"0x000000000027d2efc283613d0c3e24a8b430c4d8\", \"pool\": \"0x020e6d0e80d08567ecb14f942fa326748407a845\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.008836, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 530.133065 UNQT for 0.483237 WETH in the front leg and sells all of it back for 0.513110 WETH in the back leg. Both legs are on the pool the victim also trades on, and the victim sits between them at position 2. The WETH gain is 0.029873. The back leg's 0.021037 ETH value is passed on to 0xea67\u2026 (likely a builder or miner payment), which leaves about 0.008836 ETH net. Gas fees are 0 at 0 gwei. The victim's trade is tiny (1 UNQT), so the sandwich's effect on them is small.\"}",
+ "case_id": "pack_059",
+ "_time": "2026-10-13T20:15:32+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0x7d9c8d888d03df89461c645bd1108ae138b63a2a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.339749,
+ "gas_eth": 0.032541,
+ "profit_after_gas": 0.307208,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells GLQ for WETH, victim sells GLQ on the same UniswapV2 pool, and back buys the same GLQ amount back with less WETH. The actor's net WETH gain before gas is 9.829000 - 9.489251 = 0.339749 ETH, with no residual GLQ.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2485,
+  "output_tokens": 1547,
+  "thinking_tokens": 1362
+ },
+ "_request_id": "82bb94bdb9927c59d2e1bc81c5911790",
+ "_response_id": "4bf1a5a7-7c8a-410f-ae4a-1a1aff8ebb90",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0x7d9c8d888d03df89461c645bd1108ae138b63a2a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.339749,\"gas_eth\":0.032541,\"profit_after_gas\":0.307208,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells GLQ for WETH, victim sells GLQ on the same UniswapV2 pool, and back buys the same GLQ amount back with less WETH. The actor's net WETH gain before gas is 9.829000 - 9.489251 = 0.339749 ETH, with no residual GLQ.\"}",
+ "case_id": "sym100_087",
+ "_time": "2026-10-19T19:37:18+0800"
+}

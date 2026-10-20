@@ -1,0 +1,32 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.097412,
+ "gas_eth": 0.000207554,
+ "profit_after_gas": 0.097204446,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front bought UCT and the back sold the same UCT amount on pool 0x7e02..., which the victim also trades. Net WETH gain is about 0.097412 before gas, leaving a positive profit after the front and back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2364,
+  "output_tokens": 2576,
+  "thinking_tokens": 2409
+ },
+ "_request_id": "9d85aa6220b1c63fb1d5a535425eb455",
+ "_response_id": "4be8bb88-4d26-4d79-8f52-1af26b2d9368",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0x7e02eb1c6cc7b817891d5fbbdd567f6435dd31ee\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.097412,\"gas_eth\":0.000207554,\"profit_after_gas\":0.097204446,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front bought UCT and the back sold the same UCT amount on pool 0x7e02..., which the victim also trades. Net WETH gain is about 0.097412 before gas, leaving a positive profit after the front and back gas fees.\"}",
+ "case_id": "pack_102",
+ "_time": "2026-10-19T19:17:26+0800"
+}

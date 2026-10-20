@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.092658,
+ "gas_eth": 0.021091,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a reverse-direction bracket on the SHOPX/WETH pool 0x37ac. The contract 0x0000...64c4 sells 2040.385864 SHOPX for 3.006104 WETH ahead of the victim's large SHOPX sell, then buys back the identical 2040.385864 SHOPX for 2.892355 WETH. That nets +0.113749 WETH before gas, 0.092658 ETH after 0.021091 ETH gas, with no residual SHOPX; confidence is 4 rather than 5 because the position opened is a temporary reduction in SHOPX rather than a buy-then-sell.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3017,
+  "output_tokens": 707,
+  "thinking_tokens": 369
+ },
+ "_request_id": "req_011CgBSaC1zqTcrpzGg4WGjA",
+ "_response_id": "msg_011CgBSaCUHSb6BaMyMSe7wM",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.092658, \"gas_eth\": 0.021091, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a reverse-direction bracket on the SHOPX/WETH pool 0x37ac. The contract 0x0000...64c4 sells 2040.385864 SHOPX for 3.006104 WETH ahead of the victim's large SHOPX sell, then buys back the identical 2040.385864 SHOPX for 2.892355 WETH. That nets +0.113749 WETH before gas, 0.092658 ETH after 0.021091 ETH gas, with no residual SHOPX; confidence is 4 rather than 5 because the position opened is a temporary reduction in SHOPX rather than a buy-then-sell.\"}",
+ "case_id": "sym100_090",
+ "_time": "2026-10-19T18:31:18+0800"
+}

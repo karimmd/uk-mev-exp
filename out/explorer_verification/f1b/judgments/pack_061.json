@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.04247,
+ "gas_eth": 0.021902,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys 13.260718 BTRFLY in the front leg (WETH->OHM->BTRFLY via the OHM/WETH pool 0x69b8 and the OHM/BTRFLY pool 0xe9ab) and sells exactly that amount back in the back leg for 4.960720 WETH. The victim swaps OHM->BTRFLY on 0xe9ab between the two legs. The gross gain is 0.042470 WETH, and after 0.021902 ETH of front and back gas it is about +0.020568 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0210387,
+ "_session": "1dd78899-20b8-43ba-bb2b-59c70aa886e8",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.04247,\"gas_eth\":0.021902,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract buys 13.260718 BTRFLY in the front leg (WETH->OHM->BTRFLY via the OHM/WETH pool 0x69b8 and the OHM/BTRFLY pool 0xe9ab) and sells exactly that amount back in the back leg for 4.960720 WETH. The victim swaps OHM->BTRFLY on 0xe9ab between the two legs. The gross gain is 0.042470 WETH, and after 0.021902 ETH of front and back gas it is about +0.020568 ETH.\"}",
+ "case_id": "pack_061",
+ "_time": "2026-10-13T20:15:52+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0xae8b9d75a75a8b7c5cc5deb51fa916ac49147dad",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.033525,
+ "gas_eth": 0.02314,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract received WETH in the front leg and spent WETH in the back leg on the same DEPO/WETH pool that the victim also trades. It did not open a non-WETH position in the front leg (it sold DEPO), so the strict sandwich bracket test fails. Net WETH after legs is +0.033525; subtracting 0.02314 gas leaves a positive position, with DEPO net zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2300,
+  "output_tokens": 5541,
+  "thinking_tokens": 5354
+ },
+ "_request_id": "7dd5748e4d8f396ea3759992cb593283",
+ "_response_id": "af615fee-f2d8-4b2f-a024-01b369ecc6e0",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0xae8b9d75a75a8b7c5cc5deb51fa916ac49147dad\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.033525,\"gas_eth\":0.02314,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract received WETH in the front leg and spent WETH in the back leg on the same DEPO/WETH pool that the victim also trades. It did not open a non-WETH position in the front leg (it sold DEPO), so the strict sandwich bracket test fails. Net WETH after legs is +0.033525; subtracting 0.02314 gas leaves a positive position, with DEPO net zero.\"}",
+ "case_id": "sym100_048",
+ "_time": "2026-10-19T18:46:38+0800"
+}

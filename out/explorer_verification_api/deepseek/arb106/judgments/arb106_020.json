@@ -1,0 +1,40 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17",
+  "0x3545d371334f4374872e915caf5ec36c0d83b93e",
+  "0xbbc95e1eb6ee476e9cbb8112435e14b372563038",
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+  "0x122e55503a0b2e5cd528effa44d0b2fea300f24b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001165,
+ "gas_eth": 0.008856,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract received WETH from two V2 pools and paid WETH to paired V3 pools, with intermediate tokens routed directly between pools. Its net WETH after the stated gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1965,
+  "output_tokens": 8367,
+  "thinking_tokens": 8105
+ },
+ "_request_id": "2b622fff4aebc590b43f3973a76725ae",
+ "_response_id": "821a0aed-8ea1-4883-903a-5de04f197240",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17\",\"0x3545d371334f4374872e915caf5ec36c0d83b93e\",\"0xbbc95e1eb6ee476e9cbb8112435e14b372563038\",\"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\",\"0x122e55503a0b2e5cd528effa44d0b2fea300f24b\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001165,\"gas_eth\":0.008856,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract received WETH from two V2 pools and paid WETH to paired V3 pools, with intermediate tokens routed directly between pools. Its net WETH after the stated gas is positive.\"}",
+ "case_id": "arb106_020",
+ "_time": "2026-10-19T19:09:56+0800"
+}

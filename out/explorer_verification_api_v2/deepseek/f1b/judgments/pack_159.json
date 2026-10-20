@@ -1,0 +1,32 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x659a9a43b32bea6c113c393930a45c7634a242d5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.119693,
+ "gas_eth": 0.028200858,
+ "profit_after_gas": 0.091492142,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front bought 17528.180027 EROWAN for 6.75 WETH on the 0x659a pool, and back sold the exact amount on the same pool for 6.869693 WETH. The victim also traded on this shared pool between the legs. ETH/WETH net before gas is 0.119693, giving positive profit after front/back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2742,
+  "output_tokens": 3985,
+  "thinking_tokens": 3789
+ },
+ "_request_id": "fea785646584259fbb011a4da654c127",
+ "_response_id": "7ac77c73-3b01-4a56-bfe4-6062c6ee54ed",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x51acf0af77adcb20de482e1cd678f620baf07e0c\",\"pool\":\"0x659a9a43b32bea6c113c393930a45c7634a242d5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.119693,\"gas_eth\":0.028200858,\"profit_after_gas\":0.091492142,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front bought 17528.180027 EROWAN for 6.75 WETH on the 0x659a pool, and back sold the exact amount on the same pool for 6.869693 WETH. The victim also traded on this shared pool between the legs. ETH/WETH net before gas is 0.119693, giving positive profit after front/back gas.\"}",
+ "case_id": "pack_159",
+ "_time": "2026-10-19T19:23:26+0800"
+}

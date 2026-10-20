@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.032426,
+ "gas_eth": 0.035292,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys 24.393202 BTRFLY on 0xe9ab in the front leg and sells exactly that amount on the same pool in the back leg, with the victim trading that pool in between. WETH net across the two legs is +0.067718, leaving +0.032426 after the stated gas fees, with no residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2846,
+  "output_tokens": 4204,
+  "thinking_tokens": 4009
+ },
+ "_request_id": "cb663a5b914ca1ad84ab46b15ec4ff9f",
+ "_response_id": "07fea68d-1afb-4d94-b9ca-d3f065104916",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xe9ab8038ee6dd4fcc7612997fe28d4e22019c4b4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.032426, \"gas_eth\": 0.035292, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same contract buys 24.393202 BTRFLY on 0xe9ab in the front leg and sells exactly that amount on the same pool in the back leg, with the victim trading that pool in between. WETH net across the two legs is +0.067718, leaving +0.032426 after the stated gas fees, with no residual non-WETH holding.\"}",
+ "case_id": "pack_052",
+ "_time": "2026-10-19T18:11:22+0800"
+}

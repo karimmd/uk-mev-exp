@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.048504,
+ "gas_eth": 0.1365,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 905,428 SPICE with 1.0609 WETH in the front leg, the victim buys SPICE on the same V3 pool, and the actor sells all the SPICE back for 1.2608 WETH. The WETH gain of 0.1998 is reduced by the 0.1513 ETH sent to 0x829b in the back leg, which I treated as an outlay (the tx value came from the sender), leaving 0.0485 ETH. Gas of 0.1365 ETH exceeds that, so the position is negative at about -0.088 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2896,
+  "output_tokens": 903,
+  "thinking_tokens": 591
+ },
+ "_request_id": "req_011CgBRUcmEp5wkd6e1j46iY",
+ "_response_id": "msg_011CgBRUiYkK4aH4AtjVmJtd",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.048504,\"gas_eth\":0.1365,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 905,428 SPICE with 1.0609 WETH in the front leg, the victim buys SPICE on the same V3 pool, and the actor sells all the SPICE back for 1.2608 WETH. The WETH gain of 0.1998 is reduced by the 0.1513 ETH sent to 0x829b in the back leg, which I treated as an outlay (the tx value came from the sender), leaving 0.0485 ETH. Gas of 0.1365 ETH exceeds that, so the position is negative at about -0.088 ETH.\"}",
+ "case_id": "pack_132",
+ "_time": "2026-10-19T18:16:56+0800"
+}

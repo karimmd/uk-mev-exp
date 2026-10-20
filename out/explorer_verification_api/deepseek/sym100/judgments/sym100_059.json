@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.171717,
+ "gas_eth": 0.021694902,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back use the same contract actor and shared Uniswap V2 pool, with the victim between. However, the front leg sells CWS for WETH and the back leg buys CWS back, so it does not open then close a non-WETH position in the required order. The actor nets +0.171717 WETH before gas and about +0.150022 after front+back gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2450,
+  "output_tokens": 9036,
+  "thinking_tokens": 8849
+ },
+ "_request_id": "68417b523205bd142bad3340cbfc8c8b",
+ "_response_id": "7ed1b56d-9845-48c7-b07c-a1ce125301db",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.171717,\"gas_eth\":0.021694902,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back use the same contract actor and shared Uniswap V2 pool, with the victim between. However, the front leg sells CWS for WETH and the back leg buys CWS back, so it does not open then close a non-WETH position in the required order. The actor nets +0.171717 WETH before gas and about +0.150022 after front+back gas.\"}",
+ "case_id": "sym100_059",
+ "_time": "2026-10-19T18:49:51+0800"
+}

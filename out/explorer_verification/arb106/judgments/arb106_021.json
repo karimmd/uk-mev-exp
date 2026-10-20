@@ -1,0 +1,26 @@
+{
+ "actor": "0x8698d9d5ea99809c00426484a80be2add4e54581",
+ "pools": [
+  "0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877",
+  "0x5b66d267a5c13626a6d68d78e1c7e31f1d52b5c2",
+  "0x8ae720a71622e824f576b4a8c03031066548a3b1"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.016176,
+ "gas_eth": 0.014645,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 3.752521 WETH into a five-pool chain (WETH->DAI->OHM->FRAX->RAI->WETH) and gets 3.768697 WETH back from the last pool. Every hop is pool-to-pool, with no mints and no residual tokens. Net is +0.016176 WETH, and after the 0.014645 ETH gas fee about +0.001531 ETH remains.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0206107,
+ "_session": "94d3555b-4989-4000-9aec-b3c58b8b4e28",
+ "_raw": "{\"actor\":\"0x8698d9d5ea99809c00426484a80be2add4e54581\",\"pools\":[\"0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877\",\"0x5b66d267a5c13626a6d68d78e1c7e31f1d52b5c2\",\"0x8ae720a71622e824f576b4a8c03031066548a3b1\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.016176,\"gas_eth\":0.014645,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 3.752521 WETH into a five-pool chain (WETH->DAI->OHM->FRAX->RAI->WETH) and gets 3.768697 WETH back from the last pool. Every hop is pool-to-pool, with no mints and no residual tokens. Net is +0.016176 WETH, and after the 0.014645 ETH gas fee about +0.001531 ETH remains.\"}",
+ "case_id": "arb106_021",
+ "_time": "2026-10-13T22:15:13+0800"
+}

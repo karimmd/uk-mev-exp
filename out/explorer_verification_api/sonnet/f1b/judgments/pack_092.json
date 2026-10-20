@@ -1,0 +1,31 @@
+{
+ "actor": "0x86a53c9e32abd3677e38bd0b390f24dd080e6426",
+ "pool": "0x8867f20c1c63baccec7617626254a060eeb0e61e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.024663,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 18653.127364 PHA with 10.570436 WETH in the front leg. The victim's CRU->WETH->PHA swap runs through the same PHA/WETH pool. The back leg sells exactly that PHA for 10.715240 WETH, a gross gain of 0.144804. Of that, 0.120141 ETH goes to 0xd224... (likely a miner payment), leaving 0.024663 ETH. Gas price is 0 for both legs, so gas cost is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3602,
+  "output_tokens": 725,
+  "thinking_tokens": 437
+ },
+ "_request_id": "req_011CgBR6ANdNeyrfgGLCsr9K",
+ "_response_id": "msg_011CgBR6ExCgocUH4GSox98z",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x86a53c9e32abd3677e38bd0b390f24dd080e6426\",\"pool\":\"0x8867f20c1c63baccec7617626254a060eeb0e61e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.024663,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 18653.127364 PHA with 10.570436 WETH in the front leg. The victim's CRU->WETH->PHA swap runs through the same PHA/WETH pool. The back leg sells exactly that PHA for 10.715240 WETH, a gross gain of 0.144804. Of that, 0.120141 ETH goes to 0xd224... (likely a miner payment), leaving 0.024663 ETH. Gas price is 0 for both legs, so gas cost is 0.\"}",
+ "case_id": "pack_092",
+ "_time": "2026-10-19T18:11:51+0800"
+}

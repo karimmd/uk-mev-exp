@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000005be1b41f8ed12d32409c8475e83f2ee3",
+ "pool": "0xfe903a12359496b932e24c5e9b78f1b9060a6342",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.274764,
+ "gas_eth": 0.036141,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys 11617.865403 PKF in the front leg and sells exactly that amount in the back leg on the pool the victim bought from in between. Net WETH is +0.274764 before gas and about +0.2386 after the 0.036141 ETH of gas, with no PKF left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2897,
+  "output_tokens": 603,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQU2iVtTwLi1H4BrNgB",
+ "_response_id": "msg_011CgBQU95zMV4acnWiCuFCb",
+ "_reader": "sonnet",
+ "_raw": "Pool: 0xfe903a12359496b932e24c5e9b78f1b9060a6342, a UniswapV2 pair for PKF/WETH. The actor is the contract 0x000000005be1b41f8ed12d32409c8475e83f2ee3.\n\nFront leg: the actor paid 13.474489 WETH and received 11617.865403 PKF.\nBack leg: the actor returned the same 11617.865403 PKF and received 13.749253 WETH, so no PKF is left over.\n\nNet WETH = 13.749253 \u2212 13.474489 = 0.274764.\n\nGas for the two legs = 0.019550 + 0.016591 = 0.036141 ETH. The fee figures are as stated: 102829 \u00d7 190.1 gwei \u2248 0.019548, and 98169 \u00d7 169 gwei \u2248 0.016590.\n\nNet after gas = 0.274764 \u2212 0.036141 = 0.238623, which is positive.\n\nThe victim sits between the legs at position 13, on the same pool, buying PKF with ETH. The front leg is at position 3 and the back at position 15. Both legs are sent from the same address to the same contract.\n\n```json\n{\"actor\":\"0x000000005be1b41f8ed12d32409c8475e83f2ee3\",\"pool\":\"0xfe903a12359496b932e24c5e9b78f1b9060a6342\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.274764,\"gas_eth\":0.036141,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract buys 11617.865403 PKF in the front leg and sells exactly that amount in the back leg on the pool the victim bought from in between. Net WETH is +0.274764 before gas and about +0.2386 after the 0.036141 ETH of gas, with no PKF left over.\"}\n```",
+ "case_id": "pack_038",
+ "_time": "2026-10-19T18:03:39+0800"
+}

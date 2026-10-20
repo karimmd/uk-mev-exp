@@ -1,0 +1,36 @@
+e95442c22c31f3af1127b8b03390cb160adc5fbb3a6216fc74ad3198fa3d6395  notes/explorer_verification/PROTOCOL.md
+b20e6fd04036c1aa4bd19c7e672babfd8fa156c04d71d0f02ca4834e42496156  notes/explorer_verification/PROTOCOL_ARBITRAGE.md
+c843f67ff745d78632323ade5b8a769f87e1fb25eaae7992c918f5e7eeefbc7e  notes/explorer_verification/MULTI_READER_PLAN.md
+6a7efc13cbc5ae9ccfde5bd9bd037cb63392992c7aa710627fb35fabda7fd447  scripts/explorer_verification/ev_judge_api.py
+registered 2026-10-19T17:57:23+08:00 before the run
+
+## Amendment 1, registered 2026-10-19T19:03:53+08:00 before the v2 run
+6f9185ea0501346d46e14e43b097b40846b602f3c559aece07d30d16e71e0034  notes/explorer_verification/PROTOCOL_v2.md
+21d1812508eebc96c2410f84ced2e885e82726a897474a546158920151ba258b  notes/explorer_verification/PROTOCOL_ARBITRAGE_v2.md
+cea5a78f39a62f5bf4c2d147c6c6e7e981cb8944be62be8bd7516e13637fba06  notes/explorer_verification/MULTI_READER_AMENDMENT_1.md
+d190ef53f67a367067a2752d1ff9a86a5e84225bfbd10795f90d6f79e23ba236  scripts/explorer_verification/ev_judge_api.py
+8213ab681bd3a30b29f072c2cf27003975a5a95701883a61feb4dda56e7cd843  scripts/explorer_verification/run_multi_reader.sh
+diff PROTOCOL.md PROTOCOL_v2.md:
+1c1
+< # Explorer verification protocol, version 1
+---
+> # Explorer verification protocol, version 2
+20,21c20,21
+< non-WETH token in the front leg and closes it in the back leg on a pool the victim also trades, with the
+< victim between them. Answer "no" if any of these fails (different actors, no shared pool, no position
+---
+> non-WETH token in the front leg, long by buying it or short by selling it, and closes that position in the
+> back leg on a pool the victim also trades, with the victim between them. Answer "no" if any of these fails (different actors, no shared pool, no position
+34c34
+< {"actor": "<0x address or null>", "pool": "<0x address of the shared pool or null>", "Q1": "yes|no|cannot tell", "Q2": "yes|no|cannot tell", "net_eth": <number or null>, "gas_eth": <number or null>, "residual": "<token holding left, or none>", "confidence": <1 to 5>, "note": "<what influenced you, one to three sentences>"}
+---
+> {"actor": "<0x address or null>", "pool": "<0x address of the shared pool or null>", "Q1": "yes|no|cannot tell", "Q2": "yes|no|cannot tell", "net_eth_before_gas": <number or null: the actor's ETH and WETH netted across the front and back legs, before gas>, "gas_eth": <number or null: the gas fees of the front and back legs>, "profit_after_gas": <number or null: net_eth_before_gas minus gas_eth>, "residual": "<token holding left, or none>", "confidence": <1 to 5>, "note": "<what influenced you, one to three sentences>"}
+diff PROTOCOL_ARBITRAGE.md PROTOCOL_ARBITRAGE_v2.md:
+1c1
+< # Explorer verification protocol for arbitrage, version 1
+---
+> # Explorer verification protocol for arbitrage, version 2
+36c36
+< {"actor": "<0x address or null>", "pools": ["<0x address>", ...], "cycle_token": "<symbol or address of the token that closes the cycle, or null>", "profit_token": "<symbol or address, or null>", "Q1": "yes|no|cannot tell", "Q1_reason": "<arbitrage|routed sale|minted token sale|claim|flash loan only|transfer|liquidation|other|unclear>", "Q2": "yes|no|cannot tell", "net_eth": <number or null>, "gas_eth": <number or null>, "residual": "<holding left, or none>", "confidence": <1 to 5>, "note": "<what influenced you, one to three sentences>"}
+---
+> {"actor": "<0x address or null>", "pools": ["<0x address>", ...], "cycle_token": "<symbol or address of the token that closes the cycle, or null>", "profit_token": "<symbol or address, or null>", "Q1": "yes|no|cannot tell", "Q1_reason": "<arbitrage|routed sale|minted token sale|claim|flash loan only|transfer|liquidation|other|unclear>", "Q2": "yes|no|cannot tell", "net_eth_before_gas": <number or null: the actor's ETH and WETH netted over the transaction, before gas>, "gas_eth": <number or null: the gas fee>, "profit_after_gas": <number or null: net_eth_before_gas minus gas_eth>, "residual": "<holding left, or none>", "confidence": <1 to 5>, "note": "<what influenced you, one to three sentences>"}

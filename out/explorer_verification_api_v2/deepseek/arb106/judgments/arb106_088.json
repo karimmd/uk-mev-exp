@@ -1,0 +1,43 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xf248959d7aa50cd47b448f507063eaa6cc5404c4",
+  "0x5f094191ddad05c5b6ddfa992a4f49d8d679290d",
+  "0xf0d1109e723cb06e400e2e57d0b6c7c32bedf61a",
+  "0x9e98deac1a416c9ce3c892bd8eef586f1291ca35",
+  "0xbbc95e1eb6ee476e9cbb8112435e14b372563038",
+  "0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.019599,
+ "gas_eth": 0.018107,
+ "profit_after_gas": 0.001492,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0xb2bb... executes two WETH-based multi-pool cycles and nets +0.019599 WETH before the 0.018107 ETH gas fee; no other token is left with the actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2401,
+  "output_tokens": 7127,
+  "thinking_tokens": 6790
+ },
+ "_request_id": "6e9616d451b5da031038386fe4eefb92",
+ "_response_id": "b351e933-dfc5-4498-bd05-e72ba1321a8f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0xf248959d7aa50cd47b448f507063eaa6cc5404c4\",\"0x5f094191ddad05c5b6ddfa992a4f49d8d679290d\",\"0xf0d1109e723cb06e400e2e57d0b6c7c32bedf61a\",\"0x9e98deac1a416c9ce3c892bd8eef586f1291ca35\",\"0xbbc95e1eb6ee476e9cbb8112435e14b372563038\",\"0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.019599,\"gas_eth\":0.018107,\"profit_after_gas\":0.001492,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0xb2bb... executes two WETH-based multi-pool cycles and nets +0.019599 WETH before the 0.018107 ETH gas fee; no other token is left with the actor.\"}",
+ "case_id": "arb106_088",
+ "_time": "2026-10-19T20:06:15+0800"
+}

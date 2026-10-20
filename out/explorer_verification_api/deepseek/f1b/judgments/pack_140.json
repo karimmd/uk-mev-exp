@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x18a797c7c70c1bf22fdee1c09062aba709cacf04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008599,
+ "gas_eth": 0.014524,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives RGT in the front leg and returns it in the back leg on the same UniswapV2 pool used by the victim between them. Its WETH gain is 0.023123 before front/back gas 0.014524, leaving +0.008599 ETH after gas, with no residual RGT.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2319,
+  "output_tokens": 5546,
+  "thinking_tokens": 5379
+ },
+ "_request_id": "95584dd0c943415ded308c5ebff7639f",
+ "_response_id": "b010da84-3ecd-4da6-887d-ff18e86e12da",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0x18a797c7c70c1bf22fdee1c09062aba709cacf04\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.008599,\"gas_eth\":0.014524,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract receives RGT in the front leg and returns it in the back leg on the same UniswapV2 pool used by the victim between them. Its WETH gain is 0.023123 before front/back gas 0.014524, leaving +0.008599 ETH after gas, with no residual RGT.\"}",
+ "case_id": "pack_140",
+ "_time": "2026-10-19T18:27:54+0800"
+}

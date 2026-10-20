@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x85917d97a4c399816cf6edb2d2e8767002f6a96a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.182744,
+ "gas_eth": 0.02385,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 1517.495805 ATD into the ATD/WETH pool for 7.963847 WETH in the front leg. The victim then sold 1000 ATD into the same pool, and the actor bought back exactly 1517.495805 ATD for 7.781103 WETH in the back leg. That nets +0.182744 WETH, or about +0.158894 ETH after 0.02385 ETH of gas, with no ATD left over. The front leg sends out ATD that was never received in these three transactions, so the actor started with ATD inventory and the bracket is a short-then-rebuy rather than a buy-then-sell.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2889,
+  "output_tokens": 847,
+  "thinking_tokens": 522
+ },
+ "_request_id": "req_011CgBS5FWn4i3h7Y7Bc5Tth",
+ "_response_id": "msg_011CgBS5FrsJmnZPfcnmPdiT",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x85917d97a4c399816cf6edb2d2e8767002f6a96a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.182744,\"gas_eth\":0.02385,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 1517.495805 ATD into the ATD/WETH pool for 7.963847 WETH in the front leg. The victim then sold 1000 ATD into the same pool, and the actor bought back exactly 1517.495805 ATD for 7.781103 WETH in the back leg. That nets +0.182744 WETH, or about +0.158894 ETH after 0.02385 ETH of gas, with no ATD left over. The front leg sends out ATD that was never received in these three transactions, so the actor started with ATD inventory and the bracket is a short-then-rebuy rather than a buy-then-sell.\"}",
+ "case_id": "sym100_031",
+ "_time": "2026-10-19T18:24:45+0800"
+}

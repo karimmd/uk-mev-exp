@@ -1,0 +1,17 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.556872,
+ "gas_eth": 0.082625,
+ "residual": "about 632.63 MINT (19974.459044 bought, 19341.831531 sold)",
+ "confidence": 4,
+ "note": "The same contract (0x7f94...) buys MINT with 20.907221 WETH in the front leg and sells MINT for 21.464093 WETH in the back leg. The victim buys MINT on the same pool (0x092e...) in between. Net WETH is +0.556872, or +0.474247 after 0.082625 ETH of gas from two different sender EOAs. The leftover MINT is a non-negative holding, so the sign stays positive. The back leg only partly closes the position, and the leftover MINT is unvalued, which keeps confidence at 4.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0271747,
+ "_session": "1a785950-2a37-4922-9a54-43ee21b38c82",
+ "_raw": "{\"actor\": \"0x7f941cdae3c01906e42f8325af0693a848f81072\", \"pool\": \"0x092e793afe54366601eb7ef7e63b6abb93edb485\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.556872, \"gas_eth\": 0.082625, \"residual\": \"about 632.63 MINT (19974.459044 bought, 19341.831531 sold)\", \"confidence\": 4, \"note\": \"The same contract (0x7f94...) buys MINT with 20.907221 WETH in the front leg and sells MINT for 21.464093 WETH in the back leg. The victim buys MINT on the same pool (0x092e...) in between. Net WETH is +0.556872, or +0.474247 after 0.082625 ETH of gas from two different sender EOAs. The leftover MINT is a non-negative holding, so the sign stays positive. The back leg only partly closes the position, and the leftover MINT is unvalued, which keeps confidence at 4.\"}",
+ "case_id": "pack_075",
+ "_time": "2026-10-13T20:18:53+0800"
+}

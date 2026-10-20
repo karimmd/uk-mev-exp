@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02932,
+ "gas_eth": 0.004804,
+ "profit_after_gas": 0.024516,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor 0x3dad sold RVP for 1.422 WETH in the front leg and bought back the same RVP amount for 1.39268 WETH in the back leg on the same RVP/WETH pool the victim traded on. Net WETH before gas is positive, and after subtracting front/back gas fees the profit remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2390,
+  "output_tokens": 1829,
+  "thinking_tokens": 1639
+ },
+ "_request_id": "41e089176fa260e1610a20254ca9dd22",
+ "_response_id": "0a2a22ba-969c-4d67-be5f-d5ca7d34e731",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.02932,\"gas_eth\":0.004804,\"profit_after_gas\":0.024516,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor 0x3dad sold RVP for 1.422 WETH in the front leg and bought back the same RVP amount for 1.39268 WETH in the back leg on the same RVP/WETH pool the victim traded on. Net WETH before gas is positive, and after subtracting front/back gas fees the profit remains positive.\"}",
+ "case_id": "sym100_033",
+ "_time": "2026-10-19T19:31:28+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0xec745519247642fbf14689ac7254068dffba08e3",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.014601,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs have different recipients (0x85160faa... and 0x823f536e...), and both buy ELONGD rather than one opening and the other closing a position. The shared pool is 0xec745..., but no single actor brackets the victim.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3050,
+  "output_tokens": 5506,
+  "thinking_tokens": 5349
+ },
+ "_request_id": "93bb4f3e3f70efff91ca90c180d1c420",
+ "_response_id": "702fb1fb-730e-4bf4-a89f-4c315f82c7f8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0xec745519247642fbf14689ac7254068dffba08e3\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": 0.014601, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The front and back legs have different recipients (0x85160faa... and 0x823f536e...), and both buy ELONGD rather than one opening and the other closing a position. The shared pool is 0xec745..., but no single actor brackets the victim.\"}",
+ "case_id": "pack_070",
+ "_time": "2026-10-19T19:12:19+0800"
+}

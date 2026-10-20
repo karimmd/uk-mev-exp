@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.213542,
+ "gas_eth": 0,
+ "profit_after_gas": 0.213542,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front leg buys STARL with WETH via actor 0x...27d2, and back leg sells the same STARL amount back to the same pool. WETH net is 10.453447 - 10.239905 = 0.213542; the back tx value and internal ETH transfer net to zero, and gas is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2475,
+  "output_tokens": 4009,
+  "thinking_tokens": 3822
+ },
+ "_request_id": "f8b1514db0a16a527fcd94b9ff176665",
+ "_response_id": "f937be90-ef18-4460-85a2-75af37c4a0f3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0xa5e9c917b4b821e4e0a5bbefce078ab6540d6b5e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.213542,\"gas_eth\":0,\"profit_after_gas\":0.213542,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front leg buys STARL with WETH via actor 0x...27d2, and back leg sells the same STARL amount back to the same pool. WETH net is 10.453447 - 10.239905 = 0.213542; the back tx value and internal ETH transfer net to zero, and gas is zero.\"}",
+ "case_id": "pack_099",
+ "_time": "2026-10-19T19:17:16+0800"
+}

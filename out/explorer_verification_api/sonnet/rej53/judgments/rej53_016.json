@@ -1,0 +1,31 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x329cc2740670a039efca7663bddbefa03d19522d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.096999,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor 0x1be0 buys ARES through the WETH/USDC pool 0x397f and the ARES/USDC pool 0x329c in the front leg. The victim buys ARES on 0x329c in between, and the actor sells all 283010.994421 ARES back in the back leg. WETH goes from 14.103186 out to 14.272490 in, +0.169304, less a 0.072305 ETH internal payment to 0x99c8 (likely a builder tip). Both legs show gas price 0, so gas fees are 0, and the net is about +0.0970 ETH with no residual holding.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4186,
+  "output_tokens": 662,
+  "thinking_tokens": 345
+ },
+ "_request_id": "req_011CgBSaZte9TWBE19XLviyh",
+ "_response_id": "msg_011CgBSaaEy5AfySYVEkfYpV",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\",\"pool\":\"0x329cc2740670a039efca7663bddbefa03d19522d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.096999,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor 0x1be0 buys ARES through the WETH/USDC pool 0x397f and the ARES/USDC pool 0x329c in the front leg. The victim buys ARES on 0x329c in between, and the actor sells all 283010.994421 ARES back in the back leg. WETH goes from 14.103186 out to 14.272490 in, +0.169304, less a 0.072305 ETH internal payment to 0x99c8 (likely a builder tip). Both legs show gas price 0, so gas fees are 0, and the net is about +0.0970 ETH with no residual holding.\"}",
+ "case_id": "rej53_016",
+ "_time": "2026-10-19T18:31:21+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth_before_gas": -0.080118,
+ "gas_eth": 0.024008,
+ "profit_after_gas": -0.104126,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor is the executor contract 0x1315..., which buys DON on 0x91b1... in the front leg and sells the same amount on the same pool in the back leg, with the victim trading on that pool between them. Net WETH gain is outweighed by internal ETH transfers from the actor and gas, so the observable net is negative; no residual DON remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2684,
+  "output_tokens": 12582,
+  "thinking_tokens": 12382
+ },
+ "_request_id": "5f7e1eef3a5a9ac4b334cb866530828e",
+ "_response_id": "cb412401-19ed-4b77-a73c-50d837251145",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\",\"pool\":\"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth_before_gas\":-0.080118,\"gas_eth\":0.024008,\"profit_after_gas\":-0.104126,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor is the executor contract 0x1315..., which buys DON on 0x91b1... in the front leg and sells the same amount on the same pool in the back leg, with the victim trading on that pool between them. Net WETH gain is outweighed by internal ETH transfers from the actor and gas, so the observable net is negative; no residual DON remains.\"}",
+ "case_id": "rej53_028",
+ "_time": "2026-10-19T19:43:30+0800"
+}

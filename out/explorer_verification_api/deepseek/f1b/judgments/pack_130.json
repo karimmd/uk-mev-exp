@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1965a114cc3341c0d2ba96a6361790b96ba8c20c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.023768,
+ "gas_eth": 0.012111,
+ "residual": "0.127402 MX",
+ "confidence": 5,
+ "note": "Front and back legs both use actor contract 0x00000000003b3cc22af3ae1eac0440bcee416b40, which receives MX in front and sends it back to the same UniswapV2 pool in the back; the victim trades on that pool between them. Net WETH across front and back is +0.035879, gas fees total 0.012111, leaving +0.023768 ETH/WETH plus residual 0.127402 MX.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2348,
+  "output_tokens": 6086,
+  "thinking_tokens": 5878
+ },
+ "_request_id": "c659c7e5180ac36c8f3cee3406c7c298",
+ "_response_id": "ce194418-e925-443a-bc4e-27e604779458",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1965a114cc3341c0d2ba96a6361790b96ba8c20c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.023768,\"gas_eth\":0.012111,\"residual\":\"0.127402 MX\",\"confidence\":5,\"note\":\"Front and back legs both use actor contract 0x00000000003b3cc22af3ae1eac0440bcee416b40, which receives MX in front and sends it back to the same UniswapV2 pool in the back; the victim trades on that pool between them. Net WETH across front and back is +0.035879, gas fees total 0.012111, leaving +0.023768 ETH/WETH plus residual 0.127402 MX.\"}",
+ "case_id": "pack_130",
+ "_time": "2026-10-19T18:26:10+0800"
+}

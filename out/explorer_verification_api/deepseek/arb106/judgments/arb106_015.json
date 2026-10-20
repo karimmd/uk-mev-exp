@@ -1,0 +1,38 @@
+{
+ "actor": "0x0000000000438f975cbde76d5fdd1aa76be46577",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth": -0.001722,
+ "gas_eth": 0.02383,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The route is WETH -> YLD -> RFI -> WETH across three UniswapV2 pools, ending with +0.022108 WETH at the actor while intermediate tokens move pool-to-pool. The 0.023830 ETH gas fee exceeds that gross WETH profit, so the net after observable cost is about -0.001722 ETH. No non-WETH residual or mint to the actor is shown.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2102,
+  "output_tokens": 11869,
+  "thinking_tokens": 11606
+ },
+ "_request_id": "85e00e56eb8d53543745fec1090a3e66",
+ "_response_id": "bb480b2a-d9ca-430c-9530-6caf8220645a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000438f975cbde76d5fdd1aa76be46577\",\"pools\":[\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\",\"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\",\"0x4c8341379e95f70c08defb76c4f9c036525edc30\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"no\",\"net_eth\":-0.001722,\"gas_eth\":0.023830,\"residual\":\"none\",\"confidence\":4,\"note\":\"The route is WETH -> YLD -> RFI -> WETH across three UniswapV2 pools, ending with +0.022108 WETH at the actor while intermediate tokens move pool-to-pool. The 0.023830 ETH gas fee exceeds that gross WETH profit, so the net after observable cost is about -0.001722 ETH. No non-WETH residual or mint to the actor is shown.\"}",
+ "case_id": "arb106_015",
+ "_time": "2026-10-19T19:07:54+0800"
+}

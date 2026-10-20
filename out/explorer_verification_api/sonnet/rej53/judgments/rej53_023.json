@@ -1,0 +1,31 @@
+{
+ "actor": "0x55eb58655f8202ff839487886fedba2a1eb7b2d7",
+ "pool": "0xc88ac988a655b91b70def427c8778b4d43f2048d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.382083,
+ "gas_eth": 0.243935,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sends 49.585 WETH through the WETH/DERC pool and the DERC/USDC pool in the front leg, ending with 64,564.94 USDC. The victim sells DERC for USDC on the DERC/USDC pool (0xc88a...). The back leg returns exactly that USDC and collects 49.967 WETH. That gives +0.382083 WETH gross and about +0.138 ETH after 0.243935 ETH of gas, which is mostly the 2691 gwei back-leg fee. No token is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3129,
+  "output_tokens": 719,
+  "thinking_tokens": 418
+ },
+ "_request_id": "req_011CgBScfJNtjvGToxQQP88x",
+ "_response_id": "msg_011CgBScfcUuKmCK3bD2UjV4",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x55eb58655f8202ff839487886fedba2a1eb7b2d7\",\"pool\":\"0xc88ac988a655b91b70def427c8778b4d43f2048d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.382083,\"gas_eth\":0.243935,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sends 49.585 WETH through the WETH/DERC pool and the DERC/USDC pool in the front leg, ending with 64,564.94 USDC. The victim sells DERC for USDC on the DERC/USDC pool (0xc88a...). The back leg returns exactly that USDC and collects 49.967 WETH. That gives +0.382083 WETH gross and about +0.138 ETH after 0.243935 ETH of gas, which is mostly the 2691 gwei back-leg fee. No token is left over.\"}",
+ "case_id": "rej53_023",
+ "_time": "2026-10-19T18:31:50+0800"
+}

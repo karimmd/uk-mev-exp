@@ -1,0 +1,31 @@
+{
+ "actor": "0xda6b746b76fdc8424764d6981e9ef5c3b13a56af",
+ "pool": "0x1be574041828303f0bfb5d06a2414f3bd6da1b2a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.07157,
+ "gas_eth": 0.049524,
+ "residual": "about 18,561,680,720.94 HUSKY (620,476,359,389.32 bought minus 601,914,678,668.39 sold)",
+ "confidence": 3,
+ "note": "The actor contract wrapped 0.54 ETH and bought HUSKY on the HUSKY/WETH pool in the front leg. The victim bought HUSKY on the same pool in between, and the actor sold most of its HUSKY back for 0.61157 ETH in the back leg. Net ETH is +0.07157 before gas and about +0.0220 after 0.049524 ETH of gas. A small HUSKY residual remains, but it cannot be negative in value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3443,
+  "output_tokens": 835,
+  "thinking_tokens": 500
+ },
+ "_request_id": "req_011CgBRHvWGvJBQxdNZc9pqT",
+ "_response_id": "msg_011CgBRJ1JkqgfGm2AyS4MsS",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xda6b746b76fdc8424764d6981e9ef5c3b13a56af\",\"pool\":\"0x1be574041828303f0bfb5d06a2414f3bd6da1b2a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.07157,\"gas_eth\":0.049524,\"residual\":\"about 18,561,680,720.94 HUSKY (620,476,359,389.32 bought minus 601,914,678,668.39 sold)\",\"confidence\":3,\"note\":\"The actor contract wrapped 0.54 ETH and bought HUSKY on the HUSKY/WETH pool in the front leg. The victim bought HUSKY on the same pool in between, and the actor sold most of its HUSKY back for 0.61157 ETH in the back leg. Net ETH is +0.07157 before gas and about +0.0220 after 0.049524 ETH of gas. A small HUSKY residual remains, but it cannot be negative in value, so the sign stays positive.\"}",
+ "case_id": "pack_112",
+ "_time": "2026-10-19T18:14:32+0800"
+}

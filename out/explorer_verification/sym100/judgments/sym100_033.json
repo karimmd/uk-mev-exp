@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.02932,
+ "gas_eth": 0.004804,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 67997.416493 RVP into the RVP/WETH pool for 1.422 WETH in the front leg. The victim then sells 200000 RVP into the same pool. In the back leg the actor buys back exactly 67997.416493 RVP for 1.39268 WETH. That gives +0.02932 WETH before gas and +0.024516 ETH after the 0.004804 ETH gas for both legs. The RVP round trip is flat, so no token is left over. The bracket runs sell-first, buy-back-second rather than buy-first, but it is still a bracket around the victim on the shared pool.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0243568,
+ "_session": "17a50ff9-a64d-40b6-8c68-e60a1660c5e8",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xee9b50b74a132912cf55e7699ef3aa7ae2b00e0c\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.02932, \"gas_eth\": 0.004804, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 67997.416493 RVP into the RVP/WETH pool for 1.422 WETH in the front leg. The victim then sells 200000 RVP into the same pool. In the back leg the actor buys back exactly 67997.416493 RVP for 1.39268 WETH. That gives +0.02932 WETH before gas and +0.024516 ETH after the 0.004804 ETH gas for both legs. The RVP round trip is flat, so no token is left over. The bracket runs sell-first, buy-back-second rather than buy-first, but it is still a bracket around the victim on the shared pool.\"}",
+ "case_id": "sym100_033",
+ "_time": "2026-10-13T21:30:01+0800"
+}

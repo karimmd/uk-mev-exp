@@ -1,0 +1,31 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x43747d31fc178d626047c5b4346a251418167a1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.479943,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor contract buys 712300.69 NBNG on the NBNG/USDT pool (via WETH->USDT->NBNG) before the victim's USDT->NBNG buy, then sells the same amount after. WETH gain of 0.959887 minus the 0.479944 ETH payment to 0x5a0b... leaves about +0.479943 ETH; gas fees are 0 at 0 gwei.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3102,
+  "output_tokens": 722,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBSdusG6pGCZZ7CPR24F",
+ "_response_id": "msg_011CgBSdvCLunXu6P2mPnFxa",
+ "_reader": "sonnet",
+ "_raw": "Front leg: the actor contract 0xf73d... sends 99.999966 WETH to the WETH/USDT pool 0x06da.... That pool sends USDT to the NBNG/USDT pool 0x43747..., which sends 712300.69 NBNG to the actor. So the actor holds NBNG after the front leg.\n\nVictim: buys NBNG with USDT on pool 0x43747..., which is the shared pool.\n\nBack leg: the actor sends back the same 712300.69 NBNG, receives USDT from 0x4374 that is routed to 0x06da, and receives 100.959853 WETH. So the position is closed and Q1 is yes.\n\nQ2: WETH in was 99.999966 and WETH out was 100.959853, a gain of 0.959887. The internal transfer of 0.479944 ETH from the actor to 0x5a0b... (probably a coinbase payment or bribe) is an observable cost. The net is 0.959887 \u2212 0.479944 = 0.479943 ETH.\n\nThe gas fees are 0 for both legs, since the gas price is 0.0 gwei. The sender 0xb38a... pays nothing, and the bribe is already counted.\n\nThe actor's NBNG holding is fully closed (712300.691802 in and out), and the USDT is passed through the pools, so there is no residual. The result is positive.\n\nThe actor is the contract 0xf73d..., not the sender.\n\n```json\n{\"actor\":\"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\",\"pool\":\"0x43747d31fc178d626047c5b4346a251418167a1a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.479943,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor contract buys 712300.69 NBNG on the NBNG/USDT pool (via WETH->USDT->NBNG) before the victim's USDT->NBNG buy, then sells the same amount after. WETH gain of 0.959887 minus the 0.479944 ETH payment to 0x5a0b... leaves about +0.479943 ETH; gas fees are 0 at 0 gwei.\"}\n```",
+ "case_id": "rej53_027",
+ "_time": "2026-10-19T18:32:06+0800"
+}

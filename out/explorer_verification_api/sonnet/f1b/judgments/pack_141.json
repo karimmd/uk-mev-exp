@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.065254,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 3,020,068 PEOPLE for 19.216836 WETH in the front leg. The victim buys PEOPLE on the same V3 pool, and the actor sells all 3,020,068 PEOPLE back for 19.403861 WETH. The WETH gain is 0.187025. The back leg's 0.121771 ETH tx value is forwarded to 0xb7e3\u2026, which looks like a bribe, so net ETH is 0.065254. Gas of 0.157241 ETH makes the total negative, about -0.092.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2851,
+  "output_tokens": 985,
+  "thinking_tokens": 684
+ },
+ "_request_id": "req_011CgBRZBxtCkQGqCRjMyapi",
+ "_response_id": "msg_011CgBRZJ8DP2EVUnrx7wW12",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x83abecf7204d5afc1bea5df734f085f2535a9976\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.065254,\"gas_eth\":0.157241,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 3,020,068 PEOPLE for 19.216836 WETH in the front leg. The victim buys PEOPLE on the same V3 pool, and the actor sells all 3,020,068 PEOPLE back for 19.403861 WETH. The WETH gain is 0.187025. The back leg's 0.121771 ETH tx value is forwarded to 0xb7e3\u2026, which looks like a bribe, so net ETH is 0.065254. Gas of 0.157241 ETH makes the total negative, about -0.092.\"}",
+ "case_id": "pack_141",
+ "_time": "2026-10-19T18:17:59+0800"
+}

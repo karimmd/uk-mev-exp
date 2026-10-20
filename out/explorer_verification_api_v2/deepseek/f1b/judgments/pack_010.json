@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x72af4d1d175672d1f99506e68e6e7cff484be4de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.028134,
+ "gas_eth": 0.022507,
+ "profit_after_gas": 0.005627,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same UniswapV2 ASH/WETH pool, with the actor contract receiving ASH in front and returning the same ASH in back while the victim trades on that pool between them. Net WETH is +0.028134 before gas, and gas costs of 0.022507 leave a positive profit with no residual ASH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2680,
+  "output_tokens": 1992,
+  "thinking_tokens": 1800
+ },
+ "_request_id": "5032c3d3196acf54f3e1fdc6b53d96cc",
+ "_response_id": "3e362744-e25c-4bb1-a424-0b58d220e18b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000500e2fece27a7600435d0c48d64e0c00\",\"pool\":\"0x72af4d1d175672d1f99506e68e6e7cff484be4de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.028134,\"gas_eth\":0.022507,\"profit_after_gas\":0.005627,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs use the same UniswapV2 ASH/WETH pool, with the actor contract receiving ASH in front and returning the same ASH in back while the victim trades on that pool between them. Net WETH is +0.028134 before gas, and gas costs of 0.022507 leave a positive profit with no residual ASH.\"}",
+ "case_id": "pack_010",
+ "_time": "2026-10-19T19:04:43+0800"
+}

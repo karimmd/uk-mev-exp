@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.008681095,
+ "gas_eth": 0.000229905,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same address swapped 200 WETH into WSHIBA in the front leg and swapped the exact same WSHIBA amount back to 201.008911 WETH in the back leg on the same UniswapV2 pool used by the victim. Gross WETH gain is 1.008911 ETH; after front and back gas, it remains positive with no residual WSHIBA.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2915,
+  "output_tokens": 3080,
+  "thinking_tokens": 2903
+ },
+ "_request_id": "e4b61a73a73e12afd5987175b587f1cf",
+ "_response_id": "ff9cee5f-88d4-4f4c-a877-06b9bdde1d1b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf6da21e95d74767009accb145b96897ac3630bad\",\"pool\":\"0x0cd898d165aa2f36c5f32ecac67c4c5b713926ff\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.008681095,\"gas_eth\":0.000229905,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same address swapped 200 WETH into WSHIBA in the front leg and swapped the exact same WSHIBA amount back to 201.008911 WETH in the back leg on the same UniswapV2 pool used by the victim. Gross WETH gain is 1.008911 ETH; after front and back gas, it remains positive with no residual WSHIBA.\"}",
+ "case_id": "pack_135",
+ "_time": "2026-10-19T18:26:58+0800"
+}

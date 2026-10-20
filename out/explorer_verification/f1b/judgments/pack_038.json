@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000005be1b41f8ed12d32409c8475e83f2ee3",
+ "pool": "0xfe903a12359496b932e24c5e9b78f1b9060a6342",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.274764,
+ "gas_eth": 0.036141,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys 11617.865403 PKF with 13.474489 WETH in the front leg and sells exactly that amount back for 13.749253 WETH in the back leg. The victim buys PKF on the same pool between them, in the same direction as the front leg. Net WETH is +0.274764 before gas; after gas of 0.036141 ETH it is about +0.238623 ETH, with no PKF left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.019096699999999998,
+ "_session": "7990e7c8-c506-46a2-a447-8e4fa2997395",
+ "_raw": "{\"actor\": \"0x000000005be1b41f8ed12d32409c8475e83f2ee3\", \"pool\": \"0xfe903a12359496b932e24c5e9b78f1b9060a6342\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.274764, \"gas_eth\": 0.036141, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same contract buys 11617.865403 PKF with 13.474489 WETH in the front leg and sells exactly that amount back for 13.749253 WETH in the back leg. The victim buys PKF on the same pool between them, in the same direction as the front leg. Net WETH is +0.274764 before gas; after gas of 0.036141 ETH it is about +0.238623 ETH, with no PKF left over.\"}",
+ "case_id": "pack_038",
+ "_time": "2026-10-13T20:11:33+0800"
+}

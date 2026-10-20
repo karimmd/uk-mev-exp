@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "front sender keeps 21095.574 MXS; back sender keeps 7064.25 MXS; no position closed",
+ "confidence": 5,
+ "note": "The front leg (0xbcdec0b5...) and the back leg (0x7612f25f...) come from different senders, and each simply buys MXS with ETH through the Uniswap V2 router on the same pool as the victim. No single actor opens a position and then closes it. With no shared actor, there is no bracket to net, and each buyer holds unsold MXS.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3787,
+  "output_tokens": 555,
+  "thinking_tokens": 296
+ },
+ "_request_id": "req_011CgBRz9N3nypRy6AsFToV2",
+ "_response_id": "msg_011CgBRz9htQnqJ4FRhNMhHg",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"front sender keeps 21095.574 MXS; back sender keeps 7064.25 MXS; no position closed\", \"confidence\": 5, \"note\": \"The front leg (0xbcdec0b5...) and the back leg (0x7612f25f...) come from different senders, and each simply buys MXS with ETH through the Uniswap V2 router on the same pool as the victim. No single actor opens a position and then closes it. With no shared actor, there is no bracket to net, and each buyer holds unsold MXS.\"}\n```",
+ "case_id": "pack_194",
+ "_time": "2026-10-19T18:23:34+0800"
+}

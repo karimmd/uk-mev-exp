@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.019847,
+ "gas_eth": 0.002953,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back use the same CVX/WETH pool and same contract actor, and the victim trades that pool. But the front leg sells CVX for WETH while the back leg buys CVX back, so it does not open a non-WETH position in the front leg under the strict definition; net WETH after gas is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2359,
+  "output_tokens": 7756,
+  "thinking_tokens": 7593
+ },
+ "_request_id": "7f8459f74205ba30441af25817565a5d",
+ "_response_id": "1ae65957-2cd6-4667-9283-ba7b64d107d1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x05767d9ef41dc40689678ffca0608878fb3de906\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.019847,\"gas_eth\":0.002953,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back use the same CVX/WETH pool and same contract actor, and the victim trades that pool. But the front leg sells CVX for WETH while the back leg buys CVX back, so it does not open a non-WETH position in the front leg under the strict definition; net WETH after gas is positive.\"}",
+ "case_id": "sym100_060",
+ "_time": "2026-10-19T18:50:11+0800"
+}

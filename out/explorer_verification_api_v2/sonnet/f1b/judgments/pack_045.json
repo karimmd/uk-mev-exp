@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "Front actor 0xb54206d6... holds 17143.717040 MXS from the front leg. Back-leg buyer 0x7440e38f... holds 4618.897084 MXS.",
+ "confidence": 4,
+ "note": "The front and back legs have different senders (0xb54206d6... and 0x7440e38f...). Both legs buy MXS with ETH on the same pool, so neither closes a position. The back leg is a second buy, not a sell, and no address both opens and closes a position. This is not a sandwich bracket, and there is no profit to compute.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3787,
+  "output_tokens": 291,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVLHU8DN4mTdWo1Mazt",
+ "_response_id": "msg_011CgBVLHpwxht6HoqCRupNq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"Front actor 0xb54206d6... holds 17143.717040 MXS from the front leg. Back-leg buyer 0x7440e38f... holds 4618.897084 MXS.\", \"confidence\": 4, \"note\": \"The front and back legs have different senders (0xb54206d6... and 0x7440e38f...). Both legs buy MXS with ETH on the same pool, so neither closes a position. The back leg is a second buy, not a sell, and no address both opens and closes a position. This is not a sandwich bracket, and there is no profit to compute.\", \"gas_eth\": null}",
+ "case_id": "pack_045",
+ "_time": "2026-10-19T19:07:25+0800"
+}

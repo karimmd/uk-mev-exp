@@ -1,0 +1,31 @@
+{
+ "actor": "0xfb5761fde5227d8bb093daf9db87013b3ab9cd24",
+ "pool": "0x5f57c5f9564d6a4e25d908605341632e33e7874d",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.016241,
+ "gas_eth": 0.01624,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0xfb57 sells 8407.29 ROCKS for 0.507316 WETH on pool 0x5f57 before the victim's 70000 ROCKS sell on the same pool, then buys the identical 8407.29 ROCKS back for 0.469939 WETH. That is a reverse-direction sandwich with no ROCKS residual. The gross 0.037377 WETH spread is sent to 0xefac in the back leg, which makes the actor's WETH roughly flat (-0.000001) and negative after 0.01624 ETH of gas; if 0xefac is the operator's own profit wallet, the episode would instead be about +0.021 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3141,
+  "output_tokens": 1380,
+  "thinking_tokens": 1027
+ },
+ "_request_id": "req_011CgBRdSmUk848qwygpfEeL",
+ "_response_id": "msg_011CgBRdW793bJ7FtNSP17aa",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xfb5761fde5227d8bb093daf9db87013b3ab9cd24\", \"pool\": \"0x5f57c5f9564d6a4e25d908605341632e33e7874d\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.016241, \"gas_eth\": 0.01624, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0xfb57 sells 8407.29 ROCKS for 0.507316 WETH on pool 0x5f57 before the victim's 70000 ROCKS sell on the same pool, then buys the identical 8407.29 ROCKS back for 0.469939 WETH. That is a reverse-direction sandwich with no ROCKS residual. The gross 0.037377 WETH spread is sent to 0xefac in the back leg, which makes the actor's WETH roughly flat (-0.000001) and negative after 0.01624 ETH of gas; if 0xefac is the operator's own profit wallet, the episode would instead be about +0.021 ETH.\"}",
+ "case_id": "pack_139",
+ "_time": "2026-10-19T18:19:03+0800"
+}

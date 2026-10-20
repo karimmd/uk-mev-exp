@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0098,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract holds COLLAR after the front leg and returns the same amount to the same UniswapV2 pool in the back leg, with the victim trading on that pool in between. Net WETH gain is 0.0098 ETH, front/back gas is zero, and no residual COLLAR remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2357,
+  "output_tokens": 4797,
+  "thinking_tokens": 4634
+ },
+ "_request_id": "181bc02c2afa18384ec44014e5fb93a6",
+ "_response_id": "f6c1367c-914d-4b27-803c-7adc934124f9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\",\"pool\":\"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.0098,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract holds COLLAR after the front leg and returns the same amount to the same UniswapV2 pool in the back leg, with the victim trading on that pool in between. Net WETH gain is 0.0098 ETH, front/back gas is zero, and no residual COLLAR remains.\"}",
+ "case_id": "rej53_050",
+ "_time": "2026-10-19T19:03:29+0800"
+}

@@ -1,0 +1,28 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0xf248959d7aa50cd47b448f507063eaa6cc5404c4",
+  "0x5f094191ddad05c5b6ddfa992a4f49d8d679290d",
+  "0xf0d1109e723cb06e400e2e57d0b6c7c32bedf61a",
+  "0x9e98deac1a416c9ce3c892bd8eef586f1291ca35",
+  "0xbbc95e1eb6ee476e9cbb8112435e14b372563038",
+  "0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.019599,
+ "gas_eth": 0.018107,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH-closed paths. The first is WETH->PRE->USDT->BEL->WETH, which nets +0.0112. The second is WETH->USDC (V3 pool), then USDC->WOO->WETH through two V2 pools, which nets +0.008399. The gross WETH gain is 0.019599, and after the 0.018107 ETH gas fee about +0.00149 ETH remains. The actor holds no other tokens at the end, and the sender and actor appear to be separate addresses, so the gas payer may not be the actor, but the sign is positive either way.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0283032,
+ "_session": "7bedf34a-4638-4e8e-bef7-279369d51541",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0xf248959d7aa50cd47b448f507063eaa6cc5404c4\",\"0x5f094191ddad05c5b6ddfa992a4f49d8d679290d\",\"0xf0d1109e723cb06e400e2e57d0b6c7c32bedf61a\",\"0x9e98deac1a416c9ce3c892bd8eef586f1291ca35\",\"0xbbc95e1eb6ee476e9cbb8112435e14b372563038\",\"0x6ada49aeccf6e556bb7a35ef0119cc8ca795294a\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.019599,\"gas_eth\":0.018107,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor runs two WETH-closed paths. The first is WETH->PRE->USDT->BEL->WETH, which nets +0.0112. The second is WETH->USDC (V3 pool), then USDC->WOO->WETH through two V2 pools, which nets +0.008399. The gross WETH gain is 0.019599, and after the 0.018107 ETH gas fee about +0.00149 ETH remains. The actor holds no other tokens at the end, and the sender and actor appear to be separate addresses, so the gas payer may not be the actor, but the sign is positive either way.\"}",
+ "case_id": "arb106_088",
+ "_time": "2026-10-13T22:30:27+0800"
+}

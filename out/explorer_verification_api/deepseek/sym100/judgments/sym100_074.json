@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x94b86ca6f7a495930fe7f552eb9e4cbb5ef2b736",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -1e-06,
+ "gas_eth": 0.175918,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same actor contract, routing WETH through pools 0x36bcf and 0x94b86, but the actor never holds ICE; ICE moves directly between pools. Net WETH after gas is slightly negative, so Q2 is no.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3420,
+  "output_tokens": 9221,
+  "thinking_tokens": 9063
+ },
+ "_request_id": "53ec89a3ecf45d95dd7503bb3f704d17",
+ "_response_id": "6cccf120-edff-4a5b-a1ea-aa53fc1f5c54",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x94b86ca6f7a495930fe7f552eb9e4cbb5ef2b736\",\"Q1\":\"no\",\"Q2\":\"no\",\"net_eth\":-0.000001,\"gas_eth\":0.175918,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs use the same actor contract, routing WETH through pools 0x36bcf and 0x94b86, but the actor never holds ICE; ICE moves directly between pools. Net WETH after gas is slightly negative, so Q2 is no.\"}",
+ "case_id": "sym100_074",
+ "_time": "2026-10-19T18:52:34+0800"
+}

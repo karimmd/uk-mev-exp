@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x290850efa2d7e130e55bbc1db2b48bc5c03097f5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.164618,
+ "gas_eth": 0.160356,
+ "profit_after_gas": 0.004262,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back target is the same actor-contract, and it sells MFT on the victim's UniswapV3 MFT/USDC pool before the victim and buys it back afterward. WETH nets +0.164618 before gas; subtracting the two given fees leaves a small positive +0.004262 ETH/WETH, with no residual token holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3432,
+  "output_tokens": 7856,
+  "thinking_tokens": 7672
+ },
+ "_request_id": "c400a4627f4deaa4c5976604bfa58192",
+ "_response_id": "26cc9288-9ba0-4490-bc1d-6a9171cb40a1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x290850efa2d7e130e55bbc1db2b48bc5c03097f5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.164618,\"gas_eth\":0.160356,\"profit_after_gas\":0.004262,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back target is the same actor-contract, and it sells MFT on the victim's UniswapV3 MFT/USDC pool before the victim and buys it back afterward. WETH nets +0.164618 before gas; subtracting the two given fees leaves a small positive +0.004262 ETH/WETH, with no residual token holding.\"}",
+ "case_id": "pack_037",
+ "_time": "2026-10-19T19:08:01+0800"
+}

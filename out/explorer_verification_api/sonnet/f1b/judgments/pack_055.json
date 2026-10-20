@@ -1,0 +1,31 @@
+{
+ "actor": "0xda1faeb056a2f568b138ca0ad9ad8a51915ba336",
+ "pool": "0x9314941c11d6dee1d7bf93113eb74d4718949f3b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.118385,
+ "gas_eth": 0.050897,
+ "residual": "about 306,690,240,399.955 HOKK (bought 15,339,352,770,520.662, sold 15,032,662,530,120.707)",
+ "confidence": 4,
+ "note": "The contract 0xda1f... bought HOKK with 15.07 WETH in the front leg and sold HOKK for 15.188385 WETH in the back leg. The victim's USDT\u2192WETH\u2192HOKK swap goes through the same HOKK/WETH pool in between. The WETH gain is +0.118385 and gas is 0.050897, so the result is +0.0675 ETH. The leftover HOKK is a non-negative holding, so it cannot flip the sign, though its value is unquantified.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3409,
+  "output_tokens": 825,
+  "thinking_tokens": 489
+ },
+ "_request_id": "req_011CgBQffpyLg9xwqCFA74SF",
+ "_response_id": "msg_011CgBQfo5Yk73Vs8wk2YRQa",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xda1faeb056a2f568b138ca0ad9ad8a51915ba336\",\"pool\":\"0x9314941c11d6dee1d7bf93113eb74d4718949f3b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.118385,\"gas_eth\":0.050897,\"residual\":\"about 306,690,240,399.955 HOKK (bought 15,339,352,770,520.662, sold 15,032,662,530,120.707)\",\"confidence\":4,\"note\":\"The contract 0xda1f... bought HOKK with 15.07 WETH in the front leg and sold HOKK for 15.188385 WETH in the back leg. The victim's USDT\u2192WETH\u2192HOKK swap goes through the same HOKK/WETH pool in between. The WETH gain is +0.118385 and gas is 0.050897, so the result is +0.0675 ETH. The leftover HOKK is a non-negative holding, so it cannot flip the sign, though its value is unquantified.\"}",
+ "case_id": "pack_055",
+ "_time": "2026-10-19T18:06:19+0800"
+}

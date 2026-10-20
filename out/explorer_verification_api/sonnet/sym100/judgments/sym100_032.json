@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.23177,
+ "gas_eth": 0.010935,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 2661.115396 DFYN into the DFYN/WETH pool for 3.869502 WETH in the front leg. The victim then sells 5720 DFYN into the same pool. In the back leg the actor buys back exactly 2661.115396 DFYN for 3.637732 WETH, leaving no DFYN residual. WETH net is +0.23177, and after 0.010935 ETH of gas it is about +0.2208 ETH. The front leg draws on DFYN the actor held beforehand, so the position is a sell-first, buy-back round trip rather than a buy-first one.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2997,
+  "output_tokens": 940,
+  "thinking_tokens": 619
+ },
+ "_request_id": "req_011CgBS5YnrJykQBV1R3pLc6",
+ "_response_id": "msg_011CgBS5Z7wcFJQ93DVCTvzB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xcab335e1964363e48a790da303b74ec02d3f8fb2\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.231770,\"gas_eth\":0.010935,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 2661.115396 DFYN into the DFYN/WETH pool for 3.869502 WETH in the front leg. The victim then sells 5720 DFYN into the same pool. In the back leg the actor buys back exactly 2661.115396 DFYN for 3.637732 WETH, leaving no DFYN residual. WETH net is +0.23177, and after 0.010935 ETH of gas it is about +0.2208 ETH. The front leg draws on DFYN the actor held beforehand, so the position is a sell-first, buy-back round trip rather than a buy-first one.\"}",
+ "case_id": "sym100_032",
+ "_time": "2026-10-19T18:24:49+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -0.022982,
+ "gas_eth": 0.008868,
+ "residual": "MXS: 21095.574 held by 0xbcdec0b5 (front sender) and 7064.249616 held by 0x7612f25f (back sender), neither sold",
+ "confidence": 4,
+ "note": "The front sender (0xbcdec0b5) and back sender (0x7612f25f) are different addresses. Both legs buy MXS with ETH on the 0x13bb pool, so no position is closed. The victim also buys MXS on that pool, and it routes through a second pool. Net ETH is negative, with MXS left unsold, so the residual holding prevents a sign for Q2.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026286700000000003,
+ "_session": "1aa2b92f-273e-4ebf-8403-c7d1d42c5364",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -0.022982, \"gas_eth\": 0.008868, \"residual\": \"MXS: 21095.574 held by 0xbcdec0b5 (front sender) and 7064.249616 held by 0x7612f25f (back sender), neither sold\", \"confidence\": 4, \"note\": \"The front sender (0xbcdec0b5) and back sender (0x7612f25f) are different addresses. Both legs buy MXS with ETH on the 0x13bb pool, so no position is closed. The victim also buys MXS on that pool, and it routes through a second pool. Net ETH is negative, with MXS left unsold, so the residual holding prevents a sign for Q2.\"}",
+ "case_id": "pack_194",
+ "_time": "2026-10-13T20:42:40+0800"
+}

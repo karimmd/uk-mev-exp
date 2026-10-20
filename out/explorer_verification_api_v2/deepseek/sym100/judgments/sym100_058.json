@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x05f04f112a286c4c551897fb19ed2300272656c8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.026401,
+ "gas_eth": 0.009954,
+ "profit_after_gas": 0.016447,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sold POLK for 2.14 WETH on the same UniswapV2 pool the victim used; back bought the same 5438.688740 POLK for 2.113599 WETH. Net WETH before displayed gas fees is +0.026401, and POLK nets to zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2292,
+  "output_tokens": 3653,
+  "thinking_tokens": 3476
+ },
+ "_request_id": "2a35367f5c6d15019406169fd008fdb8",
+ "_response_id": "028f1b76-fe62-4001-bf9f-1f87f7a6e005",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0x05f04f112a286c4c551897fb19ed2300272656c8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.026401,\"gas_eth\":0.009954,\"profit_after_gas\":0.016447,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sold POLK for 2.14 WETH on the same UniswapV2 pool the victim used; back bought the same 5438.688740 POLK for 2.113599 WETH. Net WETH before displayed gas fees is +0.026401, and POLK nets to zero.\"}",
+ "case_id": "sym100_058",
+ "_time": "2026-10-19T19:34:36+0800"
+}

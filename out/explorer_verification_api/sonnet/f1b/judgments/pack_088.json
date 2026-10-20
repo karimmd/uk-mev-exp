@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.070113,
+ "gas_eth": 0.008274,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 373.776975 OHM from the OHM/DAI V2 pool in the front leg, funded by a WETH\u2192DAI swap on a V3 pool. The victim buys OHM on the same V2 pool, and the back leg sells the same 373.776975 OHM back and swaps the DAI to WETH. WETH net is +0.146069 (33.607418 \u2212 33.461349). The 0.075956 ETH sent on to 0xb7e3\u2026 (likely a builder tip) leaves 0.070113, and after 0.008274 gas the result is about +0.0618 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3715,
+  "output_tokens": 920,
+  "thinking_tokens": 600
+ },
+ "_request_id": "req_011CgBR2VJJ9g8xra7BkS3sc",
+ "_response_id": "msg_011CgBR2brCNF5WRMEJNU3ah",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.070113,\"gas_eth\":0.008274,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 373.776975 OHM from the OHM/DAI V2 pool in the front leg, funded by a WETH\u2192DAI swap on a V3 pool. The victim buys OHM on the same V2 pool, and the back leg sells the same 373.776975 OHM back and swaps the DAI to WETH. WETH net is +0.146069 (33.607418 \u2212 33.461349). The 0.075956 ETH sent on to 0xb7e3\u2026 (likely a builder tip) leaves 0.070113, and after 0.008274 gas the result is about +0.0618 ETH.\"}",
+ "case_id": "pack_088",
+ "_time": "2026-10-19T18:11:02+0800"
+}

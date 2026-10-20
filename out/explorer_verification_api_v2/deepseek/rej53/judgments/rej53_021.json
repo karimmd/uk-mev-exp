@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x063271fdac84b94e9283557f748594dc84092bf3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 1.435421,
+ "gas_eth": 0.024006731,
+ "profit_after_gas": 1.411414269,
+ "residual": "86.63192 PROPHET",
+ "confidence": 5,
+ "note": "The same contract bought PROPHET with WETH on pool 0x0632 in the front leg and sold most of it back to that pool after the victim also traded it; WETH net is positive after gas, leaving 86.63192 PROPHET residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3073,
+  "output_tokens": 6882,
+  "thinking_tokens": 6715
+ },
+ "_request_id": "ec0a6c6bfeefc3948b7167dca8b3e24b",
+ "_response_id": "e14fa957-ce3d-46bc-9519-7bf20fb6fed6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000000084e91743124a982076c59f10084\",\"pool\":\"0x063271fdac84b94e9283557f748594dc84092bf3\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":1.435421,\"gas_eth\":0.024006731,\"profit_after_gas\":1.411414269,\"residual\":\"86.63192 PROPHET\",\"confidence\":5,\"note\":\"The same contract bought PROPHET with WETH on pool 0x0632 in the front leg and sold most of it back to that pool after the victim also traded it; WETH net is positive after gas, leaving 86.63192 PROPHET residual.\"}",
+ "case_id": "rej53_021",
+ "_time": "2026-10-19T19:42:17+0800"
+}

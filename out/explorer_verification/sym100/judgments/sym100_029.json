@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0x874376be8231dad99aabf9ef0767b3cc054c60ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049607,
+ "gas_eth": 0.009118,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor sells 4.888790 LEASH into the LEASH/WETH pool in the front leg, getting 1.263197 WETH. The victim then sells LEASH into the same pool. In the back leg the actor buys back exactly 4.888790 LEASH for 1.213590 WETH. The net is +0.049607 WETH, or about +0.040489 ETH after 0.009118 ETH of gas, and no LEASH is left over. The actor sold first, so it must have held LEASH beforehand. That is a sell-then-rebuy bracket, not a buy-then-sell one.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.025503199999999997,
+ "_session": "f64fc64b-1862-4449-baa5-5343770d8e51",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0x874376be8231dad99aabf9ef0767b3cc054c60ee\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.049607, \"gas_eth\": 0.009118, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract actor sells 4.888790 LEASH into the LEASH/WETH pool in the front leg, getting 1.263197 WETH. The victim then sells LEASH into the same pool. In the back leg the actor buys back exactly 4.888790 LEASH for 1.213590 WETH. The net is +0.049607 WETH, or about +0.040489 ETH after 0.009118 ETH of gas, and no LEASH is left over. The actor sold first, so it must have held LEASH beforehand. That is a sell-then-rebuy bracket, not a buy-then-sell one.\"}",
+ "case_id": "sym100_029",
+ "_time": "2026-10-13T21:29:10+0800"
+}

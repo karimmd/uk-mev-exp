@@ -1,0 +1,31 @@
+{
+ "actor": "0xa6c484c80919be6bec5dfe596b54a90c0f6be843",
+ "pool": "0xe211637a32d526b2bdbb3d61f0c98869ad73c666",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.015451,
+ "gas_eth": 0.005118,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both route through the same WETH/X10 Uniswap V2 pool; contract 0xa6c4 receives X10 in the front and sends exactly that amount back in the back. WETH received exceeds WETH spent, and after both gas fees the net remains positive with no X10 residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2618,
+  "output_tokens": 3321,
+  "thinking_tokens": 3159
+ },
+ "_request_id": "593f6a5e9f8566c87e41c1759ba1c920",
+ "_response_id": "a2f8f395-5291-4be1-986a-f8b6b5b46582",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa6c484c80919be6bec5dfe596b54a90c0f6be843\",\"pool\":\"0xe211637a32d526b2bdbb3d61f0c98869ad73c666\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.015451,\"gas_eth\":0.005118,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both route through the same WETH/X10 Uniswap V2 pool; contract 0xa6c4 receives X10 in the front and sends exactly that amount back in the back. WETH received exceeds WETH spent, and after both gas fees the net remains positive with no X10 residual.\"}",
+ "case_id": "pack_106",
+ "_time": "2026-10-19T18:20:34+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.116299,
+ "gas_eth": 0.020767,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys USDap on the USDC/USDap V2 pool in the front leg, the victim buys USDap on the same pool, and the actor sells all 24081.300127 USDap back in the back leg. WETH net is 7.681949 - 7.363492 = +0.318457, less the 0.202158 ETH internal transfer out, gives +0.116299 before gas. After 0.020767 ETH gas it is about +0.0955 ETH. USDC and USDap net to zero across the two legs. I counted the 0.202158 ETH as a cost, because the explorers don't show where it was funded from, but it is probably a builder tip.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3534,
+  "output_tokens": 939,
+  "thinking_tokens": 608
+ },
+ "_request_id": "req_011CgBScFrEavU1wusSJYmuK",
+ "_response_id": "msg_011CgBScGAaxFmsGFCPp5qrc",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x5393b489e9bfb09be9cac59ed5c65cacc55cdebd\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.116299,\"gas_eth\":0.020767,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys USDap on the USDC/USDap V2 pool in the front leg, the victim buys USDap on the same pool, and the actor sells all 24081.300127 USDap back in the back leg. WETH net is 7.681949 - 7.363492 = +0.318457, less the 0.202158 ETH internal transfer out, gives +0.116299 before gas. After 0.020767 ETH gas it is about +0.0955 ETH. USDC and USDap net to zero across the two legs. I counted the 0.202158 ETH as a cost, because the explorers don't show where it was funded from, but it is probably a builder tip.\"}",
+ "case_id": "rej53_022",
+ "_time": "2026-10-19T18:31:46+0800"
+}

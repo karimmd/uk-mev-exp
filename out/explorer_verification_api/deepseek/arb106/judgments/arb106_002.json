@@ -1,0 +1,40 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xce7e98d4da6ebda6af474ea618c6b175729cd366",
+  "0xa5c475167f03b1556c054e0da78192cd2779087f",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.015069,
+ "gas_eth": 0.052853,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract received 5.735764 WETH from one UniswapV3 pool and sent 5.667178 WETH into a UniswapV2 pool, while the transaction routed a full cycle through FODL/USDC/FRAX/FXS pools. Net WETH profit is 0.068586 before the 0.000664 ETH internal payment and 0.052853 ETH gas fee, leaving a positive net of 0.015069 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1983,
+  "output_tokens": 12388,
+  "thinking_tokens": 12042
+ },
+ "_request_id": "8689276291d1b4c28fe4d728b7b28bd4",
+ "_response_id": "1756918d-e0bf-4ea9-b592-efaa7d77febf",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x911605012f87a3017322c81fcb4c90ada7c09116\", \"pools\": [\"0xcd8286b48936cdac20518247dbd310ab681a9fbf\", \"0xe1573b9d29e2183b1af0e743dc2754979a40d237\", \"0xce7e98d4da6ebda6af474ea618c6b175729cd366\", \"0xa5c475167f03b1556c054e0da78192cd2779087f\", \"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.015069, \"gas_eth\": 0.052853, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract received 5.735764 WETH from one UniswapV3 pool and sent 5.667178 WETH into a UniswapV2 pool, while the transaction routed a full cycle through FODL/USDC/FRAX/FXS pools. Net WETH profit is 0.068586 before the 0.000664 ETH internal payment and 0.052853 ETH gas fee, leaving a positive net of 0.015069 ETH.\"}",
+ "case_id": "arb106_002",
+ "_time": "2026-10-19T19:04:45+0800"
+}

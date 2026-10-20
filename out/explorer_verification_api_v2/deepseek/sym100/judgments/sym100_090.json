@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.113749,
+ "gas_eth": 0.021091,
+ "profit_after_gas": 0.092658,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sells 2040.385864 SHOPX for 3.006104 WETH in the front leg, then repurchases the same SHOPX for 2.892355 WETH in the back leg after the victim sells SHOPX on the same Uniswap V2 pool. Net WETH gain is 0.113749 before 0.021091 gas, so the position is positive after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2408,
+  "output_tokens": 3079,
+  "thinking_tokens": 2862
+ },
+ "_request_id": "7862297340a8be7c8ea141f988358b29",
+ "_response_id": "76917b1d-9bb7-4047-b532-8fad8cacc04e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.113749, \"gas_eth\": 0.021091, \"profit_after_gas\": 0.092658, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract sells 2040.385864 SHOPX for 3.006104 WETH in the front leg, then repurchases the same SHOPX for 2.892355 WETH in the back leg after the victim sells SHOPX on the same Uniswap V2 pool. Net WETH gain is 0.113749 before 0.021091 gas, so the position is positive after gas.\"}",
+ "case_id": "sym100_090",
+ "_time": "2026-10-19T19:37:43+0800"
+}

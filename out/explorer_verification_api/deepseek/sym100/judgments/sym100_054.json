@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x20d2c17d1928ef4290bf17f922a10eaa2770bf43",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.085685,
+ "gas_eth": 0.02553,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract at 0x000...64c4 sold MUSE for WETH in the front leg and bought the same MUSE amount back with WETH in the back leg, netting +0.111215 WETH before gas. After 0.02553 ETH gas, net is +0.085685 ETH; residual MUSE nets to zero. It is not a front-open/back-close long non-WETH bracket because the front leg sells MUSE.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2374,
+  "output_tokens": 3121,
+  "thinking_tokens": 2930
+ },
+ "_request_id": "98cc5bf4c589797c8af176c4b5ef2ed6",
+ "_response_id": "1c5da562-754d-42ab-8c3c-6330528ac3f5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x20d2c17d1928ef4290bf17f922a10eaa2770bf43\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.085685,\"gas_eth\":0.02553,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract at 0x000...64c4 sold MUSE for WETH in the front leg and bought the same MUSE amount back with WETH in the back leg, netting +0.111215 WETH before gas. After 0.02553 ETH gas, net is +0.085685 ETH; residual MUSE nets to zero. It is not a front-open/back-close long non-WETH bracket because the front leg sells MUSE.\"}",
+ "case_id": "sym100_054",
+ "_time": "2026-10-19T18:47:42+0800"
+}

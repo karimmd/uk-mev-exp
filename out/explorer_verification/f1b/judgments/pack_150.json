@@ -1,0 +1,17 @@
+{
+ "actor": "0x0000000099cb7fc48a935bceb9f05bbae54e8987",
+ "pool": "0x60f6e2200bfef8b4d120028faff4d9a4486526f4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000375,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 5923.743951 IONX for 3.268073 WETH in the front leg. The victim bought IONX on the same pool in between. The back leg sold the same IONX amount for 3.305701 WETH, a gross gain of 0.037628 ETH. A 0.037253 ETH internal transfer to another address, probably a miner bribe, leaves about 0.000375 ETH. Gas fees show as 0 at 0.0 gwei, and no IONX is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0244252,
+ "_session": "175367ca-0809-43aa-b9e6-4aed571d432b",
+ "_raw": "{\"actor\": \"0x0000000099cb7fc48a935bceb9f05bbae54e8987\", \"pool\": \"0x60f6e2200bfef8b4d120028faff4d9a4486526f4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000375, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract bought 5923.743951 IONX for 3.268073 WETH in the front leg. The victim bought IONX on the same pool in between. The back leg sold the same IONX amount for 3.305701 WETH, a gross gain of 0.037628 ETH. A 0.037253 ETH internal transfer to another address, probably a miner bribe, leaves about 0.000375 ETH. Gas fees show as 0 at 0.0 gwei, and no IONX is left over.\"}",
+ "case_id": "pack_150",
+ "_time": "2026-10-13T20:33:40+0800"
+}

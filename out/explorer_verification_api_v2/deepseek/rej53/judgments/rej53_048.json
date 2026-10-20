@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.054814,
+ "gas_eth": 0.028005,
+ "profit_after_gas": 0.026809,
+ "residual": "0.006410 USDT net spent (no positive non-WETH residual)",
+ "confidence": 5,
+ "note": "The helper/economic actor sells DON for USDT on the shared DON/USDT pool in front, the victim also sells DON there, and the actor buys DON back in the back leg. WETH net across the bracket is +0.054814, and after front/back gas it remains profitable despite the tiny USDT deficit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2575,
+  "output_tokens": 5978,
+  "thinking_tokens": 5779
+ },
+ "_request_id": "577a4ae9054ce9006b566b093972a219",
+ "_response_id": "4a28d316-a083-4c81-97d6-f852315bbcfc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x91b1b853c1426c4aa78cac984c6f6dd1e80b0c4f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.054814,\"gas_eth\":0.028005,\"profit_after_gas\":0.026809,\"residual\":\"0.006410 USDT net spent (no positive non-WETH residual)\",\"confidence\":5,\"note\":\"The helper/economic actor sells DON for USDT on the shared DON/USDT pool in front, the victim also sells DON there, and the actor buys DON back in the back leg. WETH net across the bracket is +0.054814, and after front/back gas it remains profitable despite the tiny USDT deficit.\"}",
+ "case_id": "rej53_048",
+ "_time": "2026-10-19T19:46:29+0800"
+}

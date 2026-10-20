@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xaf56ade10a2fec340e09e19a11f32beaf1a3a6a1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.296524,
+ "gas_eth": 0.000194,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor 0xf6da... pays 1.910809 WETH for 56743425.820471 ARCN in the front leg and sells exactly that ARCN amount back for 2.207333 WETH in the back leg. Both legs use pool 0xaf56..., and the victim buys ARCN on that pool between them. The gross WETH gain is 0.296524 and gas is 0.000194 ETH (0.000117 + 0.000077), so the position stays positive after fees at about 0.29633 ETH. The net_eth figure is before gas. No ARCN is left over.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2921,
+  "output_tokens": 318,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQhQFfM4V5P8nQ4MUhZ",
+ "_response_id": "msg_011CgBQhWqnY2ffownL2zKoP",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0xaf56ade10a2fec340e09e19a11f32beaf1a3a6a1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.296524, \"gas_eth\": 0.000194, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor 0xf6da... pays 1.910809 WETH for 56743425.820471 ARCN in the front leg and sells exactly that ARCN amount back for 2.207333 WETH in the back leg. Both legs use pool 0xaf56..., and the victim buys ARCN on that pool between them. The gross WETH gain is 0.296524 and gas is 0.000194 ETH (0.000117 + 0.000077), so the position stays positive after fees at about 0.29633 ETH. The net_eth figure is before gas. No ARCN is left over.\"}",
+ "case_id": "pack_058",
+ "_time": "2026-10-19T18:06:40+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.072632,
+ "gas_eth": 0.04616,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sells 3430.880586 CGG for 5.344532 WETH in the front leg. The victim then sells 7063 CGG into the same pool at a worse rate. The actor buys back exactly 3430.880586 CGG for 5.2719 WETH in the back leg, leaving a gross gain of 0.072632 WETH and about 0.026472 ETH after 0.04616 ETH gas. The bracket runs sell-then-rebuy, not buy-then-sell, but it is a closed round trip on the shared pool with no CGG left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0230227,
+ "_session": "10f98845-bef9-4af5-85da-f6448d08caf4",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.072632, \"gas_eth\": 0.04616, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sells 3430.880586 CGG for 5.344532 WETH in the front leg. The victim then sells 7063 CGG into the same pool at a worse rate. The actor buys back exactly 3430.880586 CGG for 5.2719 WETH in the back leg, leaving a gross gain of 0.072632 WETH and about 0.026472 ETH after 0.04616 ETH gas. The bracket runs sell-then-rebuy, not buy-then-sell, but it is a closed round trip on the shared pool with no CGG left over.\"}",
+ "case_id": "sym100_009",
+ "_time": "2026-10-13T21:24:34+0800"
+}

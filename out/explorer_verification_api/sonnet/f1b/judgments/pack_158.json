@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x70e567076184803a43aa0ceae4e67ba31cbf89e1",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "front sender holds 8319.250642 ELE; the back sender received only 940.5 ELE",
+ "confidence": 4,
+ "note": "All three legs buy ELE with ETH on the same pool (0x70e5...). The front sender 0x70dc... buys 8319 ELE and never sells it, and the back sender 0xa08c... is a different address that also buys ELE (1.206 ETH in, 940.5 ELE out, 0.063 ETH refunded). No actor opens and closes a position, so this is not a sandwich bracket and no actor net can be computed.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3799,
+  "output_tokens": 265,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRhHaBzfFYGVhSBo2n6",
+ "_response_id": "msg_011CgBRhKhgNYAsC3Vh274UP",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x70e567076184803a43aa0ceae4e67ba31cbf89e1\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"front sender holds 8319.250642 ELE; the back sender received only 940.5 ELE\", \"confidence\": 4, \"note\": \"All three legs buy ELE with ETH on the same pool (0x70e5...). The front sender 0x70dc... buys 8319 ELE and never sells it, and the back sender 0xa08c... is a different address that also buys ELE (1.206 ETH in, 940.5 ELE out, 0.063 ETH refunded). No actor opens and closes a position, so this is not a sandwich bracket and no actor net can be computed.\"}",
+ "case_id": "pack_158",
+ "_time": "2026-10-19T18:19:43+0800"
+}

@@ -1,0 +1,24 @@
+{
+ "actor": "0xe0a9efe32985cc306255b395a1bd06d21ccead42",
+ "pools": [
+  "0x88051b0eea095007d3bef21ab287be961f3d8598",
+  "0x60594a405d53811d3bc4766596efd80fd545a270",
+  "0x055475920a8c93cffb64d039a8205f7acc7722d3"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth": 0.008064,
+ "gas_eth": 0.010578,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Triangular route WETH -> OHM -> DAI -> WETH across a Uniswap V3 WETH/OHM pool, a V2 DAI/OHM pair and a V3 DAI/WETH pool. DAI and OHM move pool to pool, so the actor only touches WETH. It received 3.048801 WETH and sent 3.034032 WETH (+0.014769), paid 0.006705 ETH to 0x829b (likely a builder tip) and the 0.010578 ETH gas fee, for about -0.0025 ETH net. The route is a real cycle but loses money after cost.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.021804700000000003,
+ "_session": "c76eccbc-f7e3-4ea7-87e2-d4d1dbdd1b2e",
+ "_raw": "{\"actor\": \"0xe0a9efe32985cc306255b395a1bd06d21ccead42\", \"pools\": [\"0x88051b0eea095007d3bef21ab287be961f3d8598\", \"0x60594a405d53811d3bc4766596efd80fd545a270\", \"0x055475920a8c93cffb64d039a8205f7acc7722d3\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"no\", \"net_eth\": 0.008064, \"gas_eth\": 0.010578, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Triangular route WETH -> OHM -> DAI -> WETH across a Uniswap V3 WETH/OHM pool, a V2 DAI/OHM pair and a V3 DAI/WETH pool. DAI and OHM move pool to pool, so the actor only touches WETH. It received 3.048801 WETH and sent 3.034032 WETH (+0.014769), paid 0.006705 ETH to 0x829b (likely a builder tip) and the 0.010578 ETH gas fee, for about -0.0025 ETH net. The route is a real cycle but loses money after cost.\"}",
+ "case_id": "arb106_082",
+ "_time": "2026-10-13T22:29:10+0800"
+}

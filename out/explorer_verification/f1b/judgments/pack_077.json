@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2fa7361d7e3b812375604681eb155a97b4d65e9e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.121991,
+ "gas_eth": 0.176447,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 13.817921 aKLIMA for 4.890465 WETH in the front leg. The victim buys aKLIMA from the same pool. The back leg sells the same amount for 5.202896 WETH. The WETH gain is 0.312431, and the 0.190440 ETH sent to 0x3ece... in the back leg (likely a builder tip) leaves 0.121991. Gas of 0.176447 ETH for both legs makes the result about -0.0545 ETH, so it is not positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0247912,
+ "_session": "70df50d1-81c3-4ccb-a661-c157d85393e2",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x2fa7361d7e3b812375604681eb155a97b4d65e9e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.121991, \"gas_eth\": 0.176447, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 13.817921 aKLIMA for 4.890465 WETH in the front leg. The victim buys aKLIMA from the same pool. The back leg sells the same amount for 5.202896 WETH. The WETH gain is 0.312431, and the 0.190440 ETH sent to 0x3ece... in the back leg (likely a builder tip) leaves 0.121991. Gas of 0.176447 ETH for both legs makes the result about -0.0545 ETH, so it is not positive.\"}",
+ "case_id": "pack_077",
+ "_time": "2026-10-13T20:19:14+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x9ca8aef2372c705d6848fdda3c1267a7f51267c1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.010406,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The contract bought 3.177798 UDT for 2.81 WETH in the front leg, the victim bought UDT on the same pool (0x9ca8) in between, and the back leg sold the same 3.177798 UDT for 2.915113 WETH. That is a gross gain of 0.105113 WETH, less the 0.094707 ETH sent on to 0x829b (likely a miner payment) and 0 gas (0.0 gwei), leaving about +0.010406 ETH with no UDT left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0239247,
+ "_session": "d15b7af9-3760-43cf-9ff9-1b1aa6e327de",
+ "_raw": "{\"actor\": \"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\", \"pool\": \"0x9ca8aef2372c705d6848fdda3c1267a7f51267c1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.010406, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The contract bought 3.177798 UDT for 2.81 WETH in the front leg, the victim bought UDT on the same pool (0x9ca8) in between, and the back leg sold the same 3.177798 UDT for 2.915113 WETH. That is a gross gain of 0.105113 WETH, less the 0.094707 ETH sent on to 0x829b (likely a miner payment) and 0 gas (0.0 gwei), leaving about +0.010406 ETH with no UDT left over.\"}",
+ "case_id": "pack_192",
+ "_time": "2026-10-13T20:42:21+0800"
+}

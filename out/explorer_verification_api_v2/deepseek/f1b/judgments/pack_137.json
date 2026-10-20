@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.591894,
+ "gas_eth": 0.018576,
+ "profit_after_gas": 0.573318,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract buys TOS in the front leg via the shared TOS/WTON Uniswap V3 pool, the victim buys TOS on the same pool, and the actor sells the same TOS amount in the back leg. Net WETH profit before gas is 20.529028 - 19.937134 = 0.591894 ETH, with no residual TOS or WTON.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2674,
+  "output_tokens": 4466,
+  "thinking_tokens": 4265
+ },
+ "_request_id": "32d9da7b9ba1fca8e7bcee52cd625772",
+ "_response_id": "994e8dbb-7291-41a5-9b3a-aa11c8a50fc1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.591894,\"gas_eth\":0.018576,\"profit_after_gas\":0.573318,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract buys TOS in the front leg via the shared TOS/WTON Uniswap V3 pool, the victim buys TOS on the same pool, and the actor sells the same TOS amount in the back leg. Net WETH profit before gas is 20.529028 - 19.937134 = 0.591894 ETH, with no residual TOS or WTON.\"}",
+ "case_id": "pack_137",
+ "_time": "2026-10-19T19:21:07+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x290850efa2d7e130e55bbc1db2b48bc5c03097f5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.164618,
+ "gas_eth": 0.160356,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract swaps 1.419239 WETH to MFT on the V2 pool 0x2084 and then MFT to 2583.41 USDC on the V3 pool 0x2908, which the victim also sells MFT into. In the back leg it reverses both swaps with the same 2583.408209 USDC and receives 1.583857 WETH, leaving no MFT or USDC. Gross gain is 0.164618 WETH and gas is 0.024345 + 0.136011 = 0.160356 ETH, so the net is about +0.00426 ETH, a thin but positive margin.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4142,
+  "output_tokens": 892,
+  "thinking_tokens": 579
+ },
+ "_request_id": "req_011CgBQSSn3WB3fBrvnToR9X",
+ "_response_id": "msg_011CgBQSYhVhMmW9kttUPfxb",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x290850efa2d7e130e55bbc1db2b48bc5c03097f5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.164618,\"gas_eth\":0.160356,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract swaps 1.419239 WETH to MFT on the V2 pool 0x2084 and then MFT to 2583.41 USDC on the V3 pool 0x2908, which the victim also sells MFT into. In the back leg it reverses both swaps with the same 2583.408209 USDC and receives 1.583857 WETH, leaving no MFT or USDC. Gross gain is 0.164618 WETH and gas is 0.024345 + 0.136011 = 0.160356 ETH, so the net is about +0.00426 ETH, a thin but positive margin.\"}",
+ "case_id": "pack_037",
+ "_time": "2026-10-19T18:03:19+0800"
+}

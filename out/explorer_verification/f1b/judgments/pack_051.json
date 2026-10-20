@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.044803,
+ "gas_eth": 0.039437,
+ "residual": "about 168,395,427,909.9 SANSHU left in the actor contract (roughly 0.016 WETH at the front-leg price)",
+ "confidence": 3,
+ "note": "The same contract buys SANSHU on the 0xa7ad pool in the front leg and sells it back there in the back leg. The victim buys SANSHU from that pool in between, so it is a bracket. WETH nets +0.044803 (0.846618 - 0.801815) against 0.039437 gas, giving about +0.005366 before the leftover SANSHU, which only adds value. The back leg shows 0 gwei and 0 fee, so any off-explorer payment such as a coinbase tip would not be visible and would lower the margin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.026424700000000002,
+ "_session": "0af137f1-c8d1-4ba1-9cc6-29bac0bcb6a5",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xa7ad4ce6c21d9e875f1067cd377256326b483002\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.044803, \"gas_eth\": 0.039437, \"residual\": \"about 168,395,427,909.9 SANSHU left in the actor contract (roughly 0.016 WETH at the front-leg price)\", \"confidence\": 3, \"note\": \"The same contract buys SANSHU on the 0xa7ad pool in the front leg and sells it back there in the back leg. The victim buys SANSHU from that pool in between, so it is a bracket. WETH nets +0.044803 (0.846618 - 0.801815) against 0.039437 gas, giving about +0.005366 before the leftover SANSHU, which only adds value. The back leg shows 0 gwei and 0 fee, so any off-explorer payment such as a coinbase tip would not be visible and would lower the margin.\"}",
+ "case_id": "pack_051",
+ "_time": "2026-10-13T20:13:57+0800"
+}

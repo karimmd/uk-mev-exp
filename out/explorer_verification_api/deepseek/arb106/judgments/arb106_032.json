@@ -1,0 +1,39 @@
+{
+ "actor": "0xa10fca31a2cb432c9ac976779dc947cfdb003ef0",
+ "pools": [
+  "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+  "0x0f024314588466416c8fc66013ba4d3ab2e4efe5",
+  "0x157dfa656fdf0d18e1ba94075a53600d81cb3a97",
+  "0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.034156,
+ "gas_eth": 0.036862,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Cyclic multi-pool arbitrage WETH->UMA->FEI->DAI->WETH. Actor ends with +0.071018 WETH before gas; after 0.036862 ETH gas, net is ~0.034156 ETH positive. No residual non-WETH holdings.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1667,
+  "output_tokens": 10856,
+  "thinking_tokens": 10599
+ },
+ "_request_id": "e076e2775e22ba08b2a5aaf5d449fe88",
+ "_response_id": "c7e99d29-0367-4881-b242-c2c64c4ce462",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa10fca31a2cb432c9ac976779dc947cfdb003ef0\",\"pools\":[\"0xa478c2975ab1ea89e8196811f51a7b7ade33eb11\",\"0x0f024314588466416c8fc66013ba4d3ab2e4efe5\",\"0x157dfa656fdf0d18e1ba94075a53600d81cb3a97\",\"0xbb2e5c2ff298fd96e166f90c8abacaf714df14f8\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.034156,\"gas_eth\":0.036862,\"residual\":\"none\",\"confidence\":5,\"note\":\"Cyclic multi-pool arbitrage WETH->UMA->FEI->DAI->WETH. Actor ends with +0.071018 WETH before gas; after 0.036862 ETH gas, net is ~0.034156 ETH positive. No residual non-WETH holdings.\"}",
+ "case_id": "arb106_032",
+ "_time": "2026-10-19T19:14:54+0800"
+}

@@ -1,0 +1,50 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x5fee0c80d26cc393e48f0774a56f0362e82b76e4",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d",
+  "0xc965bc2cf23d54ccf41a7d3af10572580e9b8078",
+  "0x20e95253e54490d8d30ea41574b24f741ee70201",
+  "0xb270176ba6075196df88b855c3ec7776871fdb33",
+  "0x0c722a487876989af8a05fffb6e32e45cc23fb3a",
+  "0xa986f2a12d85c44429f574ba50c0e21052b18ba1",
+  "0xa21ece44cc5dac03e3805362bd3f68f22a49ea1e",
+  "0x896eebeb02f81445f5a88ff7884af8d937294ee8",
+  "0x9d7e5647ce3c7c2d835f2f5e82c8fdb36b0bb0fe",
+  "0x4a7d4be868e0b811ea804faf0d3a325c3a29a9ad",
+  "0x2b9f8fe8ffc437a9008bb3097066f02b0a1c52ec",
+  "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+  "0x52127470de72e5ef77ca962d23125cbe096e2d81"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.004093,
+ "gas_eth": 0.037622,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract 0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70 receives and sends WETH across multiple pools and ends with +0.041715 WETH before the 0.037622 ETH gas fee, leaving +0.004093 after gas. No non-WETH residual or zero-address mint is held by the actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 4043,
+  "output_tokens": 14747,
+  "thinking_tokens": 14171
+ },
+ "_request_id": "c28fb85af7f65f6dd29e6b9d62b59cd5",
+ "_response_id": "7d2b9a40-c686-4542-8849-8e3a3ff05994",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x5fee0c80d26cc393e48f0774a56f0362e82b76e4\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d\",\"0xc965bc2cf23d54ccf41a7d3af10572580e9b8078\",\"0x20e95253e54490d8d30ea41574b24f741ee70201\",\"0xb270176ba6075196df88b855c3ec7776871fdb33\",\"0x0c722a487876989af8a05fffb6e32e45cc23fb3a\",\"0xa986f2a12d85c44429f574ba50c0e21052b18ba1\",\"0xa21ece44cc5dac03e3805362bd3f68f22a49ea1e\",\"0x896eebeb02f81445f5a88ff7884af8d937294ee8\",\"0x9d7e5647ce3c7c2d835f2f5e82c8fdb36b0bb0fe\",\"0x4a7d4be868e0b811ea804faf0d3a325c3a29a9ad\",\"0x2b9f8fe8ffc437a9008bb3097066f02b0a1c52ec\",\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"0x52127470de72e5ef77ca962d23125cbe096e2d81\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.004093,\"gas_eth\":0.037622,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor contract 0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70 receives and sends WETH across multiple pools and ends with +0.041715 WETH before the 0.037622 ETH gas fee, leaving +0.004093 after gas. No non-WETH residual or zero-address mint is held by the actor.\"}",
+ "case_id": "arb106_093",
+ "_time": "2026-10-19T19:37:41+0800"
+}

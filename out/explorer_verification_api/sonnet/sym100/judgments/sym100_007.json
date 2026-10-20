@@ -1,0 +1,31 @@
+{
+ "actor": "0x858dce0aa7250fbc24e37a684858fdb08f9681b9",
+ "pool": "0xe6f19dab7d43317344282f803f8e8d240708174a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047087,
+ "gas_eth": 0.012004,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender sells 20000 KEEP for 4.056288 WETH in the front leg. The victim then sells 100000 KEEP on the same pool, and the back leg buys the same 20000 KEEP back for 4.009201 WETH. This is a short-side bracket. The WETH gain is 0.047087, or about 0.035083 after 0.012004 ETH of gas, and the KEEP position nets to zero.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3037,
+  "output_tokens": 809,
+  "thinking_tokens": 550
+ },
+ "_request_id": "req_011CgBRwDwZ2hYKKXHYdxK9S",
+ "_response_id": "msg_011CgBRwEK8B3AGYsGrZSYt6",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x858dce0aa7250fbc24e37a684858fdb08f9681b9\",\"pool\":\"0xe6f19dab7d43317344282f803f8e8d240708174a\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.047087,\"gas_eth\":0.012004,\"residual\":\"none\",\"confidence\":4,\"note\":\"The sender sells 20000 KEEP for 4.056288 WETH in the front leg. The victim then sells 100000 KEEP on the same pool, and the back leg buys the same 20000 KEEP back for 4.009201 WETH. This is a short-side bracket. The WETH gain is 0.047087, or about 0.035083 after 0.012004 ETH of gas, and the KEEP position nets to zero.\"}",
+ "case_id": "sym100_007",
+ "_time": "2026-10-19T18:22:55+0800"
+}

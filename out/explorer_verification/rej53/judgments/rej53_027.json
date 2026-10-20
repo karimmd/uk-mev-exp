@@ -1,0 +1,17 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x43747d31fc178d626047c5b4346a251418167a1a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.479943,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract 0xf73d buys 712300.691802 NBNG via the WETH->USDT->NBNG route in the front leg and sells exactly that amount back in the back leg. The victim swaps USDT for NBNG on the same NBNG/USDT pool (0x43747) in between. WETH nets +0.959887 (100.959853 - 99.999966), and after the 0.479944 ETH payment to 0x5a0b and zero-fee gas the position is still positive at about 0.479943 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0237267,
+ "_session": "d0447c01-0405-4def-94ab-76b2cd636f86",
+ "_raw": "{\"actor\": \"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\", \"pool\": \"0x43747d31fc178d626047c5b4346a251418167a1a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.479943, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract 0xf73d buys 712300.691802 NBNG via the WETH->USDT->NBNG route in the front leg and sells exactly that amount back in the back leg. The victim swaps USDT for NBNG on the same NBNG/USDT pool (0x43747) in between. WETH nets +0.959887 (100.959853 - 99.999966), and after the 0.479944 ETH payment to 0x5a0b and zero-fee gas the position is still positive at about 0.479943 ETH.\"}",
+ "case_id": "rej53_027",
+ "_time": "2026-10-13T21:58:42+0800"
+}

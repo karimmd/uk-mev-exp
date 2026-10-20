@@ -1,0 +1,25 @@
+{
+ "actor": "0xa1006d0051a35b0000f961a8000000009ea8d2db",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.007189,
+ "gas_eth": 0.07364,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 11.313233 WETH to the USDC/WETH pool, and the value passes pool to pool (USDC, then FRAX, then FXS, which is the token labeled FRAX at 0x3432b6a6) until the FXS/WETH pool returns 11.394062 WETH. That is a net gain of 0.080829 WETH with no residual holdings; after the 0.073640 ETH gas fee the position is about +0.007189 ETH. The sender is an EOA, so the contract's gain is measured against the gas it pays, and no coinbase payment is visible in the data.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.024238700000000002,
+ "_session": "1e374813-1bf5-4333-a893-f8936eba0f57",
+ "_raw": "{\"actor\":\"0xa1006d0051a35b0000f961a8000000009ea8d2db\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\",\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"0xcd8286b48936cdac20518247dbd310ab681a9fbf\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.007189,\"gas_eth\":0.07364,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 11.313233 WETH to the USDC/WETH pool, and the value passes pool to pool (USDC, then FRAX, then FXS, which is the token labeled FRAX at 0x3432b6a6) until the FXS/WETH pool returns 11.394062 WETH. That is a net gain of 0.080829 WETH with no residual holdings; after the 0.073640 ETH gas fee the position is about +0.007189 ETH. The sender is an EOA, so the contract's gain is measured against the gas it pays, and no coinbase payment is visible in the data.\"}",
+ "case_id": "arb106_101",
+ "_time": "2026-10-13T22:33:20+0800"
+}

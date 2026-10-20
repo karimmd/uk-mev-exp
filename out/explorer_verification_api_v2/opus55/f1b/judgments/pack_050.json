@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "front sender 0xfdf4... holds 28470.711815 MXS; back sender 0xfc8e... holds 25565.296828 MXS",
+ "confidence": 5,
+ "note": "All three legs are ETH-to-MXS buys through the Uniswap V2 router on the same pair 0x13bb...fa5f. The front and back legs come from different senders (0xfdf4... and 0xfc8e...), and neither of them sells MXS back, so no single actor opens and closes a position. With no common actor and only unsold MXS left in each wallet, no profit sign can be determined.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3828,
+  "output_tokens": 555,
+  "thinking_tokens": 261
+ },
+ "_request_id": "req_011CgBVLwPfWWkYvyVfQwwZK",
+ "_response_id": "msg_011CgBVLwjVcC9e45XpuGeno",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"front sender 0xfdf4... holds 28470.711815 MXS; back sender 0xfc8e... holds 25565.296828 MXS\", \"confidence\": 5, \"note\": \"All three legs are ETH-to-MXS buys through the Uniswap V2 router on the same pair 0x13bb...fa5f. The front and back legs come from different senders (0xfdf4... and 0xfc8e...), and neither of them sells MXS back, so no single actor opens and closes a position. With no common actor and only unsold MXS left in each wallet, no profit sign can be determined.\"}",
+ "case_id": "pack_050",
+ "_time": "2026-10-19T19:07:37+0800"
+}

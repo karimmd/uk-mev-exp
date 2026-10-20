@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.026136,
+ "gas_eth": 0.009554,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor takes 18343.122297 USDT from the ALBT/USDT pool in the front leg, with the victim's ALBT->USDT swap on that pool in between, and returns exactly that USDT in the back leg, so no residual remains. WETH goes from 5.949158 to 6.004439 (+0.055281), minus the 0.029145 ETH sent on to 0xea67... (+0.026136), minus 0.009554 ETH gas, leaves about +0.016582 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0248707,
+ "_session": "4a494443-f28b-4ff1-9ce9-43293649e9f1",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.026136, \"gas_eth\": 0.009554, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor takes 18343.122297 USDT from the ALBT/USDT pool in the front leg, with the victim's ALBT->USDT swap on that pool in between, and returns exactly that USDT in the back leg, so no residual remains. WETH goes from 5.949158 to 6.004439 (+0.055281), minus the 0.029145 ETH sent on to 0xea67... (+0.026136), minus 0.009554 ETH gas, leaves about +0.016582 ETH.\"}",
+ "case_id": "rej53_001",
+ "_time": "2026-10-13T21:53:43+0800"
+}

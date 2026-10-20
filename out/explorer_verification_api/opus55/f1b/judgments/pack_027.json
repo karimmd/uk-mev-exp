@@ -1,0 +1,31 @@
+{
+ "actor": "0xa1fac94eabbc27715a022a96009babfb4a49fb5d",
+ "pool": "0xfac2c7bc156c2c764ea21def2262ec2131100ab1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.132575,
+ "gas_eth": 0.030145,
+ "residual": "about 170,704,890 RAKUC left with the actor, roughly 2% of the front buy",
+ "confidence": 4,
+ "note": "Contract 0xa1fa\u2026 bought RAKUC for 1.555025 WETH on pair 0xfac2\u2026 before the victim's buy on the same pair, then sold 8.49B RAKUC there for 1.717745 WETH, netting 0.16272 WETH before 0.030145 ETH of gas. The 0.054243 WETH token-tax swap went to 0x3b26\u2026, not the actor. The leftover RAKUC can only add value, so the sign is positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3733,
+  "output_tokens": 935,
+  "thinking_tokens": 618
+ },
+ "_request_id": "req_011CgBQMQWEAMhVMW9Uh8wxW",
+ "_response_id": "msg_011CgBQMUcYUayAbKV5vTjAj",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xa1fac94eabbc27715a022a96009babfb4a49fb5d\", \"pool\": \"0xfac2c7bc156c2c764ea21def2262ec2131100ab1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.132575, \"gas_eth\": 0.030145, \"residual\": \"about 170,704,890 RAKUC left with the actor, roughly 2% of the front buy\", \"confidence\": 4, \"note\": \"Contract 0xa1fa\u2026 bought RAKUC for 1.555025 WETH on pair 0xfac2\u2026 before the victim's buy on the same pair, then sold 8.49B RAKUC there for 1.717745 WETH, netting 0.16272 WETH before 0.030145 ETH of gas. The 0.054243 WETH token-tax swap went to 0x3b26\u2026, not the actor. The leftover RAKUC can only add value, so the sign is positive.\"}",
+ "case_id": "pack_027",
+ "_time": "2026-10-19T18:02:14+0800"
+}

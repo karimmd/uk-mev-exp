@@ -1,0 +1,32 @@
+{
+ "actor": "0x3f3636f45ee8b3bebd3244a106380319d07711f2",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.071201,
+ "gas_eth": 0.022414,
+ "profit_after_gas": 0.048787,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract sells 50.1663 MPH in the front leg and buys it back in the back leg on the same Uniswap V2 pool the victim trades. Net WETH before gas is 0.071201 ETH, and subtracting 0.022414 ETH gas leaves positive profit with no residual MPH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2457,
+  "output_tokens": 2549,
+  "thinking_tokens": 2368
+ },
+ "_request_id": "1e3f6d4cd92df3034f9edbac4c7e794b",
+ "_response_id": "38cbfd2d-284b-4667-981f-2e5ff6d9fa01",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3f3636f45ee8b3bebd3244a106380319d07711f2\",\"pool\":\"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.071201,\"gas_eth\":0.022414,\"profit_after_gas\":0.048787,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract sells 50.1663 MPH in the front leg and buys it back in the back leg on the same Uniswap V2 pool the victim trades. Net WETH before gas is 0.071201 ETH, and subtracting 0.022414 ETH gas leaves positive profit with no residual MPH.\"}",
+ "case_id": "sym100_042",
+ "_time": "2026-10-19T19:32:29+0800"
+}

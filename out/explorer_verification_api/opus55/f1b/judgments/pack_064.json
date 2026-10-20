@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2a4a220beb6a0fd217a129125d0034e2db0dee46",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.241267,
+ "gas_eth": 0.275526,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x499dd9 buys 423402468.646795 HARAMBE for 20.336594 WETH on V3 pool 0x2a4a22, the victim then buys HARAMBE on that pool, and the back leg sells the same amount for 20.452645 WETH. The WETH gain of 0.116051 is less than the 0.081792 ETH paid to 0x829bd8 (likely a miner tip) plus 0.275526 ETH of gas at 1200 gwei, so the net is negative.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2910,
+  "output_tokens": 695,
+  "thinking_tokens": 397
+ },
+ "_request_id": "req_011CgBQoTbFXkrHiE1Vn7WGx",
+ "_response_id": "msg_011CgBQoZmKkHhwCLKfQbobt",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x2a4a220beb6a0fd217a129125d0034e2db0dee46\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.241267, \"gas_eth\": 0.275526, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x499dd9 buys 423402468.646795 HARAMBE for 20.336594 WETH on V3 pool 0x2a4a22, the victim then buys HARAMBE on that pool, and the back leg sells the same amount for 20.452645 WETH. The WETH gain of 0.116051 is less than the 0.081792 ETH paid to 0x829bd8 (likely a miner tip) plus 0.275526 ETH of gas at 1200 gwei, so the net is negative.\"}",
+ "case_id": "pack_064",
+ "_time": "2026-10-19T18:08:07+0800"
+}

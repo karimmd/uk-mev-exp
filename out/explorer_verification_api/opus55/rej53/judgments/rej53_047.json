@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.174215,
+ "gas_eth": 0.199053,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x499dd9 buys 88.248554 STRONG for 18.273527 WETH on the UniswapV3 pool 0xd34e48. The victim then buys STRONG on the same pool, and 0x499dd9 sells exactly 88.248554 STRONG back for 18.328055 WETH, a gross gain of 0.054528. Netting out the 0.029690 ETH passed to 0xb7e390 (likely a builder payment) and 0.199053 ETH in gas at 1200 gwei leaves the actor about -0.174 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2857,
+  "output_tokens": 715,
+  "thinking_tokens": 394
+ },
+ "_request_id": "req_011CgBSvHTDmQstsQhzc5odv",
+ "_response_id": "msg_011CgBSvHq3zi6ZdmkVbSAmb",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": -0.174215, \"gas_eth\": 0.199053, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x499dd9 buys 88.248554 STRONG for 18.273527 WETH on the UniswapV3 pool 0xd34e48. The victim then buys STRONG on the same pool, and 0x499dd9 sells exactly 88.248554 STRONG back for 18.328055 WETH, a gross gain of 0.054528. Netting out the 0.029690 ETH passed to 0xb7e390 (likely a builder payment) and 0.199053 ETH in gas at 1200 gwei leaves the actor about -0.174 ETH.\"}",
+ "case_id": "rej53_047",
+ "_time": "2026-10-19T18:35:50+0800"
+}

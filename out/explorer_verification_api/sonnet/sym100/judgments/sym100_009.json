@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.072632,
+ "gas_eth": 0.04616,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 3430.880586 CGG for 5.344532 WETH in the front leg. The victim sells 7063 CGG on the same pool, and the actor then buys back exactly 3430.880586 CGG for 5.2719 WETH in the back leg. The gross WETH gain is 0.072632, and after 0.04616 ETH of front and back gas the net is about +0.0265 ETH with no CGG left over. The bracket runs sell-then-buy, so the actor must have held the CGG before the front leg.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2686,
+  "output_tokens": 845,
+  "thinking_tokens": 550
+ },
+ "_request_id": "req_011CgBRwnEFprgQmSMNn6Yqa",
+ "_response_id": "msg_011CgBRwncKkeFeHiNyuFDME",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xc8ca3c0f011fe42c48258ecbbf5d94c51f141c17\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.072632,\"gas_eth\":0.04616,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 3430.880586 CGG for 5.344532 WETH in the front leg. The victim sells 7063 CGG on the same pool, and the actor then buys back exactly 3430.880586 CGG for 5.2719 WETH in the back leg. The gross WETH gain is 0.072632, and after 0.04616 ETH of front and back gas the net is about +0.0265 ETH with no CGG left over. The bracket runs sell-then-buy, so the actor must have held the CGG before the front leg.\"}",
+ "case_id": "sym100_009",
+ "_time": "2026-10-19T18:23:03+0800"
+}

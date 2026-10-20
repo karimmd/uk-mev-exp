@@ -1,0 +1,31 @@
+{
+ "actor": "0xf73d5d4962e08c1d572f56e2f3e2728a77507e16",
+ "pool": "0x1f3d61248ec81542889535595903078109707941",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.084911,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract receives KBTC in the front leg via pool 0x1f3d..., the victim trades WBTC->KBTC on that same pool, and the actor sends the same KBTC amount back in the back leg. WETH net is 7.827973 - 7.659549 = 0.168424, minus the 0.083513 ETH internal transfer, leaving +0.084911 ETH; front and back gas fees are zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2414,
+  "output_tokens": 1919,
+  "thinking_tokens": 1711
+ },
+ "_request_id": "9f75a78453628962067a994ffc640f97",
+ "_response_id": "7fdff615-3b5f-4d4f-a863-358c8dea46c4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xf73d5d4962e08c1d572f56e2f3e2728a77507e16\", \"pool\": \"0x1f3d61248ec81542889535595903078109707941\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.084911, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract receives KBTC in the front leg via pool 0x1f3d..., the victim trades WBTC->KBTC on that same pool, and the actor sends the same KBTC amount back in the back leg. WETH net is 7.827973 - 7.659549 = 0.168424, minus the 0.083513 ETH internal transfer, leaving +0.084911 ETH; front and back gas fees are zero.\"}",
+ "case_id": "pack_083",
+ "_time": "2026-10-19T18:16:20+0800"
+}

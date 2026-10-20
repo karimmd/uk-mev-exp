@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "Front sender 0xf1e8a399... still holds about 463.135 PRIA, which is never sold in this block",
+ "confidence": 4,
+ "note": "All three legs use the same PRIA/WETH pool, but the front and back legs are different actors, and neither closes a position. The front sender 0xf1e8... buys PRIA with 2 ETH. The victim sells 193.826 PRIA for 0.846591 ETH. The back sender 0x1c8a... then buys 193.826 PRIA with ETH, so both outer legs are buys, not an open and close. No single actor has a round trip, so Q2 has no sign: the front sender is out 2 ETH and left holding PRIA.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0272887,
+ "_session": "404970e9-4086-44d0-bf85-460663f5cbc1",
+ "_raw": "{\"actor\": null, \"pool\": \"0xac350eefccdae050614070e5040e17759cebb3e9\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"Front sender 0xf1e8a399... still holds about 463.135 PRIA, which is never sold in this block\", \"confidence\": 4, \"note\": \"All three legs use the same PRIA/WETH pool, but the front and back legs are different actors, and neither closes a position. The front sender 0xf1e8... buys PRIA with 2 ETH. The victim sells 193.826 PRIA for 0.846591 ETH. The back sender 0x1c8a... then buys 193.826 PRIA with ETH, so both outer legs are buys, not an open and close. No single actor has a round trip, so Q2 has no sign: the front sender is out 2 ETH and left holding PRIA.\"}",
+ "case_id": "pack_155",
+ "_time": "2026-10-13T20:34:51+0800"
+}

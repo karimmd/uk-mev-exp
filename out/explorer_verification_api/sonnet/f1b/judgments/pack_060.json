@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x2fa7361d7e3b812375604681eb155a97b4d65e9e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.121991,
+ "gas_eth": 0.176447,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 13.817921 aKLIMA for 4.890465 WETH in the front leg, the victim buys aKLIMA on the same V3 pool, and the back leg sells exactly 13.817921 aKLIMA for 5.202896 WETH, so no token is left. The WETH gain is 0.312431, and the back leg's 0.190440 ETH value goes straight out to 0x3ece\u2026, leaving 0.121991. Front and back gas total 0.176447 ETH, so the result is about -0.0545 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3466,
+  "output_tokens": 982,
+  "thinking_tokens": 681
+ },
+ "_request_id": "req_011CgBQiSX7g4FsLLEyL2qmw",
+ "_response_id": "msg_011CgBQiZFB2Yj2XGcFAX7BC",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0x2fa7361d7e3b812375604681eb155a97b4d65e9e\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.121991,\"gas_eth\":0.176447,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract buys 13.817921 aKLIMA for 4.890465 WETH in the front leg, the victim buys aKLIMA on the same V3 pool, and the back leg sells exactly 13.817921 aKLIMA for 5.202896 WETH, so no token is left. The WETH gain is 0.312431, and the back leg's 0.190440 ETH value goes straight out to 0x3ece\u2026, leaving 0.121991. Front and back gas total 0.176447 ETH, so the result is about -0.0545 ETH.\"}",
+ "case_id": "pack_060",
+ "_time": "2026-10-19T18:06:58+0800"
+}

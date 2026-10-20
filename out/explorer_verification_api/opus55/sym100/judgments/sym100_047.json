@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.016928,
+ "gas_eth": 0.92832,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0x...3b3c never holds LOOKS. In each leg LOOKS moves directly from one pool to the other: front goes from the V3 pool 0x4b5a to the V2 pool 0xdc00 at a cost of 1.084465 WETH, and back goes from 0xdc00 to 0x4b5a for a gain of 2.029713 WETH. That makes two self-contained cross-pool arbitrages around a victim who sells LOOKS on both pools, not an opened-and-closed token position. The WETH net is +0.945248, and after 0.92832 ETH of gas it is +0.016928 ETH, though in economic substance this is a deliberate price push that resembles a sandwich.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4112,
+  "output_tokens": 1317,
+  "thinking_tokens": 951
+ },
+ "_request_id": "req_011CgBSJRnmmSMVPz5teNf7C",
+ "_response_id": "msg_011CgBSJSAqnTywbtHz85LCk",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xdc00ba87cc2d99468f7f34bc04cbf72e111a32f7\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.016928, \"gas_eth\": 0.92832, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0x...3b3c never holds LOOKS. In each leg LOOKS moves directly from one pool to the other: front goes from the V3 pool 0x4b5a to the V2 pool 0xdc00 at a cost of 1.084465 WETH, and back goes from 0xdc00 to 0x4b5a for a gain of 2.029713 WETH. That makes two self-contained cross-pool arbitrages around a victim who sells LOOKS on both pools, not an opened-and-closed token position. The WETH net is +0.945248, and after 0.92832 ETH of gas it is +0.016928 ETH, though in economic substance this is a deliberate price push that resembles a sandwich.\"}",
+ "case_id": "sym100_047",
+ "_time": "2026-10-19T18:27:50+0800"
+}

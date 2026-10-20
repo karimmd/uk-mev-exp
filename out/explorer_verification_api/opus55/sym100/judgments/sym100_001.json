@@ -1,0 +1,31 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.278445,
+ "gas_eth": 0.011402,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The EOA traded through the router on the QNT/WETH pool 0x0c4a. It sold 574.971366 QNT for 9.050384 WETH before the victim's 1500 QNT sell on the same pool, then bought back exactly 574.971366 QNT for 8.760537 WETH. This is a sell-first bracket that leaves no residual QNT, so WETH nets +0.289847 and is +0.278445 after 0.011402 ETH of gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2895,
+  "output_tokens": 696,
+  "thinking_tokens": 403
+ },
+ "_request_id": "req_011CgBS2LsQTEz7Vr7swHo9d",
+ "_response_id": "msg_011CgBS2Mkjaq6PVtvWViPvn",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\", \"pool\": \"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.278445, \"gas_eth\": 0.011402, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The EOA traded through the router on the QNT/WETH pool 0x0c4a. It sold 574.971366 QNT for 9.050384 WETH before the victim's 1500 QNT sell on the same pool, then bought back exactly 574.971366 QNT for 8.760537 WETH. This is a sell-first bracket that leaves no residual QNT, so WETH nets +0.289847 and is +0.278445 after 0.011402 ETH of gas.\"}\n```",
+ "case_id": "sym100_001",
+ "_time": "2026-10-19T18:24:05+0800"
+}

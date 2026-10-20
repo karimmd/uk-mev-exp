@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xc60c479f3cc66f1654a4113f4949c98ce77a9995",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.049285,
+ "gas_eth": 0.01681,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract sells 12340.913099 KYL into the KYL/WETH pool in the front leg and receives 6.859451 WETH. The victim then also sells KYL into that pool, and the back leg buys back exactly 12340.913099 KYL for 6.810166 WETH. The bracket is a short-style round trip, so the KYL position is flat. WETH net is +0.049285 before gas and about +0.032475 after the 0.01681 ETH of gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2888,
+  "output_tokens": 921,
+  "thinking_tokens": 648
+ },
+ "_request_id": "req_011CgBSGmyAaMAQxsce3ry4j",
+ "_response_id": "msg_011CgBSGnJW9VHkt4GPjBjbX",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xc60c479f3cc66f1654a4113f4949c98ce77a9995\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.049285,\"gas_eth\":0.01681,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract sells 12340.913099 KYL into the KYL/WETH pool in the front leg and receives 6.859451 WETH. The victim then also sells KYL into that pool, and the back leg buys back exactly 12340.913099 KYL for 6.810166 WETH. The bracket is a short-style round trip, so the KYL position is flat. WETH net is +0.049285 before gas and about +0.032475 after the 0.01681 ETH of gas.\"}",
+ "case_id": "sym100_063",
+ "_time": "2026-10-19T18:27:22+0800"
+}

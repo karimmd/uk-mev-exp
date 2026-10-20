@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd65e975c7d0d5871eff8b079120e43c9f377ada1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.002626,
+ "gas_eth": 0.01047,
+ "residual": "none",
+ "confidence": 3,
+ "note": "On the victim's pool d65e the actor contract sells YOP into the pool before the victim's YOP sale (losing 0.072 WETH on that leg) and buys YOP back from the same pool afterwards. The YOP is routed through a second pool (e427) in both legs, so the actor never holds YOP itself, which makes the 'position' criterion arguable and lowers confidence. Gross WETH gain is 0.013096 against 0.01047 gas, leaving about 0.0026 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3415,
+  "output_tokens": 1248,
+  "thinking_tokens": 954
+ },
+ "_request_id": "req_011CgBSMYUCBh5B9kgQxdxk7",
+ "_response_id": "msg_011CgBSMYoYVFDHDCaSPC5Xf",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xd65e975c7d0d5871eff8b079120e43c9f377ada1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.002626, \"gas_eth\": 0.01047, \"residual\": \"none\", \"confidence\": 3, \"note\": \"On the victim's pool d65e the actor contract sells YOP into the pool before the victim's YOP sale (losing 0.072 WETH on that leg) and buys YOP back from the same pool afterwards. The YOP is routed through a second pool (e427) in both legs, so the actor never holds YOP itself, which makes the 'position' criterion arguable and lowers confidence. Gross WETH gain is 0.013096 against 0.01047 gas, leaving about 0.0026 ETH.\"}",
+ "case_id": "sym100_055",
+ "_time": "2026-10-19T18:28:32+0800"
+}

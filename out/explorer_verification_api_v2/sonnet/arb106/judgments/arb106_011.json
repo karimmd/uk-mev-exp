@@ -1,0 +1,43 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0x5ed0dde7441efcd728e31cfd055c4c7efe20a57b",
+  "0x9c3ec0db90cf88f1881cabc6cb0faf0c5aa9f1c2",
+  "0x4d3138931437dcc356ca511ac812e14ba8199fd6",
+  "0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8",
+  "0x8616e439239bf0c116f430f399502e706dc8b7fb",
+  "0x8b59be2fc6fccc2256cc4841843a13ce29da16bd"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.030395,
+ "gas_eth": 0.028075,
+ "profit_after_gas": 0.00232,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract runs two WETH-closed routes. The first is WETH to USDC to GMEE to BONDLY to WETH, and the second is WETH to STRONG to LINK to WETH, with every hop paid pool to pool. It receives 1.827036 WETH and sends 1.796641 WETH, so WETH is the only net position, and the gain of 0.030395 WETH exceeds the 0.028075 ETH gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3093,
+  "output_tokens": 1175,
+  "thinking_tokens": 660
+ },
+ "_request_id": "req_011CgBX2LasRvCnbVcRo3GsL",
+ "_response_id": "msg_011CgBX2LuUo4gE4cybFKbn4",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0x5ed0dde7441efcd728e31cfd055c4c7efe20a57b\",\"0x9c3ec0db90cf88f1881cabc6cb0faf0c5aa9f1c2\",\"0x4d3138931437dcc356ca511ac812e14ba8199fd6\",\"0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8\",\"0x8616e439239bf0c116f430f399502e706dc8b7fb\",\"0x8b59be2fc6fccc2256cc4841843a13ce29da16bd\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.030395,\"gas_eth\":0.028075,\"profit_after_gas\":0.00232,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract runs two WETH-closed routes. The first is WETH to USDC to GMEE to BONDLY to WETH, and the second is WETH to STRONG to LINK to WETH, with every hop paid pool to pool. It receives 1.827036 WETH and sends 1.796641 WETH, so WETH is the only net position, and the gain of 0.030395 WETH exceeds the 0.028075 ETH gas fee.\"}",
+ "case_id": "arb106_011",
+ "_time": "2026-10-19T19:29:40+0800"
+}

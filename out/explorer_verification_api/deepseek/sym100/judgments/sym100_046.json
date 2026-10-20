@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f3636f45ee8b3bebd3244a106380319d07711f2",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.122373,
+ "gas_eth": 0.084144,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front and back legs use the same UniswapV2 MPH/WETH pool, but the actor sells MPH in the front and buys it back in the back, so it does not open a non-WETH token position in the front as required for a sandwich bracket. The actor nets +0.206517 WETH before gas; after 0.084144 ETH gas the net is +0.122373 ETH, with no net MPH left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2301,
+  "output_tokens": 15790,
+  "thinking_tokens": 15598
+ },
+ "_request_id": "7b39bbaa1d75b7eaf318fe6bed328df5",
+ "_response_id": "756b0f6e-a0df-431e-8f3e-037ba83355d1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3f3636f45ee8b3bebd3244a106380319d07711f2\",\"pool\":\"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.122373,\"gas_eth\":0.084144,\"residual\":\"none\",\"confidence\":4,\"note\":\"The front and back legs use the same UniswapV2 MPH/WETH pool, but the actor sells MPH in the front and buys it back in the back, so it does not open a non-WETH token position in the front as required for a sandwich bracket. The actor nets +0.206517 WETH before gas; after 0.084144 ETH gas the net is +0.122373 ETH, with no net MPH left.\"}",
+ "case_id": "sym100_046",
+ "_time": "2026-10-19T18:46:48+0800"
+}

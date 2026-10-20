@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xcbbc981bd5b358d09a9346726115d3ac8822d00b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.160907,
+ "gas_eth": 0.088953,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract routes VXV between the V2 pool 0x6593\u2026 and the V3 pool 0xcbbc\u2026 and never keeps any VXV. In the front leg it sells VXV into the V3 pool before the victim does, and in the back leg it takes VXV out of that pool, so the V3 position is closed around the victim's VXV sale. WETH netted -0.207499 in the front leg and +0.368406 in the back leg, giving +0.160907. After 0.088953 ETH of gas the result is about +0.072 ETH. It is a cross-pool structure, so whether it counts as a sandwich is the least certain part.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3207,
+  "output_tokens": 1344,
+  "thinking_tokens": 1017
+ },
+ "_request_id": "req_011CgBSUt28ssXp46K8GmVV8",
+ "_response_id": "msg_011CgBSUtNxxC6Gej8pNbj2H",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xcbbc981bd5b358d09a9346726115d3ac8822d00b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.160907,\"gas_eth\":0.088953,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor contract routes VXV between the V2 pool 0x6593\u2026 and the V3 pool 0xcbbc\u2026 and never keeps any VXV. In the front leg it sells VXV into the V3 pool before the victim does, and in the back leg it takes VXV out of that pool, so the V3 position is closed around the victim's VXV sale. WETH netted -0.207499 in the front leg and +0.368406 in the back leg, giving +0.160907. After 0.088953 ETH of gas the result is about +0.072 ETH. It is a cross-pool structure, so whether it counts as a sandwich is the least certain part.\"}",
+ "case_id": "sym100_098",
+ "_time": "2026-10-19T18:30:09+0800"
+}

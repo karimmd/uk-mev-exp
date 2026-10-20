@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000726422a6fecb4759b44d47e48cf746aa",
+ "pool": "0x3f61171b1297f6e512c750c172ba86026ab0e820",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.109313,
+ "gas_eth": 0.098288,
+ "residual": "0.000001 USDC",
+ "confidence": 5,
+ "note": "Front and back legs are the same actor, trading USDC against FLEX on the victim's UniswapV2 pool 0x3f611.... Gross WETH gain is 0.109313 ETH; after 0.098288 ETH gas the net is about +0.011025 ETH, with only 0.000001 USDC dust left.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2365,
+  "output_tokens": 6434,
+  "thinking_tokens": 6259
+ },
+ "_request_id": "9119a5b478ccdc6ee10d3ee9baa9569b",
+ "_response_id": "bf5f04be-9828-403c-a32b-7257bf36d856",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000726422a6fecb4759b44d47e48cf746aa\",\"pool\":\"0x3f61171b1297f6e512c750c172ba86026ab0e820\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.109313,\"gas_eth\":0.098288,\"residual\":\"0.000001 USDC\",\"confidence\":5,\"note\":\"Front and back legs are the same actor, trading USDC against FLEX on the victim's UniswapV2 pool 0x3f611.... Gross WETH gain is 0.109313 ETH; after 0.098288 ETH gas the net is about +0.011025 ETH, with only 0.000001 USDC dust left.\"}",
+ "case_id": "pack_011",
+ "_time": "2026-10-19T17:59:54+0800"
+}

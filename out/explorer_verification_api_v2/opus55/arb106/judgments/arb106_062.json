@@ -1,0 +1,39 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0xb52c5f5b96a428ff13cc5e60247b73cb4e13b2d9"
+ ],
+ "cycle_token": "FNK",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.003062,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.003062,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives 324.569 FNK from the V2 FNK/USDT pool and sends exactly that amount back out: 322.1 FNK to the V3 pool and 2.469 FNK to the FNK/WETH pair. The V3 pool pays USDT straight to the V2 pool, so the cycle closes with 0.030614 WETH left over, which the actor unwraps. At 0 gwei, the 0.027552 ETH sent to 0x829bd8 looks like a builder/miner payment; I subtracted it as a cost, leaving about 0.00306 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2571,
+  "output_tokens": 939,
+  "thinking_tokens": 488
+ },
+ "_request_id": "req_011CgBXT4MWFhJrkaUmNeaWR",
+ "_response_id": "msg_011CgBXT4i6S65VTzv1m3Ftq",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\", \"pools\": [\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\", \"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\", \"0xb52c5f5b96a428ff13cc5e60247b73cb4e13b2d9\"], \"cycle_token\": \"FNK\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.003062, \"gas_eth\": 0.0, \"profit_after_gas\": 0.003062, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor receives 324.569 FNK from the V2 FNK/USDT pool and sends exactly that amount back out: 322.1 FNK to the V3 pool and 2.469 FNK to the FNK/WETH pair. The V3 pool pays USDT straight to the V2 pool, so the cycle closes with 0.030614 WETH left over, which the actor unwraps. At 0 gwei, the 0.027552 ETH sent to 0x829bd8 looks like a builder/miner payment; I subtracted it as a cost, leaving about 0.00306 ETH.\"}",
+ "case_id": "arb106_062",
+ "_time": "2026-10-19T19:35:17+0800"
+}

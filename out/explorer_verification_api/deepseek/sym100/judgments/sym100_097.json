@@ -1,0 +1,31 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.112412,
+ "gas_eth": 0.101725,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are both on pool 0x9f4aa9... but the actor sold NCT for WETH in front and bought the same NCT back with WETH in back, so it did not open/hold a non-WETH token in the front. Gross WETH delta +0.112412; gas 0.101725; after gas +0.010687, no residual NCT.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3262,
+  "output_tokens": 14354,
+  "thinking_tokens": 14176
+ },
+ "_request_id": "41d0ddc48642eddba64e27715cb46eb2",
+ "_response_id": "adb588e4-7cba-4633-8079-6a84f37acc0d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdac775cd972ac612907682ff757af66f75eecece\",\"pool\":\"0x9f4aa9b4661f0c55b61fc12b1944f006a71c773f\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.112412,\"gas_eth\":0.101725,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are both on pool 0x9f4aa9... but the actor sold NCT for WETH in front and bought the same NCT back with WETH in back, so it did not open/hold a non-WETH token in the front. Gross WETH delta +0.112412; gas 0.101725; after gas +0.010687, no residual NCT.\"}",
+ "case_id": "sym100_097",
+ "_time": "2026-10-19T18:56:38+0800"
+}

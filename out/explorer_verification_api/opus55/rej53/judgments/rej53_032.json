@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0x35a1f588dbd86446a4eb8133ccc96e3db0e65be4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011599,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg, contract 0x\u20269e14 routes 100 WETH through the WETH/DOGZ pool 0xf89a and then the DOGZ/USDT pool 0x35a1, ending up with 323.553093 USDT. The victim then sells DOGZ for USDT on 0x35a1, and in the back leg the same contract sends exactly that USDT back along the reverse route for 100.016570 WETH. Netting gives +0.016570 WETH minus a 0.004971 ETH internal payment (likely to the block builder), and both actor legs paid 0 gwei gas, so the result is about +0.011599 ETH with no residual holding.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3610,
+  "output_tokens": 778,
+  "thinking_tokens": 437
+ },
+ "_request_id": "req_011CgBSpP78qsNp1Yh8Gmw6r",
+ "_response_id": "msg_011CgBSpPTTz1pXkoKa6xStW",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0x35a1f588dbd86446a4eb8133ccc96e3db0e65be4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.011599, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg, contract 0x\u20269e14 routes 100 WETH through the WETH/DOGZ pool 0xf89a and then the DOGZ/USDT pool 0x35a1, ending up with 323.553093 USDT. The victim then sells DOGZ for USDT on 0x35a1, and in the back leg the same contract sends exactly that USDT back along the reverse route for 100.016570 WETH. Netting gives +0.016570 WETH minus a 0.004971 ETH internal payment (likely to the block builder), and both actor legs paid 0 gwei gas, so the result is about +0.011599 ETH with no residual holding.\"}",
+ "case_id": "rej53_032",
+ "_time": "2026-10-19T18:34:30+0800"
+}

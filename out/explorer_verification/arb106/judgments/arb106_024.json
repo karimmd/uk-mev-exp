@@ -1,0 +1,23 @@
+{
+ "actor": "0x649c8131c5fd45f3b75597224b45217b53578ec8",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.004732,
+ "gas_eth": 0.004259,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sent 0.275905 WETH to pool 0x9cbf. That pool sent SAITAMA straight to pool 0xd0dc, which paid 0.280637 WETH back to the actor, so the cycle closes in WETH. The gross gain of 0.004732 WETH less the 0.004259 ETH gas fee leaves about +0.000473 ETH, and the actor holds no other token.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0215592,
+ "_session": "d39b506a-d5f5-4366-918b-58e7d25847d2",
+ "_raw": "{\"actor\":\"0x649c8131c5fd45f3b75597224b45217b53578ec8\",\"pools\":[\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\",\"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.004732,\"gas_eth\":0.004259,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sent 0.275905 WETH to pool 0x9cbf. That pool sent SAITAMA straight to pool 0xd0dc, which paid 0.280637 WETH back to the actor, so the cycle closes in WETH. The gross gain of 0.004732 WETH less the 0.004259 ETH gas fee leaves about +0.000473 ETH, and the actor holds no other token.\"}",
+ "case_id": "arb106_024",
+ "_time": "2026-10-13T22:15:45+0800"
+}

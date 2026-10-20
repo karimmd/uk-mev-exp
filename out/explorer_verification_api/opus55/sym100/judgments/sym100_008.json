@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5fa464cefe8901d66c09b85d5fcdc55b3738c688",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.129141,
+ "gas_eth": 0.012972,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0x\u20266b40 routes TOKE directly from pool 0xd4e7 into pool 0x5fa4 in the front leg, ahead of the victim's TOKE sale into 0x5fa4, then reverses the route in the back leg. Its wallet never holds TOKE, so the bracket is a short on the shared pool hedged across 0xd4e7, which lowers my confidence on Q1. Net WETH is -0.088986 + 0.347422 = 0.258436, minus the 0.129295 ETH value forwarded to 0x99c8, giving 0.129141 before gas and about 0.116169 after 0.012972 gas.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3447,
+  "output_tokens": 1405,
+  "thinking_tokens": 1058
+ },
+ "_request_id": "req_011CgBS4P4S6u1AR1zmgVPCv",
+ "_response_id": "msg_011CgBS4PRkQbBfjexybD93z",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x5fa464cefe8901d66c09b85d5fcdc55b3738c688\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.129141, \"gas_eth\": 0.012972, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0x\u20266b40 routes TOKE directly from pool 0xd4e7 into pool 0x5fa4 in the front leg, ahead of the victim's TOKE sale into 0x5fa4, then reverses the route in the back leg. Its wallet never holds TOKE, so the bracket is a short on the shared pool hedged across 0xd4e7, which lowers my confidence on Q1. Net WETH is -0.088986 + 0.347422 = 0.258436, minus the 0.129295 ETH value forwarded to 0x99c8, giving 0.129141 before gas and about 0.116169 after 0.012972 gas.\"}",
+ "case_id": "sym100_008",
+ "_time": "2026-10-19T18:24:40+0800"
+}

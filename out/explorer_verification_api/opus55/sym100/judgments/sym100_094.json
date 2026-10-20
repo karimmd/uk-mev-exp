@@ -1,0 +1,31 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.129992,
+ "gas_eth": 0.016492,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x09dd sells 6608.905755 INFI into pool 0xe760 for 1.850367 WETH, the victim also sells INFI on that pool, and 0x09dd buys back exactly 6608.905755 INFI for 1.703883 WETH. That is a sell-side bracket with zero residual INFI, and the WETH gain of 0.146484 minus 0.016492 gas is positive. The victim's 14.5 INFI trade is too small to explain the gain alone, so other transactions at positions 5 and 7-9 likely moved the price, which lowers confidence slightly.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2692,
+  "output_tokens": 961,
+  "thinking_tokens": 631
+ },
+ "_request_id": "req_011CgBSbJi7EZ4UrZDNpUfcu",
+ "_response_id": "msg_011CgBSbK7AQQAyM8fCDwcqd",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x09ddb304758caf024706dee2e92b569ca4823aa1\", \"pool\": \"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.129992, \"gas_eth\": 0.016492, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x09dd sells 6608.905755 INFI into pool 0xe760 for 1.850367 WETH, the victim also sells INFI on that pool, and 0x09dd buys back exactly 6608.905755 INFI for 1.703883 WETH. That is a sell-side bracket with zero residual INFI, and the WETH gain of 0.146484 minus 0.016492 gas is positive. The victim's 14.5 INFI trade is too small to explain the gain alone, so other transactions at positions 5 and 7-9 likely moved the price, which lowers confidence slightly.\"}",
+ "case_id": "sym100_094",
+ "_time": "2026-10-19T18:31:35+0800"
+}

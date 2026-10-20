@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1f964ff83c54ce447adae5cb93f9ec17018bf55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.058134,
+ "gas_eth": 0,
+ "profit_after_gas": 0.058134,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back legs trade BEZOGE/WETH on the same Uniswap V2 pool around the victim, with the actor buying then selling BEZOGE. The apparent 2% BEZOGE shortfall matches the token's transfer tax, so no residual holding remains; net WETH profit is 0.058134 ETH and gas fees are zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2853,
+  "output_tokens": 23098,
+  "thinking_tokens": 22917
+ },
+ "_request_id": "6d173cf789c91e0c6856af820a4377ba",
+ "_response_id": "17167c0f-92be-4f88-9cb1-c608d802a2bf",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x1f964ff83c54ce447adae5cb93f9ec17018bf55b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.058134,\"gas_eth\":0,\"profit_after_gas\":0.058134,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back legs trade BEZOGE/WETH on the same Uniswap V2 pool around the victim, with the actor buying then selling BEZOGE. The apparent 2% BEZOGE shortfall matches the token's transfer tax, so no residual holding remains; net WETH profit is 0.058134 ETH and gas fees are zero.\"}",
+ "case_id": "pack_069",
+ "_time": "2026-10-19T19:13:17+0800"
+}

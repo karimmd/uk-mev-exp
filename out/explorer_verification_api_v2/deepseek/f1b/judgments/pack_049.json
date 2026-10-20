@@ -1,0 +1,32 @@
+{
+ "actor": "0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66",
+ "pool": "0xadeaa96a81ebba4e3a5525a008ee107385d588c3",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.155185,
+ "gas_eth": 0.131025,
+ "profit_after_gas": 0.02416,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both buy SWAG on the shared 0xadeaa pool; the actor ends flat in non-WETH tokens, so no position is opened in front and closed in back. Across both legs the actor nets +0.155185 ETH/WETH before gas and remains positive after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 5368,
+  "output_tokens": 11270,
+  "thinking_tokens": 11094
+ },
+ "_request_id": "f1c17f995b1bf7d2cd161fb62cabc8b6",
+ "_response_id": "a67355b5-3d6d-4bd2-9e47-6eb58b616a5a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x860bd2dba9cd475a61e6d1b45e16c365f6d78f66\",\"pool\":\"0xadeaa96a81ebba4e3a5525a008ee107385d588c3\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.155185,\"gas_eth\":0.131025,\"profit_after_gas\":0.02416,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both buy SWAG on the shared 0xadeaa pool; the actor ends flat in non-WETH tokens, so no position is opened in front and closed in back. Across both legs the actor nets +0.155185 ETH/WETH before gas and remains positive after gas.\"}",
+ "case_id": "pack_049",
+ "_time": "2026-10-19T19:09:43+0800"
+}

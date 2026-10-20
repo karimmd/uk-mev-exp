@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x360bb0c0c8451095f65568e77d04b4ee970c6ec1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.010172,
+ "gas_eth": 0.0,
+ "residual": "about 503,529,307,956 BUGG left over (25,196,703,991,548.85 bought minus 24,693,174,683,592.36 sold)",
+ "confidence": 3,
+ "note": "The actor buys BUGG with 0.501452 WETH in the front leg, the victim buys BUGG on the same pool, and the actor sells BUGG for 0.563097 WETH in the back leg. The back leg also forwards 0.051473 ETH to 0x99c8\u2026, probably a builder tip, so net is 0.061645 \u2212 0.051473 = 0.010172 ETH. Gas fees are 0 at 0 gwei, and the leftover BUGG can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3461,
+  "output_tokens": 1046,
+  "thinking_tokens": 707
+ },
+ "_request_id": "req_011CgBRnKRTConWAhSe9Ueax",
+ "_response_id": "msg_011CgBRnKnnhb3UqhedjXXhK",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x360bb0c0c8451095f65568e77d04b4ee970c6ec1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.010172,\"gas_eth\":0.0,\"residual\":\"about 503,529,307,956 BUGG left over (25,196,703,991,548.85 bought minus 24,693,174,683,592.36 sold)\",\"confidence\":3,\"note\":\"The actor buys BUGG with 0.501452 WETH in the front leg, the victim buys BUGG on the same pool, and the actor sells BUGG for 0.563097 WETH in the back leg. The back leg also forwards 0.051473 ETH to 0x99c8\u2026, probably a builder tip, so net is 0.061645 \u2212 0.051473 = 0.010172 ETH. Gas fees are 0 at 0 gwei, and the leftover BUGG can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_174",
+ "_time": "2026-10-19T18:20:56+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000005704c6049f869409f38a2bc239efd4b",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.068122528,
+ "gas_eth": 0.010511472,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Same actor contract brackets the victim on the MPH/WETH UniswapV2 pool. It sells MPH for 8.449176 WETH in front and buys back the same 82.510754 MPH for 8.370542 WETH in back, netting +0.078634 WETH before 0.010511472 ETH gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2383,
+  "output_tokens": 9695,
+  "thinking_tokens": 9524
+ },
+ "_request_id": "4ff676433664a266f68ae6f60de7fdc4",
+ "_response_id": "ccd9f46e-7d68-4749-bda1-1e5930398cf1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000005704c6049f869409f38a2bc239efd4b\",\"pool\":\"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.068122528,\"gas_eth\":0.010511472,\"residual\":\"none\",\"confidence\":5,\"note\":\"Same actor contract brackets the victim on the MPH/WETH UniswapV2 pool. It sells MPH for 8.449176 WETH in front and buys back the same 82.510754 MPH for 8.370542 WETH in back, netting +0.078634 WETH before 0.010511472 ETH gas.\"}",
+ "case_id": "sym100_086",
+ "_time": "2026-10-19T18:54:21+0800"
+}

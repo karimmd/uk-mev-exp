@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f499fe484a61af03b01ea5c81eab14f67c11a5a",
+ "pool": "0xba65016890709dbc9491ca7bf5de395b8441dc8b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.299473,
+ "gas_eth": 0.017399,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x3f49 paid 15.850500 WETH for 305222.891823 RSR on the RSR/WETH pool 0xba65 in the front leg and sold exactly that amount back for 16.167372 WETH in the back leg. The victim bought RSR on the same pool between them. The front and back legs have different senders but call the same contract; the 0.316872 WETH gain minus 0.017399 ETH gas leaves about +0.2995 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2918,
+  "output_tokens": 421,
+  "thinking_tokens": 135
+ },
+ "_request_id": "req_011CgBRSERmdKknYhS17iPQ5",
+ "_response_id": "msg_011CgBRSJeGBgMQpSoMZ9VzJ",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3f499fe484a61af03b01ea5c81eab14f67c11a5a\", \"pool\": \"0xba65016890709dbc9491ca7bf5de395b8441dc8b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.299473, \"gas_eth\": 0.017399, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x3f49 paid 15.850500 WETH for 305222.891823 RSR on the RSR/WETH pool 0xba65 in the front leg and sold exactly that amount back for 16.167372 WETH in the back leg. The victim bought RSR on the same pool between them. The front and back legs have different senders but call the same contract; the 0.316872 WETH gain minus 0.017399 ETH gas leaves about +0.2995 ETH.\"}",
+ "case_id": "pack_118",
+ "_time": "2026-10-19T18:16:21+0800"
+}

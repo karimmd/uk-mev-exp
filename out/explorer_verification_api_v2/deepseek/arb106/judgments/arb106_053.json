@@ -1,0 +1,41 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x73a6a761fe483ba19debb8f56ac5bbf14c0cdad1",
+  "0xe06f8d30ac334c857fc8c380c85969c150f38a6a",
+  "0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x60594a405d53811d3bc4766596efd80fd545a270"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.032254,
+ "gas_eth": 0.029456,
+ "profit_after_gas": 0.002798,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor received 3.190082 WETH and sent 3.157113 WETH through a five-pool WETH-SUSHI-FRAX-OHM-DAI-WETH cycle. After the 0.000715 ETH internal transfer and gas, the position remains positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1980,
+  "output_tokens": 10250,
+  "thinking_tokens": 9949
+ },
+ "_request_id": "057fa8cc1e9619e812c13567051fbd2f",
+ "_response_id": "0e1280df-ef09-46d4-90fa-8741e9cd92e8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x73a6a761fe483ba19debb8f56ac5bbf14c0cdad1\",\"0xe06f8d30ac334c857fc8c380c85969c150f38a6a\",\"0x2dce0dda1c2f98e0f171de8333c3c6fe1bbf4877\",\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\",\"0x60594a405d53811d3bc4766596efd80fd545a270\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.032254,\"gas_eth\":0.029456,\"profit_after_gas\":0.002798,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor received 3.190082 WETH and sent 3.157113 WETH through a five-pool WETH-SUSHI-FRAX-OHM-DAI-WETH cycle. After the 0.000715 ETH internal transfer and gas, the position remains positive.\"}",
+ "case_id": "arb106_053",
+ "_time": "2026-10-19T19:59:34+0800"
+}

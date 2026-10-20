@@ -1,0 +1,24 @@
+{
+ "actor": "0x9762b1d716bb97735905996e013d61c140722249",
+ "pools": [
+  "0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8",
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001507,
+ "gas_eth": 0.023619,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sent 6.7 WETH to the V3 WETH/DAI pool. That pool's DAI went straight to the V2 DAI/OHM pair, and the OHM went to the V3 OHM/WETH pool, which returned 6.725126 WETH. That is a closed three-pool WETH cycle with a gross gain of 0.025126 WETH. Subtracting the 0.023619 ETH fee leaves about +0.0015 ETH, assuming the searcher behind the sender bears the gas and no other payments (e.g. a coinbase tip) occur outside the shown transfers.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0192147,
+ "_session": "30dde5aa-e9d1-4916-b8cf-b6bb705239f8",
+ "_raw": "{\"actor\": \"0x9762b1d716bb97735905996e013d61c140722249\", \"pools\": [\"0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8\", \"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\", \"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.001507, \"gas_eth\": 0.023619, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sent 6.7 WETH to the V3 WETH/DAI pool. That pool's DAI went straight to the V2 DAI/OHM pair, and the OHM went to the V3 OHM/WETH pool, which returned 6.725126 WETH. That is a closed three-pool WETH cycle with a gross gain of 0.025126 WETH. Subtracting the 0.023619 ETH fee leaves about +0.0015 ETH, assuming the searcher behind the sender bears the gas and no other payments (e.g. a coinbase tip) occur outside the shown transfers.\"}",
+ "case_id": "arb106_049",
+ "_time": "2026-10-13T22:21:46+0800"
+}

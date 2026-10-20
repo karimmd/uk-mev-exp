@@ -1,0 +1,31 @@
+{
+ "actor": "0xda1faeb056a2f568b138ca0ad9ad8a51915ba336",
+ "pool": "0x9314941c11d6dee1d7bf93113eb74d4718949f3b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.067488,
+ "gas_eth": 0.050897,
+ "residual": "none observable (HOKK sold is about 2% below HOKK logged as received, consistent with a fee-on-transfer/reflection token rather than a held balance)",
+ "confidence": 4,
+ "note": "Contract 0xda1f\u2026 wraps 15.07 ETH and buys HOKK on pool 0x9314\u2026 before the victim buys HOKK on the same pool. It then sells HOKK back to that pool for 15.188385 WETH and unwraps it, a gross gain of 0.118385 ETH against 0.050897 ETH gas. The gap in HOKK amounts looks like the token's transfer fee, so any residual is likely negligible.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3409,
+  "output_tokens": 997,
+  "thinking_tokens": 667
+ },
+ "_request_id": "req_011CgBQhqvkT9bVPTMGdRBSB",
+ "_response_id": "msg_011CgBQhxVe3iBwcrYZioZzX",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xda1faeb056a2f568b138ca0ad9ad8a51915ba336\", \"pool\": \"0x9314941c11d6dee1d7bf93113eb74d4718949f3b\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.067488, \"gas_eth\": 0.050897, \"residual\": \"none observable (HOKK sold is about 2% below HOKK logged as received, consistent with a fee-on-transfer/reflection token rather than a held balance)\", \"confidence\": 4, \"note\": \"Contract 0xda1f\u2026 wraps 15.07 ETH and buys HOKK on pool 0x9314\u2026 before the victim buys HOKK on the same pool. It then sells HOKK back to that pool for 15.188385 WETH and unwraps it, a gross gain of 0.118385 ETH against 0.050897 ETH gas. The gap in HOKK amounts looks like the token's transfer fee, so any residual is likely negligible.\"}",
+ "case_id": "pack_055",
+ "_time": "2026-10-19T18:06:52+0800"
+}

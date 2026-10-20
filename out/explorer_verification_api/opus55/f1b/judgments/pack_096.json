@@ -1,0 +1,31 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.474247,
+ "gas_eth": 0.082625,
+ "residual": "632.627513 MINT",
+ "confidence": 4,
+ "note": "The contract 0x7f94 wraps 20.907221 ETH and buys 19974.46 MINT on the MINT/WETH pool 0x092e. The victim then buys MINT on that pool through a USDC->WETH->MINT route. 0x7f94 sells 19341.83 MINT back for 21.464093 WETH and unwraps it; the two legs have different senders but the same holding contract, and the ETH gain of 0.556872 minus 0.082625 gas is positive with leftover MINT on top.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3926,
+  "output_tokens": 1280,
+  "thinking_tokens": 971
+ },
+ "_request_id": "req_011CgBRCzB9e2LEXPUdKTheX",
+ "_response_id": "msg_011CgBRD5HUtWRW7tDEivT6U",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x7f941cdae3c01906e42f8325af0693a848f81072\", \"pool\": \"0x092e793afe54366601eb7ef7e63b6abb93edb485\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.474247, \"gas_eth\": 0.082625, \"residual\": \"632.627513 MINT\", \"confidence\": 4, \"note\": \"The contract 0x7f94 wraps 20.907221 ETH and buys 19974.46 MINT on the MINT/WETH pool 0x092e. The victim then buys MINT on that pool through a USDC->WETH->MINT route. 0x7f94 sells 19341.83 MINT back for 21.464093 WETH and unwraps it; the two legs have different senders but the same holding contract, and the ETH gain of 0.556872 minus 0.082625 gas is positive with leftover MINT on top.\"}\n```",
+ "case_id": "pack_096",
+ "_time": "2026-10-19T18:13:31+0800"
+}

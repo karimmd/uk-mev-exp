@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": null,
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a self-contained arbitrage by 0x0aa3e7\u2026: it buys GLM on pool 0xb5f790\u2026 and sells it on pool 0x787404\u2026 in the same transaction, so it holds no position afterwards (about +0.295 WETH before gas). The back leg is a different actor, 0x000000\u20265117, running its own arbitrage across the same two pools. The legs have different actors and no position is opened and then closed, so this is not a sandwich bracket and no single actor's profit can be netted.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4541,
+  "output_tokens": 913,
+  "thinking_tokens": 660
+ },
+ "_request_id": "req_011CgBVWo4soFRcrP54WHDbM",
+ "_response_id": "msg_011CgBVWoQxvoEjXTp7JNwWd",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": null, \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a self-contained arbitrage by 0x0aa3e7\u2026: it buys GLM on pool 0xb5f790\u2026 and sells it on pool 0x787404\u2026 in the same transaction, so it holds no position afterwards (about +0.295 WETH before gas). The back leg is a different actor, 0x000000\u20265117, running its own arbitrage across the same two pools. The legs have different actors and no position is opened and then closed, so this is not a sandwich bracket and no single actor's profit can be netted.\"}",
+ "case_id": "pack_080",
+ "_time": "2026-10-19T19:09:53+0800"
+}

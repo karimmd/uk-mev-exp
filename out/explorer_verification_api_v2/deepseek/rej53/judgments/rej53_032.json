@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0x35a1f588dbd86446a4eb8133ccc96e3db0e65be4",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.011599,
+ "gas_eth": 0,
+ "profit_after_gas": 0.011599,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor contract sells DOGZ for USDT on the DOGZ/USDT pool in front and buys DOGZ back with the same USDT in back, with the victim's DOGZ sale between. WETH in/out nets +0.016570 ETH, less a 0.004971 ETH internal ETH outflow, leaving a positive net; no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2929,
+  "output_tokens": 5315,
+  "thinking_tokens": 5111
+ },
+ "_request_id": "538bd16c69c3e77f4f1d8a14d790fc86",
+ "_response_id": "a53d7569-b737-48d1-8570-9ea08da66bc2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0x35a1f588dbd86446a4eb8133ccc96e3db0e65be4\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.011599, \"gas_eth\": 0, \"profit_after_gas\": 0.011599, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor contract sells DOGZ for USDT on the DOGZ/USDT pool in front and buys DOGZ back with the same USDT in back, with the victim's DOGZ sale between. WETH in/out nets +0.016570 ETH, less a 0.004971 ETH internal ETH outflow, leaving a positive net; no non-WETH residual remains.\"}",
+ "case_id": "rej53_032",
+ "_time": "2026-10-19T19:43:55+0800"
+}

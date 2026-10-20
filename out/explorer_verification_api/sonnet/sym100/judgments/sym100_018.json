@@ -1,0 +1,31 @@
+{
+ "actor": "0x292499bbec93aa92e0556e5dd89b5e7e172228a6",
+ "pool": "0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.058577,
+ "gas_eth": 0.025716,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 758.718651 SPI to the pool for 27.418 WETH in the front leg. The victim then sells SPI on the same pool. In the back leg the actor buys back exactly 758.718651 SPI for 27.359423 WETH, so the SPI position is flat. Net WETH is +0.058577, and after 0.025716 ETH of front and back gas it is about +0.032861 ETH. This is a reverse-direction sandwich: the actor sells SPI first and buys it back after the victim.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3024,
+  "output_tokens": 923,
+  "thinking_tokens": 626
+ },
+ "_request_id": "req_011CgBRzWjC1ibrUvsyHGaHV",
+ "_response_id": "msg_011CgBRzX4XU7WeucZfGdXHR",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x292499bbec93aa92e0556e5dd89b5e7e172228a6\",\"pool\":\"0xe3ee3d5f7e9c750490d99ab166edc1886de0a85e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.058577,\"gas_eth\":0.025716,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 758.718651 SPI to the pool for 27.418 WETH in the front leg. The victim then sells SPI on the same pool. In the back leg the actor buys back exactly 758.718651 SPI for 27.359423 WETH, so the SPI position is flat. Net WETH is +0.058577, and after 0.025716 ETH of front and back gas it is about +0.032861 ETH. This is a reverse-direction sandwich: the actor sells SPI first and buys it back after the victim.\"}",
+ "case_id": "sym100_018",
+ "_time": "2026-10-19T18:23:40+0800"
+}

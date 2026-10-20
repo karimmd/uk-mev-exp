@@ -1,0 +1,17 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x404e716257c4f4bcc43b967514520b98c0c09dd5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.008099,
+ "gas_eth": 0.008014,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract bought 83553.057894 HEART with 4.094420 WETH in the front leg. The victim bought HEART on the same pool in between. The back leg sold the same HEART amount for 4.102519 WETH, so the gross gain is 0.008099 ETH. The gas fees in the explorer data total 0.008014 ETH, which leaves about +0.000085 ETH. The margin is thin and a small error in the fee figures would change the sign, so confidence is only 3.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0242252,
+ "_session": "8ef31763-80e9-4381-935f-20c3cb543563",
+ "_raw": "{\"actor\": \"0x01ff6318440f7d5553a82294d78262d5f5084eff\", \"pool\": \"0x404e716257c4f4bcc43b967514520b98c0c09dd5\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.008099, \"gas_eth\": 0.008014, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract bought 83553.057894 HEART with 4.094420 WETH in the front leg. The victim bought HEART on the same pool in between. The back leg sold the same HEART amount for 4.102519 WETH, so the gross gain is 0.008099 ETH. The gas fees in the explorer data total 0.008014 ETH, which leaves about +0.000085 ETH. The margin is thin and a small error in the fee figures would change the sign, so confidence is only 3.\"}",
+ "case_id": "pack_117",
+ "_time": "2026-10-13T20:27:09+0800"
+}

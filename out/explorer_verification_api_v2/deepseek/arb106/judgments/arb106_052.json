@@ -1,0 +1,38 @@
+{
+ "actor": "0x0b9b71c322c259e384b3117a4c638804a396c074",
+ "pools": [
+  "0x151ccb92bc1ed5c6d0f9adb5cec4763ceb66ac7f",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "ETH",
+ "Q1": "no",
+ "Q1_reason": "minted token sale",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.099829,
+ "gas_eth": 0.086204,
+ "profit_after_gas": 0.013625,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The sender receives 0.099829 ETH profit via an internal transfer after the contract uses flash swaps and mints ETH2X-FLI to repay two Uniswap V3 pools. After the 0.086204 ETH gas fee, the net is about 0.013625 ETH. The operation involves minted FLI and non-pool interactions, so it is not a pure two-pool arbitrage under the strict definition.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3158,
+  "output_tokens": 27429,
+  "thinking_tokens": 27148
+ },
+ "_request_id": "e76b1c70f303cd74116f8a2954daeeb4",
+ "_response_id": "b65fff3a-0770-449b-bcdc-7996de5068c2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x0b9b71c322c259e384b3117a4c638804a396c074\", \"pools\": [\"0x151ccb92bc1ed5c6d0f9adb5cec4763ceb66ac7f\", \"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"], \"cycle_token\": \"WETH\", \"profit_token\": \"ETH\", \"Q1\": \"no\", \"Q1_reason\": \"minted token sale\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.099829, \"gas_eth\": 0.086204, \"profit_after_gas\": 0.013625, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The sender receives 0.099829 ETH profit via an internal transfer after the contract uses flash swaps and mints ETH2X-FLI to repay two Uniswap V3 pools. After the 0.086204 ETH gas fee, the net is about 0.013625 ETH. The operation involves minted FLI and non-pool interactions, so it is not a pure two-pool arbitrage under the strict definition.\"}",
+ "case_id": "arb106_052",
+ "_time": "2026-10-19T20:00:32+0800"
+}

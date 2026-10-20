@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.023975,
+ "gas_eth": 0.017411,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract buys 3514.90 PROS on the PROS/USDC V2 pool in the front leg (funded by 3.064233 WETH routed through the V3 USDC/WETH pool). The victim buys PROS on that pool, and the contract sells the full 3514.90 PROS back in the back leg for 3.107414 WETH. Gross WETH gain is 0.043181, less the 0.019206 ETH sent on to the block producer, leaves 0.023975. Gas of 0.017411 leaves about +0.00656 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0241027,
+ "_session": "f9c7f542-390c-4d4d-98f1-60e88c48c9e7",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x3155acd9f75915fcc21d34035f440da7040bd3ba\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.023975, \"gas_eth\": 0.017411, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract buys 3514.90 PROS on the PROS/USDC V2 pool in the front leg (funded by 3.064233 WETH routed through the V3 USDC/WETH pool). The victim buys PROS on that pool, and the contract sells the full 3514.90 PROS back in the back leg for 3.107414 WETH. Gross WETH gain is 0.043181, less the 0.019206 ETH sent on to the block producer, leaves 0.023975. Gas of 0.017411 leaves about +0.00656 ETH.\"}",
+ "case_id": "pack_056",
+ "_time": "2026-10-13T20:14:49+0800"
+}

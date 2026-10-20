@@ -1,0 +1,40 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x8f30ba1f75ec27a014591789d117a1bb4703bff8",
+  "0x9f319e265b8189b5b5c2152cacc791b95b3da180",
+  "0xee802b312a957e00dd7bbc08eec8bb93d40e981d",
+  "0x36e2fcccc59e5747ff63a03ea2e5c0c2c14911e7",
+  "0x12014971036f0279d08705d1824c30f631c4b7fb"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000973,
+ "gas_eth": 0.014452,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x169c sends and receives WETH across multiple pools, netting +0.015425 WETH before gas. After the 0.014452 ETH gas fee, the position remains slightly positive, with no non-WETH residual held by the actor.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2007,
+  "output_tokens": 7676,
+  "thinking_tokens": 7394
+ },
+ "_request_id": "3ff23ad734925d466cb1b800eceb35cb",
+ "_response_id": "61f1eb72-d9bb-4592-b7ea-b9a3f61f1adb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x8f30ba1f75ec27a014591789d117a1bb4703bff8\",\"0x9f319e265b8189b5b5c2152cacc791b95b3da180\",\"0xee802b312a957e00dd7bbc08eec8bb93d40e981d\",\"0x36e2fcccc59e5747ff63a03ea2e5c0c2c14911e7\",\"0x12014971036f0279d08705d1824c30f631c4b7fb\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000973,\"gas_eth\":0.014452,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x169c sends and receives WETH across multiple pools, netting +0.015425 WETH before gas. After the 0.014452 ETH gas fee, the position remains slightly positive, with no non-WETH residual held by the actor.\"}",
+ "case_id": "arb106_105",
+ "_time": "2026-10-19T19:42:44+0800"
+}

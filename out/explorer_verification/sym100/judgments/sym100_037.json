@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.012456,
+ "gas_eth": 0.003114,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 676.268793 DFYN into the pool in the front leg, the victim sells 4027 DFYN into the same pool, and the actor buys back exactly 676.268793 DFYN in the back leg, so the DFYN position is flat. WETH net is +0.533 - 0.520544 = +0.012456, and after 0.003114 ETH gas for both legs about +0.009342 ETH remains. The bracket runs short-first (sell then rebuy) rather than buy then sell, which is the only reason confidence is not 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0231887,
+ "_session": "e27bd55d-7e3a-4a11-9a54-8de56af54d30",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0xcab335e1964363e48a790da303b74ec02d3f8fb2\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.012456, \"gas_eth\": 0.003114, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 676.268793 DFYN into the pool in the front leg, the victim sells 4027 DFYN into the same pool, and the actor buys back exactly 676.268793 DFYN in the back leg, so the DFYN position is flat. WETH net is +0.533 - 0.520544 = +0.012456, and after 0.003114 ETH gas for both legs about +0.009342 ETH remains. The bracket runs short-first (sell then rebuy) rather than buy then sell, which is the only reason confidence is not 5.\"}",
+ "case_id": "sym100_037",
+ "_time": "2026-10-13T21:30:49+0800"
+}

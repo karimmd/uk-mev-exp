@@ -1,0 +1,31 @@
+{
+ "actor": "0xf2972a2b8eda253678877995147869ed99b50e39",
+ "pool": "0xc491405d542a393d8d202a72f0fb076447e61891",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.204213,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use the same UniswapV2 pool for WHACKD/WETH, and the victim also swaps on that pool between them. The actor receives 213636.452861 WHACKD in front and disposes of exactly that amount in back, leaving no residual. Net ETH/WETH after internal transfers and zero gas is +0.204213.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2909,
+  "output_tokens": 4869,
+  "thinking_tokens": 4703
+ },
+ "_request_id": "a857f2d2885c3e09c9356ad467495292",
+ "_response_id": "04a09378-5e67-4e09-853f-f84ae498859f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xf2972a2b8eda253678877995147869ed99b50e39\",\"pool\":\"0xc491405d542a393d8d202a72f0fb076447e61891\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.204213,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use the same UniswapV2 pool for WHACKD/WETH, and the victim also swaps on that pool between them. The actor receives 213636.452861 WHACKD in front and disposes of exactly that amount in back, leaving no residual. Net ETH/WETH after internal transfers and zero gas is +0.204213.\"}",
+ "case_id": "pack_153",
+ "_time": "2026-10-19T18:31:08+0800"
+}

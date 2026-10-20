@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x724d5c9c618a2152e99a45649a3b8cf198321f46",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.046826,
+ "gas_eth": 0.045348,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor contract, called by the same sender in both legs, buys REVV on pool 0xc926 and sells it into pool 0x724d in the front leg. The victim also sells REVV into 0x724d, and the back leg reverses both trades. This is a two-pool round trip rather than a held token position, so Q1 is the less certain call. The actor's WETH nets +0.046826 (-0.607252 front, +0.654078 back). After 0.045348 ETH gas the result is about +0.00148 ETH, a thin margin.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0281207,
+ "_session": "61b7f987-f561-4966-a923-126cd7e584d3",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x724d5c9c618a2152e99a45649a3b8cf198321f46\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.046826, \"gas_eth\": 0.045348, \"residual\": \"none\", \"confidence\": 3, \"note\": \"The actor contract, called by the same sender in both legs, buys REVV on pool 0xc926 and sells it into pool 0x724d in the front leg. The victim also sells REVV into 0x724d, and the back leg reverses both trades. This is a two-pool round trip rather than a held token position, so Q1 is the less certain call. The actor's WETH nets +0.046826 (-0.607252 front, +0.654078 back). After 0.045348 ETH gas the result is about +0.00148 ETH, a thin margin.\"}",
+ "case_id": "pack_164",
+ "_time": "2026-10-13T20:36:34+0800"
+}

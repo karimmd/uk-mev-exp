@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0xe46935ae80e05cdebd4a4008b6ccaa36d2845370",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.051156,
+ "gas_eth": 0.063288,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x1d6e... receives 47685.928389 OM in the front and sends that exact amount back in the back through pool 0xe469..., while the victim also trades on that pool between the legs. Gross WETH net is +0.114444; after 0.063288 ETH total front/back gas, net is +0.051156 with no residual OM.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2282,
+  "output_tokens": 4643,
+  "thinking_tokens": 4457
+ },
+ "_request_id": "ccf5a0343474ce34ce9999f7d57b9487",
+ "_response_id": "69dea15a-66b6-4c73-bc6e-2325f7f0d6f8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0xe46935ae80e05cdebd4a4008b6ccaa36d2845370\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.051156,\"gas_eth\":0.063288,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x1d6e... receives 47685.928389 OM in the front and sends that exact amount back in the back through pool 0xe469..., while the victim also trades on that pool between the legs. Gross WETH net is +0.114444; after 0.063288 ETH total front/back gas, net is +0.051156 with no residual OM.\"}",
+ "case_id": "pack_119",
+ "_time": "2026-10-19T18:23:08+0800"
+}

@@ -1,0 +1,25 @@
+{
+ "actor": "0x911605012f87a3017322c81fcb4c90ada7c09116",
+ "pools": [
+  "0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b",
+  "0x92995d179a5528334356cb4dc5c6cbb1c068696c",
+  "0x004375dff511095cc5a197a54140a24efef3a416",
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.009827,
+ "gas_eth": 0.006691,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 1.492293 WETH into the WETH/USTC pair. The other pools pass the value on directly: USTC to the USDC/USTC V3 pool, USDC to the WBTC/USDC pair, WBTC to the WETH/WBTC V3 pool. The actor then receives 1.502804 WETH, a gross gain of 0.010511. After the 0.000684 ETH internal payment to 0xea67... the gain is 0.009827, and after the 0.006691 ETH gas fee it is about +0.003136 ETH. The actor holds no other tokens at the end. The WETH legs don't net to zero because the difference is the profit, so the closed cycle runs through the pools rather than through the actor's own balances.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0285392,
+ "_session": "ee5e9679-5a0f-4b27-a999-53ef21be5ea2",
+ "_raw": "{\"actor\":\"0x911605012f87a3017322c81fcb4c90ada7c09116\",\"pools\":[\"0x8b00ee8606cc70c2dce68dea0cefe632cca0fb7b\",\"0x92995d179a5528334356cb4dc5c6cbb1c068696c\",\"0x004375dff511095cc5a197a54140a24efef3a416\",\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.009827,\"gas_eth\":0.006691,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 1.492293 WETH into the WETH/USTC pair. The other pools pass the value on directly: USTC to the USDC/USTC V3 pool, USDC to the WBTC/USDC pair, WBTC to the WETH/WBTC V3 pool. The actor then receives 1.502804 WETH, a gross gain of 0.010511. After the 0.000684 ETH internal payment to 0xea67... the gain is 0.009827, and after the 0.006691 ETH gas fee it is about +0.003136 ETH. The actor holds no other tokens at the end. The WETH legs don't net to zero because the difference is the profit, so the closed cycle runs through the pools rather than through the actor's own balances.\"}",
+ "case_id": "arb106_064",
+ "_time": "2026-10-13T22:25:04+0800"
+}

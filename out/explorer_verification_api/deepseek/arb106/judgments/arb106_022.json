@@ -1,0 +1,38 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c",
+  "0x788248dddf945542ca202713e6cb74195db07209",
+  "0xf1b63cd9d80f922514c04b0fd0a30373316dd75b"
+ ],
+ "cycle_token": "OHM",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001773,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor received OHM from the UniswapV2 pair 0x34d7..., paid OHM into two UniswapV3 pools, had DAI routed back to the V2 pair and WETH sent to itself, then unwrapped WETH and paid 0.010044 ETH to 0xea67..., ending +0.001773 ETH net. OHM nets to zero and no residual non-WETH holding remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1887,
+  "output_tokens": 8600,
+  "thinking_tokens": 8314
+ },
+ "_request_id": "b933d5ac36ba0c86e20e6d2e00cff213",
+ "_response_id": "bd98ee8f-8a59-4bd5-a350-ce2cb02747fc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\", \"pools\": [\"0x34d7d7aaf50ad4944b70b320acb24c95fa2def7c\", \"0x788248dddf945542ca202713e6cb74195db07209\", \"0xf1b63cd9d80f922514c04b0fd0a30373316dd75b\"], \"cycle_token\": \"OHM\", \"profit_token\": \"ETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.001773, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Actor received OHM from the UniswapV2 pair 0x34d7..., paid OHM into two UniswapV3 pools, had DAI routed back to the V2 pair and WETH sent to itself, then unwrapped WETH and paid 0.010044 ETH to 0xea67..., ending +0.001773 ETH net. OHM nets to zero and no residual non-WETH holding remains.\"}",
+ "case_id": "arb106_022",
+ "_time": "2026-10-19T19:09:02+0800"
+}

@@ -1,0 +1,39 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e",
+  "0x3139bbba7f4b9125595cb4ebeefdac1fce7ab5f1",
+  "0xb6909b960dbbe7392d405429eb2b3649752b4838",
+  "0xcc39592f5cb193a70f262aa301f54db1d600e6da"
+ ],
+ "cycle_token": "BAT",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.005305,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The central contract closed equal BAT and RUNE cycles across four Uniswap pools and gained 0.021223 WETH. It also paid 0.015918 ETH internally; with zero gas fee, the net is about +0.005305 ETH/WETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2378,
+  "output_tokens": 8531,
+  "thinking_tokens": 8278
+ },
+ "_request_id": "52f071fb49cc58c37f8cdb200fb7f147",
+ "_response_id": "dfd6d81c-6207-407b-8669-9b5438decd7e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000a1c7212a1c129512d80eb30d14dc08\",\"pools\":[\"0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e\",\"0x3139bbba7f4b9125595cb4ebeefdac1fce7ab5f1\",\"0xb6909b960dbbe7392d405429eb2b3649752b4838\",\"0xcc39592f5cb193a70f262aa301f54db1d600e6da\"],\"cycle_token\":\"BAT\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.005305,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The central contract closed equal BAT and RUNE cycles across four Uniswap pools and gained 0.021223 WETH. It also paid 0.015918 ETH internally; with zero gas fee, the net is about +0.005305 ETH/WETH.\"}",
+ "case_id": "arb106_060",
+ "_time": "2026-10-19T19:23:38+0800"
+}

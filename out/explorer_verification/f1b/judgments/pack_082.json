@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x860425be6ad1345dc7a3e287facbf32b18bc4fae",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.073097,
+ "gas_eth": 0.078148,
+ "residual": "about 0.00029 mSLV (dust)",
+ "confidence": 4,
+ "note": "The same contract buys mSLV through the WETH->USTC->mSLV route in the front leg. The victim then buys mSLV with USTC on the shared USTC/mSLV pool. The contract sells the mSLV back through the same route in the back leg. WETH gain is 5.243776 - 5.170679 = 0.073097, which is less than the 0.078148 ETH combined gas, so the net is about -0.00505 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0230668,
+ "_session": "95e6606f-4a88-41a3-b7bb-e70c7fc4cbef",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x860425be6ad1345dc7a3e287facbf32b18bc4fae\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.073097, \"gas_eth\": 0.078148, \"residual\": \"about 0.00029 mSLV (dust)\", \"confidence\": 4, \"note\": \"The same contract buys mSLV through the WETH->USTC->mSLV route in the front leg. The victim then buys mSLV with USTC on the shared USTC/mSLV pool. The contract sells the mSLV back through the same route in the back leg. WETH gain is 5.243776 - 5.170679 = 0.073097, which is less than the 0.078148 ETH combined gas, so the net is about -0.00505 ETH.\"}",
+ "case_id": "pack_082",
+ "_time": "2026-10-13T20:20:18+0800"
+}

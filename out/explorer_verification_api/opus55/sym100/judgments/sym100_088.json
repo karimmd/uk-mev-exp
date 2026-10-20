@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0xc433e27c2b7a77e4021524a90354b9922c825335",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.029123,
+ "gas_eth": 0.035433,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a sell-side sandwich on the same UniswapV2 RDT/WETH pool. Contract 0xc1df sells 29958 RDT for 3.099062 WETH ahead of the victim's RDT sell, then buys exactly 29958 RDT back for 3.034506 WETH. That leaves +0.064556 WETH gross, and 0.029123 ETH after 0.035433 ETH of gas, with no RDT residual.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2969,
+  "output_tokens": 670,
+  "thinking_tokens": 393
+ },
+ "_request_id": "req_011CgBSZcA2ZipBcpZ16YWM1",
+ "_response_id": "msg_011CgBSZcXrycFM4D95gN81P",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0xc433e27c2b7a77e4021524a90354b9922c825335\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.029123, \"gas_eth\": 0.035433, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a sell-side sandwich on the same UniswapV2 RDT/WETH pool. Contract 0xc1df sells 29958 RDT for 3.099062 WETH ahead of the victim's RDT sell, then buys exactly 29958 RDT back for 3.034506 WETH. That leaves +0.064556 WETH gross, and 0.029123 ETH after 0.035433 ETH of gas, with no RDT residual.\"}",
+ "case_id": "sym100_088",
+ "_time": "2026-10-19T18:31:09+0800"
+}

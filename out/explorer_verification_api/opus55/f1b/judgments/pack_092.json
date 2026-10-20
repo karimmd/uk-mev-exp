@@ -1,0 +1,31 @@
+{
+ "actor": "0x86a53c9e32abd3677e38bd0b390f24dd080e6426",
+ "pool": "0x8867f20c1c63baccec7617626254a060eeb0e61e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.024663,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0x86a5 spends 10.570436 WETH for 18653.127364 PHA on pool 0x8867 before the victim. The victim routes CRU->WETH->PHA through that same pool, and 0x86a5 then sells exactly the same PHA amount back for 10.715240 WETH. Both legs have zero gas price, but 0.120141 WETH is unwrapped and sent as ETH to 0xd224 (likely a builder or miner payment); counting that outflow leaves +0.024663 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3602,
+  "output_tokens": 625,
+  "thinking_tokens": 316
+ },
+ "_request_id": "req_011CgBRARM9fFHQUL4JMMfY3",
+ "_response_id": "msg_011CgBRAWvm1oek8ijXzw4yD",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x86a53c9e32abd3677e38bd0b390f24dd080e6426\", \"pool\": \"0x8867f20c1c63baccec7617626254a060eeb0e61e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.024663, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0x86a5 spends 10.570436 WETH for 18653.127364 PHA on pool 0x8867 before the victim. The victim routes CRU->WETH->PHA through that same pool, and 0x86a5 then sells exactly the same PHA amount back for 10.715240 WETH. Both legs have zero gas price, but 0.120141 WETH is unwrapped and sent as ETH to 0xd224 (likely a builder or miner payment); counting that outflow leaves +0.024663 ETH.\"}\n```",
+ "case_id": "pack_092",
+ "_time": "2026-10-19T18:12:49+0800"
+}

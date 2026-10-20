@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x1197774e49f98b24c7afa88f0eb6fbd0e0786a0a",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011446,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract paid 1.171875 WETH through the V3 USDT/WETH pool and the V2 USDT/zUSD pool to get 3006.977897 zUSD. It sold exactly that zUSD back on the same V2 pool after the victim's USDT->zUSD swap, then got 1.197310 WETH. The gross gain is 0.025435 WETH. The back leg also paid 0.013989 ETH to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c (likely a builder tip), so I counted that as a cost. Both legs show 0 gwei gas fees.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0309332,
+ "_session": "30487a90-ce4e-4a7d-916f-d37c74a1c37f",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x1197774e49f98b24c7afa88f0eb6fbd0e0786a0a\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.011446, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract paid 1.171875 WETH through the V3 USDT/WETH pool and the V2 USDT/zUSD pool to get 3006.977897 zUSD. It sold exactly that zUSD back on the same V2 pool after the victim's USDT->zUSD swap, then got 1.197310 WETH. The gross gain is 0.025435 WETH. The back leg also paid 0.013989 ETH to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c (likely a builder tip), so I counted that as a cost. Both legs show 0 gwei gas fees.\"}",
+ "case_id": "rej53_042",
+ "_time": "2026-10-13T22:01:54+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x9282dc5c422fa91ff2f6ff3a0b45b7bf97cf78e7",
+ "pool": "0x1549a45a18b1658783aa27068fee449cc80876ce",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.041661,
+ "gas_eth": 0.015055,
+ "residual": "about 1.8076e12 MADINU (90815923163824.69 bought minus 89008313126009.53 sold)",
+ "confidence": 4,
+ "note": "The same contract buys MADINU with 0.45 WETH in the front leg and sells most of it back for 0.491661 ETH in the back leg. The victim's USDT to WETH to MADINU swap goes through the same MADINU/WETH pool between the two legs. Net ETH is +0.041661 and gas is 0.015055, leaving about +0.0266 ETH. The leftover MADINU can only add to that, so the sign is positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3397,
+  "output_tokens": 787,
+  "thinking_tokens": 477
+ },
+ "_request_id": "req_011CgBQK1TM6Fh1HkNLkfXPe",
+ "_response_id": "msg_011CgBQK7bgPbuDzya1b26pS",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x9282dc5c422fa91ff2f6ff3a0b45b7bf97cf78e7\",\"pool\":\"0x1549a45a18b1658783aa27068fee449cc80876ce\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.041661,\"gas_eth\":0.015055,\"residual\":\"about 1.8076e12 MADINU (90815923163824.69 bought minus 89008313126009.53 sold)\",\"confidence\":4,\"note\":\"The same contract buys MADINU with 0.45 WETH in the front leg and sells most of it back for 0.491661 ETH in the back leg. The victim's USDT to WETH to MADINU swap goes through the same MADINU/WETH pool between the two legs. Net ETH is +0.041661 and gas is 0.015055, leaving about +0.0266 ETH. The leftover MADINU can only add to that, so the sign is positive.\"}",
+ "case_id": "pack_026",
+ "_time": "2026-10-19T18:01:39+0800"
+}

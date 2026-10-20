@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0x86e69d1ae728c9cd229f07bbf34e01bf27258354",
+  "0xbda1200eed6aa819c781f3b66d1312a3b703eb2e",
+  "0x2efec2097beede290b2eed63e2faf5ecbbc528fc",
+  "0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad"
+ ],
+ "cycle_token": "TRU",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.00394,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.00394,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract executed two independent WETH-based cycles: WETH\u2192TRU\u2192WETH and WETH\u2192CEEK\u2192WETH. Net WETH gain is 0.015761 minus the 0.011821 ETH internal payment, leaving +0.00394 ETH/WETH; gas fee is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2146,
+  "output_tokens": 6962,
+  "thinking_tokens": 6684
+ },
+ "_request_id": "a44e3f4209db090f2927d8dad5407c1a",
+ "_response_id": "d9c812dc-452a-49e6-82a6-0cf80a9f2ba2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000a1c7212a1c129512d80eb30d14dc08\",\"pools\":[\"0x86e69d1ae728c9cd229f07bbf34e01bf27258354\",\"0xbda1200eed6aa819c781f3b66d1312a3b703eb2e\",\"0x2efec2097beede290b2eed63e2faf5ecbbc528fc\",\"0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad\"],\"cycle_token\":\"TRU\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.00394,\"gas_eth\":0.0,\"profit_after_gas\":0.00394,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract executed two independent WETH-based cycles: WETH\u2192TRU\u2192WETH and WETH\u2192CEEK\u2192WETH. Net WETH gain is 0.015761 minus the 0.011821 ETH internal payment, leaving +0.00394 ETH/WETH; gas fee is zero.\"}",
+ "case_id": "arb106_005",
+ "_time": "2026-10-19T19:48:12+0800"
+}

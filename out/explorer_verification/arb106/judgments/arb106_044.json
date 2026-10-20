@@ -1,0 +1,23 @@
+{
+ "actor": "0x313e1e91a38615d163a42fc4d6035fbdf5066a99",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "SAITAMA",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.014811,
+ "gas_eth": 0.012881,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 0.842895 WETH to pool 0x9cbf, which sends SAITAMA straight to pool 0xd0dc. Pool 0xd0dc returns 0.857706 WETH to the actor. That is a two-pool WETH\u2192SAITAMA\u2192WETH loop with a gross gain of 0.014811 WETH and no leftover token. After the 0.012881 ETH fee, the net is about +0.00193 ETH. The strict 'closed cycle' wording fits loosely, because the cycle closes on the pools' SAITAMA leg and the actor itself only holds WETH. The sender EOA pays the gas, not the actor contract.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0237832,
+ "_session": "35d83751-f73e-49f8-8ac0-50f6481c2e7c",
+ "_raw": "{\"actor\":\"0x313e1e91a38615d163a42fc4d6035fbdf5066a99\",\"pools\":[\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\",\"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"],\"cycle_token\":\"SAITAMA\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.014811,\"gas_eth\":0.012881,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 0.842895 WETH to pool 0x9cbf, which sends SAITAMA straight to pool 0xd0dc. Pool 0xd0dc returns 0.857706 WETH to the actor. That is a two-pool WETH\u2192SAITAMA\u2192WETH loop with a gross gain of 0.014811 WETH and no leftover token. After the 0.012881 ETH fee, the net is about +0.00193 ETH. The strict 'closed cycle' wording fits loosely, because the cycle closes on the pools' SAITAMA leg and the actor itself only holds WETH. The sender EOA pays the gas, not the actor contract.\"}",
+ "case_id": "arb106_044",
+ "_time": "2026-10-13T22:20:37+0800"
+}

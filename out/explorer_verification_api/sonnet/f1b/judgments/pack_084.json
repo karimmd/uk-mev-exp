@@ -1,0 +1,31 @@
+{
+ "actor": "0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e",
+ "pool": "0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf",
+ "Q1": "yes",
+ "Q2": "cannot tell",
+ "net_eth": 0,
+ "gas_eth": 0.010099,
+ "residual": "+104.061985 XIO (received 3726.061985 XIO in the back leg, sent 3622 XIO in the front leg)",
+ "confidence": 3,
+ "note": "The same contract actor sells 3622 XIO for 6.119153 WETH in the front leg, and the victim sells 25000 XIO into the same pool. The actor then buys back 3726.06 XIO with exactly 6.119153 WETH. The WETH nets to zero, so ETH after gas is -0.010099. The actor ends with about 104 XIO extra, and no price is shown for it, so the sign cannot be set from the explorer data. The bracket runs sell-then-buy, which is a short round trip using inventory the actor already held.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3104,
+  "output_tokens": 971,
+  "thinking_tokens": 619
+ },
+ "_request_id": "req_011CgBQyz3rYgsZEg6WamwGb",
+ "_response_id": "msg_011CgBQz2t1iQE7eNSmXHkV5",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xf0ff36954b81e6bf8dc9e70046a26cf49a03ec9e\",\"pool\":\"0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf\",\"Q1\":\"yes\",\"Q2\":\"cannot tell\",\"net_eth\":0,\"gas_eth\":0.010099,\"residual\":\"+104.061985 XIO (received 3726.061985 XIO in the back leg, sent 3622 XIO in the front leg)\",\"confidence\":3,\"note\":\"The same contract actor sells 3622 XIO for 6.119153 WETH in the front leg, and the victim sells 25000 XIO into the same pool. The actor then buys back 3726.06 XIO with exactly 6.119153 WETH. The WETH nets to zero, so ETH after gas is -0.010099. The actor ends with about 104 XIO extra, and no price is shown for it, so the sign cannot be set from the explorer data. The bracket runs sell-then-buy, which is a short round trip using inventory the actor already held.\"}",
+ "case_id": "pack_084",
+ "_time": "2026-10-19T18:10:28+0800"
+}

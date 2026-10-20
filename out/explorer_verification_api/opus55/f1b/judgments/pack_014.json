@@ -1,0 +1,31 @@
+{
+ "actor": "0xc6e6dd6a0c61651d1bc055dc1c22418a729d41bb",
+ "pool": "0x51c1d5cdf10dda49219054920c22c8d4a23eed89",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.713041,
+ "gas_eth": 0.30479,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Contract 0xc6e6 pays 16.53 WETH for 2,478,058.296219 LX on pool 0x51c1 at position 0. The victim buys LX with WETH on the same pool at position 130, and at position 131 the contract sells the identical LX amount back for 17.547831 WETH. That is 1.017831 WETH gross, minus 0.30479 ETH gas (the front leg's 4730 gwei fee dominates), giving 0.713041 net with no LX left; the front and back legs come from different senders but both call the same contract.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3096,
+  "output_tokens": 548,
+  "thinking_tokens": 231
+ },
+ "_request_id": "req_011CgBQBRWyhdH3A593zDqvo",
+ "_response_id": "msg_011CgBQBXRvWoo1y2fV9VXdz",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc6e6dd6a0c61651d1bc055dc1c22418a729d41bb\", \"pool\": \"0x51c1d5cdf10dda49219054920c22c8d4a23eed89\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.713041, \"gas_eth\": 0.30479, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Contract 0xc6e6 pays 16.53 WETH for 2,478,058.296219 LX on pool 0x51c1 at position 0. The victim buys LX with WETH on the same pool at position 130, and at position 131 the contract sells the identical LX amount back for 17.547831 WETH. That is 1.017831 WETH gross, minus 0.30479 ETH gas (the front leg's 4730 gwei fee dominates), giving 0.713041 net with no LX left; the front and back legs come from different senders but both call the same contract.\"}",
+ "case_id": "pack_014",
+ "_time": "2026-10-19T17:59:56+0800"
+}

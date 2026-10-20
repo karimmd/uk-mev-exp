@@ -1,0 +1,30 @@
+{
+ "actor": "0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70",
+ "pools": [
+  "0xefb47fcfcad4f96c83d4ca676842fb03ef20a477",
+  "0xff64cb7ba5717a10dabc4be3a41acd2c2f95ee22",
+  "0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec",
+  "0x92cc4300b9fd36242900bca782b2e9e000bd5099",
+  "0x819de42d3ab832eaf7111a222a8a5a7419f13b48",
+  "0x7c082bf85e01f9bb343dbb460a14e51f67c58cfb",
+  "0xecfbe9b182f6477a93065c1c11271232147838e5",
+  "0x28b67e0a4e570720c111c090c45daa065a54e58d",
+  "0xd1d5a4c0ea98971894772dcd6d2f1dc71083c44e"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.092287,
+ "gas_eth": 0.08607,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs three WETH-closed cycles: WETH->BONE->SHIB->WETH, WETH->ROUTE->USDC->DOLA->WETH, and WETH->LQTY->WETH. All the non-WETH tokens move only between pools. WETH in is 6.579972 and out is 6.487685, so the gross gain is 0.092287. After the 0.086070 gas fee the net is about +0.006217 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0314132,
+ "_session": "4541f337-98ec-4227-aeff-33bb7c18239b",
+ "_raw": "{\"actor\":\"0xe33cb50a2090211ae988231ba0fbab9eb6d5ea70\",\"pools\":[\"0xefb47fcfcad4f96c83d4ca676842fb03ef20a477\",\"0xff64cb7ba5717a10dabc4be3a41acd2c2f95ee22\",\"0x2f62f2b4c5fcd7570a709dec05d68ea19c82a9ec\",\"0x92cc4300b9fd36242900bca782b2e9e000bd5099\",\"0x819de42d3ab832eaf7111a222a8a5a7419f13b48\",\"0x7c082bf85e01f9bb343dbb460a14e51f67c58cfb\",\"0xecfbe9b182f6477a93065c1c11271232147838e5\",\"0x28b67e0a4e570720c111c090c45daa065a54e58d\",\"0xd1d5a4c0ea98971894772dcd6d2f1dc71083c44e\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.092287,\"gas_eth\":0.08607,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor runs three WETH-closed cycles: WETH->BONE->SHIB->WETH, WETH->ROUTE->USDC->DOLA->WETH, and WETH->LQTY->WETH. All the non-WETH tokens move only between pools. WETH in is 6.579972 and out is 6.487685, so the gross gain is 0.092287. After the 0.086070 gas fee the net is about +0.006217 ETH.\"}",
+ "case_id": "arb106_009",
+ "_time": "2026-10-13T22:12:00+0800"
+}

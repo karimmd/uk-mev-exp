@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.005452,
+ "gas_eth": 0.040054,
+ "residual": "about 687.89 DRIP (bought 34394.68, sold 33706.79)",
+ "confidence": 4,
+ "note": "The actor contract bought DRIP on DRIP/WETH pair 0xd2ef with 0.172002 WETH before the victim's USDC->WETH->DRIP swap on the same pair, then sold DRIP back to that pair for 0.217508 WETH. The WETH gain is 0.045506, minus 0.040054 gas (the back leg paid 0 gwei, a pre-London bundle), which leaves about +0.0055 ETH. The leftover DRIP is a non-negative holding, so the sign stays positive; the self-destruct internal transfers are zero-value gas-token refunds.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3387,
+  "output_tokens": 804,
+  "thinking_tokens": 445
+ },
+ "_request_id": "req_011CgBRfBJMTWMhMXesmK1Kk",
+ "_response_id": "msg_011CgBRfF7Yj6iohNViVET8a",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xd2efbe4b7da66c152ee1d2f09b274e45fbd0120d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.005452, \"gas_eth\": 0.040054, \"residual\": \"about 687.89 DRIP (bought 34394.68, sold 33706.79)\", \"confidence\": 4, \"note\": \"The actor contract bought DRIP on DRIP/WETH pair 0xd2ef with 0.172002 WETH before the victim's USDC->WETH->DRIP swap on the same pair, then sold DRIP back to that pair for 0.217508 WETH. The WETH gain is 0.045506, minus 0.040054 gas (the back leg paid 0 gwei, a pre-London bundle), which leaves about +0.0055 ETH. The leftover DRIP is a non-negative holding, so the sign stays positive; the self-destruct internal transfers are zero-value gas-token refunds.\"}",
+ "case_id": "pack_142",
+ "_time": "2026-10-19T18:19:20+0800"
+}

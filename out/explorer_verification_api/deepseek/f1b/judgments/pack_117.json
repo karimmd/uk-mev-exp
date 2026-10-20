@@ -1,0 +1,31 @@
+{
+ "actor": "0x01ff6318440f7d5553a82294d78262d5f5084eff",
+ "pool": "0x404e716257c4f4bcc43b967514520b98c0c09dd5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 8.5e-05,
+ "gas_eth": 0.008014,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both route through 0x01ff..., which receives 83553.057894 HEART from the shared pool in front and returns the same amount in back. WETH net is +0.008099 before gas, and after 0.008014 gas the position remains positive. No HEART residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2260,
+  "output_tokens": 2657,
+  "thinking_tokens": 2493
+ },
+ "_request_id": "f8c830d4e897fab474abda9bf7e01991",
+ "_response_id": "dc2b44ee-d826-4807-b19b-b498ec39037f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x01ff6318440f7d5553a82294d78262d5f5084eff\",\"pool\":\"0x404e716257c4f4bcc43b967514520b98c0c09dd5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.000085,\"gas_eth\":0.008014,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both route through 0x01ff..., which receives 83553.057894 HEART from the shared pool in front and returns the same amount in back. WETH net is +0.008099 before gas, and after 0.008014 gas the position remains positive. No HEART residual remains.\"}",
+ "case_id": "pack_117",
+ "_time": "2026-10-19T18:22:44+0800"
+}

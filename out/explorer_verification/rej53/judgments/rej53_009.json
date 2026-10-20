@@ -1,0 +1,17 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xad698190cca1bd50263a6358ffac7c6f0460886f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.208818,
+ "gas_eth": 0.00017,
+ "residual": "none",
+ "confidence": 5,
+ "note": "0xf6da... pays 1.420858 WETH into the CAT/WETH pool for 47242237743976.6875 CAT in the front leg. The victim then buys CAT on the same pool with 1 ETH. In the back leg the actor returns the identical CAT amount and receives 1.629676 WETH. That nets +0.208818 WETH before gas, or about +0.208648 after roughly 0.00017 ETH of gas across the two legs, with no CAT left over.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.019606699999999998,
+ "_session": "78bafd89-d3d4-4948-bcae-eb561f8f9358",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0xad698190cca1bd50263a6358ffac7c6f0460886f\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.208818, \"gas_eth\": 0.00017, \"residual\": \"none\", \"confidence\": 5, \"note\": \"0xf6da... pays 1.420858 WETH into the CAT/WETH pool for 47242237743976.6875 CAT in the front leg. The victim then buys CAT on the same pool with 1 ETH. In the back leg the actor returns the identical CAT amount and receives 1.629676 WETH. That nets +0.208818 WETH before gas, or about +0.208648 after roughly 0.00017 ETH of gas across the two legs, with no CAT left over.\"}",
+ "case_id": "rej53_009",
+ "_time": "2026-10-13T21:55:14+0800"
+}

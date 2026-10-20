@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "All three transactions come from the same sender (0xe104...) and each one sells OTEN into the same pool for 0.1 ETH. The victim leg is the same address making the same kind of sale as the front and back legs, so no distinct victim sits between an opening and a closing trade. No leg buys OTEN to open a position and no leg closes one, so this is not a sandwich bracket. I left the net and profit figures null because there is no bracket to net.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3789,
+  "output_tokens": 256,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVc2nmkbpgrSuTWVzsy",
+ "_response_id": "msg_011CgBVc3AME5s2CJnwnuqo3",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x93670adb8f8b3b6802b37a7a511e0e45a6ff93e5\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"All three transactions come from the same sender (0xe104...) and each one sells OTEN into the same pool for 0.1 ETH. The victim leg is the same address making the same kind of sale as the front and back legs, so no distinct victim sits between an opening and a closing trade. No leg buys OTEN to open a position and no leg closes one, so this is not a sandwich bracket. I left the net and profit figures null because there is no bracket to net.\"}",
+ "case_id": "pack_093",
+ "_time": "2026-10-19T19:10:58+0800"
+}

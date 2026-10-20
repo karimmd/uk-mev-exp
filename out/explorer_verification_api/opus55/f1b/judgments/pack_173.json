@@ -1,0 +1,31 @@
+{
+ "actor": "0x575c3a99429352eda66661fc3857b9f83f58a73f",
+ "pool": "0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.074817,
+ "gas_eth": 0.0,
+ "residual": "none observable (0xcdeb token amounts not decoded, presumed closed)",
+ "confidence": 4,
+ "note": "Contract 0x575c pays 2.432921 WETH into pool 0xc532 for token 0xcdeb in the front leg. The victim buys 0xcdeb with WETH on the same pool, and the back leg sells 0xcdeb back for 2.681661 WETH (+0.24874). After the 0.173923 ETH unwrapped and sent to 0x99c85b (likely a miner payment, since both legs have zero gas price), about 0.0748 ETH remains; the 0xcdeb amounts are not decoded, so a full close is inferred, not seen.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2945,
+  "output_tokens": 850,
+  "thinking_tokens": 505
+ },
+ "_request_id": "req_011CgBRqz21eGFQ77AeMim8g",
+ "_response_id": "msg_011CgBRqzQLGAxGtJBCaYkWY",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x575c3a99429352eda66661fc3857b9f83f58a73f\", \"pool\": \"0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.074817, \"gas_eth\": 0.0, \"residual\": \"none observable (0xcdeb token amounts not decoded, presumed closed)\", \"confidence\": 4, \"note\": \"Contract 0x575c pays 2.432921 WETH into pool 0xc532 for token 0xcdeb in the front leg. The victim buys 0xcdeb with WETH on the same pool, and the back leg sells 0xcdeb back for 2.681661 WETH (+0.24874). After the 0.173923 ETH unwrapped and sent to 0x99c85b (likely a miner payment, since both legs have zero gas price), about 0.0748 ETH remains; the 0xcdeb amounts are not decoded, so a full close is inferred, not seen.\"}",
+ "case_id": "pack_173",
+ "_time": "2026-10-19T18:21:46+0800"
+}

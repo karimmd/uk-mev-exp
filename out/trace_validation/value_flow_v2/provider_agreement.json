@@ -1,0 +1,22 @@
+{
+ "agree": 600,
+ "checked": 600,
+ "differences": [],
+ "fields_compared": [
+  "hash",
+  "from",
+  "to",
+  "value",
+  "nonce",
+  "blockNumber",
+  "transactionIndex",
+  "input"
+ ],
+ "generated_at": "2026-09-20 20:35:38 CST",
+ "primary": "https://cloudflare-eth.com",
+ "sampled": 600,
+ "second_provider_unavailable": 0,
+ "secondary": "https://eth.drpc.org",
+ "seed": 20260920,
+ "tolerance": "T4 provider agreement, exact"
+}

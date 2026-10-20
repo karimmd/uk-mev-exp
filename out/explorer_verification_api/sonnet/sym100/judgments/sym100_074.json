@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x94b86ca6f7a495930fe7f552eb9e4cbb5ef2b736",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.175917,
+ "gas_eth": 0.175918,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract acts in both legs. In the front leg it sells ICE into the V2 pool (the victim's pool) via a V3 to V2 route, and in the back leg it buys ICE back from that V2 pool and sends it to V3, with the victim's ICE sale on V2 in between. Each leg is an atomic two-pool route that leaves no ICE behind. Gross WETH is -0.291278 in the front plus 0.467195 in the back, which is +0.175917. Gas is 0.175918, so the net after cost is about zero to slightly negative.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4279,
+  "output_tokens": 1461,
+  "thinking_tokens": 1153
+ },
+ "_request_id": "req_011CgBSLUSKwHgyovj3dreQy",
+ "_response_id": "msg_011CgBSLUmvRoaj7JkMVZHKF",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x94b86ca6f7a495930fe7f552eb9e4cbb5ef2b736\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":0.175917,\"gas_eth\":0.175918,\"residual\":\"none\",\"confidence\":3,\"note\":\"The same contract acts in both legs. In the front leg it sells ICE into the V2 pool (the victim's pool) via a V3 to V2 route, and in the back leg it buys ICE back from that V2 pool and sends it to V3, with the victim's ICE sale on V2 in between. Each leg is an atomic two-pool route that leaves no ICE behind. Gross WETH is -0.291278 in the front plus 0.467195 in the back, which is +0.175917. Gas is 0.175918, so the net after cost is about zero to slightly negative.\"}",
+ "case_id": "sym100_074",
+ "_time": "2026-10-19T18:28:16+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xa40bb1c47f6dd27142a2bd7c93bfa98db9d1f5c5",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.003608,
+ "gas_eth": 0.030672,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The target contract opens a MASK position in the front leg and closes the same MASK amount in the back leg on the shared UniswapV2 pool also used by the victim. WETH gain is 0.034280, and after 0.030672 gas the net is positive with no residual MASK.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3332,
+  "output_tokens": 2699,
+  "thinking_tokens": 2532
+ },
+ "_request_id": "2aab181fa6096c653ed575dfbe99e9c6",
+ "_response_id": "cdbef706-8e0f-4d4c-848f-093c6b859b3d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xa40bb1c47f6dd27142a2bd7c93bfa98db9d1f5c5\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.003608,\"gas_eth\":0.030672,\"residual\":\"none\",\"confidence\":5,\"note\":\"The target contract opens a MASK position in the front leg and closes the same MASK amount in the back leg on the shared UniswapV2 pool also used by the victim. WETH gain is 0.034280, and after 0.030672 gas the net is positive with no residual MASK.\"}",
+ "case_id": "rej53_012",
+ "_time": "2026-10-19T18:58:07+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8",
+ "pool": "0x0dacb47e00aed6abade32c7b398e029393e0d848",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.053907,
+ "gas_eth": 0.026177,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a same-transaction arbitrage by 0x78a5\u2026. It buys SOCKS from the bonding-curve contract 0x22d8\u2026 for 4.508 ETH and sells it into pool 0x0dac\u2026 for 4.562 ETH, holding no position afterwards. The back leg is a different actor (0x860b\u2026) doing the same kind of arbitrage, so no actor opens and then closes a position around the victim. Taking the front actor alone, the net is +0.0539 ETH before the 0.0262 ETH gas fee, which is positive after cost. Summing both legs would give +0.2833 ETH before 0.0452 ETH gas, also positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4030,
+  "output_tokens": 1162,
+  "thinking_tokens": 819
+ },
+ "_request_id": "req_011CgBQNKLTdXqhFTRB3QDTj",
+ "_response_id": "msg_011CgBQNRGQXDymubUGH4rjm",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x78a55b9b3bbeffb36a43d9905f654d2769dc55e8\",\"pool\":\"0x0dacb47e00aed6abade32c7b398e029393e0d848\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.053907,\"gas_eth\":0.026177,\"residual\":\"none\",\"confidence\":4,\"note\":\"The front leg is a same-transaction arbitrage by 0x78a5\u2026. It buys SOCKS from the bonding-curve contract 0x22d8\u2026 for 4.508 ETH and sells it into pool 0x0dac\u2026 for 4.562 ETH, holding no position afterwards. The back leg is a different actor (0x860b\u2026) doing the same kind of arbitrage, so no actor opens and then closes a position around the victim. Taking the front actor alone, the net is +0.0539 ETH before the 0.0262 ETH gas fee, which is positive after cost. Summing both legs would give +0.2833 ETH before 0.0452 ETH gas, also positive.\"}",
+ "case_id": "pack_031",
+ "_time": "2026-10-19T18:02:26+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.0,
+ "gas_eth": 0.015612,
+ "residual": "net short about 519.44 TRU (sent 61603.19 TRU in the front leg, got back 61083.75 TRU in the back leg)",
+ "confidence": 3,
+ "note": "The same contract (called by 0xb9ce\u2026) sells TRU into the TRU/WETH pool before the victim's TRU sale and buys back after it, so the bracket structure fits. WETH nets to exactly 0 (13.726 in, 13.726 out), gas is 0.015612 ETH, and the TRU balance ends lower by about 519 TRU, so the position is negative after cost. The TRU shortfall is odd for a sandwich, which suggests other activity touched the pool between the legs or the actor has other flows I can't see here.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0323212,
+ "_session": "5a5e7b13-bf8e-474b-ac2b-0700e6ec7c22",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.0, \"gas_eth\": 0.015612, \"residual\": \"net short about 519.44 TRU (sent 61603.19 TRU in the front leg, got back 61083.75 TRU in the back leg)\", \"confidence\": 3, \"note\": \"The same contract (called by 0xb9ce\u2026) sells TRU into the TRU/WETH pool before the victim's TRU sale and buys back after it, so the bracket structure fits. WETH nets to exactly 0 (13.726 in, 13.726 out), gas is 0.015612 ETH, and the TRU balance ends lower by about 519 TRU, so the position is negative after cost. The TRU shortfall is odd for a sandwich, which suggests other activity touched the pool between the legs or the actor has other flows I can't see here.\"}",
+ "case_id": "pack_087",
+ "_time": "2026-10-13T20:21:32+0800"
+}

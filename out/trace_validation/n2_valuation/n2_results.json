@@ -1,0 +1,511 @@
+{
+ "cases_in_scope": 5021,
+ "generated_at": "2026-10-05 03:00:35 CST",
+ "rule_sha256": "513686f4cb25ee528931dea590505b215d7e16a0470492c3843fd66320820ba9",
+ "variants": {
+  "A_only": {
+   "bounds": {
+    "all_undecidable_to_rejection": {
+     "missed_share_pct": 67.4419,
+     "outside_own_band": true,
+     "own_null_95_band_pp": [
+      -7.4768,
+      6.5858
+     ],
+     "permutation_p_two_sided": 0.00015,
+     "recorded_share_pct": 83.7654,
+     "standardized_diff_pp": -14.015,
+     "unadjusted_diff_pp": -16.3236
+    },
+    "all_undecidable_to_support": {
+     "missed_share_pct": 79.845,
+     "outside_own_band": true,
+     "own_null_95_band_pp": [
+      -4.8422,
+      3.6739
+     ],
+     "permutation_p_two_sided": 5e-05,
+     "recorded_share_pct": 95.252,
+     "standardized_diff_pp": -11.0894,
+     "unadjusted_diff_pp": -15.407
+    }
+   },
+   "comparator_sensitivity": {
+    "pooled_nearmiss_into_comparator_diff_pp": 10.1256,
+    "primary_unpooled_diff_pp": -16.3236,
+    "swing_pp": 26.4491
+   },
+   "outcome_by_arm": {
+    "control_detected": {
+     "rejected": 489,
+     "structurally_supported": 8627,
+     "undecidable": 1183
+    },
+    "control_nearmiss": {
+     "rejected": 5034,
+     "structurally_supported": 1334,
+     "undecidable": 712
+    },
+    "target_strict_miss": {
+     "rejected": 52,
+     "structurally_supported": 174,
+     "undecidable": 32
+    }
+   },
+   "primary": {
+    "coverage_of_missed": 1.0,
+    "demoted_by_coverage": false,
+    "permutation_null_95_band_pp": [
+     -7.4768,
+     6.5858
+    ],
+    "permutation_p_two_sided": 0.00015,
+    "permutations": 20000,
+    "standardized_diff_pp": -14.015,
+    "standardized_missed_pct": 69.1316,
+    "standardized_recorded_pct": 83.1466,
+    "strata_included": 21
+   },
+   "rejection_provenance": {
+    "control_detected": {
+     "trajectory_negative": 479,
+     "value_flow_non_positive": 10
+    },
+    "target_strict_miss": {
+     "trajectory_negative": 49,
+     "trajectory_negative|value_flow_non_positive": 2,
+     "value_flow_non_positive": 1
+    }
+   },
+   "resolution_of_scope": {
+    "control_detected": {
+     "A": 2489,
+     "undecided": 596
+    },
+    "control_nearmiss": {
+     "A": 292,
+     "undecided": 1514
+    },
+    "target_strict_miss": {
+     "A": 108,
+     "undecided": 22
+    }
+   },
+   "unadjusted": {
+    "diff_pp": -16.3236,
+    "missed_support_pct": 67.4419,
+    "n_missed": 258,
+    "n_recorded": 10299,
+    "newcombe_95_pp": [
+     -22.302,
+     -10.8497
+    ],
+    "recorded_support_pct": 83.7654
+   },
+   "undecidable_provenance": {
+    "control_detected": {
+     "cross_token_position_unpriced|n2_rule_A_undecided": 544,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow": 17,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_A_dominance": 9,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_A_dominance|unobserved_cost_could_change_sign": 203,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present": 3,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present|zero_gas_price_with_no_observable_payment|unobserved_cost_could_change_sign": 251,
+     "strategy_boundary_unresolved": 156
+    },
+    "target_strict_miss": {
+     "cross_token_position_unpriced|n2_rule_A_undecided": 14,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_A_dominance": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_A_dominance|unobserved_cost_could_change_sign": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present|zero_gas_price_with_no_observable_payment|unobserved_cost_could_change_sign": 2,
+     "strategy_boundary_unresolved": 4
+    }
+   },
+   "undecidable_share": {
+    "P5_fires": false,
+    "blinded_null_95_band_pp": [
+     -5.08,
+     5.15
+    ],
+    "diff_pp": 0.9165,
+    "missed_pct": 12.4031,
+    "recorded_pct": 11.4866
+   }
+  },
+  "B_only": {
+   "bounds": {
+    "all_undecidable_to_rejection": {
+     "missed_share_pct": 62.4031,
+     "outside_own_band": true,
+     "own_null_95_band_pp": [
+      -7.3595,
+      6.4921
+     ],
+     "permutation_p_two_sided": 5e-05,
+     "recorded_share_pct": 85.0471,
+     "standardized_diff_pp": -19.0153,
+     "unadjusted_diff_pp": -22.644
+    },
+    "all_undecidable_to_support": {
+     "missed_share_pct": 79.4574,
+     "outside_own_band": true,
+     "own_null_95_band_pp": [
+      -4.8851,
+      3.7277
+     ],
+     "permutation_p_two_sided": 5e-05,
+     "recorded_share_pct": 94.8344,
+     "standardized_diff_pp": -12.3878,
+     "unadjusted_diff_pp": -15.3771
+    }
+   },
+   "comparator_sensitivity": {
+    "pooled_nearmiss_into_comparator_diff_pp": 4.0568,
+    "primary_unpooled_diff_pp": -22.644,
+    "swing_pp": 26.7008
+   },
+   "outcome_by_arm": {
+    "control_detected": {
+     "rejected": 532,
+     "structurally_supported": 8759,
+     "undecidable": 1008
+    },
+    "control_nearmiss": {
+     "rejected": 4942,
+     "structurally_supported": 1381,
+     "undecidable": 757
+    },
+    "target_strict_miss": {
+     "rejected": 53,
+     "structurally_supported": 161,
+     "undecidable": 44
+    }
+   },
+   "primary": {
+    "coverage_of_missed": 1.0,
+    "demoted_by_coverage": false,
+    "permutation_null_95_band_pp": [
+     -7.3595,
+     6.4921
+    ],
+    "permutation_p_two_sided": 5e-05,
+    "permutations": 20000,
+    "standardized_diff_pp": -19.0153,
+    "standardized_missed_pct": 65.2251,
+    "standardized_recorded_pct": 84.2404,
+    "strata_included": 21
+   },
+   "rejection_provenance": {
+    "control_detected": {
+     "trajectory_negative": 475,
+     "trajectory_negative|value_flow_non_positive": 4,
+     "value_flow_non_positive": 53
+    },
+    "target_strict_miss": {
+     "trajectory_negative": 48,
+     "trajectory_negative|value_flow_non_positive": 3,
+     "value_flow_non_positive": 2
+    }
+   },
+   "resolution_of_scope": {
+    "control_detected": {
+     "B": 2678,
+     "undecided": 407
+    },
+    "control_nearmiss": {
+     "B": 279,
+     "undecided": 1527
+    },
+    "target_strict_miss": {
+     "B": 98,
+     "undecided": 32
+    }
+   },
+   "unadjusted": {
+    "diff_pp": -22.644,
+    "missed_support_pct": 62.4031,
+    "n_missed": 258,
+    "n_recorded": 10299,
+    "newcombe_95_pp": [
+     -28.7333,
+     -16.9131
+    ],
+    "recorded_support_pct": 85.0471
+   },
+   "undecidable_provenance": {
+    "control_detected": {
+     "cross_token_position_unpriced|cross_token_no_realized_rate": 368,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow": 17,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_B_conservative_realized_rate": 10,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_B_conservative_realized_rate|unobserved_cost_could_change_sign": 203,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present": 3,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present|zero_gas_price_with_no_observable_payment|unobserved_cost_could_change_sign": 251,
+     "strategy_boundary_unresolved": 156
+    },
+    "target_strict_miss": {
+     "cross_token_position_unpriced|cross_token_no_realized_rate": 26,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_B_conservative_realized_rate": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_B_conservative_realized_rate|unobserved_cost_could_change_sign": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present|zero_gas_price_with_no_observable_payment|unobserved_cost_could_change_sign": 2,
+     "strategy_boundary_unresolved": 4
+    }
+   },
+   "undecidable_share": {
+    "P5_fires": true,
+    "blinded_null_95_band_pp": [
+     -5.08,
+     5.15
+    ],
+    "diff_pp": 7.2669,
+    "missed_pct": 17.0543,
+    "recorded_pct": 9.7874
+   }
+  },
+  "frozen": {
+   "bounds": {
+    "all_undecidable_to_rejection": {
+     "missed_share_pct": 31.3953,
+     "outside_own_band": true,
+     "own_null_95_band_pp": [
+      -8.1233,
+      7.5226
+     ],
+     "permutation_p_two_sided": 5e-05,
+     "recorded_share_pct": 62.8313,
+     "standardized_diff_pp": -23.4493,
+     "unadjusted_diff_pp": -31.436
+    },
+    "all_undecidable_to_support": {
+     "missed_share_pct": 79.845,
+     "outside_own_band": true,
+     "own_null_95_band_pp": [
+      -4.8422,
+      3.6739
+     ],
+     "permutation_p_two_sided": 5e-05,
+     "recorded_share_pct": 95.252,
+     "standardized_diff_pp": -11.0894,
+     "unadjusted_diff_pp": -15.407
+    }
+   },
+   "comparator_sensitivity": {
+    "pooled_nearmiss_into_comparator_diff_pp": -13.308,
+    "primary_unpooled_diff_pp": -31.436,
+    "swing_pp": 18.128
+   },
+   "outcome_by_arm": {
+    "control_detected": {
+     "rejected": 489,
+     "structurally_supported": 6471,
+     "undecidable": 3339
+    },
+    "control_nearmiss": {
+     "rejected": 4877,
+     "structurally_supported": 1298,
+     "undecidable": 905
+    },
+    "target_strict_miss": {
+     "rejected": 52,
+     "structurally_supported": 81,
+     "undecidable": 125
+    }
+   },
+   "primary": {
+    "coverage_of_missed": 1.0,
+    "demoted_by_coverage": false,
+    "permutation_null_95_band_pp": [
+     -8.1233,
+     7.5226
+    ],
+    "permutation_p_two_sided": 5e-05,
+    "permutations": 20000,
+    "standardized_diff_pp": -23.4493,
+    "standardized_missed_pct": 42.4405,
+    "standardized_recorded_pct": 65.8897,
+    "strata_included": 21
+   },
+   "rejection_provenance": {
+    "control_detected": {
+     "trajectory_negative": 479,
+     "value_flow_non_positive": 10
+    },
+    "target_strict_miss": {
+     "trajectory_negative": 49,
+     "trajectory_negative|value_flow_non_positive": 2,
+     "value_flow_non_positive": 1
+    }
+   },
+   "unadjusted": {
+    "diff_pp": -31.436,
+    "missed_support_pct": 31.3953,
+    "n_missed": 258,
+    "n_recorded": 10299,
+    "newcombe_95_pp": [
+     -36.8709,
+     -25.461
+    ],
+    "recorded_support_pct": 62.8313
+   },
+   "undecidable_provenance": {
+    "control_detected": {
+     "cross_token_position_unpriced": 2912,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow": 17,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present": 3,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present|zero_gas_price_with_no_observable_payment|unobserved_cost_could_change_sign": 251,
+     "strategy_boundary_unresolved": 156
+    },
+    "target_strict_miss": {
+     "cross_token_position_unpriced": 115,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present|zero_gas_price_with_no_observable_payment|unobserved_cost_could_change_sign": 2,
+     "strategy_boundary_unresolved": 4
+    }
+   },
+   "undecidable_share": {
+    "P5_fires": true,
+    "blinded_null_95_band_pp": [
+     -5.08,
+     5.15
+    ],
+    "diff_pp": 16.029,
+    "missed_pct": 48.4496,
+    "recorded_pct": 32.4206
+   }
+  },
+  "primary": {
+   "bounds": {
+    "all_undecidable_to_rejection": {
+     "missed_share_pct": 68.6047,
+     "outside_own_band": true,
+     "own_null_95_band_pp": [
+      -7.3378,
+      6.4344
+     ],
+     "permutation_p_two_sided": 0.00015,
+     "recorded_share_pct": 85.1733,
+     "standardized_diff_pp": -14.2949,
+     "unadjusted_diff_pp": -16.5687
+    },
+    "all_undecidable_to_support": {
+     "missed_share_pct": 79.4574,
+     "outside_own_band": true,
+     "own_null_95_band_pp": [
+      -4.8851,
+      3.7277
+     ],
+     "permutation_p_two_sided": 5e-05,
+     "recorded_share_pct": 94.8344,
+     "standardized_diff_pp": -12.3878,
+     "unadjusted_diff_pp": -15.3771
+    }
+   },
+   "comparator_sensitivity": {
+    "pooled_nearmiss_into_comparator_diff_pp": 10.0627,
+    "primary_unpooled_diff_pp": -16.5687,
+    "swing_pp": 26.6314
+   },
+   "outcome_by_arm": {
+    "control_detected": {
+     "rejected": 532,
+     "structurally_supported": 8772,
+     "undecidable": 995
+    },
+    "control_nearmiss": {
+     "rejected": 5081,
+     "structurally_supported": 1402,
+     "undecidable": 597
+    },
+    "target_strict_miss": {
+     "rejected": 53,
+     "structurally_supported": 177,
+     "undecidable": 28
+    }
+   },
+   "primary": {
+    "coverage_of_missed": 1.0,
+    "demoted_by_coverage": false,
+    "permutation_null_95_band_pp": [
+     -7.3378,
+     6.4344
+    ],
+    "permutation_p_two_sided": 0.00015,
+    "permutations": 20000,
+    "standardized_diff_pp": -14.2949,
+    "standardized_missed_pct": 70.1088,
+    "standardized_recorded_pct": 84.4038,
+    "strata_included": 21
+   },
+   "rejection_provenance": {
+    "control_detected": {
+     "trajectory_negative": 475,
+     "trajectory_negative|value_flow_non_positive": 4,
+     "value_flow_non_positive": 53
+    },
+    "target_strict_miss": {
+     "trajectory_negative": 48,
+     "trajectory_negative|value_flow_non_positive": 3,
+     "value_flow_non_positive": 2
+    }
+   },
+   "resolution_of_scope": {
+    "control_detected": {
+     "A": 2489,
+     "B": 202,
+     "undecided": 394
+    },
+    "control_nearmiss": {
+     "A": 292,
+     "B": 214,
+     "undecided": 1300
+    },
+    "target_strict_miss": {
+     "A": 108,
+     "B": 7,
+     "undecided": 15
+    }
+   },
+   "unadjusted": {
+    "diff_pp": -16.5687,
+    "missed_support_pct": 68.6047,
+    "n_missed": 258,
+    "n_recorded": 10299,
+    "newcombe_95_pp": [
+     -22.5078,
+     -11.1682
+    ],
+    "recorded_support_pct": 85.1733
+   },
+   "undecidable_provenance": {
+    "control_detected": {
+     "cross_token_position_unpriced|cross_token_no_realized_rate": 355,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow": 17,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_A_dominance": 9,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_A_dominance|unobserved_cost_could_change_sign": 203,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_B_conservative_realized_rate": 1,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present": 3,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present|zero_gas_price_with_no_observable_payment|unobserved_cost_could_change_sign": 251,
+     "strategy_boundary_unresolved": 156
+    },
+    "target_strict_miss": {
+     "cross_token_position_unpriced|cross_token_no_realized_rate": 10,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_A_dominance": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|n2_rule_A_dominance|unobserved_cost_could_change_sign": 4,
+     "eth_equivalent_ledger_native_plus_weth|cost_basis_gas_plus_boundary_native_outflow|zero_gas_price_leg_present|zero_gas_price_with_no_observable_payment|unobserved_cost_could_change_sign": 2,
+     "strategy_boundary_unresolved": 4
+    }
+   },
+   "undecidable_share": {
+    "P5_fires": false,
+    "blinded_null_95_band_pp": [
+     -5.08,
+     5.15
+    ],
+    "diff_pp": 1.1916,
+    "missed_pct": 10.8527,
+    "recorded_pct": 9.6611
+   }
+  }
+ }
+}

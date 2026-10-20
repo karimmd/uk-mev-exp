@@ -1,0 +1,31 @@
+{
+ "actor": "0xa1fac94eabbc27715a022a96009babfb4a49fb5d",
+ "pool": "0xfac2c7bc156c2c764ea21def2262ec2131100ab1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.16272,
+ "gas_eth": 0.030145,
+ "residual": "about 170.7M RAKUC (8663.72M received minus 8493.02M sold), likely transfer tax, worth roughly 0.03 WETH at the front price",
+ "confidence": 4,
+ "note": "The actor contract buys RAKUC with 1.555025 WETH on the RAKUC/WETH pool in the front leg. The victim buys RAKUC on the same pool in between, and the actor sells back for 1.717745 WETH in the back leg. Gross gain is 0.16272 ETH and gas is 0.030145 ETH, leaving about +0.1326 ETH, which stays positive even if the small RAKUC residual is counted at zero. The extra RAKUC-to-ETH swap in the back leg is the token contract's own fee swap and not the actor's.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3733,
+  "output_tokens": 1237,
+  "thinking_tokens": 871
+ },
+ "_request_id": "req_011CgBQKBd2wygZqPEnhuUCQ",
+ "_response_id": "msg_011CgBQKGjcQs38uYNonjjkk",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xa1fac94eabbc27715a022a96009babfb4a49fb5d\",\"pool\":\"0xfac2c7bc156c2c764ea21def2262ec2131100ab1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.16272,\"gas_eth\":0.030145,\"residual\":\"about 170.7M RAKUC (8663.72M received minus 8493.02M sold), likely transfer tax, worth roughly 0.03 WETH at the front price\",\"confidence\":4,\"note\":\"The actor contract buys RAKUC with 1.555025 WETH on the RAKUC/WETH pool in the front leg. The victim buys RAKUC on the same pool in between, and the actor sells back for 1.717745 WETH in the back leg. Gross gain is 0.16272 ETH and gas is 0.030145 ETH, leaving about +0.1326 ETH, which stays positive even if the small RAKUC residual is counted at zero. The extra RAKUC-to-ETH swap in the back leg is the token contract's own fee swap and not the actor's.\"}",
+ "case_id": "pack_027",
+ "_time": "2026-10-19T18:01:44+0800"
+}

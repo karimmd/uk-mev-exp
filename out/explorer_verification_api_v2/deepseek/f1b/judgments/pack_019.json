@@ -1,0 +1,32 @@
+{
+ "actor": "0x51acf0af77adcb20de482e1cd678f620baf07e0c",
+ "pool": "0x7ba9b94127d434182287de708643932ec036d365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.636694,
+ "gas_eth": 0.018576448,
+ "profit_after_gas": 0.618117552,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x51acf0 buys 132246.6589 eRSDL for 17.43 WETH on the UniswapV2 pool, the victim buys the same token on that pool, and the contract sells the exact eRSDL amount back for 18.066694 WETH. Net ETH/WETH gain before gas is 0.636694 ETH; front+back gas totals 0.018576448 ETH, leaving a positive residual-free profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2695,
+  "output_tokens": 3767,
+  "thinking_tokens": 3557
+ },
+ "_request_id": "0342a00af8faebdcd3182e7307cf2029",
+ "_response_id": "79e6e9e6-3100-4866-b466-4fbde8f98607",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x51acf0af77adcb20de482e1cd678f620baf07e0c\",\"pool\":\"0x7ba9b94127d434182287de708643932ec036d365\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.636694,\"gas_eth\":0.018576448,\"profit_after_gas\":0.618117552,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0x51acf0 buys 132246.6589 eRSDL for 17.43 WETH on the UniswapV2 pool, the victim buys the same token on that pool, and the contract sells the exact eRSDL amount back for 18.066694 WETH. Net ETH/WETH gain before gas is 0.636694 ETH; front+back gas totals 0.018576448 ETH, leaving a positive residual-free profit.\"}",
+ "case_id": "pack_019",
+ "_time": "2026-10-19T19:05:50+0800"
+}

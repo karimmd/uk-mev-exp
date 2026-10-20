@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000c9fdd743c60055c0e4ea30d266272c1f",
+ "pool": "0xaa736ca527252cf9f65abed23c21f5ac46af27e3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.936199,
+ "gas_eth": 0.022745,
+ "residual": "-16825.804927 GOLD (back leg sold more GOLD than the front leg bought, drawn from prior inventory)",
+ "confidence": 3,
+ "note": "Contract 0x00000000c9fd buys GOLD with WETH on UniV2 pool 0xaa73 before the victim's router buy on the same pool, then sells GOLD back to that pool for WETH: a clear bracket. Raw net is +4.198289 - 2.239345 - 0.022745 gas = +1.936 ETH, but it also sold 16,826 extra GOLD from inventory. Reconstructing the pool reserves (about 14.87 WETH / 152k GOLD) prices that GOLD at about 1.65 ETH pre-trade, leaving the sandwich component at about +0.28 ETH after gas; valuing it at the post-victim spot price instead would flip the sign, so the result is not certain.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2907,
+  "output_tokens": 2292,
+  "thinking_tokens": 1874
+ },
+ "_request_id": "req_011CgBRvWUgmNYJNiKm4ThuX",
+ "_response_id": "msg_011CgBRvWrWmS31EoYoxJtSN",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x00000000c9fdd743c60055c0e4ea30d266272c1f\", \"pool\": \"0xaa736ca527252cf9f65abed23c21f5ac46af27e3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.936199, \"gas_eth\": 0.022745, \"residual\": \"-16825.804927 GOLD (back leg sold more GOLD than the front leg bought, drawn from prior inventory)\", \"confidence\": 3, \"note\": \"Contract 0x00000000c9fd buys GOLD with WETH on UniV2 pool 0xaa73 before the victim's router buy on the same pool, then sells GOLD back to that pool for WETH: a clear bracket. Raw net is +4.198289 - 2.239345 - 0.022745 gas = +1.936 ETH, but it also sold 16,826 extra GOLD from inventory. Reconstructing the pool reserves (about 14.87 WETH / 152k GOLD) prices that GOLD at about 1.65 ETH pre-trade, leaving the sandwich component at about +0.28 ETH after gas; valuing it at the post-victim spot price instead would flip the sign, so the result is not certain.\"}\n```",
+ "case_id": "pack_186",
+ "_time": "2026-10-19T18:23:02+0800"
+}

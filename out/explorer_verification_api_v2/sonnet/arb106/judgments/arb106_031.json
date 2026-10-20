@@ -1,0 +1,40 @@
+{
+ "actor": "0x3765521db364ee269e9540970fd21e5a3e825699",
+ "pools": [
+  "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+  "0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615",
+  "0x3125e45d5665e98a08388a7df051a728b647eaae",
+  "0x724d5c9c618a2152e99a45649a3b8cf198321f46"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.001647,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.001647,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 0.579783 WETH into the MANA/WETH V2 pool. The route then runs MANA to the MANA/USDC V3 pool, USDC to the REVV/USDC V3 pool, and REVV to the REVV/WETH V2 pool, which returns 0.588453 WETH. That is +0.008670 WETH, less the 0.007023 ETH the actor sends out in an internal transfer (likely a tip to the block producer), for +0.001647 ETH. The explorer shows a gas price of 0.0 gwei, so I took the gas fee as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2344,
+  "output_tokens": 1210,
+  "thinking_tokens": 751
+ },
+ "_request_id": "req_011CgBX97EPn13fKJezE4PYW",
+ "_response_id": "msg_011CgBX97bjM3YjcjhQ72ceT",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x3765521db364ee269e9540970fd21e5a3e825699\",\"pools\":[\"0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3\",\"0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615\",\"0x3125e45d5665e98a08388a7df051a728b647eaae\",\"0x724d5c9c618a2152e99a45649a3b8cf198321f46\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.001647,\"gas_eth\":0.0,\"profit_after_gas\":0.001647,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 0.579783 WETH into the MANA/WETH V2 pool. The route then runs MANA to the MANA/USDC V3 pool, USDC to the REVV/USDC V3 pool, and REVV to the REVV/WETH V2 pool, which returns 0.588453 WETH. That is +0.008670 WETH, less the 0.007023 ETH the actor sends out in an internal transfer (likely a tip to the block producer), for +0.001647 ETH. The explorer shows a gas price of 0.0 gwei, so I took the gas fee as 0.\"}",
+ "case_id": "arb106_031",
+ "_time": "2026-10-19T19:31:14+0800"
+}

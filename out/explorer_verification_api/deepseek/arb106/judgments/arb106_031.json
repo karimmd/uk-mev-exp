@@ -1,0 +1,39 @@
+{
+ "actor": "0x3765521db364ee269e9540970fd21e5a3e825699",
+ "pools": [
+  "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+  "0x724d5c9c618a2152e99a45649a3b8cf198321f46",
+  "0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615",
+  "0x3125e45d5665e98a08388a7df051a728b647eaae"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001647,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor contract 0x3765 sent WETH into a MANA/WETH pool, routed through MANA/USDC and USDC/REVV pools, and received more WETH from the REVV/WETH pool. It also paid 0.007023 ETH internally, leaving a net positive 0.001647 ETH/WETH with zero gas cost.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1762,
+  "output_tokens": 7309,
+  "thinking_tokens": 7035
+ },
+ "_request_id": "0f29cc7dc33151306681cec37726b904",
+ "_response_id": "2a659bef-6820-4281-b1af-902580c4aed2",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3765521db364ee269e9540970fd21e5a3e825699\",\"pools\":[\"0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3\",\"0x724d5c9c618a2152e99a45649a3b8cf198321f46\",\"0xcc6c15c979e4e1c6baf6b4ed9ca143f84fe15615\",\"0x3125e45d5665e98a08388a7df051a728b647eaae\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001647,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor contract 0x3765 sent WETH into a MANA/WETH pool, routed through MANA/USDC and USDC/REVV pools, and received more WETH from the REVV/WETH pool. It also paid 0.007023 ETH internally, leaving a net positive 0.001647 ETH/WETH with zero gas cost.\"}",
+ "case_id": "arb106_031",
+ "_time": "2026-10-19T19:11:51+0800"
+}

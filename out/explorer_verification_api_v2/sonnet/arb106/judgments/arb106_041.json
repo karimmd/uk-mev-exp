@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000fbcaf22009ef39f5316bc58d9728aa",
+ "pools": [
+  "0xba3f54d4ed114a359b3ab81ed11834a2b54addc1",
+  "0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983",
+  "0x44c21f5dcb285d92320ae345c92e8b6204be8cdf",
+  "0xa44002e8062c90a8f8b3cfce6ec70990bba28ae5"
+ ],
+ "cycle_token": "$DG and ROOK (both close at zero net)",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.007218,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.007218,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two cycles close at zero net: $DG (bought on V3 pool ba3f, sold on V2 pool 44c2) and ROOK (bought on V2 pool 70ec, sold on V3 pool a440). WETH in is 3.115120 and WETH out is 3.086248, so +0.028872 WETH. The 0.021654 ETH call to 0x5a0b\u2026 is treated as a cost, giving +0.007218 net. Gas is shown as 0 at 0.0 gwei, so I took the fee as 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3146,
+  "output_tokens": 1077,
+  "thinking_tokens": 616
+ },
+ "_request_id": "req_011CgBXCqrJNB12qFyBntcGv",
+ "_response_id": "msg_011CgBXCrDcyDGg8JbRuvG7J",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x0000000000fbcaf22009ef39f5316bc58d9728aa\",\"pools\":[\"0xba3f54d4ed114a359b3ab81ed11834a2b54addc1\",\"0x70ec2fa6eccf4010eaf572d1c1a7bcbc72dec983\",\"0x44c21f5dcb285d92320ae345c92e8b6204be8cdf\",\"0xa44002e8062c90a8f8b3cfce6ec70990bba28ae5\"],\"cycle_token\":\"$DG and ROOK (both close at zero net)\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.007218,\"gas_eth\":0.0,\"profit_after_gas\":0.007218,\"residual\":\"none\",\"confidence\":4,\"note\":\"Two cycles close at zero net: $DG (bought on V3 pool ba3f, sold on V2 pool 44c2) and ROOK (bought on V2 pool 70ec, sold on V3 pool a440). WETH in is 3.115120 and WETH out is 3.086248, so +0.028872 WETH. The 0.021654 ETH call to 0x5a0b\u2026 is treated as a cost, giving +0.007218 net. Gas is shown as 0 at 0.0 gwei, so I took the fee as 0.\"}",
+ "case_id": "arb106_041",
+ "_time": "2026-10-19T19:32:02+0800"
+}

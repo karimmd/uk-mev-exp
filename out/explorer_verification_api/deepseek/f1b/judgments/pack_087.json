@@ -1,0 +1,31 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": -0.015612,
+ "gas_eth": 0.015612,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor sells TRU for WETH in the front and buys TRU with WETH in the back, so the non-WETH position is opened in the back, not the front, and this is not a Q1 sandwich bracket. Net WETH across the legs is zero; after 0.015612 ETH gas the actor is negative, and it also has a net TRU deficit of 519.441522.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2446,
+  "output_tokens": 11054,
+  "thinking_tokens": 10847
+ },
+ "_request_id": "6777264d387c6b78583d323dec883d7a",
+ "_response_id": "3afccf28-c776-4dfc-82ee-2065c384b76c",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x80b4d4e9d88d9f78198c56c5a27f3bacb9a685c5\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": -0.015612, \"gas_eth\": 0.015612, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor sells TRU for WETH in the front and buys TRU with WETH in the back, so the non-WETH position is opened in the back, not the front, and this is not a Q1 sandwich bracket. Net WETH across the legs is zero; after 0.015612 ETH gas the actor is negative, and it also has a net TRU deficit of 519.441522.\"}",
+ "case_id": "pack_087",
+ "_time": "2026-10-19T18:17:43+0800"
+}

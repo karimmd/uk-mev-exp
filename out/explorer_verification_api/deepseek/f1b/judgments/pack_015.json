@@ -1,0 +1,31 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x428bc363a7d743425863d6e5699683a69cacedc8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.162641,
+ "gas_eth": 0.0,
+ "residual": "555179084023.7109375 JINU",
+ "confidence": 5,
+ "note": "Front spends 1.61 WETH for JINU on pool 0x428b; victim trades on the same pool; back sells JINU for 1.772641 WETH from the same actor. Net WETH is +0.162641, gas fees are zero, and a small JINU residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2625,
+  "output_tokens": 5413,
+  "thinking_tokens": 5236
+ },
+ "_request_id": "694835b0ce84ce87546b498e0ad2a838",
+ "_response_id": "5a9ac49d-6a33-4387-96d8-16f30cd2cc9b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x428bc363a7d743425863d6e5699683a69cacedc8\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.162641,\"gas_eth\":0.0,\"residual\":\"555179084023.7109375 JINU\",\"confidence\":5,\"note\":\"Front spends 1.61 WETH for JINU on pool 0x428b; victim trades on the same pool; back sells JINU for 1.772641 WETH from the same actor. Net WETH is +0.162641, gas fees are zero, and a small JINU residual remains.\"}",
+ "case_id": "pack_015",
+ "_time": "2026-10-19T18:01:28+0800"
+}

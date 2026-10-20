@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xcab335e1964363e48a790da303b74ec02d3f8fb2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.23177,
+ "gas_eth": 0.010935,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract sells 2661.115396 DFYN into the DFYN/WETH pool in the front leg (receiving 3.869502 WETH), the victim sells 5720 DFYN into that pool between the legs, and the back leg buys back exactly 2661.115396 DFYN for 3.637732 WETH. WETH net is +0.23177 and gas for both legs is 0.010935, leaving about +0.2208 ETH with no residual DFYN. The front leg draws on existing DFYN inventory rather than a prior purchase, which keeps this from being a 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0227967,
+ "_session": "ec84e234-730d-45e9-a12b-04083e5c7fe2",
+ "_raw": "{\"actor\": \"0x00000000000003441d59dde9a90bffb1cd3fabf1\", \"pool\": \"0xcab335e1964363e48a790da303b74ec02d3f8fb2\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.23177, \"gas_eth\": 0.010935, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract sells 2661.115396 DFYN into the DFYN/WETH pool in the front leg (receiving 3.869502 WETH), the victim sells 5720 DFYN into that pool between the legs, and the back leg buys back exactly 2661.115396 DFYN for 3.637732 WETH. WETH net is +0.23177 and gas for both legs is 0.010935, leaving about +0.2208 ETH with no residual DFYN. The front leg draws on existing DFYN inventory rather than a prior purchase, which keeps this from being a 5.\"}",
+ "case_id": "sym100_032",
+ "_time": "2026-10-13T21:29:48+0800"
+}

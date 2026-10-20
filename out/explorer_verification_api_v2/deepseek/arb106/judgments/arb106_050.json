@@ -1,0 +1,38 @@
+{
+ "actor": "0xdfee68a9adb981cd08699891a11cabe10f25ec44",
+ "pools": [
+  "0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23",
+  "0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46"
+ ],
+ "cycle_token": "SAITAMA",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.009467,
+ "gas_eth": 0.007536,
+ "profit_after_gas": 0.001931,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor sent 0.577418 WETH to pool 0x9cbf, SAITAMA routed to pool 0xd0dc, and received 0.586885 WETH from pool 0xd0dc, netting +0.009467 WETH before gas. Gas fee 0.007536 ETH leaves +0.001931 ETH/WETH after cost; no residual non-WETH holding remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1472,
+  "output_tokens": 19610,
+  "thinking_tokens": 19359
+ },
+ "_request_id": "f4d969ddeb09abec3cb4a72f66ed3ab2",
+ "_response_id": "ca6ab2b1-5ea3-4a07-be8e-a85213cfd130",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdfee68a9adb981cd08699891a11cabe10f25ec44\",\"pools\":[\"0x9cbfb60a09a9a33a10312da0f39977cbdb7fde23\",\"0xd0dcb7a4f8cfcdb29364d621ca5d997b7eddbc46\"],\"cycle_token\":\"SAITAMA\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.009467,\"gas_eth\":0.007536,\"profit_after_gas\":0.001931,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor sent 0.577418 WETH to pool 0x9cbf, SAITAMA routed to pool 0xd0dc, and received 0.586885 WETH from pool 0xd0dc, netting +0.009467 WETH before gas. Gas fee 0.007536 ETH leaves +0.001931 ETH/WETH after cost; no residual non-WETH holding remains.\"}",
+ "case_id": "arb106_050",
+ "_time": "2026-10-19T19:59:46+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.022941,
+ "gas_eth": 0.02199,
+ "profit_after_gas": 0.000951,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor sells LON on the shared LON/USDT pool in front and buys LON back in back around the victim's LON-to-USDT swap. WETH nets +0.022941 before gas, gas is 0.02199, leaving +0.000951; the USDT amount cancels exactly, so no residual non-WETH holding remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2861,
+  "output_tokens": 6623,
+  "thinking_tokens": 6429
+ },
+ "_request_id": "2f2d443bb5b3555d1a26128b46e5fdfc",
+ "_response_id": "57e17f7b-040e-4d01-9e58-102014cce086",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x55d31f68975e446a40a2d02ffa4b0e1bfb233c2f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.022941,\"gas_eth\":0.02199,\"profit_after_gas\":0.000951,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor sells LON on the shared LON/USDT pool in front and buys LON back in back around the victim's LON-to-USDT swap. WETH nets +0.022941 before gas, gas is 0.02199, leaving +0.000951; the USDT amount cancels exactly, so no residual non-WETH holding remains.\"}",
+ "case_id": "rej53_005",
+ "_time": "2026-10-19T19:40:32+0800"
+}

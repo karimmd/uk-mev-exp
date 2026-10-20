@@ -1,0 +1,32 @@
+{
+ "actor": "0x40a15a4f062a6c562333ad9b4d530c099f255a7b",
+ "pool": "0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.243281,
+ "gas_eth": 0,
+ "profit_after_gas": 0.243281,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are the same EOA on the same UniswapV2 LKR/WETH pool: it bought 64768.806987 LKR for 68.9 WETH, the victim traded on that pool in between, and it sold the exact LKR amount for 69.143281 WETH. Both legs had zero gas fees, leaving positive WETH/ETH profit and no residual LKR.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2435,
+  "output_tokens": 1573,
+  "thinking_tokens": 1372
+ },
+ "_request_id": "00455ebab3984d9391b273bf4fa019c0",
+ "_response_id": "7759ac96-2f57-44a4-aa20-be85dcc164a3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x40a15a4f062a6c562333ad9b4d530c099f255a7b\",\"pool\":\"0x670c0f67a4dc05b6d482c3ddaf0bcb8a20cdc304\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.243281,\"gas_eth\":0,\"profit_after_gas\":0.243281,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are the same EOA on the same UniswapV2 LKR/WETH pool: it bought 64768.806987 LKR for 68.9 WETH, the victim traded on that pool in between, and it sold the exact LKR amount for 69.143281 WETH. Both legs had zero gas fees, leaving positive WETH/ETH profit and no residual LKR.\"}",
+ "case_id": "pack_033",
+ "_time": "2026-10-19T19:07:03+0800"
+}

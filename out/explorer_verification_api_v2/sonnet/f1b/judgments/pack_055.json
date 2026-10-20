@@ -1,0 +1,32 @@
+{
+ "actor": "0xda1faeb056a2f568b138ca0ad9ad8a51915ba336",
+ "pool": "0x9314941c11d6dee1d7bf93113eb74d4718949f3b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.118385,
+ "gas_eth": 0.050897,
+ "profit_after_gas": 0.067488,
+ "residual": "about 306,690,240,400 HOKK (\u22483.07e11) left in the actor contract",
+ "confidence": 4,
+ "note": "The actor contract bought HOKK on the HOKK/WETH pool in the front leg. The victim then bought HOKK on the same pool, and the actor sold HOKK back to that pool in the back leg. Net WETH/ETH is -15.07 + 15.188385 = +0.118385, and after 0.050897 gas it is +0.067488. The leftover HOKK is not counted, but it can only add value, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3498,
+  "output_tokens": 900,
+  "thinking_tokens": 583
+ },
+ "_request_id": "req_011CgBVP1F9Ex9kxzTR7b6Bt",
+ "_response_id": "msg_011CgBVP26F7dbxQ4dLNyv2j",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xda1faeb056a2f568b138ca0ad9ad8a51915ba336\",\"pool\":\"0x9314941c11d6dee1d7bf93113eb74d4718949f3b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.118385,\"gas_eth\":0.050897,\"profit_after_gas\":0.067488,\"residual\":\"about 306,690,240,400 HOKK (\u22483.07e11) left in the actor contract\",\"confidence\":4,\"note\":\"The actor contract bought HOKK on the HOKK/WETH pool in the front leg. The victim then bought HOKK on the same pool, and the actor sold HOKK back to that pool in the back leg. Net WETH/ETH is -15.07 + 15.188385 = +0.118385, and after 0.050897 gas it is +0.067488. The leftover HOKK is not counted, but it can only add value, so the sign stays positive.\"}",
+ "case_id": "pack_055",
+ "_time": "2026-10-19T19:08:06+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xa405e822d1c3a8568c6b82eb6e570fca0136f802",
+ "pool": "0x09062ce4f20aac71f8074ac6cf8e6968abd4d03e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000227,
+ "gas_eth": 0.045096,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xa405 paid 0.885515 WETH for 12558.190023 EQX on pool 0x0906 in the front leg. It sold exactly that EQX back to the same pool for 0.930838 WETH after the victim's 5 ETH buy there, a gross gain of 0.045323 WETH. Front and back gas fees total 0.045096 ETH, leaving only about 0.000227 ETH, so the sign is positive but the margin is thin.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2919,
+  "output_tokens": 584,
+  "thinking_tokens": 296
+ },
+ "_request_id": "req_011CgBRVkZKdXho51Fqtdzdn",
+ "_response_id": "msg_011CgBRVrktpHFKiD2knPgCd",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xa405e822d1c3a8568c6b82eb6e570fca0136f802\", \"pool\": \"0x09062ce4f20aac71f8074ac6cf8e6968abd4d03e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000227, \"gas_eth\": 0.045096, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xa405 paid 0.885515 WETH for 12558.190023 EQX on pool 0x0906 in the front leg. It sold exactly that EQX back to the same pool for 0.930838 WETH after the victim's 5 ETH buy there, a gross gain of 0.045323 WETH. Front and back gas fees total 0.045096 ETH, leaving only about 0.000227 ETH, so the sign is positive but the margin is thin.\"}",
+ "case_id": "pack_124",
+ "_time": "2026-10-19T18:17:10+0800"
+}

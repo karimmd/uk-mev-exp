@@ -1,0 +1,24 @@
+{
+ "actor": "0xb8db34f834e9df42f2002ceb7b829dad89d08e14",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.060922,
+ "gas_eth": 0.034753,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor sent 3.594103 WETH into the WETH/YLD pool. That WETH was swapped to YLD, then to RFI, then back to 3.655025 WETH through three distinct pools. The gross gain is 0.060922 WETH. After the 0.034753 ETH gas fee the net is about +0.026169 ETH, with no residual token holdings and no mints.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0223352,
+ "_session": "15cce358-558c-4758-818e-58014b59ec68",
+ "_raw": "{\"actor\":\"0xb8db34f834e9df42f2002ceb7b829dad89d08e14\",\"pools\":[\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\",\"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\",\"0x4c8341379e95f70c08defb76c4f9c036525edc30\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.060922,\"gas_eth\":0.034753,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor sent 3.594103 WETH into the WETH/YLD pool. That WETH was swapped to YLD, then to RFI, then back to 3.655025 WETH through three distinct pools. The gross gain is 0.060922 WETH. After the 0.034753 ETH gas fee the net is about +0.026169 ETH, with no residual token holdings and no mints.\"}",
+ "case_id": "arb106_083",
+ "_time": "2026-10-13T22:29:20+0800"
+}

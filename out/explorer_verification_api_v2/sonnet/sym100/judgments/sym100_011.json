@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfca090c1868004bec9c91f53db013288dc21c55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 1.230121,
+ "gas_eth": 0.206774,
+ "profit_after_gas": 1.023347,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 10453.15 MOD into the pool for 18.219 WETH in the front leg. The victim then sold 10000 MOD into the same pool. The back leg bought back exactly 10453.15 MOD for 16.988879 WETH, so the MOD position is flat. Net WETH is +1.230121, and after 0.206774 ETH of gas (front and back legs) the profit is about 1.0233 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3330,
+  "output_tokens": 704,
+  "thinking_tokens": 421
+ },
+ "_request_id": "req_011CgBWCsUf2guYrv9pgzcV8",
+ "_response_id": "msg_011CgBWCspVwDtSxyBAdN6CU",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xfca090c1868004bec9c91f53db013288dc21c55b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":1.230121,\"gas_eth\":0.206774,\"profit_after_gas\":1.023347,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 10453.15 MOD into the pool for 18.219 WETH in the front leg. The victim then sold 10000 MOD into the same pool. The back leg bought back exactly 10453.15 MOD for 16.988879 WETH, so the MOD position is flat. Net WETH is +1.230121, and after 0.206774 ETH of gas (front and back legs) the profit is about 1.0233 ETH.\"}",
+ "case_id": "sym100_011",
+ "_time": "2026-10-19T19:18:54+0800"
+}

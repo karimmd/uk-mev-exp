@@ -1,0 +1,32 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.462709,
+ "gas_eth": 0.06517,
+ "profit_after_gas": 0.397539,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract 0x42d0... bought 632.746926 KEN on the Uniswap V2 pool in the front leg and sold the same amount in the back leg, with the victim swapping on the same pool between them. Net ETH/WETH gain is 0.462709 ETH before gas, positive after subtracting front and back gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2807,
+  "output_tokens": 10702,
+  "thinking_tokens": 10514
+ },
+ "_request_id": "9835c8a073d938c31964e2e3835fb0c7",
+ "_response_id": "32be8c5d-020e-4309-a52a-df8ec7331730",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\",\"pool\":\"0x6225f6d7ad5ea259a2227d3f39cf808f3098af6e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.462709,\"gas_eth\":0.06517,\"profit_after_gas\":0.397539,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract 0x42d0... bought 632.746926 KEN on the Uniswap V2 pool in the front leg and sold the same amount in the back leg, with the victim swapping on the same pool between them. Net ETH/WETH gain is 0.462709 ETH before gas, positive after subtracting front and back gas fees.\"}",
+ "case_id": "pack_200",
+ "_time": "2026-10-19T19:28:50+0800"
+}

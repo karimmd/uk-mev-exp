@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000007c68390193776e8b44df3b698d311070b9",
+ "pool": "0xc4002da5ceb8c65b3dd985f6c4a9bc961d932690",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.060329,
+ "gas_eth": 0.052503,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract receives POP in the front leg and sends the exact POP amount back in the back leg on the shared Uniswap V3 pool also used by the victim. WETH net is +0.060329, and after front/back gas of 0.052503 the position remains positive; no POP residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2142,
+  "output_tokens": 2372,
+  "thinking_tokens": 2208
+ },
+ "_request_id": "147fe4164db0aa3a065c8577536287b0",
+ "_response_id": "9de340de-665a-444b-90bf-0c5b9c8291b4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000007c68390193776e8b44df3b698d311070b9\",\"pool\":\"0xc4002da5ceb8c65b3dd985f6c4a9bc961d932690\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.060329,\"gas_eth\":0.052503,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract receives POP in the front leg and sends the exact POP amount back in the back leg on the shared Uniswap V3 pool also used by the victim. WETH net is +0.060329, and after front/back gas of 0.052503 the position remains positive; no POP residual remains.\"}",
+ "case_id": "pack_105",
+ "_time": "2026-10-19T18:20:20+0800"
+}

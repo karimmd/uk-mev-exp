@@ -1,0 +1,25 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e",
+  "0xb6909b960dbbe7392d405429eb2b3649752b4838",
+  "0x3139bbba7f4b9125595cb4ebeefdac1fce7ab5f1",
+  "0xcc39592f5cb193a70f262aa301f54db1d600e6da"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.005305,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Two round trips: BAT is bought on a V3 pool and sold on a V2 pool, and RUNE is bought on a V3 pool and sold on a V2 pool. Each leg nets WETH positive (+0.013696 and +0.007527, total +0.021223 WETH). Subtracting the 0.015918 ETH sent to 0x829b\u2026 (likely a builder payment) leaves about +0.005305 ETH. The explorer shows a 0 gwei gas price and a 0 fee, so I took gas as 0, but that figure may be unreliable.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0271232,
+ "_session": "8d920aa2-b51f-4bd7-81b3-44987940d9b5",
+ "_raw": "{\"actor\":\"0x0000000000a1c7212a1c129512d80eb30d14dc08\",\"pools\":[\"0xae614a7a56cb79c04df2aeba6f5dab80a39ca78e\",\"0xb6909b960dbbe7392d405429eb2b3649752b4838\",\"0x3139bbba7f4b9125595cb4ebeefdac1fce7ab5f1\",\"0xcc39592f5cb193a70f262aa301f54db1d600e6da\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.005305,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"Two round trips: BAT is bought on a V3 pool and sold on a V2 pool, and RUNE is bought on a V3 pool and sold on a V2 pool. Each leg nets WETH positive (+0.013696 and +0.007527, total +0.021223 WETH). Subtracting the 0.015918 ETH sent to 0x829b\u2026 (likely a builder payment) leaves about +0.005305 ETH. The explorer shows a 0 gwei gas price and a 0 fee, so I took gas as 0, but that figure may be unreliable.\"}",
+ "case_id": "arb106_060",
+ "_time": "2026-10-13T22:24:13+0800"
+}

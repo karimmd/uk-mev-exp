@@ -1,0 +1,41 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0x8661ae7918c0115af9e3691662f605e9c550ddc9",
+  "0x495f8ef80e13e9e1e77d60d2f384bb49694823ef",
+  "0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77",
+  "0x700fc86c46299cf2a8fd86edadae3f57014351b0",
+  "0x52127470de72e5ef77ca962d23125cbe096e2d81"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02599,
+ "gas_eth": 0.023583,
+ "profit_after_gas": 0.002407,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor received 2.257463 WETH from 0x5212 and sent 2.231473 WETH to 0x8661 while intermediate tokens routed through five pools, netting +0.025990 WETH before gas. After 0.023583 ETH gas, net remains +0.002407 WETH. No residual non-WETH holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1901,
+  "output_tokens": 7371,
+  "thinking_tokens": 7054
+ },
+ "_request_id": "4f53f19fa6fa6c3ad812b310f5eda7ca",
+ "_response_id": "8cd8cb2a-99d7-445f-bda7-272e95f918aa",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\",\"pools\":[\"0x8661ae7918c0115af9e3691662f605e9c550ddc9\",\"0x495f8ef80e13e9e1e77d60d2f384bb49694823ef\",\"0x6f48eca74b38d2936b02ab603ff4e36a6c0e3a77\",\"0x700fc86c46299cf2a8fd86edadae3f57014351b0\",\"0x52127470de72e5ef77ca962d23125cbe096e2d81\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.02599,\"gas_eth\":0.023583,\"profit_after_gas\":0.002407,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor received 2.257463 WETH from 0x5212 and sent 2.231473 WETH to 0x8661 while intermediate tokens routed through five pools, netting +0.025990 WETH before gas. After 0.023583 ETH gas, net remains +0.002407 WETH. No residual non-WETH holding.\"}",
+ "case_id": "arb106_018",
+ "_time": "2026-10-19T19:51:10+0800"
+}

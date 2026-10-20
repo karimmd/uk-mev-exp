@@ -1,0 +1,40 @@
+{
+ "actor": "0x0000000000790b928b2ba74d7f53a2079e6a131f",
+ "pools": [
+  "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+  "0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2",
+  "0x23bb251705615b4efe9442be5f2aeb0e20b39858",
+  "0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1"
+ ],
+ "cycle_token": "INV",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.009303,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.009303,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two closed cycles across four pools. In the first, WETH goes to INV on 0x328d and back to WETH on 0x23bb. In the second, WETH goes to VERI on 0xeec5 and back to WETH on 0xf216. INV and VERI both net to exactly zero, and WETH nets to +0.037211. The actor unwrapped 0.027908 WETH and sent it as ETH to 0x2a0eee, which looks like a miner payment since gas was priced at 0 gwei; after that cost it keeps about 0.009303 ETH, and the self-destructs are consistent with gas-token burns.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3371,
+  "output_tokens": 924,
+  "thinking_tokens": 429
+ },
+ "_request_id": "req_011CgBXjokeLjyoejsg737cz",
+ "_response_id": "msg_011CgBXjp7UyeTdfZujqxc7H",
+ "_reader": "opus55",
+ "_raw": "```json\n{\"actor\": \"0x0000000000790b928b2ba74d7f53a2079e6a131f\", \"pools\": [\"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\", \"0xeec50bcb168b66099ab00f6fdaa807ecb484c2d2\", \"0x23bb251705615b4efe9442be5f2aeb0e20b39858\", \"0xf21638ee30e1ee8ccff28c08583f0b5ca208dab1\"], \"cycle_token\": \"INV\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.009303, \"gas_eth\": 0.0, \"profit_after_gas\": 0.009303, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two closed cycles across four pools. In the first, WETH goes to INV on 0x328d and back to WETH on 0x23bb. In the second, WETH goes to VERI on 0xeec5 and back to WETH on 0xf216. INV and VERI both net to exactly zero, and WETH nets to +0.037211. The actor unwrapped 0.027908 WETH and sent it as ETH to 0x2a0eee, which looks like a miner payment since gas was priced at 0 gwei; after that cost it keeps about 0.009303 ETH, and the self-destructs are consistent with gas-token burns.\"}\n```",
+ "case_id": "arb106_103",
+ "_time": "2026-10-19T19:39:04+0800"
+}

@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.0083951472,
+ "profit_after_gas": null,
+ "residual": "85801.445022 MXS received by 0x09c950e4b7b3345c626e9c1188c720de68958a05; 88137.761741 MXS received by 0x5e4872715dcd6488d7b9417e8a77e592e5a0814b",
+ "confidence": 5,
+ "note": "The front and back legs have different token recipients/economic actors and both buy MXS, while the victim sells MXS on the same pool. There is no matching open-and-close position, so Q1 is no and Q2 is not determinable.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3169,
+  "output_tokens": 7422,
+  "thinking_tokens": 7205
+ },
+ "_request_id": "659b39e9ebcae324886c54cd8c2c9894",
+ "_response_id": "b309975d-e05e-40b7-a0be-ed219ae09b1a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.0083951472,\"profit_after_gas\":null,\"residual\":\"85801.445022 MXS received by 0x09c950e4b7b3345c626e9c1188c720de68958a05; 88137.761741 MXS received by 0x5e4872715dcd6488d7b9417e8a77e592e5a0814b\",\"confidence\":5,\"note\":\"The front and back legs have different token recipients/economic actors and both buy MXS, while the victim sells MXS on the same pool. There is no matching open-and-close position, so Q1 is no and Q2 is not determinable.\"}",
+ "case_id": "pack_196",
+ "_time": "2026-10-19T19:28:03+0800"
+}

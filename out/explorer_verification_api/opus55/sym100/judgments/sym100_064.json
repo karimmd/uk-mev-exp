@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x23201344493fae9e9daf3279e930bdb0d4e5d5ec",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.078202,
+ "gas_eth": 0.030463,
+ "residual": "none",
+ "confidence": 4,
+ "note": "This is a sell-side sandwich on the UM/WETH UniswapV2 pool 0x2320. Contract 0xc1df sells 34383.028561 UM for 2.510223 WETH before the victim's UM sale, then buys back exactly the same UM for 2.401558 WETH. That leaves a 0.108665 WETH gross gain, or 0.078202 ETH after the two legs' gas, and the UM inventory is fully restored.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2718,
+  "output_tokens": 601,
+  "thinking_tokens": 319
+ },
+ "_request_id": "req_011CgBSQxLDrmHWUc9JkjWfE",
+ "_response_id": "msg_011CgBSQxhYf1wTRuFo64Vbr",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x23201344493fae9e9daf3279e930bdb0d4e5d5ec\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.078202, \"gas_eth\": 0.030463, \"residual\": \"none\", \"confidence\": 4, \"note\": \"This is a sell-side sandwich on the UM/WETH UniswapV2 pool 0x2320. Contract 0xc1df sells 34383.028561 UM for 2.510223 WETH before the victim's UM sale, then buys back exactly the same UM for 2.401558 WETH. That leaves a 0.108665 WETH gross gain, or 0.078202 ETH after the two legs' gas, and the UM inventory is fully restored.\"}",
+ "case_id": "sym100_064",
+ "_time": "2026-10-19T18:29:12+0800"
+}

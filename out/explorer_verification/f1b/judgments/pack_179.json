@@ -1,0 +1,17 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xc03ac1e9c6946fed9e36732cebbcd73b0c7a0637",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.000444,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 723485138.900047 TT for 0.428852 WETH before the victim and sells the same amount after for 0.446596 WETH, on the TT/WETH pool the victim's TVK->WETH->TT route also swaps through. The gross gain is 0.017744 ETH. The 0.0173 ETH sent in the back leg to 0xbcc8 is a payment that looks like a miner bribe. Both legs have 0 gwei gas, so the net after that payment is about +0.000444 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0240608,
+ "_session": "44c7e174-eac1-4450-87ac-949aa3571f62",
+ "_raw": "{\"actor\": \"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\", \"pool\": \"0xc03ac1e9c6946fed9e36732cebbcd73b0c7a0637\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.000444, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 723485138.900047 TT for 0.428852 WETH before the victim and sells the same amount after for 0.446596 WETH, on the TT/WETH pool the victim's TVK->WETH->TT route also swaps through. The gross gain is 0.017744 ETH. The 0.0173 ETH sent in the back leg to 0xbcc8 is a payment that looks like a miner bribe. Both legs have 0 gwei gas, so the net after that payment is about +0.000444 ETH.\"}",
+ "case_id": "pack_179",
+ "_time": "2026-10-13T20:39:41+0800"
+}

@@ -1,0 +1,24 @@
+{
+ "actor": "0x0000000000438f975cbde76d5fdd1aa76be46577",
+ "pools": [
+  "0x242d289b3eeb6842ce0fcc0d87932402299ae5b3",
+  "0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d",
+  "0x4c8341379e95f70c08defb76c4f9c036525edc30"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "no",
+ "net_eth": -0.001722,
+ "gas_eth": 0.02383,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 4.068101 WETH into the YLD pool. The YLD then goes to the RFI pool, and the RFI to the WETH pool. The actor gets 4.090209 WETH back, a gross gain of 0.022108 WETH over three pools. The 0.02383 ETH gas fee is larger than that gain, so the result after cost is about -0.00172 ETH. The sender paid the gas and may not be the actor, so the sign depends on counting the fee against the actor.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0262972,
+ "_session": "eda003da-c92f-4f27-80c5-8c11dab640af",
+ "_raw": "{\"actor\":\"0x0000000000438f975cbde76d5fdd1aa76be46577\",\"pools\":[\"0x242d289b3eeb6842ce0fcc0d87932402299ae5b3\",\"0x901380ab7b9e8a0ecfb14bd5219e4a7d762c656d\",\"0x4c8341379e95f70c08defb76c4f9c036525edc30\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"no\",\"net_eth\":-0.001722,\"gas_eth\":0.02383,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 4.068101 WETH into the YLD pool. The YLD then goes to the RFI pool, and the RFI to the WETH pool. The actor gets 4.090209 WETH back, a gross gain of 0.022108 WETH over three pools. The 0.02383 ETH gas fee is larger than that gain, so the result after cost is about -0.00172 ETH. The sender paid the gas and may not be the actor, so the sign depends on counting the fee against the actor.\"}",
+ "case_id": "arb106_015",
+ "_time": "2026-10-13T22:13:25+0800"
+}

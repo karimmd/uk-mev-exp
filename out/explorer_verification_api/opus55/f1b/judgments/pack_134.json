@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x62e3c242b5e903071458ad90a160493d84911c77",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.011633,
+ "gas_eth": 0.052814,
+ "residual": "none",
+ "confidence": 5,
+ "note": "In the front leg, contract 0x...594e routes WETH through the WETH/LSS pool and then the LSS/USDT pool (0x62e3), ending with 2457.341661 USDT. The victim sells LSS into the same 0x62e3 pool, and the back leg returns exactly that USDT along the reverse route, yielding 1.078212 WETH against the 1.013765 WETH spent. The WETH gain of 0.064447 minus 0.052814 gas in the front and back legs leaves about +0.0116 ETH with no residual holding.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3017,
+  "output_tokens": 645,
+  "thinking_tokens": 340
+ },
+ "_request_id": "req_011CgBRbYkq3wLfDn452DPr5",
+ "_response_id": "msg_011CgBRbcHAtLcRTE3XM7BpU",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x62e3c242b5e903071458ad90a160493d84911c77\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.011633, \"gas_eth\": 0.052814, \"residual\": \"none\", \"confidence\": 5, \"note\": \"In the front leg, contract 0x...594e routes WETH through the WETH/LSS pool and then the LSS/USDT pool (0x62e3), ending with 2457.341661 USDT. The victim sells LSS into the same 0x62e3 pool, and the back leg returns exactly that USDT along the reverse route, yielding 1.078212 WETH against the 1.013765 WETH spent. The WETH gain of 0.064447 minus 0.052814 gas in the front and back legs leaves about +0.0116 ETH with no residual holding.\"}",
+ "case_id": "pack_134",
+ "_time": "2026-10-19T18:18:29+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x575c3a99429352eda66661fc3857b9f83f58a73f",
+ "pool": "0xa7ad4ce6c21d9e875f1067cd377256326b483002",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.099535,
+ "gas_eth": 0.0,
+ "residual": "about 395,422,486,345 SANSHU (19,776,282,967,751.54 bought minus 19,380,860,481,406.40 sold)",
+ "confidence": 4,
+ "note": "The same contract buys SANSHU with 17.977618 WETH in the front leg and sells most of it back for 18.308539 WETH in the back leg. The victim buys SANSHU on the same pool in between. The gross WETH gain is 0.330921, and 0.231386 ETH was then paid out to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c, leaving 0.099535 ETH. Both legs show 0 gwei gas, so the fee is 0. The leftover SANSHU can only add to the position, so the sign stays positive.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0235147,
+ "_session": "c0682faf-9989-46fc-81fe-a26b5c1e7394",
+ "_raw": "{\"actor\": \"0x575c3a99429352eda66661fc3857b9f83f58a73f\", \"pool\": \"0xa7ad4ce6c21d9e875f1067cd377256326b483002\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.099535, \"gas_eth\": 0.0, \"residual\": \"about 395,422,486,345 SANSHU (19,776,282,967,751.54 bought minus 19,380,860,481,406.40 sold)\", \"confidence\": 4, \"note\": \"The same contract buys SANSHU with 17.977618 WETH in the front leg and sells most of it back for 18.308539 WETH in the back leg. The victim buys SANSHU on the same pool in between. The gross WETH gain is 0.330921, and 0.231386 ETH was then paid out to 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c, leaving 0.099535 ETH. Both legs show 0 gwei gas, so the fee is 0. The leftover SANSHU can only add to the position, so the sign stays positive.\"}",
+ "case_id": "pack_040",
+ "_time": "2026-10-13T20:12:00+0800"
+}

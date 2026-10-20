@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x70e567076184803a43aa0ceae4e67ba31cbf89e1",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.10396,
+ "profit_after_gas": null,
+ "residual": "ELE held by front and back recipients",
+ "confidence": 5,
+ "note": "All three legs buy ELE on the same Uniswap V2 pair. The front and back legs have different recipient actors, and the back leg is another buy rather than a closing sell, so there is no sandwich bracket. Q2 cannot be signed because the non-WETH ELE residual remains outstanding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3083,
+  "output_tokens": 8832,
+  "thinking_tokens": 8665
+ },
+ "_request_id": "91751f0d4ea81d3d990b78911851e62f",
+ "_response_id": "f58b73be-b912-466a-8201-c1463e0887e4",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x70e567076184803a43aa0ceae4e67ba31cbf89e1\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth_before_gas\": null, \"gas_eth\": 0.10396, \"profit_after_gas\": null, \"residual\": \"ELE held by front and back recipients\", \"confidence\": 5, \"note\": \"All three legs buy ELE on the same Uniswap V2 pair. The front and back legs have different recipient actors, and the back leg is another buy rather than a closing sell, so there is no sandwich bracket. Q2 cannot be signed because the non-WETH ELE residual remains outstanding.\"}",
+ "case_id": "pack_158",
+ "_time": "2026-10-19T19:23:43+0800"
+}

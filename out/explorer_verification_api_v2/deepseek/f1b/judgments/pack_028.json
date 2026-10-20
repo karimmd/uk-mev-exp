@@ -1,0 +1,32 @@
+{
+ "actor": "0xdead1241f2ee2a7950ad967993efb72d62bf6822",
+ "pool": "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": -180,
+ "gas_eth": 0.016914,
+ "profit_after_gas": -180.016914,
+ "residual": "15420.495976 SUSHI",
+ "confidence": 5,
+ "note": "Front and back both swap ETH into the same SUSHI/WETH pool for SUSHI, so the back leg does not close the front long. The actor spent 180 ETH and retains a large SUSHI residual, so the overall sign after cost is not determinable.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3237,
+  "output_tokens": 8377,
+  "thinking_tokens": 8207
+ },
+ "_request_id": "3a33b302e7eed654b74b4f8d67d8dc6f",
+ "_response_id": "069fce07-b6bd-46e2-98f5-c24ae2ac4ad5",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xdead1241f2ee2a7950ad967993efb72d62bf6822\",\"pool\":\"0x795065dcc9f64b5614c407a6efdc400da6221fb0\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":-180,\"gas_eth\":0.016914,\"profit_after_gas\":-180.016914,\"residual\":\"15420.495976 SUSHI\",\"confidence\":5,\"note\":\"Front and back both swap ETH into the same SUSHI/WETH pool for SUSHI, so the back leg does not close the front long. The actor spent 180 ETH and retains a large SUSHI residual, so the overall sign after cost is not determinable.\"}",
+ "case_id": "pack_028",
+ "_time": "2026-10-19T19:06:54+0800"
+}

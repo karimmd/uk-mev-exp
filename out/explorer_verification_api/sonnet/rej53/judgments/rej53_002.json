@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x5b155ea384905485fde4b24ef1cd63a7d2398100",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.168315,
+ "gas_eth": 0.11782,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor bought 2,648,851.757734 BILL on the BILL/USDC pool in the front leg, the victim bought BILL on the same pool, and the actor sold the identical BILL amount in the back leg. WETH net is +0.168315 and gas is 0.11782, leaving about +0.0505 ETH after cost.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3041,
+  "output_tokens": 672,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBSWfkjzsKRULvDAxXZm",
+ "_response_id": "msg_011CgBSWg7ajEjpSthuwVYYK",
+ "_reader": "sonnet",
+ "_raw": "Front leg: the actor contract 0x000000000035b5e5ad9019092c665357240f594e sent 4.252186 WETH to the WETH/USDC pool 0x397ff\u2026, which sent USDC to the BILL/USDC pool 0x5b155\u2026, which sent 2,648,851.757734 BILL to the actor. The victim bought 1,000,000 BILL with USDC on the same BILL/USDC pool. In the back leg the actor sold the same BILL amount into that pool and received 4.420501 WETH. So the bracket is a sandwich on pool 0x5b155\u2026.\n\nNet WETH: 4.420501 \u2212 4.252186 = 0.168315.\n\nGas: front 0.007556 + back 0.110264 = 0.11782 ETH.\n\nNet after gas: 0.168315 \u2212 0.11782 = 0.050495 ETH, which is positive.\n\nResidual: the BILL sent equals the BILL received, so no BILL is left. No USDC is left either, since all of it passed through the pools.\n\nCheck on the gas figures: 172746 \u00d7 43.7 gwei = 0.0075488 ETH, which is close to the stated 0.007556. 129880 \u00d7 849 gwei = 0.110268 ETH, which matches the stated figure. The front-leg gas price may be rounded, so I used the stated fees.\n\n{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x5b155ea384905485fde4b24ef1cd63a7d2398100\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.168315, \"gas_eth\": 0.11782, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The actor bought 2,648,851.757734 BILL on the BILL/USDC pool in the front leg, the victim bought BILL on the same pool, and the actor sold the identical BILL amount in the back leg. WETH net is +0.168315 and gas is 0.11782, leaving about +0.0505 ETH after cost.\"}",
+ "case_id": "rej53_002",
+ "_time": "2026-10-19T18:30:27+0800"
+}

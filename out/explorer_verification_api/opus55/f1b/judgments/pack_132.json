@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.048504,
+ "gas_eth": 0.1365,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0x499dd900 bought 905428.17 SPICE for 1.060936 WETH on UniswapV3 pool 0xa0b6ef23. The victim then bought SPICE on that same pool, and the contract sold exactly the same SPICE amount back for 1.260769 WETH, so it gained 0.199833 WETH. Counting the 0.151329 ETH the sender paid in and forwarded to 0x829bd824 (likely a builder or miner payment) gives net_eth 0.048504; subtracting 0.1365 ETH gas leaves about -0.088 ETH, though it would be +0.063 if that payment were not counted against the actor.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2896,
+  "output_tokens": 915,
+  "thinking_tokens": 560
+ },
+ "_request_id": "req_011CgBRaETxpTL9npRYA8Arb",
+ "_response_id": "msg_011CgBRaJ9y9aeXJGiVjYzSG",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0xa0b6ef2377fa53687f36ad6ba308d2d2bc70a07e\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.048504, \"gas_eth\": 0.1365, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0x499dd900 bought 905428.17 SPICE for 1.060936 WETH on UniswapV3 pool 0xa0b6ef23. The victim then bought SPICE on that same pool, and the contract sold exactly the same SPICE amount back for 1.260769 WETH, so it gained 0.199833 WETH. Counting the 0.151329 ETH the sender paid in and forwarded to 0x829bd824 (likely a builder or miner payment) gives net_eth 0.048504; subtracting 0.1365 ETH gas leaves about -0.088 ETH, though it would be +0.063 if that payment were not counted against the actor.\"}",
+ "case_id": "pack_132",
+ "_time": "2026-10-19T18:18:13+0800"
+}

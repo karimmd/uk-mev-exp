@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5fa464cefe8901d66c09b85d5fcdc55b3738c688",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.129141,
+ "gas_eth": 0.012972,
+ "profit_after_gas": 0.116169,
+ "residual": "none",
+ "confidence": 4,
+ "note": "In the front leg the actor buys TOKE on pool 0xd4e7 and sells it into pool 0x5fa4. The victim then sells TOKE into 0x5fa4, and the back leg reverses both swaps, so it is a short on 0x5fa4 and the actor holds no TOKE at the end. WETH nets +0.258436 (\u22120.088986 front, +0.347422 back), and the 0.129295 ETH paid out to 0x99c8 as a likely builder tip brings it to 0.129141 before gas.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3536,
+  "output_tokens": 1308,
+  "thinking_tokens": 991
+ },
+ "_request_id": "req_011CgBWC4ZdQnomYjXpgB9CG",
+ "_response_id": "msg_011CgBWC539UDcHUTQX9WbES",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x5fa464cefe8901d66c09b85d5fcdc55b3738c688\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.129141,\"gas_eth\":0.012972,\"profit_after_gas\":0.116169,\"residual\":\"none\",\"confidence\":4,\"note\":\"In the front leg the actor buys TOKE on pool 0xd4e7 and sells it into pool 0x5fa4. The victim then sells TOKE into 0x5fa4, and the back leg reverses both swaps, so it is a short on 0x5fa4 and the actor holds no TOKE at the end. WETH nets +0.258436 (\u22120.088986 front, +0.347422 back), and the 0.129295 ETH paid out to 0x99c8 as a likely builder tip brings it to 0.129141 before gas.\"}",
+ "case_id": "sym100_008",
+ "_time": "2026-10-19T19:18:47+0800"
+}

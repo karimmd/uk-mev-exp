@@ -1,0 +1,32 @@
+{
+ "actor": "0x09ddb304758caf024706dee2e92b569ca4823aa1",
+ "pool": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.146484,
+ "gas_eth": 0.016492,
+ "profit_after_gas": 0.129992,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sold 6608.905755 INFI into the pool for 1.850367 WETH in the front leg, then bought back the identical INFI amount for 1.703883 WETH in the back leg. This is a short bracket around the victim's INFI sale on the same pool, and the INFI nets to zero. The INFI sent in the front leg came from inventory the actor already held, which the card does not show.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2781,
+  "output_tokens": 772,
+  "thinking_tokens": 500
+ },
+ "_request_id": "req_011CgBWcecfJLckZ2vtypdQ6",
+ "_response_id": "msg_011CgBWceykJab4ujYwtrVwW",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x09ddb304758caf024706dee2e92b569ca4823aa1\",\"pool\":\"0xe7607a563105f7dba8beb87ad7f5b3a9ec793958\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.146484,\"gas_eth\":0.016492,\"profit_after_gas\":0.129992,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sold 6608.905755 INFI into the pool for 1.850367 WETH in the front leg, then bought back the identical INFI amount for 1.703883 WETH in the back leg. This is a short bracket around the victim's INFI sale on the same pool, and the INFI nets to zero. The INFI sent in the front leg came from inventory the actor already held, which the card does not show.\"}",
+ "case_id": "sym100_094",
+ "_time": "2026-10-19T19:24:18+0800"
+}

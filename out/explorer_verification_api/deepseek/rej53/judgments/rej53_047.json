@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": -0.144525,
+ "gas_eth": 0.199053,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The actor bought 88.248554 STRONG for 18.273527 WETH on the same Uniswap V3 pool the victim traded, then sold the same STRONG size for 18.328055 WETH in the back leg. Gross WETH gain is 0.054528 ETH, but front and back gas totals 0.199053 ETH, so the observable net is negative and no STRONG residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2200,
+  "output_tokens": 9318,
+  "thinking_tokens": 9132
+ },
+ "_request_id": "3c8770e3aa1c7f81a110865a0bb1fb72",
+ "_response_id": "2012230b-b715-4a9d-bafe-5b6efd0ca2df",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xd34e4855146ac0c6d0e4a652bd5fb54830f91ba8\",\"Q1\":\"yes\",\"Q2\":\"no\",\"net_eth\":-0.144525,\"gas_eth\":0.199053,\"residual\":\"none\",\"confidence\":5,\"note\":\"The actor bought 88.248554 STRONG for 18.273527 WETH on the same Uniswap V3 pool the victim traded, then sold the same STRONG size for 18.328055 WETH in the back leg. Gross WETH gain is 0.054528 ETH, but front and back gas totals 0.199053 ETH, so the observable net is negative and no STRONG residual remains.\"}",
+ "case_id": "rej53_047",
+ "_time": "2026-10-19T19:03:22+0800"
+}

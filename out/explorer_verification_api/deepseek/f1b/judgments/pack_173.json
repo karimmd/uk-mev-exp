@@ -1,0 +1,31 @@
+{
+ "actor": "0x575c3a99429352eda66661fc3857b9f83f58a73f",
+ "pool": "0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.074817,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front spends 2.432921 WETH on the shared pool and back receives 2.681661 WETH, with 0.173923 WETH withdrawn and paid out as ETH; gas is zero on both legs. The victim also swaps through the same 0xc532... pool between the front and back legs.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2288,
+  "output_tokens": 6336,
+  "thinking_tokens": 6157
+ },
+ "_request_id": "cfa883c07416a40872c13e92b251c2c2",
+ "_response_id": "d8cae843-103f-4062-88c5-65d1d163e6e1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x575c3a99429352eda66661fc3857b9f83f58a73f\", \"pool\": \"0xc532495dfe1b9d43a8e602f0d8da96fd40b92ce9\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.074817, \"gas_eth\": 0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front spends 2.432921 WETH on the shared pool and back receives 2.681661 WETH, with 0.173923 WETH withdrawn and paid out as ETH; gas is zero on both legs. The victim also swaps through the same 0xc532... pool between the front and back legs.\"}",
+ "case_id": "pack_173",
+ "_time": "2026-10-19T18:33:30+0800"
+}

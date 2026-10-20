@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xc03ac1e9c6946fed9e36732cebbcd73b0c7a0637",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.017744,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x36c1... opens a TT position via WETH on pool 0xc03a... in the front leg and closes it in the back leg. The victim also trades on the same WETH/TT pool between those legs, and the actor nets +0.017744 WETH after zero front/back gas fees with no TT residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2437,
+  "output_tokens": 2081,
+  "thinking_tokens": 1906
+ },
+ "_request_id": "95bcb56551b55c0b3da01df58a1cfc97",
+ "_response_id": "297e501c-c995-42dd-94fb-070f8cab5444",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\",\"pool\":\"0xc03ac1e9c6946fed9e36732cebbcd73b0c7a0637\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.017744,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x36c1... opens a TT position via WETH on pool 0xc03a... in the front leg and closes it in the back leg. The victim also trades on the same WETH/TT pool between those legs, and the actor nets +0.017744 WETH after zero front/back gas fees with no TT residual.\"}",
+ "case_id": "pack_179",
+ "_time": "2026-10-19T18:33:54+0800"
+}

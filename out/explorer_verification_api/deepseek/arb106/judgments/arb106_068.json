@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x7b504a15ef05f4eed1c07208c5815c49022a0c19",
+  "0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0xc40d16476380e4037e6b1a2594caf6a6cc8da967",
+  "0xac5a2c404ebba22a869998089ac7893ff4e1f0a7"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002507,
+ "gas_eth": 0.020988,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor 0xb2bb receives 2.393211 WETH from two pools and sends 2.369716 WETH to two pools, net +0.023495 WETH before the 0.020988 ETH gas fee, leaving +0.002507 ETH after cost. No non-WETH residual remains; this is a profitable multi-pool WETH flash-swap arbitrage.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1917,
+  "output_tokens": 13706,
+  "thinking_tokens": 13397
+ },
+ "_request_id": "59b9efbbce9c8c0f53b0d6005bdd8d1a",
+ "_response_id": "5d9a5fd6-3696-43bf-b684-f8340ca69468",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x7b504a15ef05f4eed1c07208c5815c49022a0c19\",\"0x0e2c4be9f3408e5b1ff631576d946eb8c224b5ed\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\",\"0xc40d16476380e4037e6b1a2594caf6a6cc8da967\",\"0xac5a2c404ebba22a869998089ac7893ff4e1f0a7\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.002507,\"gas_eth\":0.020988,\"residual\":\"none\",\"confidence\":4,\"note\":\"Actor 0xb2bb receives 2.393211 WETH from two pools and sends 2.369716 WETH to two pools, net +0.023495 WETH before the 0.020988 ETH gas fee, leaving +0.002507 ETH after cost. No non-WETH residual remains; this is a profitable multi-pool WETH flash-swap arbitrage.\"}",
+ "case_id": "arb106_068",
+ "_time": "2026-10-19T19:27:18+0800"
+}

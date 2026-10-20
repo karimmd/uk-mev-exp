@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000027d2efc283613d0c3e24a8b430c4d8",
+ "pool": "0x9d549079669d382e9556ef2f4e8a7e1a616dae49",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.074331,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract address receives JEJUDOGE in the front leg and returns the same amount in the back leg on the same UniswapV2 pool that the victim also trades through. Net WETH gain is 3.933715 - 3.859384 = 0.074331, with zero front/back gas fees and no residual JEJUDOGE.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2726,
+  "output_tokens": 2969,
+  "thinking_tokens": 2791
+ },
+ "_request_id": "5a2f5bade959044b18da1115a2d55336",
+ "_response_id": "51945ff4-961e-4b2c-ab83-c12496bd93fc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000027d2efc283613d0c3e24a8b430c4d8\",\"pool\":\"0x9d549079669d382e9556ef2f4e8a7e1a616dae49\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.074331,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract address receives JEJUDOGE in the front leg and returns the same amount in the back leg on the same UniswapV2 pool that the victim also trades through. Net WETH gain is 3.933715 - 3.859384 = 0.074331, with zero front/back gas fees and no residual JEJUDOGE.\"}",
+ "case_id": "pack_090",
+ "_time": "2026-10-19T18:17:43+0800"
+}

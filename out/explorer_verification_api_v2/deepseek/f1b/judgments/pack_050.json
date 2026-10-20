@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": null,
+ "gas_eth": 0.035459,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front actor 0xfdf4... receives MXS from the pool, while back sender 0xfc8e... is a different actor and also buys MXS rather than closing a position. All three legs trade the same Uniswap V2 pool, but no single actor opens and closes a position, so there is no sandwich bracket.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3076,
+  "output_tokens": 4240,
+  "thinking_tokens": 4082
+ },
+ "_request_id": "fbb664468283118a0f90fe3cbc757149",
+ "_response_id": "b566c3df-fc81-4e66-9c47-3059c4765910",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":null,\"gas_eth\":0.035459,\"profit_after_gas\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front actor 0xfdf4... receives MXS from the pool, while back sender 0xfc8e... is a different actor and also buys MXS rather than closing a position. All three legs trade the same Uniswap V2 pool, but no single actor opens and closes a position, so there is no sandwich bracket.\"}",
+ "case_id": "pack_050",
+ "_time": "2026-10-19T19:09:20+0800"
+}

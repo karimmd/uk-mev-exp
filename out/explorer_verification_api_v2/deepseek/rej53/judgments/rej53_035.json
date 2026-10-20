@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xe618785149a1ee7d3042e304e2f899f7a4616b7d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.109748,
+ "gas_eth": 0.012964,
+ "profit_after_gas": 0.096784,
+ "residual": "0.000545 USDT",
+ "confidence": 5,
+ "note": "The bot contract opens by selling WOZX for USDT on the victim's WOZX/USDT pool and closes by buying WOZX on that same pool after the victim. Its WETH/ETH net across front and back is +0.109748 ETH before gas, with a tiny USDT residual, so Q2 is positive.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2573,
+  "output_tokens": 6677,
+  "thinking_tokens": 6492
+ },
+ "_request_id": "dbdb53c2162d05136fa5619e6bea919f",
+ "_response_id": "372f9c21-cc79-4d1c-86b6-141257341fa1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0xe618785149a1ee7d3042e304e2f899f7a4616b7d\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.109748,\"gas_eth\":0.012964,\"profit_after_gas\":0.096784,\"residual\":\"0.000545 USDT\",\"confidence\":5,\"note\":\"The bot contract opens by selling WOZX for USDT on the victim's WOZX/USDT pool and closes by buying WOZX on that same pool after the victim. Its WETH/ETH net across front and back is +0.109748 ETH before gas, with a tiny USDT residual, so Q2 is positive.\"}",
+ "case_id": "rej53_035",
+ "_time": "2026-10-19T19:44:36+0800"
+}

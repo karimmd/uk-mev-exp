@@ -1,0 +1,40 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8",
+  "0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de",
+  "0x9437ad40056ca3ec2fc1efe41885ad4b6ac46061",
+  "0x47841ec00564a33402f16b876ed148b52dfbe188",
+  "0x559ebe4e206e6b4d50e9bd3008cda7ce640c52cb"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000111,
+ "gas_eth": 0.005864,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor 0x169c receives 0.282352 and 0.109491 WETH from pools and sends 0.278968 and 0.106900 WETH to pools, netting +0.005975 WETH before gas. Intermediate NU/RNG/RADAR transfers occur between the swapped pools, not held by the actor, and no residual non-WETH holding remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1934,
+  "output_tokens": 9185,
+  "thinking_tokens": 8879
+ },
+ "_request_id": "82110f0fe09165c864270ec78de43869",
+ "_response_id": "decde96d-3213-4fb6-b241-2e190414572e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8\",\"0x3ce42ef6b6617b5950c13d1c258ecfdcd30bb4de\",\"0x9437ad40056ca3ec2fc1efe41885ad4b6ac46061\",\"0x47841ec00564a33402f16b876ed148b52dfbe188\",\"0x559ebe4e206e6b4d50e9bd3008cda7ce640c52cb\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000111,\"gas_eth\":0.005864,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor 0x169c receives 0.282352 and 0.109491 WETH from pools and sends 0.278968 and 0.106900 WETH to pools, netting +0.005975 WETH before gas. Intermediate NU/RNG/RADAR transfers occur between the swapped pools, not held by the actor, and no residual non-WETH holding remains.\"}",
+ "case_id": "arb106_012",
+ "_time": "2026-10-19T19:07:18+0800"
+}

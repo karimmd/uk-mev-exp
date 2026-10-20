@@ -1,0 +1,25 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+  "0xcd8286b48936cdac20518247dbd310ab681a9fbf",
+  "0xe1573b9d29e2183b1af0e743dc2754979a40d237",
+  "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.080869,
+ "gas_eth": 0.074138,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor takes 11.294296 WETH from the USDC/WETH V3 pool and sends 11.213427 WETH to the FRAX/WETH V3 pool. The proceeds go through FRAX, a V2 pair and the USDC/FRAX V3 pool, and the USDC returns to the first pool, which closes the loop. The actor ends with +0.080869 WETH and pays 0.074138 ETH gas, so the net is about +0.00673 ETH. The sender may not be the actor, and the WETH legs do not net to exactly zero, which keeps confidence moderate.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0268712,
+ "_session": "deef542e-3d80-48e0-9f11-d033b1bced72",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\",\"0xcd8286b48936cdac20518247dbd310ab681a9fbf\",\"0xe1573b9d29e2183b1af0e743dc2754979a40d237\",\"0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.080869,\"gas_eth\":0.074138,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor takes 11.294296 WETH from the USDC/WETH V3 pool and sends 11.213427 WETH to the FRAX/WETH V3 pool. The proceeds go through FRAX, a V2 pair and the USDC/FRAX V3 pool, and the USDC returns to the first pool, which closes the loop. The actor ends with +0.080869 WETH and pays 0.074138 ETH gas, so the net is about +0.00673 ETH. The sender may not be the actor, and the WETH legs do not net to exactly zero, which keeps confidence moderate.\"}",
+ "case_id": "arb106_023",
+ "_time": "2026-10-13T22:15:35+0800"
+}

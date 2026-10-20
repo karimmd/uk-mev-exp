@@ -1,0 +1,17 @@
+{
+ "actor": "0x4edc5e546633f22357841b2d23a100a461160e80",
+ "pool": "0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -2.0,
+ "gas_eth": 0.048646,
+ "residual": "12.2155 XFYI from the front leg plus 11.767005 XFYI from the back leg (23.982505 XFYI); the victim leg adds another 11.988106 XFYI to the same address",
+ "confidence": 5,
+ "note": "All three transactions are sent by the same address, and each one swaps 1 ETH for XFYI on the same pool. The back leg buys more XFYI instead of selling, so no position is closed. The victim shares the actor's address and is not a separate party. Net ETH across the front and back legs is -2, and the XFYI left unsold means no profit sign can be determined.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0212067,
+ "_session": "3d9121db-f3f8-4540-9b40-2dd4bb53ca82",
+ "_raw": "{\"actor\": \"0x4edc5e546633f22357841b2d23a100a461160e80\", \"pool\": \"0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": -2.0, \"gas_eth\": 0.048646, \"residual\": \"12.2155 XFYI from the front leg plus 11.767005 XFYI from the back leg (23.982505 XFYI); the victim leg adds another 11.988106 XFYI to the same address\", \"confidence\": 5, \"note\": \"All three transactions are sent by the same address, and each one swaps 1 ETH for XFYI on the same pool. The back leg buys more XFYI instead of selling, so no position is closed. The victim shares the actor's address and is not a separate party. Net ETH across the front and back legs is -2, and the XFYI left unsold means no profit sign can be determined.\"}",
+ "case_id": "pack_190",
+ "_time": "2026-10-13T20:41:57+0800"
+}

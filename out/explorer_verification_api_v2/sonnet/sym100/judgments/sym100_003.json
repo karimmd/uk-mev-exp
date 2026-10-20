@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x8979a3ef9d540480342ac0f56e9d4c88807b1cba",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg (actor 0xeb5d3a\u2026) and the back leg (actor 0x4f92e5\u2026) are different contracts, so there is no single actor holding a position across the victim. Each leg is a self-contained cross-pool REP/WETH arbitrage between 0x8979\u2026 and 0x2e22\u2026, and the front leg ends flat with no REP left. Q2 is answered 'no' only because no bracket exists, so no single actor's net or gas figures are reported.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 5590,
+  "output_tokens": 1000,
+  "thinking_tokens": 736
+ },
+ "_request_id": "req_011CgBWAm5snXsH7qe9CiqUq",
+ "_response_id": "msg_011CgBWAmsFh8EDhesuXmKr5",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x8979a3ef9d540480342ac0f56e9d4c88807b1cba\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg (actor 0xeb5d3a\u2026) and the back leg (actor 0x4f92e5\u2026) are different contracts, so there is no single actor holding a position across the victim. Each leg is a self-contained cross-pool REP/WETH arbitrage between 0x8979\u2026 and 0x2e22\u2026, and the front leg ends flat with no REP left. Q2 is answered 'no' only because no bracket exists, so no single actor's net or gas figures are reported.\"}",
+ "case_id": "sym100_003",
+ "_time": "2026-10-19T19:18:29+0800"
+}

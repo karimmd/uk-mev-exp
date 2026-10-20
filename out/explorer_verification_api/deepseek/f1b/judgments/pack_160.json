@@ -1,0 +1,31 @@
+{
+ "actor": "0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.0098,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract actor received 185.787870 COLLAR in the front leg and returned the identical amount in the back leg on the same UniswapV2 pool the victim traded. It spent 1.453431 WETH and received 1.463231 WETH; the back-leg 0.011270 ETH value and matching internal transfer cancel, leaving +0.0098 WETH and no residual COLLAR.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2355,
+  "output_tokens": 3664,
+  "thinking_tokens": 3477
+ },
+ "_request_id": "fbc3028fa3b06451f770ab2547be4fc3",
+ "_response_id": "0f4d128d-51c9-4147-8faf-dc1f9a6f8e33",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x36c1c59dcca0fd4a8c28551f7b2fe6421d53ce32\",\"pool\":\"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.0098,\"gas_eth\":0.0,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract actor received 185.787870 COLLAR in the front leg and returned the identical amount in the back leg on the same UniswapV2 pool the victim traded. It spent 1.453431 WETH and received 1.463231 WETH; the back-leg 0.011270 ETH value and matching internal transfer cancel, leaving +0.0098 WETH and no residual COLLAR.\"}",
+ "case_id": "pack_160",
+ "_time": "2026-10-19T18:31:50+0800"
+}

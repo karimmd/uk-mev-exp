@@ -1,0 +1,32 @@
+{
+ "actor": "0x66f049111958809841bbe4b81c034da2d953aa0c",
+ "pool": "0x82dbc2673e9640343d263a3c55de49021ad39ae2",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.016119,
+ "gas_eth": 0.012374,
+ "profit_after_gas": 0.003745,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use the same UniswapV2 EDEN/WETH pool; the actor contract buys 29779.520984 EDEN in front and sells the same amount in back, netting +0.016119 WETH. After subtracting front+back gas of 0.012374 ETH, the observed profit is +0.003745 ETH and no non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2379,
+  "output_tokens": 9525,
+  "thinking_tokens": 9335
+ },
+ "_request_id": "749a579173880bcf3c1e3f438d2f60c0",
+ "_response_id": "f55eecb5-d34c-495a-95e4-81040b9e4048",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x66f049111958809841bbe4b81c034da2d953aa0c\",\"pool\":\"0x82dbc2673e9640343d263a3c55de49021ad39ae2\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.016119,\"gas_eth\":0.012374,\"profit_after_gas\":0.003745,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use the same UniswapV2 EDEN/WETH pool; the actor contract buys 29779.520984 EDEN in front and sells the same amount in back, netting +0.016119 WETH. After subtracting front+back gas of 0.012374 ETH, the observed profit is +0.003745 ETH and no non-WETH residual remains.\"}",
+ "case_id": "pack_021",
+ "_time": "2026-10-19T19:06:16+0800"
+}

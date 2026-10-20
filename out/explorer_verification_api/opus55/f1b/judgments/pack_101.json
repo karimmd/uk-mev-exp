@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000000084e91743124a982076c59f10084",
+ "pool": "0x063271fdac84b94e9283557f748594dc84092bf3",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.411414,
+ "gas_eth": 0.024007,
+ "residual": "none evident (2917.69 PROPHET in vs 2831.06 out, consistent with PROPHET's ~3% transfer fee)",
+ "confidence": 3,
+ "note": "Contract 0x0000\u20260084 (called by two different EOAs) buys PROPHET with 6.990 WETH on pool 0x0632\u20262bf3 and sells it back on the same pool for 8.426 WETH. The victim also trades that pool between the two legs, so the bracket definition is met. However, the victim sells PROPHET, the same direction as the back leg, so the price rise that produced the profit likely came from other transactions in the block, not this victim; the gross WETH gain minus 0.024 ETH gas is clearly positive.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3768,
+  "output_tokens": 1311,
+  "thinking_tokens": 971
+ },
+ "_request_id": "req_011CgBRGFwm3q778bUYqLro4",
+ "_response_id": "msg_011CgBRGMHzCiAm9dhF2EzG1",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000000000084e91743124a982076c59f10084\", \"pool\": \"0x063271fdac84b94e9283557f748594dc84092bf3\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 1.411414, \"gas_eth\": 0.024007, \"residual\": \"none evident (2917.69 PROPHET in vs 2831.06 out, consistent with PROPHET's ~3% transfer fee)\", \"confidence\": 3, \"note\": \"Contract 0x0000\u20260084 (called by two different EOAs) buys PROPHET with 6.990 WETH on pool 0x0632\u20262bf3 and sells it back on the same pool for 8.426 WETH. The victim also trades that pool between the two legs, so the bracket definition is met. However, the victim sells PROPHET, the same direction as the back leg, so the price rise that produced the profit likely came from other transactions in the block, not this victim; the gross WETH gain minus 0.024 ETH gas is clearly positive.\"}",
+ "case_id": "pack_101",
+ "_time": "2026-10-19T18:14:15+0800"
+}

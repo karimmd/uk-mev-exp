@@ -1,0 +1,17 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0x83abecf7204d5afc1bea5df734f085f2535a9976",
+ "Q1": "yes",
+ "Q2": "no",
+ "net_eth": 0.065254,
+ "gas_eth": 0.157241,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 3,020,068.012421 PEOPLE for 19.216836 WETH in the front leg, the victim buys PEOPLE on the same V3 pool, and the back leg sells exactly the same PEOPLE amount for 19.403861 WETH. The WETH gain is 0.187025, less the 0.121771 ETH sent on to 0xb7e3...f707 (likely a builder payment), gives 0.065254. That is smaller than the 0.157241 ETH gas, so the position is negative at about -0.0920 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0209727,
+ "_session": "3ab8378d-37bc-436e-9382-9162ee304762",
+ "_raw": "{\"actor\": \"0x499dd900f800fd0a2ed300006000a57f00fa009b\", \"pool\": \"0x83abecf7204d5afc1bea5df734f085f2535a9976\", \"Q1\": \"yes\", \"Q2\": \"no\", \"net_eth\": 0.065254, \"gas_eth\": 0.157241, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 3,020,068.012421 PEOPLE for 19.216836 WETH in the front leg, the victim buys PEOPLE on the same V3 pool, and the back leg sells exactly the same PEOPLE amount for 19.403861 WETH. The WETH gain is 0.187025, less the 0.121771 ETH sent on to 0xb7e3...f707 (likely a builder payment), gives 0.065254. That is smaller than the 0.157241 ETH gas, so the position is negative at about -0.0920 ETH.\"}",
+ "case_id": "pack_094",
+ "_time": "2026-10-13T20:22:57+0800"
+}

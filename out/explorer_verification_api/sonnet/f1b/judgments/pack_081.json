@@ -1,0 +1,31 @@
+{
+ "actor": "0x499dd900f800fd0a2ed300006000a57f00fa009b",
+ "pool": "0xc66ce0de9fd74e6ce40b6b8a9e86103ec56e45ed",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.092476,
+ "gas_eth": 0.022299,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract bought 33816.95 KST with 17.627637 WETH in the front leg, then sold all of it back to the same pool for 19.593682 WETH in the back leg. The victim bought KST on that pool in between (USDT->WETH->KST). The WETH gain is +1.966045, and the 0.873569 ETH sent with the back transaction was forwarded to another address (likely a builder tip), leaving 1.092476 before gas. After 0.022299 ETH gas the position is about +1.07 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2987,
+  "output_tokens": 805,
+  "thinking_tokens": 505
+ },
+ "_request_id": "req_011CgBQxYqWMs6NR3AeRAmni",
+ "_response_id": "msg_011CgBQxdkwHfRHebawKfWSd",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x499dd900f800fd0a2ed300006000a57f00fa009b\",\"pool\":\"0xc66ce0de9fd74e6ce40b6b8a9e86103ec56e45ed\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.092476,\"gas_eth\":0.022299,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract bought 33816.95 KST with 17.627637 WETH in the front leg, then sold all of it back to the same pool for 19.593682 WETH in the back leg. The victim bought KST on that pool in between (USDT->WETH->KST). The WETH gain is +1.966045, and the 0.873569 ETH sent with the back transaction was forwarded to another address (likely a builder tip), leaving 1.092476 before gas. After 0.022299 ETH gas the position is about +1.07 ETH.\"}",
+ "case_id": "pack_081",
+ "_time": "2026-10-19T18:10:07+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.02371,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is a sale of 1,261,076 MXS for 9.044 ETH by 0x071cac3a, and the back leg is a 0.03 ETH purchase of 3,928 MXS by a different address, 0x09aeafc2. No single actor opens and closes a position, and the sizes don't match, so this is not a bracket even though all three legs touch the same MXS/WETH pool. Q2 has no defined actor, so no net figure; gas_eth is the front and back fees summed (0.017903 + 0.005807).",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0245487,
+ "_session": "68bbfabb-71f1-44a5-8761-73c233ccb1ed",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.02371, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is a sale of 1,261,076 MXS for 9.044 ETH by 0x071cac3a, and the back leg is a 0.03 ETH purchase of 3,928 MXS by a different address, 0x09aeafc2. No single actor opens and closes a position, and the sizes don't match, so this is not a bracket even though all three legs touch the same MXS/WETH pool. Q2 has no defined actor, so no net figure; gas_eth is the front and back fees summed (0.017903 + 0.005807).\"}",
+ "case_id": "pack_020",
+ "_time": "2026-10-13T20:08:10+0800"
+}

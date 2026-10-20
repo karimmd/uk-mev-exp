@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000500e2fece27a7600435d0c48d64e0c00",
+ "pool": "0x3867877d568b1699a7fd7d6190d0926aa88c4b86",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.080054,
+ "gas_eth": 0.018136,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The same contract buys 0.427882 PRCY from pool 0x3867 in the front leg and sells exactly that amount back to the same pool in the back leg. The victim buys PRCY on that pool in between. The actor nets +0.139579 WETH, then forwards 0.059525 ETH (the back-leg tx value) to 0x1ad9, leaving +0.080054 ETH before gas and about +0.0619 ETH after the 0.018136 ETH gas. The PRCY prices across the three legs look inconsistent with each other, which lowers my confidence a little.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3332,
+  "output_tokens": 1401,
+  "thinking_tokens": 1091
+ },
+ "_request_id": "req_011CgBShjN6XNfZs2iduqeJz",
+ "_response_id": "msg_011CgBShjhS5gCXfyee4YguA",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000500e2fece27a7600435d0c48d64e0c00\",\"pool\":\"0x3867877d568b1699a7fd7d6190d0926aa88c4b86\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.080054,\"gas_eth\":0.018136,\"residual\":\"none\",\"confidence\":3,\"note\":\"The same contract buys 0.427882 PRCY from pool 0x3867 in the front leg and sells exactly that amount back to the same pool in the back leg. The victim buys PRCY on that pool in between. The actor nets +0.139579 WETH, then forwards 0.059525 ETH (the back-leg tx value) to 0x1ad9, leaving +0.080054 ETH before gas and about +0.0619 ETH after the 0.018136 ETH gas. The PRCY prices across the three legs look inconsistent with each other, which lowers my confidence a little.\"}",
+ "case_id": "rej53_038",
+ "_time": "2026-10-19T18:33:03+0800"
+}

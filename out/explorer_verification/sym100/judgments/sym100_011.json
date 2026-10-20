@@ -1,0 +1,17 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfca090c1868004bec9c91f53db013288dc21c55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.230121,
+ "gas_eth": 0.206774,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract trades MOD/WETH on the same pool in the front and back legs, with the victim's MOD sale between them. The front leg sells 10453.15 MOD for 18.219 WETH, the back leg buys back exactly 10453.15 MOD for 16.988879 WETH, so the MOD position is flat. Net WETH is +1.230121, and after 0.206774 ETH of gas it is about +1.0233 ETH. The sequence is sell, victim sells, buy back, so the actor used MOD it already held rather than buying first.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0272732,
+ "_session": "5ef74ce5-a41b-4e90-964c-b9e2f7d74fb8",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xfca090c1868004bec9c91f53db013288dc21c55b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.230121,\"gas_eth\":0.206774,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract trades MOD/WETH on the same pool in the front and back legs, with the victim's MOD sale between them. The front leg sells 10453.15 MOD for 18.219 WETH, the back leg buys back exactly 10453.15 MOD for 16.988879 WETH, so the MOD position is flat. Net WETH is +1.230121, and after 0.206774 ETH of gas it is about +1.0233 ETH. The sequence is sell, victim sells, buy back, so the actor used MOD it already held rather than buying first.\"}",
+ "case_id": "sym100_011",
+ "_time": "2026-10-13T21:25:01+0800"
+}

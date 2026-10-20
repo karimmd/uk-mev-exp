@@ -1,0 +1,31 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xbf4ff08b9a3bbb77a362b609119100545c0445fe",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.094869,
+ "gas_eth": 0.03088592,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The front and back legs use the same actor contract on the same pool the victim trades. The actor sold PMON in front and bought it back in back, so it did not open/close a non-WETH long; net WETH gain 0.094869 minus gas 0.03088592 is positive, with no PMON residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2358,
+  "output_tokens": 5466,
+  "thinking_tokens": 5298
+ },
+ "_request_id": "836c6dc9d0dd26a658d5e54a9669666d",
+ "_response_id": "dd1faf25-15e0-4c29-99dc-6da3778c674b",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xbf4ff08b9a3bbb77a362b609119100545c0445fe\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.094869,\"gas_eth\":0.03088592,\"residual\":\"none\",\"confidence\":5,\"note\":\"The front and back legs use the same actor contract on the same pool the victim trades. The actor sold PMON in front and bought it back in back, so it did not open/close a non-WETH long; net WETH gain 0.094869 minus gas 0.03088592 is positive, with no PMON residual.\"}",
+ "case_id": "sym100_100",
+ "_time": "2026-10-19T18:56:35+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23",
+ "pool": "0xd18748b9839b0081a867a1a871d5b562b2ec9884",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.047981,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both use the POND/USDC pool 0xd187..., with the actor contract 0x8f30... acquiring and then spending the same 5977.238937 USDC; victim trades that pool in between. Net WETH is +0.100506 and the back leg sends 0.052525 ETH from the actor, leaving +0.047981 ETH before zero gas fees.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3240,
+  "output_tokens": 5892,
+  "thinking_tokens": 5712
+ },
+ "_request_id": "4d24004ce0861e9d46403d52b4916534",
+ "_response_id": "af2c8782-4abd-4216-b7b2-fdad99843ff8",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x8f30f1ea61a275ccd8cbc451102ed5555f1dbc23\",\"pool\":\"0xd18748b9839b0081a867a1a871d5b562b2ec9884\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.047981,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both use the POND/USDC pool 0xd187..., with the actor contract 0x8f30... acquiring and then spending the same 5977.238937 USDC; victim trades that pool in between. Net WETH is +0.100506 and the back leg sends 0.052525 ETH from the actor, leaving +0.047981 ETH before zero gas fees.\"}",
+ "case_id": "rej53_037",
+ "_time": "2026-10-19T19:02:07+0800"
+}

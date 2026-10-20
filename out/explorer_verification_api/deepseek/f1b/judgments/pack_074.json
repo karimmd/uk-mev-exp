@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0xe6f51e892046cb5b437e0033d990b527ea4367c8",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.407174,
+ "gas_eth": 0.034235,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are both the contract 0x00000000000064c443ef440577c26525a3c34a30 trading B20/WETH on the same Uniswap V2 pool as the victim. The actor sold B20 in front and bought the same B20 back in back, so the non-WETH position was not opened in front and closed in back. Gross WETH gain is +0.441409; after gas (0.034235) net is +0.407174, with no net B20 residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3118,
+  "output_tokens": 15641,
+  "thinking_tokens": 15434
+ },
+ "_request_id": "8e63f76b03cddc8c4d1e9062f5d212cf",
+ "_response_id": "6db4e78b-e49c-4199-83dc-da0c9843d707",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0xe6f51e892046cb5b437e0033d990b527ea4367c8\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.407174,\"gas_eth\":0.034235,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are both the contract 0x00000000000064c443ef440577c26525a3c34a30 trading B20/WETH on the same Uniswap V2 pool as the victim. The actor sold B20 in front and bought the same B20 back in back, so the non-WETH position was not opened in front and closed in back. Gross WETH gain is +0.441409; after gas (0.034235) net is +0.407174, with no net B20 residual.\"}",
+ "case_id": "pack_074",
+ "_time": "2026-10-19T18:16:50+0800"
+}

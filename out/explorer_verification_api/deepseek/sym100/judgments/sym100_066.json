@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.030755,
+ "gas_eth": 0.010921,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back both route through pools 0x659a and 0x13cd; the victim trades on 0x13cd. The actor contract nets +0.041676 WETH/ETH before gas and no EROWAN residual; after 0.010921 gas the net is +0.030755. No non-WETH position is held by the actor, so Q1 is no.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2825,
+  "output_tokens": 10978,
+  "thinking_tokens": 10795
+ },
+ "_request_id": "b19c15155bbcf4976bcb153b9565060b",
+ "_response_id": "c8349388-d257-4b7d-acdd-6f2f90134496",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000003b3cc22af3ae1eac0440bcee416b40\",\"pool\":\"0x13cd8c3be06baae672f64bf3f59331b39a5ed5e9\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.030755,\"gas_eth\":0.010921,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back both route through pools 0x659a and 0x13cd; the victim trades on 0x13cd. The actor contract nets +0.041676 WETH/ETH before gas and no EROWAN residual; after 0.010921 gas the net is +0.030755. No non-WETH position is held by the actor, so Q1 is no.\"}",
+ "case_id": "sym100_066",
+ "_time": "2026-10-19T18:51:12+0800"
+}

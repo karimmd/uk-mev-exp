@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0xd65e975c7d0d5871eff8b079120e43c9f377ada1",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.002626,
+ "gas_eth": 0.01047,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The target contract runs two-pool WETH/YOP swaps around the victim on the shared pool d65e, but it holds no non-WETH token after the front leg. Raw WETH net across front/back is +0.013096; after gas it is +0.002626.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2714,
+  "output_tokens": 13688,
+  "thinking_tokens": 13513
+ },
+ "_request_id": "f54870d7ba1c8522cdc3e1bb95d30c0f",
+ "_response_id": "2c48cf9e-62c9-400b-ab0a-63827b0f6531",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0xd65e975c7d0d5871eff8b079120e43c9f377ada1\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.002626, \"gas_eth\": 0.01047, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The target contract runs two-pool WETH/YOP swaps around the victim on the shared pool d65e, but it holds no non-WETH token after the front leg. Raw WETH net across front/back is +0.013096; after gas it is +0.002626.\"}",
+ "case_id": "sym100_055",
+ "_time": "2026-10-19T18:48:49+0800"
+}

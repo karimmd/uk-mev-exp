@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6",
+  "0x07f3d316630719f4fc69c152f397c150f0831071",
+  "0x4bec87cb126de6c1f8b410e32d1f4ae472fdd83b",
+  "0xd966da62dec253128dbd16a4034de6e051e1d2d7",
+  "0x966ea83cf3170a309184bb742398c925249e407e"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.002561,
+ "gas_eth": 0.037422,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two WETH cycles. The first goes WETH to USDT to EURT to WETH through three V3 pools: 15.049365 WETH out and 15.074886 WETH back. The second goes WETH to LPL to WETH through a V3 pool and a V2 pool: 0.127077 WETH out and 0.141539 WETH back. Gross WETH gain is about 0.039983, which leaves about 0.002561 ETH after the 0.037422 ETH fee, with no residual holding and no mint.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2407,
+  "output_tokens": 870,
+  "thinking_tokens": 418
+ },
+ "_request_id": "req_011CgBTVTvgagTQJrgP5spCz",
+ "_response_id": "msg_011CgBTVULzghuiRZhBTWvEk",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xb2bbfd73971279a457514325f209eb63a0341ef2\", \"pools\": [\"0x11b815efb8f581194ae79006d24e0d814b7697f6\", \"0x07f3d316630719f4fc69c152f397c150f0831071\", \"0x4bec87cb126de6c1f8b410e32d1f4ae472fdd83b\", \"0xd966da62dec253128dbd16a4034de6e051e1d2d7\", \"0x966ea83cf3170a309184bb742398c925249e407e\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.002561, \"gas_eth\": 0.037422, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two WETH cycles. The first goes WETH to USDT to EURT to WETH through three V3 pools: 15.049365 WETH out and 15.074886 WETH back. The second goes WETH to LPL to WETH through a V3 pool and a V2 pool: 0.127077 WETH out and 0.141539 WETH back. Gross WETH gain is about 0.039983, which leaves about 0.002561 ETH after the 0.037422 ETH fee, with no residual holding and no mint.\"}",
+ "case_id": "arb106_079",
+ "_time": "2026-10-19T18:43:21+0800"
+}

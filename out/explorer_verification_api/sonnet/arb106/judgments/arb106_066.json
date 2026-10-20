@@ -1,0 +1,39 @@
+{
+ "actor": "0x169c61a6297ebfedc0671fb336d375bccb7cbae8",
+ "pools": [
+  "0x14de8287adc90f0f95bf567c0707670de52e3813",
+  "0x8ae720a71622e824f576b4a8c03031066548a3b1",
+  "0x7a3c548416bbe8e09ac4fd6151af2dc6957a75ca",
+  "0x350db0440f1ff18e900dcc8c01180aa00e72cc91"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000146,
+ "gas_eth": 0.022782,
+ "residual": "none",
+ "confidence": 3,
+ "note": "The actor ran two WETH-in/WETH-out loops, each between a V3 pool and a V2 pool. Pool 0x14de to 0x8ae7 (RAI) nets +0.012688 WETH, and pool 0x7a3c to 0x350d (MET) nets +0.010240 WETH. The RAI and MET move pool to pool and never touch the actor, so it holds only WETH: +0.022928 gross, about +0.000146 after the 0.022782 ETH gas fee. The margin is thin, so rounding in the displayed figures matters.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2331,
+  "output_tokens": 1224,
+  "thinking_tokens": 791
+ },
+ "_request_id": "req_011CgBTAt4E6jbW9XcNLnpWN",
+ "_response_id": "msg_011CgBTAtPKX8dZsyuRzp5vq",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x169c61a6297ebfedc0671fb336d375bccb7cbae8\",\"pools\":[\"0x14de8287adc90f0f95bf567c0707670de52e3813\",\"0x8ae720a71622e824f576b4a8c03031066548a3b1\",\"0x7a3c548416bbe8e09ac4fd6151af2dc6957a75ca\",\"0x350db0440f1ff18e900dcc8c01180aa00e72cc91\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000146,\"gas_eth\":0.022782,\"residual\":\"none\",\"confidence\":3,\"note\":\"The actor ran two WETH-in/WETH-out loops, each between a V3 pool and a V2 pool. Pool 0x14de to 0x8ae7 (RAI) nets +0.012688 WETH, and pool 0x7a3c to 0x350d (MET) nets +0.010240 WETH. The RAI and MET move pool to pool and never touch the actor, so it holds only WETH: +0.022928 gross, about +0.000146 after the 0.022782 ETH gas fee. The margin is thin, so rounding in the displayed figures matters.\"}",
+ "case_id": "arb106_066",
+ "_time": "2026-10-19T18:39:10+0800"
+}

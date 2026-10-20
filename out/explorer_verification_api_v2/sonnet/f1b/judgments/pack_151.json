@@ -1,0 +1,32 @@
+{
+ "actor": null,
+ "pool": "0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth_before_gas": null,
+ "gas_eth": null,
+ "profit_after_gas": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is sent by 0x2cfcbd23... and the back leg by 0x2435de45..., two different addresses. Both sell MXS into the same pool (0x13bb...), so neither opens a position that the other closes, and the victim buys MXS in between. That is not a bracket by one actor, so the profit question does not apply.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4019,
+  "output_tokens": 223,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBVuVf1vLpFcuinrXXiX",
+ "_response_id": "msg_011CgBVuY9qqEDgi3sTFJVfJ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x13bb5add7fd43c52d987e2c320f95d4b5e9cfa5f\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth_before_gas\": null, \"gas_eth\": null, \"profit_after_gas\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is sent by 0x2cfcbd23... and the back leg by 0x2435de45..., two different addresses. Both sell MXS into the same pool (0x13bb...), so neither opens a position that the other closes, and the victim buys MXS in between. That is not a bracket by one actor, so the profit question does not apply.\"}",
+ "case_id": "pack_151",
+ "_time": "2026-10-19T19:14:55+0800"
+}

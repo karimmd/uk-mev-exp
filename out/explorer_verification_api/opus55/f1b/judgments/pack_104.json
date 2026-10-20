@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x5f6af850b5aec2962397d24e8cd820e511c2f1ee",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.039876,
+ "gas_eth": 0.033648,
+ "residual": "none (the back leg sold about 0.006428 QANX more than the front leg bought, drawn from prior inventory, value negligible)",
+ "confidence": 5,
+ "note": "The same contract buys QANX with 2.805009 WETH on pool 0x5f6a\u2026 at position 0 and sells it back on that pool at position 2 for 2.878533 WETH. The victim buys QANX on the same pool between the two legs. The WETH gain of 0.073524 minus 0.033648 gas leaves about +0.0399 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3311,
+  "output_tokens": 603,
+  "thinking_tokens": 313
+ },
+ "_request_id": "req_011CgBRHwwrQvEM3DZkZRbH2",
+ "_response_id": "msg_011CgBRJ31SmQiRWBAGKWqMf",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x5f6af850b5aec2962397d24e8cd820e511c2f1ee\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.039876, \"gas_eth\": 0.033648, \"residual\": \"none (the back leg sold about 0.006428 QANX more than the front leg bought, drawn from prior inventory, value negligible)\", \"confidence\": 5, \"note\": \"The same contract buys QANX with 2.805009 WETH on pool 0x5f6a\u2026 at position 0 and sells it back on that pool at position 2 for 2.878533 WETH. The victim buys QANX on the same pool between the two legs. The WETH gain of 0.073524 minus 0.033648 gas leaves about +0.0399 ETH.\"}",
+ "case_id": "pack_104",
+ "_time": "2026-10-19T18:14:33+0800"
+}

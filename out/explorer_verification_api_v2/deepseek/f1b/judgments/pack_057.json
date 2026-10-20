@@ -1,0 +1,32 @@
+{
+ "actor": "0x56178a0d5f301baf6cf3e1cd53d9863437345bf9",
+ "pool": "0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth_before_gas": 7.135486,
+ "gas_eth": 0.005064,
+ "profit_after_gas": 7.130422,
+ "residual": "short 159.811746 ETH2X-FLI",
+ "confidence": 5,
+ "note": "All three legs sell ETH2X-FLI for WETH on the same Uniswap V2 pair; front and back both sell rather than open and close a position, leaving a net FLI short and no closed sandwich.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2291,
+  "output_tokens": 13861,
+  "thinking_tokens": 13688
+ },
+ "_request_id": "a55dcc9ae42763c8b7ef03d1bec548bb",
+ "_response_id": "f6859281-3de1-4b95-9986-904631705b0e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x56178a0d5f301baf6cf3e1cd53d9863437345bf9\",\"pool\":\"0xf91c12dae1313d0be5d7a27aa559b1171cc1eac5\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth_before_gas\":7.135486,\"gas_eth\":0.005064,\"profit_after_gas\":7.130422,\"residual\":\"short 159.811746 ETH2X-FLI\",\"confidence\":5,\"note\":\"All three legs sell ETH2X-FLI for WETH on the same Uniswap V2 pair; front and back both sell rather than open and close a position, leaving a net FLI short and no closed sandwich.\"}",
+ "case_id": "pack_057",
+ "_time": "2026-10-19T19:10:50+0800"
+}

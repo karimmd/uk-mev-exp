@@ -1,0 +1,25 @@
+{
+ "actor": "0x3765521db364ee269e9540970fd21e5a3e825699",
+ "pools": [
+  "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
+  "0x231b7589426ffe1b75405526fc32ac09d44364c4",
+  "0xd0effc6828972483db1c64106f71d6ad12606a53",
+  "0x0d0d65e7a7db277d3e0f5e1676325e75f3340455"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.00228,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 1.086531 WETH into a V3 WBTC/WETH pool. The proceeds pass pool to pool (WBTC to a V2 WBTC/DAI pool, DAI to a V3 DAI/MTA pool, MTA to a V2 MTA/WETH pool) and return as 1.098529 WETH. That is +0.011998 WETH, less a 0.009718 ETH payment to 0xea67 (likely a miner bribe), leaving about +0.00228 ETH. Gas price is shown as 0, so the fee is 0.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0219327,
+ "_session": "5ca8beda-11dd-419f-8f06-fd49424f5818",
+ "_raw": "{\"actor\": \"0x3765521db364ee269e9540970fd21e5a3e825699\", \"pools\": [\"0x4585fe77225b41b697c938b018e2ac67ac5a20c0\", \"0x231b7589426ffe1b75405526fc32ac09d44364c4\", \"0xd0effc6828972483db1c64106f71d6ad12606a53\", \"0x0d0d65e7a7db277d3e0f5e1676325e75f3340455\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.00228, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 1.086531 WETH into a V3 WBTC/WETH pool. The proceeds pass pool to pool (WBTC to a V2 WBTC/DAI pool, DAI to a V3 DAI/MTA pool, MTA to a V2 MTA/WETH pool) and return as 1.098529 WETH. That is +0.011998 WETH, less a 0.009718 ETH payment to 0xea67 (likely a miner bribe), leaving about +0.00228 ETH. Gas price is shown as 0, so the fee is 0.\"}",
+ "case_id": "arb106_089",
+ "_time": "2026-10-13T22:30:39+0800"
+}

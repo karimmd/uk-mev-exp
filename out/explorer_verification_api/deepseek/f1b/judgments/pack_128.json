@@ -1,0 +1,31 @@
+{
+ "actor": "0x42d0ba0223700dea8bca7983cc4bf0e000dee772",
+ "pool": "0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.041163,
+ "gas_eth": 0.011798,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front buys CEL on Uniswap V2 pool 0xa5e7..., victim buys the same token on the same pool at position 33, and back sells CEL on the same pool. Actor 0x42d0... holds CEL after the front leg and gives it up in the back leg. Net ETH after gas is 11.052961 - 11 - 0.011798 = 0.041163 ETH, with no residual CEL.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2671,
+  "output_tokens": 7797,
+  "thinking_tokens": 7583
+ },
+ "_request_id": "1f8620a0a26331296403a9c7775ec3db",
+ "_response_id": "f9d99890-cb88-4861-9959-9ef480b23758",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x42d0ba0223700dea8bca7983cc4bf0e000dee772\", \"pool\": \"0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.041163, \"gas_eth\": 0.011798, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front buys CEL on Uniswap V2 pool 0xa5e7..., victim buys the same token on the same pool at position 33, and back sells CEL on the same pool. Actor 0x42d0... holds CEL after the front leg and gives it up in the back leg. Net ETH after gas is 11.052961 - 11 - 0.011798 = 0.041163 ETH, with no residual CEL.\"}",
+ "case_id": "pack_128",
+ "_time": "2026-10-19T18:25:59+0800"
+}

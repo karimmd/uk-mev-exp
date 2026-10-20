@@ -1,0 +1,17 @@
+{
+ "actor": "0x7f941cdae3c01906e42f8325af0693a848f81072",
+ "pool": "0x092e793afe54366601eb7ef7e63b6abb93edb485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.556872,
+ "gas_eth": 0.082625,
+ "residual": "about 632.63 MINT (19974.459044 bought minus 19341.831531 sold)",
+ "confidence": 3,
+ "note": "The contract 0x7f94\u2026 buys MINT with 20.907221 ETH/WETH in the front leg and sells MINT back for 21.464093 WETH in the back leg. Both legs and the victim's swap run on the same Uniswap V2 pool, with the victim between them. Net ETH is +0.556872 and gas for the two legs is 0.082625, so about +0.474 ETH after gas, plus a leftover MINT balance that only adds to it. One caveat: the victim sells MINT after the front leg pushed its price up, so the victim is not obviously harmed. The structure still matches Q1.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0343732,
+ "_session": "61b0e09f-8afb-4809-9f7e-1c7b905e424e",
+ "_raw": "{\"actor\":\"0x7f941cdae3c01906e42f8325af0693a848f81072\",\"pool\":\"0x092e793afe54366601eb7ef7e63b6abb93edb485\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.556872,\"gas_eth\":0.082625,\"residual\":\"about 632.63 MINT (19974.459044 bought minus 19341.831531 sold)\",\"confidence\":3,\"note\":\"The contract 0x7f94\u2026 buys MINT with 20.907221 ETH/WETH in the front leg and sells MINT back for 21.464093 WETH in the back leg. Both legs and the victim's swap run on the same Uniswap V2 pool, with the victim between them. Net ETH is +0.556872 and gas for the two legs is 0.082625, so about +0.474 ETH after gas, plus a leftover MINT balance that only adds to it. One caveat: the victim sells MINT after the front leg pushed its price up, so the victim is not obviously harmed. The structure still matches Q1.\"}",
+ "case_id": "rej53_044",
+ "_time": "2026-10-13T22:02:25+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xec745519247642fbf14689ac7254068dffba08e3",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is sent by 0x85160f and the back leg by 0x823f53. Different senders, both buying ELONGD with ETH, so the back leg opens a position rather than closing one. The front actor receives ELONGD and never sells it, and the back actor does not hold ELONGD from the front leg. No single actor opens and closes a position, so this is not a sandwich bracket. The victim does trade on the shared ELONGD/WETH pool, but that does not change the result.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3684,
+  "output_tokens": 244,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBQpz46YMjeMEbgXXNBQ",
+ "_response_id": "msg_011CgBQpzQgcJE27Gu9fbKUc",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0xec745519247642fbf14689ac7254068dffba08e3\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is sent by 0x85160f and the back leg by 0x823f53. Different senders, both buying ELONGD with ETH, so the back leg opens a position rather than closing one. The front actor receives ELONGD and never sells it, and the back actor does not hold ELONGD from the front leg. No single actor opens and closes a position, so this is not a sandwich bracket. The victim does trade on the shared ELONGD/WETH pool, but that does not change the result.\"}",
+ "case_id": "pack_070",
+ "_time": "2026-10-19T18:08:20+0800"
+}

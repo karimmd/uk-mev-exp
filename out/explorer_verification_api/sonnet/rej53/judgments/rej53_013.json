@@ -1,0 +1,31 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x684b00a5773679f88598a19976fbeb25a68e9a5f",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.018448,
+ "gas_eth": 0.013303,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract is paid in USDC from the EXRD/USDC pool (0x684b) in the front leg, using WETH routed through the EXRD/WETH pool (0x3f2e). It returns exactly the same 3681.319455 USDC in the back leg, so no residual remains. The victim sells EXRD on 0x684b between the two legs. WETH net is +0.039039, less the 0.020591 ETH sent out in the back leg (likely a builder payment), gives 0.018448. After 0.013303 ETH of gas the result is about +0.005145 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3163,
+  "output_tokens": 928,
+  "thinking_tokens": 621
+ },
+ "_request_id": "req_011CgBSZigwi12kGRDWLF4b6",
+ "_response_id": "msg_011CgBSZj32FA1e7JrhNRMeB",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x684b00a5773679f88598a19976fbeb25a68e9a5f\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.018448,\"gas_eth\":0.013303,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract is paid in USDC from the EXRD/USDC pool (0x684b) in the front leg, using WETH routed through the EXRD/WETH pool (0x3f2e). It returns exactly the same 3681.319455 USDC in the back leg, so no residual remains. The victim sells EXRD on 0x684b between the two legs. WETH net is +0.039039, less the 0.020591 ETH sent out in the back leg (likely a builder payment), gives 0.018448. After 0.013303 ETH of gas the result is about +0.005145 ETH.\"}",
+ "case_id": "rej53_013",
+ "_time": "2026-10-19T18:31:11+0800"
+}

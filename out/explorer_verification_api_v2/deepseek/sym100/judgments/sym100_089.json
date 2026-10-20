@@ -1,0 +1,32 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x6f9e023c0881ec3d8f56630a6c4fd137c025419e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.064572,
+ "gas_eth": 0.050902,
+ "profit_after_gas": 0.01367,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The contract c1dfd sells YLDY on the shared Uniswap V2 pool before the victim's YLDY sale and buys back the same YLDY amount afterward. It nets +0.064572 WETH before gas, which exceeds the combined front/back gas fees; YLDY net holding is zero.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2484,
+  "output_tokens": 3401,
+  "thinking_tokens": 3219
+ },
+ "_request_id": "6ee17b3e3aeb731444cfdde786230fe5",
+ "_response_id": "313e098d-750f-466d-9b43-8caa9d575cc3",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x6f9e023c0881ec3d8f56630a6c4fd137c025419e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.064572,\"gas_eth\":0.050902,\"profit_after_gas\":0.01367,\"residual\":\"none\",\"confidence\":5,\"note\":\"The contract c1dfd sells YLDY on the shared Uniswap V2 pool before the victim's YLDY sale and buys back the same YLDY amount afterward. It nets +0.064572 WETH before gas, which exceeds the combined front/back gas fees; YLDY net holding is zero.\"}",
+ "case_id": "sym100_089",
+ "_time": "2026-10-19T19:37:36+0800"
+}

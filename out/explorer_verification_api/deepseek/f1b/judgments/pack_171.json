@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xc0917d9f473618029bea42dd61b05fcf0251be42",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back use different helper contracts (0x00c409... and 0x860b...) and each leg closes its YETI exposure within the same transaction. The shared Uniswap pool 0xc091... is traded by all three, but no single economic actor opens the YETI position in front and closes it in back.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3704,
+  "output_tokens": 11073,
+  "thinking_tokens": 10921
+ },
+ "_request_id": "a6af774cbed98a4bd569eaa9802499c5",
+ "_response_id": "832ab128-14d3-4fe2-a60b-b9422bd012d9",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0xc0917d9f473618029bea42dd61b05fcf0251be42\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 5, \"note\": \"Front and back use different helper contracts (0x00c409... and 0x860b...) and each leg closes its YETI exposure within the same transaction. The shared Uniswap pool 0xc091... is traded by all three, but no single economic actor opens the YETI position in front and closes it in back.\"}",
+ "case_id": "pack_171",
+ "_time": "2026-10-19T18:33:44+0800"
+}

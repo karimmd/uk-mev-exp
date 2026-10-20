@@ -1,0 +1,31 @@
+{
+ "actor": "0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51",
+ "pool": "0x329cc2740670a039efca7663bddbefa03d19522d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.096999,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract buys 283010.994421 ARES in the front leg and sells the same amount in the back leg via the shared pool 0x329cc..., which the victim also trades between them. Net WETH gain is 0.169304 ETH; subtracting the 0.072305 ETH internal transfer and zero listed gas leaves +0.096999 ETH with no residual ARES.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3369,
+  "output_tokens": 4113,
+  "thinking_tokens": 3917
+ },
+ "_request_id": "d55197045012053dd640ea74e27d99ed",
+ "_response_id": "a0e0d4b1-70c9-4ec9-9230-fc0c653aa53a",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x1be0f4b9bbf312fdc9dfedff50aedce6f5035d51\", \"pool\": \"0x329cc2740670a039efca7663bddbefa03d19522d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.096999, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same contract buys 283010.994421 ARES in the front leg and sells the same amount in the back leg via the shared pool 0x329cc..., which the victim also trades between them. Net WETH gain is 0.169304 ETH; subtracting the 0.072305 ETH internal transfer and zero listed gas leaves +0.096999 ETH with no residual ARES.\"}",
+ "case_id": "rej53_016",
+ "_time": "2026-10-19T18:58:33+0800"
+}

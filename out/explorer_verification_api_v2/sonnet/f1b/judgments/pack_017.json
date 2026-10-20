@@ -1,0 +1,32 @@
+{
+ "actor": "0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d",
+ "pool": "0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.100962,
+ "gas_eth": 0.087418,
+ "profit_after_gas": 0.013544,
+ "residual": "about 5.27e12 MOONPUG (266728859863781.09 bought minus 261457822590376.78 sold), left in the actor contract",
+ "confidence": 4,
+ "note": "The actor contract buys MOONPUG with 0.57 WETH on pool 0x4cb57a before the victim, whose USDT\u2192WETH\u2192MOONPUG swap also hits that pool. It then sells MOONPUG back for 0.670962 WETH, a WETH gain of 0.100962. Both legs show a 0 gwei gas fee, but the back leg forwards 0.087418 ETH to 0xb3b787\u2026, which I treated as the real cost (likely a miner payment). The profit stays positive after that cost, and the leftover MOONPUG can only add to it.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3283,
+  "output_tokens": 1555,
+  "thinking_tokens": 1170
+ },
+ "_request_id": "req_011CgBVAC3uUJmMWk2rTjGp1",
+ "_response_id": "msg_011CgBVACQFF5pq6gSU3uSRx",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x1d6e8bac6ea3730825bde4b005ed7b2b39a2932d\",\"pool\":\"0x4cb57a0b9298cb43b21cea7eed1cdb8f05e60131\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.100962,\"gas_eth\":0.087418,\"profit_after_gas\":0.013544,\"residual\":\"about 5.27e12 MOONPUG (266728859863781.09 bought minus 261457822590376.78 sold), left in the actor contract\",\"confidence\":4,\"note\":\"The actor contract buys MOONPUG with 0.57 WETH on pool 0x4cb57a before the victim, whose USDT\u2192WETH\u2192MOONPUG swap also hits that pool. It then sells MOONPUG back for 0.670962 WETH, a WETH gain of 0.100962. Both legs show a 0 gwei gas fee, but the back leg forwards 0.087418 ETH to 0xb3b787\u2026, which I treated as the real cost (likely a miner payment). The profit stays positive after that cost, and the leftover MOONPUG can only add to it.\"}",
+ "case_id": "pack_017",
+ "_time": "2026-10-19T19:05:18+0800"
+}

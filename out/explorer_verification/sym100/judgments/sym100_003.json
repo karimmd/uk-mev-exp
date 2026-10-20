@@ -1,0 +1,17 @@
+{
+ "actor": null,
+ "pool": "0x8979a3ef9d540480342ac0f56e9d4c88807b1cba",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.09404,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg's actor (0xeb5d3a91...) and the back leg's actor (0x4f92e503...) are different addresses. Each leg is a complete arbitrage inside one transaction between pool 0x2e22a35a... and pool 0x8979a3ef..., with no REP left over. Neither leg opens a position that the other closes, so there is no sandwich bracket and no single actor to net. Gas for the front and back legs together is 0.049265 + 0.044775 = 0.09404 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.036993200000000004,
+ "_session": "cdb98436-d312-44fe-9d5e-a4d80fe7a750",
+ "_raw": "{\"actor\": null, \"pool\": \"0x8979a3ef9d540480342ac0f56e9d4c88807b1cba\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.09404, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg's actor (0xeb5d3a91...) and the back leg's actor (0x4f92e503...) are different addresses. Each leg is a complete arbitrage inside one transaction between pool 0x2e22a35a... and pool 0x8979a3ef..., with no REP left over. Neither leg opens a position that the other closes, so there is no sandwich bracket and no single actor to net. Gas for the front and back legs together is 0.049265 + 0.044775 = 0.09404 ETH.\"}",
+ "case_id": "sym100_003",
+ "_time": "2026-10-13T21:23:05+0800"
+}

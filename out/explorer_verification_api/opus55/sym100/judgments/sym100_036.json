@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x3127bbbc05f343192855ea40b54a34831ce72e04",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.054305,
+ "gas_eth": 0.023678,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The bot contract sold 924.961234 WAR for 2.206240 WETH on pool 0x3127, and the victim then sold WAR into the same pool, pushing the WAR price down. The bot bought back exactly 924.961234 WAR for 2.128257 WETH, a gross gain of 0.077983 WETH. After 0.023678 ETH of gas for the two bot legs it nets 0.054305 ETH and leaves no WAR residual.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2991,
+  "output_tokens": 571,
+  "thinking_tokens": 296
+ },
+ "_request_id": "req_011CgBSE84ZqmiP4tN7Jzvba",
+ "_response_id": "msg_011CgBSE8UcYxKhpMYiBiVuF",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x3127bbbc05f343192855ea40b54a34831ce72e04\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.054305, \"gas_eth\": 0.023678, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The bot contract sold 924.961234 WAR for 2.206240 WETH on pool 0x3127, and the victim then sold WAR into the same pool, pushing the WAR price down. The bot bought back exactly 924.961234 WAR for 2.128257 WETH, a gross gain of 0.077983 WETH. After 0.023678 ETH of gas for the two bot legs it nets 0.054305 ETH and leaves no WAR residual.\"}",
+ "case_id": "sym100_036",
+ "_time": "2026-10-19T18:26:44+0800"
+}

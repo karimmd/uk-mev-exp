@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000003b3cc22af3ae1eac0440bcee416b40",
+ "pool": "0x6af1becb78701f5919adb6f6932965abe4547763",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.002253,
+ "gas_eth": 0.0,
+ "residual": "about 634111774 KELPIE (about 2% of the front-leg buy; worth roughly 0.0035 ETH at the back-leg price)",
+ "confidence": 4,
+ "note": "Contract 0x0000\u20266b40 buys KELPIE with 0.147386 WETH on pool 0x6af1 and sells it back for 0.173279 WETH on the same pool, with the victim buying KELPIE on 0x6af1 in between. Gas price is 0, but the back leg's 0.023640 ETH value is forwarded to 0xea67\u2026, likely a miner payment, so net is 0.025893 \u2212 0.023640 = +0.002253 ETH. The small KELPIE residual only adds positive value.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2959,
+  "output_tokens": 938,
+  "thinking_tokens": 594
+ },
+ "_request_id": "req_011CgBRty1aHHadRMa1KtseV",
+ "_response_id": "msg_011CgBRtzSe7Cqt8UK1xvWRn",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x00000000003b3cc22af3ae1eac0440bcee416b40\", \"pool\": \"0x6af1becb78701f5919adb6f6932965abe4547763\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.002253, \"gas_eth\": 0.0, \"residual\": \"about 634111774 KELPIE (about 2% of the front-leg buy; worth roughly 0.0035 ETH at the back-leg price)\", \"confidence\": 4, \"note\": \"Contract 0x0000\u20266b40 buys KELPIE with 0.147386 WETH on pool 0x6af1 and sells it back for 0.173279 WETH on the same pool, with the victim buying KELPIE on 0x6af1 in between. Gas price is 0, but the back leg's 0.023640 ETH value is forwarded to 0xea67\u2026, likely a miner payment, so net is 0.025893 \u2212 0.023640 = +0.002253 ETH. The small KELPIE residual only adds positive value.\"}",
+ "case_id": "pack_181",
+ "_time": "2026-10-19T18:22:28+0800"
+}

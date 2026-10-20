@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.113749,
+ "gas_eth": 0.021091,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract trades the SHOPX/WETH pair on the same pool before and after the victim. In the front leg it sends 2040.385864 SHOPX to the pool and receives 3.006104 WETH. In the back leg it pays 2.892355 WETH and gets the identical 2040.385864 SHOPX back, so no token is left over. The victim also sells SHOPX into that pool in between. The actor nets +0.113749 WETH, or about +0.0927 ETH after the 0.021091 ETH of front and back gas. The position is a sell-first, buy-back-after sequence, not a buy-first one.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0245008,
+ "_session": "8a863562-9fe2-4c7c-b69a-34df857ca428",
+ "_raw": "{\"actor\": \"0x00000000000064c443ef440577c26525a3c34a30\", \"pool\": \"0x37ac54dc7dd237eecfd0b61efdd57b15fe158be0\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.113749, \"gas_eth\": 0.021091, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same contract trades the SHOPX/WETH pair on the same pool before and after the victim. In the front leg it sends 2040.385864 SHOPX to the pool and receives 3.006104 WETH. In the back leg it pays 2.892355 WETH and gets the identical 2040.385864 SHOPX back, so no token is left over. The victim also sells SHOPX into that pool in between. The actor nets +0.113749 WETH, or about +0.0927 ETH after the 0.021091 ETH of front and back gas. The position is a sell-first, buy-back-after sequence, not a buy-first one.\"}",
+ "case_id": "sym100_090",
+ "_time": "2026-10-13T21:42:59+0800"
+}

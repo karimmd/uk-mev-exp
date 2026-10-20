@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x0dacb47e00aed6abade32c7b398e029393e0d848",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": 0.045165,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back are separate arbitrage contracts (0x78a55... and 0x860bd...) each buying SOCKS from the bonding curve and selling to the same Uniswap pool within its own transaction; no single actor holds a SOCKS position across the victim.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3261,
+  "output_tokens": 9891,
+  "thinking_tokens": 9747
+ },
+ "_request_id": "43b0d241bc8bc8edc03432bb48700aef",
+ "_response_id": "56907a9f-334c-4133-b555-46a7260cbd2d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": null, \"pool\": \"0x0dacb47e00aed6abade32c7b398e029393e0d848\", \"Q1\": \"no\", \"Q2\": \"cannot tell\", \"net_eth\": null, \"gas_eth\": 0.045165, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Front and back are separate arbitrage contracts (0x78a55... and 0x860bd...) each buying SOCKS from the bonding curve and selling to the same Uniswap pool within its own transaction; no single actor holds a SOCKS position across the victim.\"}",
+ "case_id": "pack_031",
+ "_time": "2026-10-19T18:07:56+0800"
+}

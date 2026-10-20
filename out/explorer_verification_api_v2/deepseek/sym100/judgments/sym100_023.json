@@ -1,0 +1,32 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0xedc25e28c40762b64fa8fe139939c9164d5b3805",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.059657,
+ "gas_eth": 0.006572,
+ "profit_after_gas": 0.053085,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract 0x4aeefe sold 7196 REVO for 1.412549 WETH on the REVO/WETH pool in front and bought the same REVO amount back for 1.352892 WETH in back; the victim traded the same pool between them. Net WETH is positive before gas and no REVO residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2371,
+  "output_tokens": 2583,
+  "thinking_tokens": 2396
+ },
+ "_request_id": "63158014f2330c81b24688d512ebc78a",
+ "_response_id": "7815390f-9e12-4163-b5de-a0b830f32eeb",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\",\"pool\":\"0xedc25e28c40762b64fa8fe139939c9164d5b3805\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.059657,\"gas_eth\":0.006572,\"profit_after_gas\":0.053085,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract 0x4aeefe sold 7196 REVO for 1.412549 WETH on the REVO/WETH pool in front and bought the same REVO amount back for 1.352892 WETH in back; the victim traded the same pool between them. Net WETH is positive before gas and no REVO residual remains.\"}",
+ "case_id": "sym100_023",
+ "_time": "2026-10-19T19:30:38+0800"
+}

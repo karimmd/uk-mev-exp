@@ -1,0 +1,32 @@
+{
+ "actor": "0x00000000000064c443ef440577c26525a3c34a30",
+ "pool": "0x8d82b68f2346483d6b210383edbe27e7f5ef2365",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.135393,
+ "gas_eth": 0.032375,
+ "profit_after_gas": 0.103018,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract sold CTASK for WETH in the front leg and bought back the same CTASK amount for less WETH in the back leg on the shared Uniswap pair also used by the victim. Net WETH profit before gas is positive and remains positive after the front and back gas fees; no residual CTASK remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2133,
+  "output_tokens": 2388,
+  "thinking_tokens": 2211
+ },
+ "_request_id": "749f82879c782bacfa46bf985bd4cca9",
+ "_response_id": "bf7ace99-781c-41a7-82bf-078b80be27bd",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x00000000000064c443ef440577c26525a3c34a30\",\"pool\":\"0x8d82b68f2346483d6b210383edbe27e7f5ef2365\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.135393,\"gas_eth\":0.032375,\"profit_after_gas\":0.103018,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract sold CTASK for WETH in the front leg and bought back the same CTASK amount for less WETH in the back leg on the shared Uniswap pair also used by the victim. Net WETH profit before gas is positive and remains positive after the front and back gas fees; no residual CTASK remains.\"}",
+ "case_id": "sym100_012",
+ "_time": "2026-10-19T19:29:48+0800"
+}

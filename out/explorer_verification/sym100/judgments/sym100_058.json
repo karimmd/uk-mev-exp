@@ -1,0 +1,17 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0x05f04f112a286c4c551897fb19ed2300272656c8",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.026401,
+ "gas_eth": 0.009954,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 5438.688740 POLK into the pool for 2.14 WETH in the front leg, the victim sells 9642 POLK into the same pool, and the actor then buys back exactly 5438.688740 POLK for 2.113599 WETH in the back leg. This is the sell-first mirror of a sandwich, with the POLK position flat afterwards. The WETH gain of 0.026401 less 0.009954 ETH gas leaves about +0.016447 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0227467,
+ "_session": "de3ae54b-f025-412c-888a-83658e5f31e6",
+ "_raw": "{\"actor\": \"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\", \"pool\": \"0x05f04f112a286c4c551897fb19ed2300272656c8\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.026401, \"gas_eth\": 0.009954, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract sells 5438.688740 POLK into the pool for 2.14 WETH in the front leg, the victim sells 9642 POLK into the same pool, and the actor then buys back exactly 5438.688740 POLK for 2.113599 WETH in the back leg. This is the sell-first mirror of a sandwich, with the POLK position flat afterwards. The WETH gain of 0.026401 less 0.009954 ETH gas leaves about +0.016447 ETH.\"}",
+ "case_id": "sym100_058",
+ "_time": "2026-10-13T21:35:48+0800"
+}

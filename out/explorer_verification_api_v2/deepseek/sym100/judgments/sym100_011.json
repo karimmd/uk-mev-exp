@@ -1,0 +1,32 @@
+{
+ "actor": "0xb5917a48a99c1f8c76119a5133fde1169ec11170",
+ "pool": "0xfca090c1868004bec9c91f53db013288dc21c55b",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 1.230121,
+ "gas_eth": 0.206774,
+ "profit_after_gas": 1.023347,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same actor contract sold MOD in the front leg and bought the same MOD amount back in the back leg on the same Uniswap V2 pool used by the victim. Net WETH is +1.230121 before gas, and after front/back gas fees the trade remains clearly profitable; the MOD position is closed with no net residual token holding.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2622,
+  "output_tokens": 4463,
+  "thinking_tokens": 4281
+ },
+ "_request_id": "908444625023bb7ba62e06b11b4fcfcf",
+ "_response_id": "98f1c2d5-777a-4a16-ac00-acf95a74425d",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb5917a48a99c1f8c76119a5133fde1169ec11170\",\"pool\":\"0xfca090c1868004bec9c91f53db013288dc21c55b\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":1.230121,\"gas_eth\":0.206774,\"profit_after_gas\":1.023347,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same actor contract sold MOD in the front leg and bought the same MOD amount back in the back leg on the same Uniswap V2 pool used by the victim. Net WETH is +1.230121 before gas, and after front/back gas fees the trade remains clearly profitable; the MOD position is closed with no net residual token holding.\"}",
+ "case_id": "sym100_011",
+ "_time": "2026-10-19T19:29:47+0800"
+}

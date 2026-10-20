@@ -1,0 +1,31 @@
+{
+ "actor": "0x4aeefe844e6e4676acd6ab60eac38da69d986e69",
+ "pool": "0x6d91af49939796f59273c859a92b76446450a920",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.11353,
+ "gas_eth": 0.007195,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same contract actor traded on the shared UniswapV2 BDT/WETH pool around the victim: it sold BDT for WETH in front and bought back the same BDT amount in back. Net WETH after front/back gas is positive, and no BDT residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2340,
+  "output_tokens": 10615,
+  "thinking_tokens": 10460
+ },
+ "_request_id": "584ae1db7b1472de6accc1899f1a31ba",
+ "_response_id": "1b7a225d-42b1-48c3-86d3-cf7a113e4542",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4aeefe844e6e4676acd6ab60eac38da69d986e69\",\"pool\":\"0x6d91af49939796f59273c859a92b76446450a920\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.11353,\"gas_eth\":0.007195,\"residual\":\"none\",\"confidence\":4,\"note\":\"The same contract actor traded on the shared UniswapV2 BDT/WETH pool around the victim: it sold BDT for WETH in front and bought back the same BDT amount in back. Net WETH after front/back gas is positive, and no BDT residual remains.\"}",
+ "case_id": "sym100_016",
+ "_time": "2026-10-19T18:40:43+0800"
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0x000000799cd54a82b54e8597f099b0183b301584",
+ "pools": [
+  "0x397ff1542f962076d0bfe58ea045ffa2d347aca0",
+  "0x5180545835bd68810fb7e11c7160bb7ea4ae8744",
+  "0x9928e4046d7c6513326ccea028cd3e7a91c7590a",
+  "0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.043208,
+ "gas_eth": 0.0,
+ "profit_after_gas": 0.043208,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 74.343262 WETH to the Sushi-style USDC/WETH pool. The trade then runs pool to pool: USDC to the V3 USDC/FEI pool, FEI to the V2 FEI/TRIBE pool, and TRIBE to the V3 TRIBE/WETH pool, which returns 74.497866 WETH, a closed four-pool cycle. The 0.154604 WETH surplus was unwrapped to ETH, and 0.111396 ETH of it went to 0x5a0b, which I read as a miner payment (gas price was 0); I count that as a cost, leaving 0.043208 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3256,
+  "output_tokens": 1049,
+  "thinking_tokens": 555
+ },
+ "_request_id": "req_011CgBX7CzMfKLeuFQoyCqJ3",
+ "_response_id": "msg_011CgBX7DNvcvx1hiN5SYTm9",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x000000799cd54a82b54e8597f099b0183b301584\", \"pools\": [\"0x397ff1542f962076d0bfe58ea045ffa2d347aca0\", \"0x5180545835bd68810fb7e11c7160bb7ea4ae8744\", \"0x9928e4046d7c6513326ccea028cd3e7a91c7590a\", \"0xf87bb87fd9ea1c260ddf77b9c707ad9437ff8364\"], \"cycle_token\": \"WETH\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.043208, \"gas_eth\": 0.0, \"profit_after_gas\": 0.043208, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor sends 74.343262 WETH to the Sushi-style USDC/WETH pool. The trade then runs pool to pool: USDC to the V3 USDC/FEI pool, FEI to the V2 FEI/TRIBE pool, and TRIBE to the V3 TRIBE/WETH pool, which returns 74.497866 WETH, a closed four-pool cycle. The 0.154604 WETH surplus was unwrapped to ETH, and 0.111396 ETH of it went to 0x5a0b, which I read as a miner payment (gas price was 0); I count that as a cost, leaving 0.043208 ETH.\"}",
+ "case_id": "arb106_010",
+ "_time": "2026-10-19T19:30:48+0800"
+}

@@ -1,0 +1,40 @@
+{
+ "actor": "0xa75af537fb853bb432f6a51d47d70e349fffc6ba",
+ "pools": [
+  "0xdfcf744c8ae896e8631ba9b9dc717546646f6708",
+  "0x66cab8b4acc7d125d2b5683392d4f5614093dbf0",
+  "0x3155acd9f75915fcc21d34035f440da7040bd3ba",
+  "0xa20ad630cee74bc834aa9b8fcb432c5c02710479",
+  "0xe626282591a993b0b0c86be3a102649a0ce6f34d"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.000184,
+ "gas_eth": 0.005053,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Circular cross-pool arbitrage: actor 0xa75a sends 0.275616 WETH through UniV3 WETH/REVV, UniV2 REVV/PROS, UniV2 PROS/USDC, UniV3 USDC/SAITO, and UniV2 SAITO/WETH, receiving 0.280853 WETH back. Net WETH profit 0.005237; after gas fee 0.005053, net +0.000184 ETH. No residual non-WETH holdings.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1844,
+  "output_tokens": 10955,
+  "thinking_tokens": 10625
+ },
+ "_request_id": "ea706390e84bbdb08f74326757e1e502",
+ "_response_id": "8d1c6135-bd8b-41fa-95fe-7f0218251409",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xa75af537fb853bb432f6a51d47d70e349fffc6ba\",\"pools\":[\"0xdfcf744c8ae896e8631ba9b9dc717546646f6708\",\"0x66cab8b4acc7d125d2b5683392d4f5614093dbf0\",\"0x3155acd9f75915fcc21d34035f440da7040bd3ba\",\"0xa20ad630cee74bc834aa9b8fcb432c5c02710479\",\"0xe626282591a993b0b0c86be3a102649a0ce6f34d\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.000184,\"gas_eth\":0.005053,\"residual\":\"none\",\"confidence\":5,\"note\":\"Circular cross-pool arbitrage: actor 0xa75a sends 0.275616 WETH through UniV3 WETH/REVV, UniV2 REVV/PROS, UniV2 PROS/USDC, UniV3 USDC/SAITO, and UniV2 SAITO/WETH, receiving 0.280853 WETH back. Net WETH profit 0.005237; after gas fee 0.005053, net +0.000184 ETH. No residual non-WETH holdings.\"}",
+ "case_id": "arb106_035",
+ "_time": "2026-10-19T19:13:25+0800"
+}

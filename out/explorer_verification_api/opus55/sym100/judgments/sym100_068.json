@@ -1,0 +1,31 @@
+{
+ "actor": "0xdac775cd972ac612907682ff757af66f75eecece",
+ "pool": "0x4e37dcad9e6e1465f33387587cef22616aac2541",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.127536,
+ "gas_eth": 0.035398,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xdac7 sold 47.257777 DIS for 4.365 WETH on pool 0x4e37 just before the victim sold DIS on the same pool. It then bought back exactly 47.257777 DIS for 4.202066 WETH, a short-style bracket with no DIS left over. The WETH gain of 0.162934 minus 0.035398 gas is positive, though the bracket runs in the reverse direction to the protocol's 'holding' wording, so confidence is not 5.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2949,
+  "output_tokens": 679,
+  "thinking_tokens": 389
+ },
+ "_request_id": "req_011CgBSSQYbN7HHrRJtJKy99",
+ "_response_id": "msg_011CgBSSQuuxguQkPYHiAT17",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xdac775cd972ac612907682ff757af66f75eecece\", \"pool\": \"0x4e37dcad9e6e1465f33387587cef22616aac2541\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.127536, \"gas_eth\": 0.035398, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xdac7 sold 47.257777 DIS for 4.365 WETH on pool 0x4e37 just before the victim sold DIS on the same pool. It then bought back exactly 47.257777 DIS for 4.202066 WETH, a short-style bracket with no DIS left over. The WETH gain of 0.162934 minus 0.035398 gas is positive, though the bracket runs in the reverse direction to the protocol's 'holding' wording, so confidence is not 5.\"}",
+ "case_id": "sym100_068",
+ "_time": "2026-10-19T18:29:34+0800"
+}

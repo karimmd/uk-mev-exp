@@ -1,0 +1,38 @@
+{
+ "actor": "0x0000000000007f150bd6f54c40a34d7c3d5e9f56",
+ "pools": [
+  "0x701d570d96caae620b64478046d79780912c5c17",
+  "0xc40d16476380e4037e6b1a2594caf6a6cc8da967"
+ ],
+ "cycle_token": null,
+ "profit_token": "ETH",
+ "Q1": "no",
+ "Q1_reason": "minted token sale",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.273865,
+ "gas_eth": 0.26033,
+ "profit_after_gas": 0.013535,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Actor minted IBETH from the zero address by depositing ETH, then swapped it through two UniswapV2 pools and withdrew WETH to ETH. Because the received IBETH came from a mint rather than a pool, this is not an arbitrage under the protocol. Net ETH gain before gas is 0.273865, and after the 0.260330 gas fee the position is positive by 0.013535 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2256,
+  "output_tokens": 8738,
+  "thinking_tokens": 8486
+ },
+ "_request_id": "6f2a5b1f2a1fd4f144fa2e043f9a4f55",
+ "_response_id": "fed0fc4e-c2d6-439c-94bc-6c1806365b45",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000000007f150bd6f54c40a34d7c3d5e9f56\",\"pools\":[\"0x701d570d96caae620b64478046d79780912c5c17\",\"0xc40d16476380e4037e6b1a2594caf6a6cc8da967\"],\"cycle_token\":null,\"profit_token\":\"ETH\",\"Q1\":\"no\",\"Q1_reason\":\"minted token sale\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.273865,\"gas_eth\":0.260330,\"profit_after_gas\":0.013535,\"residual\":\"none\",\"confidence\":5,\"note\":\"Actor minted IBETH from the zero address by depositing ETH, then swapped it through two UniswapV2 pools and withdrew WETH to ETH. Because the received IBETH came from a mint rather than a pool, this is not an arbitrage under the protocol. Net ETH gain before gas is 0.273865, and after the 0.260330 gas fee the position is positive by 0.013535 ETH.\"}",
+ "case_id": "arb106_073",
+ "_time": "2026-10-19T20:03:29+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "actor": "0x00000000032962b51589768828ad878876299e14",
+ "pool": "0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.344833,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract routes WETH -> ACR -> USDC in the front leg and USDC -> ACR -> WETH in the back leg. Both legs use the ACR/USDC pool, where the victim sold ACR for USDC in between, and the actor ends with no residual token. Gross WETH gain is 8.609824 - 7.982854 = 0.626970. Subtracting the 0.282137 ETH call to 0xea67... (likely a miner/builder payment) leaves 0.344833, with front and back gas shown as 0.0 gwei and so zero fee.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0267907,
+ "_session": "594c8239-40c2-44bc-983a-bb568b097f23",
+ "_raw": "{\"actor\": \"0x00000000032962b51589768828ad878876299e14\", \"pool\": \"0xa8ef4df1577be1a1b4e884eb67aed494f39dc36d\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.344833, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract routes WETH -> ACR -> USDC in the front leg and USDC -> ACR -> WETH in the back leg. Both legs use the ACR/USDC pool, where the victim sold ACR for USDC in between, and the actor ends with no residual token. Gross WETH gain is 8.609824 - 7.982854 = 0.626970. Subtracting the 0.282137 ETH call to 0xea67... (likely a miner/builder payment) leaves 0.344833, with front and back gas shown as 0.0 gwei and so zero fee.\"}",
+ "case_id": "rej53_052",
+ "_time": "2026-10-13T22:03:57+0800"
+}

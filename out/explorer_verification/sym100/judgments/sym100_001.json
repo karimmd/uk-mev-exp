@@ -1,0 +1,17 @@
+{
+ "actor": "0xe0407fac1c6548d811d39e76256c5db07e8d24fc",
+ "pool": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.289847,
+ "gas_eth": 0.011402,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The same address (calling the router directly) sold 574.971366 QNT into the QNT/WETH pool for 9.050384 WETH in the front leg. The victim then sold 1500 QNT into that pool, and the actor bought back exactly 574.971366 QNT for 8.760537 WETH in the back leg. That gives +0.289847 WETH before gas and about +0.278445 after the 0.011402 ETH gas, with no QNT left over. The bracket runs short-then-cover rather than buy-then-sell, and the actor must have held the QNT beforehand, which is why confidence is 4 rather than 5.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0235987,
+ "_session": "1904e66f-ef1c-4190-af89-beff5bccb9f2",
+ "_raw": "{\"actor\": \"0xe0407fac1c6548d811d39e76256c5db07e8d24fc\", \"pool\": \"0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.289847, \"gas_eth\": 0.011402, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The same address (calling the router directly) sold 574.971366 QNT into the QNT/WETH pool for 9.050384 WETH in the front leg. The victim then sold 1500 QNT into that pool, and the actor bought back exactly 574.971366 QNT for 8.760537 WETH in the back leg. That gives +0.289847 WETH before gas and about +0.278445 after the 0.011402 ETH gas, with no QNT left over. The bracket runs short-then-cover rather than buy-then-sell, and the actor must have held the QNT beforehand, which is why confidence is 4 rather than 5.\"}",
+ "case_id": "sym100_001",
+ "_time": "2026-10-13T21:22:41+0800"
+}

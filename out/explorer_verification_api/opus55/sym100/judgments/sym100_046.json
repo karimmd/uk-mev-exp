@@ -1,0 +1,31 @@
+{
+ "actor": "0x3f3636f45ee8b3bebd3244a106380319d07711f2",
+ "pool": "0x4d96369002fc5b9687ee924d458a7e5baa5df34e",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.122373,
+ "gas_eth": 0.084144,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Contract 0x3f36 sold 55.8748 MPH for 13.100163 WETH in the front leg, while the victim bought MPH, the opposite direction. The contract then bought the same 55.8748 MPH back for 12.893646 WETH, so it never opened a non-WETH position in the victim's direction, and the profit (+0.206517 WETH gross, +0.122373 after 0.084144 ETH gas) must come from other price moves in the block rather than from the victim. All three legs share one pool, which is why I give only moderate confidence that this is not a bracket.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2896,
+  "output_tokens": 1166,
+  "thinking_tokens": 847
+ },
+ "_request_id": "req_011CgBSJJxFpoS47E7y2z8uK",
+ "_response_id": "msg_011CgBSJKKanPFGbpzfeKppb",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0x3f3636f45ee8b3bebd3244a106380319d07711f2\", \"pool\": \"0x4d96369002fc5b9687ee924d458a7e5baa5df34e\", \"Q1\": \"no\", \"Q2\": \"yes\", \"net_eth\": 0.122373, \"gas_eth\": 0.084144, \"residual\": \"none\", \"confidence\": 3, \"note\": \"Contract 0x3f36 sold 55.8748 MPH for 13.100163 WETH in the front leg, while the victim bought MPH, the opposite direction. The contract then bought the same 55.8748 MPH back for 12.893646 WETH, so it never opened a non-WETH position in the victim's direction, and the profit (+0.206517 WETH gross, +0.122373 after 0.084144 ETH gas) must come from other price moves in the block rather than from the victim. All three legs share one pool, which is why I give only moderate confidence that this is not a bracket.\"}",
+ "case_id": "sym100_046",
+ "_time": "2026-10-19T18:27:47+0800"
+}

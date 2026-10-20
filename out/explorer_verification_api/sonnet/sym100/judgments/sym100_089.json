@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x6f9e023c0881ec3d8f56630a6c4fd137c025419e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.064572,
+ "gas_eth": 0.050902,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 107285.569164 YLDY into the YLDY/WETH pool in front for 0.429162 WETH. The victim then sells 646456 YLDY on the same pool, and the actor buys back exactly 107285.569164 YLDY for 0.364590 WETH in the back leg. This is a mirrored sandwich: gross +0.064572 WETH, minus 0.050902 ETH gas, leaves about +0.01367 ETH with no residual YLDY.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3056,
+  "output_tokens": 896,
+  "thinking_tokens": 609
+ },
+ "_request_id": "req_011CgBSRpqZLnUdf8UguVWqj",
+ "_response_id": "msg_011CgBSRqD8niLiV9CmhyxWE",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\",\"pool\":\"0x6f9e023c0881ec3d8f56630a6c4fd137c025419e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.064572,\"gas_eth\":0.050902,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 107285.569164 YLDY into the YLDY/WETH pool in front for 0.429162 WETH. The victim then sells 646456 YLDY on the same pool, and the actor buys back exactly 107285.569164 YLDY for 0.364590 WETH in the back leg. This is a mirrored sandwich: gross +0.064572 WETH, minus 0.050902 ETH gas, leaves about +0.01367 ETH with no residual YLDY.\"}",
+ "case_id": "sym100_089",
+ "_time": "2026-10-19T18:29:24+0800"
+}

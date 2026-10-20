@@ -1,0 +1,40 @@
+{
+ "actor": "0xb2bbfd73971279a457514325f209eb63a0341ef2",
+ "pools": [
+  "0x05767d9ef41dc40689678ffca0608878fb3de906",
+  "0x2e4784446a0a06df3d1a040b03e1680ee266c35a",
+  "0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9",
+  "0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95"
+ ],
+ "cycle_token": "WETH",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.035074,
+ "gas_eth": 0.02901,
+ "profit_after_gas": 0.006064,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor receives WETH from two UniswapV2 pools and pays WETH to two UniswapV3 pools, with CVX and TOWER routed directly between pools as flash-swap repayments. Net WETH before gas is +0.035074 and remains positive after the stated gas fee.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1841,
+  "output_tokens": 10087,
+  "thinking_tokens": 9809
+ },
+ "_request_id": "18e78e543f9816a61ecf41afa6365936",
+ "_response_id": "bd3b3738-8ad4-4d3b-8a92-06e4ed6b448e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0xb2bbfd73971279a457514325f209eb63a0341ef2\",\"pools\":[\"0x05767d9ef41dc40689678ffca0608878fb3de906\",\"0x2e4784446a0a06df3d1a040b03e1680ee266c35a\",\"0xdbaa04796cb5c05d02b8a41b702d9b67c13c9fa9\",\"0xe3a4f7959f4e4aac08ae3029d3a707ef4ec6da95\"],\"cycle_token\":\"WETH\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.035074,\"gas_eth\":0.02901,\"profit_after_gas\":0.006064,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor receives WETH from two UniswapV2 pools and pays WETH to two UniswapV3 pools, with CVX and TOWER routed directly between pools as flash-swap repayments. Net WETH before gas is +0.035074 and remains positive after the stated gas fee.\"}",
+ "case_id": "arb106_095",
+ "_time": "2026-10-19T20:08:10+0800"
+}

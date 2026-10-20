@@ -1,0 +1,31 @@
+{
+ "actor": "0xc65433d2a598c323e04fd143566b08609af008dc",
+ "pool": "0xd329d43715aa7b13f6d8aab5746fd824e7b643de",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.016366,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xc654 swaps 0.44 WETH for 146.279741 COLLAR on pool 0xd329 in the front leg. The victim then buys COLLAR on the same pool, and 0xc654 sells exactly 146.279741 COLLAR back for 0.458185 WETH, a gain of 0.018185 WETH. Both legs used 0-gwei gas; after the 0.001819 ETH internal payment to 0x99c8 (likely a miner tip), the net is positive. I treated the 0.018185 ETH tx value as an owner-to-contract transfer within one entity; counting the contract alone would raise the net, and the sign stays positive either way.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3274,
+  "output_tokens": 820,
+  "thinking_tokens": 469
+ },
+ "_request_id": "req_011CgBQAZ3PbpRNJyfY5AC8K",
+ "_response_id": "msg_011CgBQAg3a7rKdvkg9KgmUJ",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc65433d2a598c323e04fd143566b08609af008dc\", \"pool\": \"0xd329d43715aa7b13f6d8aab5746fd824e7b643de\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.016366, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xc654 swaps 0.44 WETH for 146.279741 COLLAR on pool 0xd329 in the front leg. The victim then buys COLLAR on the same pool, and 0xc654 sells exactly 146.279741 COLLAR back for 0.458185 WETH, a gain of 0.018185 WETH. Both legs used 0-gwei gas; after the 0.001819 ETH internal payment to 0x99c8 (likely a miner tip), the net is positive. I treated the 0.018185 ETH tx value as an owner-to-contract transfer within one entity; counting the contract alone would raise the net, and the sign stays positive either way.\"}",
+ "case_id": "pack_013",
+ "_time": "2026-10-19T17:59:46+0800"
+}

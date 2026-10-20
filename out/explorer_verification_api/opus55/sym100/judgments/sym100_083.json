@@ -1,0 +1,31 @@
+{
+ "actor": "0xc1dfd16259c2530e57aea8a2cf106db5671616b0",
+ "pool": "0x0612f7b15779ca6ddbe927f92d6c4144fbae1485",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.015663,
+ "gas_eth": 0.02934,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Contract 0xc1df\u2026 sells 2500.901129 REALM for 0.353977 WETH on pool 0x0612\u2026. The victim then sells 75000 REALM on the same pool, and 0xc1df\u2026 buys back exactly 2500.901129 REALM for 0.308974 WETH, a sell-first bracket with no leftover REALM. WETH gain of 0.045003 minus 0.02934 gas leaves +0.015663 ETH.",
+ "_model": "claude-opus-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 3052,
+  "output_tokens": 605,
+  "thinking_tokens": 322
+ },
+ "_request_id": "req_011CgBSY8vQXw8qPomiTPa8A",
+ "_response_id": "msg_011CgBSY9FkTdXc8Tuqjg5fj",
+ "_reader": "opus55",
+ "_raw": "{\"actor\": \"0xc1dfd16259c2530e57aea8a2cf106db5671616b0\", \"pool\": \"0x0612f7b15779ca6ddbe927f92d6c4144fbae1485\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.015663, \"gas_eth\": 0.02934, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Contract 0xc1df\u2026 sells 2500.901129 REALM for 0.353977 WETH on pool 0x0612\u2026. The victim then sells 75000 REALM on the same pool, and 0xc1df\u2026 buys back exactly 2500.901129 REALM for 0.308974 WETH, a sell-first bracket with no leftover REALM. WETH gain of 0.045003 minus 0.02934 gas leaves +0.015663 ETH.\"}",
+ "case_id": "sym100_083",
+ "_time": "2026-10-19T18:30:49+0800"
+}

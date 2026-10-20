@@ -1,0 +1,39 @@
+{
+ "actor": "0x4c5c2dd90634ec51d2a912314ccf8ab7046291c9",
+ "pools": [
+  "0xcb07100455559fd63109778e7674f4d9a2e737a1",
+  "0xb6694aeaaf22abba85c481b67551da9e073714ea",
+  "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
+ ],
+ "cycle_token": "USDC",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.008317,
+ "gas_eth": 0.005713,
+ "profit_after_gas": 0.002604,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Flash-swap style arbitrage via USDC/CW pools with profit converted to WETH/ETH and forwarded to the sender; net ETH to the actor is positive after gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 1910,
+  "output_tokens": 16463,
+  "thinking_tokens": 16241
+ },
+ "_request_id": "13e24cf9ecb7f95e4c8c35c274a73a9d",
+ "_response_id": "d19b51dd-a673-45c4-a4a0-9550c2d21519",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4c5c2dd90634ec51d2a912314ccf8ab7046291c9\",\"pools\":[\"0xcb07100455559fd63109778e7674f4d9a2e737a1\",\"0xb6694aeaaf22abba85c481b67551da9e073714ea\",\"0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640\"],\"cycle_token\":\"USDC\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.008317,\"gas_eth\":0.005713,\"profit_after_gas\":0.002604,\"residual\":\"none\",\"confidence\":4,\"note\":\"Flash-swap style arbitrage via USDC/CW pools with profit converted to WETH/ETH and forwarded to the sender; net ETH to the actor is positive after gas.\"}",
+ "case_id": "arb106_106",
+ "_time": "2026-10-19T20:11:15+0800"
+}

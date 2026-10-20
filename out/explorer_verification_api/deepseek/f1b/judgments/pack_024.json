@@ -1,0 +1,31 @@
+{
+ "actor": "0x1b2ac99dab967744395c6e425a11d51c4af51b81",
+ "pool": "0x7f1da3697236d4a5e0efd2a99de5d9c076937856",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.032621,
+ "gas_eth": 0.022257,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front sells UNN for WETH and back buys UNN with WETH, so the actor closes rather than opens the non-WETH position in front, even though it profits around the victim. Net WETH gain is 0.054878 minus 0.022257 gas = 0.032621 ETH.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2181,
+  "output_tokens": 3016,
+  "thinking_tokens": 2850
+ },
+ "_request_id": "0182377fceb0ea5af57535a7fd7d0851",
+ "_response_id": "d3c1c036-c69a-4dd3-b97e-ccf009e34c98",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x1b2ac99dab967744395c6e425a11d51c4af51b81\",\"pool\":\"0x7f1da3697236d4a5e0efd2a99de5d9c076937856\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.032621,\"gas_eth\":0.022257,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front sells UNN for WETH and back buys UNN with WETH, so the actor closes rather than opens the non-WETH position in front, even though it profits around the victim. Net WETH gain is 0.054878 minus 0.022257 gas = 0.032621 ETH.\"}",
+ "case_id": "pack_024",
+ "_time": "2026-10-19T18:05:04+0800"
+}

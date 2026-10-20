@@ -1,0 +1,31 @@
+{
+ "actor": "0xb8db34f834e9df42f2002ceb7b829dad89d08e14",
+ "pool": "0xcb4f983e705caeb7217c5c3785001cb138115f0b",
+ "Q1": "no",
+ "Q2": "yes",
+ "net_eth": 0.031537,
+ "gas_eth": 0.011175,
+ "residual": "none",
+ "confidence": 3,
+ "note": "Each leg of the same contract is a closed triangular WETH->USDT->YFV->WETH loop (front) or WETH->YFV->USDT->WETH loop (back), so it holds no non-WETH position between legs. The front sells YFV into the YFV/WETH pool and the back buys YFV, so the victim's YFV buy is not bracketed by an open-and-close. The pair looks like two separate arbitrages. Net WETH is +0.009456 (front) +0.022081 (back) = +0.031537, and after 0.011175 gas about +0.0204 ETH.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4773,
+  "output_tokens": 1118,
+  "thinking_tokens": 804
+ },
+ "_request_id": "req_011CgBS7dhqDHhPv82H2WRJy",
+ "_response_id": "msg_011CgBS7e4ACrhh5Gm2sBefo",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0xb8db34f834e9df42f2002ceb7b829dad89d08e14\",\"pool\":\"0xcb4f983e705caeb7217c5c3785001cb138115f0b\",\"Q1\":\"no\",\"Q2\":\"yes\",\"net_eth\":0.031537,\"gas_eth\":0.011175,\"residual\":\"none\",\"confidence\":3,\"note\":\"Each leg of the same contract is a closed triangular WETH->USDT->YFV->WETH loop (front) or WETH->YFV->USDT->WETH loop (back), so it holds no non-WETH position between legs. The front sells YFV into the YFV/WETH pool and the back buys YFV, so the victim's YFV buy is not bracketed by an open-and-close. The pair looks like two separate arbitrages. Net WETH is +0.009456 (front) +0.022081 (back) = +0.031537, and after 0.011175 gas about +0.0204 ETH.\"}",
+ "case_id": "sym100_039",
+ "_time": "2026-10-19T18:25:19+0800"
+}

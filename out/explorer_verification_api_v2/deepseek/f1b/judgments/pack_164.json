@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x724d5c9c618a2152e99a45649a3b8cf198321f46",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.046826,
+ "gas_eth": 0.045348,
+ "profit_after_gas": 0.001478,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Front and back both trade on Uniswap V2 pair 0x724d..., with the victim between them; the actor sells REVV there in front and buys REVV back. WETH transfers net +0.046826 before gas, and fees of 0.045348 leave a small positive profit.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2692,
+  "output_tokens": 9332,
+  "thinking_tokens": 9158
+ },
+ "_request_id": "28d7e8955cf8a50828feea4d7a1baaff",
+ "_response_id": "2682709f-3868-44f8-b0b2-19be97ebc1d6",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x724d5c9c618a2152e99a45649a3b8cf198321f46\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.046826,\"gas_eth\":0.045348,\"profit_after_gas\":0.001478,\"residual\":\"none\",\"confidence\":4,\"note\":\"Front and back both trade on Uniswap V2 pair 0x724d..., with the victim between them; the actor sells REVV there in front and buys REVV back. WETH transfers net +0.046826 before gas, and fees of 0.045348 leave a small positive profit.\"}",
+ "case_id": "pack_164",
+ "_time": "2026-10-19T19:24:12+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0xac350eefccdae050614070e5040e17759cebb3e9",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are both ETH-to-PRIA buys on the same Uniswap V2 pool, but the PRIA recipients are different addresses (0xf1f... and 0x1a87...), so no single economic actor opens and closes a position. The back leg does not sell PRIA back to the pool.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 3356,
+  "output_tokens": 6843,
+  "thinking_tokens": 6708
+ },
+ "_request_id": "c971b28a491d3b8991676bda46b549a4",
+ "_response_id": "d96b6b4d-a2a7-4280-9296-9e52bbfa16a1",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":null,\"pool\":\"0xac350eefccdae050614070e5040e17759cebb3e9\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":null,\"gas_eth\":null,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are both ETH-to-PRIA buys on the same Uniswap V2 pool, but the PRIA recipients are different addresses (0xf1f... and 0x1a87...), so no single economic actor opens and closes a position. The back leg does not sell PRIA back to the pool.\"}",
+ "case_id": "pack_138",
+ "_time": "2026-10-19T18:27:30+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0xf6da21e95d74767009accb145b96897ac3630bad",
+ "pool": "0xaf56ade10a2fec340e09e19a11f32beaf1a3a6a1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.29633,
+ "gas_eth": 0.000194,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same sender holds the ARCN position after the front leg and sends exactly that amount back to the same UniswapV2 pool in the back leg. The victim trades on that same pool between the two legs. Net WETH gain is 2.207333 - 1.910809 = 0.296524, less 0.000194 ETH gas.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2294,
+  "output_tokens": 1685,
+  "thinking_tokens": 1495
+ },
+ "_request_id": "55a5bb0880bfe689c0384ff18fc320c4",
+ "_response_id": "f163f955-970f-4df2-b590-f6c3cfdd71db",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0xf6da21e95d74767009accb145b96897ac3630bad\", \"pool\": \"0xaf56ade10a2fec340e09e19a11f32beaf1a3a6a1\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.29633, \"gas_eth\": 0.000194, \"residual\": \"none\", \"confidence\": 5, \"note\": \"The same sender holds the ARCN position after the front leg and sends exactly that amount back to the same UniswapV2 pool in the back leg. The victim trades on that same pool between the two legs. Net WETH gain is 2.207333 - 1.910809 = 0.296524, less 0.000194 ETH gas.\"}",
+ "case_id": "pack_058",
+ "_time": "2026-10-19T18:11:58+0800"
+}

@@ -1,0 +1,38 @@
+{
+ "actor": "0x00000000000e1d0dabf7b7c7b68866fc940d0db8",
+ "pools": [
+  "0xbd1f921786e12a80f2184e4d6a5cacb25dc673c9",
+  "0x5ba61c0a8c4dcccc200cd0ccc40a5725a426d002",
+  "0xecfbe9b182f6477a93065c1c11271232147838e5"
+ ],
+ "cycle_token": "INV",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.008108,
+ "gas_eth": 0.007591,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor swaps on three pools: a V3 DOLA/INV pool, a V2 DOLA/INV pool, and a V2 DOLA/WETH pool. INV (5.962229 in and out) and DOLA (1943.433124 in, 1922.1 + 21.333124 out) both net to zero. The only surplus is 0.008108 WETH, which is unwrapped and forwarded to the sender. After the 0.007591 ETH gas fee the sender nets about +0.000517 ETH. The actor's own balance ends at zero because it passes the profit to the sender.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2586,
+  "output_tokens": 1058,
+  "thinking_tokens": 646
+ },
+ "_request_id": "req_011CgBT41NaHTYrsy6CSBn8N",
+ "_response_id": "msg_011CgBT41iQ8UefMz3R9wL71",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000e1d0dabf7b7c7b68866fc940d0db8\",\"pools\":[\"0xbd1f921786e12a80f2184e4d6a5cacb25dc673c9\",\"0x5ba61c0a8c4dcccc200cd0ccc40a5725a426d002\",\"0xecfbe9b182f6477a93065c1c11271232147838e5\"],\"cycle_token\":\"INV\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.008108,\"gas_eth\":0.007591,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor swaps on three pools: a V3 DOLA/INV pool, a V2 DOLA/INV pool, and a V2 DOLA/WETH pool. INV (5.962229 in and out) and DOLA (1943.433124 in, 1922.1 + 21.333124 out) both net to zero. The only surplus is 0.008108 WETH, which is unwrapped and forwarded to the sender. After the 0.007591 ETH gas fee the sender nets about +0.000517 ETH. The actor's own balance ends at zero because it passes the profit to the sender.\"}",
+ "case_id": "arb106_046",
+ "_time": "2026-10-19T18:37:35+0800"
+}

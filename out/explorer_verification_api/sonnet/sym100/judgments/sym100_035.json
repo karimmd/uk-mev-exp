@@ -1,0 +1,31 @@
+{
+ "actor": "0x00000000000003441d59dde9a90bffb1cd3fabf1",
+ "pool": "0xf4d4e16c9a93d88990e0b98820c363369ca91c01",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.112105,
+ "gas_eth": 0.01046,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract sells 780.532419 CC to the CC/WETH pool for 3.322638 WETH in the front leg. The victim sells CC on the same pool, and the actor buys back exactly 780.532419 CC for 3.210533 WETH in the back leg. That nets +0.112105 WETH, or about +0.1016 ETH after 0.01046 ETH gas, with no CC left over. The bracket runs in the sell-first direction, which is why I did not answer with a lower confidence.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2995,
+  "output_tokens": 765,
+  "thinking_tokens": 478
+ },
+ "_request_id": "req_011CgBS6Qy5E1rVcC4ervs3L",
+ "_response_id": "msg_011CgBS6RJvKw3CKFcL4yR7X",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000003441d59dde9a90bffb1cd3fabf1\",\"pool\":\"0xf4d4e16c9a93d88990e0b98820c363369ca91c01\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":0.112105,\"gas_eth\":0.01046,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor contract sells 780.532419 CC to the CC/WETH pool for 3.322638 WETH in the front leg. The victim sells CC on the same pool, and the actor buys back exactly 780.532419 CC for 3.210533 WETH in the back leg. That nets +0.112105 WETH, or about +0.1016 ETH after 0.01046 ETH gas, with no CC left over. The bracket runs in the sell-first direction, which is why I did not answer with a lower confidence.\"}",
+ "case_id": "sym100_035",
+ "_time": "2026-10-19T18:25:00+0800"
+}

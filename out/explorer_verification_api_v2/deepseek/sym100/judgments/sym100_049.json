@@ -1,0 +1,32 @@
+{
+ "actor": "0x1315c6c26123383a2eb369a53fb72c4b9f227eec",
+ "pool": "0x328dfd0139e26cb0fef7b0742b49b0fe4325f821",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.02078,
+ "gas_eth": 0.019522,
+ "profit_after_gas": 0.001258,
+ "residual": "none",
+ "confidence": 4,
+ "note": "Actor 0x1315 executes a cross-pool spread: front sells INV on shared pool 0x328d via pool 0x73e, victim sells on 0x328d, back buys INV on 0x328d and sells via 0x73e. Net ETH/WETH before gas is +0.02078, gas 0.019522, profit +0.001258; no residual INV.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2884,
+  "output_tokens": 15761,
+  "thinking_tokens": 15537
+ },
+ "_request_id": "98fe80827b699cc242bff49090e186ff",
+ "_response_id": "616961ab-5a76-46fe-911e-8995e731228e",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\": \"0x1315c6c26123383a2eb369a53fb72c4b9f227eec\", \"pool\": \"0x328dfd0139e26cb0fef7b0742b49b0fe4325f821\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth_before_gas\": 0.02078, \"gas_eth\": 0.019522, \"profit_after_gas\": 0.001258, \"residual\": \"none\", \"confidence\": 4, \"note\": \"Actor 0x1315 executes a cross-pool spread: front sells INV on shared pool 0x328d via pool 0x73e, victim sells on 0x328d, back buys INV on 0x328d and sells via 0x73e. Net ETH/WETH before gas is +0.02078, gas 0.019522, profit +0.001258; no residual INV.\"}",
+ "case_id": "sym100_049",
+ "_time": "2026-10-19T19:34:05+0800"
+}

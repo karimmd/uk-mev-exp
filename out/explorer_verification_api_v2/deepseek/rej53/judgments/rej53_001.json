@@ -1,0 +1,32 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.055281,
+ "gas_eth": 0.009554,
+ "profit_after_gas": 0.045727,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back are both sent by the same EOA to the actor contract, which sells ALBT into the ALBT/USDT pool in front and buys it back in back; the victim trades the same pool. WETH net is +0.055281, the back value and internal transfer cancel, and gas totals 0.009554, leaving +0.045727 after gas. No non-WETH residual remains.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2619,
+  "output_tokens": 9661,
+  "thinking_tokens": 9464
+ },
+ "_request_id": "9f0d5056d5808e922eab9a9af61b9020",
+ "_response_id": "669decc9-03ae-4cae-a1c2-2225ad19a601",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x000000000035b5e5ad9019092c665357240f594e\",\"pool\":\"0x1cd926f3e12f7b6c2833fbe7277ac53d529a794e\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.055281,\"gas_eth\":0.009554,\"profit_after_gas\":0.045727,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back are both sent by the same EOA to the actor contract, which sells ALBT into the ALBT/USDT pool in front and buys it back in back; the victim trades the same pool. WETH net is +0.055281, the back value and internal transfer cancel, and gas totals 0.009554, leaving +0.045727 after gas. No non-WETH residual remains.\"}",
+ "case_id": "rej53_001",
+ "_time": "2026-10-19T19:40:35+0800"
+}

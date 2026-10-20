@@ -1,0 +1,38 @@
+{
+ "actor": "0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382",
+ "pools": [
+  "0x94b4ba66da4faa4fe09e17c0a8810d2afee70163",
+  "0x61b62c5d56ccd158a38367ef2f539668a06356ab",
+  "0x11b815efb8f581194ae79006d24e0d814b7697f6"
+ ],
+ "cycle_token": "USDT",
+ "profit_token": "ETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.001937,
+ "gas_eth": 0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor sends 7222.1 USDT to the V3 pool 0x94b4, which sends FNK to the V2 pool 0x61b6, and that pool returns 7262.969627 USDT. It then pays 40.869627 USDT to the V3 pool 0x11b8 for 0.019374 WETH, so USDT nets to zero. The WETH is unwrapped to ETH, and 0.017437 ETH goes to 0xe9b5, which looks like a builder payment. That leaves about +0.001937 ETH, and the explorer shows a gas fee of 0.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2446,
+  "output_tokens": 986,
+  "thinking_tokens": 577
+ },
+ "_request_id": "req_011CgBTCpLYguMtFfuVG7Uwn",
+ "_response_id": "msg_011CgBTCpj7hp9m7g3A77nqN",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x18c09bd6f4a5d72e55f332399cc2f6d1c02a7382\",\"pools\":[\"0x94b4ba66da4faa4fe09e17c0a8810d2afee70163\",\"0x61b62c5d56ccd158a38367ef2f539668a06356ab\",\"0x11b815efb8f581194ae79006d24e0d814b7697f6\"],\"cycle_token\":\"USDT\",\"profit_token\":\"ETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.001937,\"gas_eth\":0,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor sends 7222.1 USDT to the V3 pool 0x94b4, which sends FNK to the V2 pool 0x61b6, and that pool returns 7262.969627 USDT. It then pays 40.869627 USDT to the V3 pool 0x11b8 for 0.019374 WETH, so USDT nets to zero. The WETH is unwrapped to ETH, and 0.017437 ETH goes to 0xe9b5, which looks like a builder payment. That leaves about +0.001937 ETH, and the explorer shows a gas fee of 0.\"}",
+ "case_id": "arb106_071",
+ "_time": "2026-10-19T18:39:34+0800"
+}

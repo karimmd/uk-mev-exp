@@ -1,0 +1,17 @@
+{
+ "actor": "0x000000000035b5e5ad9019092c665357240f594e",
+ "pool": "0x05767d9ef41dc40689678ffca0608878fb3de906",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 0.145437,
+ "gas_eth": 0.132569,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor contract buys 8217.906837 CVX for 22.526624 WETH in the front leg. The victim then buys CVX on the same pool, and the actor sells exactly the same CVX amount back for 22.672061 WETH. Net WETH is +0.145437, and after 0.132569 ETH of front and back gas the result is about +0.012868 ETH. The back leg's very high gas price (1544.5 gwei) nearly erases the profit.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0233772,
+ "_session": "e72b5ac8-850e-4c5a-84e1-0f7418fc2065",
+ "_raw": "{\"actor\": \"0x000000000035b5e5ad9019092c665357240f594e\", \"pool\": \"0x05767d9ef41dc40689678ffca0608878fb3de906\", \"Q1\": \"yes\", \"Q2\": \"yes\", \"net_eth\": 0.145437, \"gas_eth\": 0.132569, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor contract buys 8217.906837 CVX for 22.526624 WETH in the front leg. The victim then buys CVX on the same pool, and the actor sells exactly the same CVX amount back for 22.672061 WETH. Net WETH is +0.145437, and after 0.132569 ETH of front and back gas the result is about +0.012868 ETH. The back leg's very high gas price (1544.5 gwei) nearly erases the profit.\"}",
+ "case_id": "pack_043",
+ "_time": "2026-10-13T20:12:29+0800"
+}

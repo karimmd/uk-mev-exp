@@ -1,0 +1,31 @@
+{
+ "actor": null,
+ "pool": "0x39b71cb975280df8f1390c95c4dc861d2c2e7a2b",
+ "Q1": "no",
+ "Q2": "no",
+ "net_eth": null,
+ "gas_eth": null,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The front leg is sent by 0x75b0... and the back leg by 0x2ad4.... Each buys SIN with ETH through the Uniswap router, and neither sells SIN back. The two senders are different actors, and no position is opened and then closed. All three transactions are same-direction buys on the same DAI/SIN pool, so this is not a sandwich bracket and there is no meaningful actor PnL.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 4823,
+  "output_tokens": 229,
+  "thinking_tokens": 0
+ },
+ "_request_id": "req_011CgBRFdHP8yCC7CbwoyEco",
+ "_response_id": "msg_011CgBRFdexPgmwkPVBihEZv",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\": null, \"pool\": \"0x39b71cb975280df8f1390c95c4dc861d2c2e7a2b\", \"Q1\": \"no\", \"Q2\": \"no\", \"net_eth\": null, \"gas_eth\": null, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The front leg is sent by 0x75b0... and the back leg by 0x2ad4.... Each buys SIN with ETH through the Uniswap router, and neither sells SIN back. The two senders are different actors, and no position is opened and then closed. All three transactions are same-direction buys on the same DAI/SIN pool, so this is not a sandwich bracket and there is no meaningful actor PnL.\"}",
+ "case_id": "pack_108",
+ "_time": "2026-10-19T18:13:54+0800"
+}

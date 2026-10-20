@@ -1,0 +1,25 @@
+{
+ "actor": "0x0000000000a1c7212a1c129512d80eb30d14dc08",
+ "pools": [
+  "0x86e69d1ae728c9cd229f07bbf34e01bf27258354",
+  "0x2efec2097beede290b2eed63e2faf5ecbbc528fc",
+  "0xbda1200eed6aa819c781f3b66d1312a3b703eb2e",
+  "0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad"
+ ],
+ "cycle_token": "TRU and CEEK (each nets to zero)",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.00394,
+ "gas_eth": 0.0,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor runs two round trips from WETH: TRU between two V3 pools and CEEK between a V3 and a V2 pool. TRU and CEEK each net to zero, and WETH nets +0.015761 (2.749814 in, 2.734053 out). An internal 0.011821 ETH payment to 0x99c8... leaves +0.00394 ETH. The explorer shows gas price 0.0 gwei and a zero fee, so a small rounded gas cost is possible.",
+ "_model": "claude-sonnet-5-5",
+ "_cost_usd": 0.0241807,
+ "_session": "d100f35e-2fc0-404c-98cd-bb4b8f790a72",
+ "_raw": "{\"actor\": \"0x0000000000a1c7212a1c129512d80eb30d14dc08\", \"pools\": [\"0x86e69d1ae728c9cd229f07bbf34e01bf27258354\", \"0x2efec2097beede290b2eed63e2faf5ecbbc528fc\", \"0xbda1200eed6aa819c781f3b66d1312a3b703eb2e\", \"0x782a3e2ac6af3f592b2e8e1e37f54f99bcf202ad\"], \"cycle_token\": \"TRU and CEEK (each nets to zero)\", \"profit_token\": \"WETH\", \"Q1\": \"yes\", \"Q1_reason\": \"arbitrage\", \"Q2\": \"yes\", \"net_eth\": 0.00394, \"gas_eth\": 0.0, \"residual\": \"none\", \"confidence\": 4, \"note\": \"The actor runs two round trips from WETH: TRU between two V3 pools and CEEK between a V3 and a V2 pool. TRU and CEEK each net to zero, and WETH nets +0.015761 (2.749814 in, 2.734053 out). An internal 0.011821 ETH payment to 0x99c8... leaves +0.00394 ETH. The explorer shows gas price 0.0 gwei and a zero fee, so a small rounded gas cost is possible.\"}",
+ "case_id": "arb106_005",
+ "_time": "2026-10-13T22:11:09+0800"
+}

@@ -1,0 +1,31 @@
+{
+ "actor": "0x4edc5e546633f22357841b2d23a100a461160e80",
+ "pool": "0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7",
+ "Q1": "no",
+ "Q2": "cannot tell",
+ "net_eth": -2.0,
+ "gas_eth": 0.048646,
+ "residual": "23.982505 XFYI",
+ "confidence": 5,
+ "note": "All three legs are buys of XFYI on the same Uniswap V2 pool, and the victim is also from the same address; the back leg receives XFYI instead of closing a position. The front and back legs cost 2 ETH plus 0.048646 ETH gas and leave 23.982505 XFYI, so the overall sign depends on valuing that residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2724,
+  "output_tokens": 5142,
+  "thinking_tokens": 4955
+ },
+ "_request_id": "74608365c3d936b007bbd8824f925c5a",
+ "_response_id": "e2292c3a-a140-4b19-85d7-3ec099d1f5bc",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x4edc5e546633f22357841b2d23a100a461160e80\",\"pool\":\"0x44dbfee48fbaa2614041f5e2a9b60117af6bc6c7\",\"Q1\":\"no\",\"Q2\":\"cannot tell\",\"net_eth\":-2.0,\"gas_eth\":0.048646,\"residual\":\"23.982505 XFYI\",\"confidence\":5,\"note\":\"All three legs are buys of XFYI on the same Uniswap V2 pool, and the victim is also from the same address; the back leg receives XFYI instead of closing a position. The front and back legs cost 2 ETH plus 0.048646 ETH gas and leave 23.982505 XFYI, so the overall sign depends on valuing that residual.\"}",
+ "case_id": "pack_190",
+ "_time": "2026-10-19T18:35:51+0800"
+}

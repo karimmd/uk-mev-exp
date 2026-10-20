@@ -1,0 +1,32 @@
+{
+ "actor": "0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de",
+ "pool": "0xa3d588a914c7534356a006ae3c1d8ae19c9694e1",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth_before_gas": 0.025599,
+ "gas_eth": 0.00979407,
+ "profit_after_gas": 0.01580493,
+ "residual": "none",
+ "confidence": 5,
+ "note": "The same contract sells PDEX for WETH in the front leg and buys the same PDEX back in the back leg on the UniswapV2 pool the victim also trades, with the victim in between. It nets +0.025599 WETH before gas and remains profitable after front/back gas fees, with no net PDEX residual.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 32000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2179,
+  "output_tokens": 3214,
+  "thinking_tokens": 3027
+ },
+ "_request_id": "7f29014e5871105122761fa52ee86af7",
+ "_response_id": "7269503d-6523-4355-99f1-a9d99e15d208",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x3dad8cf200799f82fd8eb68f608220d8f3ebf8de\",\"pool\":\"0xa3d588a914c7534356a006ae3c1d8ae19c9694e1\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth_before_gas\":0.025599,\"gas_eth\":0.00979407,\"profit_after_gas\":0.01580493,\"residual\":\"none\",\"confidence\":5,\"note\":\"The same contract sells PDEX for WETH in the front leg and buys the same PDEX back in the back leg on the UniswapV2 pool the victim also trades, with the victim in between. It nets +0.025599 WETH before gas and remains profitable after front/back gas fees, with no net PDEX residual.\"}",
+ "case_id": "sym100_057",
+ "_time": "2026-10-19T19:34:20+0800"
+}

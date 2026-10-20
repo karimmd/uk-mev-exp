@@ -1,0 +1,38 @@
+{
+ "actor": "0x00000000000123685885532dcb685c442dc83126",
+ "pools": [
+  "0xb8fce31f3dd2f0de6823575f1d35da4a306a5777",
+  "0xd4981ed8892cacc135192385de05b19684231e74",
+  "0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79"
+ ],
+ "cycle_token": "SST",
+ "profit_token": "WETH",
+ "Q1": "yes",
+ "Q1_reason": "arbitrage",
+ "Q2": "yes",
+ "net_eth": 0.021243,
+ "gas_eth": 0.008805,
+ "residual": "none",
+ "confidence": 4,
+ "note": "The actor swaps USDT for SST on a V3 pool, then sells SST into a V2 USDT pool and a V2 WETH pool. SST and USDT both net to zero, and the only surplus is 0.080927 WETH, unwrapped to ETH. Of that, 0.059684 ETH goes to 0xe206\u2026 (probably a miner tip) and 0.021243 ETH goes to the sender, who nets about +0.012438 ETH after the 0.008805 ETH gas fee.",
+ "_model": "claude-sonnet-5-5",
+ "_settings": {
+  "effort": "high",
+  "thinking": "adaptive (default)",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "Anthropic Messages API"
+ },
+ "_usage": {
+  "input_tokens": 2558,
+  "output_tokens": 1097,
+  "thinking_tokens": 725
+ },
+ "_request_id": "req_011CgBT1fQiHTzt4sKZfdymC",
+ "_response_id": "msg_011CgBT1fuym98TE2D8K5iRQ",
+ "_reader": "sonnet",
+ "_raw": "{\"actor\":\"0x00000000000123685885532dcb685c442dc83126\",\"pools\":[\"0xb8fce31f3dd2f0de6823575f1d35da4a306a5777\",\"0xd4981ed8892cacc135192385de05b19684231e74\",\"0xdfa70d5cc8844fc2d7a0de4fde13865db746ac79\"],\"cycle_token\":\"SST\",\"profit_token\":\"WETH\",\"Q1\":\"yes\",\"Q1_reason\":\"arbitrage\",\"Q2\":\"yes\",\"net_eth\":0.021243,\"gas_eth\":0.008805,\"residual\":\"none\",\"confidence\":4,\"note\":\"The actor swaps USDT for SST on a V3 pool, then sells SST into a V2 USDT pool and a V2 WETH pool. SST and USDT both net to zero, and the only surplus is 0.080927 WETH, unwrapped to ETH. Of that, 0.059684 ETH goes to 0xe206\u2026 (probably a miner tip) and 0.021243 ETH goes to the sender, who nets about +0.012438 ETH after the 0.008805 ETH gas fee.\"}",
+ "case_id": "arb106_039",
+ "_time": "2026-10-19T18:37:04+0800"
+}

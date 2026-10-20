@@ -1,0 +1,31 @@
+{
+ "actor": "0x0000000071e801062eb0544403f66176bba42dc0",
+ "pool": "0x4a39d635581dd0fb39fe0e211c4b03590e44aa35",
+ "Q1": "yes",
+ "Q2": "yes",
+ "net_eth": 1.505188,
+ "gas_eth": 0.03512,
+ "residual": "none",
+ "confidence": 5,
+ "note": "Front and back both route through the same contract 0x0000000071e801062eb0544403f66176bba42dc0, which buys 214.508315 YUI for 38.055664 WETH and later sells the same YUI for 39.595972 WETH on the victim's shared UniswapV2 YUI/WETH pair. Gross WETH gain is 1.540308; subtracting 0.03512 gas leaves +1.505188 ETH equivalent, with no residual YUI.",
+ "_model": "deepseek-flash",
+ "_settings": {
+  "reasoning_effort": "high",
+  "max_tokens": 16000,
+  "system_prompt": null,
+  "tools": null,
+  "interface": "DeepSeek chat completions API"
+ },
+ "_usage": {
+  "input_tokens": 2433,
+  "output_tokens": 5659,
+  "thinking_tokens": 5454
+ },
+ "_request_id": "c1f02a68f2cdd8fb31a68e4dfb4d4148",
+ "_response_id": "37e49414-c5b2-4a1d-9e35-e4a4d8876b1f",
+ "_system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+ "_reader": "deepseek",
+ "_raw": "{\"actor\":\"0x0000000071e801062eb0544403f66176bba42dc0\",\"pool\":\"0x4a39d635581dd0fb39fe0e211c4b03590e44aa35\",\"Q1\":\"yes\",\"Q2\":\"yes\",\"net_eth\":1.505188,\"gas_eth\":0.03512,\"residual\":\"none\",\"confidence\":5,\"note\":\"Front and back both route through the same contract 0x0000000071e801062eb0544403f66176bba42dc0, which buys 214.508315 YUI for 38.055664 WETH and later sells the same YUI for 39.595972 WETH on the victim's shared UniswapV2 YUI/WETH pair. Gross WETH gain is 1.540308; subtracting 0.03512 gas leaves +1.505188 ETH equivalent, with no residual YUI.\"}",
+ "case_id": "pack_041",
+ "_time": "2026-10-19T18:09:50+0800"
+}
